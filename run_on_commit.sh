@@ -23,7 +23,7 @@ while [ 1 ]; do
 	git commit -m 'autorun'
 	git push
     fi
-    sleep 60
+    sleep 10
 done
 }
 
