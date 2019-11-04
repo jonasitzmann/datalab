@@ -83,4 +83,5 @@ def main():
 
 
 if __name__ == '__main__':
+    os.system('export set PATH=$PATH:~/datalab')
     main()
