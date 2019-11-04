@@ -40,6 +40,9 @@ def help(update, context):
 
 def echo(update, context):
     if update.message.text == 'run':
+        os.system('bot pulling')
+        os.system('git pull')
+        os.system('bot "executing run.py"')
         os.system('python run.py')
     """Echo the user message."""
     update.message.reply_text(update.message.text)
