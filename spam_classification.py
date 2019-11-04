@@ -95,7 +95,6 @@ def big_run():
                 'feature_selection__k': [1000, 2000, 4000, 8000],
                 'classifier__hidden_layer_sizes': [(20, 20, 20), (10, 40, 10), (5, 10, 5), (20, 30, 30, 20)]
             }
-            hyperparams = {'feature_selection__k': [1000]}
             gs_classifier = GridSearchCV(
                 pipeline, hyperparams, n_jobs=-1, verbose=args.verbose, cv=2, scoring='balanced_accuracy')
             xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
