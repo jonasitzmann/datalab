@@ -63,24 +63,25 @@ CACHE_DIR = 'cache'
 
 def get_bow_pipeline():
     dataset = load_files('training', shuffle=True, encoding='utf-8', decode_error='ignore')
-    xs, ys = dataset.data[:1000], dataset.target[:1000]
+    xs, ys = dataset.data, dataset.target
     feature_extractor = FeatureUnion([
-        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 4))),
         #  ('bag_of_concepts', BagOfConceptVectorizer())  # todo: implement
         ('other_features', HandCraftedFeatureExtractor())
     ])
     pipeline = Pipeline([
         ('feature_extraction', feature_extractor),
-        ('feature_selection', SelectKBest(score_func=chi2, k=2000)),
+        ('feature_selection', SelectKBest(score_func=chi2, k=1000)),
         ('sparse_to_dense', DenseTransformer()),
-        #('pca', PCA(n_components=100)),
+        #  ('pca', PCA(n_components=100)),
         ('normalization', StandardScaler()),
         # ('classifier', SVC())
-        ('classifier', MLPClassifier(hidden_layer_sizes=(10, 30, 10), max_iter=500, tol=1e-8, verbose=args.verbose))
+        ('classifier', MLPClassifier(max_iter=1000, hidden_layer_sizes=(20, 20, 10), tol=1e-6, verbose=False))
     ], memory=None, verbose=args.verbose)
     hyperparams = {
-        'feature_selection__k': [100, 1000, 2000, 5000],
-        'classifier__hidden_layer_sizes': [(10, 30, 10), (20, 60, 20)]
+        'feature_selection__k': [1000],
+        'classifier__hidden_layer_sizes': [(20, 10, 10), (20, 40, 10)],
+        'feature_extraction__bag_of_words__ngram_range': [(1, 1), (1, 5)]
     }
     return xs, ys, pipeline, hyperparams
 
@@ -112,12 +113,11 @@ def get_lstm_pipeline():
 
 
 def evaluate_pipeline(pipeline, xs, ys):
-    #try:
-        accuracies = cross_val_score(pipeline, xs, ys, verbose=args.verbose, n_jobs=-1)
+    try:
+        accuracies = cross_val_score(pipeline, xs, ys, verbose=args.verbose, n_jobs=7, scoring='balanced_accuracy', cv=2)
         log('cross validation accuracies: {}'.format(accuracies))
-    #except Exception as ex:
-        pass
-        #log('Error:\n{}'.format(str(ex)))
+    except Exception as ex:
+        log('Error:\n{}'.format(str(ex)))
 
 
 
@@ -126,12 +126,10 @@ def evaluate_pipeline(pipeline, xs, ys):
 if __name__ == '__main__':
     #xs, ys, pipeline = get_lstm_pipeline()
     xs, ys, pipeline, params = get_bow_pipeline()
-    #evaluate_pipeline(pipeline, xs, ys)
-    gs_classifier = GridSearchCV(pipeline, params)
+    evaluate_pipeline(pipeline, xs, ys)
+    gs_classifier = GridSearchCV(pipeline, params, n_jobs=7, verbose=args.verbose, scoring='balanced_accuracy')
     xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
-    gs_classifier.fit(xs_train, ys_train)
-    print('best parameters: {}'.format(gs_classifier.best_params_))
-    log(gs_classifier.score(xs_test, ys_test))
+    evaluate_pipeline(gs_classifier, xs, ys)
 
 
 
