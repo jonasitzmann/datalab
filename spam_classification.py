@@ -87,6 +87,10 @@ def get_bow_pipeline():
 
 
 def big_run():
+    global args
+    args.verbose = True
+    args.telegram=True
+    log('running big run')
     with open('autorun_result.txt', 'w') as f:
         try:
             xs, ys, pipeline, _ = get_bow_pipeline()
