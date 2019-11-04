@@ -39,6 +39,8 @@ def help(update, context):
 
 
 def echo(update, context):
+    if update.message.text == 'run':
+        os.system('python run.py')
     """Echo the user message."""
     update.message.reply_text(update.message.text)
 
@@ -46,9 +48,6 @@ def echo(update, context):
 def error(update, context):
     """Log Errors caused by Updates."""
     logger.warning('Update "%s" caused error "%s"', update, context.error)
-
-def run(update, context):
-    os.system('python run.py')
 
 
 def main():
@@ -65,7 +64,6 @@ def main():
     # on different commands - answer in Telegram
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
-    dp.add_handler(CommandHandler('/run', run))
 
     # on noncommand i.e message - echo the message on Telegram
     dp.add_handler(MessageHandler(Filters.text, echo))
