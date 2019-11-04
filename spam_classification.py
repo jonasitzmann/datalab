@@ -127,9 +127,12 @@ def evaluate_pipeline(pipeline, xs, ys, short=False):
             log('Error:\n{}'.format(str(ex)))
 
 
-if __name__ == '__main__':
+def main():
     #xs, ys, pipeline = get_lstm_pipeline()
     xs, ys, pipeline, params = get_bow_pipeline()
     gs_classifier = GridSearchCV(
         pipeline, params, n_jobs=7, verbose=args.verbose, cv=2, scoring='balanced_accuracy')
     evaluate_pipeline(gs_classifier, xs, ys, short=True)
+
+if __name__ == '__main__':
+    main()
