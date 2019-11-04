@@ -99,13 +99,13 @@ def big_run():
             gs_classifier = GridSearchCV(
                 pipeline, hyperparams, n_jobs=-1, verbose=args.verbose, cv=2, scoring='balanced_accuracy')
             xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
-            pipeline = pipeline.fit(xs_train, ys_train)
-            acc = pipeline.score(xs_test, ys_test)
+            gs_classifier = pipeline.fit(xs_train, ys_train)
+            acc = gs_classifier.score(xs_test, ys_test)
             f.write('params:\n{}'.format(hyperparams))
-            f.write('best params:\n{}'.format(pipeline.best_params_))
+            f.write('best params:\n{}'.format(gs_classifier.best_params_))
             f.write('accuracy: {}'.format(acc))
         except Exception as ex:
-            f.write('Error:\n{}'.format(str(ex)))
+            f.write('\nError:\n{}'.format(str(ex)))
 
 
 
