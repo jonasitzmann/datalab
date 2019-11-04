@@ -1,1 +1,1 @@
-some meaningless text
+does this still work when I'm not connected to the VM?
