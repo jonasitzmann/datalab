@@ -1,12 +1,6 @@
 #!/bin/bash
 
 function run {
-# how we want to extract the variables from the commit message.
-format_name="--format=%cn"
-format_when="--format=%cr"
-format_summary="--format=%s"
-format_body="--format=%b"
-
 # what repository do we want to watch (default to origin/master)
 if [ -z "$1" ]; then
 	repository="origin/master"
@@ -29,7 +23,7 @@ while [ 1 ]; do
 	git commit -m 'autorun'
 	git push
     fi
-    sleep 60
+    sleep 10
 done
 }
 
