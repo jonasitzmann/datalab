@@ -50,9 +50,19 @@ args = parser.parse_args()
 
 
 def log(text):
-    print(text)
-    if args.telegram:
-        os.system('bot "{}"'.format(text))
+    if type(text) is dict:
+        for key, value in text.items():
+            log("{}:".format(key))
+            log(str(value))
+    else:
+        print(text)
+        if args.telegram:
+            text = text.replace("[", "\[")
+            #text = text.replace("]", "\]")
+            text = text.replace("_", "\_")
+            text = text.replace("'", "\"")
+            for line in text.split('\n'):
+                os.system("bot '{}'".format(line))
 
 
 #  configuration
@@ -99,13 +109,15 @@ def big_run():
             'feature_selection__k': [1000, 2000, 4000, 8000],
             'classifier__hidden_layer_sizes': [(20, 20, 20), (10, 40, 10), (5, 10, 5), (20, 30, 30, 20)]
         }
-        log('params:\n{}'.format(pprint.pformat(hyperparams)))
+        log('params:')
+        log(hyperparams)
         gs_classifier = GridSearchCV(
             pipeline, hyperparams, n_jobs=-1, verbose=args.verbose, cv=2, scoring='balanced_accuracy')
         xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
         gs_classifier = gs_classifier.fit(xs_train, ys_train)
         acc = gs_classifier.score(xs_test, ys_test)
-        log('best params:\n{}'.format(pprint.pformat(gs_classifier.best_params_)))
+        log('best params:')
+        log(gs_classifier.best_params_)
         log('accuracy: {}'.format(acc))
     except Exception as ex:
         log('\nError:\n{}'.format(str(ex)))
