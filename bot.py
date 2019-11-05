@@ -40,13 +40,20 @@ def help(update, context):
 
 
 def echo(update, context):
-    if update.message.text.lower() == 'run':
+    text = update.message.text
+    if text.lower() == 'run':
         Popen("bot 'pulling'", shell=True)
         Popen("git pull", shell=True)
         Popen("bot 'executing run.py'", shell=True)
         Popen("python run.py", shell=True)
-    """Echo the user message."""
-    update.message.reply_text(update.message.text)
+    elif text.lower() == 'pull':
+        Popen("bot 'pulling'", shell=True)
+        Popen("git pull", shell=True)
+    elif text.lower() == 'push':
+        Popen("bot 'pushing'", shell=True)
+        Popen("git add -A; git commit -m 'bot commit'; git push", shell=True)
+    else:
+        update.message.reply_text(update.message.text)
 
 
 def error(update, context):
