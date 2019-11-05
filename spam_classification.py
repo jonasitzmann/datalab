@@ -12,6 +12,7 @@ from zipfile import ZipFile
 import numpy as np
 import spacy
 import torch
+import logging
 from scipy.spatial import distance
 from singleton_decorator import singleton
 from sklearn.cluster import KMeans, MiniBatchKMeans
@@ -52,22 +53,6 @@ parser.add_argument('--verbose', help='print debug information',
 args = parser.parse_args()
 
 
-def log(text):
-    if type(text) is dict:
-        for key, value in text.items():
-            log("{}:".format(key))
-            log(str(value))
-    else:
-        if args.telegram:
-            text = text.replace("[", "\[")
-            #text = text.replace("]", "\]")
-            text = text.replace("_", "\_")
-            text = text.replace("'", "\"")
-            for line in text.split('\n'):
-                os.system("bot '{}'".format(line))
-        else:
-            print(text)
-
 
 #  configuration
 TRAIN_DATA_PATH = 'training.zip'
@@ -98,7 +83,7 @@ def get_bow_pipeline():
         ('normalization', StandardScaler()),
         # ('classifier', SVC())
         ('classifier', MLPClassifier(max_iter=1000,
-                                     hidden_layer_sizes=(20, 20, 10), tol=1e-6, verbose=True))
+                                     hidden_layer_sizes=(20, 20, 10), tol=1e-6, verbose=51))
     ], memory=None, verbose=args.verbose)
     hyperparams = {
         'feature_selection__k': [1000],
@@ -110,8 +95,6 @@ def get_bow_pipeline():
 
 def big_run():
     global args
-    global print
-    print = log
     args.verbose = True
     args.telegram=True
     log('running big run')
@@ -172,7 +155,7 @@ def evaluate_pipeline(pipeline, xs, ys, short=False):
     else:
         try:
             accuracies = cross_val_score(
-                pipeline, xs, ys, verbose=args.verbose, n_jobs=7, scoring=scorer, cv=2)
+                pipeline, xs, ys, verbose=51, n_jobs=7, scoring=scorer, cv=2)
             log('cross validation accuracies: {}'.format(accuracies))
         except Exception as ex:
             log('Error:\n{}'.format(str(ex)))
@@ -182,7 +165,7 @@ def main():
     #xs, ys, pipeline = get_lstm_pipeline()
     xs, ys, pipeline, params = get_bow_pipeline()
     gs_classifier = GridSearchCV(
-        pipeline, params, n_jobs=7, verbose=args.verbose, cv=2, scoring=scorer)
+        pipeline, params, n_jobs=7, verbose=51, cv=2, scoring=scorer)
     evaluate_pipeline(gs_classifier, xs, ys, short=True)
 
 if __name__ == '__main__':
