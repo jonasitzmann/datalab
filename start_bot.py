@@ -45,7 +45,7 @@ def echo(update, context):
         Popen("bot 'pulling'", shell=True)
         Popen("git pull", shell=True)
         Popen("bot 'executing run.py'", shell=True)
-        Popen("python run.py", shell=True)
+        Popen("/home/stud06/env/bin/python run.py", shell=True)
     elif text.lower() == 'pull':
         Popen("bot 'pulling'", shell=True)
         Popen("git pull", shell=True)
