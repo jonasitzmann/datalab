@@ -122,7 +122,7 @@ def big_run():
         log('params:')
         log(hyperparams)
         gs_classifier = RandomizedSearchCV(
-            pipeline, hyperparams, n_iter=30, n_jobs=-1, cv=3, scoring=scorer)
+            pipeline, hyperparams, n_iter=20, n_jobs=-1, cv=3, scoring=scorer)
         xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
         gs_classifier = gs_classifier.fit(xs_train, ys_train)
         log('best params:')
