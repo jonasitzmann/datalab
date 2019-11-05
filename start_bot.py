@@ -92,6 +92,8 @@ def main():
 
 
 if __name__ == '__main__':
-    os.system('export set PATH=$PATH:~/datalab')
+    os.system('cd /home/stud06/datalab')
+    os.system('export set PATH=$PATH:/usr/bin/git')
+    os.system('export set PATH=$PATH:/home/stud06/datalab')
     os.system("bot 'bot started'")
     main()
