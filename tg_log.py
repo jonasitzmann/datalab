@@ -1,3 +1,5 @@
+import os
+import sys
 def log(text):
     if type(text) is dict:
         for key, value in text.items():

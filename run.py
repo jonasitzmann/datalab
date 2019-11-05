@@ -1,6 +1,7 @@
+import tg_log
 import os
-os.system('bot "installing packages from requirements.txt"')
+print("installing packages from requirements.txt")
 os.system('pip install -r requirements.txt')
-os.system('bot "done"')
+print('done')
 from spam_classification import big_run
 big_run()

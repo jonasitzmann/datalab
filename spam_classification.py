@@ -12,7 +12,6 @@ from zipfile import ZipFile
 import numpy as np
 import spacy
 import torch
-import logging
 from scipy.spatial import distance
 from singleton_decorator import singleton
 from sklearn.cluster import KMeans, MiniBatchKMeans
@@ -61,7 +60,7 @@ CACHE_DIR = 'cache'
 
 def score_func(*args, **kwargs):
     result = balanced_accuracy_score(*args, **kwargs)
-    log("score: {}".format(result))
+    print("score: {}".format(result))
     return result
 
 scorer = make_scorer(score_func)
@@ -83,8 +82,8 @@ def get_bow_pipeline():
         ('normalization', StandardScaler()),
         # ('classifier', SVC())
         ('classifier', MLPClassifier(max_iter=1000,
-                                     hidden_layer_sizes=(20, 20, 10), tol=1e-6, verbose=51))
-    ], memory=None, verbose=args.verbose)
+                                     hidden_layer_sizes=(20, 20, 10), tol=1e-6, verbose=False))
+    ], memory=None, verbose=51)
     hyperparams = {
         'feature_selection__k': [1000],
         'classifier__hidden_layer_sizes': [(20, 10, 10), (20, 40, 10)],
@@ -97,7 +96,7 @@ def big_run():
     global args
     args.verbose = True
     args.telegram=True
-    log('running big run')
+    print('running big run')
     try:
         xs, ys, pipeline, _ = get_bow_pipeline()
         hyperparams = {
@@ -105,17 +104,17 @@ def big_run():
             'feature_selection__k': randint(8000, 50000),
             'classifier__hidden_layer_sizes': [(10, 20, 30), (10, 10, 10), (5, 10), (10, 10, 10, 10)]
         }
-        log('params:')
-        log(hyperparams)
+        print('params:')
+        print(hyperparams)
         gs_classifier = RandomizedSearchCV(
-            pipeline, hyperparams, n_iter=20, n_jobs=-1, cv=3, scoring=scorer)
+            pipeline, hyperparams, n_iter=20, n_jobs=-1, cv=3, scoring=scorer, verbose=51)
         xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
         gs_classifier = gs_classifier.fit(xs_train, ys_train)
-        log('best params:')
-        log(gs_classifier.best_params_)
-        log('accuracy: {}'.format(gs_classifier.best_score_))
+        print('best params:')
+        print(gs_classifier.best_params_)
+        print('accuracy: {}'.format(gs_classifier.best_score_))
     except Exception as ex:
-        log('\nError:\n{}'.format(str(ex)))
+        print('\nError:\n{}'.format(str(ex)))
 
 
 
@@ -151,14 +150,14 @@ def evaluate_pipeline(pipeline, xs, ys, short=False):
     if short:
         xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
         pipeline.fit(xs_train, ys_train)
-        log('accuracy: {}'.format(pipeline.score(xs_test, ys_test)))
+        print('accuracy: {}'.format(pipeline.score(xs_test, ys_test)))
     else:
         try:
             accuracies = cross_val_score(
                 pipeline, xs, ys, verbose=51, n_jobs=7, scoring=scorer, cv=2)
-            log('cross validation accuracies: {}'.format(accuracies))
+            print('cross validation accuracies: {}'.format(accuracies))
         except Exception as ex:
-            log('Error:\n{}'.format(str(ex)))
+            print('Error:\n{}'.format(str(ex)))
 
 
 def main():
