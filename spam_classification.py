@@ -26,6 +26,8 @@ from scipy.stats import randint
 from sklearn.neural_network import MLPClassifier
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import FunctionTransformer, StandardScaler
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics import make_scorer
 from sklearn.svm import SVC
 from skorch import NeuralNetClassifier
 
@@ -71,6 +73,13 @@ TRAIN_DATA_PATH = 'training.zip'
 CACHE_DIR = 'cache'
 
 
+def score_func(*args, **kwargs):
+    result = balanced_accuracy_score(*args, **kwargs)
+    log("score: {}".format(result))
+    return result
+
+scorer = make_scorer(score_func)
+
 def get_bow_pipeline():
     dataset = load_files('training', shuffle=True,
                          encoding='utf-8', decode_error='ignore')
@@ -113,7 +122,7 @@ def big_run():
         log('params:')
         log(hyperparams)
         gs_classifier = RandomizedSearchCV(
-            pipeline, hyperparams, n_iter=30, n_jobs=-1, cv=3, scoring='balanced_accuracy')
+            pipeline, hyperparams, n_iter=30, n_jobs=-1, cv=3, scoring=scorer)
         xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
         gs_classifier = gs_classifier.fit(xs_train, ys_train)
         log('best params:')
@@ -160,7 +169,7 @@ def evaluate_pipeline(pipeline, xs, ys, short=False):
     else:
         try:
             accuracies = cross_val_score(
-                pipeline, xs, ys, verbose=args.verbose, n_jobs=7, scoring='balanced_accuracy', cv=2)
+                pipeline, xs, ys, verbose=args.verbose, n_jobs=7, scoring=scorer, cv=2)
             log('cross validation accuracies: {}'.format(accuracies))
         except Exception as ex:
             log('Error:\n{}'.format(str(ex)))
@@ -170,7 +179,7 @@ def main():
     #xs, ys, pipeline = get_lstm_pipeline()
     xs, ys, pipeline, params = get_bow_pipeline()
     gs_classifier = GridSearchCV(
-        pipeline, params, n_jobs=7, verbose=args.verbose, cv=2, scoring='balanced_accuracy')
+        pipeline, params, n_jobs=7, verbose=args.verbose, cv=2, scoring=scorer)
     evaluate_pipeline(gs_classifier, xs, ys, short=True)
 
 if __name__ == '__main__':
