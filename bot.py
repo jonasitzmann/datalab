@@ -14,6 +14,7 @@ Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """
 
+from subprocess import Popen
 import logging
 import os
 
@@ -39,11 +40,11 @@ def help(update, context):
 
 
 def echo(update, context):
-    if update.message.text == 'run':
-        os.system('bot pulling')
-        os.system('git pull')
-        os.system('bot "executing run.py"')
-        os.system('python run.py')
+    if update.message.text.lower() == 'run':
+        Popen("bot 'pulling'", shell=True)
+        Popen("git pull", shell=True)
+        Popen("bot 'executing run.py'", shell=True)
+        Popen("python run.py", shell=True)
     """Echo the user message."""
     update.message.reply_text(update.message.text)
 
