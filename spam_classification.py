@@ -58,7 +58,6 @@ def log(text):
             log("{}:".format(key))
             log(str(value))
     else:
-        print(text)
         if args.telegram:
             text = text.replace("[", "\[")
             #text = text.replace("]", "\]")
@@ -66,6 +65,8 @@ def log(text):
             text = text.replace("'", "\"")
             for line in text.split('\n'):
                 os.system("bot '{}'".format(line))
+        else:
+            print(text)
 
 
 #  configuration
@@ -109,6 +110,8 @@ def get_bow_pipeline():
 
 def big_run():
     global args
+    global print
+    print = log
     args.verbose = True
     args.telegram=True
     log('running big run')
