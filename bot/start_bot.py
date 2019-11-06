@@ -53,7 +53,7 @@ def echo(update, context):
         cmd_out = check_output(["git pull"], shell=True)
     elif text.lower() == 'push':
         Popen("bot 'pushing'", shell=True)
-        cmd_out = check_output(["git add -A; git commit -m 'bot commit']; git push", shell=True)
+        cmd_out = check_output(["git add -A; git commit -m 'bot commit'; git push"], shell=True)
     elif text.lower() == 'stop':
         Popen("bot 'killing all jobs'", shell=True)
         Popen("pkill -f run.py", shell=True)
@@ -102,6 +102,7 @@ if __name__ == '__main__':
     os.system('cd /home/stud06/datalab')
     os.system('export set PATH=$PATH:/home/stud06/env/bin/python')
     os.system('export set PATH=$PATH:/usr/bin/git')
-    os.system('export set PATH=$PATH:/home/stud06/datalab')
+    os.system('export set PATH=$PATH:/home/stud06/datalab/bot')
     os.system("bot 'bot started'")
+    os.chdir("/home/stud06/datalab")
     main()
