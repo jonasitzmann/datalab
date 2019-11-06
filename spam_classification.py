@@ -107,15 +107,18 @@ def endless_random_search(xs, ys, model, param_distribution):
             cv=5,
             scoring='balanced_accuracy'
         )
-        clf = clf.fit(xs, ys)
-        score = clf.best_score_
-        if score > best_score:
-            best_params = clf.best_params_
-            best_model = clf.best_estimator_
-            best_score = score
-            print("best params:\n{}".format("\n".join(["{}: {}".format(*p) for p in best_params.items()])))
-            print("best score: {}".format(best_score))
-            pickle.dump(best_model, open('best_model.bin', 'wb'))
+        try:
+            clf = clf.fit(xs, ys)
+            score = clf.best_score_
+            if score > best_score:
+                best_params = clf.best_params_
+                best_model = clf.best_estimator_
+                best_score = score
+                print("best params:\n{}".format("\n".join(["{}: {}".format(*p) for p in best_params.items()])))
+                print("best score: {}".format(best_score))
+                pickle.dump(best_model, open('best_model.bin', 'wb'))
+        except Exception as ex:
+            print('\nError (skipping param set):\n{}'.format(str(ex)))
 
 
 def big_run():
@@ -124,7 +127,7 @@ def big_run():
         xs, ys, pipeline, _ = get_bow_pipeline()
         hyperparams = {
             'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
-            'feature_selection__k': randint(30000, 80000),
+            'feature_selection__k': randint(30000, 50000),
             'classifier__hidden_layer_sizes': [(10, 10, 10, 10), (5, 5, 5, 5), (10, 20, 10), (10, 10, 10, 10, 10)]
         }
         print('params:')
