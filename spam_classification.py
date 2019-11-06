@@ -28,6 +28,7 @@ from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import FunctionTransformer, StandardScaler
 from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics import make_scorer
+from sklearn.model_selection._search import ParameterSampler
 from sklearn.svm import SVC
 from skorch import NeuralNetClassifier
 
@@ -65,6 +66,7 @@ def score_func(*args, **kwargs):
 
 scorer = make_scorer(score_func)
 
+
 def get_bow_pipeline():
     dataset = load_files('training', shuffle=True,
                          encoding='utf-8', decode_error='ignore')
@@ -81,9 +83,9 @@ def get_bow_pipeline():
         #  ('pca', PCA(n_components=100)),
         ('normalization', StandardScaler()),
         # ('classifier', SVC())
-        ('classifier', MLPClassifier(max_iter=1000,
+        ('classifier', MLPClassifier(max_iter=5000,
                                      hidden_layer_sizes=(20, 20, 10), tol=1e-6, verbose=False))
-    ], memory=None, verbose=51)
+    ], memory=None, verbose=False)
     hyperparams = {
         'feature_selection__k': [1000],
         'classifier__hidden_layer_sizes': [(20, 10, 10), (20, 40, 10)],
@@ -92,27 +94,42 @@ def get_bow_pipeline():
     return xs, ys, pipeline, hyperparams
 
 
+def endless_random_search(xs, ys, model, param_distribution):
+    best_params = {}
+    best_model = None
+    best_score = 0.
+    while True:
+        clf = RandomizedSearchCV(
+            model,
+            param_distribution,
+            n_iter=1,
+            n_jobs=-1,
+            cv=5,
+            scoring='balanced_accuracy'
+        )
+        clf = clf.fit(xs, ys)
+        score = clf.best_score_
+        if score > best_score:
+            best_params = clf.best_params_
+            best_model = clf.best_estimator_
+            best_score = score
+            print("best params:\n{}".format("\n".join(["{}: {}".format(*p) for p in best_params.items()])))
+            print("best score: {}".format(best_score))
+            pickle.dump(best_model, open('best_model.bin', 'wb'))
+
+
 def big_run():
-    global args
-    args.verbose = True
-    args.telegram=True
-    print('running big run')
     try:
+        print('loading data')
         xs, ys, pipeline, _ = get_bow_pipeline()
         hyperparams = {
-            'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 4)],
-            'feature_selection__k': randint(8000, 50000),
-            'classifier__hidden_layer_sizes': [(10, 20, 30), (10, 10, 10), (5, 10), (10, 10, 10, 10)]
+            'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
+            'feature_selection__k': randint(30000, 80000),
+            'classifier__hidden_layer_sizes': [(10, 10, 10, 10), (5, 5, 5, 5), (10, 20, 10), (10, 10, 10, 10, 10)]
         }
         print('params:')
         print(hyperparams)
-        gs_classifier = RandomizedSearchCV(
-            pipeline, hyperparams, n_iter=20, n_jobs=-1, cv=3, scoring=scorer, verbose=51)
-        xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
-        gs_classifier = gs_classifier.fit(xs_train, ys_train)
-        print('best params:')
-        print(gs_classifier.best_params_)
-        print('accuracy: {}'.format(gs_classifier.best_score_))
+        endless_random_search(xs, ys, pipeline, hyperparams)
     except Exception as ex:
         print('\nError:\n{}'.format(str(ex)))
 
@@ -160,12 +177,19 @@ def evaluate_pipeline(pipeline, xs, ys, short=False):
             print('Error:\n{}'.format(str(ex)))
 
 
+
+
+
 def main():
-    #xs, ys, pipeline = get_lstm_pipeline()
-    xs, ys, pipeline, params = get_bow_pipeline()
-    gs_classifier = GridSearchCV(
-        pipeline, params, n_jobs=7, verbose=51, cv=2, scoring=scorer)
-    evaluate_pipeline(gs_classifier, xs, ys, short=True)
+    xs, ys, pipeline, _ = get_bow_pipeline()
+    n_samples = 1000
+    xs, ys = xs[:n_samples], ys[:n_samples]
+    param_distribution = {
+        'feature_extraction__bag_of_words__ngram_range': [(1, 1), (1, 3)],
+        'feature_selection__k': randint(100, 1000),
+        'classifier__hidden_layer_sizes': [(1), (10, 10)]
+    }
+    endless_random_search(xs, ys, pipeline, param_distribution)
 
 if __name__ == '__main__':
     main()
