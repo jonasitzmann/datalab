@@ -127,7 +127,7 @@ def big_run():
         xs, ys, pipeline, _ = get_bow_pipeline()
         hyperparams = {
             'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
-            'feature_selection__k': randint(30000, 50000),
+            'feature_selection__k': randint(3000, 5000),
             'classifier__hidden_layer_sizes': [(10, 10, 10, 10), (5, 5, 5, 5), (10, 20, 10), (10, 10, 10, 10, 10)]
         }
         print('params:')
