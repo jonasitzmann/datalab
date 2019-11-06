@@ -7,26 +7,20 @@ from collections import Counter
 from zipfile import ZipFile
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
 from sklearn.decomposition import PCA
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
-from sklearn.cluster import KMeans
 from sklearn.cluster import MiniBatchKMeans
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from scipy.spatial import distance
 from sklearn.base import TransformerMixin
 import re
-from langdetect import detect
-#import torch
 import warnings
 import spacy
 import pickle
 from singleton_decorator import singleton
 from helpers import cache_result
-from helpers import log
 warnings.simplefilter(
     action='ignore',
     category=FutureWarning)  # disable future warnings
@@ -80,7 +74,7 @@ def load_test_data(zip_path):
 
 
 def load_training_data(train_path, n_samples=-1):
-    log("loading training data")
+    print("loading training data")
     with ZipFile(train_path) as train_file:
         namelist = train_file.namelist()[:-1]  # exclude the last file (which contains a list of all filenames)
         if n_samples != -1:
@@ -103,13 +97,13 @@ class Word2Vec:
 
 
 def calc_embeddings(texts, dirname):
-    log("calculating embeddings")
+    print("calculating embeddings")
     model = Word2Vec().model
     shutil.rmtree(dirname)
     os.mkdir(dirname)
     for index, email in enumerate(texts):
         if index % 1000 == 0:
-            log("{} of {}".format(index, len(texts)))
+            print("{} of {}".format(index, len(texts)))
         embedding = model(email.lower())
         array = np.array([word.vector for word in embedding], dtype=np.single)
         with open("{}/{:04d}.bin".format(dirname, index), 'wb') as file:
@@ -122,7 +116,7 @@ def load_embedding(dirname, index):
 
 
 def load_embeddings(dirname, n_samples=-1):
-    log("loading embeddings")
+    print("loading embeddings")
     n_files = len([None for _ in os.listdir(dirname)])
     max_idx = n_files if n_samples == -1 else min(n_samples, n_files)
     embeddings = (load_embedding(dirname, idx) for idx in range(max_idx))
@@ -134,7 +128,7 @@ def flatten(l): return (item for sublist in l for item in sublist)
 
 @cache_result
 def fit_k_means(samples):
-    log("k_means_clustering")
+    print("k_means_clustering")
     k_means = MiniBatchKMeans(
         n_clusters=NUM_CLUSTERS,
         batch_size=K_MEANS_BATCH_SIZE,
@@ -143,9 +137,9 @@ def fit_k_means(samples):
     n_batches = int(len(samples) / K_MEANS_BATCH_SIZE)
     K_MEANS_N_EPOCHS = 5
     for epoch in range(K_MEANS_N_EPOCHS):
-        log('epoch {} of {}'.format(epoch + 1, K_MEANS_N_EPOCHS))
+        print('epoch {} of {}'.format(epoch + 1, K_MEANS_N_EPOCHS))
         for batch in range(n_batches):
-            log('batch {} of {}'.format(batch + 1, n_batches))
+            print('batch {} of {}'.format(batch + 1, n_batches))
             fit_data = np.array(
                 samples[batch * K_MEANS_BATCH_SIZE: (batch + 1) * K_MEANS_BATCH_SIZE])
             k_means = k_means.partial_fit(fit_data)
@@ -153,13 +147,13 @@ def fit_k_means(samples):
 
 
 def transform_k_means(k_means, dataset):
-    log("transforming (k_means)")
+    print("transforming (k_means)")
     #transformed = [k_means.predict(embedding) for embedding in embeddings]
     return transformed
 
 
 def get_vectorizer(texts_for_fitting):
-    log("Fitting vectorizer")
+    print("Fitting vectorizer")
     vectorizer = TfidfVectorizer(
         decode_error='ignore',
         ngram_range=(1, N_GRAM_RANGE),
@@ -221,7 +215,7 @@ class HandCraftedFeatureExtractor(TransformerMixin):
 
 
 def extract_features(vectorizer, texts):
-    log("Extracting features")
+    print("Extracting features")
     #features = vectorizer.transform(texts).toarray()
     #features = features.reshape(features .shape[0], -1)
 
@@ -252,14 +246,14 @@ def extract_features(vectorizer, texts):
 
 
 def select_features(x_train, y_train, x_test):
-    log("Selecting features")
+    print("Selecting features")
     transformer = SelectKBest(chi2, N_FEATURES_AFTER_REDUCTION)
     transformer.fit(x_train, y_train)
     return transformer.transform(x_train), transformer.transform(x_test)
 
 
 def reduce_dimensions_pca(x_train, x_test):
-    log("PCA")
+    print("PCA")
     pca = PCA(n_components=N_FEATURES_AFTER_PCA)
     pca.fit(x_train)
     return pca.transform(x_train), pca.transform(x_test)
@@ -272,14 +266,14 @@ def get_classifier():
 
 
 def cross_validate(cls, x, texts, y):
-    log("Fitting model (cross validation)")
+    print("Fitting model (cross validation)")
     #  todo: save track of frequently misclassified samples
     k_fold = KFold(NUM_FOLDS_CROSS_VALIDATION, shuffle=True, random_state=0)
     accs = []
     # starts with 0 if key is not yet present
     misclassifications = defaultdict(int)
     for i, (train_idxs, test_idxs) in enumerate(k_fold.split(range(len(x)))):
-        log("fold {} of {}".format(i + 1, NUM_FOLDS_CROSS_VALIDATION))
+        print("fold {} of {}".format(i + 1, NUM_FOLDS_CROSS_VALIDATION))
         x_train, texts_train, y_train = x[train_idxs], texts[train_idxs], y[train_idxs]
         x_test, texts_test, y_test = x[test_idxs], texts[test_idxs], y[test_idxs]
         # vectorizer = get_vectorizer(texts_train)
@@ -303,7 +297,7 @@ def cross_validate(cls, x, texts, y):
         for idx, result in enumerate(results):
             if not result:
                 misclassifications[test_idxs[idx]] += 1
-    log("Accuracy: {:.2%}".format(np.mean(accs)))
+    print("Accuracy: {:.2%}".format(np.mean(accs)))
     # index of most frequently misclassified sample
     return max(misclassifications, key=misclassifications.get)
 
@@ -336,7 +330,7 @@ def vec2word(vector):
 
 def reconstruct_after_k_means(cluster_idxs):
     k_means = load_k_means()
-    log('starting reconstruction')
+    print('starting reconstruction')
     email = []
     for cluster_idx in cluster_idxs:
         cluster = k_means.cluster_centers_[cluster_idx]
