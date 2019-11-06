@@ -108,6 +108,6 @@ if __name__ == '__main__':
     os.system('export set PATH=$PATH:/home/stud06/env/bin/python')
     os.system('export set PATH=$PATH:/usr/bin/git')
     os.system('export set PATH=$PATH:/home/stud06/datalab/bot')
-    os.system("bot 'bot started'")
+    os.system("bot 'bot started' 890204671")
     os.chdir("/home/stud06/datalab")
     main()
