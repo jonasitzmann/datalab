@@ -12,8 +12,8 @@ def log(text, chat_id):
         pass
     if type(text) is dict:
         for key, value in text.items():
-            log("{}:".format(key))
-            log(str(value))
+            log("{}:".format(key), chat_id)
+            log(str(value), chat_id)
     else:
             text = text.replace("[", "\[")
             #text = text.replace("]", "\]")
