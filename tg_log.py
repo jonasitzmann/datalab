@@ -1,6 +1,13 @@
 import os
 import sys
+import ast
 def log(text):
+    try:
+        maybedict = ast.literal_eval(text)
+        if type(maybedict) is dict:
+            text = maybedict
+    except Exception as ex:
+        pass
     if type(text) is dict:
         for key, value in text.items():
             log("{}:".format(key))
