@@ -72,7 +72,7 @@ def get_bow_pipeline():
                          encoding='utf-8', decode_error='ignore')
     xs, ys = dataset.data, dataset.target
     feature_extractor = FeatureUnion([
-        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 6))),
+        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
         #  ('bag_of_concepts', BagOfConceptVectorizer())  # todo: implement
         ('other_features', HandCraftedFeatureExtractor())
     ])
@@ -116,6 +116,7 @@ def endless_random_search(xs, ys, model, param_distribution):
                 best_score = score
                 print("best params:\n{}".format("\n".join(["{}: {}".format(*p) for p in best_params.items()])))
                 print("best score: {}".format(best_score))
+                print("best model: {}".format(best_model))
                 pickle.dump(best_model, open('best_model.bin', 'wb'))
         except Exception as ex:
             print('\nError (skipping param set):\n{}'.format(str(ex)))
@@ -126,9 +127,9 @@ def big_run():
         print('loading data')
         xs, ys, pipeline, _ = get_bow_pipeline()
         hyperparams = {
-            'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
+            #  'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
             'feature_selection__k': randint(3000, 5000),
-            'classifier__hidden_layer_sizes': [(10, 10, 10, 10), (5, 5, 5, 5), (10, 20, 10), (10, 10, 10, 10, 10)]
+            'classifier__hidden_layer_sizes': [(10, 10), (10, 10, 10), (3, 10), (3, 10, 10)]
         }
         print('params:')
         print(hyperparams)
