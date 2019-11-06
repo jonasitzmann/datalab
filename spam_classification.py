@@ -1,42 +1,20 @@
 import pickle
 import warnings
-import numpy as np
-import torch
 from sklearn.datasets import load_files
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
-from sklearn.model_selection import (RandomizedSearchCV,
-                                     cross_val_score, train_test_split)
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import train_test_split
 from scipy.stats import randint
 from sklearn.neural_network import MLPClassifier
 from sklearn.pipeline import FeatureUnion, Pipeline
-from sklearn.preprocessing import FunctionTransformer, StandardScaler
-from sklearn.metrics import balanced_accuracy_score
-from sklearn.metrics import make_scorer
-from skorch import NeuralNetClassifier
+from sklearn.preprocessing import StandardScaler
+from einfuehrung_mit_spam_1 import DenseTransformer
+from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
+from helpers import get_scorer
 
-from einfuehrung_mit_spam_1 import (DenseTransformer,
-                                    HandCraftedFeatureExtractor,
-                                    load_embeddings, load_training_data)
-from helpers import cache_result, pad_3d_array
-from lstm import LSTMClassifier
-
-warnings.simplefilter(
-    action='ignore',
-    category=FutureWarning)  # disable future warnings
-
-#  configuration
-TRAIN_DATA_PATH = 'training.zip'
-CACHE_DIR = 'cache'
-
-
-def score_func(*args, **kwargs):
-    result = balanced_accuracy_score(*args, **kwargs)
-    print("score: {}".format(result))
-    return result
-
-
-scorer = make_scorer(score_func)
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 def get_bow_pipeline():
@@ -71,14 +49,7 @@ def endless_random_search(xs, ys, model, param_distribution):
     best_model = None
     best_score = 0.
     while True:
-        clf = RandomizedSearchCV(
-            model,
-            param_distribution,
-            n_iter=1,
-            n_jobs=-1,
-            cv=5,
-            scoring='balanced_accuracy'
-        )
+        clf = RandomizedSearchCV(model, param_distribution, n_iter=1, n_jobs=-1, cv=5, scoring='balanced_accuracy')
         try:
             clf = clf.fit(xs, ys)
             score = clf.best_score_
@@ -110,35 +81,6 @@ def big_run():
         print('\nError:\n{}'.format(str(ex)))
 
 
-
-
-def get_lstm_pipeline():
-    n_samples = 100
-    _, ys = load_training_data('training.zip', n_samples)
-    xs = list(load_embeddings('training_embeddings_sm', n_samples))
-    xs = pad_3d_array(xs)
-    xs_shape = xs.shape
-    ys = np.array(ys, dtype=np.long)
-    input_dim = xs.shape[2]
-    xs = xs.reshape(xs.shape[0], -1)
-    lstm = NeuralNetClassifier(
-        module=LSTMClassifier,
-        module__input_dim=input_dim,
-        max_epochs=200,
-        optimizer=torch.optim.Adam,
-        # Shuffle training data on each epoch
-        # iterator_train__shuffle=True
-    )
-    pipeline = Pipeline([
-        ('normalization', StandardScaler()),
-        ('reshape_2', FunctionTransformer(
-            lambda x: x.reshape(-1, *xs_shape[1:]))),
-        ('lstm', lstm)
-    ], verbose=False
-    )
-    return xs, ys, pipeline
-
-
 def evaluate_pipeline(pipeline, xs, ys, short=False):
     if short:
         xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
@@ -147,13 +89,10 @@ def evaluate_pipeline(pipeline, xs, ys, short=False):
     else:
         try:
             accuracies = cross_val_score(
-                pipeline, xs, ys, verbose=51, n_jobs=7, scoring=scorer, cv=2)
+                pipeline, xs, ys, verbose=51, n_jobs=7, scoring=get_scorer(), cv=2)
             print('cross validation accuracies: {}'.format(accuracies))
         except Exception as ex:
             print('Error:\n{}'.format(str(ex)))
-
-
-
 
 
 def main():

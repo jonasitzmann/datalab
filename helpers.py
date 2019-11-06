@@ -1,15 +1,21 @@
 import numpy as np
-import json
 import _pickle as pickle
 import os
 from gensim.models import Word2Vec
 import spacy
 import pickle
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics import make_scorer
 
 
-def log(text):
-    print(text)
+def score_func(*args, **kwargs):
+    result = balanced_accuracy_score(*args, **kwargs)
+    print("score: {}".format(result))
+    return result
 
+
+def get_scorer():
+    return make_scorer(score_func)
 
 #  caches the result of a function to a file and loads it for subsequent calls
 #  todo check if arguments and source code are the same
@@ -19,10 +25,10 @@ def cache_result(func):
         func_name = func.__name__
         file_path = '{}/{}'.format(cache_dir, func_name)
         if not os.path.isdir(cache_dir):
-            log('executing {}'.format(func_name))
+            print('executing {}'.format(func_name))
             os.mkdir(cache_dir)
         if not recompute and os.path.isfile(file_path):
-            log('loading stored result of {}'.format(func_name))
+            print('loading stored result of {}'.format(func_name))
             with open(file_path, 'rb') as load_file:
                 return pickle.load(load_file)
         result = func(*args, **kwargs)
