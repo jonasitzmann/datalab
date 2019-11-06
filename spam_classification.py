@@ -13,9 +13,24 @@ from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
 from helpers import get_scorer
+from sklearn.decomposition import PCA
+from sklearn.svm import SVC
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
+
+def get_pipeline_task2():
+    print("Load Data")
+    dataset = load_files('data/training_1_2', shuffle=True,
+                         encoding='utf-8', decode_error='ignore')
+    xs, ys = dataset.data, dataset.target
+    pipeline = Pipeline([
+        ('feature_extraction', TfidfVectorizer(ngram_range=(1, 1), max_features=2000)),
+        ('sparse_to_dense', DenseTransformer()),
+        ('pca', PCA(n_components=30)),
+        ('classifier', SVC())
+    ])
+    return xs, ys, pipeline
 
 def get_bow_pipeline():
     dataset = load_files('training', shuffle=True,
@@ -96,15 +111,9 @@ def evaluate_pipeline(pipeline, xs, ys, short=False):
 
 
 def main():
-    xs, ys, pipeline, _ = get_bow_pipeline()
-    n_samples = 1000
-    xs, ys = xs[:n_samples], ys[:n_samples]
-    param_distribution = {
-        'feature_extraction__bag_of_words__ngram_range': [(1, 1), (1, 3)],
-        'feature_selection__k': randint(100, 1000),
-        'classifier__hidden_layer_sizes': [(1), (10, 10)]
-    }
-    endless_random_search(xs, ys, pipeline, param_distribution)
+    xs, ys, pipeline = get_pipeline_task2()
+    evaluate_pipeline(pipeline, xs, ys, short=True)
+
 
 if __name__ == '__main__':
     main()
