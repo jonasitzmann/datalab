@@ -1,3 +1,4 @@
+cd /home/stud06/datalab/bot
 export PATH=$PATH:/home/stud06/datalab/bot
 git pull
 /home/stud06/env/bin/python start_bot.py
