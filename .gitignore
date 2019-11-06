@@ -4,3 +4,4 @@ nohup.out
 **.bin
 old/
 .idea/
+venv/
