@@ -1,26 +1,11 @@
-import argparse
-import os
-import pprint
 import pickle
-import re
-import shutil
-import sys
 import warnings
-from collections import Counter, defaultdict
-from zipfile import ZipFile
-
 import numpy as np
-import spacy
 import torch
-from scipy.spatial import distance
-from singleton_decorator import singleton
-from sklearn.cluster import KMeans, MiniBatchKMeans
 from sklearn.datasets import load_files
-from sklearn.decomposition import PCA
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
-from sklearn.model_selection import (GridSearchCV, RandomizedSearchCV,
+from sklearn.model_selection import (RandomizedSearchCV,
                                      cross_val_score, train_test_split)
 from scipy.stats import randint
 from sklearn.neural_network import MLPClassifier
@@ -28,8 +13,6 @@ from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import FunctionTransformer, StandardScaler
 from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics import make_scorer
-from sklearn.model_selection._search import ParameterSampler
-from sklearn.svm import SVC
 from skorch import NeuralNetClassifier
 
 from einfuehrung_mit_spam_1 import (DenseTransformer,
@@ -52,6 +35,7 @@ def score_func(*args, **kwargs):
     print("score: {}".format(result))
     return result
 
+jj
 scorer = make_scorer(score_func)
 
 
@@ -80,6 +64,7 @@ def get_bow_pipeline():
         # 'feature_extraction__bag_of_words__ngram_range': [(1, 5)]
     }
     return xs, ys, pipeline, hyperparams
+
 
 def endless_random_search(xs, ys, model, param_distribution):
     best_params = {}
