@@ -35,7 +35,7 @@ def score_func(*args, **kwargs):
     print("score: {}".format(result))
     return result
 
-jj
+
 scorer = make_scorer(score_func)
 
 
