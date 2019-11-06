@@ -93,7 +93,6 @@ def get_bow_pipeline():
     }
     return xs, ys, pipeline, hyperparams
 
-
 def endless_random_search(xs, ys, model, param_distribution):
     best_params = {}
     best_model = None
@@ -114,9 +113,9 @@ def endless_random_search(xs, ys, model, param_distribution):
                 best_params = clf.best_params_
                 best_model = clf.best_estimator_
                 best_score = score
-                print("best params:\n{}".format("\n".join(["{}: {}".format(*p) for p in best_params.items()])))
+                print("best params")
+                print(best_params)
                 print("best score: {}".format(best_score))
-                print("best model: {}".format(best_model))
                 pickle.dump(best_model, open('best_model.bin', 'wb'))
         except Exception as ex:
             print('\nError (skipping param set):\n{}'.format(str(ex)))
