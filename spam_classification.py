@@ -42,18 +42,6 @@ warnings.simplefilter(
     action='ignore',
     category=FutureWarning)  # disable future warnings
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--telegram', help='log messages are sent to telegram',
-                    type=bool, default=False, required=False)
-parser.add_argument('--n_samples', help='number of samples to use for training',
-                    type=int, default=-1, required=False)
-parser.add_argument('--verbose', help='print debug information',
-                    type=bool, default=False, required=False)
-
-args = parser.parse_args()
-
-
-
 #  configuration
 TRAIN_DATA_PATH = 'training.zip'
 CACHE_DIR = 'cache'
@@ -161,7 +149,7 @@ def get_lstm_pipeline():
         ('reshape_2', FunctionTransformer(
             lambda x: x.reshape(-1, *xs_shape[1:]))),
         ('lstm', lstm)
-    ], verbose=args.verbose
+    ], verbose=False
     )
     return xs, ys, pipeline
 

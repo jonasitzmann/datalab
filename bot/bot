@@ -1,2 +1,2 @@
 export BOT_TOKEN="822372321:AAG9saN3bu-BXdWkL16tDqrTpBGF20QOPYU"
-/home/stud06/env/bin/tgcli bot -t "$BOT_TOKEN" send -r "890204671" message "$1"
+/home/stud06/env/bin/tgcli bot -t "$BOT_TOKEN" send -r "$2" message "$1"

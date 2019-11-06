@@ -40,22 +40,27 @@ def help(update, context):
     update.message.reply_text('Help!')
 
 
+def send(text, chat_id):
+    Popen("bot '{}' '{}'".format(text, chat_id), shell=True)
+
+
 def echo(update, context):
+    chat_id = update.effective_chat.id
     text = update.message.text
     cmd_out = ""
     if text.lower() == 'run':
-        Popen("bot 'pulling'", shell=True)
+        send('pulling', chat_id)
         Popen("git pull", shell=True)
-        Popen("bot 'executing run.py'", shell=True)
-        Popen("/home/stud06/env/bin/python run.py", shell=True)
+        send('executing run.py', chat_id)
+        Popen("/home/stud06/env/bin/python run.py '{}'".format(chat_id), shell=True)
     elif text.lower() == 'pull':
-        Popen("bot 'pulling'", shell=True)
+        send('pulling', chat_id)
         cmd_out = check_output(["git pull"], shell=True)
     elif text.lower() == 'push':
-        Popen("bot 'pushing'", shell=True)
+        send('pushing', chat_id)
         cmd_out = check_output(["git add -A; git commit -m 'bot commit'; git push"], shell=True)
     elif text.lower() == 'stop':
-        Popen("bot 'killing all jobs'", shell=True)
+        send('killing all jobs', chat_id)
         Popen("pkill -f run.py", shell=True)
         Popen("pkill -f loky", shell=True)
     else:
