@@ -67,7 +67,7 @@ def endless_random_search(xs, ys, model, param_distribution):
 
 def big_run():
     try:
-        print('loading data')
+        print('HELLO WORLD')
         xs, ys, pipeline, _ = get_bow_pipeline()
         hyperparams = {
             #  'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
