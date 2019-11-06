@@ -15,6 +15,7 @@ bot.
 """
 
 from subprocess import Popen
+from subprocess import check_output
 import logging
 import os
 
@@ -41,6 +42,7 @@ def help(update, context):
 
 def echo(update, context):
     text = update.message.text
+    cmd_out = ""
     if text.lower() == 'run':
         Popen("bot 'pulling'", shell=True)
         Popen("git pull", shell=True)
@@ -48,16 +50,17 @@ def echo(update, context):
         Popen("/home/stud06/env/bin/python run.py", shell=True)
     elif text.lower() == 'pull':
         Popen("bot 'pulling'", shell=True)
-        Popen("git pull", shell=True)
+        cmd_out = check_output(["git pull"], shell=True)
     elif text.lower() == 'push':
         Popen("bot 'pushing'", shell=True)
-        Popen("git add -A; git commit -m 'bot commit'; git push", shell=True)
+        cmd_out = check_output(["git add -A; git commit -m 'bot commit']; git push", shell=True)
     elif text.lower() == 'stop':
         Popen("bot 'killing all jobs'", shell=True)
         Popen("pkill -f run.py", shell=True)
         Popen("pkill -f loky", shell=True)
     else:
-        update.message.reply_text(update.message.text)
+        cmd_out = check_output([text], shell=True)
+    update.message.reply_text(cmd_out)
 
 
 def error(update, context):
