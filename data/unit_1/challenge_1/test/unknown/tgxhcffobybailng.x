@@ -1,0 +1,7 @@
+Subject: internet provider abuse
+i noticed that you have visited illegal websites .
+see the name in the list !
++ + + + attachment : no virus found
++ + + + norman antivirus - www . norman . com
+pwar
+ea 

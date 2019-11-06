@@ -1,0 +1,5 @@
+Subject: no more wife unsatisfied ! hey it works : )
+waiting for an hour or more to get ready to make love to your partner is very fustrating , especially time is against you .
+well , 15 minutes is really all you need . fast ? well sometimes foreplay takes longer than that .
+why dont you prove them yourself .
+ laci  esi

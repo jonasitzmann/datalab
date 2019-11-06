@@ -1,0 +1,2 @@
+Subject: eric gonzalez would like to schedule a mtg . with you to discuss the nigeria & bahamas presentation . is this okay to schedule ?
+fe eur 

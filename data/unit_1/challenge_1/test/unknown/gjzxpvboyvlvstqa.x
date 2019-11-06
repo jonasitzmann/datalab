@@ -1,0 +1,5 @@
+Subject: article in gas daily
+louise ,
+did you see the article on enron compression in gas daily today ? it was on page 3 .
+regards , mrha- 
+'oael

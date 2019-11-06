@@ -1,0 +1,5 @@
+Subject: article : ' the future of european energy brokerage ' ( enron mention )
+please find attached the above article from the energy & power risk management , august 2001 .
+kind regards
+sarimah black on  ecti 
+f p5o

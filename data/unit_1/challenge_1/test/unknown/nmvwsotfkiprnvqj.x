@@ -1,0 +1,6 @@
+Subject: test out this new motorola cell phone
+removal requests :
+3305 w spring mountain rd .
+suite 60 - 15
+las vegas , nv 89102
+ lvs

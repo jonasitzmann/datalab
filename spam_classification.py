@@ -1,72 +1,62 @@
 import pickle
 import warnings
+import traceback
+import numpy as np
 from sklearn.datasets import load_files
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import train_test_split
 from scipy.stats import randint
 from sklearn.neural_network import MLPClassifier
+from sklearn.ensemble import BaggingClassifier
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
-from helpers import get_scorer
+from helpers import dotdict
 from sklearn.decomposition import PCA
 from sklearn.svm import SVC
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
-def get_pipeline_task2():
-    print("Load Data")
-    dataset = load_files('data/training_1_2', shuffle=True,
-                         encoding='utf-8', decode_error='ignore')
-    xs, ys = dataset.data, dataset.target
-    pipeline = Pipeline([
-        ('feature_extraction', TfidfVectorizer(ngram_range=(1, 1), max_features=2000)),
-        ('sparse_to_dense', DenseTransformer()),
-        ('pca', PCA(n_components=30)),
-        ('classifier', SVC())
-    ])
-    return xs, ys, pipeline
-
-def get_bow_pipeline():
-    dataset = load_files('training', shuffle=True,
-                         encoding='utf-8', decode_error='ignore')
-    xs, ys = dataset.data, dataset.target
-    feature_extractor = FeatureUnion([
-        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
-        #  ('bag_of_concepts', BagOfConceptVectorizer())  # todo: implement
-        ('other_features', HandCraftedFeatureExtractor())
-    ])
-    pipeline = Pipeline([
-        ('feature_extraction', feature_extractor),
-        ('feature_selection', SelectKBest(score_func=chi2, k=1000)),
-        ('sparse_to_dense', DenseTransformer()),
-        #  ('pca', PCA(n_components=100)),
-        ('normalization', StandardScaler()),
-        # ('classifier', SVC())
-        ('classifier', MLPClassifier(max_iter=5000,
-                                     hidden_layer_sizes=(20, 20, 10), tol=1e-6, verbose=False))
-    ], memory=None, verbose=False)
-    hyperparams = {
-        'feature_selection__k': [1000],
-        'classifier__hidden_layer_sizes': [(20, 10, 10), (20, 40, 10)],
-        # 'feature_extraction__bag_of_words__ngram_range': [(1, 5)]
+def get_dataset(unit, challenge):
+    print('loading data')
+    path = 'data/unit_{}/challenge_{}/'.format(unit, challenge)
+    train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
+    test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
+    dataset = {
+        'x_train': train_data.data,
+        'y_train': train_data.target,
+        'x_test': test_data.data,
+        'test_names': [name.split('/')[-1] for name in test_data.filenames]
     }
-    return xs, ys, pipeline, hyperparams
+    return dotdict(dataset)
 
 
-def endless_random_search(xs, ys, model, param_distribution):
-    best_params = {}
-    best_model = None
+def save_predictions(dataset, unit, challenge, score):
+    path = 'predictions/unit_{}/challenge_{}/score_{}.csv'.format(unit, challenge, score)
+    with open(path, 'w') as file:
+        for name, prediction in zip(dataset.test_names, dataset.test_preds):
+            file.write('{};{}\n'.format(name, prediction))
+
+
+def fit_predict(classifier, dataset):
+    classifier = classifier.fit(dataset.x_train, dataset.y_train)
+    dataset.test_preds = classifier.predict(dataset.x_test)
+    return dataset
+
+
+def endless_random_search(model, dataset,  param_distribution):
+    print('start endless_random_search')
     best_score = 0.
+    iter = 0
     while True:
+        iter += 1
         clf = RandomizedSearchCV(model, param_distribution, n_iter=1, n_jobs=-1, cv=5, scoring='balanced_accuracy')
         try:
-            clf = clf.fit(xs, ys)
+            clf = clf.fit(dataset.x_train, dataset.y_train)
             score = clf.best_score_
             if score > best_score:
                 best_params = clf.best_params_
@@ -74,45 +64,77 @@ def endless_random_search(xs, ys, model, param_distribution):
                 best_score = score
                 print("best params")
                 print(best_params)
-                print("best score: {}".format(best_score))
+                print("best score after {} iteration{}: {}".format(iter, "s" if iter > 1 else "", best_score))
                 pickle.dump(best_model, open('best_model.bin', 'wb'))
-        except Exception as ex:
-            print('\nError (skipping param set):\n{}'.format(str(ex)))
+        except Exception:
+            print('Error (skipping param set):\n{}'.format(traceback.format_exc()))
 
 
-def big_run():
-    try:
-        print('HELLO WORLD')
-        xs, ys, pipeline, _ = get_bow_pipeline()
-        hyperparams = {
-            #  'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
-            'feature_selection__k': randint(3000, 5000),
-            'classifier__hidden_layer_sizes': [(10, 10), (10, 10, 10), (3, 10), (3, 10, 10)]
-        }
-        print('params:')
-        print(hyperparams)
-        endless_random_search(xs, ys, pipeline, hyperparams)
-    except Exception as ex:
-        print('\nError:\n{}'.format(str(ex)))
+def evaluate_classifier(classifier, dataset, n_folds=5):
+    print('evaluating classifier')
+    scores = cross_val_score(classifier, dataset.x_train, dataset.y_train, n_jobs=7, scoring='balanced_accuracy', cv=n_folds)
+    print('cross validation scores:\n{}'.format(scores))
+    return np.mean(scores)
 
 
-def evaluate_pipeline(pipeline, xs, ys, short=False):
-    if short:
-        xs_train, xs_test, ys_train, ys_test = train_test_split(xs, ys)
-        pipeline.fit(xs_train, ys_train)
-        print('accuracy: {}'.format(pipeline.score(xs_test, ys_test)))
-    else:
-        try:
-            accuracies = cross_val_score(
-                pipeline, xs, ys, verbose=51, n_jobs=7, scoring=get_scorer(), cv=2)
-            print('cross validation accuracies: {}'.format(accuracies))
-        except Exception as ex:
-            print('Error:\n{}'.format(str(ex)))
+def get_pipeline_unit1_challenge1():
+    pipeline = Pipeline([
+        ('feature_extraction', FeatureUnion([
+            ('bag_of_words', TfidfVectorizer()),
+            ('other_features', HandCraftedFeatureExtractor())])),
+        ('feature_selection', SelectKBest(score_func=chi2)),
+        ('sparse_to_dense', DenseTransformer()),
+        #('pca', PCA(n_components=2000)),
+        ('normalization', StandardScaler()),
+        ('classifier', MLPClassifier(max_iter=5000, tol=1e-6))
+    ], verbose=False)
+    return pipeline
 
 
-def main():
-    xs, ys, pipeline = get_pipeline_task2()
-    evaluate_pipeline(pipeline, xs, ys, short=True)
+def get_hyperparams_distribution_unit1_challenge1():
+    return {
+        #  'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
+        'feature_selection__k': randint(3000, 5000),
+        'classifier__hidden_layer_sizes': [(10, 10), (10, 10, 10), (3, 10), (3, 10, 10)]
+    }
+
+
+def get_best_hyperparams_unit1_challenge1():
+    return {
+        'feature_extraction__bag_of_words__ngram_range': (1, 3),
+        'feature_selection__k': 5000,
+        'classifier__hidden_layer_sizes': (10, 10, 10)
+    }
+
+
+def get_pipeline_unit1_challenge2():
+    pipeline = Pipeline([
+        ('feature_extraction', TfidfVectorizer(ngram_range=(1, 1), max_features=2000)),
+        ('sparse_to_dense', DenseTransformer()),
+        ('pca', PCA(n_components=30)),
+        ('classifier', SVC())
+    ])
+    return pipeline
+
+
+def main():  # this function is called by the bot
+    unit = 1
+    challenge = 1
+    dataset = get_dataset(unit, challenge)
+    dataset.x_train, dataset.y_train = dataset.x_train[:500], dataset.y_train[:500]
+    classifier = get_pipeline_unit1_challenge1()
+    best_params = get_best_hyperparams_unit1_challenge1()
+    classifier = classifier.set_params(**best_params)
+    evaluate_classifier(classifier, dataset)
+    n_estimators = 10
+    print('making ensemble of {} classifiers'.format(n_estimators))
+    ensemble = BaggingClassifier(classifier, n_estimators=n_estimators)
+    score = evaluate_classifier(ensemble, dataset)
+    print('making predictions')
+    dataset = fit_predict(classifier, dataset)
+    print('saving predictions')
+    save_predictions(dataset, unit, challenge, score)
+    print('done')
 
 
 if __name__ == '__main__':

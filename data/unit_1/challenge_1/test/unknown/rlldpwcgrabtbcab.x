@@ -1,0 +1,5 @@
+Subject: re : east origination
+i talked to duran . did you mean oxley ?
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+sent from my blackberry wireless handheld ( www . blackberry . net )4hda  
+amfsc

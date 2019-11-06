@@ -1,0 +1,13 @@
+Subject: continue enjoying iijournals - - renew today !
+dear vince kaminski ,
+we hope you are enjoying the benefits of receiving market - leading , rigorous
+and current research from industry experts through your subscription to
+derivatives quarterly .
+unfortunately , your subscription is about to expire ! by renewing now , your
+access to the web site and to your print copies will be uninterrupted .
+you can continue to get the exclusive research and practical advice for
+financial practitioners  ) written by the best minds in your business !
+click here to renew today
+thank you .i
+ei
+pnu7a suel

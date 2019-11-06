@@ -1,0 +1,4 @@
+Subject: october trade counts
+here is the spreadsheet . each column represents a date , starting from today going back to october 1 . only counterparties with at least 500 trades in all of october are shown .
+- - jayg@xce3 h
+tlo

@@ -1,0 +1,16 @@
+Subject: re : walium clalis vlagra
+hello ,
+# # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+and many other .
+visit pharamcybymail shhop and save up to
+6 0 %
+have a nice day .
+- - - - - original message - - - - -
+try us annd you will not be dlsappolnted !
+s nh.udiii

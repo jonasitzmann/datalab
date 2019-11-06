@@ -1,0 +1,3 @@
+Subject: start accepting credit cards
+remark international limited 50 w . dundee rd . wheeling , il 60090 this e - mail message is an advertisement and / or solicitation .
+s srchts

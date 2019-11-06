@@ -1,0 +1,5 @@
+Subject: netco
+louise ,
+i would like to chat regarding netco ' s risk group and your anticipated role for me on this team . let me know when you have a chance to discuss .
+bill l$lsin oa
+p pmi

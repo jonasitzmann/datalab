@@ -1,0 +1,5 @@
+Subject: updated schedule of trading track rotations
+pls see attached following reqeusted changes to the tt rotations .
+rgds ,
+karen . nrvwei
+anpcia

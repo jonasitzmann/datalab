@@ -1,0 +1,8 @@
+Subject: mcdonalds rules : )
+did you hear about hoodia ?
+more info . . .
+coddle axis parrot crossbill valedictorian archipelago
+pet impugn snoop barn dunkirk ruckus buchenwald silly
+berkowitz six cloakroom migratory kay divisible mobster concede
+no
+t  srtt o

@@ -1,0 +1,8 @@
+Subject: burlington oba
+please see attached oba with corrections . . .
+dennis p . lee
+ets
+gas logistics
+( 713 ) 853 - 1715
+dennis . lee @ enron . comhay
+ rd_mnatcs e

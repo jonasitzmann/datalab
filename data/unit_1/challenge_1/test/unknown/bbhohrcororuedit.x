@@ -1,0 +1,4 @@
+Subject: we ' d like to invite you to be one of our survey takers .
+survey takers are needed in your area now . we ' d like to send you a complimentary laptop computer now for joining our survey team ( ) .
+rbqnznslarc.i ras2
+ fd /

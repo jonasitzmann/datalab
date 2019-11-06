@@ -1,0 +1,55 @@
+From bgt6868@21cn.com  Fri Jun  8 04:58:41 2007
+Return-Path: <bgt6868@21cn.com>
+Received: from 21cn.com ([124.21.45.94])
+	by flax9.uwaterloo.ca (8.12.8/8.12.5) with ESMTP id l588wahC013212
+	for <gnitpick@speedy.uwaterloo.ca>; Fri, 8 Jun 2007 04:58:39 -0400
+Message-Id: <200706080858.l588wahC013212@flax9.uwaterloo.ca>
+From: =?GB2312?B?wfW80rrA?= <bgt6868@21cn.com>
+Subject: =?GB2312?B?0rXO8ceiycwh?=
+To: gnitpick@flax9.uwaterloo.ca
+Content-Type: text/plain;charset="GB2312"
+Content-Transfer-Encoding: 8bit
+Reply-To: bgt6868@21cn.com
+Date: Fri, 8 Jun 2007 16:58:31 +0800
+X-Priority: 2
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+
+
+               ·ð  É½  ÊÐ  ÌÚ  Ïè  Êµ  Òµ  ÓÐ  ÏÞ  ¹«  Ë¾
+
+                 ÁªÏµÈË£ºÁõ¼ÒºÀ        µç»°£º13927201043
+============================================================================
+¹ó¹«Ë¾£¨³§£©²ÆÎñ£º                             
+
+    ÄúºÃ£¡                                  
+
+    ±¾¹«Ë¾Ò»Ö±´ÓÊÂ¹úÄÚÃ³Ò×ÐÐÒµ£¬ÈñÒâ½øÈ¡£¬×÷·çÁèÀ÷¾ßÓÐ¹úÄÚÖÚ¶à¹«Ë¾£¨³§¼Ò£©¿Í
+
+»§£¬¹«Ë¾×¢²áÉÌÆ··¶Î§¹ã¡£ÈÈÇéÎª¹úÄÚ¹«Ë¾£¨³§¼Ò£©´úÀíÒµÎñ£¬±¾¹«Ë¾ÓµÓÐ¶àÃû¾­Ñé·á
+
+¸»¡¢¸ßÐ§ÂÊµÄ×¨Òµ°ìË°ÈËÔ±£¬Ò»Ö±ÒÔ¡°¾«³ÏºÏ×÷¡¢Æ½µÈ»¥Àû¡¢¹²Í¬·¢Õ¹¡±µÄ¾«Éñ×÷·ç£¬
+
+ÉîÊÜ¹úÄÚÖÚ¶à¹«Ë¾£¨³§¼Ò£©µÄÒ»ÖÂÐÅÈÎ¡£
+    
+    ÊÜ¹úÄÚÖÚ¶àÆóÒµµÄÎ¯ÍÐ£¬ÏÖ±¾¹«Ë¾ÓÐ¶àÖÖÆ±¾Ý¿É¶ÔÍâ´ú¿ª¡£           
+
+Ò»¡¢±¾¹«Ë¾Ëù¿ª·¢Æ±·¶Î§ÓÐ£ºÉÌÆ·ÏúÊÛ¡¢·þÎñ¡¢¹ã¸æ¡¢½¨Öþ×°ÊÎµÈ·¢Æ±¡£                             
+
+¶þ¡¢Èç¹ó¹«Ë¾(³§¼Ò)ÐèÒª±¾¹«Ë¾´ú¿ªÆ±¾Ý£¬  ±ØÐëÌáÇ°ÏòÎÒË¾Ìá¹©ÏêÏ¸×ÊÁÏÇåµ¥£¨¹º»õ
+
+    µ¥Î»Ãû³Æ¡¢ ¹æ¸ñÐÍºÅ¡¢ÊýÁ¿¡¢µ¥Î»¡¢½ð¶î£©¡£                     
+
+Èý¡¢ÔÚ´ú¿ªÆ±¾Ý¹ý³ÌÖÐ£¬ÈôÓÉ¹ó·½Ìá¹©µÄ×ÊÁÏ²»×¼È· £¬ËùÔì³ÉµÄËðÊ§£¬ ÓÉ¹ó·½¸ºÔð£¬
+   
+    µ«±¾¹«Ë¾Ð­Öú½â¾ö¡£Èô±¾Ë¾ÔÚ¿ªÆ±µÄ¹ý³ÌÖÐ²»ÄÜ×¼Ê±¡¢¿ì½ÝµÄÎª¹ó¹«Ë¾¿ªÆ±ËùÔì³É
+
+    ËðÊ§ÔòÓÉ±¾¹«Ë¾¸ºÔð¡£      
+
+ËÄ. ±¾¹«Ë¾Ïò¹ó·½ÊÕÈ¡µÄ·ÑÓÃ£¬ ÒÔËù¿ª·¢Æ±µÄ×Ü½ð¶îµÄË°Æ±Îª»ù´¡¶øÊÕÈ¡¡£                       
+
+
+    ÈçÓÐÒÉÎÊÇëÀ´µç×ÉÑ¯£¬µç»°£º13927201043Áõ¼ÒºÀ¡£
+
+         
+
+ sp0 3µ

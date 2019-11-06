@@ -1,0 +1,8 @@
+Subject: it ` s almost summer
+finally , it ` s hoodia !
+more info . . .
+chide harry quartile bop julius trickster
+armoire gettysburg deprivation megabyte crusoe humiliate
+postage du aviatrix bell polo bedspread mantissa avid fourteenth continental
+no
+0deolei  o

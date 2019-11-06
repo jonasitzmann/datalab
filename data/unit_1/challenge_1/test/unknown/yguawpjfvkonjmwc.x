@@ -1,0 +1,5 @@
+Subject: transport and storage
+louise ,
+attached is the transport and storage presentation that we used for our meeting with lavorato today . in addition , we also gave him a proposed gtc for traded physical transport capacity .
+mrhac
+   rut 

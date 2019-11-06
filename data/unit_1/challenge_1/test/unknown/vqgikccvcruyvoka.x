@@ -1,0 +1,5 @@
+Subject: ets planning weekly report
+attached is the weekly report for ets planning for the week ending september 28 , 2001 .
+please call with any questions .
+morgan gottsponerlne
+giaal  s ld

@@ -1,0 +1,6 @@
+Subject: board presentation
+attached is the board presentation . please contact faith if you have any questions .
+thanks ,
+misti
+x 39525 
+ebsuci$  ne i
