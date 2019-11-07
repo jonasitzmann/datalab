@@ -104,7 +104,7 @@ def get_hyperparams_distribution_unit1_challenge1():
 def get_best_hyperparams_unit1_challenge1():
     return {
         'feature_extraction__bag_of_words__ngram_range': (1, 3),
-        'feature_selection__k': 15000,
+        'feature_selection__k': 10000,
         'classifier__hidden_layer_sizes': (10, 10, 10)
     }
 
@@ -128,10 +128,10 @@ def main():  # this function is called by the bot
     classifier = classifier.set_params(**best_params)
     evaluate_classifier(classifier, dataset)
     n_estimators = 10
-    print('making ensemble of {} classifiers'.format(n_estimators))
+    #print('making ensemble of {} classifiers'.format(n_estimators))
     # todo: BaggingClassifier does not work
-    ensemble = VotingClassifier([(str(i), clone(classifier)) for i in range(n_estimators)])
-    score = evaluate_classifier(ensemble, dataset)
+    #ensemble = VotingClassifier([(str(i), clone(classifier)) for i in range(n_estimators)])
+    #score = evaluate_classifier(ensemble, dataset)
     print('making predictions')
     dataset = fit_predict(classifier, dataset)
     print('saving predictions')
