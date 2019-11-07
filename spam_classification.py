@@ -1,90 +1,17 @@
-import pickle
 import warnings
-import traceback
-import numpy as np
-from sklearn.datasets import load_files
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
-from sklearn.model_selection import RandomizedSearchCV
-from sklearn.model_selection import cross_val_score
-from scipy.stats import randint
 from sklearn.neural_network import MLPClassifier
-from sklearn.base import clone
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
-from sklearn.ensemble import VotingClassifier
-from helpers import dotdict
 from sklearn.decomposition import PCA
 from sklearn.svm import SVC
+from src.utils.utils import get_dataset
+from src.utils.utils import endless_random_search
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
-
-
-def get_dataset(unit, challenge):
-    print('loading data')
-    path = 'data/unit_{}/challenge_{}/'.format(unit, challenge)
-    train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
-    test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
-    dataset = {
-        'x_train': train_data.data,
-        'y_train': train_data.target,
-        'x_test': test_data.data,
-        'test_names': [name.split('/')[-1] for name in test_data.filenames],
-        'unit': unit,
-        'challenge': challenge,
-    }
-    return dotdict(dataset)
-
-
-def save_predictions(dataset, score):
-    print('saving predictions')
-    path = 'predictions/unit_{}/challenge_{}/score_{}.csv'.format(dataset.unit, dataset.challenge, score)
-    with open(path, 'w') as file:
-        for name, prediction in zip(dataset.test_names, dataset.test_preds):
-            file.write('{};{}\n'.format(name, prediction))
-
-
-def fit_predict(classifier, dataset):
-    print('fitting on entire training data')
-    classifier = classifier.fit(dataset.x_train, dataset.y_train)
-    dataset.test_preds = classifier.predict(dataset.x_test)
-    return dataset
-
-
-def endless_random_search(model, dataset,  param_distribution):
-    print('start endless_random_search')
-    best_score = 0.
-    iter = 0
-    while True:
-        iter += 1
-        clf = RandomizedSearchCV(model, param_distribution, n_iter=1, n_jobs=-1, cv=5, scoring='balanced_accuracy')
-        try:
-            clf = clf.fit(dataset.x_train, dataset.y_train)
-            score = clf.best_score_
-            if score > best_score:
-                best_params = clf.best_params_
-                best_model = clf.best_estimator_
-                best_score = score
-                print("best params")
-                print(best_params)
-                print("best score after {} iteration{}: {}".format(iter, "s" if iter > 1 else "", best_score))
-                best_model = clf.best_estimator_
-                dataset = fit_predict(best_model, dataset)
-                save_predictions(dataset, best_score)
-                
-        except Exception:
-            print('Error (skipping param set):\n{}'.format(traceback.format_exc()))
-
-
-def evaluate_classifier(classifier, dataset, n_folds=5):
-    print('evaluating classifier')
-    scores = cross_val_score(classifier, dataset.x_train, dataset.y_train, n_jobs=7, scoring='balanced_accuracy', cv=n_folds)
-    print('cross validation scores:\n{}'.format(scores))
-    mean_score = np.mean(scores)
-    print('mean score: {}'.format(mean_score))
-    return mean_score
 
 
 def get_pipeline_unit1_challenge1():
@@ -126,10 +53,15 @@ def get_pipeline_unit1_challenge2():
     return pipeline
 
 
-def main():  # this function is called by the bot
-    dataset = get_dataset(1, 1)
-    classifier = get_pipeline_unit1_challenge1()
-    params = get_hyperparams_distribution_unit1_challenge1()
+get_pipeline_funcs = [[get_pipeline_unit1_challenge1, get_pipeline_unit1_challenge2]]
+get_best_param_funcs = [[get_best_hyperparams_unit1_challenge1]]
+get_param_distribution_funcs = [[get_hyperparams_distribution_unit1_challenge1]]
+
+
+def main(unit=1, challenge=1):  # this function is called by the bot
+    dataset = get_dataset(unit, challenge)
+    classifier = get_pipeline_funcs[unit-1][challenge-1]()  # zero indexing
+    params = get_param_distribution_funcs[unit-1][challenge-1]()  # zero indexing
     endless_random_search(classifier, dataset, params)
 
 
