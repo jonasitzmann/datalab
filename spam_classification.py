@@ -69,4 +69,4 @@ def main(unit=1, challenge=1):  # this function is called by the bot
 
 
 if __name__ == '__main__':
-    merge_predictions(1, 1, 9)
+    merge_predictions(1, 1, 5)

@@ -81,7 +81,7 @@ def merge_predictions(unit, challenge, n_best):
     scores_files = sorted([(float(os.path.basename(file)[6:-4]), file) for file in files])[-n_best:]
     all_predictions = pd.DataFrame()
     for score, file in scores_files:
-        df = pd.read_csv(file, sep=';', header=0, names=['name', 'prediction'])
+        df = pd.read_csv(file, sep=';', header=None, names=['name', 'prediction'])
         df = df.sort_values(by='name')
         all_predictions["name"] = df.name
         all_predictions[score] = df.prediction
@@ -92,6 +92,7 @@ def merge_predictions(unit, challenge, n_best):
     if not os.path.exists(path):
         os.mkdir(path)
     filename = '{}/voted_{}.csv'.format(path, dt_string)
+    all_predictions['name'] = ['data/spam1-test/' + name for name in all_predictions['name']]
     all_predictions[['name', 'voted']].to_csv(filename, index=False, sep=';', header=False, float_format='%.0f')
 
 
