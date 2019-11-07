@@ -1,9 +1,12 @@
+from datetime import datetime
 import traceback
 import numpy as np
+import pandas as pd
+import os
+from glob import glob
 from sklearn.datasets import load_files
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
-from scipy.stats import randint
 from helpers import dotdict
 
 
@@ -70,5 +73,28 @@ def evaluate_classifier(classifier, dataset, n_folds=5):
     mean_score = np.mean(scores)
     print('mean score: {}'.format(mean_score))
     return mean_score
+
+
+def merge_predictions(unit, challenge, n_best):
+    path = 'predictions/unit_{}/challenge_{}/'.format(unit, challenge)
+    files = glob(path + '*.csv')
+    scores_files = sorted([(float(os.path.basename(file)[6:-4]), file) for file in files])[-n_best:]
+    all_predictions = pd.DataFrame()
+    for score, file in scores_files:
+        df = pd.read_csv(file, sep=';', header=0, names=['name', 'prediction'])
+        df = df.sort_values(by='name')
+        all_predictions["name"] = df.name
+        all_predictions[score] = df.prediction
+    all_predictions['mean_pred'] = all_predictions.drop(columns='name').mean(axis=1)
+    all_predictions['voted'] = all_predictions.mean_pred.round()
+    dt_string = datetime.now().strftime("%d.%m__%H:%M:%S")
+    path += 'voted/'
+    if not os.path.exists(path):
+        os.mkdir(path)
+    filename = '{}/voted_{}.csv'.format(path, dt_string)
+    all_predictions[['name', 'voted']].to_csv(filename, index=False, sep=';', header=False, float_format='%.0f')
+
+
+
 
 

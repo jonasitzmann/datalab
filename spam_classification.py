@@ -10,6 +10,8 @@ from sklearn.decomposition import PCA
 from sklearn.svm import SVC
 from src.utils.utils import get_dataset
 from src.utils.utils import endless_random_search
+from src.utils.utils import merge_predictions
+
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -65,5 +67,6 @@ def main(unit=1, challenge=1):  # this function is called by the bot
     endless_random_search(classifier, dataset, params)
 
 
+
 if __name__ == '__main__':
-    main()
+    merge_predictions(1, 1, 9)
