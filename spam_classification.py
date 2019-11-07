@@ -126,7 +126,7 @@ def main():  # this function is called by the bot
     classifier = get_pipeline_unit1_challenge1()
     best_params = get_best_hyperparams_unit1_challenge1()
     classifier = classifier.set_params(**best_params)
-    evaluate_classifier(classifier, dataset)
+    score = evaluate_classifier(classifier, dataset)
     n_estimators = 10
     #print('making ensemble of {} classifiers'.format(n_estimators))
     # todo: BaggingClassifier does not work
