@@ -18,6 +18,7 @@ from subprocess import Popen
 from subprocess import check_output
 import logging
 import os
+import re
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
@@ -41,21 +42,22 @@ def help(update, context):
 
 
 def send(text, chat_id):
-    Popen("bot '{}' '{}'".format(text, chat_id), shell=True)
+    os.system("bot '{}' '{}'".format(text, chat_id))
 
 
 def echo(update, context):
     chat_id = update.effective_chat.id
     text = update.message.text
     cmd_out = ""
-    if text.lower() == 'run':
+    m = re.match("(train|test) (\d) (\d)", text.lower())
+    if m:
         send('pulling', chat_id)
-        Popen("git pull", shell=True)
+        send(check_output(["git pull"], shell=True))
         send('executing run.py', chat_id)
-        Popen("/home/stud06/env/bin/python run.py '{}'".format(chat_id), shell=True)
+        args = '--mode {} --unit {} --challenge {} --chat_id {}'.format(m.group(1), m.group(2), m.group(3), chat_id)
+        Popen("/home/stud06/env/bin/python run.py '{}'".format(args), shell=True)
     elif text.lower() == 'pull':
         send('pulling', chat_id)
-        cmd_out = check_output(["git pull"], shell=True)
     elif text.lower() == 'push':
         send('pushing', chat_id)
         cmd_out = check_output(["git add -A; git commit -m 'bot commit'; git push"], shell=True)

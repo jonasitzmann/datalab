@@ -7,7 +7,13 @@ from glob import glob
 from sklearn.datasets import load_files
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
-from helpers import dotdict
+
+
+class dotdict(dict):
+    """dot.notation access to dictionary attributes"""
+    __getattr__ = dict.get
+    __setattr__ = dict.__setitem__
+    __delattr__ = dict.__delitem__
 
 
 def get_dataset(unit, challenge):

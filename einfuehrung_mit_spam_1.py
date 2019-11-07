@@ -20,7 +20,6 @@ import warnings
 import spacy
 import pickle
 from singleton_decorator import singleton
-from helpers import cache_result
 warnings.simplefilter(
     action='ignore',
     category=FutureWarning)  # disable future warnings
@@ -126,7 +125,7 @@ def load_embeddings(dirname, n_samples=-1):
 def flatten(l): return (item for sublist in l for item in sublist)
 
 
-@cache_result
+#@cache_result
 def fit_k_means(samples):
     print("k_means_clustering")
     k_means = MiniBatchKMeans(
