@@ -102,9 +102,9 @@ def get_pipeline_unit1_challenge1():
 
 def get_hyperparams_distribution_unit1_challenge1():
     return {
-        'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 4)],
-        'feature_selection__k': randint(5000, 15000),
-        'classifier__hidden_layer_sizes': [(10, 10), (8, 8), (7, 15)]
+        'feature_extraction__bag_of_words__ngram_range': [(1, 3)],
+        'feature_selection__k': [20000],
+        'classifier__hidden_layer_sizes': [(5, 10), (10, 10), (5, 5), (10, 5)]
     }
 
 
