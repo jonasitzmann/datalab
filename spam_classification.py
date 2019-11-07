@@ -32,18 +32,22 @@ def get_dataset(unit, challenge):
         'y_train': train_data.target,
         'x_test': test_data.data,
         'test_names': [name.split('/')[-1] for name in test_data.filenames]
+        'unit': unit
+        'challenge': challenge
     }
     return dotdict(dataset)
 
 
-def save_predictions(dataset, unit, challenge, score):
-    path = 'predictions/unit_{}/challenge_{}/score_{}.csv'.format(unit, challenge, score)
+def save_predictions(dataset, score):
+    print('saving predictions')
+    path = 'predictions/unit_{}/challenge_{}/score_{}.csv'.format(dataset.unit, dataset.challenge, score)
     with open(path, 'w') as file:
         for name, prediction in zip(dataset.test_names, dataset.test_preds):
             file.write('{};{}\n'.format(name, prediction))
 
 
 def fit_predict(classifier, dataset):
+    print('fitting on entire training data')
     classifier = classifier.fit(dataset.x_train, dataset.y_train)
     dataset.test_preds = classifier.predict(dataset.x_test)
     return dataset
@@ -66,7 +70,10 @@ def endless_random_search(model, dataset,  param_distribution):
                 print("best params")
                 print(best_params)
                 print("best score after {} iteration{}: {}".format(iter, "s" if iter > 1 else "", best_score))
-                pickle.dump(best_model, open('best_model.bin', 'wb'))
+                best_model = clf.best_model_
+                dataset = fit_predict(best_model, dataset)
+                save_predictions(dataset, best_score)
+                
         except Exception:
             print('Error (skipping param set):\n{}'.format(traceback.format_exc()))
 
@@ -95,9 +102,9 @@ def get_pipeline_unit1_challenge1():
 
 def get_hyperparams_distribution_unit1_challenge1():
     return {
-        #  'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 5)],
-        'feature_selection__k': randint(3000, 5000),
-        'classifier__hidden_layer_sizes': [(10, 10), (10, 10, 10), (3, 10), (3, 10, 10)]
+        'feature_extraction__bag_of_words__ngram_range': [(1, 3), (1, 4)],
+        'feature_selection__k': randint(5000, 15000),
+        'classifier__hidden_layer_sizes': [(10, 10), (8, 8), (7, 15)]
     }
 
 
@@ -120,23 +127,10 @@ def get_pipeline_unit1_challenge2():
 
 
 def main():  # this function is called by the bot
-    unit = 1
-    challenge = 1
-    dataset = get_dataset(unit, challenge)
+    dataset = get_dataset(1, 1)
     classifier = get_pipeline_unit1_challenge1()
-    best_params = get_best_hyperparams_unit1_challenge1()
-    classifier = classifier.set_params(**best_params)
-    score = evaluate_classifier(classifier, dataset)
-    n_estimators = 10
-    #print('making ensemble of {} classifiers'.format(n_estimators))
-    # todo: BaggingClassifier does not work
-    #ensemble = VotingClassifier([(str(i), clone(classifier)) for i in range(n_estimators)])
-    #score = evaluate_classifier(ensemble, dataset)
-    print('making predictions')
-    dataset = fit_predict(classifier, dataset)
-    print('saving predictions')
-    save_predictions(dataset, unit, challenge, score)
-    print('done')
+    params = get_hyperparams_distribution_unit1_challenge1()
+    endless_random_search(classifier, dataset, params)
 
 
 if __name__ == '__main__':
