@@ -75,7 +75,9 @@ def evaluate_classifier(classifier, dataset, n_folds=5):
     print('evaluating classifier')
     scores = cross_val_score(classifier, dataset.x_train, dataset.y_train, n_jobs=7, scoring='balanced_accuracy', cv=n_folds)
     print('cross validation scores:\n{}'.format(scores))
-    return np.mean(scores)
+    mean_score = np.mean(scores)
+    print('mean score: {}'.format(mean_score))
+    return mean_score
 
 
 def get_pipeline_unit1_challenge1():
@@ -123,7 +125,6 @@ def main():  # this function is called by the bot
     unit = 1
     challenge = 1
     dataset = get_dataset(unit, challenge)
-    dataset.x_train, dataset.y_train = dataset.x_train[:50], dataset.y_train[:50]
     dataset.x_train = np.array(dataset.x_train).reshape(-1, 1)
     dataset.x_test = np.array(dataset.x_test).reshape(-1, 1)
     classifier = get_pipeline_unit1_challenge1()
