@@ -9,12 +9,12 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
 from scipy.stats import randint
 from sklearn.neural_network import MLPClassifier
-from sklearn.ensemble import BaggingClassifier
+from sklearn.base import clone
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
-from sklearn.preprocessing import FunctionTransformer
+from sklearn.ensemble import VotingClassifier
 from helpers import dotdict
 from sklearn.decomposition import PCA
 from sklearn.svm import SVC
@@ -82,13 +82,11 @@ def evaluate_classifier(classifier, dataset, n_folds=5):
 
 def get_pipeline_unit1_challenge1():
     pipeline = Pipeline([
-        ('to_texts', FunctionTransformer(lambda xs: [x[0] for x in xs])),
         ('feature_extraction', FeatureUnion([
             ('bag_of_words', TfidfVectorizer()),
             ('other_features', HandCraftedFeatureExtractor())])),
         ('feature_selection', SelectKBest(score_func=chi2)),
         ('sparse_to_dense', DenseTransformer()),
-        #('pca', PCA(n_components=2000)),
         ('normalization', StandardScaler()),
         ('classifier', MLPClassifier(max_iter=5000, tol=1e-6))
     ], verbose=False)
@@ -106,7 +104,7 @@ def get_hyperparams_distribution_unit1_challenge1():
 def get_best_hyperparams_unit1_challenge1():
     return {
         'feature_extraction__bag_of_words__ngram_range': (1, 3),
-        'feature_selection__k': 5000,
+        'feature_selection__k': 4000,
         'classifier__hidden_layer_sizes': (10, 10, 10)
     }
 
@@ -125,15 +123,14 @@ def main():  # this function is called by the bot
     unit = 1
     challenge = 1
     dataset = get_dataset(unit, challenge)
-    dataset.x_train = np.array(dataset.x_train).reshape(-1, 1)
-    dataset.x_test = np.array(dataset.x_test).reshape(-1, 1)
     classifier = get_pipeline_unit1_challenge1()
     best_params = get_best_hyperparams_unit1_challenge1()
     classifier = classifier.set_params(**best_params)
     evaluate_classifier(classifier, dataset)
     n_estimators = 10
     print('making ensemble of {} classifiers'.format(n_estimators))
-    ensemble = BaggingClassifier(classifier, n_estimators=n_estimators, n_jobs=7, max_features=0.8, max_samples=0.8)
+    # todo: BaggingClassifier does not work
+    ensemble = VotingClassifier([(str(i), clone(classifier)) for i in range(n_estimators)])
     score = evaluate_classifier(ensemble, dataset)
     print('making predictions')
     dataset = fit_predict(classifier, dataset)
