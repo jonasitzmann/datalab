@@ -14,6 +14,7 @@ from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
+from sklearn.preprocessing import FunctionTransformer
 from helpers import dotdict
 from sklearn.decomposition import PCA
 from sklearn.svm import SVC
@@ -79,6 +80,7 @@ def evaluate_classifier(classifier, dataset, n_folds=5):
 
 def get_pipeline_unit1_challenge1():
     pipeline = Pipeline([
+        ('to_texts', FunctionTransformer(lambda xs: [x[0] for x in xs])),
         ('feature_extraction', FeatureUnion([
             ('bag_of_words', TfidfVectorizer()),
             ('other_features', HandCraftedFeatureExtractor())])),
@@ -86,7 +88,7 @@ def get_pipeline_unit1_challenge1():
         ('sparse_to_dense', DenseTransformer()),
         #('pca', PCA(n_components=2000)),
         ('normalization', StandardScaler()),
-        ('classifier', MLPClassifier(max_iter=5000, tol=1e-6))
+        ('classifier', MLPClassifier(max_iter=50, tol=1e-6))
     ], verbose=False)
     return pipeline
 
@@ -121,14 +123,16 @@ def main():  # this function is called by the bot
     unit = 1
     challenge = 1
     dataset = get_dataset(unit, challenge)
-    dataset.x_train, dataset.y_train = dataset.x_train[:500], dataset.y_train[:500]
+    dataset.x_train, dataset.y_train = dataset.x_train[:50], dataset.y_train[:50]
+    dataset.x_train = np.array(dataset.x_train).reshape(-1, 1)
+    dataset.x_test = np.array(dataset.x_test).reshape(-1, 1)
     classifier = get_pipeline_unit1_challenge1()
     best_params = get_best_hyperparams_unit1_challenge1()
     classifier = classifier.set_params(**best_params)
     evaluate_classifier(classifier, dataset)
     n_estimators = 10
     print('making ensemble of {} classifiers'.format(n_estimators))
-    ensemble = BaggingClassifier(classifier, n_estimators=n_estimators)
+    ensemble = BaggingClassifier(classifier, n_estimators=n_estimators, n_jobs=7, max_features=0.8, max_samples=0.8)
     score = evaluate_classifier(ensemble, dataset)
     print('making predictions')
     dataset = fit_predict(classifier, dataset)
