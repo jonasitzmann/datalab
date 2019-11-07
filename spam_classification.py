@@ -70,7 +70,7 @@ def endless_random_search(model, dataset,  param_distribution):
                 print("best params")
                 print(best_params)
                 print("best score after {} iteration{}: {}".format(iter, "s" if iter > 1 else "", best_score))
-                best_model = clf.best_model_
+                best_model = clf.best_estimator_
                 dataset = fit_predict(best_model, dataset)
                 save_predictions(dataset, best_score)
                 
