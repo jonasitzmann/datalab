@@ -90,7 +90,7 @@ def get_pipeline_unit1_challenge1():
         ('sparse_to_dense', DenseTransformer()),
         #('pca', PCA(n_components=2000)),
         ('normalization', StandardScaler()),
-        ('classifier', MLPClassifier(max_iter=50, tol=1e-6))
+        ('classifier', MLPClassifier(max_iter=5000, tol=1e-6))
     ], verbose=False)
     return pipeline
 
