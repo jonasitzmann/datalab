@@ -9,9 +9,9 @@ if len(sys.argv) > 1:
     chat_id = sys.argv[1]
     sys.stdout = Logger(chat_id)
 else:
-    import spam_classification
     print("chat_id is required for tg logging")
 try:
+    import spam_classification
     spam_classification.main()
 except Exception:
     print(traceback.format_exc())
