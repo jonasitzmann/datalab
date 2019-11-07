@@ -31,9 +31,9 @@ def get_dataset(unit, challenge):
         'x_train': train_data.data,
         'y_train': train_data.target,
         'x_test': test_data.data,
-        'test_names': [name.split('/')[-1] for name in test_data.filenames]
-        'unit': unit
-        'challenge': challenge
+        'test_names': [name.split('/')[-1] for name in test_data.filenames],
+        'unit': unit,
+        'challenge': challenge,
     }
     return dotdict(dataset)
 
