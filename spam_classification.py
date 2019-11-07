@@ -104,7 +104,7 @@ def get_hyperparams_distribution_unit1_challenge1():
 def get_best_hyperparams_unit1_challenge1():
     return {
         'feature_extraction__bag_of_words__ngram_range': (1, 3),
-        'feature_selection__k': 40000,
+        'feature_selection__k': 15000,
         'classifier__hidden_layer_sizes': (10, 10, 10)
     }
 
