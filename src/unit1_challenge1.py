@@ -41,6 +41,6 @@ class Task(BaseTask):
     def get_params(self):
         return {
             'feature_extraction__bag_of_words__ngram_range': (1, 3),
-            'feature_selection__k': 5000,
+            'feature_selection__k': 10000,
             #'classifier__hidden_layer_sizes': (10, 10, 10)
         }
