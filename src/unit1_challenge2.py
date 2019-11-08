@@ -38,14 +38,15 @@ class Task(BaseTask):
         super(Task, self).__init__()
 
     def get_model(self):
+        print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
         pipeline = Pipeline([
             ('feature_extraction', TfidfVectorizer(ngram_range=(1, 1), max_features=1000)),
             ('sparse_to_dense', DenseTransformer()),
             ('pca', PCA(n_components=30)),
             ('classifier', SVC())
         ])
-        xspam = XSpamClassifier()
-        switcher = ClfSwitcher(xspam, pipeline, lambda x: xspam.trigger_text in x)
+        #xspam = XSpamClassifier()
+        #switcher = ClfSwitcher(xspam, pipeline, lambda x: xspam.trigger_text in x)
         return Pipeline([
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
