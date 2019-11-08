@@ -13,13 +13,13 @@ parser.add_argument('--samples_factor', type=float, required=False, default=1.0)
 parser.add_argument('--chat_id', type=int, required=False, default=None)
 args = parser.parse_args()
 
-print("installing packages from requirements.txt")
-os.system('pip install -r requirements.txt > /dev/null')
-print('done')
 
 if args.chat_id is not None:
     sys.stdout = Logger(args.chat_id)
 try:
+    print("installing packages from requirements.txt")
+    os.system('pip install -r requirements.txt > /dev/null')
+    print('done')
     from main import get_task
     task = get_task(args.unit, args.challenge, args.samples_factor)
     if args.mode == TRAIN_STR:
