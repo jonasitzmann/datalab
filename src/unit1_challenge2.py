@@ -60,7 +60,11 @@ class Task(BaseTask):
         return {}
 
     def get_params(self):
-        return {}
+        return {
+            'feature_extraction__bag_of_words__ngram_range': (1, 3),
+            'feature_selection__k': 1000,
+            'classifier__hidden_layer_sizes': (10, 10)
+        }
 
     @property
     def unit(self):
