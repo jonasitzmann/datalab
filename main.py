@@ -11,5 +11,5 @@ def get_task(unit, challenge, samples_factor=1):
 
 
 if __name__ == '__main__':
-    task: BaseTask = get_task(unit=1, challenge=2, samples_factor=0.05)
-    task.evaluate(n_folds=3)
+    task: BaseTask = get_task(unit=1, challenge=2, samples_factor=0.1)
+    task.evaluate()

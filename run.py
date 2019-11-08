@@ -18,7 +18,7 @@ if args.chat_id is not None:
     sys.stdout = Logger(args.chat_id)
 try:
     print("installing packages from requirements.txt")
-    os.system('pip install -r requirements.txt > /dev/null')
+    os.system('pip install -r requirements.txt')
     print('done')
     from main import get_task
     task = get_task(args.unit, args.challenge, args.samples_factor)
