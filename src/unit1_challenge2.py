@@ -34,8 +34,8 @@ class XSpamClassifier(BaseEstimator, ClassifierMixin):
 
 
 class Task(BaseTask):
-    def __init__(self):
-        super(Task, self).__init__()
+    # def __init__(self, samples_factor):
+    #     super(Task, self).__init__(samples_factor)
 
     def get_model(self):
         print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
@@ -45,7 +45,7 @@ class Task(BaseTask):
             ('pca', PCA(n_components=30)),
             ('classifier', SVC())
         ])
-        #xspam = XSpamClassifier()
+        # xspam = XSpamClassifier()
         #switcher = ClfSwitcher(xspam, pipeline, lambda x: xspam.trigger_text in x)
         return Pipeline([
             ('feature_extraction', FeatureUnion([

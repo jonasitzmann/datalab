@@ -17,14 +17,15 @@ class dotdict(dict):
     __delattr__ = dict.__delitem__
 
 
-def get_dataset(unit, challenge):
-    print('loading data')
+def get_dataset(unit, challenge, samples_factor):
+    print('loading dataset (using {0:.0%} of the training data)'.format(samples_factor))
     path = 'data/unit_{}/challenge_{}/'.format(unit, challenge)
     train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
     test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
+    n_samples_train = int(len(train_data.data) * samples_factor)
     dataset = {
-        'x_train': train_data.data,
-        'y_train': train_data.target,
+        'x_train': train_data.data[:n_samples_train],
+        'y_train': train_data.target[:n_samples_train],
         'x_test': test_data.data,
         'test_names': [name.split('/')[-1] for name in test_data.filenames],
         'unit': unit,
