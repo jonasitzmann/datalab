@@ -52,7 +52,7 @@ def echo(update, context):
     m = re.match("(train|test) (\d) (\d)", text.lower())
     if m:
         send('pulling', chat_id)
-        send(check_output(["git pull"], shell=True))
+        send(check_output(["git pull"], shell=True), chat_id)
         send('executing run.py', chat_id)
         args = '--mode {} --unit {} --challenge {} --chat_id {}'.format(m.group(1), m.group(2), m.group(3), chat_id)
         Popen("/home/stud06/env/bin/python run.py '{}'".format(args), shell=True)
