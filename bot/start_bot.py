@@ -55,9 +55,7 @@ def echo(update, context):
         send(check_output(["git pull"], shell=True), chat_id)
         send('executing run.py', chat_id)
         args = '--mode {} --unit {} --challenge {} --chat_id {}'.format(m.group(1), m.group(2), m.group(3), chat_id)
-        print(args)
-        send(args, chat_id)
-        Popen("/home/stud06/env/bin/python run.py '{}'".format(args), shell=True)
+        Popen("/home/stud06/env/bin/python run.py {}".format(args), shell=True)
     elif text.lower() == 'pull':
         send('pulling', chat_id)
     elif text.lower() == 'push':
