@@ -166,7 +166,12 @@ def get_vectorizer(texts_for_fitting):
 
 
 def extract_subject(text):
-    return re.search("Subject: (.*?)\n", text).group(1)
+    match = re.search("Subject: (.*?)\n", text)
+    if match is None:
+        return ""
+    else:
+        return match.group(1)
+
 
 
 def count_trigger_words(text):
