@@ -54,7 +54,10 @@ def echo(update, context):
         send('pulling', chat_id)
         send(check_output(["git pull"], shell=True), chat_id)
         send('executing run.py', chat_id)
-        args = '--mode {} --unit {} --challenge {} --chat_id {}'.format(m.group(1), m.group(2), m.group(3), chat_id)
+        samples_factor_match = re.match("(\d?)%", text.lower())
+        samples_factor = samples_factor_match.group(1) / 100 if samples_factor_match else 1
+        args = '--mode {} --unit {} --challenge {} --samples_factor {} --chat_id {}'.\
+            format(m.group(1), m.group(2), m.group(3), samples_factor, chat_id)
         Popen("/home/stud06/env/bin/python run.py {}".format(args), shell=True)
     elif text.lower() == 'pull':
         send('pulling', chat_id)

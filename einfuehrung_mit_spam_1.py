@@ -173,7 +173,6 @@ def extract_subject(text):
         return match.group(1)
 
 
-
 def count_trigger_words(text):
     global trigger_words
     if not trigger_words:
