@@ -18,7 +18,7 @@ class dotdict(dict):
 
 
 def get_dataset(unit, challenge, samples_factor):
-    print('loading dataset (using {0:.0%} of the training data)'.format(samples_factor))
+    print('loading {0:.0%} of the training data'.format(samples_factor))
     path = 'data/unit_{}/challenge_{}/'.format(unit, challenge)
     train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
     test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
