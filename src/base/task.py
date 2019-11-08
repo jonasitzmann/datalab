@@ -35,6 +35,7 @@ class BaseTask(ABC):
 
     def evaluate(self, n_folds=5):
         dataset = get_dataset(self.unit, self.challenge)
+        print('model: \n'.format(self.model))
         score = evaluate_classifier(self.model, dataset, n_folds=n_folds)
         return score
 
