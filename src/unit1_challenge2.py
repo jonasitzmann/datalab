@@ -11,7 +11,6 @@ class Task(BaseTask):
         super(Task, self).__init__()
 
     def get_model(self):
-        print('get_model')
         pipeline = Pipeline([
             ('feature_extraction', TfidfVectorizer(ngram_range=(1, 1), max_features=2000)),
             ('sparse_to_dense', DenseTransformer()),
@@ -21,11 +20,9 @@ class Task(BaseTask):
         return pipeline
 
     def get_param_distribution(self):
-        print('get_param_distribution')
         return {}
 
     def get_params(self):
-        print('get_params')
         return {}
 
     @property

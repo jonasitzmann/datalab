@@ -6,7 +6,7 @@ from src.utils.utils import evaluate_classifier
 
 class BaseTask(ABC):
     def __init__(self):
-        print('working on unit {}, challenge {}'.format(self.unit, self.challenge))
+        print('working on **unit {}**, **challenge {}**'.format(self.unit, self.challenge))
         pass
 
     @property
