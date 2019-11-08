@@ -58,6 +58,7 @@ def echo(update, context):
         Popen("/home/stud06/env/bin/python run.py {}".format(args), shell=True)
     elif text.lower() == 'pull':
         send('pulling', chat_id)
+        send(check_output(["git pull"], shell=True), chat_id)
     elif text.lower() == 'push':
         send('pushing', chat_id)
         cmd_out = check_output(["git add -A; git commit -m 'bot commit'; git push"], shell=True)
