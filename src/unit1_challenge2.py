@@ -15,38 +15,35 @@ from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
+from sknn.mlp import Classifier as SknnMLP, Layer
 
 
 class XSpamClassifier(BaseEstimator, ClassifierMixin):
+
     def __init__(self):
         self.trigger_text = 'X-Spam-Status: No'
 
-    def fit(self, X, y=None, **fit_params):
+    def fit(self, x, y=None, **fit_params):
         return self
 
-    def predict(self, X, y=None):
-        return np.array([self.trigger_text not in text for text in X])
+    def predict(self, x, y=None):
+        return np.array([self.trigger_text not in text for text in x])
 
     def do_apply(self, text):
         return self.trigger_text in text
 
 
-
-
 class Task(BaseTask):
-    # def __init__(self, samples_factor):
-    #     super(Task, self).__init__(samples_factor)
 
     def get_model(self):
         print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
-        pipeline = Pipeline([
-            ('feature_extraction', TfidfVectorizer(ngram_range=(1, 1), max_features=1000)),
-            ('sparse_to_dense', DenseTransformer()),
-            ('pca', PCA(n_components=30)),
-            ('classifier', SVC())
-        ])
-        # xspam = XSpamClassifier()
-        #switcher = ClfSwitcher(xspam, pipeline, lambda x: xspam.trigger_text in x)
+        mlp = SknnMLP(
+            layers=[Layer(units=10), Layer(units=10)],
+            learning_rule='adam',
+            n_iter=5000,
+            f_stable=1e-6,
+            batch_size=200
+        )
         return Pipeline([
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
@@ -54,7 +51,8 @@ class Task(BaseTask):
             ('feature_selection', SelectKBest(score_func=chi2, k=10000)),
             ('sparse_to_dense', DenseTransformer()),
             ('normalization', StandardScaler()),
-            ('classifier', MLPClassifier(max_iter=5000, tol=1e-6, hidden_layer_sizes=(10, 10)))
+            # ('classifier', MLPClassifier(max_iter=5000, tol=1e-6, hidden_layer_sizes=(10, 10)))
+            mlp
         ], verbose=False)
 
     def get_param_distribution(self):
