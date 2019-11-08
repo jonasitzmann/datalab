@@ -7,6 +7,7 @@ from glob import glob
 from sklearn.datasets import load_files
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
+from sklearn.base import BaseEstimator
 
 
 class dotdict(dict):
@@ -102,6 +103,40 @@ def merge_predictions(unit, challenge, n_best):
     all_predictions[['name', 'voted']].to_csv(filename, index=False, sep=';', header=False, float_format='%.0f')
 
 
+class ClfSwitcher(BaseEstimator):
+
+    def __init__(self, model1, model2, take_model1):
+        self.model1 = model1
+        self.model2 = model2
+        self.take_model1 = take_model1
+
+    def split(self, x, y=None):
+        idxs = range(len(x))
+        model1_idxs = [i for i in idxs if self.take_model1(x[i])]
+        model2_idxs = [i for i in idxs if i not in model1_idxs]
+        x1 = [x_i for i, x_i in enumerate(x) if i in model1_idxs]
+        x2 = [x_i for i, x_i in enumerate(x) if i in model2_idxs]
+        if y is not None:
+            y1 = np.array(y)[model1_idxs]
+            y2 = np.array(y)[model2_idxs]
+            return x1, y1, x2, y2
+        else:
+            return x1, x2, model1_idxs, model2_idxs
+
+    def fit(self, x, y, **kwargs):
+        x1, y1, x2, y2 = self.split(x, y)
+        self.model1 = self.model1.fit(x1, y1)
+        self.model2 = self.model2.fit(x2, y2)
+        return self
+
+    def predict(self, x, y=None):
+        x1, x2, model1_idxs, model2_idxs = self.split(x)
+        preds_1 = self.model1.predict(x1)
+        preds_2 = self.model2.predict(x2)
+        preds = np.zeros(len(x))
+        preds[model1_idxs] = preds_1
+        preds[model2_idxs] = preds_2
+        return preds
 
 
 

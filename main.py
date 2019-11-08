@@ -1,5 +1,6 @@
 import warnings
 import importlib
+from src.base.task import BaseTask
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
@@ -10,5 +11,6 @@ def get_task(unit, challenge):
 
 
 if __name__ == '__main__':
-    task = get_task(unit=1, challenge=2)
-    task.evaluate()
+    task: BaseTask = get_task(unit=1, challenge=2)
+    from src.unit1_challenge2 import XSpamClassifier
+    task.evaluate(n_folds=3)

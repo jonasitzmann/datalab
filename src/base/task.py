@@ -7,7 +7,9 @@ from src.utils.utils import evaluate_classifier
 class BaseTask(ABC):
     def __init__(self):
         print('working on **unit {}**, **challenge {}**'.format(self.unit, self.challenge))
-        pass
+        self.model = self.get_model()
+        self.param_distribution = self.get_param_distribution()
+        self.model = self.model.set_params(**self.get_params())
 
     @property
     @abstractmethod
@@ -31,16 +33,11 @@ class BaseTask(ABC):
     def get_params(self):
         pass
 
-    def evaluate(self):
+    def evaluate(self, n_folds=5):
         dataset = get_dataset(self.unit, self.challenge)
-        model = self.get_model()
-        params = self.get_params()
-        model = model.set_params(**params)
-        score = evaluate_classifier(model, dataset)
+        score = evaluate_classifier(self.model, dataset, n_folds=n_folds)
         return score
 
     def find_params(self):
         dataset = get_dataset(self.unit, self.challenge)
-        model = self.get_model()
-        params = self.get_param_distribution()
-        endless_random_search(model, dataset, params)
+        endless_random_search(self.model, dataset, self.param_distribution)
