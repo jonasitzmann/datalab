@@ -23,9 +23,9 @@ class Task(BaseTask):
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer()),
                 ('other_features', HandCraftedFeatureExtractor())])),
-            ('feature_selection', SelectKBest(score_func=chi2)),
-            ('sparse_to_dense', DenseTransformer()),
-            ('normalization', StandardScaler()),
+            #('feature_selection', SelectKBest(score_func=chi2)),
+            #('sparse_to_dense', DenseTransformer()),
+            #('normalization', StandardScaler()),
             ('classifier', GaussianNB())
             #('classifier', MLPClassifier(max_iter=5000, tol=1e-6))
         ], verbose=False)
