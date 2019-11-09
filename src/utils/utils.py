@@ -201,16 +201,18 @@ def couple_params(obj1: BaseEstimator, param1, obj2: BaseEstimator, param2):
 
 def cross_validate(model: ClassifierMixin, dataset, n_folds):
     print("cross validation using balanced accuracy")
-    xs, ys = np.array(dataset.x_train), dataset.y_train
+    xs, ys = dataset.x_train, dataset.y_train
     scorer = make_scorer(balanced_accuracy_score)
     k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
     scores = []
     # starts with 0 if key is not yet present
     # misclassifications = defaultdict(int)
     for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
-        xs_train, ys_train = xs[train_idxs], ys[train_idxs]
-        xs_test, ys_test = xs[test_idxs], ys[test_idxs]
-        model.fit(xs_train, ys_train)  # todo: add x_test for unsupervised pre-learning
+        xs_train = [xs[idx] for idx in train_idxs]
+        xs_test = [xs[idx] for idx in test_idxs]
+        ys_train = ys[train_idxs]
+        ys_test = ys[test_idxs]
+        model.fit(xs_train, ys_train)
         score = scorer(model, xs_test, ys_test)
         scores.append(score)
         # for idx, result in enumerate(results):
