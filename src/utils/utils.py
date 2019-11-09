@@ -201,11 +201,12 @@ def couple_params(obj1: BaseEstimator, param1, obj2: BaseEstimator, param2):
     obj1.set_params = couple_params_decorator(obj1.set_params, param1, obj2.set_params, param2)
 
 
-def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test):
+def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test, verbose=True):
     cheat_dict = get_cheat_dict(model, xs_test)
     model.fit(xs_train, ys_train, **cheat_dict)
     score = scorer(model, xs_test, ys_test)
-    print("score for fold {}: {:.2%}".format(i+1, score))
+    if verbose:
+        print("score for fold {}: {:.2%}".format(i+1, score))
     return score
 
 
@@ -224,7 +225,7 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose
         fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
     parallel = False
     if parallel:
-        scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params) for params in fold_params)
+        scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params, verbose=False) for params in fold_params)
     else:
         scores = [calc_score(model, scorer, *params) for params in fold_params]
     mean_score = np.mean(scores)
