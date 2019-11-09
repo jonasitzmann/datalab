@@ -35,38 +35,6 @@ class FixRandomSeed(Callback):
         torch.backends.cudnn.deterministic = True
 
 
-class XTestFitter(TransformerMixin):
-    def __init__(self):
-        super(XTestFitter).__init__()
-        self.x_train_size = None
-        self.x_test = None
-
-    def fit(self, x_train, y=None, x_test=None, **fit_params):
-        self.x_test = x_test
-        return self
-
-    def transform(self, x_train, y_train=None, **kwargs):
-        self.x_train_size = len(x_train)
-        if isinstance(self.x_test, list):
-            x_train = list(x_train + self.x_test)
-        else:
-            print('no x_test provided. fitting on x_train only')
-        return x_train
-
-
-class NoXTestFitter(TransformerMixin):
-    def __init__(self, x_test_fitter: XTestFitter):
-        super(NoXTestFitter).__init__()
-        self.x_test_fitter = x_test_fitter
-
-    def fit(self, x_train, y=None, **fit_params):
-        return self
-
-    def transform(self, x_train, y_train=None, **kwargs):
-        if self.x_test_fitter.x_train_size is not None:
-            x_train = x_train[:self.x_test_fitter.x_train_size]
-        self.x_test_fitter.x_train_size = None
-        return x_train
 
 
 class dotdict(dict):
@@ -129,8 +97,9 @@ def fit_predict(classifier, dataset):
     return dataset
 
 
-def endless_random_search(model:BaseEstimator, dataset,  param_distribution):
+def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dict):
     print('start endless_random_search')
+    df = pd.DataFrame(columns=[*param_distribution.keys(), 'score'])
     best_score = 0.
     iter = 0
     while True:
@@ -139,14 +108,18 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution):
         try:
             model.set_params(**params)
             score = cross_validate(model, dataset, verbose=False)
+            df.loc[iter] = [*params.values(), score]
+            df.to_csv('params_score.csv')
             if score > best_score:
                 best_params = params
                 best_score = score
                 print("best params")
                 print(best_params)
-                print("best score after {} iteration{}: {}".format(iter, "s" if iter > 1 else "", best_score))
+                print("best score after {} iteration{}: {:.2%}".format(iter, "s" if iter > 1 else "", best_score))
                 dataset = fit_predict(model, dataset)
                 save_predictions(dataset, best_score)
+            else:
+                print('score: {:.2%}'.format(score))
 
         except Exception as ex:
             print('Error (skipping param set):\n{}'.format(traceback.format_exc()))
@@ -249,7 +222,7 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose
         ys_train = ys[train_idxs]
         ys_test = ys[test_idxs]
         fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
-    parallel = True
+    parallel = False
     if parallel:
         scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params) for params in fold_params)
     else:
@@ -274,3 +247,58 @@ class DenseTransformer(TransformerMixin):
         if hasattr(X, 'todense'):
             X = X.todense()
         return X
+
+
+class OptionalTransformer(TransformerMixin):
+    def __init__(self, active=True):
+        super(OptionalTransformer, self).__init__()
+        self.active = active
+        self.transform = self.if_active(self.transform)
+
+    def set_params(self, active=None, **kwargs):
+        if active is not None:
+            self.active = bool(active)
+
+    def if_active(self, func):
+        def wrapper(pass_param, *args, **kwargs):
+            if self.active:
+                return func(pass_param, *args, **kwargs)
+            else:
+                return pass_param
+        return wrapper
+
+
+class XTestFitter(OptionalTransformer):
+    def __init__(self):
+        super(XTestFitter).__init__()
+        self.x_train_size = None
+        self.x_test = None
+
+    def fit(self, x_train, y=None, x_test=None, **fit_params):
+        self.x_test = x_test
+        return self
+
+    def transform(self, x_train, y_train=None, **kwargs):
+        self.x_train_size = len(x_train)
+        if isinstance(self.x_test, list):
+            x_train = list(x_train + self.x_test)
+        else:
+            print('no x_test provided. fitting on x_train only')
+        return x_train
+
+
+class NoXTestFitter(OptionalTransformer):
+    def __init__(self, x_test_fitter: XTestFitter):
+        super(NoXTestFitter).__init__()
+        self.x_test_fitter = x_test_fitter
+
+    def fit(self, x_train, y=None, **fit_params):
+        return self
+
+    def transform(self, x_train, y_train=None, **kwargs):
+        if self.x_test_fitter.x_train_size is not None:
+            x_train = x_train[:self.x_test_fitter.x_train_size]
+        self.x_test_fitter.x_train_size = None
+        return x_train
+
+
