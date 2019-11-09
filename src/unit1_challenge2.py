@@ -17,10 +17,10 @@ from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
 #  pytorch
 from torch import nn
+from torch import Tensor
 import torch.nn.functional as F
 from skorch import NeuralNetClassifier
 from skorch.callbacks import EarlyStopping
-from skorch.callbacks import ProgressBar
 from torch.optim import Adam
 
 
@@ -68,12 +68,15 @@ class XSpamClassifier(BaseEstimator, ClassifierMixin):
 
 
 class Task(BaseTask):
-    def get_model(self):
+    def get_model(self, **kwargs):
         print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
+        ds = self.dataset
+        weights = Tensor([ds.num_c1 / ds.train_size, ds.num_c0 / ds.train_size])  # inverse frequency for balanced acc
         net = NeuralNetClassifier(
             Net,
             optimizer=Adam,
             criterion=nn.CrossEntropyLoss,
+            criterion__weight=weights,
             batch_size=200,
             max_epochs=500,
             callbacks=[EarlyStopping(patience=10, threshold=1e-5)],
