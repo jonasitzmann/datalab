@@ -133,7 +133,7 @@ class Task(BaseTask):
             ('html_remover', HtmlRemover()),
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
-                #('email_parser', EmailFeatureExtractor()),
+                ('email_parser', EmailFeatureExtractor()),
                 ('other_features', HandCraftedFeatureExtractor())])),
             ('no_x_test_fitter', NoXTestFitter(x_test_fitter)),  # stop cheating (classifier needs labels)
             ('feature_selection', selection),
