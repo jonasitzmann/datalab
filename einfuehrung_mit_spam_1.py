@@ -7,14 +7,17 @@ from collections import Counter
 from zipfile import ZipFile
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import KFold
+from sklearn.model_selection import StratifiedKFold
 from sklearn.decomposition import PCA
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics import make_scorer
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.svm import SVC
 from scipy.spatial import distance
 from sklearn.base import TransformerMixin
+from sklearn.base import ClassifierMixin
 import re
 import warnings
 import spacy
@@ -268,41 +271,29 @@ def get_classifier():
     # return RandomForestClassifier()
 
 
-def cross_validate(cls, x, texts, y):
-    print("Fitting model (cross validation)")
-    #  todo: save track of frequently misclassified samples
-    k_fold = KFold(NUM_FOLDS_CROSS_VALIDATION, shuffle=True, random_state=0)
-    accs = []
+def cross_validate(model: ClassifierMixin, dataset, n_folds):
+    print("cross validation using balanced accuracy")
+    xs, ys = np.array(dataset.x_train), dataset.y_train
+    scorer = make_scorer(balanced_accuracy_score)
+    k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
+    scores = []
     # starts with 0 if key is not yet present
-    misclassifications = defaultdict(int)
-    for i, (train_idxs, test_idxs) in enumerate(k_fold.split(range(len(x)))):
-        print("fold {} of {}".format(i + 1, NUM_FOLDS_CROSS_VALIDATION))
-        x_train, texts_train, y_train = x[train_idxs], texts[train_idxs], y[train_idxs]
-        x_test, texts_test, y_test = x[test_idxs], texts[test_idxs], y[test_idxs]
-        # vectorizer = get_vectorizer(texts_train)
-        x_train_old, x_test_old = [
-            extract_features(
-                None, dataset) for dataset in [
-                texts_train, texts_test]]
-        x_train = np.concatenate([x_train, x_train_old], axis=1)
-        x_test = np.concatenate([x_test, x_test_old], axis=1)
-        x_train, x_test = select_features(x_train, y_train, x_test)
-        x_train, x_test = reduce_dimensions_pca(x_train, x_test)
-        x_train, x_test = normalize(x_train, x_test)
-        cls.fit(x_train, y_train)
-        y_pred = cls.predict(x_test)
-        results = [
-            y_pred_i == y_test_i for y_pred_i,
-            y_test_i in zip(
-                y_pred,
-                y_test)]
-        accs.append(np.mean(results))
-        for idx, result in enumerate(results):
-            if not result:
-                misclassifications[test_idxs[idx]] += 1
-    print("Accuracy: {:.2%}".format(np.mean(accs)))
+    # misclassifications = defaultdict(int)
+    for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
+        print("fold {} of {}".format(i + 1, n_folds))
+        xs_train, ys_train = xs[train_idxs], ys[train_idxs]
+        xs_test, ys_test = xs[test_idxs], ys[test_idxs]
+        model.fit(xs_train, ys_train)  # todo: add x_test for unsupervised pre-learning
+        score = scorer(model, xs_test, ys_test)
+        scores.append(score)
+        # for idx, result in enumerate(results):
+        #     if not result:
+        #         misclassifications[test_idxs[idx]] += 1
+    mean_score = np.mean(scores)
+    print("scores: {}\nmean score: {:.2%}".format(scores, mean_score))
+    return mean_score
     # index of most frequently misclassified sample
-    return max(misclassifications, key=misclassifications.get)
+    # return max(misclassifications, key=misclassifications.get)
 
 
 def normalize(x_train, x_test):
