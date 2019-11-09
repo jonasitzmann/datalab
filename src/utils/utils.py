@@ -102,7 +102,7 @@ def get_dataset(unit, challenge, samples_factor):
     return dataset
 
 
-def save_predictions(dataset, score):
+def save_predictions(dataset, score):  # todo: parallelize
     print('saving predictions')
     folder = 'predictions/unit_{}/challenge_{}'.format(dataset.unit, dataset.challenge)
     if not os.path.isdir(folder):
@@ -236,15 +236,13 @@ def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test):
     return score
 
 
-def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=5, verbose=True):
+def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose=True):
     if verbose:
         print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
     xs, ys = dataset.x_train, dataset.y_train
     scorer = make_scorer(balanced_accuracy_score)
     k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
     fold_params = []
-    if len(xs) != len(ys):
-        pass
     for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
         xs_train = [xs[idx] for idx in train_idxs]
         xs_test = [xs[idx] for idx in test_idxs]

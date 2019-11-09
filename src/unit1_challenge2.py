@@ -12,6 +12,7 @@ from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
+from bs4 import BeautifulSoup
 #  pytorch
 from torch import nn
 from torch import Tensor
@@ -21,6 +22,18 @@ from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
 from src.utils.utils import XTestFitter
 from src.utils.utils import NoXTestFitter
+
+
+class HtmlRemover(TransformerMixin):
+    def __init__(self):
+        super(HtmlRemover, self).__init__()
+
+    def fit(self, x, y=None, **fit_params):
+        return self
+
+    def transform(self, x, y=None):
+        features = [BeautifulSoup(msg, "lxml").text for msg in x]
+        return features
 
 
 class EmailFeatureExtractor(TransformerMixin):
@@ -117,9 +130,10 @@ class Task(BaseTask):
         x_test_fitter = XTestFitter()
         pipeline = Pipeline([
             ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
+            ('html_remover', HtmlRemover()),
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
-                ('email_parser', EmailFeatureExtractor()),
+                #('email_parser', EmailFeatureExtractor()),
                 ('other_features', HandCraftedFeatureExtractor())])),
             ('no_x_test_fitter', NoXTestFitter(x_test_fitter)),  # stop cheating (classifier needs labels)
             ('feature_selection', selection),
@@ -138,7 +152,7 @@ class Task(BaseTask):
 
     def get_params(self):
         return {
-            'feature_selection__k': 20000,
+            'feature_selection__k': 10000,
             'classification__module__hidden_layer_sizes': (10, 10),
             'classification__module__dropout': 0.2
         }
