@@ -71,7 +71,7 @@ class Task(BaseTask):
     def get_model(self, **kwargs):
         print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
         ds = self.dataset
-        weights = Tensor([ds.num_c1 / ds.train_size, ds.num_c0 / ds.train_size])  # inverse frequency for balanced acc
+        weights = Tensor([ds.num_c1 / ds.train_size, ds.num_c0 / ds.train_size])  # inverse frequency ( for balanced acc)
         net = NeuralNetClassifier(
             Net,
             optimizer=Adam,
@@ -99,7 +99,7 @@ class Task(BaseTask):
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [500, 2000, 10000, 40000],
+            'feature_selection__k': [5000],
             'classification__module__hidden_layer_sizes': [(5, 5), (10, 10), (5, 10), (10, 5), (20, 20)],
             'classification__module__dropout': [0.1, 0.2, 0.3, 0.4, 0.5]
         }
