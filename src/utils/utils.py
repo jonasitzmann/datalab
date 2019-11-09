@@ -23,15 +23,23 @@ def get_dataset(unit, challenge, samples_factor):
     train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
     test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
     n_samples_train = int(len(train_data.data) * samples_factor)
-    dataset = {
+    dataset = dotdict({
         'x_train': train_data.data[:n_samples_train],
         'y_train': train_data.target[:n_samples_train],
         'x_test': test_data.data,
         'test_names': [name.split('/')[-1] for name in test_data.filenames],
         'unit': unit,
         'challenge': challenge,
-    }
-    return dotdict(dataset)
+    })
+    num_c0 = sum(dataset.y_train == 0)
+    num_c1 = sum(dataset.y_train == 1)
+    train_size = len(dataset.y_train)
+    print('class 0: {} ({:.0%})\nclass 1: {} ({:.0%})'.format(
+        num_c0, num_c0 / train_size, num_c1, num_c1 / train_size))
+    dataset.num_c0 = num_c0
+    dataset.num_c1 = num_c1
+    dataset.train_size = train_size
+    return dataset
 
 
 def save_predictions(dataset, score):

@@ -82,7 +82,7 @@ class Task(BaseTask):
             module__dropout=0.3,
         )
         selection = SelectKBest(score_func=chi2, k=1000)
-        selection.set_params = set_input_dim_decorator(selection, net)
+        selection.set_params = set_input_dim_decorator(selection.set_params, net)
         pipeline = Pipeline([
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
@@ -96,17 +96,16 @@ class Task(BaseTask):
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [500, 2000, 10000, 40000]
-            'classifier__module__hidden_layer_sizes': [(5, 5), (10, 10), (5, 10), (10, 5), (20, 20)],
-            'classifier__module__dropout': [0.1, 0.2, 0.3, 0.4, 0.5]
+            'feature_selection__k': [500, 2000, 10000, 40000],
+            'classification__module__hidden_layer_sizes': [(5, 5), (10, 10), (5, 10), (10, 5), (20, 20)],
+            'classification__module__dropout': [0.1, 0.2, 0.3, 0.4, 0.5]
         }
 
     def get_params(self):
         return {
-            'feature_extraction__bag_of_words__ngram_range': (1, 3),
             'feature_selection__k': 5000,
-            'classifier__module__hidden_layer_sizes': (10, 10),
-            'classifier__module__dropout': 0.3
+            'classification__module__hidden_layer_sizes': (10, 10),
+            'classification__module__dropout': 0.3
         }
 
     @property
