@@ -42,16 +42,15 @@ class XTestFitter(TransformerMixin):
         self.x_test = None
 
     def fit(self, x_train, y=None, x_test=None, **fit_params):
-        if x_test is not None:
-            self.x_test = x_test
+        self.x_test = x_test
         return self
 
     def transform(self, x_train, y_train=None, **kwargs):
         self.x_train_size = len(x_train)
-        if self.x_test is None:
-            print('no x_test provided. fitting on x_train only')
+        if isinstance(self.x_test, list):
+            x_train = list(x_train + self.x_test)
         else:
-            x_train = np.concatenate([x_train, self.x_test], axis=0)
+            print('no x_test provided. fitting on x_train only')
         return x_train
 
 
@@ -64,7 +63,10 @@ class NoXTestFitter(TransformerMixin):
         return self
 
     def transform(self, x_train, y_train=None, **kwargs):
-        return x_train[:self.x_test_fitter.x_train_size]
+        if self.x_test_fitter.x_train_size is not None:
+            x_train = x_train[:self.x_test_fitter.x_train_size]
+        self.x_test_fitter.x_train_size = None
+        return x_train
 
 
 class dotdict(dict):
@@ -80,10 +82,11 @@ def get_dataset(unit, challenge, samples_factor):
     train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
     test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
     n_samples_train = int(len(train_data.data) * samples_factor)
+    n_samples_test = int(len(test_data.data) * samples_factor)
     dataset = dotdict({
         'x_train': train_data.data[:n_samples_train],
         'y_train': train_data.target[:n_samples_train],
-        'x_test': test_data.data,
+        'x_test': test_data.data[:n_samples_test],
         'test_names': [name.split('/')[-1] for name in test_data.filenames],
         'unit': unit,
         'challenge': challenge,
@@ -240,13 +243,19 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=5, verbose
     scorer = make_scorer(balanced_accuracy_score)
     k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
     fold_params = []
+    if len(xs) != len(ys):
+        pass
     for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
         xs_train = [xs[idx] for idx in train_idxs]
         xs_test = [xs[idx] for idx in test_idxs]
         ys_train = ys[train_idxs]
         ys_test = ys[test_idxs]
         fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
-    scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params) for params in fold_params)
+    parallel = True
+    if parallel:
+        scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params) for params in fold_params)
+    else:
+        scores = [calc_score(model, scorer, *params) for params in fold_params]
     mean_score = np.mean(scores)
     if verbose:
         print("mean score: {:.2%} (+/- {:.2%})".format(mean_score, np.std(scores) * 2))
