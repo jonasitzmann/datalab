@@ -19,27 +19,37 @@ from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
 from torch import nn
 import torch.nn.functional as F
 from skorch import NeuralNetClassifier
+from skorch.callbacks import EarlyStopping
+from skorch.callbacks import ProgressBar
 from torch.optim import Adam
 
 
+def set_input_dim_decorator(func, net):
+    def wrapper(*args, **kwargs):
+        net.set_params(module__input_dim=kwargs['k'])
+        return func(*args, **kwargs)
+    return wrapper
+
+
 class Net(nn.Module):
-    def __init__(self, input_dim=10000, hidden_layer_sizes=(10, 10)):
+    def __init__(self, input_dim=1000, hidden_layer_sizes=(10, 10), dropout=0):
         self.output_dim = 2
         super(Net, self).__init__()
         self.l0 = nn.Linear(input_dim, hidden_layer_sizes[0])
+        self.drop = nn.Dropout(p=dropout)
         self.l1 = nn.Linear(*hidden_layer_sizes)
         self.l2 = nn.Linear(hidden_layer_sizes[0], self.output_dim)
 
     def forward(self, x, **kwargs):
         x = x.float()
         x = self.l0(x)
+        x = self.drop(x)
         x = F.relu(x)
         x = self.l1(x)
+        x = self.drop(x)
         x = F.relu(x)
         x = self.l2(x)
         return x
-
-
 
 
 class XSpamClassifier(BaseEstimator, ClassifierMixin):
@@ -58,34 +68,45 @@ class XSpamClassifier(BaseEstimator, ClassifierMixin):
 
 
 class Task(BaseTask):
-
     def get_model(self):
         print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
         net = NeuralNetClassifier(
             Net,
-            max_epochs=50,
             optimizer=Adam,
             criterion=nn.CrossEntropyLoss,
             batch_size=200,
+            max_epochs=500,
+            callbacks=[EarlyStopping(patience=10, threshold=1e-5)],
+            module__input_dim=1000,
+            module__hidden_layer_sizes=(10, 10),
+            module__dropout=0.3,
         )
-        return Pipeline([
+        selection = SelectKBest(score_func=chi2, k=1000)
+        selection.set_params = set_input_dim_decorator(selection, net)
+        pipeline = Pipeline([
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('other_features', HandCraftedFeatureExtractor())])),
-            ('feature_selection', SelectKBest(score_func=chi2, k=10000)),  # todo: update net.input_dim accordingly
+            ('feature_selection', selection),
             ('sparse_to_dense', DenseTransformer()),
             ('normalization', StandardScaler()),
-            ('classifier', net)
+            ('classification', net)
         ], verbose=False)
+        return pipeline
 
     def get_param_distribution(self):
-        return {}
+        return {
+            'feature_selection__k': [500, 2000, 10000, 40000]
+            'classifier__module__hidden_layer_sizes': [(5, 5), (10, 10), (5, 10), (10, 5), (20, 20)],
+            'classifier__module__dropout': [0.1, 0.2, 0.3, 0.4, 0.5]
+        }
 
     def get_params(self):
         return {
             'feature_extraction__bag_of_words__ngram_range': (1, 3),
-            'feature_selection__k': 10000,  # todo: update net.input_dim accordingly
-            #'classifier__hidden_layer_sizes': (10, 10)
+            'feature_selection__k': 5000,
+            'classifier__module__hidden_layer_sizes': (10, 10),
+            'classifier__module__dropout': 0.3
         }
 
     @property
