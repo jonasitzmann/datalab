@@ -208,7 +208,6 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds):
     # starts with 0 if key is not yet present
     # misclassifications = defaultdict(int)
     for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
-        print("fold {} of {}".format(i + 1, n_folds))
         xs_train, ys_train = xs[train_idxs], ys[train_idxs]
         xs_test, ys_test = xs[test_idxs], ys[test_idxs]
         model.fit(xs_train, ys_train)  # todo: add x_test for unsupervised pre-learning
@@ -217,8 +216,9 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds):
         # for idx, result in enumerate(results):
         #     if not result:
         #         misclassifications[test_idxs[idx]] += 1
+        print("score for fold {} of {}: {:.2%}".format(i + 1, n_folds, score))
     mean_score = np.mean(scores)
-    print("scores: {}\nmean score: {:.2%}".format(scores, mean_score))
+    print("mean score: {:.2%} (+/- {:.2%})".format(mean_score, np.std(scores) * 2))
     return mean_score
     # index of most frequently misclassified sample
     # return max(misclassifications, key=misclassifications.get)
@@ -243,5 +243,4 @@ class DenseTransformer(TransformerMixin):
     def transform(self, X, y=None, **fit_params):
         if hasattr(X, 'todense'):
             X = X.todense()
-        print('sum of xs: {}'.format(X.sum()))
         return X

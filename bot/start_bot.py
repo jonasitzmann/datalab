@@ -53,7 +53,6 @@ def echo(update, context):
     if m:
         send('pulling', chat_id)
         send(check_output(["git pull"], shell=True), chat_id)
-        send('executing run.py', chat_id)
         samples_factor_match = re.search("(\d+?)%", text.lower())
         samples_factor = int(samples_factor_match.group(1)) / 100 if samples_factor_match else 1
         args = '--mode {} --unit {} --challenge {} --samples_factor {} --chat_id {}'.\

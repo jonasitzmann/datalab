@@ -58,7 +58,7 @@ class XSpamClassifier(BaseEstimator, ClassifierMixin):
 
 class Task(BaseTask):
     def get_model(self, **kwargs):
-        print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
+        #  print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
         ds = self.dataset
         weights = Tensor([ds.num_c1 / ds.train_size, ds.num_c0 / ds.train_size])  # inverse frequency ( for balanced acc)
         net = NeuralNetClassifier(
@@ -75,6 +75,7 @@ class Task(BaseTask):
             module__input_dim=1000,
             module__hidden_layer_sizes=(10, 10),
             module__dropout=0.3,
+            verbose=False
         )
         net.set_params(callbacks__print_log=None)  # deactivate logging in each epoch
         selection = SelectKBest(score_func=chi2, k=1000)
