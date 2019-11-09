@@ -129,8 +129,8 @@ class Task(BaseTask):
         couple_params(selection, 'k', net, 'module__input_dim')
         x_test_fitter = XTestFitter()
         pipeline = Pipeline([
-            ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
             ('html_remover', HtmlRemover()),
+            ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('email_parser', EmailFeatureExtractor()),
