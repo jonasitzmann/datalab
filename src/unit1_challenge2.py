@@ -130,7 +130,7 @@ class Task(BaseTask):
         x_test_fitter = XTestFitter()
         pipeline = Pipeline([
             ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
-            ('html_remover', HtmlRemover()),
+            #('html_remover', HtmlRemover()),
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('email_parser', EmailFeatureExtractor()),
