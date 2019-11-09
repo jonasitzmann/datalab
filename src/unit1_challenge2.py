@@ -23,11 +23,13 @@ from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
 from src.utils.utils import XTestFitter
 from src.utils.utils import NoXTestFitter
+from src.utils.utils import OptionalTransformer
 
 
-class HtmlRemover(TransformerMixin):
+class HtmlRemover(OptionalTransformer):
     def __init__(self):
         super(HtmlRemover, self).__init__()
+        self.transform = self.if_active(self.transform)
 
     def fit(self, x, y=None, **fit_params):
         return self
@@ -37,7 +39,7 @@ class HtmlRemover(TransformerMixin):
         return features
 
 
-class EmailFeatureExtractor(TransformerMixin):
+class EmailFeatureExtractor(OptionalTransformer):
     def __init__(self):
         super(EmailFeatureExtractor, self).__init__()
         self.keys = None
@@ -113,7 +115,7 @@ def get_classifier_from_net(dataset):
             EarlyStopping(patience=10, threshold=1e-5),
             FixRandomSeed(),
         ],
-        module__input_dim=1000,
+        module__input_dim=100,
         module__hidden_layer_sizes=(10, 10),
         module__dropout=0.3,
         verbose=False
@@ -127,36 +129,41 @@ class Task(BaseTask):
         #  print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
         selection = SelectKBest(score_func=chi2, k=1000)
         net = get_classifier_from_net(self.dataset)
-        couple_params(selection, 'k', net, 'module__input_dim')
         x_test_fitter = XTestFitter()
+        no_x_test_fitter = NoXTestFitter(x_test_fitter)
         pipeline = Pipeline([
             ('html_remover', HtmlRemover()),
             ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
-                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3), max_features=20000)),
+                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('email_parser', EmailFeatureExtractor()),
                 ('other_features', HandCraftedFeatureExtractor())])),
             ('sparse_to_dense', DenseTransformer()),
-            ('pca', PCA(n_components=500)),
-            ('no_x_test_fitter', NoXTestFitter(x_test_fitter)),  # stop cheating (classifier needs labels)
+            ('no_x_test_fitter', no_x_test_fitter),  # stop cheating (classifier needs labels)
             ('feature_selection', selection),
             ('normalization', StandardScaler()),
             ('classification', net)  # todo: enable cheating by unsupervised pre-training
         ], verbose=False)
+        couple_params(selection, 'k', net, 'module__input_dim')
+        couple_params(x_test_fitter, 'active', no_x_test_fitter, 'active')
         return pipeline
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [2000, 5000, 10000],
+            'feature_selection__k': [2000, 5000, 10000, 20000],
             'classification__module__hidden_layer_sizes': [(5, 5), (10, 10), (5, 10), (10, 5), (20, 20)],
-            'classification__module__dropout': [0.1, 0.2, 0.3, 0.4]
+            'classification__module__dropout': [0.1, 0.15, 0.2, 0.25, 0.3, 0.4],
+            'html_remover__active': [0, 1],
+            'x_test_fitter__active': [0, 1],
         }
 
     def get_params(self):
         return {
-            'feature_selection__k': 500,
+            'feature_selection__k': 1000,
             'classification__module__hidden_layer_sizes': (10, 10),
-            'classification__module__dropout': 0.2
+            'classification__module__dropout': 0.2,
+            'html_remover__active': 0,
+            'x_test_fitter__active': 0,
         }
 
     @property
