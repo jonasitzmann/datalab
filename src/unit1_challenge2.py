@@ -11,6 +11,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
 from bs4 import BeautifulSoup
 #  pytorch
@@ -132,12 +133,13 @@ class Task(BaseTask):
             ('html_remover', HtmlRemover()),
             ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
-                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3), max_features=20000)),
                 ('email_parser', EmailFeatureExtractor()),
                 ('other_features', HandCraftedFeatureExtractor())])),
+            ('sparse_to_dense', DenseTransformer()),
+            ('pca', PCA(n_components=500)),
             ('no_x_test_fitter', NoXTestFitter(x_test_fitter)),  # stop cheating (classifier needs labels)
             ('feature_selection', selection),
-            ('sparse_to_dense', DenseTransformer()),
             ('normalization', StandardScaler()),
             ('classification', net)  # todo: enable cheating by unsupervised pre-training
         ], verbose=False)
@@ -152,7 +154,7 @@ class Task(BaseTask):
 
     def get_params(self):
         return {
-            'feature_selection__k': 10000,
+            'feature_selection__k': 500,
             'classification__module__hidden_layer_sizes': (10, 10),
             'classification__module__dropout': 0.2
         }
