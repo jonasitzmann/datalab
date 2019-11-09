@@ -18,6 +18,8 @@ import torch.nn.functional as F
 from skorch import NeuralNetClassifier
 from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
+from src.utils.utils import XTestFitter
+from src.utils.utils import NoXTestFitter
 
 
 class Net(nn.Module):
@@ -80,14 +82,17 @@ class Task(BaseTask):
         net.set_params(callbacks__print_log=None)  # deactivate logging in each epoch
         selection = SelectKBest(score_func=chi2, k=1000)
         couple_params(selection, 'k', net, 'module__input_dim')
+        x_test_fitter = XTestFitter()
         pipeline = Pipeline([
+            ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('other_features', HandCraftedFeatureExtractor())])),
-            ('feature_selection', selection),
             ('sparse_to_dense', DenseTransformer()),
             ('normalization', StandardScaler()),
-            ('classification', net)
+            ('no_x_test_fitter', NoXTestFitter(x_test_fitter)),  # stop cheating (classifier needs labels)
+            ('feature_selection', selection),
+            ('classification', net)  # todo: enable cheating by unsupervised pre-training
         ], verbose=False)
         return pipeline
 

@@ -19,6 +19,7 @@ from sklearn.metrics import make_scorer
 from sklearn.base import ClassifierMixin
 from joblib import Parallel, delayed, parallel_backend
 from sklearn.model_selection._search import ParameterSampler
+from sklearn.pipeline import Pipeline
 
 
 class FixRandomSeed(Callback):
@@ -38,16 +39,19 @@ class XTestFitter(TransformerMixin):
     def __init__(self):
         super(XTestFitter).__init__()
         self.x_train_size = None
+        self.x_test = None
 
     def fit(self, x_train, y=None, x_test=None, **fit_params):
+        if x_test is not None:
+            self.x_test = x_test
         return self
 
-    def transform(self, x_train, y_train=None, x_test=None, **kwargs):
+    def transform(self, x_train, y_train=None, **kwargs):
         self.x_train_size = len(x_train)
-        if x_test is None:
+        if self.x_test is None:
             print('no x_test provided. fitting on x_train only')
         else:
-            x_train = np.concatenate([x_train, x_test], axis=0)
+            x_train = np.concatenate([x_train, self.x_test], axis=0)
         return x_train
 
 
@@ -107,9 +111,17 @@ def save_predictions(dataset, score):
     print('saved')
 
 
+def get_cheat_dict(classifier: Pipeline, x_test=None):
+    cheat_dict = {}
+    if 'x_test_fitter' in classifier.named_steps.keys():
+        cheat_dict['x_test_fitter__x_test'] = x_test
+    return cheat_dict
+
+
 def fit_predict(classifier, dataset):
     print('fitting on entire training data')
-    classifier.fit(dataset.x_train, dataset.y_train)
+    cheat_dict = get_cheat_dict(classifier, dataset.x_test)
+    classifier.fit(dataset.x_train, dataset.y_train, **cheat_dict)
     dataset.test_preds = classifier.predict(dataset.x_test)
     return dataset
 
@@ -214,7 +226,8 @@ def couple_params(obj1: BaseEstimator, param1, obj2: BaseEstimator, param2):
 
 
 def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test):
-    model.fit(xs_train, ys_train)
+    cheat_dict = get_cheat_dict(model, xs_test)
+    model.fit(xs_train, ys_train, **cheat_dict)
     score = scorer(model, xs_test, ys_test)
     print("score for fold {}: {:.2%}".format(i+1, score))
     return score
