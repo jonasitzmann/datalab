@@ -223,7 +223,7 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose
         ys_train = ys[train_idxs]
         ys_test = ys[test_idxs]
         fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
-    parallel = False
+    parallel = True
     if parallel:
         scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params, verbose=False) for params in fold_params)
     else:
