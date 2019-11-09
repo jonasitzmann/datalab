@@ -7,10 +7,10 @@ from sklearn.svm import SVC
 from einfuehrung_mit_spam_1 import DenseTransformer
 from sklearn.base import (BaseEstimator, ClassifierMixin)
 from src.utils.utils import ClfSwitcher
+from src.utils.utils import couple_params
 import email
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
-from sklearn.neural_network import MLPClassifier
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from einfuehrung_mit_spam_1 import DenseTransformer
@@ -24,13 +24,6 @@ from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
 
 
-def set_input_dim_decorator(func, net):
-    def wrapper(*args, **kwargs):
-        net.set_params(module__input_dim=kwargs['k'])
-        return func(*args, **kwargs)
-    return wrapper
-
-
 class Net(nn.Module):
     def __init__(self, input_dim=1000, hidden_layer_sizes=(10, 10), dropout=0):
         self.output_dim = 2
@@ -38,7 +31,7 @@ class Net(nn.Module):
         self.l0 = nn.Linear(input_dim, hidden_layer_sizes[0])
         self.drop = nn.Dropout(p=dropout)
         self.l1 = nn.Linear(*hidden_layer_sizes)
-        self.l2 = nn.Linear(hidden_layer_sizes[0], self.output_dim)
+        self.l2 = nn.Linear(hidden_layer_sizes[1], self.output_dim)
 
     def forward(self, x, **kwargs):
         x = x.float()
@@ -84,8 +77,9 @@ class Task(BaseTask):
             module__hidden_layer_sizes=(10, 10),
             module__dropout=0.3,
         )
+        net.set_params(callbacks__print_log=None)  # deactivate logging in each epoch
         selection = SelectKBest(score_func=chi2, k=1000)
-        selection.set_params = set_input_dim_decorator(selection.set_params, net)
+        couple_params(selection, 'k', net, 'module__input_dim')
         pipeline = Pipeline([
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
@@ -101,7 +95,7 @@ class Task(BaseTask):
         return {
             'feature_selection__k': [5000],
             'classification__module__hidden_layer_sizes': [(5, 5), (10, 10), (5, 10), (10, 5), (20, 20)],
-            'classification__module__dropout': [0.1, 0.2, 0.3, 0.4, 0.5]
+            'classification__module__dropout': [0.1, 0.2, 0.3, 0.4]
         }
 
     def get_params(self):

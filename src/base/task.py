@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from src.utils.utils import get_dataset
 from src.utils.utils import endless_random_search
-from src.utils.utils import evaluate_classifier
+from src.utils.utils import evaluate_cv
 
 
 class BaseTask(ABC):
@@ -35,7 +35,7 @@ class BaseTask(ABC):
         pass
 
     def evaluate(self, n_folds=5):
-        score = evaluate_classifier(self.model, self.dataset, n_folds=n_folds)
+        score = evaluate_cv(self.model, self.dataset, n_folds=n_folds)
         return score
 
     def find_params(self):

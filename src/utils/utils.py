@@ -8,6 +8,23 @@ from sklearn.datasets import load_files
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
 from sklearn.base import BaseEstimator
+from sklearn.base import TransformerMixin
+
+
+class FitOnXTestTransformer(TransformerMixin):
+    def __init__(self, transformer):
+        super(FitOnXTestTransformer, self).__init__()
+        self.transformer = transformer
+
+    def fit(self, x_train, y=None, x_test=None, **fit_params):
+        if x_test is None:
+            print('no x_test provided. fitting on x_train only')
+        else:
+            x_train = np.concatenate([x_train, x_test], axis=0)
+        return self.transformer.fit(x_train, y, **fit_params)
+
+    def transform(self, x, **kwargs):
+        return self.transformer.transform(x, **kwargs)
 
 
 class dotdict(dict):
@@ -44,8 +61,11 @@ def get_dataset(unit, challenge, samples_factor):
 
 def save_predictions(dataset, score):
     print('saving predictions')
-    path = 'predictions/unit_{}/challenge_{}/score_{}.csv'.format(dataset.unit, dataset.challenge, score)
-    with open(path, 'w') as file:
+    folder = 'predictions/unit_{}/challenge_{}'.format(dataset.unit, dataset.challenge)
+    if not os.path.isdir(folder):
+        os.mkdir(folder)
+    file_path = '{}/score_{}.csv'.format(folder, score)
+    with open(file_path, 'w') as file:
         for name, prediction in zip(dataset.test_names, dataset.test_preds):
             file.write('{};{}\n'.format(name, prediction))
     print('saved')
@@ -78,11 +98,11 @@ def endless_random_search(model, dataset,  param_distribution):
                 dataset = fit_predict(best_model, dataset)
                 save_predictions(dataset, best_score)
 
-        except Exception:
+        except Exception as ex:
             print('Error (skipping param set):\n{}'.format(traceback.format_exc()))
 
 
-def evaluate_classifier(classifier, dataset, n_folds=5):
+def evaluate_cv(classifier, dataset, n_folds=5):
     print('evaluating classifier')
     scores = cross_val_score(classifier, dataset.x_train, dataset.y_train, n_jobs=7, scoring='balanced_accuracy', cv=n_folds)
     print('cross validation scores:\n{}'.format(scores))
@@ -147,5 +167,15 @@ class ClfSwitcher(BaseEstimator):
         preds[model2_idxs] = preds_2
         return preds
 
+
+def couple_params_decorator(func1, param1: str, func2, param2: str):
+    def wrapper(*args, **kwargs):
+        func2(**{param2: kwargs[param1]})
+        return func1(*args, **kwargs)
+    return wrapper
+
+
+def couple_params(obj1: BaseEstimator, param1, obj2: BaseEstimator, param2):
+    obj1.set_params = couple_params_decorator(obj1.set_params, param1, obj2.set_params, param2)
 
 
