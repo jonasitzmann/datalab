@@ -17,6 +17,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics import make_scorer
 from sklearn.base import ClassifierMixin
+from joblib import Parallel, delayed, parallel_backend
 
 
 class FixRandomSeed(Callback):
@@ -199,31 +200,29 @@ def couple_params(obj1: BaseEstimator, param1, obj2: BaseEstimator, param2):
     obj1.set_params = couple_params_decorator(obj1.set_params, param1, obj2.set_params, param2)
 
 
-def cross_validate(model: ClassifierMixin, dataset, n_folds):
-    print("cross validation using balanced accuracy")
+def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test):
+    model.fit(xs_train, ys_train)
+    score = scorer(model, xs_test, ys_test)
+    print("score for fold {}: {:.2%}".format(i+1, score))
+    return score
+
+
+def cross_validate(model: ClassifierMixin, dataset, n_folds, n_jobs=5):
+    print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
     xs, ys = dataset.x_train, dataset.y_train
     scorer = make_scorer(balanced_accuracy_score)
     k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
-    scores = []
-    # starts with 0 if key is not yet present
-    # misclassifications = defaultdict(int)
+    fold_params = []
     for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
         xs_train = [xs[idx] for idx in train_idxs]
         xs_test = [xs[idx] for idx in test_idxs]
         ys_train = ys[train_idxs]
         ys_test = ys[test_idxs]
-        model.fit(xs_train, ys_train)
-        score = scorer(model, xs_test, ys_test)
-        scores.append(score)
-        # for idx, result in enumerate(results):
-        #     if not result:
-        #         misclassifications[test_idxs[idx]] += 1
-        print("score for fold {} of {}: {:.2%}".format(i + 1, n_folds, score))
+        fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
+    scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params) for params in fold_params)
     mean_score = np.mean(scores)
     print("mean score: {:.2%} (+/- {:.2%})".format(mean_score, np.std(scores) * 2))
     return mean_score
-    # index of most frequently misclassified sample
-    # return max(misclassifications, key=misclassifications.get)
 
 
 def normalize(x_train, x_test):
