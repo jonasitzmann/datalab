@@ -18,6 +18,7 @@ from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics import make_scorer
 from sklearn.base import ClassifierMixin
 from joblib import Parallel, delayed, parallel_backend
+from sklearn.model_selection._search import ParameterSampler
 
 
 class FixRandomSeed(Callback):
@@ -100,24 +101,23 @@ def fit_predict(classifier, dataset):
     return dataset
 
 
-def endless_random_search(model, dataset,  param_distribution):
+def endless_random_search(model:BaseEstimator, dataset,  param_distribution):
     print('start endless_random_search')
     best_score = 0.
     iter = 0
     while True:
         iter += 1
-        clf = RandomizedSearchCV(model, param_distribution, n_iter=1, n_jobs=-1, cv=5, scoring='balanced_accuracy')
+        params = list(ParameterSampler(param_distribution, 1))[0]
         try:
-            clf = clf.fit(dataset.x_train, dataset.y_train)
-            score = clf.best_score_
+            model.set_params(**params)
+            score = cross_validate(model, dataset)
             if score > best_score:
-                best_params = clf.best_params_
-                best_model = clf.best_estimator_
+                best_params = params
                 best_score = score
                 print("best params")
                 print(best_params)
                 print("best score after {} iteration{}: {}".format(iter, "s" if iter > 1 else "", best_score))
-                dataset = fit_predict(best_model, dataset)
+                dataset = fit_predict(model, dataset)
                 save_predictions(dataset, best_score)
 
         except Exception as ex:
@@ -207,7 +207,7 @@ def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test):
     return score
 
 
-def cross_validate(model: ClassifierMixin, dataset, n_folds, n_jobs=5):
+def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=5):
     print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
     xs, ys = dataset.x_train, dataset.y_train
     scorer = make_scorer(balanced_accuracy_score)

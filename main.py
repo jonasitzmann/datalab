@@ -12,4 +12,4 @@ def get_task(unit, challenge, samples_factor=1):
 
 if __name__ == '__main__':
     task: BaseTask = get_task(unit=1, challenge=2, samples_factor=0.02)
-    task.evaluate(n_folds=2)
+    task.find_params()

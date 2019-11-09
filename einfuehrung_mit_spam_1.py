@@ -47,8 +47,6 @@ SAVE_TRAINING_ERRORS = True
 trigger_words = []
 
 
-
-
 def load_test_data(zip_path):
     with ZipFile(zip_path) as test_file:
         x_test = [

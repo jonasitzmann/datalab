@@ -93,7 +93,7 @@ class Task(BaseTask):
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [5000],
+            'feature_selection__k': [2000, 5000, 10000],
             'classification__module__hidden_layer_sizes': [(5, 5), (10, 10), (5, 10), (10, 5), (20, 20)],
             'classification__module__dropout': [0.1, 0.2, 0.3, 0.4]
         }
