@@ -88,10 +88,10 @@ class Task(BaseTask):
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('other_features', HandCraftedFeatureExtractor())])),
-            ('sparse_to_dense', DenseTransformer()),
-            ('normalization', StandardScaler()),
             ('no_x_test_fitter', NoXTestFitter(x_test_fitter)),  # stop cheating (classifier needs labels)
             ('feature_selection', selection),
+            ('sparse_to_dense', DenseTransformer()),
+            ('normalization', StandardScaler()),
             ('classification', net)  # todo: enable cheating by unsupervised pre-training
         ], verbose=False)
         return pipeline
