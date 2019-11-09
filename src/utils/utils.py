@@ -9,6 +9,27 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
 from sklearn.base import BaseEstimator
 from sklearn.base import TransformerMixin
+from skorch.callbacks import Callback
+import torch
+import random
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics import make_scorer
+from sklearn.base import ClassifierMixin
+
+
+class FixRandomSeed(Callback):
+
+    def __init__(self, seed=42):
+        self.seed = 42
+
+    def initialize(self):
+        torch.manual_seed(self.seed)
+        torch.cuda.manual_seed(self.seed)
+        random.seed(self.seed)
+        np.random.seed(self.seed)
+        torch.backends.cudnn.deterministic = True
 
 
 class FitOnXTestTransformer(TransformerMixin):
@@ -133,7 +154,6 @@ def merge_predictions(unit, challenge, n_best):
 
 
 class ClfSwitcher(BaseEstimator):
-
     def __init__(self, model1, model2, take_model1):
         self.model1 = model1
         self.model2 = model2
@@ -179,3 +199,49 @@ def couple_params(obj1: BaseEstimator, param1, obj2: BaseEstimator, param2):
     obj1.set_params = couple_params_decorator(obj1.set_params, param1, obj2.set_params, param2)
 
 
+def cross_validate(model: ClassifierMixin, dataset, n_folds):
+    print("cross validation using balanced accuracy")
+    xs, ys = np.array(dataset.x_train), dataset.y_train
+    scorer = make_scorer(balanced_accuracy_score)
+    k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
+    scores = []
+    # starts with 0 if key is not yet present
+    # misclassifications = defaultdict(int)
+    for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
+        print("fold {} of {}".format(i + 1, n_folds))
+        xs_train, ys_train = xs[train_idxs], ys[train_idxs]
+        xs_test, ys_test = xs[test_idxs], ys[test_idxs]
+        model.fit(xs_train, ys_train)  # todo: add x_test for unsupervised pre-learning
+        score = scorer(model, xs_test, ys_test)
+        scores.append(score)
+        # for idx, result in enumerate(results):
+        #     if not result:
+        #         misclassifications[test_idxs[idx]] += 1
+    mean_score = np.mean(scores)
+    print("scores: {}\nmean score: {:.2%}".format(scores, mean_score))
+    return mean_score
+    # index of most frequently misclassified sample
+    # return max(misclassifications, key=misclassifications.get)
+
+
+def normalize(x_train, x_test):
+    normalizer = StandardScaler()
+    normalizer.fit(x_train)
+    return normalizer.transform(x_train), normalizer.transform(x_test)
+
+
+def save_predictions(x_test, test_names, classifier):
+    with open("output.zip", 'w') as file:
+        file.write("\n".join(["{};{}".format(name, int(
+            classifier.predict([x])[0])) for x, name in zip(x_test, test_names)]))
+
+
+class DenseTransformer(TransformerMixin):
+    def fit(self, X, y=None, **fit_params):
+        return self
+
+    def transform(self, X, y=None, **fit_params):
+        if hasattr(X, 'todense'):
+            X = X.todense()
+        print('sum of xs: {}'.format(X.sum()))
+        return X

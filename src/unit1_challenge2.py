@@ -1,19 +1,15 @@
 import numpy as np
 from src.base.task import BaseTask
-from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.decomposition import PCA
-from sklearn.svm import SVC
-from einfuehrung_mit_spam_1 import DenseTransformer
-from sklearn.base import (BaseEstimator, ClassifierMixin)
+from src.utils.utils import DenseTransformer
 from src.utils.utils import ClfSwitcher
+from sklearn.base import (BaseEstimator, ClassifierMixin)
 from src.utils.utils import couple_params
+from src.utils.utils import FixRandomSeed
 import email
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
-from einfuehrung_mit_spam_1 import DenseTransformer
 from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
 #  pytorch
 from torch import nn
@@ -72,7 +68,10 @@ class Task(BaseTask):
             criterion__weight=weights,
             batch_size=200,
             max_epochs=500,
-            callbacks=[EarlyStopping(patience=10, threshold=1e-5)],
+            callbacks=[
+                EarlyStopping(patience=10, threshold=1e-5),
+                FixRandomSeed(),
+            ],
             module__input_dim=1000,
             module__hidden_layer_sizes=(10, 10),
             module__dropout=0.3,

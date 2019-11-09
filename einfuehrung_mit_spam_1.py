@@ -1,23 +1,17 @@
 import os
 import shutil
-import sys
 import numpy as np
 from collections import defaultdict
 from collections import Counter
 from zipfile import ZipFile
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import StratifiedKFold
 from sklearn.decomposition import PCA
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
-from sklearn.metrics import balanced_accuracy_score
-from sklearn.metrics import make_scorer
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.svm import SVC
 from scipy.spatial import distance
 from sklearn.base import TransformerMixin
-from sklearn.base import ClassifierMixin
 import re
 import warnings
 import spacy
@@ -53,16 +47,6 @@ SAVE_TRAINING_ERRORS = True
 trigger_words = []
 
 
-class DenseTransformer(TransformerMixin):
-
-    def fit(self, X, y=None, **fit_params):
-        return self
-
-    def transform(self, X, y=None, **fit_params):
-        if hasattr(X, 'todense'):
-            return X.todense()
-        else:
-            return X
 
 
 def load_test_data(zip_path):
@@ -269,43 +253,6 @@ def get_classifier():
     return SVC(C=1.0)
     # return LinearDiscriminantAnalysis()
     # return RandomForestClassifier()
-
-
-def cross_validate(model: ClassifierMixin, dataset, n_folds):
-    print("cross validation using balanced accuracy")
-    xs, ys = np.array(dataset.x_train), dataset.y_train
-    scorer = make_scorer(balanced_accuracy_score)
-    k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
-    scores = []
-    # starts with 0 if key is not yet present
-    # misclassifications = defaultdict(int)
-    for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
-        print("fold {} of {}".format(i + 1, n_folds))
-        xs_train, ys_train = xs[train_idxs], ys[train_idxs]
-        xs_test, ys_test = xs[test_idxs], ys[test_idxs]
-        model.fit(xs_train, ys_train)  # todo: add x_test for unsupervised pre-learning
-        score = scorer(model, xs_test, ys_test)
-        scores.append(score)
-        # for idx, result in enumerate(results):
-        #     if not result:
-        #         misclassifications[test_idxs[idx]] += 1
-    mean_score = np.mean(scores)
-    print("scores: {}\nmean score: {:.2%}".format(scores, mean_score))
-    return mean_score
-    # index of most frequently misclassified sample
-    # return max(misclassifications, key=misclassifications.get)
-
-
-def normalize(x_train, x_test):
-    normalizer = StandardScaler()
-    normalizer.fit(x_train)
-    return normalizer.transform(x_train), normalizer.transform(x_test)
-
-
-def save_predictions(x_test, test_names, classifier):
-    with open("output.zip", 'w') as file:
-        file.write("\n".join(["{};{}".format(name, int(
-            classifier.predict([x])[0])) for x, name in zip(x_test, test_names)]))
 
 
 #  where to put this?
