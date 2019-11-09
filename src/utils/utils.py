@@ -34,20 +34,33 @@ class FixRandomSeed(Callback):
         torch.backends.cudnn.deterministic = True
 
 
-class FitOnXTestTransformer(TransformerMixin):
-    def __init__(self, transformer):
-        super(FitOnXTestTransformer, self).__init__()
-        self.transformer = transformer
+class XTestFitter(TransformerMixin):
+    def __init__(self):
+        super(XTestFitter).__init__()
+        self.x_train_size = None
 
     def fit(self, x_train, y=None, x_test=None, **fit_params):
+        return self
+
+    def transform(self, x_train, y_train=None, x_test=None, **kwargs):
+        self.x_train_size = len(x_train)
         if x_test is None:
             print('no x_test provided. fitting on x_train only')
         else:
             x_train = np.concatenate([x_train, x_test], axis=0)
-        return self.transformer.fit(x_train, y, **fit_params)
+        return x_train
 
-    def transform(self, x, **kwargs):
-        return self.transformer.transform(x, **kwargs)
+
+class NoXTestFitter(TransformerMixin):
+    def __init__(self, x_test_fitter: XTestFitter):
+        super(NoXTestFitter).__init__()
+        self.x_test_fitter = x_test_fitter
+
+    def fit(self, x_train, y=None, **fit_params):
+        return self
+
+    def transform(self, x_train, y_train=None, **kwargs):
+        return x_train[:self.x_test_fitter.x_train_size]
 
 
 class dotdict(dict):
@@ -96,7 +109,7 @@ def save_predictions(dataset, score):
 
 def fit_predict(classifier, dataset):
     print('fitting on entire training data')
-    classifier = classifier.fit(dataset.x_train, dataset.y_train)
+    classifier.fit(dataset.x_train, dataset.y_train)
     dataset.test_preds = classifier.predict(dataset.x_test)
     return dataset
 
@@ -110,7 +123,7 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution):
         params = list(ParameterSampler(param_distribution, 1))[0]
         try:
             model.set_params(**params)
-            score = cross_validate(model, dataset)
+            score = cross_validate(model, dataset, verbose=False)
             if score > best_score:
                 best_params = params
                 best_score = score
@@ -207,8 +220,9 @@ def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test):
     return score
 
 
-def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=5):
-    print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
+def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=5, verbose=True):
+    if verbose:
+        print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
     xs, ys = dataset.x_train, dataset.y_train
     scorer = make_scorer(balanced_accuracy_score)
     k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
@@ -221,7 +235,8 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=5):
         fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
     scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params) for params in fold_params)
     mean_score = np.mean(scores)
-    print("mean score: {:.2%} (+/- {:.2%})".format(mean_score, np.std(scores) * 2))
+    if verbose:
+        print("mean score: {:.2%} (+/- {:.2%})".format(mean_score, np.std(scores) * 2))
     return mean_score
 
 
@@ -229,12 +244,6 @@ def normalize(x_train, x_test):
     normalizer = StandardScaler()
     normalizer.fit(x_train)
     return normalizer.transform(x_train), normalizer.transform(x_test)
-
-
-def save_predictions(x_test, test_names, classifier):
-    with open("output.zip", 'w') as file:
-        file.write("\n".join(["{};{}".format(name, int(
-            classifier.predict([x])[0])) for x, name in zip(x_test, test_names)]))
 
 
 class DenseTransformer(TransformerMixin):
