@@ -1,6 +1,7 @@
 arrow==0.15.2
 astroid==2.3.2
 autopep8==1.4.4
+beautifulsoup4==4.8.1
 binaryornot==0.4.4
 blis==0.4.1
 boto==2.49.0
@@ -10,10 +11,14 @@ certifi==2019.9.11
 cffi==1.13.2
 chardet==3.0.4
 Click==7.0
+colorama==0.4.1
 cookiecutter==1.6.0
 cryptography==2.8
 cymem==2.0.2
 docutils==0.15.2
+entrypoints==0.3
+flake8==3.7.9
+flake8-polyfill==1.0.2
 future==0.18.2
 gensim==3.8.1
 h5py==2.10.0
@@ -30,6 +35,8 @@ langdetect==1.0.7
 Lasagne==0.1
 lazy-object-proxy==1.4.3
 lda==1.1.0
+lxml==4.4.1
+mando==0.6.4
 MarkupSafe==1.1.1
 mccabe==0.6.1
 murmurhash==1.0.2
@@ -41,11 +48,13 @@ poyo==0.5.0
 preshed==3.0.2
 pycodestyle==2.5.0
 pycparser==2.19
+pyflakes==2.1.1
 pylint==2.4.3
 python-dateutil==2.8.0
 python-telegram-bot==12.2.0
 pytz==2019.3
 PyYAML==5.1.2
+radon==4.0.0
 requests==2.22.0
 s3transfer==0.2.1
 scikit-learn==0.21.3
@@ -54,6 +63,7 @@ singleton-decorator==1.0.0
 six==1.12.0
 skorch==0.6.0
 smart-open==1.8.4
+soupsieve==1.9.5
 spacy==2.2.1
 srsly==0.2.0
 tabulate==0.8.5
