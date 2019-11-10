@@ -1,0 +1,6 @@
+,feature_selection__k,classification__module__hidden_layer_sizes,classification__module__dropout,html_remover__active,x_test_fitter__active,score
+1,0,1,5000,"(10, 10)",0.15,0.9973566662998187
+2,0,1,5000,"(10, 10)",0.15,0.9971691314280919
+3,1,1,2000,"(5, 10)",0.4,0.996985923899099
+4,0,0,20000,"(10, 10)",0.3,0.9974752797220433
+5,0,1,5000,"(10, 10)",0.15,0.9976704322316327
