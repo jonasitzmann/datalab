@@ -136,10 +136,10 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dic
                 print("best params")
                 print(best_params)
                 print("best score after {} iteration{}: {:.2%}".format(iter, "s" if iter > 1 else "", best_score))
-            dataset = fit_predict(model, dataset)
-            save_predictions(dataset, best_score)
             else:
                 print('score: {:.2%}'.format(score))
+            dataset = fit_predict(model, dataset)
+            save_predictions(dataset, best_score)
 
         except Exception as ex:
             print('Error (skipping param set):\n{}'.format(traceback.format_exc()))

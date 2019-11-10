@@ -189,6 +189,7 @@ class Task(BaseTask):
             'classification__module__hidden_layer_sizes': [(10, 10), (5, 5), (12, 12)],
             'classification__module__dropout': [0.1, 0.2, 0.5],
             'x_test_fitter__active': [1],
+            'feature_extraction__pipeline__union__bag_of_words__ngram_range': [(1, 3), (1, 5)]
         }
 
     def get_params(self):
