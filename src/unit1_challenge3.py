@@ -18,6 +18,7 @@ from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
 from src.utils.utils import XTestFitter
 from src.utils.utils import NoXTestFitter
+from functools import partial
 import spacy
 
 
@@ -25,15 +26,7 @@ class HtmlFeatureExtractor(TransformerMixin):
     def __init__(self):
         super(HtmlFeatureExtractor, self).__init__()
 
-    def fit(self, x, y=None, **fit_params):
-        return self
-
-    def transform(self, x, y=None):
-        transformed = [self.transform_sample(sample) for sample in x]
-        return transformed
-
     def transform_sample(self, sample: str):
-        features = []
         soup = BeautifulSoup(sample, 'html.parser')
 
         #  link features
@@ -45,25 +38,35 @@ class HtmlFeatureExtractor(TransformerMixin):
         else:
             mean_link_features = np.array([0, 0, 0])
             sum_link_features = np.array([0, 0, 0])
-        features += list(mean_link_features)
-        features += list(sum_link_features)
 
         #  text features
         text = soup.get_text()
         plain_text_proportion = len(text) / len(sample)
-        features.append(plain_text_proportion)
 
         words = text.split()
         unique_words = set(words)
         repetitiveness = len(words) / len(unique_words)
-        features.append(repetitiveness)
 
+        features = [
+            *mean_link_features,
+            *sum_link_features,
+            plain_text_proportion,
+            repetitiveness,
+        ]
         # embeddings = np.array([self.nlp(word).vector for word in words])
         # topic = np.mean(embeddings, axis=0)
         # features += list(topic.flatten())
         # std = np.std(embeddings, axis=0)
         # features += list(std.flatten())
         return features
+
+    def fit(self, x, y=None, **fit_params):
+        return self
+
+    def transform(self, x, y=None):
+        transformed = [self.transform_sample(sample) for sample in x]
+        return transformed
+
 
     @staticmethod
     def get_link_features(link: str):
@@ -74,6 +77,7 @@ class HtmlFeatureExtractor(TransformerMixin):
         features.append('https' in href)
         features.append('.com' in href)
         return np.array(features)
+
 
 class Net(nn.Module):
     def __init__(self, input_dim=1000, hidden_layer_sizes=(10, 10), dropout=0):
@@ -130,7 +134,7 @@ class Task(BaseTask):
         pipeline = Pipeline([
             ('x_test_fitter', cheater),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
-                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+                #('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('html_features', HtmlFeatureExtractor())
                 ])),
             ('no_x_test_fitter', uncheater),  # stop cheating (subsequent steps need labels)
@@ -145,7 +149,7 @@ class Task(BaseTask):
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [7000, 10000, 12000],
+            'feature_selection__k': [8],
             'classification__module__hidden_layer_sizes': [(10, 10), (8, 8), (7, 7), (6, 6)],
             'classification__module__dropout': [0.1, 0.15, 0.2],
             'x_test_fitter__active': [0, 1],

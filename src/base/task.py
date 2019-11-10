@@ -44,5 +44,5 @@ class BaseTask(ABC):
         score = cross_validate(self.model, self.dataset, n_folds=n_folds, parallel=parallel)
         return score
 
-    def find_params(self):
-        endless_random_search(self.model, self.dataset, self.param_distribution)
+    def find_params(self, parallel=True, verbose=False):
+        endless_random_search(self.model, self.dataset, self.param_distribution, parallel=parallel, verbose=verbose)

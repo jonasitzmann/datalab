@@ -114,7 +114,7 @@ def get_filename_unique(filename):
     return new_name
 
 
-def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dict):
+def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dict, parallel=True, verbose=False):
     file_name = get_filename_unique('params_score.csv')
     print('endless_random_search (params are saved to {})'.format(file_name))
     df = pd.DataFrame(columns=[*param_distribution.keys(), 'score'])
@@ -125,7 +125,7 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dic
         params = list(ParameterSampler(param_distribution, 1))[0]
         try:
             model.set_params(**params)
-            score = cross_validate(model, dataset, verbose=False)
+            score = cross_validate(model, dataset, verbose=verbose, parallel=parallel)
             params_and_score = params
             params_and_score['score'] = score
             df = df.append(params_and_score, ignore_index=True)
