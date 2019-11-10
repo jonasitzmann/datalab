@@ -120,7 +120,7 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dic
         try:
             model.set_params(**params)
             score = cross_validate(model, dataset, verbose=False)
-            df.append(params, ignore_index=True)
+            df = df.append(params, ignore_index=True)
             df.to_csv(file_name)
             if score > best_score:
                 best_params = params
@@ -222,7 +222,29 @@ def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test, verbose=T
     return score
 
 
-def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose=True):
+def get_last_score_path(task):
+    return 'tmp/last_score_unit{}_challenge{}'.format(task.unit, task.challenge)
+
+
+def get_last_score(task):
+    score = None
+    try:
+        score = float(open(get_last_score_path(task), 'r').read())
+    except Exception:
+        pass
+    return score
+
+
+def save_last_score(score, task):
+    path = get_last_score_path(task)
+    folder = '/'.join(path.split('/')[:-1])
+    if not os.path.exists(folder):
+        os.mkdir(folder)
+    with open(path, 'w') as f:
+        f.write(str(score))
+
+
+def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose=True, parallel=True):
     if verbose:
         print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
     xs, ys = dataset.x_train, dataset.y_train
@@ -235,9 +257,10 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose
         ys_train = ys[train_idxs]
         ys_test = ys[test_idxs]
         fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
-    parallel = True
     if parallel:
-        scores = Parallel(n_jobs=n_jobs)(delayed(calc_score)(model, scorer, *params, verbose=False) for params in fold_params)
+        scores = Parallel(n_jobs=n_jobs)(
+            delayed(calc_score)(model, scorer, *params, verbose=verbose)
+            for params in fold_params)
     else:
         scores = [calc_score(model, scorer, *params) for params in fold_params]
     mean_score = np.mean(scores)

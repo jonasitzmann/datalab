@@ -1,7 +1,9 @@
 import warnings
 import importlib
 from src.base.task import BaseTask
+from src.utils.utils import save_last_score, get_last_score
 warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=UserWarning)
 
 
 def get_task(unit, challenge, samples_factor=1):
@@ -11,5 +13,10 @@ def get_task(unit, challenge, samples_factor=1):
 
 
 if __name__ == '__main__':
-    task: BaseTask = get_task(unit=1, challenge=2, samples_factor=0.01)
-    task.find_params()
+    task: BaseTask = get_task(unit=1, challenge=3, samples_factor=0.05)
+    parallel = False  # set to false for debugging
+    score = task.evaluate(parallel=parallel)
+    last_score = get_last_score(task)
+    if last_score:
+        print('last score: {:.2%}'.format(last_score))
+    save_last_score(score, task)

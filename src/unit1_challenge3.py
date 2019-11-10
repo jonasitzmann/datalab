@@ -1,18 +1,13 @@
 import numpy as np
 from src.base.task import BaseTask
 from src.utils.utils import DenseTransformer
-from src.utils.utils import ClfSwitcher
-from sklearn.base import (BaseEstimator, ClassifierMixin, TransformerMixin)
+from sklearn.base import TransformerMixin
 from src.utils.utils import couple_params
 from src.utils.utils import FixRandomSeed
-from email.parser import Parser
-from email.message import Message
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
 from bs4 import BeautifulSoup
 #  pytorch
 from torch import nn
@@ -23,60 +18,54 @@ from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
 from src.utils.utils import XTestFitter
 from src.utils.utils import NoXTestFitter
-from src.utils.utils import OptionalTransformer
 
 
-class HtmlRemover(OptionalTransformer):
+class HtmlFeatureExtractor(TransformerMixin):
     def __init__(self):
-        super(HtmlRemover, self).__init__()
-        self.transform = self.if_active(self.transform)
+        super(HtmlFeatureExtractor, self).__init__()
 
     def fit(self, x, y=None, **fit_params):
         return self
 
     def transform(self, x, y=None):
-        features = [BeautifulSoup(msg, "lxml").text for msg in x]
+        transformed = [HtmlFeatureExtractor.transform_sample(sample) for sample in x]
+        return transformed
+
+    @staticmethod
+    def transform_sample(sample: str):
+        features = []
+        soup = BeautifulSoup(sample, 'html.parser')
+
+        #  link features
+        links = soup.find_all('a')
+        if len(links) > 0:
+            link_features = np.array([HtmlFeatureExtractor.get_link_features(link) for link in links])
+            mean_link_features = np.mean(link_features, axis=0)
+            sum_link_features = np.sum(link_features, axis=0)
+        else:
+            mean_link_features = np.array([0, 0, 0])
+            sum_link_features = np.array([0, 0, 0])
+        features += list(mean_link_features)
+        features += list(sum_link_features)
+
+        text = soup.get_text()
+        plain_text_proportion = len(text) / len(sample)
+        features.append(plain_text_proportion)
+        words = text.split()
+        unique_words = set(words)
+        repetitiveness = len(words) / len(unique_words)
+        features.append(repetitiveness)
         return features
 
-
-class EmailFeatureExtractor(OptionalTransformer):
-    def __init__(self):
-        super(EmailFeatureExtractor, self).__init__()
-        self.keys = None
-
-    def fit(self, x, y=None, **fit_params):
-        all_keys = [self.get_keys(text) for text in x]
-        all_keys = [key for sublist in all_keys for key in sublist]  # flatten
-        self.keys = list(set(all_keys))  # only count distinct keys
-        return self
-
-    def transform(self, x, y=None):
-        features = [self.get_features(email_str) for email_str in x]
-        return features
-
-    def get_keys(self, email_str: str):
-        message: Message = Parser().parsestr(email_str)
-        return message.keys()
-
-    def get_features(self, email_str: str):
-        keys = self.get_keys(email_str)
-        features = [int(k in keys) for k in self.keys]
-        return features
-
-
-class XSpamClassifier(BaseEstimator, ClassifierMixin):
-    def __init__(self):
-        self.trigger_text = 'X-Spam-Status: No'
-
-    def fit(self, x, y=None, **fit_params):
-        return self
-
-    def predict(self, x, y=None):
-        return np.array([self.trigger_text not in text for text in x])
-
-    def do_apply(self, text):
-        return self.trigger_text in text
-
+    @staticmethod
+    def get_link_features(link: str):
+        features = []
+        href = link.get('href')
+        href = '' if href is None else href
+        features.append(len(href))
+        features.append('https' in href)
+        features.append('.com' in href)
+        return np.array(features)
 
 class Net(nn.Module):
     def __init__(self, input_dim=1000, hidden_layer_sizes=(10, 10), dropout=0):
@@ -126,43 +115,39 @@ def get_classifier_from_net(dataset):
 
 class Task(BaseTask):
     def get_model(self, **kwargs):
-        #  print('get model for unit {}, challenge {}'.format(self.unit, self.challenge))
         selection = SelectKBest(score_func=chi2, k=1000)
         net = get_classifier_from_net(self.dataset)
-        x_test_fitter = XTestFitter()
-        no_x_test_fitter = NoXTestFitter(x_test_fitter)
+        cheater = XTestFitter()
+        uncheater = NoXTestFitter(cheater)
         pipeline = Pipeline([
-            ('html_remover', HtmlRemover()),
-            ('x_test_fitter', x_test_fitter),  # cheat by using test data for fitting
+            ('x_test_fitter', cheater),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
-                ('email_parser', EmailFeatureExtractor()),
-                ('other_features', HandCraftedFeatureExtractor())])),
-            ('no_x_test_fitter', no_x_test_fitter),  # stop cheating (classifier needs labels)
+                ('html_features', HtmlFeatureExtractor())
+                ])),
+            ('no_x_test_fitter', uncheater),  # stop cheating (subsequent steps need labels)
             ('feature_selection', selection),
             ('sparse_to_dense', DenseTransformer()),
             ('normalization', StandardScaler()),
-            ('classification', net)  # todo: enable cheating by unsupervised pre-training
+            ('classification', net)  # todo: enable cheating by unsupervised pre-training (autoencoder)
         ], verbose=False)
         couple_params(selection, 'k', net, 'module__input_dim')
-        couple_params(x_test_fitter, 'active', no_x_test_fitter, 'active')
+        couple_params(cheater, 'active', uncheater, 'active')  # todo: shouldn't be necessary, adjust XTestFitter
         return pipeline
 
     def get_param_distribution(self):
         return {
             'feature_selection__k': [7000, 10000, 12000],
-            'classification__module__hidden_layer_sizes': [(10, 10), (8, 8), (6, 6)],
-            'classification__module__dropout': [0.1, 0.15, 0.2, 0.25, 0.3],
-            'html_remover__active': [0, 1],
+            'classification__module__hidden_layer_sizes': [(10, 10), (8, 8), (7, 7), (6, 6)],
+            'classification__module__dropout': [0.1, 0.15, 0.2],
             'x_test_fitter__active': [0, 1],
         }
 
     def get_params(self):
         return {
-            'feature_selection__k': 1000,
+            'feature_selection__k': 10000,
             'classification__module__hidden_layer_sizes': (10, 10),
             'classification__module__dropout': 0.2,
-            'html_remover__active': 0,
             'x_test_fitter__active': 0,
         }
 

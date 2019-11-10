@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+import sys
 
 def plot_hyperparams(filename):
     df = pd.read_csv(filename)
@@ -15,6 +15,9 @@ def plot_hyperparams(filename):
 
 
 if __name__ == '__main__':
-    plot_hyperparams('params_score.csv')
+    path = 'params_score.csv'
+    if len(sys.argv) > 1:
+        path = sys.argv[1]
+    plot_hyperparams(path)
 
 

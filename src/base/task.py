@@ -35,8 +35,8 @@ class BaseTask(ABC):
     def get_params(self):
         pass
 
-    def evaluate(self, n_folds=4):
-        score = cross_validate(self.model, self.dataset, n_folds=n_folds)
+    def evaluate(self, n_folds=4, parallel=True):
+        score = cross_validate(self.model, self.dataset, n_folds=n_folds, parallel=parallel)
         return score
 
     def find_params(self):
