@@ -1,1 +1,7 @@
-,feature_selection__k,classification__module__hidden_layer_sizes,classification__module__dropout,html_remover__active,x_test_fitter__active,score
+,feature_selection__k,classification__module__hidden_layer_sizes,classification__module__dropout,x_test_fitter__active,score
+0,12000,"(10, 10)",0.1,0,0.9991007194244604
+1,12000,"(10, 10)",0.1,0,0.9991007194244604
+2,12000,"(10, 10)",0.1,1,0.9991007194244604
+3,7000,"(7, 7)",0.1,1,0.9991007194244604
+4,7000,"(6, 6)",0.15,1,0.9991007194244604
+5,10000,"(10, 10)",0.2,1,0.9991007194244604
