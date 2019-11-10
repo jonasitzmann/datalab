@@ -82,7 +82,7 @@ def save_predictions(dataset, score):  # todo: parallelize
     folder = 'predictions/unit_{}/challenge_{}'.format(dataset.unit, dataset.challenge)
     if not os.path.isdir(folder):
         os.mkdir(folder)
-    file_path = '{}/score_{}.csv'.format(folder, score)
+    file_path = get_filename_unique('{}/score_{}.csv'.format(folder, score))
     with open(file_path, 'w') as file:
         for name, prediction in zip(dataset.test_names, dataset.test_preds):
             file.write('{};{}\n'.format(name, prediction))
@@ -136,8 +136,8 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dic
                 print("best params")
                 print(best_params)
                 print("best score after {} iteration{}: {:.2%}".format(iter, "s" if iter > 1 else "", best_score))
-                dataset = fit_predict(model, dataset)
-                save_predictions(dataset, best_score)
+            dataset = fit_predict(model, dataset)
+            save_predictions(dataset, best_score)
             else:
                 print('score: {:.2%}'.format(score))
 
