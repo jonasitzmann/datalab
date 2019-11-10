@@ -21,12 +21,15 @@ import os
 import re
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.bot import Bot
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
 logger = logging.getLogger(__name__)
+TOKEN = "822372321:AAG9saN3bu-BXdWkL16tDqrTpBGF20QOPYU"
+bot = Bot(TOKEN)
 
 
 # Define a few command handlers. These usually take the two arguments update and
@@ -43,6 +46,10 @@ def help(update, context):
 
 def send(text, chat_id):
     os.system("bot '{}' '{}'".format(text, chat_id))
+
+
+def send_visualization(chat_id, idx):
+    bot.send_photo(chat_id, open('test.jpeg', 'rb'))
 
 
 def echo(update, context):
@@ -83,8 +90,8 @@ def main():
     # Create the Updater and pass it your bot's token.
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
-    TOKEN = "822372321:AAG9saN3bu-BXdWkL16tDqrTpBGF20QOPYU"
     updater = Updater(TOKEN, use_context=True)
+    send_visualization(0)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
