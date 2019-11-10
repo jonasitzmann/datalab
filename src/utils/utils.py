@@ -106,7 +106,7 @@ def fit_predict(classifier, dataset):
 
 def get_filename_unique(filename):
     i = 1
-    name, extension = filename.split('.')
+    name, extension = filename.rsplit('.', 1)
     new_name = '{}_{}.{}'.format(name, i, extension)
     while os.path.isfile(new_name):
         i += 1
