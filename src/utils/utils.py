@@ -20,6 +20,7 @@ from sklearn.base import ClassifierMixin
 from joblib import Parallel, delayed, parallel_backend
 from sklearn.model_selection._search import ParameterSampler
 from sklearn.pipeline import Pipeline
+from src.base.optional_transformer import OptionalTransformer
 
 
 class FixRandomSeed(Callback):
@@ -97,8 +98,19 @@ def fit_predict(classifier, dataset):
     return dataset
 
 
+def get_filename_unique(filename):
+    i = 1
+    name, extension = filename.split('.')
+    new_name = '{}_{}.{}'.format(name, i, extension)
+    while os.path.isfile(new_name):
+        i += 1
+        new_name = '{}_{}.{}'.format(name, i, extension)
+    return new_name
+
+
 def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dict):
-    print('start endless_random_search')
+    file_name = get_filename_unique('params_score.csv')
+    print('endless_random_search (params are saved to {})'.format(file_name))
     df = pd.DataFrame(columns=[*param_distribution.keys(), 'score'])
     best_score = 0.
     iter = 0
@@ -108,8 +120,8 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dic
         try:
             model.set_params(**params)
             score = cross_validate(model, dataset, verbose=False)
-            df.loc[iter] = [*params.values(), score]
-            df.to_csv('params_score.csv')
+            df.append(params, ignore_index=True)
+            df.to_csv(file_name)
             if score > best_score:
                 best_params = params
                 best_score = score
@@ -248,25 +260,6 @@ class DenseTransformer(TransformerMixin):
         if hasattr(X, 'todense'):
             X = X.todense()
         return X
-
-
-class OptionalTransformer(TransformerMixin):
-    def __init__(self, active=True):
-        super(OptionalTransformer, self).__init__()
-        self.active = active
-        self.transform = self.if_active(self.transform)
-
-    def set_params(self, active=None, **kwargs):
-        if active is not None:
-            self.active = bool(active)
-
-    def if_active(self, func):
-        def wrapper(pass_param, *args, **kwargs):
-            if self.active:
-                return func(pass_param, *args, **kwargs)
-            else:
-                return pass_param
-        return wrapper
 
 
 class XTestFitter(OptionalTransformer):
