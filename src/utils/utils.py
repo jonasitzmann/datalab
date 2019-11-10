@@ -45,23 +45,29 @@ class dotdict(dict):
     __delattr__ = dict.__delitem__
 
 
-def get_dataset(unit, challenge, samples_factor):
+def get_dataset(unit, challenge, samples_factor, include_names=False):
     print('loading {0:.0%} of the training data'.format(samples_factor))
     path = 'data/unit_{}/challenge_{}/'.format(unit, challenge)
     train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
     test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
     n_samples_train = int(len(train_data.data) * samples_factor)
     n_samples_test = int(len(test_data.data) * samples_factor)
+    x_train = train_data.data[:n_samples_train]
+    y_train = train_data.target[:n_samples_train]
+    x_test = test_data.data[:n_samples_test]
+    if include_names:
+        x_train = [name.replace('data', 'embeddings') + '\n' + x for name, x in zip(train_data.filenames, x_train)]
+        x_test = [name.replace('data', 'embeddings') + '\n' + x for name, x in zip(test_data.filenames, x_test)]
     dataset = dotdict({
-        'x_train': train_data.data[:n_samples_train],
-        'y_train': train_data.target[:n_samples_train],
-        'x_test': test_data.data[:n_samples_test],
+        'x_train': x_train,
+        'y_train': y_train,
+        'x_test': x_test,
         'test_names': [name.split('/')[-1] for name in test_data.filenames],
         'unit': unit,
         'challenge': challenge,
     })
-    num_c0 = sum(dataset.y_train == 0)
-    num_c1 = sum(dataset.y_train == 1)
+    num_c0 = sum(y_train == 0)
+    num_c1 = sum(y_train == 1)
     train_size = len(dataset.y_train)
     print('class 0: {} ({:.0%})\nclass 1: {} ({:.0%})'.format(
         num_c0, num_c0 / train_size, num_c1, num_c1 / train_size))
@@ -262,6 +268,7 @@ def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose
             delayed(calc_score)(model, scorer, *params, verbose=verbose)
             for params in fold_params)
     else:
+        print('parallel option disabled. (debugging mode)')
         scores = [calc_score(model, scorer, *params) for params in fold_params]
     mean_score = np.mean(scores)
     if verbose:
@@ -317,5 +324,9 @@ class NoXTestFitter(OptionalTransformer):
             x_train = x_train[:self.x_test_fitter.x_train_size]
         self.x_test_fitter.x_train_size = None
         return x_train
+
+
+def flatten(arr):
+    return [e for sublist in arr for e in sublist]
 
 

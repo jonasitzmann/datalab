@@ -18,6 +18,7 @@ from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
 from src.utils.utils import XTestFitter
 from src.utils.utils import NoXTestFitter
+import spacy
 
 
 class HtmlFeatureExtractor(TransformerMixin):
@@ -28,11 +29,10 @@ class HtmlFeatureExtractor(TransformerMixin):
         return self
 
     def transform(self, x, y=None):
-        transformed = [HtmlFeatureExtractor.transform_sample(sample) for sample in x]
+        transformed = [self.transform_sample(sample) for sample in x]
         return transformed
 
-    @staticmethod
-    def transform_sample(sample: str):
+    def transform_sample(self, sample: str):
         features = []
         soup = BeautifulSoup(sample, 'html.parser')
 
@@ -48,13 +48,21 @@ class HtmlFeatureExtractor(TransformerMixin):
         features += list(mean_link_features)
         features += list(sum_link_features)
 
+        #  text features
         text = soup.get_text()
         plain_text_proportion = len(text) / len(sample)
         features.append(plain_text_proportion)
+
         words = text.split()
         unique_words = set(words)
         repetitiveness = len(words) / len(unique_words)
         features.append(repetitiveness)
+
+        # embeddings = np.array([self.nlp(word).vector for word in words])
+        # topic = np.mean(embeddings, axis=0)
+        # features += list(topic.flatten())
+        # std = np.std(embeddings, axis=0)
+        # features += list(std.flatten())
         return features
 
     @staticmethod
@@ -122,7 +130,7 @@ class Task(BaseTask):
         pipeline = Pipeline([
             ('x_test_fitter', cheater),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
-                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+                #('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('html_features', HtmlFeatureExtractor())
                 ])),
             ('no_x_test_fitter', uncheater),  # stop cheating (subsequent steps need labels)
@@ -145,7 +153,7 @@ class Task(BaseTask):
 
     def get_params(self):
         return {
-            'feature_selection__k': 10000,
+            'feature_selection__k': 8,
             'classification__module__hidden_layer_sizes': (10, 10),
             'classification__module__dropout': 0.2,
             'x_test_fitter__active': 0,
@@ -158,3 +166,7 @@ class Task(BaseTask):
     @property
     def challenge(self):
         return 3
+
+    @property
+    def include_file_names(self):
+        return False  # todo: set to True

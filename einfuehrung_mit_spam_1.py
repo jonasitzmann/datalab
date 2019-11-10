@@ -17,6 +17,7 @@ import warnings
 import spacy
 import pickle
 from singleton_decorator import singleton
+from bs4 import BeautifulSoup
 warnings.simplefilter(
     action='ignore',
     category=FutureWarning)  # disable future warnings
@@ -80,21 +81,34 @@ class Word2Vec:
         self.model = spacy.load('en_core_web_sm')
 
 
-def calc_embeddings(texts, dirname):
+def calc_embeddings(texts):
+
     print("calculating embeddings")
     model = Word2Vec().model
-    shutil.rmtree(dirname)
-    os.mkdir(dirname)
     for index, email in enumerate(texts):
         if index % 1000 == 0:
             print("{} of {}".format(index, len(texts)))
-        embedding = model(email.lower())
-        array = np.array([word.vector for word in embedding], dtype=np.single)
-        with open("{}/{:04d}.bin".format(dirname, index), 'wb') as file:
-            pickle.dump(array, file)
+        file_name, email = email.split('\n', 1)
+        if os.path.isfile(file_name):
+            continue
+        else:
+            folder = '/'.join(file_name.split('/')[:-1])
+            if not os.path.exists(folder):
+                os.makedirs(folder)
+        text = BeautifulSoup(email, 'html.parser').get_text()
+        embedding = model(text.lower())
+        array = np.array([word.vector for word in embedding])
+        mean = np.mean(array, axis=0)
+        std = np.std(array, axis=0)
+        dictionary = {
+            'mean': mean,
+            'std': std
+        }
+        with open(file_name, 'wb') as f:
+            pickle.dump(dictionary, f)
 
 
-def load_embedding(dirname, index):
+def load_embedding(file):
     with open("{}/{:04d}.bin".format(dirname, index), 'rb') as file:
         return pickle.load(file)
 
