@@ -1,0 +1,108 @@
+
+
+
+<html>
+<head>
+
+<title>Brighton &amp; Hove Education Online: BHCC website for schools PRINTABLE VERSION</title>
+
+
+<!-- Brighton & Hove City Council - Education Online skin -->
+<!-- Version 2.0 September 2003 -->
+<!-- Technical enquiries: james.burton@brighton-hove.gov.uk -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+	@import url(web/sites/education/page_display/may_03_print.css);
+</style>
+
+
+<meta name="keywords" content=""> <meta name="Description" content=""> 
+
+<script language="JavaScript">
+	window.print();
+</script>
+
+<style>
+.breadCrumbsText {
+	color: #000;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<p class="Upgrade">This page looks plain and unstyled because you're using a
+  non-standard compliant browser. Please upgrade to a browser that supports web standards as soon as possible. Staff within Brighton & Hove City Council can call the ICT Helpdesk on 292001. Staff within schools should contact their ICT Coordinator or ICT Support Staff. Everyone else can get useful information from <a href="http://www.webstandards.org/upgrade/" title="The Web Standards Project's Browser Upgrade initiative">The Web Standards Project's Browser Upgrade initiative</a>.</p>
+
+
+ 
+
+
+<div id="Container">   
+<h2 align="center">Brighton & Hove Education Online Printable version</h1>
+
+
+		  <div id="Main" style="background-color:#fff;">
+		
+		
+		
+		    <div id="Topmenu">
+				
+		<a href="index.cfm?request=a300" title="eds_home" class="breadCrumbsText">home</a>
+	
+			&nbsp;/ <strong>user profile</strong>
+		 
+			</div>
+			
+			<div id="Content">
+			
+							
+				
+				<h2>User Profile</h2>
+
+
+<script language="JavaScript" src="web/sites/education/javascript/String.prototype.isEmail.js"></script>
+<script language="JavaScript" src="web/sites/education/javascript/String.prototype.isEmpty.js"></script>
+
+<script language="JavaScript">
+	function checkForm() {
+		var f = document.editForm;
+		var errors = "";
+		if(!f.email.value.isEmail()) errors +="\nThat email smells bad.";
+		
+		if(f.password.value != f.password2.value) errors += "\nPlease enter the new password twice.";
+		if(errors) {
+			alert(errors);
+			return false;
+		}	
+	}
+</script>
+<style>
+.leftCol{
+	text-align:right;
+}
+
+</style>
+<hr />
+
+
+			
+		</div>
+		<br >&nbsp;</br>
+		
+
+
+
+
+ </div>
+
+</body>
+</html>
+
+
+ae=p

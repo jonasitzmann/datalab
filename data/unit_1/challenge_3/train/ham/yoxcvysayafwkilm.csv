@@ -1,0 +1,1185 @@
+<html>
+
+<head>
+
+<title>
+
+CERES Digest III</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h1 align=center>CERES Digest III</h1>
+
+<center><table><tr width=80%><td><h4>
+Hearing is but as the sowing of the Seed; talking is not sufficient to
+prove that fruit is indeed in the heart and life; and let us assure our
+selves, that at the day of Doom, men shall be judged according to their
+fruits. It will not be said then, Did you believe? but, Were you Doers, or
+Talkers only? and accordingly shall they be judged. The end of the World is
+compared to our Harvest, and you know men at Harvest regard nothing but
+Fruit.
+</h4></td></tr></table></center>
+<p>
+<hr>
+
+<strong>CONTENTS AND INTRODUCTION</strong> <br>
+In this digest of our third series, we have reorganised for ease of access the best (that is, all) of the material from 1998, including a huge proliferation in online editions, updates to some of our favorite resources, a healthy crop of new tools, and of course the developing corpus of online journals and email-list archives, all supplemented by our own home-grown CERES research projects.  Choose from the menu or scroll through below.
+<p>
+<ul>
+<li><a href=#onlinetexts><strong>Online Texts</strong></a>: Richard Bear's expanding Renascence Editions, Digitised Book Projects, Middleton Online, and more.
+<li><a href=#resourceupdates><strong>Resource Updates</strong></a>: new features for REED, LION, the Oxford Text Archive, OCLC, ESTC and more.
+<li><a href=#newresources><strong>New Resources</strong></a>: new Renaissance resources, including ArdenNet, Dissertation Abstracts online, Italnet, the Medici Archive, and much more.
+<li><a href=#journalsemail><strong>Journals and Email Lists</strong></a>: coverage of new online editions of EMLS, the Sixteenth Century Journal, and Renaissance Forum, and information on new journal services from BIDS. Also information on SIDNEY-L, SHAKSPER, and H-HISTBIBL.
+<li><a href=#specials><strong>CERES Specials</strong></a>: Online Gloriana and the Virginia Colonies.
+<li><a href=#weird><strong>The Weird, The Wonderful</strong></a>: some wacky, some just unclassifiable.
+</ul>
+<p>
+<hr>
+<a name=onlinetexts></a>
+<h2 align=center>Online Texts</h2>
+<p>
+<strong>OCTAVO</strong><br>
+<cite>A few words from our top Gizmo Correspondent, Colin Burrow</cite>
+<p>
+The American publishers Octavo have begun a series of electronic
+reproductions of early modern books, which combine the pleasures and detail
+of a photographic facsimile with the convenience - say it, pastability - of
+e-texts. So far they offer Hooke's <cite>Micrographia</cite>, Newton's <cite>Opticks</cite>,
+Shakespeare's <cite>Poems (1640)</cite>, with a variety of goodies planned for future
+publication, including Johnson's <cite>Dictionary</cite>, Harvey on the circulation of
+the blood and Vesalius's <cite>De Humani Corporis Fabrica</cite>. The focus is on texts with a large visual component, but they are also promising some more texty
+texts such as <cite>Areopagitica</cite> in the near future.
+<p>
+What do you get? Well, the great thing about the series is that the texts
+come as PDF files which can be viewed with an Adobe Acrobat viewer. This is
+free, small, quite fast, and many people will have it anyway installed on
+their systems. It enables you to view the volumes in near-photographic
+quality (you can see things like show through from the previous page,
+splodges of ink, torn corners, even the indentations made by individual
+pieces of type -- although real bibliographers might grouse at the lack of
+good shots of watermarks). You can also zoom in, scroll down, and navigate
+through the volume by means of hyperlinks. Rudimentary keyword searches are
+possible as well as more sophisticated proximity searches. And you can
+paste text from what appears to be a photograph into a word-processor.
+Pages can be viewed in three levels of detail: Print (which is black and
+white and works fast), Browse (which is in decent colour, but which
+disables text copying), Read (which is in good colour quality and which
+enables copying text) and Examine (which is extremely high detail, with
+pixels only becoming visible at 800x magnification). Examine mode is
+slowish on a Pentium 166, but Read mode lets you, well, read. And Octavo
+have cleverly made it look as though you are turning the pages as you move
+through the volume.
+<p>
+The limitations are mostly those of the Adobe Acrobat Viewer. Copying text
+works quite well, except that if you copy the bottom half of one page on an
+opening you also as far as I could tell have to copy the text at the bottom
+of the facing page. Sometimes text pasted from the 1640 Shakespeare's poems
+lost its line-endings. But one can live with this once one knows it's a
+problem. There are nice touches: a problem with the 1640 volume is finding
+which of Benson's combined and retitled sonnets correspond to the numbers
+in Thorpe's Quarto. Octavo get round this by having a side bar which lets
+you hop to the poems in their 1609 numberings.
+<p>
+This is good stuff. And it is cheap: the Shakespeare volume is 25 US
+dollars plus 3 dollars postage. Now think of a wish list (Milton's Poems
+1645, the Jonson Folio, Herrick's Hesperides ...). Me, I'm waiting for the
+Vesalius: can't wait to see all those bodies pulling their flesh off, and
+all for 75 US dollars...
+<p>
+To find out more, visit <a href=http://www.octavo.com>http://www.octavo.com</a>.
+<p>
+<strong> MORE TEXTS AT RENASCENCE EDITIONS </strong><br>
+Yet more e-texts have been added to Richard Bear's Renascence
+Editions website at: <a href=http://darkwing.uoregon.edu/~rbear/ren.htm>http://darkwing.uoregon.edu/~rbear/ren.htm</a>.  New texts include:
+<ul>
+<li>Roger Ascham's <cite>The Scholemaster</cite>
+<li>Thomas Campion's <cite>Observations on the Art of English Poesie</cite>
+<li>William Caxton's translation of Alain Chartier's letter to his brother advising him not to come to Court (<cite>The Curial</cite>), printed in 1484
+<li>Henrie Chettle's <cite>Kind-harts Dreame</cite> (1592)
+<li><a href=http://darkwing.uoregon.edu/~rbear/diana.html>Henry Constable's sonnet sequence <cite>Diana</cite></a>
+<li><a href=http://darkwing.uoregon.edu/~rbear/delia.html>Samuel Daniel's <cite>Delia. Contayning certayne Sonnets: vvith the complaint of Rosamond</cite></a>
+<li><a href=http://darkwing.uoregon.edu/~rbear/ryme.html>Samuel Daniel's <cite>Defence of Ryme</cite></a>
+<li>Sir Thomas Elyot's <cite>The Boke Named the Governour</cite>
+<li>William Goddard's <cite>Neaste of Waspes</cite> (1615)
+<li>A host of Milton titles, courtesy of Judy Boss:
+<ul>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/areopagitica.html>Areopagitica</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/comus.html>Comus</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/lycidas.html>Shorter Poems</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/edu.html>Of Education</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/lost/lost.html>Paradise Lost</a></cite> (1667, in 10 books)
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/regained.html>Paradise Regained</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/samson.html>Samson Agonistes</a></cite>
+</ul>
+<li>William Percy's sonnet cycle <cite>Coelia</cite> (1594)
+<li><a href= http://darkwing.uoregon.edu/~rbear/antonie.html>Mary Sidney, Countess of Pembroke's <cite>The Tragedie of Antonie</cite></a>
+<li><cite>Ester hath hang'd Haman</cite> (1617) by Ester Sowernam (pseud.)
+<li><a href=http://darkwing.uoregon.edu/~rbear/rachel.html>Rachel Speght's <cite>A Mouzell for Melastomus</cite> (1617)</a>, a reply to a misogynist tract 
+<li>Thomas Wilson's <cite>The Arte of Rhetorique</cite>
+<li><a href=http://darkwing.uoregon.edu/~rbear/mortal.htm><cite>Mortalities Memorandum</cite></a>
+</ul>
+<p>
+Spenserians and others may be interested in testing and commenting on the Search Engine for <cite>The Faerie Queene</cite> created by Matt Kozusko at the University of Georgia: <a href=http://virtual.park.uga.edu/~mkozusko/spenser/fqsearch.html>http://virtual.park.uga.edu/~mkozusko/spenser/fqsearch.html</a>. 
+<p>
+<strong>MIDDLETON ON-LINE</strong><br>
+Surely one of the best electronic texts on offer. Chris Cleary
+maintains this site based at the U of Virginia, and has so far
+produced electronic editions of three-quarters of Middleton's
+work (ranging from plays certainly written by Middleton alone to
+dubious collaborations). This is an attractive set of pages and
+the texts are clear and intelligently annotated; each play's
+notes starts with a brief but sensible introduction. One of the
+best features is that interesting points of vocabulary are not
+only glossed but also linked, hypertextually, to other instances
+in Middleton. Some of the notes are more extended and also make
+use of links. Coming soon: the rest of the plays, and full
+textual apparatus. As Cleary notes, these editions are not
+refereed, but they have been undertaken carefully. Head for
+<a href=http://dayhoff.med.virginia.edu/~ecc4g/middhome.html>http://dayhoff.med.virginia.edu/~ecc4g/middhome.html</a>.
+<p>
+<strong>ABRAHAM COWLEY ON-LINE ARCHIVE</strong><br>
+New images are being added all the time at <a href=http://etext.virginia.edu/kinney/>http://etext.virginia.edu/kinney/</a>.
+<p>
+At present this site, maintained by Daniel Kinney, has two texts by Cowley
+- <cite>The Third Part of the Works of Mr. Abraham Cowley Being his Six Books of
+Plants</cite> (1689), and <cite>Translation of the Sixth Book of Mr. Cowley's Plantarum</cite> (1680) - which can be read and searched. It also has many pictures of Cowley, his works, and of many related sources.
+<p>
+As one would expect given its affiliation to the Electronic Text Center at
+Virginia, this site is sensibly organised and the reproductions are very
+good. The archive is introduced at <a href=http://etext.virginia.edu/kinney/about.html> http://etext.virginia.edu/kinney/about.html</a>.
+<p>
+<strong>DIGITISED BOOKS</strong><br>
+For some interesting examples of whole books online, see the initiative at
+the University of Mannheim, whose 'MATEO' (Mannheim Texts Online) presents
+a rich selection of images of early prints and manuscripts:
+<a href=http://www.uni-mannheim.de/mateo/epo.html>http://www.uni-mannheim.de/mateo/epo.html</a>.
+More to the point, and in English, is the University of Pennsylvania's CETI
+site: <a href=http://www.library.upenn.edu/etext/>http://www.library.upenn.edu/etext/</a>.
+The major project there is 'Shakespeare and the English Renaissance', aimed
+at producing a 'major archive of virtual Shakespeareana'. You can also read
+about Penn's work on digitising STC and Wing prints for UMI. A whole slew
+of digital texts are listed at
+<a href=http://www.library.upenn.edu/etext/working/brett/index5.html>http://www.library.upenn.edu/etext/working/brett/index5.html</a>.
+Beautifully indexed and presented, with generous picture quality, this
+major archive already includes Daniel's Civil Wars (1609), works by Gosson,
+Erasmus, Hariot, Heywood, much Shakespeare (including comparative sets of
+prints of Lear, R&J, Merchant, Hamlet), and a huge amount of Holinshed. A
+glimpse of the future.
+<p>
+<strong>ETEXT OF GASCOIGNE'S POSIES (1575)</strong><br>
+<a href=http://leeharrison.simplenet.com/bwp/gg/index.html>http://leeharrison.simplenet.com/bwp/gg/index.html</a>
+A decent looking etext of the 1907 CUP edition. This of course includes the
+Adventures of Master F.I. in his Italian guise and Gascoigne's important
+'Notes of instruction concerning the making of verse'. The pages are part
+of Lee Harrison's 'Big Wind Press', which has also produced an etext of
+Dekker's Gull's Hornbook (based on McKerrow) and other non-Renaissance
+goodies: <a href=http://leeharrison.simplenet.com/bwp/>http://leeharrison.simplenet.com/bwp/</a>.
+<p>
+<strong>GLASGOW UNIVERSITY EMBLEMS WEBSITE</strong><br>
+This site specialises in French emblematic texts, and includes a digitised
+version of a French Alciato of 1536, as well as a short title catalogue of
+the Stirling Maxwell Collection of Emblem Books, and info and links:
+<a href=http://www.gla.ac.uk/Library/Emblems/>http://www.gla.ac.uk/Library/Emblems/</a>
+<p>
+<strong>EARLY MODERN ENGLISH DICTIONARIES DATABASE</strong><br>
+When complete, this could turn out to be outstandingly useful. As
+it stands, it is already a considerable resource. The principle
+behind this project, edited by Ian Lancashire, is to collect
+early dictionary materials and make them searchable. Head for the
+start page at <a href=http://www.chass.utoronto.ca:8080/english/emed/emedd.html>http://www.chass.utoronto.ca:8080/english/emed/emedd.html</a>.
+Here you'll find a useful introduction to EMEDD, including a
+history of the project, and reflections on the nature of
+renaissance word-meanings etc.
+<p>
+The present EMEDD includes 18 works at various stages of
+completion:
+<ul>
+<li>six bilingual dictionaries - John Palsgrave (1530;
+English-French), Sir Thomas Elyot (1538; Latin- English), William
+Thomas (1550; Italian-English), Thomas Thomas (1587;
+Latin-English), John Florio (1598; Italian-English), and Randle
+Cotgrave (1611; French-English) - these give pairs of French,
+Italian, and Latin dictionaries, each pair separated by 50-80
+years.
+<li>four English hard-word dictionaries - Edmund Coote (1596), Robert
+Cawdrey (1604; courtesy of Raymond Siemens), John Bullokar (1616),
+and Henry Cockeram (1623) - and one English word-list by Richard
+Mulcaster (1582).
+<li>the first full English-only dictionary - Thomas Blount (1656).
+<li>three specialized lexicons - William Turner on herbal names
+(1548), Henry Mainwearing on maritime words (1644), and John
+Garfield on scientific terms (1657).
+<li>four treatises with substantial glossing - Pierre Valence on
+French grammar (1528), Richard Sherry on schemes (1550) and on
+figures (1555), and George Puttenham on the English poetics
+(1589).
+</ul>
+<p>
+The 11 of these which are currently in presentable form can be
+searched using 'Patterweb', a search device created by Mark Catt.
+This allows intelligent and flexible searching, e.g. with
+combination searches, searching through dictionaries individually
+or as a group. It is possible to search for words near each other
+(e.g. pawn near chess) or NOT near each other (pawn not near
+chess) which is a clever idea. The search page is
+<a href=http://www.chass.utoronto.ca/english/emed/patterweb.html>http://www.chass.utoronto.ca/english/emed/patterweb.html</a>. Available: Palsgrave, William Thomas, Mulcaster, Thomas Thomas, Coote, Minsheu, Cawdrey, Bullokar, Cockeram, Blount, Garfield.
+<p>
+EMEDD is part of the older and larger Edicta project which
+incorporates similar projects relating to French and Latin. Find
+out more, and use the links, at
+<a href=http://www.chass.utoronto.ca:8080/~wulfric/edicta/intro.htm>http://www.chass.utoronto.ca:8080/~wulfric/edicta/intro.htm</a>.
+<p>
+Interestingly and conveniently a recent Special Issue of the
+on-line journal EMLS features uses of the dictionary database
+mainly relating to Shakespeare. Seek inspiration at
+<a href=http://www.humanities.ualberta.ca/emls/si-01/si-01toc.html>http://www.humanities.ualberta.ca/emls/si-01/si-01toc.html</a>
+Most of these essays grew out of Ian Lancashire's graduate course
+on Shakespeare's language offered at the University of Toronto in
+1995-96.
+<p>
+<strong>SHAKE-SPEARES SONNETS (1609)</strong><br>
+The Web Development Group of the University of Toronto Library has just
+published an edition of SHAKE-SPEARES SONNETS (1609) edited by Hardy M. Cook
+and Ian Lancashire as part of Renaissance Electronic Texts (RET 3.1).
+Renaissance Electronic Texts is a "series of old-spelling, SGML- encoded
+editions of early individual copies of English Renaissance books and
+manuscripts, and of plain transcriptions of such works, published on the
+World Wide Web as a free resource for students of the period", under the
+general editorship of Ian Lancashire. The edition is at:
+<a href=http://www.library.utoronto.ca/www/utel/ret/ret.html>http://www.library.utoronto.ca/www/utel/ret/ret.html</a>.
+<p>
+<strong>MONTPELLIER EARLY MODERN ENGLISH DOCUMENTS (MEMED)</strong><br> 
+...is at <a href=http://alor.univ-montp3.fr/MEMED/>http://alor.univ-montp3.fr/MEMED/</a>.
+<p>
+Currently this service is offering <cite>A Declaration of the Sentence and
+Deposition of Elizabeth, the usurper and pretensed Queen of England</cite> (1588),
+<cite>The Pater Noster, the Creed, and the commandments of God in English, with
+many other godly lessons, right necessary for youth and all other to learn
+and to know, according to the commandment and injunctions given by the
+authority of the king's highness through this his realm</cite> (1538), and William
+Elderton's <cite>A New Ballad declaring the dangerous shooting of the gun at court</cite> (1579).
+<p>
+All of these are in HTML format although it is planned that all documents
+will eventually be offered in RTF format as well (RTF will be more easily
+accommodated by your word-processing software). More transcriptions are
+underway.
+<p>
+Also now based at the University of Montpellier is the home-page of the
+Societe Francaise Shakespeare: <a href=http://alor.univ-montp3.fr/serinf/SFS/>http://alor.univ-montp3.fr/serinf/SFS/</a>. This has details of the Society, and details of its activities and congresses since 1979.
+<p>
+The Centre d'Etudes et de Recherches sur la Renaissance Anglaise has a
+large collection of Shakespearean videos which have been catalogued at
+<a href=http://alor.univ-montp3.fr/serinf/CERRA/Shakespeare_Multimedia/>http://alor.univ-montp3.fr/serinf/CERRA/Shakespeare_Multimedia/
+</a>.  The list gives a lot of information about each film and could help solve
+those 'who was that guy who played Macduff in that weird version which was
+all dark' questions.
+<p>
+<strong>AENEID BOOK 13 ONLINE</strong><br>
+Maffeo Vegio's addition of a thirteenth book to the Aeneid has never much
+impressed modern readers but it was a common and significant accompaniment
+to Virgil's epic in the Renaissance. Web hero David Wilson-Okamura has put
+the text online, made it searchable, and included Twyne's translation. Good
+work!  
+<ul>
+<li>Latin text (from the editio princeps, 1471)
+<a href=http://www.virgil.org/supplementa/vegio-latin.htm>http://www.virgil.org/supplementa/vegio-latin.htm</a>
+<li>English translation (by Thomas Twyne, 1584) <a href=http://www.virgil.org/supplementa/vegio-twyne.htm>http://www.virgil.org/supplementa/vegio-twyne.htm</a>
+<li>Search Vegio's text <a href=http://www.virgil.org/texts>http://www.virgil.org/texts</a>
+</ul>
+To try the search engine, first select 'Vegio's Supplementum' from the
+'Query scope' pull-down menu. Or, to compare Vegio's usage with Virgil's,
+select 'Vegio's Supplement & Virgil's works.'
+<p>
+<small><a href=#top>Back to top.</a></small>
+<hr>
+<a name=resourceupdates></a>
+<h2 align=center>Resource Updates</h2>
+<strong>VERSIFICATION</strong>
+The Versification web page has now moved to the following URL:
+<a href=http://sizcol.u-shizuoka-ken.ac.jp/versif/versification.html>http://sizcol.u-shizuoka-ken.ac.jp/versif/versification.html</a>.  Follow links for information about the Versification discussion list.
+<p>
+<strong>REED UPDATES</strong><br>
+The meta-page of annotated theatre research sites on-line, which is part of
+REED's home page, has just been updated with the removal of some expired
+links and the addition of new ones. We have also made some corrections to
+the Publications List section of our home page, including the addition of a
+link to the Video Catalogue for PLS and other Toronto mediaeval videos.
+URLs for REED:
+<ul>
+<li>home page: <a href=http://www.chass.utoronto.ca/~reed/reed.html>http://www.chass.utoronto.ca/~reed/reed.html</a>
+<li>list home page: <a href=http://www.chass.utoronto.ca/~reed/reed-l.html>http://www.chass.utoronto.ca/~reed/reed-l.html</a>
+<li>theatre resources page: <a href=http://www.chass.utoronto.ca/~reed/stage.html>http://www.chass.utoronto.ca/~reed/stage.html</a>
+</ul>
+<p>
+<strong>LITERATURE ONLINE LATEST</strong><br>
+Apart from some rather nasty things like a free database of love poems
+called Lionheart, LION has added much of value in the last year. Many of our
+gripes about its software have not been addressed, and the site continues to
+purr sporadically under the latest version of Netscape and hiss rather too
+ofen under Internet Explorer. Java back/forward links seem still not to work
+with any consistency, but we must learn to be patient and not expect to get
+what we pay for. So this is just a report on the addition of various new
+databases. Under the less useful reference section we now find the Cambridge
+Encyclopedia and Biographical Encyclopedia. The Literary Databases, which is
+where the real action is, now include Chadwyck-Healey's Editions and
+Adaptations of Shakespeare (as reviewed in CD-ROM form by Colin Burrow in
+<a href=digest1.htm#eascdrom>Harvest, series 1</a>). Although not new, we should also mention the
+Eighteenth-Century Fiction collection (Swift, Richardson, Fielding all
+covered, and Tristram Shandy (1760 London edition) has EVERY SINGLE PAGE,
+squiggles, blank, black, and marble pages, reproduced photographically, so
+hurrah for C-H's good taste). Works in progress and already available in
+part include Nineteenth-Century Fiction and Twentieth-Century American
+Poetry. And of course, many of the pre-existent databases continue to grow
+and improve. So we still love LION: <a href=http://lion.chadwyck.co.uk/>http://lion.chadwyck.co.uk/</a>
+<p>
+<cite>LION was first reviewed in Harvest Series II, now available in the Digest <a href=digest2.htm#lion>here</a>.</cite><p>
+<strong>OXFORD TEXT ARCHIVE</strong><br>
+OTA has redesigned its site to improve its functionality and navigation, and
+to make use of the SGML metadata already encoded with their texts, so that
+what you see is now what you get. The old address has a link to the new
+site, which is at: <a href=http://firth.natcorp.ox.ac.uk/ota/public/index.shtml>http://firth.natcorp.ox.ac.uk/ota/public/index.shtml</a>.  OTA is in the process of putting free texts (remember, some are free, some
+are free if you ask nicely, some cost, and some are very restricted indeed)
+online, so rather than having, as before, to get by ftp a marked-up text
+which you could not view, in future, we assume, you will be able to view it
+in its glory within your browser, and then save it as html or plain text.
+OTA is also in the process of making online texts searchable, that is,
+Oxford is aiming to be the poor man's LION. We couldn't find anything that
+was yet online, but the site is all there and ready for that day, and seems
+well designed (links embedded within text are not always visible because of
+the colour scheme, so just keep clicking at things).
+<p>
+<cite>The OTA was first reviewed in Harvest Series I, now available in the Digest <a href=digest1.htm#electexts>here</a>.</cite><p>
+<strong>OCLC NOW HAS MLA BIBLIOGRAPHY!</strong><br>
+Well, that says it all. The excellent, if rather over journalled and
+under-bookish, MLA bibliography, previously available online to the lucky
+few and to the rest of us on CD-ROM, is now to be had at OCLC FirstSearch.
+There are various different URLs for either side of the big pond, but the
+simplest to the basic homepage (follow links to FirstSearch) is
+<a href=http://www.ref.oclc.org:2000/>http://www.ref.oclc.org:2000/</a> or
+<a href=http://www.ref.uk.oclc.org:3000/>http://www.ref.uk.oclc.org:3000/</a> (for the U.K.).
+You still need a password, so if you know what you're doing, go direct to,
+for example <a href=http://jake.prod.oclc.org:3057/html/fs_homepage.htm>http://jake.prod.oclc.org:3057/html/fs_homepage.htm</a>.
+Enter your authorisation and password, follow links to the Arts and
+Humanities Database area, and try out MLA online. Search criteria will be
+familiar to users of the CD-ROM/telnet versions, but the web version is so
+much better: records can be tagged and emailed, you can search for entries
+under one heading and then follow links to other entries for particular
+authors you approve of. Records seem to be displayed in reverse order of
+addition, so you get the newest first and you can follow them down until you
+recognise what you came up with last time you looked. Perfection, basically.
+<p>
+<cite>OCLC was first introduced eons ago; you can visit this intro in the Starter Guide <a href=starter.htm#bifs>here</a>.</cite><p>
+<strong>ENGLISH SHORT TITLE CATALOGUE ON THE WEB</strong><br>
+Which, as Richard Serjeantson observed in his review of the telnet version
+(<a href=digest1.htm#stcol>Harvest, series 1</a>), should be English Long Title Catalogue. We have finally
+got into the 'Eureka' web version, and can confirm that, alongside LION, it
+is the best, most useful, and most seriously hardcore service yet available
+to our kind of folk. And remember, it amalgamates STC, Wing, and the C18
+STC, so you are no longer forced to pursue careers across the period
+divides. As usual there are different addresses for different customers. Go
+to <a href=http://eureka.thames.rlg.org/web/>http://eureka.thames.rlg.org/web/</a>
+and they will ask for your password. Go to your subscribing institution
+(library homepage for example) from within its domain (xxx.edu or xxx.ac.uk,
+etc.) and you may be able to pick up a link direct to a page which bypasses
+security. The first thing to do is 'select a file', if you don't want to
+search the RLIN Bibliographic File to which Eureka defaults. There are so
+many to choose from (anthropology, architecture, art) it's like a sweetshop
+for librarians. But choose ESTC, and when you get there, it's best to go
+straight on to the advanced search screen.
+<p>
+Here you can do wonderful things, and all we can really do is tantalise you
+with a few hints. You can search by keyword, author, author word, title,
+title word, subject, subject word, imprint, imprint word, imprint year,
+imprint place, publication year, record ID, country of publication, genre,
+language, words from general notes, exact citation, words from citation,
+location words, and shelfmark. You can combine two criteria straightaway
+with 'and', 'or', 'and not', and when you press 'send' it will display a
+list in brief format of possible results (typically authors with the same
+surname either side of the one you were looking for). You then tick the one
+you want and 'send' again for another brief list of results. Tick any or all
+and you get the wonderfully rich ESTC entries with all their accumulated
+information about contents and individual copies. If you conduct a new
+search you can click on 'review' for a list of the searches you've done, and
+then merge them to get only those entries by author X published between 1640
+and 1660 with a certain bookseller's name on the title page, or whatever.
+<p>
+Once you've got to the full record display you will see things highlighted
+which can lead to serious serendipity doodah. Click on the imprint line for
+a list of similar imprints, from the same printer AND stationer to their
+collaborations with others. Click on the author for the obvious, on the
+title for similar titles, on other names, or initials, involved for lists of
+their other entries, and on the generic descriptions for lists of similar
+works; some of the 'subject' headings seem bizarre or random, but if this is
+allowed for you will find yourself on a fruitful browse through the
+literature of vernacular prophecy or anti-catholic polemic. And at this
+stage the long titles are a great advantage as you stand a chance of
+understanding something of the contents from them, especially when they are
+supplemented by statements of what sort of a work this is, and what it
+contains. And keep browsing, for you will find much tucked away in the notes
+from reporting libraries, the sort of 'This is Love's Labour's Won reissued
+with a different title page' thing which librarians like to keep to
+themselves. You can 'export' full entries to yourself in various formats,
+but as none of these will look quite as nice as the screen in front of you,
+the best thing is to print the current file as well.
+<p>
+There are a few odd glitches which will sometimes not take you to a work you
+know exists when you enter its exact title, but more general searches
+(author plus title word) will get you there in more roundabout fashion. ESTC
+on the web makes possible all sorts of sophisticated searches in minutes
+which used to demand days of poring over, cross- referencing, and copying
+from, STC or Wing. And remember that the entries list the UMI call number,
+so you can go straight to the microfilm if (heaven forfend) you actually
+want to read the text. Wondrous.
+<p>
+<cite>NB Netscape 2.x, 3.x, or 4.x, or Microsoft Internet Explorer 4.0 needed to
+access Eureka.</cite>
+<p>
+<strong>ESTC TIP OF THE YEAR</strong><br>
+We had not before worked out the obvious - how to search ESTC (the
+amalgamated online STC, Wing, and C18 STC) by, say, STC number. The answer:
+on 'Advanced Search', select 'Words from Citations' and type 'STC 18153',
+or whatever. This will also search for references to other standard
+bibliographies, so sometimes you will get two records because one has your
+STC number as its Steele number, for example. But it seems to work pretty
+well.
+<p>
+<strong>JACK LYNCH MOVES</strong><br>
+And all his splendid pages with him. Now at: <a href=http://andromeda.rutgers.edu/~jlynch/Lit/>http://andromeda.rutgers.edu/~jlynch/Lit/</a>.
+<p>
+<small><a href=#top>Back to top.</a></small>
+<hr>
+<a name=newresources></a>
+<h2 align=center>New Resources</h2>
+<strong>EARLY MODERN WOMEN</strong><br>
+Belatedly, but this fine society does have a website, if you did not know
+that already. It includes information on how to join, and details of the
+EMW Listserv, EMW programs, EMW awards, calls for papers, related links,
+EMW members' sites, and a calendar of events:
+<a href=http://129.174.16.182/emw/index.html>http://129.174.16.182/emw/index.html</a>.
+<p>
+<strong>EARLY THEATRE</strong><br>
+Early Theatre supersedes REED Newsletter. Tables of contents for both are
+available at the website, along with abstracts of Early Theatre articles:
+<a href=http://www.humanities.mcmaster.ca/~reed/early/>http://www.humanities.mcmaster.ca/~reed/early/</a>.
+<p>
+<strong>ARDEN SHAKESPEARE SITE (ArdenNet)</strong><br>
+With the 3rd series of editions in progress and an excellent CD-ROM, the
+people at Arden Shakespeare are striving to monopolise academic
+Shakespeare. The Internet's possibilities could one day make a bit of a
+mockery of print dominance, so they've made a bold attempt to get into the
+action in this arena as well.
+<p>
+Head for the Arden Shakespeare website at: <a href=http://www.ardenshakespeare.com/main/welcome.html>http://www.ardenshakespeare.com/main/welcome.html</a>.
+<p>
+There's a lot here - or rather, there's a framework for a lot here. This
+site depends on enthusiastic input from an imagined constituency of
+electronic scholars. The fact that this constituency has not been proved to
+exist anywhere else yet (although the FICINO list and its kind come close)
+is the problem: and the question facing us is, as CERES has trumpeted
+before, whether to be part of the problem, or part of the solution.
+<p>
+To get started you'll need to surrender some not very intimate information
+and think up a password. By the way, some would say that it would be a good
+idea not to use the same password for everything.
+<p>
+The site is organised under headings which cover a wide range of content.
+You should know that the following chirpy-sounding list mainly uses the
+ArdenNet's own wording:
+<dl>
+<dt><strong>Professional</strong></dt>
+<dd>This section provides those involved in Shakespeare studies with the
+everyday information they need in their work. Currently, it provides: a
+listing of Shakespeare organisations; a calendar of Shakespeare
+conferences; the opportunity for institutions to post employment vacancies
+in the Shakespearean world.</dd>
+<dt><strong>Internet</strong></dt>
+<dd>This section groups together those essays and resources in ArdenNet which
+relate to the wider Internet. Currently available are a review of sites
+useful for Shakespeare research on the Internet by Gabriel Egan, and all
+the links from this and other articles in ArdenNet.</dd>
+<dt><strong>Scholarship</strong></dt>
+<dd>The Scholarship section is the heart of ArdenNet - and members are invited
+to participate. Its purpose is to exploit the potential of the World Wide
+Web by providing a space for shorter pieces, 'work in progress' towards
+academic papers, articles or books, or for discussion papers, ideas and
+thoughts which are either too short or inappropriate for publication via
+the currently available channels. Already available are an essay on
+Shakespeare in the Electronic Age by Peter S. Donaldson and the transcript
+of an interview with the RSC actor John Voss.</dd>
+<dt><strong>News & Reviews</strong></dt>
+<dd>The News and Reviews section is where to go for listings and comment about
+Shakespeare books, multimedia and performances (on both stage and screen).
+Highlights include theatre listings and reviews, and 'my favourite book'
+and 'my favourite performance' selections from ArdenNet members. 'My
+favourite' selections available include an account of Shakespeare on stage
+in Nigeria from Martin Banham and Olwen Terris' account of an influential
+set of Rossiter lectures in print.</dd>
+<dt><strong>Teaching</strong></dt>
+<dd>This area of ArdenNet is devoted to the discussion of teaching Shakespeare
+- from high school to postgraduate level. It is intended to be an organic
+resource which grows as ArdenNet members contribute their own thoughts and
+experiences as short articles or multimedia pieces. Currently available are
+essays from David Scott Kastan (on teaching textual Shakespeare) and
+Rebecca Bushnell (on teaching Shakespeare using the Internet).</dd>
+<dt><strong>Discussion</strong></dt>
+<dd>Join the debates... ArdenNet invites members to join the community's
+discussions of the issues raised by its resources.</dd>
+</dl>
+<p>
+CERES offers its two-penn'orth: as was hinted above, it's easy to summarise
+the state of play: the system is there, and the space available, to create
+a really substantial forum for electronic discussion. Whether we are yet at
+the technological watershed which will suddenly make this work well is
+unclear. Hope springs eternal, and Arden has many influential friends, so
+keep an eye on ArdenNet.
+<p>
+<strong>ARDENNET UPDATE</strong><br>
+New: the publication, exclusive to ArdenNet, of research from
+Eric Rasmussen and a team of graduate students purporting to shed new light
+on the manuscript used to typeset and print the second quarto of Hamlet and
+challenging the conventional belief that it was set from "foul papers".
+Visit the Scholarship section for the full text of the paper. Additionally,
+as usual, full listings of performances and recently released Shakespeare
+books are available through the News and Reviews pages. Also included are
+full details of Shakespeare Festivals throughout the United States and the
+London Shakespeare's Globe Theatre season. ArdenNet is at
+<a href=http://www.ardenshakespeare.com/ardennet/>http://www.ardenshakespeare.com/ardennet/</a>
+<p>
+<strong>DISSERTATION ABSTRACTS ONLINE</strong><br>
+MLA continues to include citations for Dissertation Abstracts International
+entries, but you may wish to go straight to the horse's mouth (providing
+your institution subscribes): <a href=http://wwwlib.umi.com/dissertations/>http://wwwlib.umi.com/dissertations/</a> 
+Clearly UMI just don't care any more. Not only are they thinking the
+unthinkable and preparing to digitise the 20,000+ microfilmed STC volumes,
+but they are also doing the same with doctoral dissertations. You will be
+shocked to discover that not only can you read and print off dissertation
+abstracts, but for the most recent entries (and the most recent are
+displayed first), you can add the dissertation to your shopping basket (just
+as at any of the online bookshops, such as <a href=http://www.amazon.com>www.amazon.com</a> or
+<a href=http://www.bookshop.co.uk>www.bookshop.co.uk</a>), go to the checkout, and for an even 50 dollars acquire
+the right to download 15MB or so of digitised dissertation. You can then
+print off a camera-ready, or perhaps oven-ready, text of the latest madcap
+modern claptrap or promising scholarship. Extraordinary. You need a PDF
+reader, but they tell you what that is and how to get it.
+<p>
+DAI leaves the UK well alone, and who can blame it? Fortunately, searchers
+for British dissertations are now almost equally well served by the Index to
+Theses website: <a href=http://www.theses.com/>http://www.theses.com/</a>.  
+Entries are displayed in no particular order, but as there are fewer, this
+is not yet a problem. A particularly silly feature is the fourfold
+discrimination 'quick search', 'simple search', 'standard search', 'advanced
+search' (the latter is encoded with such complicated logic that you need a
+Ph.D. in information analysis just to use it - very British), but the
+'simple' and 'standard' do allow you to do interesting and useful things
+like searching by University and by title keywords using and/or.
+<p>
+And, a reminder that musicological theses are abstracted at:
+<a href=http://www.music.indiana.edu/ddm/>http://www.music.indiana.edu/ddm/</a>.
+<p>
+<strong>ARTS AND HUMANITIES DATA SERVICE</strong><br>
+The Joint Information Systems Committee of the United Kingdom's Higher
+Education Funding Councils (or rather, the JISC of the UK's HEFCs) fund
+this attempt to collect and catalogue and offer good quality electronic
+resources on-line. Those who are in love with the Internet's fragmented
+side and who enjoy picking up a text of Milton in Perth and then a text of
+Marvell in the other Perth won't see the point of it, but there is
+something to be said for a body which considers the best ways of creating
+publicity, access, and protocols for serious research resources which have
+often taken a lot of effort to produce. Also, the one thing education
+systems need is lots of committees, as any member of the NAFH working group
+of the PTTP committee of CERES can tell you.
+<p>
+So far the literary material is basically the Oxford Text Archive and the
+link from AHDS sends you straight there. We already have a link to OTA on
+our web page so that's not a great advance. The History materials are more
+impressive although AHDS again acts as a central linking hub. One of CERES'
+most oft-repeated sententiae is that there is a lot of potential here and
+it could become a wonderful resource (particularly in this case for its
+interdisciplinary possibilities) BUT that depends on the contributions made
+by people like us. At this stage the food for thought here is mainly for
+those who are thinking of putting resources on-line themselves. Find the
+AHDS at <a href=http://ahds.ac.uk>http://ahds.ac.uk</a>.
+<p>
+<strong>INTERNET PUBLIC LIBRARY: ONLINE LITERARY CRITICISM COLLECTION</strong><br>
+The Online Literary Criticism Collection contains links to 1180 critical and
+biographical websites about authors and their works that can be browsed by
+author, by title, or by literary period. The Renaissance list is at:
+<a href=http://www.ipl.org/cgi-bin/ref/litcrit/litcrit.out.pl?pd=British:+1500-1700>http://www.ipl.org/cgi-bin/ref/litcrit/litcrit.out.pl?pd=British:+1500-1700</a>.
+It includes mention of familiar names like EMLS and Renaissance Forum and a
+few self-contained articles on the web. A list of authors at the bottom
+leads to a page of links to discussions of the author, and his or her works
+are then cross-referenced separately. All structure and little content as
+yet, but with time this could become a useful bookmark.
+<p>
+<strong>EUROPEAN OPACS</strong><br>
+A smattering of useful online union catalogues. For Italy:
+<a href=http://opac.sbn.it/>http://opac.sbn.it/</a>. 
+For Germany: <a href=http://dbix01.dbi-berlin.de:6100/DBI/login.html>http://dbix01.dbi-berlin.de:6100/DBI/login.html</a>.  
+Also worth investigating is the Karlsruher Virtueller Katalog (KVK), which
+marshals a number of opac resources:
+<a href=http://www.ubka.uni-karlsruhe.de/kvk.html>http://www.ubka.uni-karlsruhe.de/kvk.html</a>.
+Still no sign of a web based catalogue at the Bibliotheque Nationale, but
+the site is so pretty in other respects that we'll give the URL anyway:
+<a href=http://www.bnf.fr/index.htm>http://www.bnf.fr/index.htm</a>.
+<p>
+<strong>MANUSCRIPTS AND ARCHIVES</strong><br>
+NUCMC, or the National Union Catalog of Manuscript Collections, is a
+free-of-charge cooperative cataloging program operated by the Library of
+Congress at <a href=http://lcweb.loc.gov/coll/nucmc/>http://lcweb.loc.gov/coll/nucmc/</a>.
+Searchable, though a bit of a blunt instrument at present. Relatedly, the
+UK's National Register of Archives is now available in a web version:
+<a href=http://www.hmc.gov.uk/nra/overnra.htm>http://www.hmc.gov.uk/nra/overnra.htm</a>.
+<p>
+<strong>CENTRE FOR THE HISTORY OF THE BOOK</strong><br>
+The CHB at Edinburgh is an international and interdisciplinary centre for
+advanced research into all aspects of the material culture of the text -
+its production, circulation, and reception from manuscript to the
+electronic text. The website includes information about such projects as
+the History of the Book in Scotland: <a href=http://www.ed.ac.uk/englit/research/chb/>http://www.ed.ac.uk/englit/research/chb/</a>.
+<p>
+<strong>ITALNET</strong><br>
+ItalNet is an international consortium whose mission is to make available
+scholarly Internet resources of literary and historical materials relating
+to Italian studies: <a href=http://www.italnet.nd.edu/>http://www.italnet.nd.edu/</a>
+Especially noteworthy is the Opera del Vocabolario Italiano (OVI) textual
+database. The database contains 1,369 vernacular texts (16.4 million words)
+dated prior to 1375, the year of Boccaccio's death. The verse and prose
+works include early masters of Italian literature like Dante, Petrarch, and
+Boccaccio, as well as lesser-known and obscure texts by poets, merchants,
+and medieval chroniclers. The OVI database was created to aid in the
+compilation of an historical dictionary of the Italian language, the Tesoro
+della lingua italiana delle origini, portions of which are now available
+on-line from the OVI website (follow the links). Registration is currently
+free: <a href=http://ovisun199.csovi.fi.cnr.it/italnet/OVI/index_en.html>http://ovisun199.csovi.fi.cnr.it/italnet/OVI/index_en.html</a>.
+<p>
+<strong>THE MEDICI ARCHIVE</strong><br>
+The Medici Archive Project, based at Johns Hopkins, was founded in 1995 in
+order to realise the undeveloped potential of the Medici Granducal Archive,
+housed in the Archivio di Stato in Florence. There are 3 areas of activity:
+Documentary Sources for the Arts and Humanities, 1537-1743; Jewish History,
+Religion and Culture in the Medici Granducal Archive, 1537-1743; and
+History of Costume and Textiles in the Medici Granducal Archive. A guided
+tour will tell you all about the enormous archive, and this effort to bring
+its resources online: <a href=http://www.jhu.edu/~medici/>http://www.jhu.edu/~medici/</a>
+<p>
+<strong>SHAKESPEARE ELECTRONIC ARCHIVE AT THE FOLGER</strong><br>
+The Shakespeare Electronic Archive is now available to readers at the
+Folger Shakespeare Library. This is a collection of electronic resources,
+including The Oxford Electronic Edition, based on the Wells and Taylor
+Complete Works, and numerous electronic transcriptions and images. And it
+all sounds like it's linked together in interesting ways. More to follow as
+well.
+<p>
+Unless you actually go to the Folger you can't get at it but there is a
+public website, 'Hamlet on the Ramparts', containing a wide range of
+materials relevant to Hamlet 1.4 and 1.5, under construction. You can link
+to the Folger website from the <a href=links.htm>CERES links page</a>.
+<p>
+SRASP!...
+...stands for Shakespeare and Renaissance Association [of West Virginia]:
+Selected Papers. This new annual electronic journal publishes the best
+papers from the yearly West Virginia Shakespeare and Renaissance
+Conference. Volumes 20 (1997) and 21 (1998) can now be accessed through the
+WWW: <a href=http://www.marshall.edu/engsr/indexsr.html>http://www.marshall.edu/engsr/indexsr.html</a>
+<p>
+<strong>OXFORD EARLY PRINTED BOOKS PROJECT</strong><br>
+Head for the website at <a href=http://saturn.las.ox.ac.uk/icc/resource.html>http://saturn.las.ox.ac.uk/icc/resource.html</a>.
+This is a project intended to catalogue books in Oxford libraries outside
+the Bodleian but it also has a very good survey of resources for
+bibliographers web-wide.
+<p>
+<strong>SWEET 'N' LOW</strong><br>
+The Shakespeare Society of the Low Countries has just opened its home- page
+at <a href=http://shakespeare.let.ruu.nl/>http://shakespeare.let.ruu.nl/</a>  
+The page is bilingual, Dutch and English, and includes tables of contents
+for past issues of the Society's journal, Folio, and some Shakespearian
+links. In the years to come, they are hoping to extend the site into a
+useful resource for all scholars who are interested in Shakespeare studies
+in general, and in Dutch and Flemish contributions to Shakespeare
+scholarship, translations, performances and so on, in particular. Any
+suggestions are welcome.
+<p><small><a href=#top>Back to top.</a></small>
+<hr>
+<a name=journalsemail></a>
+<h2 align=center>Journals and Email Lists</h2>
+<strong>ELECTRONIC SIXTEENTH CENTURY JOURNAL</strong><br>
+ESCJ, which has been around since last July, has been rather
+underpublicised. So we are publicising it again: <a href=http://www.truman.edu/escj/home.html>http://www.truman.edu/escj/home.html</a>. Like many journal websites it has a nice logo but is a little thin
+on content. One or two features do have the potential to save shoe
+wear, such as the abstracts of articles from recent issues of
+Sixteenth Century Journal, and the list, in full and brief formats
+and with an index, of books in the Sixteenth Century Essays and
+Studies series:<br>
+Abstracts: <a href=http://www.truman.edu/escj/abstracts.html>http://www.truman.edu/escj/abstracts.html</a><br>
+Books: <a href=http://www.truman.edu/escj/books.html>http://www.truman.edu/escj/books.html</a>.<br>
+You can also follow links to find out about C16 Studies Conferences
+past and future.
+<p>
+<strong>ELIZABETHAN REVIEW</strong><br>
+This is an on-line journal of less standing than some and, I am
+afraid to report, takes an unhealthy interest in the question of
+whether the Earl of Oxford wrote Shakespeare's plays. Still, some
+of its output is on-line and there may be things of interest. You
+can find ER at <a href=http://www.elizreview.com/>http://www.elizreview.com/</a>.
+<p>
+<strong>MONTAIGNE STUDIES</strong><br>
+The journal's homepage includes tables of contents of past issues
+but not electronic versions of the articles. Included also is the
+'Bibliotheca Desaniana' which includes bibliographical details
+and facsimile title-pages of editions from the first to Dali's
+selection from Cotton's translation. Links from here to some
+French renaissance texts and resources. Head for:
+<a href=http://humanities.uchicago.edu/humanities/montaigne/index.html>http://humanities.uchicago.edu/humanities/montaigne/index.html</a>.
+<p>
+<strong>RENAISSANCE FORUM</strong><br>
+The Autumn 1997 (2.2) issue of <cite>Renaissance Forum</cite> is available on
+the WWW from <a href=http://www.hull.ac.uk/renforum/index.html>http://www.hull.ac.uk/renforum/index.html</a>.  Contents include: Steve Longstaffe, 'What is the English history
+play and why are they saying such terrible things about it?'; David
+Siar, 'Jean E. Howard's Postmodern Marxist Feminism and the
+Economic Last Instance'; and Anny Crunelle-Vanrigh with a Kristevan
+view of Hamlet's First Soliloquy.  Plus reviews by Nick Cox, J. C. Davis, Lisa Hopkins, Romauld I. Lakowski, Mark E. C. Perrott, Jeffrey Powers-Beck and J. A. Sharpe
+of books by or edited by Simon Barker, David Bevington, David
+Cressy, Christopher Durston and Jacqueline Eales, R.A. Foakes, Sean
+Kelsey, William Lamont, Diarmaid MacCulloch, Julia Reinhard Lupton,
+Derek Roper, John Russell Brown, David L. Smith, Richard Strier and
+David Bevington, and Michael Taylor.
+<p>
+<cite>Renaissance Forum</cite> 3.1 is also out, based at <a href=http://www.hull.ac.uk/renforum>http://www.hull.ac.uk/renforum</a>.  Articles include...
+<ul>
+<li>James Fitzmaurice on Jane Barker and the Tree of Knowledge at Cambridge
+University.
+<li>Lisa Hopkins on Knowing their loves: knowledge, ignorance, and blindness in
+Tis Pity She's a Whore.
+<li>Andrew Stewart on Some Uses for Romance: Shakespeare's Cymbeline and
+Jonson's The New Inn.
+</ul>
+And plenty of reviews here too!
+<p>
+<strong>EMLS</strong><br>
+Early Modern Literary Studies 3.3 (January, 1998) is now available at
+<a href=http://purl.oclc.org/emls/emlshome.html>http://purl.oclc.org/emls/emlshome.html</a>. This EMLS is a special issue called 'The Internet Shakespeare:
+Opportunities in a New Medium' and includes articles by Paul Werstine on
+'Hypertext and Editorial Myth', Anne Lancashire on 'What Do the Users
+Really Want?', Ian Lancashire on 'The Common Reader's Shakespeare', Donald
+Foster on 'A Romance of Electronic Scholarship; with the True and
+Lamentable Tragedies of Hamlet, Prince of Denmark. Part 1: The Words', R.G.
+Siemens on 'Disparate Structures, Electronic and Otherwise: Conceptions of
+Textual Organisation in the Electronic Medium, with Reference to Electronic
+Editions of Shakespeare and the Internet', and a foreword and afterword by
+Michael Best.  Also included are a note on 'Production Resources at the
+Whitefriars Playhouse, 1609-1612' and a good clutch of reviews.
+<p>
+<cite>Early Modern Literary Studies</cite> 4.1 is also out, based at
+<a href=http://purl.oclc.org/emls/emlshome.html>http://purl.oclc.org/emls/emlshome.html</a>.  Articles include...
+<ul>
+<li>'Jonson's Stoic Politics: Lipsius, the Greeks, and the Speach According to Horace' by Robert C. Evans.
+<li>'Petruchio's Horse: Equine and Household Management in The Taming of the
+Shrew' by Peter F. Heaney.
+<li>'"Corrupt with goodly meede": Munera and Medusa in Book 5 of Spenser's The
+Faerie Queene'by Joan Fitzpatrick.
+</ul>
+PLUS Reviews galore and all the usual EMLS services.
+<p>
+<strong>RENAISSANCE NEWS AND NOTES</strong><br>
+The latest issue of Renaissance News and Notes, including information and
+registration forms for the 1999 RSA conference, has just been put on the
+RSA website  (<a href=http://www.r-s-a.org>http://www.r-s-a.org</a>).
+<p>
+<strong>EXPLORATIONS IN RENAISSANCE CULTURE</strong><br>
+Another nice journal website, with information and tables of contents. URL: <a href=http://www.smsu.edu/English/eirc/eirc.html>http://www.smsu.edu/English/eirc/eirc.html</a>.
+<p>
+<strong>BIDS AUTOJOURNALS</strong><br>
+Find out about this service at <a href=http://www.bids.ac.uk/news/autojnls.html>http://www.bids.ac.uk/news/autojnls.html</a>. The deal is that BIDS will e-mail the Contents Pages of journals when they
+are catalogued at BIDS - which is very frequently. If you love browsing the
+periodicals shelves then this will spoil your fun, but do you really catch
+everything of interest? Really?
+<p>
+One wonderful feature is that you can customize your own list of journals
+from the huge list at BIDS. Although it can take quite a while to trawl
+through and choose the ones you want, this can be very useful as it points
+to which periodicals aren't there. BIDS is great, but it is not perfect.
+Then again, the MLA Bibliography doesn't do this (or we don't think it does
+anyway). If your institution is with the programme, enjoy!
+<p>
+<strong>SIDNEY-L ARCHIVED</strong><br>
+Archives of the Sidney-L e-mail discussion list are now available for
+viewing and searching at <a href=http://info.uoguelph.ca/archives/sidney-l.html>http://info.uoguelph.ca/archives/sidney-l.html</a>. 
+A reminder that the Sidney Journal website is just next door at
+<a href=http://www.uoguelph.ca/englit/sidney>http://www.uoguelph.ca/englit/sidney</a>
+<p>
+<strong>H-HISTBIBL</strong><br>
+A list devoted to 'the study and practice of History librarianship',
+H-HistBibl is an international network for librarians, archivists,
+curators, and scholars interested in the practice and study of
+bibliographic and library services in support of historical study and
+teaching. Further info at the H-Net site: <a href=http://www.h-net.msu.edu/>http://www.h-net.msu.edu/</a>
+<p>
+<strong>SHAKSPER ARCHIVE</strong><br>
+The web-based archive of the SHAKSPER discussion list maintained by
+Interactive Early Modern Literary Studies (iEMLS) has just been updated and
+now includes everything up to the end of 1998. All the materials are now
+available directly from the LISTSERV, and there have been various helpful
+reorganisations: the biographies of subscribers have been combined into an
+A-Z listing and the full-text logs of the discussions have been 'bound'
+into yearly volumes. The URL of the archive is
+<a href=http://www.humanities.ualberta.ca/emls/iemls/shaksper/shak-L.html>http://www.humanities.ualberta.ca/emls/iemls/shaksper/shak-L.html</a>.
+<p>
+<small><a href=#top>Back to top.</a></small>
+<hr>
+<a name=specials></a>
+<h2 align=center>CERES Specials</h2>
+<strong>ONLINE GLORIANA: SIMPLY THE BESS!</strong><br>
+CERES headed off around the internet to see what sort of presence Queen
+Elizabeth I could boast. Not surprisingly the most pleasing discoveries
+were reproductions of pictures, especially portraits, but there were other
+things of value. Disappointingly only one communication from the spirit
+world was turned up, and CERES fears that the medium involved may be a bit
+of a crank. No, really.
+<p>
+<cite><big>portraits</big></cite><br>
+There is a general Elizabethan site at <a href=http://tudor.simplenet.com/>http://tudor.simplenet.com/</a>.  
+This is good stuff: the enthusiastic owner tells stories and puts down the
+facts. There are also plenty of pics of the main players in the Tudor
+period. The site also includes material on Tudor architecture, including a few
+examples not in the CERES list of renaissance buildings on the web.  The best yield from this site is probably a nice row of Elizabeth portraits at <a href=http://tudor.simplenet.com/elizabeth/gallery.html>http://tudor.simplenet.com/elizabeth/gallery.html</a>.
+<p>
+There is typically gorgeous stuff from Luminarium at
+<a href=http://www.luminarium.org/renlit/elizface.htm>http://www.luminarium.org/renlit/elizface.htm</a>.  
+Lots of portraits, beautifully presented, although with (hem hem) an
+ungainly use of terminal long 's'.  Luminarium's list of links is very good, connecting to genealogies,
+biographies, etc. Don't get excited by the thought of an Elizabeth I Barbie
+Doll. That link does not work: outrageous! Plenty of other good things at
+<a href=http://www.luminarium.org/renlit/elizlink.htm>http://www.luminarium.org/renlit/elizlink.htm</a>.
+<p>
+<cite><big>elizabethan bacon?</big></cite><br>
+Permit yourselves a small chuckle at the description of a Hilliard painting
+as 'Elizabeth and her Son' at <a href=http://www.sirbacon.org/gallery/liz2.html>http://www.sirbacon.org/gallery/liz2.html</a>.  In fact the Baconians who run this site have a very good explanation for
+all this: Elizabeth's two sons were Essex (of course!) and Francis Bacon.
+To find out exactly what was going on here I had to pass through the main
+page of the site (<a href=http://www.sirbacon.org>http://www.sirbacon.org</a>) which features Bacon riding a
+motorbike decorated with the words 'Francis Bacon Is Shakespeare'. The next
+page I reached said that Bacon's plays have been attributed to 'William
+Shakespeare, an illiterate peasant'. At this point I came over all
+intolerant and set fire to my computer. I did not find out exactly what was
+going on.  But I did see a very attractive page with the astrological charts of the
+Queen and her (gulp) son, Francis Tudor Bacon (double gulp). It looks
+lovely at <a href=http://www.sirbacon.org/links/charts.htm>http://www.sirbacon.org/links/charts.htm</a>, but it means, er, whatever you decide, dear reader.
+<p>
+<cite><big>works</big></cite><br>
+For Elizabeth's works (poems, speeches, letters) head for Luminarium again.
+You can link to online versions of her works from here, some of which are
+held at Luminarium itself. Others are at Toronto (head for
+<a href=http://library.utoronto.ca/www/utel/rp/indexauthors.html>http://library.utoronto.ca/www/utel/rp/indexauthors.html</a>).
+<p>
+The Brown Women Writers Project, which has featured in our pages many times before, is due ever more respect for its contribution to the Elizabeth trawl.  There are various collections at
+<a href=http://swansong.stg.brown.edu:1081/dynaweb/>http://swansong.stg.brown.edu:1081/dynaweb/</a>. Two are particularly relevant to CERES, one being 'In Her Own Words: Elizabeth I Onstage and Online'. This has some detailed contextual material and texts of the surviving speeches. It is a high-level resource and the
+software does a decent job.  The other thing to check out here is 'Renaissance Women Online', with its
+many texts, contextual materials, and more general essays. This is another
+example of how those working on women's writing are making particularly
+good use of the opportunities offered by electronic media.
+<p>
+DynaWeb's strategy of using multiple windows makes it very clear where you are in the database.  In the end, this adds an enormous amount to these materials, outweighing the disadvantage of the smaller
+window size.  If you prefer a more conventional approach, you can get to the Elizabeth materials (and find out that 'In
+Her Own Words' is also a series of performances) in a more run-of-the-mill
+format via <a href=http://www.wwp.brown.edu/rich/QEIhome.html>http://www.wwp.brown.edu/rich/QEIhome.html</a>.  For more information on DynaWeb software, see <a href=http://www.inso.com/>http://www.inso.com/</a>.
+<p>
+<cite><big>handwriting</big></cite><br>
+Samples of Elizabeth's handwriting abound.  There's a copy of the queen's signature at
+<a href=http://www.handwriting.org/images/samples/qelizab1.htm>http://www.handwriting.org/images/samples/qelizab1.htm</a>.  You can find Henry VIII's scribble at the same site, and between the two
+English monarchs in the index of 'Political Leaders' is Ross Perot.
+Bizarre. They have several samples of Bill Clinton, all (fortunately) in
+ink.  Other versions of the signature include <a href=http://www.mala.bc.ca/~Lepage/Eliza.htm>http://www.mala.bc.ca/~Lepage/Eliza.htm</a> and <a href=http://tudor.simplenet.com/elizabeth/signature.gif>http://tudor.simplenet.com/elizabeth/signature.gif</a>(too clear to be true?).  As far as more prosey autographs go, there is a nice image of a document in which Elizabeth grants lottery cash to the Free Grammar School in Bury St Edmunds, available at <a href=http://www.suffolkcc.gov.uk/libraries_and_heritage/sro/e5_9_102.html>http://www.suffolkcc.gov.uk/libraries_and_heritage/sro/e5_9_102.html</a>.
+<p>
+<cite><big>elizabeth's sayings</big></cite><br>
+In an unusual perspective, five of Elizabeth I's most famous sayings are connected to five different
+kinds of creativity by the good people at bemorecreative.com. Now CERES
+didn't find itself very inspired by this, but you may feel that cynicism is
+our biggest problem.  Think creatively by starting at <a href=http://www.bemorecreative.com/one/612.htm>http://www.bemorecreative.com/one/612.htm</a>.
+<p>
+<cite><big>elizabethan costume</big></cite><br>
+If you're interested in Elizabethan costume, your best bet is to find your own path through the shimmering depths of  
+<a href=http://www.dnaco.net/~aleed/corsets/general.html>http://www.dnaco.net/~aleed/corsets/general.html</a>.
+This site has everything from the history of the Elizabethan corset to
+instructions on how to make a genuine Elizabethan bumroll. Much of the site
+is made up of instructions on how to make your own garments, but there is also
+general historical material. You can even search the wardrobe accounts of  Mary Tudor and Edward IV, an excellent feature which, sadly, wasn't working
+when CERES had a go. Still, if anyone finds out how many black lace
+petticoats Edward IV had, you know who wants to know. There are links to
+pictures of Elizabethan costume all over this site, and there is a good
+annotated bibliography from which you can leap to Amazon.com to order the
+books in question.  If CERES gave out some kind of award, this site would get two; Drea Leed, creator of this site, we salute you!
+<p>
+<strong>JAMESTOWN REDISCOVERY</strong><br>
+The Association for the Preservation of Virginia Antiquities keeps a website
+at <a href=http://www.apva.org/>http://www.apva.org/</a>.  Excavations and discoveries continue on the site of James I's settlement in
+Virginia. This site offers historical background, description of recent
+discoveries, plans for the future, and information about visiting. Some of
+the pages use a fairly basic question and answer format, but the information
+and presentation are usually interesting.
+<p>
+Williamsburg Online also has Jamestown pages, which are aimed at potential
+visitors and have background information. Find out what's available at
+<a href=http://www.williamsburg.com/james/james.html>http://www.williamsburg.com/james/james.html</a>.
+The main site at <a href=http://www.williamsburg.com>http://www.williamsburg.com</a> is a feast of colonial
+American fun.
+<p>
+<strong>AND ROANOKE TOO</strong><br>
+Lots of recent archaeology in Roanoke too, some of which is described on the Web.
+A good starting point is <a href=http://scrtec.org/track/tracks/t00428.html>http://scrtec.org/track/tracks/t00428.html</a>.
+This is a kind of public service thingummy called Trackstar, featuring lists of resources aimed at education. From here you can reach various resources related to discoveries about the mysterious lost colony.
+The most interesting link is to news of a discovery in 1996 of a possible
+Croatan Indian site, at <a href=http://www.nando.net/newsroom/nao/nc/030696/nct_1686.html>http://www.nando.net/newsroom/nao/nc/030696/nct_1686.html</a>.
+<p>
+One potentially very useful resource is run by Tom Langford of the
+International Internet Genealogical Society. For CERES purposes what is
+offered here is information (numbers and names) about settlers heading for
+colonies in the Americas. It has information about individual ships and
+about settlements, so you can get a list of the Roanoke settlers. It is not
+exhaustive or complete, but it is substantial. Start from <a href=http://www.primenet.com/~langford/>http://www.primenet.com/~langford/</a>.
+<p>
+Curiously enough, you can get Ralph Lane's account of the first Roanoke
+colony, and John Smith's account of Jamestown, via the list of Historical
+Documents put online by the National Center for Public Policy Research,
+URL: <a href=http://www.nationalcenter.org/HistoricalDocuments.html>http://www.nationalcenter.org/HistoricalDocuments.html</a>. The NCPPR's list of documents, set out in chronological order, is
+presumably designed to convert anyone who reads too many of them to
+'Conservative' views, so CERES urges <strong>considerable caution</strong> in the use of
+this site.  For an alternative view, head for the relevant section of Hakim Bey's 'The
+Temporary Autonomous Zone' at <a href=http://www.notam.uio.no/~mariusw/bey/taz/taz.html#labelGoneToCroatan>http://www.notam.uio.no/~mariusw/bey/taz/taz.html#labelGoneToCroatan</a>.
+<p>
+There are links to various sources of online information about the Lost
+Colony from <a href=http://www.kidinfo.com/American_History/Colonization_Roanoke.html>http://www.kidinfo.com/American_History/Colonization_Roanoke.html</a>.  However, it is possible that many CERES members are well-informed and/or
+self-conscious enough not to want to visit any site called Kid Info.
+<p>
+Some of John White's engravings made during his time in the Roanoke colony can be
+seen at <a href=http://www.philaprintshop.com/debry.html>http://www.philaprintshop.com/debry.html</a> as part of their De Bry
+series. The Philadelphia Print Shop is actually trying to sell you things
+at this site, but CERES emerged with wallet unscathed, although the
+pictures are great.
+<p>
+<small><a href=#top>Back to top.</a></small>
+<hr>
+<a name=weird></a>
+<h2 align=center>The Weird and the Wonderful</h2>
+<strong>MEDIEVAL AND RENAISSANCE GAMES</strong><br>
+This meticulously-prepared page features a huge variety of games
+from many periods and cultures. Rules, pictures, documents, and
+discussions are all available, many of them on this site, and
+others via links. It is aimed at the player rather than at the
+scholar, which makes it quite a refreshing read, but it could
+well be a highly useful and informative aid to those who wonder
+about the rules of obscure games that crop up in their reading.
+Get your dice and cards ready, and head for <a href=http://www.inmet.com/~justin/game-hist.html>http://www.inmet.com/~justin/game-hist.html</a>.
+<p>
+<strong>FLORIMENE ON THE WEB</strong><br>
+This project is at heart a teaching resource, using electronic
+media to guide students through 17th century staging via the
+example of Florimene. Started in 1988, it has (not surprisingly)
+changed its method considerably and the genesis of the current
+WWW format takes up some space on the site, but it is
+interesting. The material on staging is impressively technical
+and represented in wonderfully bilious colours which recall the
+great days of 1980s computing. For content and for its
+demonstration of what can be done, this is worth a visit:
+<a href=http://artsci.washington.edu/drama/flori1.html>http://artsci.washington.edu/drama/flori1.html</a>.
+<p>
+<strong>TYBURN TREE</strong><br>
+A website devoted to public execution in early modern England,
+including texts (a couple of homilies), selections from other
+contemporary documents (Kyd, Pepys, Boswell, Newgate Calendar), a
+few dying speeches, images, bibliography, and links. The site is
+unfinished and apologises for this; its current sponsor clearly
+wants to hand it over to someone else. Nevertheless, some stuff...
+<a href=http://www.wantree.com.au/~halligan/tyburn.htm>http://www.wantree.com.au/~halligan/tyburn.htm</a>.
+<p>
+<strong>CULTURAL READINGS: COLONIZATION AND PRINT IN THE AMERICAS<br>
+NEW ON LINE EXHIBITION</strong><br>
+This collaborative web site presents and interprets a wide variety of texts
+- books, manuscripts, illustrations, maps, and artifacts - generated by
+Europe's colonization of the Americas. Comparative and broad in scope, the
+exhibition investigates Spanish, French, English, and Dutch 'readings' of
+the New World and the 'readings' of Europeans made by many Native cultures.
+Topics covered include the literature of colonial promotion; printed images
+of Natives; Native responses to print; missionary activities; Indian
+languages; the geographies of the New World; and captivity narratives. The
+web site also contains essays by Louise Burkhart, Sabine MacCormack,
+Michael Ryan, Daniel Slive, and Karim Tiro; bibliography; and web links.
+Materials shown in 'Cultural Readings' are drawn from the collections of
+the Jay I. Kislak Foundation; the Rosenbach Museum & Library; the
+University of Pennsylvania's Department of Special Collections; and the
+University of Pennsylvania Museum of Archaeology and Anthropology. Find it at <a href=http://www.library.upenn.edu/special/gallery/kislak/index/cultural.html>http://www.library.upenn.edu/special/gallery/kislak/index/cultural.html</a>.
+<p>
+<strong>NICE LINKS</strong><br>
+Carlo Bajetta has been busy surfing and has come up with a long and cultured
+list of links to all sorts of necessary (and a few sorts of unnecessary)
+places, some of which may be new to you. So if you don't trust us to tell
+you what you need to know, have a look at:
+<a href=http://www.unicatt.it/library/milano/BancheDati/surf2.htm>http://www.unicatt.it/library/milano/BancheDati/surf2.htm</a>
+<p>
+<strong>RESOURCES IN ART HISTORY</strong><br>
+Adrienne DeAngelis of Rutgers has started up a site called 'Resources in
+Art History for Graduate Students', located at
+<a href=http://www.eden.rutgers.edu/~acd>http://www.eden.rutgers.edu/~acd</a>.
+This lists fellowships, grants, internships, symposia and other types of
+assistance for graduate students in art history and related fields.
+<p>
+<strong>BROGAN'S ENGLISH VERSIFICATION</strong><br>
+A complete version of Terry V.F. Brogan's English Versification, 1570-1980:
+A Reference Guide in Acrobat PDF hypertext is now available at the
+Versification web site. EVRG is, along with Brogan's bibliography "Metrici
+and Rhythmici: A List" (also available at the Versification website), the
+largest single research tool for global versification.
+<a href=http://sizcol.u-shizuoka-ken.ac.jp/versif/VerseBiblio.html>http://sizcol.u-shizuoka-ken.ac.jp/versif/VerseBiblio.html</a>
+<p>
+<strong>ONLINE BIBLE-STUDY</strong><br>
+I dare say that the use literary scholars might make of the resources at
+<a href=http://www.biblestudytools.net/>http://www.biblestudytools.net/</a> may not be exactly what the organisers had in mind. However, this voluminous facility makes it very easy to trace
+keywords through the Bible, and to undertake more subtle searches. At the
+very least it could provide quick answers to vexing 'where did that come
+from?' questions.
+<p>
+<strong>RENAISSANCE MARRIAGE</strong><br>
+There is a site with information about weddings and marriage in the early
+modern and medieval periods at <a href=http://www.spu.edu/~kst/bib/bib.html>http://www.spu.edu/~kst/bib/bib.html</a>. 
+Some of the information is aimed at re-creating authentic ceremonies rather
+than at historical research, but there is plenty there.
+<p>
+<strong>RENAISSANCE!</strong><br>
+<a href=http://renaissance.dm.net>http://renaissance.dm.net</a><br>
+This is another site with more than a toe dipped in 'Creative Anachronism'.
+Lots of links and some info on the more flamboyant parts of cultural
+context - heraldry, magic, sword-fighting, etc. The 'Compendium of Common
+Knowledge' is a nice idea: a sort of retrospective commonplace book which
+offers to 'Writers, Actors, and Re-Enactors' a synthesis of Elizabethan
+culture. Lots of bite-sized info on clothes, money, duelling, food,
+language, and many more: not pitched at a very high level, but enjoyable.
+<p>
+<small><a href=#top>Back to top.</a></small><br>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+;au1 meop

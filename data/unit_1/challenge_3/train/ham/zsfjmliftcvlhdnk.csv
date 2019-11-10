@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Martin Billingsley, The Pens Excellencie (1617)</title>
+<link rel="STYLESHEET" href="../ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "../images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "../images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "../images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "../images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "../images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "../images/copia2on.gif";
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=../images/20v.gif><br>
+<a href="../index.html" target="_top"
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="../images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<img src=../images/40v.gif><br>
+<table width=80%>
+<tr>
+<td>
+<h2 align=center>Martin Billingsley, <i>The Pens Excellencie or the Secretaries Delighte</i> (1618)</h2>
+<p>
+<table width=100% cellspacing=40>
+<tr>
+<td width=40% valign=top>
+<table border><tr><td>
+<h3><a href=zoompan.html>1. Zoompan Edition</a></h3>
+<blockquote><i>This edition supplies a high-resolution image of each page of the book, which may be enlarged or reduced as necessary. Note: although the Java applet which powers this edition does not require any special plug-ins, the file sizes of the images involved may prove too burdensome for anyone on a dial-up internet connection.</i></blockquote></td></tr></table>
+<p>&nbsp;<p>
+<table border><tr><td>
+<h3><a href=simple.html>2. Simple Edition</a></h3>
+<blockquote><i>This edition supplies straightforward jpeg issues of each page of the book in two sizes: 1000-pixel width ('screenshots', if you have your monitor resolution configured to 1024 by 768), and much larger. A navigation menu beneath the images will allow you to toggle between smaller images and enlargements (to zoom, click on the + sign).</i></blockquote></td></tr></table>
+</td>
+<td width=60% valign=top>
+<h3><i>The Pens Excellencie</i>: A brief introduction</h3>
+The first printed handwriting manual to appear in English was that of Jean de Beauchesne (or de Beau Chesne) and John Baildon, in 1570. Entitled <i>A booke containing diuers sortes of hands</i>, it was essentially an English recension of the 1550 <i>Le thresor d'escripture</i>. That this first printed copy-book should have been a translation from the French is no surprise, for aspiring English 'pen-men' had long supplemented their own manuscript primers with Continental printed sources; the fame and influence of such Italian writing-masters as Giovannantonio Tagliente (<i>Lo presente libro</i>, 1524), Ludovico Vincentino degli Arrighi ('Vincentino', <i>La Operina</i>, 1524, and <i>Il modo de Temperare le Penne</i>, 1525), Giovambattista Palatino (<i>Libro nuovo d'imparare a scrivere</i>, 1540, 1545; <i>Compendio del gran volume</i>,  1566), Giovan Francesco Cresci (the revolutionary <i>Essemplare</i>, 1560; <i>Il Perfetto Scrittore</i>, 1570); of the Spaniard Francisco Lucas (<i>Arte de Escrevir</i>, 1571); and of Gerardus Mercator (<i>Literarum Latinarum, quas Italicas cursoriasque vocant, scribendarum ratio</i>, 1540), is well attested by surviving copies of their works in English libraries. De Beauchesne afterwards published, in Lyon in 1580, a new and very fine edition of <i>Le Tresor d' Escriture</i>, but was soon back in London and eventually in his last years became writing-tutor to the younger children of James I, Elizabeth and Charles (later Charles I).
+<p>
+Native English writing-masters, or 'Pen-Men' as Billingsley later termed them, seem to have preferred manuscript copy-books to printed versions, apparently because the printed exemplars relied on the skills of an engraver, who could not always be trusted to replicate the elegance required by the writing masters. Still, by the second half of Elizabeth's reign English pen-men began to publish their own copy-books in print. These were primarily aimed at correcting the 'abuses' of popular scriveners (whom Billingsley contemptuously scorned as 'botchers'), whose dubious pedagogical skills were to be found advertised on every post in London. De Beauchesne's French immigrant printer, Thomas Vautrollier, published in 1574 the anonymous <i>A new booke of Copies</i>, some of whose material was surely indebted to de Beauchesne. In 1590 appeared Peter Bales' three-part <i>The writing schoolemaster</i>, containing 'the arte of brachygraphie', 'the order of orthographie', and 'the key of calygraphie'. Bales' colleague  John Davies of Hereford, at one time writing tutor to Prince Henry, published in 1620 his own version of <i>The writing schoolemaster or the anatomy of faire writing</i>, which went through sixteen editions by 1636. Other works on pedagogy-such as Richard Mulcaster's <i>The first part of the Elementarie</i> (1580)-or on the profession of the secretary-such as Angel Day's <i>The English Secretorie</i> (1586; rev. 1599)-contributed less focused comments on the art of writing. 
+</td></tr></table>
+It was into this context that Martin Billingsley introduced <i>The pens excellencie or the secretaries delighte</i> in 1618. Billingsley's volume contains about 25 pages of text, gathered like a sandwich around 20 woodblock plates exemplifying the many hands (with additions for Greek and Hebrew) current in early Stuart London. After a brief excoriation of the 'botching' scriveners, Billingsley defends the practice of teaching women to write fair hands before taking up the substance of his task. His epistle to the reader makes it quite clear that, unlike the authors of many other handbooks of calligraphy, Billingsley made a point of designing and executing his own plates: 'This is my Glory, That I haue not plaid the Theefe with any man, (though it were in my power to haue done it,) But <i>quicquid scripsi, scripsi</i>: whatsoeuer I haue written, I haue done it my selfe.' While the subsequent short remarks on the antiquity, excellency, and diversity of the art of penmanship-which Billingsley divides into the Secretary, the Bastard Secretary, the Roman, the Italian, the Court, and the Chancery hands-are fairly conventional, the plates are indeed fresh and original. The volume concludes with brief directions on cutting quills and advice on how to hold a pen properly.
+<p>
+While Billingsley's treatise may not be so complete or meticulous as some of its Continental counterparts, nor so full of plates as some of his English competitors, for lucidity and clarity of method his little copy-book is exemplary. In the 1618 copy from the Folger Shakespeare Library that we have reproduced here, the plates come through fresh and clean, and sit comfortably without overmuch commentary as the centerpieces that they are. To Billingsley's mind, the art of handwriting, however demanding and exact, was a simple art, one better learned by emulation and practice than exhaustively nice speculation on the geometry of letter forms. It was an art to be learned from a master, practiced intensively, and preserved with respect; and yet, too, its elegance went hand in hand with its functionality, for a pen-man was no better, in Billingsley's view, than his ability to write an elegant hand whensoever it was needed.
+
+<blockquote>Also (in my iudgement) he cannot be reputed a good <i>Pen-man</i> that is not able vpon an instant, with any <i>Pen</i>, <i>Inke</i>, or <i>Paper</i>, and in the presence of whomsoeuer, to manifest some skill: Being that the rare & absolute quality of the Pen, consistent not in the painting, pricking forth, and tedious writing of sixe lines priuately in a mans Study, with the best implements: but a sweet command of hand, and a certaine conceiued presumption.</blockquote>
+
+<p>
+<img src=../images/30v.gif><br>
+<hr>
+<p>
+<center>
+<small>This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../../copia.htm" target="_top"
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="../images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../../main.htm" target="_top"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="../images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+
+
+
+
+dpeel

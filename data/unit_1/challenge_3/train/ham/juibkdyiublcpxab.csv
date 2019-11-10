@@ -1,0 +1,70 @@
+<HTML>
+<title>Science Data Products</title>
+<body>
+
+<p align="left">
+<h2>Science Algorithm Description; Data Products and Processor version histories
+</h2></p>
+
+<ol>
+  <a name="Top"></a>
+  <li><a href="atbd.html"> Algorithm Theoretical Basis Document (ATBD) for level 0-1</a>(html) </li>
+  <li><a href="hirdls_level2_atbd_version2.pdf"> ATBD for level 1-2</a>(pdf)</li>
+  <li><a href="#SIPS"> Science Investigator-led Processing System (SIPS)</a> </li>
+  <li><a href="Short-guide-Level2data_InitialRelease.pdf"> A Short Guide to Version 2.00 Level 2 from the PI</a></li>
+  <li><a href="HIRDLS_Data_Description_InitialRelease.pdf"> Level 2 Version 2.00 Data Quality Description</a></li>
+  <li><a href="#OverView"> Chart of Data Available for the Current Version </li>
+  <li><a href="#WhereToGet"> Where to get the Data</a> </li>
+</ol>
+
+<p align="left"><h3><a name="SIPS">Science Investigator-led Processing System</a></h3></p>
+
+The purpose of the HIRDLS SIPS (Science Investigator-led Processing System) is to generate HIRDLS higher-order standard data
+products and associated quality assurance information from HIRDLS lower-order standard data products and from ancillary data
+products from the Aura spacecraft, and to provide for the appropriate distribution, archiving and monitoring of those
+generated products. A secondary, but no less important purpose of the SIPS is to allow a high degree of interactivity
+between software developers, instrument scientists and the processing software, permitting a fast turnaround from algorithm
+problem diagnosis to correction.
+<br><br>
+The SIPS is composed of a large array of processors and support systems and is located at the University
+of Colorado, HIRDLS group laboratory in Boulder Colorado. Instrument data called production data sets (PDS)
+are delivered from the NASA EOS Computing System (ECS) in Goddard Space Flight Center, Greenbelt,
+Maryland in the USA in two hour granules only about 4 hours after being delivered from the spacecraft. These
+data are processed at the SIPS by first being geo-located and calibrated to produce level 1 files, 
+then geophysical products are retrieved to produce level 2 files. Level 3 files are gridded data. These
+products are delivered to the Distributed Archive system (DAAC) at Goddard where they are copied to the
+British Atmospheric Data Centre (BADC) at the Rutherford Laboratories in Oxfordshire.
+
+<p align="right"><a href="#Top"> Return to top</a></p>
+
+<p align="left"><h3><a name="OverView">Overview of Data Available for the Current Version</a></h3></p>
+Insert Document
+<a href="DataTable.htm">Data Table </a>
+
+<p align="right"><a href="#Top"> Return to top</a></p>
+
+<p align="left"><h3><a name="WhereToGet">Where to get the Data</a></h3></p>
+The HIRDLS products are available to users in the United Kingdom and Europe at the
+<a href="http://badc.nerc.ac.uk">British Atmospheric Data Centre </a> which is
+located at the Rutherford Appleton Laboratory near Chilton in Oxfordshire.
+<br><br>
+All the details for searching, acquisition, extraction and manipulation of the data
+are available at that web site. You will need to submit an application to access the
+data as indicated when you arrive at the web site.
+<br><br>
+There you will find some documentation and useful information about the data.
+The BADC accepts enquiries about the data from users, they may choose to forward the 
+questions to the Oxford group <a href="mailto:J.Barnett1@physics.ox.ac.uk"> Principal 
+Investigator </a> but you are welcome to contact us directly about the HIRDLS program, the
+mission, instrument, calibration etc etc.
+
+ 
+<p align="right"><a href="#Top"> Return to top</a></p> 
+ 
+
+
+</body>
+</HTML>
+
+
+ldHT

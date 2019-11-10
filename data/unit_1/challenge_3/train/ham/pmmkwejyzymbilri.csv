@@ -1,0 +1,201 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: facilities: mechanical:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+        LI.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+        A.LeftMenu {font-weight: normal; font-size: 10pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.5;}
+        A.LeftMenu:link { color: #ffffff;}
+        A.LeftMenu:visited { color: #ffffff;}
+        A.LeftMenu:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuInsert {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuInsert:link { color: #ffffff;}
+        A.LeftMenuInsert:visited { color: #ffffff;}
+        A.LeftMenuInsert:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuReplace {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #0000c4; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuReplace:link { color: #e7e7ff;}
+        A.LeftMenuReplace:visited { color: #e7e7ff;}
+
+        A.TopMenu {font-weight: normal; font-size: 7pt;
+        text-decoration : none; color: #000079; font-weight: bold;
+        font-family: Arial, Helvetica, San-Serif;}
+        A.TopMenu:link { color: #000079; text-decoration:none;}
+        A.TopMenu:visited { color: #000079; text-decoration:none;}
+        A.TopMenu:hover { color: #000000; text-decoration:underline;}
+
+-->
+</STYLE></HEAD><BODY>
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 BGCOLOR="#FFFFFF">
+<TR><TD WIDTH=142 ROWSPAN=2 CLASS="Bottomright">
+<A HREF="http://www.physics.ox.ac.uk">
+<IMG BORDER=0 ALT="Oxford Physics" SRC="../images/OxPhysics.gif"></A></TD>
+<TD WIDTH=16 HEIGHT=60></TD><TD WIDTH=560 CLASS="Middle">
+<TABLE WIDTH=560 BORDER=0 CELLPADDING=5 CELLSPACING=1 BGCOLOR="#0000C4"><TR>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../default/index.html">HOME</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.physics.ox.ac.uk">Oxford Physics</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.ox.ac.uk">Oxford University</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../weather">Live Weather</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../dept/gettinghere.html">Getting here</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../dept/contact.html">Contact</A></TD>
+</TR></TABLE></TD></TR>
+<TR><TD COLSPAN=2><IMG SRC="../images/physics_banner.gif"></TD></TR><TR>
+<TD COLSPAN=2><IMG SRC="../images/physics_top.gif"></TD><TD></TD></TR><TR>
+<TD COLSPAN=2 BGCOLOR="#000099">
+<TABLE  CELLPADDING=0 CELLSPACING=0 BORDER=0 >
+<TR><TD WIDTH=32></TD><TD WIDTH=126 CLASS="Top">
+<BR><A HREF="../dept/index.html" CLASS="LeftMenu">About AOPP</A>
+<BR><A HREF="../meetings/index.html" CLASS="LeftMenu">Meetings</A>
+<BR><A HREF="../undergraduates/index.html" CLASS="LeftMenu">Undergrads</A>
+<BR><A HREF="../graduates/index.html" CLASS="LeftMenu">Graduate<BR>Admissions</A>
+<BR><A HREF="../postdocs/index.html" CLASS="LeftMenu">Post-Docs</A>
+<BR><A HREF="../visitors/index.html" CLASS="LeftMenu">Visitors</A>
+<BR><A HREF="../research/index.html" CLASS="LeftMenu">Research</A>
+<BR><A HREF="../faq/index.html" CLASS="LeftMenu">FAQs</A>
+<BR><A HREF="index.html" CLASS="LeftMenu">Facilities</A>
+<TABLE WIDTH ="100%" CELLSPACING=0 CELLPADDING=0>
+<TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../capabilities/instrument_calibration.html" CLASS="LeftMenuInsert">Instrument<BR>&nbsp Calibration</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="clean_areas.html" CLASS="LeftMenuInsert">Clean Areas</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="cold_optics_chamber.html" CLASS="LeftMenuInsert">Cryogenic<BR>&nbsp Sub-System<BR>&nbsp Testing</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="space_view_chamber.html" CLASS="LeftMenuInsert">Passive Cooler<BR>&nbsp Testing</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="vibration_testing.html" CLASS="LeftMenuInsert">Vibration<BR>&nbsp Testing</A></TD></TR><TR><TD HEIGHT=3></TD></TR></TABLE>
+<A HREF="../capabilities/index.html" CLASS="LeftMenu">Capabilities</A>
+<BR><A HREF="../local/index.html" CLASS="LeftMenu">Local<BR>Information</A>
+<BR><A HREF="../links/index.html" CLASS="LeftMenu">Links</A>
+<BR><A HREF="http://climateprediction.net/index.php" CLASS="LeftMenu"><SMALL>Climate<I>prediction</I>.net</SMALL></A>
+<BR><BR></TD></TR><TR><TD COLSPAN=2><CENTER>
+<A HREF="http://www.ox.ac.uk"><IMG SRC="../images/webshield.gif" BORDER=0 ALT="UNIVERSITY HOME"></A></CENTER></TD></TR><TR><TD></TD><TD>
+</TD></TR></TABLE></TD><TD>
+<TABLE CELLSPACING=5 CELLPADDING=0 BGCOLOR="#FFFFFF" BORDER=0 WIDTH=560>
+<TR><TD>
+<TABLE CELLSPACING=1 CELLPADDING=5 BGCOLOR="#C4C4C4" BORDER=0 WIDTH=550>
+<TR><TD HEIGHT=300 BGCOLOR="#FFFFFF">
+<h2>Mechanical Services Workshop</h2>
+
+<p>The mechanical workshop staff (Fig&#160;1) provide the essential manufacturing
+and fitting skills needed to support the department's many test and
+calibration facilities.</p>
+<TABLE WIDTH=100% CELLPADDING="5%"><TR><TD VALIGN=TOP>
+<CENTER>
+<a href="mechanical/fig1_large.jpg"><IMG SRC="mechanical/fig1_small.jpg"></a><BR>
+<BR><I>Fig 1: Jason Perry and Duncan Constable in front of the Cincinatti
+NC Milling Machine</I></TD>
+</CENTER>
+</TD><TD>
+<CENTER>
+<a href="mechanical/fig2_large.jpg"><IMG
+SRC="mechanical/fig2_small.jpg"></a><BR> <BR><I>Fig 2: The seismic
+block prior to construction of the cleanroom</I></TD>
+</CENTER>
+</TR>
+</TABLE>
+<p>Welding and other specialist services are provided 'off-site' by
+Central Physics <a
+href="http://nodens.physics.ox.ac.uk/designoffice/eastworkshop">east
+site</a> and <a
+href="http://nodens.physics.ox.ac.uk/designoffice/westworkshop">west
+site</a> workshops.  The integration of the <a
+href="2point2_metre_facility/index.html">2.2 metre
+calibration facility</a> clearly illustrates the need for both skilled
+fitters and precision machinists, as the workshop staff set up and
+levelled the <a
+href="2point2_metre_facility/mass_3.html">seismic block</a>
+(Fig&#160;2) played a major role in the installation of the cleanroom (Fig&#160;3) installed and positioned the <a
+href="2point2_metre_facility/chamber_1.html">vacuum
+chamber</a>, and made and fitted much of the the test equipment used
+during <a
+href="http://www-atm.physics.ox.ac.uk/hirdls/home.htm">HIRDLS test and
+calibration</a> (Fig&#160;4 and Fig&#160;5).</p>
+<TABLE WIDTH=100 CELLPADDING="5%"><TR><TD VALIGN=TOP>
+<CENTER>
+<a href="mechanical/fig3_large.jpg"><IMG
+SRC="mechanical/fig3_small.jpg"></a><BR> <BR><I>Fig 3: Jason Perry and
+Mohammed Cheddi installing the 2.2 metre facility cleanroom
+components</I></TD>
+</CENTER>
+</TD><TD>
+<CENTER>
+<a href="mechanical/fig4_large.jpg"><IMG SRC="mechanical/fig4_small.jpg"></a><BR>
+<BR><I>Fig 4: Photo of the box beam assembly over at the West Side Workshop</I></TD>
+</CENTER>
+</TR>
+</TABLE>
+<p>The close proximity of the workshops to the test facilities also
+allows for rapid prototyping and problem solving. This is invaluable
+at the development stage of space instrumentation (structural and
+engineering models), where uncertainites in design may be investigated
+in a matter of weeks rather than months, a case of 'make it, break it,
+fix it'. This approach is well suited to innovative design solutions,
+and where assemblies are not well-modelled by design engineering
+software, a case in point being the cold patch suspension system
+selected for the <a
+href="../capabilities/passive_coolers.html">CIRS
+radiative cooler<a>.</p>
+<TABLE WIDTH=100% CELLPADDING="5%"><TR><TD VALIGN=TOP>
+<CENTER>
+<a href="mechanical/fig5_large.jpg"><IMG SRC="mechanical/fig5_small.jpg"></a><BR>
+<BR><I>Fig 5: The box beam assembly installed in the 2.2 metre vacuum chamber</I></TD>
+</CENTER>
+</TD><TD>
+<CENTER>
+<a href="mechanical/fig6_large.jpg"><IMG SRC="mechanical/fig6_small.jpg"></a><BR>
+<BR><I>Fig 6: The workshop layout</I></TD>
+</TR>
+</CENTER>
+</TABLE>
+</TD></TR></TABLE></TD></TR></TABLE>
+<TABLE WIDTH="98%" ALIGN=CENTER BORDER=0 CELLSPACING = 0 CELLPADDING=0>
+<TR><TD CLASS="Left">
+<FONT SIZE=-4 COLOR="#E7E7FF">last updated @11:02 GMT 02-Sep-2005</FONT></TD>
+<TD CLASS="Right"><A HREF="mechanical_nocol.html"><FONT SIZE=-4>printable version</FONT></A></TD></TR></TABLE></TD></TR><TR><TD COLSPAN=2>
+<IMG SRC="../images/physics_bottom.gif"></TD></TR></TABLE></BODY></HTML>
+
+
+t"e "(-l

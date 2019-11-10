@@ -1,0 +1,196 @@
+
+
+
+<html>
+<head>
+
+<title>Brighton &amp; Hove Education Online: BHCC website for schools PRINTABLE VERSION</title>
+
+
+<!-- Brighton & Hove City Council - Education Online skin -->
+<!-- Version 2.0 September 2003 -->
+<!-- Technical enquiries: james.burton@brighton-hove.gov.uk -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+	@import url(web/sites/education/page_display/may_03_print.css);
+</style>
+
+
+<meta name="keywords" content=""> <meta name="Description" content=""> 
+
+<script language="JavaScript">
+	window.print();
+</script>
+
+<style>
+.breadCrumbsText {
+	color: #000;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<p class="Upgrade">This page looks plain and unstyled because you're using a
+  non-standard compliant browser. Please upgrade to a browser that supports web standards as soon as possible. Staff within Brighton & Hove City Council can call the ICT Helpdesk on 292001. Staff within schools should contact their ICT Coordinator or ICT Support Staff. Everyone else can get useful information from <a href="http://www.webstandards.org/upgrade/" title="The Web Standards Project's Browser Upgrade initiative">The Web Standards Project's Browser Upgrade initiative</a>.</p>
+
+
+ 
+
+
+<div id="Container">   
+<h2 align="center">Brighton & Hove Education Online Printable version</h1>
+
+
+		  <div id="Main" style="background-color:#fff;">
+		
+		
+		
+		    <div id="Topmenu">
+				
+		<a href="index.cfm?request=a312" title="eds_Help" class="breadCrumbsText">Help</a>
+	
+			&nbsp;/ <strong>Online queries</strong>
+		 
+			</div>
+			
+			<div id="Content">
+			
+							
+				
+				
+<table width="100%">
+	
+	
+				<form action="index.cfm?fuseaction=web.formSubmission&request=B1114904" method="post" style="margin:0px;padding:0px;">
+					<input type="hidden" name="pageID" value="124723">
+					<input type="hidden" name="frmTitle" value="online_queries">
+					<input type="hidden" name="currentSiteAlias" value="Education">
+					
+						<tr><td colspan="2">
+						
+							<a name="Title1"></a>
+						
+	<h2 class="title">Query Form</h2>
+
+						  </td></tr>  
+						 
+						<tr><td colspan="2">
+						
+							<a name="BodyText1"></a>
+						
+		<span id="blacktext">
+			<P>This contact email is for the Education Online website only. If you are doing the 'Safe at School Survey' and you are being bullied or worried about bullying, <STRONG>make sure that you tell someone now</STRONG> - a teacher, your parents or a friend. Don't suffer in silence.</P>
+<P>You can also call the <STRONG>Bullying Line</STRONG> on 0800 0520228 on Tuesdays between 3pm and 8pm or <STRONG>childline NOW </STRONG>on 0800 1111. Both phone lines will give you <STRONG>free, confidential advice</STRONG>. You can also find more information on <STRONG><A href="http://www.coastkid.org/">www.coastkid.org</A></STRONG>, the Brighton &amp; Hove Anti-Bullying website.</P>
+<P>Fill in the form below if you have:</P>
+<UL>
+<LI>Had a problem&nbsp;using the features of Education Online&nbsp;&nbsp;</LI>
+<LI>An idea for something new to be included on the site&nbsp;&nbsp;</LI>
+<LI>A&nbsp;general query</LI></UL>
+<P>Don't forget to include your Email address so that we can get back to you. </P>
+		</span>
+		
+						  </td></tr>  
+						 
+								<input type="hidden" name="username_required" value="Fields marked with a red asterisk must be filled in.">
+							
+								<input type="hidden" name="fieldnumber3" value="username|TextInput">
+						
+							<a name="TextInput1"></a>
+						
+<tr> 
+	
+		<td style="text-align: right; width: 30%; vertical-align: top">
+			
+				<b>Your name&nbsp;</b>
+			
+				<span id="mandatory">*</span>
+			
+		</td>
+		<td>
+			<input type="text" name="username" value="" size="20" maxlength="50" title="">
+		</td>
+	
+</tr>
+
+								<input type="hidden" name="fieldnumber4" value="return_email|return_email">
+						
+							<a name="return_email1"></a>
+						
+<tr> 
+	
+		<td style="text-align: right;width: 30%; vertical-align: top">
+			
+				<b>Your email&nbsp;</b>
+			
+		</td>
+		<td>
+			<input type="text" name="return_email" value="" size="20" maxlength="150" title="">
+		</td>
+	
+</tr>
+
+								<input type="hidden" name="problem_required" value="Fields marked with a red asterisk must be filled in.">
+							
+								<input type="hidden" name="fieldnumber5" value="problem|TextArea">
+						
+							<a name="TextArea1"></a>
+						
+<tr>
+	
+		<td style="text-align: right; vertical-align: top">	
+			
+				<b>Details of your query or problem&nbsp;</b>
+			<span id="mandatory">*</span>   
+		</td>
+		<td>
+			<textarea cols="20" rows="10" name="problem" wrap="hard" tabindex="" accesskey="" title=""></textarea>
+		</td>
+	
+</tr>
+
+								<input type="hidden" name="fieldnumber6" value="submit|SubmitReset">
+						
+							<a name="SubmitReset1"></a>
+						
+<tr>
+	
+		<td style="text-align: right; width: 30%; vertical-align: top">			
+			<input type="submit" value="submit"  tabindex="" title="">
+		</td>
+		<td>
+			<input type="reset" value="reset"  tabindex="" title="">
+		</td>
+	
+</tr>
+
+				</form>
+			
+		<p>&nbsp;</p>
+	
+</table>
+
+					<br clear="all"/>
+					
+						<span class="date">Last updated 02-May-07</span>
+					
+			
+		</div>
+		<br >&nbsp;</br>
+		
+
+
+
+
+ </div>
+
+</body>
+</html>
+
+
+s>m /  0

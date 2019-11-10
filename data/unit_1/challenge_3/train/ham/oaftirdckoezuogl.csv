@@ -1,0 +1,444 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<HTML><!-- InstanceBegin template="/Templates/PostDWindex.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<TITLE>Prof. Bruce Fitt</TITLE>
+<!-- InstanceEndEditable --> 
+
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+
+<link rel='stylesheet' type='text/css' href='http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStyle.css' media="screen">
+<link rel="stylesheet" href="http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStylePrint.css" type="text/css" media="print" />
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<script language="JavaScript" type="text/JavaScript" src="/Includes/TemplateScriptTop.js"></script>
+</HEAD>
+<BODY background='http://www.rothamsted.bbsrc.ac.uk/Graphics/InternetBackground.gif' 
+onLoad='ConfigurePage();' onResize='ConfigurePage();'>
+
+<div id="LeftSection" tabindex="1" onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')">
+<a href='http://www.rothamsted.bbsrc.ac.uk/index.html'>
+<img src='http://www.rothamsted.bbsrc.ac.uk/Graphics/LogoLarge.gif' alt='Click for RRes home page' width="148" height="195" border='0' style="position: absolute; top: 10px; left: 10px;"> 
+</a> 
+
+<form action='http://www.rothamsted.bbsrc.ac.uk/cgi-bin/htsearch' method='post' name='RResSearch' id='RResSearch'>
+    <input type='hidden' name='method' value='and'>
+    <input type='hidden' name='format' value='builtin-long'>
+    <input type='hidden' name='sort' value='score'>
+    <input type='hidden' name='restrict' value=''>
+    <input type='hidden' name='exclude' value=''>
+    <input type='hidden' name='config' value='rothamsted'>
+    <input class='SearchBox' type='text' name='words' id='words' value='Search website' 
+onClick='ClearSearchBox()' tabindex="2" title="Type a search term here and press enter">
+<input type="submit" value="Go!" class="GoButton" />
+</form>
+
+<div tabindex="4" id="ScienceLinks" style="position:absolute; left:10px; top:228px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+>Science 
+  Links</div>
+
+<div tabindex="5" id="PrinterFriendlyVersion" style="position:absolute; left:10px; top:247px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="PrintVersion();" onKeyPress="PrintVersion();" >Printer 
+  friendly version</div>
+
+</div>
+
+<div tabindex="6" id="Disclaimer" style="position:absolute; left:10px; bottom:30px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+>Disclaimer</div>
+
+<div tabindex="7" id="MakeComments" style="position:absolute; left:10px; bottom:10px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+>Make comments</div>
+
+
+
+<div class='Category' style='left: 160px;' id="Category1" tabindex="8"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>About us</div>
+
+<div class='Category' style='left: 260px;' id="Category2" tabindex="19" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Resources</div>
+
+<div class='Category' style='left: 360px;' id="Category3" tabindex="30" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Research</div>
+
+<div class='Category' style='left: 460px;' id="Category4" tabindex="41"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Into practice</div>
+
+<div class='Category' style='left: 560px;' id="Category5" tabindex="52" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>For the public</div>
+
+<div class='Category' style='left: 660px;' id="Category6" tabindex="62" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+>Careers</div>
+
+<div id="MenuSection1" class="MenuDetails" style="z-index:1; visibility: hidden;"> 
+
+  <blockquote style="position:relative; left: -40px; "> <a class="MainMenuLink" tabindex="9" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Introduction.html">Mission of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Origins.html">Origins of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/CompanyInformation.html">Company Information</a><br />	
+    <a class="MainMenuLink" tabindex="11" href="http://www.rothamsted.bbsrc.ac.uk/corporate/ContactUs.html">Contact Us</a><br />
+    <a class="MainMenuLink" tabindex="12" href="http://www.rothamsted.bbsrc.ac.uk/corporate/AnnualReports.html">Annual Reports</a><br />
+    <a class="MainMenuLink" tabindex="13" href="http://www.rothamsted.bbsrc.ac.uk/corporate/PressReleases/PressOffice.html">Press Office</a><br />
+    <a class="MainMenuLink" tabindex="14" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Location.html">Directions And Map of Campus</a><br />
+    <a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/OwnershipAndFunding.html">Ownership and Funding</a><br />
+	<a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/LawesAgriculturalTrust.html">Lawes Agricultural Trust</a><br />
+    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Strategy.html">The Next Decade</a><br />
+	    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/StrategicPlan.html">Strategic Plan 2005-2010</a><br />
+    <a class="MainMenuLink" tabindex="17" href="http://www.rothamsted.bbsrc.ac.uk/corporate/SeniorManagement.html">Senior Management</a><br />
+    <a class="MainMenuLink" tabindex="18" href="http://www.rothamsted-international.org">Rothamsted International</a> </blockquote>
+</div>
+
+<div id="MenuSection2" class="MenuDetails" style="z-index:2; visibility: hidden;"> 
+  <!--<h4>Resources</h4>-->
+  <blockquote style="position:relative; left: 50px; "> <a class="MainMenuLink" tabindex="20" href="http://www.rothamsted.bbsrc.ac.uk/resources/ResourcesAtRRes.html">Resources 
+    at Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="21" href="http://www.rothamsted.bbsrc.ac.uk/resources/RResPromo.html">Rothamsted Research Promotional 
+    video (18Mb)</a><br />
+    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/LongTermExperiments.html">Long Term Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/ClassicalExperiments.html">Classical Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/eRA/ ">Electronic Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/resources/TheRothamstedArchive.html">Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="24" href="http://www.rothamsted.bbsrc.ac.uk/resources/library/">Rothamsted Library</a><br />
+    <a class="MainMenuLink" tabindex="25" href="http://www.rothamsted.bbsrc.ac.uk/resources/ConferenceFacilities.html">Conference Facilities</a><br />
+    <a class="MainMenuLink" tabindex="26" href="http://www.rothamsted.bbsrc.ac.uk/resources/rmlmanor/index.htm">Rothamsted Manor</a><br />
+    <a class="MainMenuLink" tabindex="27" href="http://www.rothamsted.bbsrc.ac.uk/resources/RothamstedFarms.html">Rothamsted Farms</a><br />
+    <a class="MainMenuLink" tabindex="28" href="http://www.rothamsted.bbsrc.ac.uk/resources/TimeLapse.html">Time-lapse Video of the Construction of the Centenary Building</a><br />
+    <a class="MainMenuLink" tabindex="29" href="http://www.rothamsted.bbsrc.ac.uk/resources/CentenaryOpening.html">Photo Gallery of the Opening of the Centenary Building</a> <br />
+    <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/aen/ecn/">Local Weather and the Environmental Change Network</a> 	
+	</blockquote>
+</div>
+
+<div id="MenuSection3" class="MenuDetails" style="z-index:3; visibility: hidden;"> 
+  <!--<h4>Research</h4>-->
+  <blockquote style="position:relative; left: 150px; "> 
+  <!--<a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres.php">Research Centres</a><br />-->
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres/">Research Centres</a><br />  
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html">Research Overview</a><br />
+     <a class="MainMenuLink" tabindex="31" href="http://www.rothamsted.bbsrc.ac.uk/Research/RResQualityStatement.pdf">Rothamsted Research Quality Statement</a> (PDF)<br />
+    <a class="MainMenuLink" tabindex="32" href="http://www.rothamsted.bbsrc.ac.uk/Research/FeaturedProjects.html">Featured Projects</a><br />
+    <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Conferences.html">Conferences and Meetings</a> <br />
+	 <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Publications/">Publications</a> <br />
+	
+	<b>Research Departments:</b><br />
+    <a class="MainMenuLink" tabindex="34" href="http://www.rothamsted.bbsrc.ac.uk/broom/">Applied Crop Sciences</a> (Broom's Barn)<br />
+    <a class="MainMenuLink" tabindex="35" href="http://www.rothamsted.bbsrc.ac.uk/bch/">Biological Chemistry</a><br />
+	<a class="MainMenuLink" tabindex="36" href="http://www.rothamsted.bbsrc.ac.uk/bab/">Biomathematics and Bioinformatics</a><br />		
+    <a class="MainMenuLink" tabindex="37" href="http://www.rothamsted.bbsrc.ac.uk/pie/">Plant and Invertebrate Ecology</a><br />
+    <a class="MainMenuLink" tabindex="38" href="http://www.rothamsted.bbsrc.ac.uk/ppi/">Plant Pathology and Microbiology</a><br />
+    <a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/cpi/">Plant Science</a><br />
+	
+    <a class="MainMenuLink" tabindex="40" href="http://www.rothamsted.bbsrc.ac.uk/aen/">Soil Science</a><br />
+    <!--<a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/Research/Posters.html">Scientific posters</a><br />-->
+  </blockquote>
+</div>
+
+<div id="MenuSection4" class="MenuDetails" style="z-index:4; visibility: hidden; text-align:right;"> 
+  <!--<h4>Into practice</h4>-->
+  <blockquote style="position:relative; right: 150px; "> <a class="MainMenuLink" tabindex="41" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Impact.html">Impact Over the Past 30 Years</a><br />
+	   <a class="MainMenuLink" tabindex="42" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/ClimateChange.html">Climate Change and Land Management</a><br />
+
+    <a class="MainMenuLink" tabindex="43" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/AssociatedCompanies.html">Associated Companies</a><br />
+    <a class="MainMenuLink" tabindex="44" href="http://www.rothamsted.bbsrc.ac.uk/broom/sbrindex.html">Sugar Beet Research at Broom's Barn</a><br />
+    <a class="MainMenuLink" tabindex="45" target="_blank" href="http://www.rothra.org/">Rothamsted 
+    Research Association (formerly ARIA)</a><br />
+    <a class="MainMenuLink" tabindex="46" href="http://www.rothamsted.ac.uk/insect-survey/STAphidBulletin.php">Rothamsted Insect Survey Aphid Bulletin</a><br />
+    <a class="MainMenuLink" tabindex="47" href="http://www.rothamsted.bbsrc.ac.uk/pie/wowp/">Weeds or Wild Plants?</a><br />
+    <a class="MainMenuLink" tabindex="48" href="http://www3.res.bbsrc.ac.uk/leafspot/">Light Leafspot Forecast</a><br />
+    <a class="MainMenuLink" tabindex="49" href="http://www.rothamsted.bbsrc.ac.uk/aen/sundial/sundial.htm">SUNDIAL (SimUlation of Nitrogen 
+    Dynamics In Arable Land)</a><br />
+    <a class="MainMenuLink" tabindex="50" href="http://www.rothamsted.bbsrc.ac.uk/aen/rothlime/">RothLime (Rothamsted Lime Requirement Model)</a><br /><a class="MainMenuLink" tabindex="51" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Biomarket.html">Biomarket</a><br />
+    <a class="MainMenuLink" tabindex="51" href="http://www.dessac.iacr.ac.uk">DESSAC - DEcision Support System for Arable Crops</a> 
+	</blockquote>
+</div>
+
+<div id="MenuSection5" class="MenuDetails" style="z-index:5; visibility: hidden; text-align:right;"> 
+  <!--<h4>For the public</h4>-->
+  <blockquote style="position:relative; right: 50px;"> 
+<!--  <a class="MainMenuLink" tabindex="52" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/MailingListForm.php">Join our mailing list</a><br />  -->
+  
+  <a class="MainMenuLink" tabindex="53" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/PublicEvents.html">Public 
+    Events</a><br />
+    <a class="MainMenuLink" tabindex="54" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/EventsForSchools.html">Resources for 
+    Schools</a><br />
+	
+	    <a class="MainMenuLink" tabindex="55" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/ScienceSnapshots.html">Science Snapshots</a><br />
+
+    <a class="MainMenuLink" tabindex="56" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/Exhibitions.html">Rothamsted Exhibitions</a><br />
+    <a class="MainMenuLink" tabindex="57" href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/">DeBug - Interactive Insects</a><br />
+	
+
+    <a class="MainMenuLink" tabindex="58" href="http://www.rothamsted.bbsrc.ac.uk/notebook/index.html">Molecular Biology Notebook (teaching 
+    resource)</a><br />
+
+    <!--<a class="MainMenuLink" tabindex="59" href="http://www.rothamsted.bbsrc.ac.uk/sportsday/">BBSRC sports day 2004</a><br />-->
+
+
+    <strong>Links external to Rothamsted Research:</strong> <br />
+	
+    <a class="MainMenuLink" tabindex="59" target="_blank" href="http://www.bbsrc.ac.uk/life/buzz/Welcome.html">The 
+    Buzz of Science</a><br />
+    <a class="MainMenuLink" tabindex="60" target="_blank" href="http://www.bbsrc.ac.uk/life/comic/index.html">Science 
+    Stories Comic Book </a><br />
+    <a class="MainMenuLink" tabindex="61" target="_blank" href="http://www.bbsrc.ac.uk/life/zones/Welcome.html">Zones 
+    of Inhibition. Science, Art and Fungi</a> </blockquote>
+</div>
+
+<div id="MenuSection6" class="MenuDetails" style="z-index:6; visibility: hidden; hidden; text-align:right;"> 
+  <!--<h4>Careers</h4>-->
+  <blockquote style="position:relative; right: -40px;"> 
+  <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Vacancies.html">Vacancies</a><br />
+  
+ <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Studentships.html">PhD Studentships</a><br />
+  
+    <a class="MainMenuLink" tabindex="64" href="http://www.rothamsted.bbsrc.ac.uk/careers/WhyChooseRRes.html">Why Choose Rothamsted?</a><br />
+    <a class="MainMenuLink" tabindex="65" href="http://www.rothamsted.bbsrc.ac.uk/careers/AboutRRes.html">About Rothamsted</a><br />
+    <a class="MainMenuLink" tabindex="66" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherSites.html">Other Sites</a><br />
+    <a class="MainMenuLink" tabindex="67" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherFacilities.html">Other Facilities Available</a><br />
+    <a class="MainMenuLink" tabindex="68" href="http://www.rothamsted.bbsrc.ac.uk/careers/LearningResources.html">Learning Resources</a><br />
+    <a class="MainMenuLink" tabindex="69" href="http://www.rothamsted.bbsrc.ac.uk/careers/StaffSupport.html">Staff Support and Sports 
+    and Social Activities</a><br />
+    <a class="MainMenuLink" tabindex="70" href="http://www.rothamsted.bbsrc.ac.uk/careers/Accommodation.html">Accommodation</a><br />
+    <a class="MainMenuLink" tabindex="71" href="http://www.rothamsted.bbsrc.ac.uk/careers/PostGraduateProspectus.html">Postgraduate Information</a><br />
+    <a class="MainMenuLink" tabindex="72" href="http://www.rothamsted.bbsrc.ac.uk/careers/PhDStudentPolicy.html">PhD policy</a> </blockquote>
+</div>
+
+
+
+<div class='RightImageSection' name='RightImageSection' id='RightImageSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+  <img src='' name='RandomImage' width='200' height='550' id='RandomImage' alt='Random image'> 
+</div>
+
+<div id="SubMenuSection" class="SubMenuSection"> 
+<!-- InstanceBeginEditable name="SubmenuRegion" -->
+  <img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/">PPM home page</a>
+<div align="center"><strong>Programmes</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppbtop.html">Pathogen Population Biology and Disease Management</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/wptop.html">Wheat pathogenesis</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/rhizo.html">Rhizospere Biology</a>
+<div align="center"><strong>Departmental units</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/bioimage.html">Centre for Bioimaging</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/gpc/index.htm">Global Plant Clinic</a><br />
+<div align="center"><strong>Links</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/staff/ppistaff.html">Who's who in PPM</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppigallery.html">Pest and disease gallery</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/pplinks.html">Plant pathology links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/glinks.html">General links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppi_form.html">Leave a comment or ask a question</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="http://local-info.rothamsted.bbsrc.ac.uk/divisions/ppi/">PPM Intranet (RRes only)</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/vacs.html">Vacancies within PPM Department</a>
+<!-- InstanceEndEditable --> 
+</div>
+
+<div class='MainSection' name='MainSection' id='MainSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+
+  <!-- InstanceBeginEditable name="MainSectionRegion" --> 
+<table width="500">
+  <tr>
+	<td align="left">
+	<h2>Prof. Bruce DL Fitt</h2>
+		  
+      <P>Principal Investigator and Leader of the Oilseeds Pathology Group</P>
+	  <p>BA Natural Sciences (Cambridge) 1973
+	  <br />
+	  Ph.D. in Plant Pathology (Imperial College, London) 1977</p>
+       
+
+	</td>
+	<td align="left" valign="middle">
+		<img src="/ppi/pics/fitt.jpg" width=200 alt="Image of Bruce Fitt" border="0">
+	</td>
+	</tr>
+	
+	<tr>
+	<td><img src="emailgifs/bdlf.gif" alt="Bruce Fitt's email address" border="0">
+	</td>
+	</tr>
+  </table>
+
+
+<h3>Interests:</h3>
+<p>
+Research on epidemiology, modelling, forecasting, diagnosis and control of diseases of arable crops (especially winter oilseed rape, winter wheat).  Mechanisms and models of development of disease epidemics (spore dispersal, spore germination, infection, latent period, incubation period, sporulation) in relation to environment (rainfall, temperature, leaf wetness). Diagnosis of symptomless and complex infections by mycological and molecular methods. Epidemiology in relation to genetics of host-pathogen interactions. Rational disease control strategies in arable crops by breeding for durable disease resistance and optimising fungicide use.  Forecasting risk of severe disease epidemics (e.g. web-based interactive forecast for winter oilseed rape light leaf spot).
+</p>
+<hr />
+<h3>Some recent publications:</h3>
+
+<table width="100%">
+  <tr>
+    <td><img src="../pubs/ne/cda_displayimage.jpg" width="95" height="128"></td>
+    <td>Sustainable strategies for managing <em>Brassica napus </em> (oilseed rape) resistance to <em>Leptosphaeria maculans </em>(phoma stem canker). Edited by Bruce D.L. Fitt, Neal Evans, Barbara J. Howlett and B. Michael Cooke. 2006. Springer, Dordrecht, The Netherlands pp. 126. <a href="http://www.springer.com/uk/home/life+sci/plant+sciences?SGWID=3-10038-22-138799235-0">Buy this book direct from Springer</a> or <a href="http://www.amazon.co.uk/exec/obidos/ASIN/1402045247/026-0655498-5742834">Buy this book at Amazon.co.uk</a> </td>
+    </tr>
+</table>
+<p>Fitt BDL, Huang YJ, van den Bosch F, West JS (2006). Coexistence of related pathogen species on arable crops in space and time. <em>Annual Review of Phytopathology</em> <strong>44</strong>, 163-182. If your Institute/University subscribe to the Annual Review of Phytopathology series, you can access the article/PDF by <a href="http://arjournals.annualreviews.org/eprint/W3xjsMSR5gU3iQzTvxyy/full/10.1146/annurev.phyto.44.070505.143417" target="_blank">clicking this link</a></p>
+<p>Huang YJ, Evans E, Li ZQ, Eckert M, Chevre AM, Renard M, Fitt BDL (2006). Temperature and leaf wetness duration affect phenotypic expression of <em>Rlm6</em>-mediated resistance to <em>Leptosphaeria maculans</em> in <em>Brassica napus</em>. <em>New Phytologist</em> <strong>170</strong>, 129-141.</p>
+<p>Karolewski Z, Fitt BDL, Latunde-Dada AO, Foster SJ, Todd AD, Downes K, Evans N (2006). Visual and PCR assessment of light leaf spot (<em>Pyrenopziza brassicae</em>) on winter oilseed rape (<em>Brassica napus</em>) cultivars. <em>Plant Pathology</em> <strong>55</strong>, 387-400.  <a href="../pubs/ne/ppa_1383.pdf" title="Link to Plant Pathology paper" target="_blank">Download PDF.</a></p>
+<p>Liu SY, Liu Z, Fitt BDL, Evans N, Foster SJ, Huang YJ, Latunde-Dada AO, Lucas JA (2006). Resistance to <em>Leptosphaeria maculans</em> (phoma stem canker) in <em>Brassica napus</em> (oilseed rape) induced by <em>L. biglobosa</em> and chemical defence activators in field and controlled environments. <em>Plant Pathology</em> <strong>55</strong>, 401-412. <a href="../pubs/ne/ppa_1354.pdf" title="Link to Plant Pathology paper" target="_blank">Download PDF.</a></p>
+<p>Huang YJ, Li ZQ, Evans N, Rouxel T, Fitt BDL, Balesdent MH (2006). Fitness cost associated with loss of the <em>AvrLm4</em> avirulence function in <em>Leptosphaeria maculans</em> (phoma stem canker of oilseed rape). <em>European Journal of Plant Pathology</em> <strong>114</strong>, 77-89.</p>
+<p>Fitt, B.D.L., Brun, H., Barbetti, M.J. Rimmer, S.R. (2006). World-wide importance of phoma stem canker (<em>Leptosphaeria maculans</em> and <em>L. biglobosa</em>) on oilseed rape (<em>Brassica napus</em>). <em>European Journal of Plant Pathology</em> <strong>114</strong>, 3-15.</p>
+<p>West JS, Fitt BDL (2005) Population dynamics and dispersal of <em>Leptosphaeria maculans</em> (blackleg of canola). <em>Australasian Plant Pathology</em> <strong>34</strong>, 457-461.</p>
+<p>Eckert M, Maguire K, Urban M, Foster S, Fitt B, Lucas J, Hammond-Kosack K (2005). Agrobacterium tumefaciens-mediated transformation of <em>Leptosphaeria</em> spp. and <em>Oculimacula</em> spp. with the reef coral gene DsRed and the jellyfish gene gfp. <em>FEMS Microbiology Letters</em> <strong>253</strong>, 67-74.</p>
+<p>Liu, S., Wang, H., Zhang, J., Fitt, B.D.L., Xu, Z., Evans, N., Liu, Y., Yang, W. & Guo, X. (2005). In vitro mutation and selection of doubled haploid <em>Brassica napus</em> lines with improved resistance to <em>Sclerotinia sclerotiorum</em>. <em>Plant Cell Reports</em> <strong>24</strong>, 133-144.</p>
+<p>Wan, A.M., Bock, C.H., Fitt, B.D.L., Harvey, J.L. & Jenkyn, J.F. (2005). Development of <em>Oculimacula yallundae</em> and <em>O. acuformis</em> (eyespot) on leaf sheaths of winter wheat in the UK in relation to thermal time. <em>Plant Pathology</em> <strong>54</strong>, 144-155. <a href="bdlf/wan.pdf" title="Link to Plant Pathology paper" target="_blank">Download PDF.</a></p>
+<p>Huang, Y.J, Fitt, B.D.L., Jedryczka, M., Dakowska, S., West, J.S., Gladders, P., Steed, J.M., Li, Z.Q. (2005). Patterns of ascospore release in relation to phoma stem canker epidemiology in England (<em>Leptosphaeria maculans</em>) and Poland (<em>L. biglobosa</em>). <em>European Journal of Plant Pathology</em> <strong>111</strong>, 263-277.</p>
+
+<p>  
+  <table width="100%"  border="0" cellpadding="1">
+  <tr>
+    <td>Bearchell,S.J., Fraaije, B.A., Shaw, M.W., Fitt, B.D.L., (2005).  Wheat archive links long-term fungal pathogen
+population dynamics to air pollution.  Proceedings of the National Academy of Sciences of the USA, 102 (15), 5438-5442.   <a href="../pubs/bdlf/PNASApril2005.pdf" title="Link to PDF document" target="_blank">Download PDF</a>.&nbsp;</td>
+    <td><a href="http://www.pnas.org/" title="Link to PNAS website" target="_blank"><img src="../pubs/bdlf/cover.gif" border="0"></a>&nbsp;</td>
+  </tr>
+</table>
+
+</p> 
+  </p>
+  <p>Eckert, M., Gout, L., Rouxel, T., Blaise, F., Jedryczka, M., Fitt, B., Balesdent,
+  MH., (2005). Identification and characterization of polymorphic minisatellites
+  in the phytopathogenic ascomycete <em>Leptosphaeria maculans</em>. <em>Current
+  Genetics</em> <strong>47</strong>, 37-48.
+  </p>
+    <p>
+  Gudelj, I., Fitt, B.D.L., van den Bosch, F., (2004). Evolution of sibling fungal plant pathogens in relation to host specialization. <em>Phytopathology</em> <strong>94</strong>, 789-95.
+  </p>
+    <p>Welham, S.J., Turner, J.A., Gladders, P., Fitt, B.D.L., Evans, N. & Baierl, A. (2004).  Predicting light leaf spot (<em>Pyrenopeziza brassicae</em>) risk on winter oilseed rape (<em>Brassica napus</em>) in England and Wales, using survey, weather and crop information.  <em>Plant Pathology</em>, <strong>53</strong>, 713-724.  <a href="../pubs/ne/ppa_1105.pdf" title="Link to Plant Pathology paper - Light leaf spot forecast" target="_blank">Download PDF.</a></p>
+    <p>Karolewski, Z., Evans, N., Fitt, B.D.L., Todd, A.D. & Baierl, A. (2004). Sporulation of <em>Pyrenopeziza brassicae</em> (light leaf spot) on oilseed rape (<em>Brassica napus</em>) leaves inoculated with ascospores or conidia at different temperatures and
+wetness durations <em>Plant Pathology</em>, <strong>51</strong>, 654-665. <a href="../pubs/ne/ppa_515.pdf" title="Link to Plant Pathology paper - P. brassicae sporulation" target="_blank">Download PDF.</a></p>  
+<p>Karolewski, Z., Evans, N., Fitt, B.D.L., Baierl, A., Todd, A.D. &and Foster, S.J.(2004). Comparative epidemiology of <em>Pyrenopeziza brassicae</em> (light leaf 
+  spot) ascospores and conidia from Polish and UK populations. <em>Plant Pathology</em>, 
+  <strong>53</strong>, 29-37. <a href="../pubs/ne/ppa_531.pdf" title="Link to Plant Pathology paper - Comparative epidemiology" target="_blank">Download PDF.</a></p>
+<p>
+Foster, S.J. & Fitt, B.D.L. (2003). Isolation and characterisation of the mating-type (MAT) locus from <em>Rhynchosporium secalis</em>. <em>Current Genetics</em> <strong>44</strong>, 277-286.
+</p>
+<p>
+Toscano-Underwood, C., Huang, Y.J., Fitt, B.D.L. & Hall, A.M. (2003). Effects of temperature on maturation of pseudothecia of <em>Leptosphaeria maculans</em> and <em>L.biglobosa</em> on oilseed rape stem debris. <em>Plant Pathology</em> <strong>52</strong>, 726-736.
+</p>
+<p>
+Huang, Y.-J., Fitt, B.D.L. & Hall, A.M. (2003). Survival of A-group and B-group <em>Leptosphaeria maculans</em> (phoma stem canker); ascospores in air and mycelium on oilseed rape stem debris. <em>Annals of Applied Biology</em> <strong>143</strong>, 359-369.
+</p>
+<p>
+Evans, N., Baierl, A., Brain, P., Welham, S.J. & Fitt, B.D.L. (2003). Spatial aspects of light leaf spot (<em>Pyrenopeziza brassicae</em>) epidemic development on winter oilseed rape (<em>Brassica napus</em>) in the UK. <em>Phytopathology</em> <strong>93</strong>, 657-665.
+</p>
+<p>
+Huang, Y.-J., Toscano-Underwood, C., Fitt, B.D.L., Hu, X.-J. & Hall, A.M. (2003). Effects of temperature on ascospore germination and penetration of oilseed rape (<em>Brassica napus</em>) leaves by A-group or B-group <em>Leptosphaeria maculans</em> (phoma stem canker). <em>Plant Pathology</em> <strong>52</strong>, 245-255.
+</p>
+<p>
+Karolewski, Z., Evans, N., Fitt, B.D.L., Todd, A.D. & Baierl, A. (2002). Sporulation of <em>Pyrenopeziza brassicae</em> (light leaf spot) on oilseed rape (<em>Brassica napus</em>) leaves inoculated with ascospores or conidia at different temperatures and wetness durations. <em>Plant Pathology</em> <strong>51</strong>, 654-665.
+</p>
+<p>
+West, J.S., Fitt, B.D.L., Leech, P.K., Biddulph, J.E., Huang, Y.-J. & Balesdent, M.-H. (2002). Effects of timing of <em>Leptosphaeria maculans</em> ascospore release and fungicide regime on phoma leaf spot and phoma stem canker development on winter oilseed rape (<em>Brassica napus</em>) in southern England. <em>Plant Pathology</em> <strong>51</strong>, 454-463.
+</p>
+<p>West, J.S., Balesdent, M.-H., Rouxel, T., Nancy, J.P., Huang, Y.-J., Roux, J., Steed, J.M. Fitt, B.D.L. & Schmit, J. (2002). Colonisation of winter oilseed rape tissues by A/Tox<sup>+</sup> and B/Tox<sup>0</sup> <em>Leptosphaeria maculans</em> (phoma stem canker) in France and England. <em>Plant Pathology</em> <strong>51</strong>, 311-321.
+</p>
+
+  <hr />
+<h3><B>The winter oilseed rape <A HREF="http://www3.res.bbsrc.ac.uk/leafspot/">Light Leaf Spot forecast</A></B></h3>
+<table>
+<tr>
+       <td><IMG SRC="../pics/lls.jpg" ALT="" WIDTH="260" height="231"></td>
+       <td>
+<br />
+Produced in association with:
+<br />
+
+<A HREF="http://www.hgca.com"><IMG SRC="/ppi/pics/hgca.gif" WIDTH="60" HEIGHT="70" ALT="HGCA-Logo" border=0></a>
+
+<A HREF="http://www.sac.ac.uk"><IMG SRC="/ppi/pics/sac.gif" WIDTH="60" HEIGHT="70" ALT="SAC-Logo" border=0></a>
+
+<A HREF="http://www.csl.gov.uk/"><IMG SRC="/ppi/pics/csl.gif" WIDTH="60" HEIGHT="70" ALT="CSL-Logo" border=0></a>
+
+<A HREF="http://www.adas.co.uk/"><IMG SRC="/ppi/pics/adas.gif" WIDTH="60" HEIGHT="70" ALT="ADAS-Logo" border=0></a>
+
+<A HREF="http://www.defra.gov.uk/"><IMG SRC="/ppi/pics/defralogo.gif" ALT="DEFRA-Logo" HEIGHT="70" border=0></a>
+
+<a href="http://www.defra.gov.uk/science/Link/Agriculture/SAPPIO/default.asp"><img src="/ppi/pics/DEFRA_Link_sml.gif" width="97" height="40" alt="" border="0"></a>
+
+</td>
+</tr>
+</table>
+<br />
+
+
+			Updated at regular intervals during the growing season, the light leaf spot forecast provides winter oilseed rape growers with a risk assessment for their particular region of England or Wales.
+			<p></p>
+			<table>
+			  <tr> 
+    <!-- Row 2 Column 1 -->
+    <td align="center"><a href="http://www.oregin.info/" title="Link to OREGIN website" target="_blank"><img src="../pics/oregin_mast.jpg" alt="OREGIN logo - click to enter site" border="0" /></a> 
+    </td>
+    <!-- Row 2 Column 2 -->
+    <td valign="top"><p><a href="http://www.oregin.info/" title="Link to OREGIN website" target="_blank"><strong>OREGIN</strong></a>
+	<br />
+      The Defra Oilseed Rape Genetic Improvement Network (OREGIN) 
+        co-ordinates public and private sector research to achieve the aims of Defra 
+        relating to the reduction of inputs that consume non-renewable resources 
+        (particularly fossil carbon), can lead to diffuse pollution and may have 
+        adverse impact on biodiversity.</p></td>
+  </tr>
+			</table>
+
+<!-- InstanceEndEditable --> 
+  
+  </div>
+
+<script type="text/javascript" language="JavaScript" src="/Includes/TemplateScriptBottom.js"></script>
+</BODY><!-- InstanceEnd --></HTML>
+
+
+Dt"t.cf.E

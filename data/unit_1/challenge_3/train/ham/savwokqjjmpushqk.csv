@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="/Templates/it-support.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<META NAME="ROBOTS" CONTENT="NOARCHIVE"> 
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>University of Cambridge: Faculty of English</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 90px}
+-->
+</style>
+<!-- InstanceEndEditable --><link rel="stylesheet" type="text/css" href="/style/camstylenew.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/style/print2.css" media="print" />
+<!--
+<meta name="description" content="insert text here" />
+<meta name="keywords" content="" />
+-->
+<script type="text/javascript">
+<!-- BEGIN last modified script 
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+// End -->
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body><div id="page">
+<!-- header -->
+<div id="navigation">
+<div class="skiplink"><a href="#startcontent" accesskey="2">Skip over navigation</a>&nbsp;|&nbsp;<a href="http://www.cam.ac.uk/computing/accesskeys.html" accesskey="0">Access key help</a></div> 
+<div id="insert"><span class="noshow">|</span><a href="../localsearch.htm" accesskey="4"><img src="/images/search.gif" alt="[Search]" width="53" height="18" border="0" /></a><span class="noshow">|</span><a href="../az.htm"><img src="/images/az.gif" alt="[A-Z Index]" width="53" height="18" border="0" /></a><span class="noshow">|</span><a href="../help.htm"><img src="/images/help.gif" alt="[Help]" width="53" height="18" border="0" /></a></div>
+</div>
+
+<table id="header" summary="page header">
+<tr>
+<td class="identifier"><a href="http://www.cam.ac.uk/"><img src="/images/identifier2.gif" width="192" height="46" alt="[University of Cambridge]" /></a></td>
+<td class="deptitle">Faculty of English</td>
+</tr>
+</table>
+<div id="topbgline">&nbsp;</div>
+<!-- end header -->
+
+<!-- breadcrumbs -->
+
+<div id="bread">
+<p><a href="http://www.cam.ac.uk/">University of Cambridge</a>&nbsp;&gt; <a href="http://www.english.cam.ac.uk/">Faculty of English</a> &gt; <a href="index.htm">Faculty IT Support</a> </p>
+</div>
+<!-- end breadcrumbs -->
+<div id="content"><a name="startcontent" id="startcontent"></a><br />
+  <!-- this is the anchor for the skiplink -->
+  <!-- InstanceBeginEditable name="Body" -->
+<br />
+<h1 align="center">Email Setup </h1>
+<h2 align="center">How to set up Thunderbird to Read @cam Email
+</h2>
+<p>If you'd rather not use <a href="https://webmail.hermes.cam.ac.uk/">Webmail</a> to check your Cambridge email, you could use Mozilla Thunderbird, a free email and news client. This document tells you how to set up Thunderbird to check your @cam account. </p>
+<p><em>Please note that with these settings, you will be required to type in your password both when Thunderbird is started <strong>and</strong> when you send your first message of the session. Please don't choose to save your email password unless you're sure that you are the only one who will be accessing the computer on which you have set up your email. You are responsible if anyone gets into your email account and sends messages which breaks the <a href="http://www.cam.ac.uk/cs/itsyndicate/rules.html">rules</a> or <a href="http://www.cam.ac.uk/cs/itsyndicate/guidelines.html">guidelines set forth by the IT Syndicate</a> or <a href="http://www.ja.net/services/publications/policy/index.html">the policies of JANET, the University's ISP</a>. If you've never read these documents, I would recommend reading them before you begin.</em></p>
+<ol>
+  <li><a href="http://www.mozilla.com/thunderbird/">Download Thunderbird from the Mozilla web site</a> </li>
+  <li>Start to install Thunderbird by double-clicking the setup icon. Click Next on the window that comes up.</li>
+  <li> Read and Accept the terms of the license agreement and click next.</li>
+  <li> Leave the default 'Standard' option ticked on the 'Setup Type' screen. Click next.</li>
+  <li> Click next.</li>
+  <li> The installation will start. </li>
+  <li>When it's finished it will display a window saying so. Leave the 'Launch Mozilla Thunderbird' item ticked and click 'Finish'.</li>
+  <li> When Thunderbird starts up, it should ask you if you want to set up a new Email, News or RSS Feed. Email should be selected by default, but if not, select it and click the 'Next' button.</li>
+  <li> Type your name into the first field - this is how your name will show up when someone receives mail from you. Type your full email address into the second field (something@cam.ac.uk). Click 'Next'</li>
+  <li> Choose 'IMAP' for 'Type of Server' and type: <strong>imap.hermes.cam.ac.uk</strong> into the 'Incoming Server Name' field. For the SMTP/Outgoing server, type: <strong>smtp.hermes.cam.ac.uk</strong> and click next.</li>
+  <li> Make sure your user ID is in both the 'Incoming Username' and 'Outgoing Username' fields and click next.</li>
+  <li> You can either leave 'Account Name' as the default (usually your email address) or type in something like 'Cambridge' or 'Cambridge email' and click next. Remember what you called your account, as it will be important in the following instructions (I will use 'Cambridge' as the account name in the instructions, but just substitute whatever you called yours) </li>
+  <li> You should be asked for your password. Go ahead and type it in. This will load up your email, which may take a while. Already being logged in will also be helpful when doing the next part of the setup.</li>
+  <li> There are a few things you need to tweak to make Thunderbird run properly. In the <strong>Tools</strong> menu, choose 'Account Settings'. Under 'Cambridge' (or whatever you called your account) on the left-hand side, there should be a 'Server Settings' section. Select this.</li>
+  <li> On the right, you should see a section called 'Security Settings'. Under this, is an option that says, 'Use Secure connection'. Make sure SSL has a dot in the circle and that 'Use Secure Authentication' is <strong>not</strong> ticked.</li>
+  <li> Select the 'Copies &amp; Folders' section on the left-hand side. In the section 'When sending messages, automatically:' make sure that 'Place a copy in:' is ticked. Click the circle next to 'Other' and select your sent mail folder on your Cambridge account (by default, this is called 'sent-mail'. Under the 'Drafts and Templates' section, the top circle should have a dot in it: &quot;Drafts&quot; folder on (Cambridge) and &quot;Templates&quot; folder on (Cambridge).</li>
+  <li> Select the 'Composition &amp; Addressing&quot; section on the left-hand side. On the right, <strong>untick</strong> the 'Compose Message in HTML format' box. HTML email is frowned upon in most of the internet community. </li>
+  <li> If you want to be able to see your messages even when you're not connected to the internet, click the 'Offline &amp; Disc Space' section on the left-hand side. On the right, place a tick in the 'Make the messages in my Inbox available when I am working Offline' box. If you want more than just you inbox available, tick the 'When I create new folders, select them for offline use' box. You can also manually select folders you've already created by clicking the 'Select Folders for offline use' button and placing a tick in the boxes next to the folder you want to see when you're not connected to the net. There are many reasons I don't recommend this option for use at the Faculty or in your college, but the simplest is that, generally, you're always connected.</li>
+  <li> Click on the 'Outgoing Server (SMTP)' item in the list on the left. On the right, you should see your username followed by 'smtp.hermes.cam.ac.uk'. Select this and click the 'Edit' button on the right. In the window that comes up, change the port from '25' to '<strong>587</strong>'. Make sure that the 'Use name and password' box is ticked, that your username is correct, and that the dot is in the circle in front of 'TLS'.</li>
+  <li> Click the OK button at the bottom-right of the 'Account Settings' window.</li>
+  <li> Go back to the Tools Menu and select 'Options'</li>
+  <li> Under the 'General' tab, tick 'Mail' in the default settings section. This will make Thunderbird your default mail client.</li>
+  <li> In the 'Display' section (just click 'Display' at the top of the 'Options' window), _un_tick the box that says, 'Display emoticons as graphics'. Unless you want to see them as graphics, of course... generally I just find them annoying, though.</li>
+  <li> In the 'composition' tab, in the 'Forward Messages' section, select 'inline' from the drop down menu. Also, make sure that 'Confirm when using keyboard shortcut to send message' is ticked.</li>
+  <li> In the 'Privacy' tab, make sure that 'Block loading of remote images in mail messages' and 'Block Javascript in Mail Messages' are ticked.</li>
+  <li> Click OK on the bottom right of the option window.</li>
+  </ol>
+<p>Written by: Jen Pollard, 24 January 2006</p>
+<p class="style1 small">IIf you find any errors or omissions in this document, please email me at the webmaster address linked at the bottom of this page. Thanks! </p>
+	  <!-- InstanceEndEditable -->
+  <!-- footer -->
+</div>
+
+<div id="bottombgline">&nbsp;</div>
+<p class="footer">&copy; 2006 Faculty of English, University of Cambridge<br />
+Information provided by <a href="mailto:webmaster@english.cam.ac.uk">webmaster@english.cam.ac.uk</a><br />
+Last Update on: 
+		<script type="text/javascript"> 
+		  document.write(date + " " + lmonth + " " + fyear)
+		</script>
+		<!--If you wish to give level of conformance after testing, edit this and uncomment it-->
+<!--
+<br />
+<a href="http://www.w3.org/WAI/WCAG1AAA-Conformance">WAI AAA conformant</a>
+--></p>
+<!--  end footer -->
+</div></body>
+<!-- InstanceEnd --></html>
+
+
+
+odxeA	?"t/mItr

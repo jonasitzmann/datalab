@@ -1,0 +1,87 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Colin">
+   <meta name="GENERATOR" content="Mozilla/4.7 [en] (WinNT; I) [Netscape]">
+   <title>Mars Anemometer Test and Calibration Facility</title>
+</head>
+<body>
+
+<h1>
+<u>Mars Anemometer Test and Calibration Facility</u></h1>
+<img
+SRC="http://www.atm.ox.ac.uk/user/wilson/MEWT_27-11-00_A.jpg" height=600
+width=469 align=LEFT>  
+All past lander missions to Mars, and most proposed missions, have carried
+anemometers to measure wind speed &amp; direction near the surface. Oxford
+Universitys <a href="http://www.atm.ox.ac.uk/user/wilson/lpwt.html">Low
+Density Wind Tunnel</a> (LDWT) is being used to create a facility in which
+anemometers can be tested and calibrated in Martian surface conditions,
+namely a carbon dioxide atmosphere at pressures of 5-10 mbar, temperatures
+of 160-300 K, and flow speeds ranging from 0.5 m/s to 30 m/s. The
+primary determination of wind speed is obtained from orifice plates
+which measure the flow rate into the wind tunnel. The flow field is
+characterised using a pitot tube on a translation stage. This
+facility was developed for testing and calibration of a <a
+href="http://www.atm.ox.ac.uk/user/wilson/B2WS/">wind sensor</a> for the
+<a href="http://www.beagle2.com">Beagle2</a>
+mission (2003), and may also be used to calibrate sensors for the <a
+href="http://smsc.cnes.fr/NETLANDER/">NetLander</a>
+mission (CNES, 2007).
+<h2>
+<u>Specifications:</u></h2>
+Test section is circular, 180mm in diameter
+<br>- Flow speeds achievable are 0.5 - 30 m/s.
+<br>            (or 1-60 m/s using 120mm diameter nozzle)
+<br>- Pressure is 5 - 10 mbar.
+<br>- Gas used is CO<sub>2</sub> or dry air.
+<br>- Airflow temperature can be set in the range 200K - 300K using the
+proposed cooling system.
+<br>
+<br>- Absolute flowspeed accuracy is 3% of flowspeedfor all speeds > 1 m/s
+<br>- Repeatability is better than 1% of flowspeed for all speeds > 1 m/s
+<br>- Fluctuations in flowspeed are at most 0.3% of flowspeed
+
+<br><br CLEAR=BOTH>
+<BR>
+<br>A close-up of the test section can be seen <a
+href="http://www.atm.ox.ac.uk/user/wilson/test-section.jpg">here</a>.
+<br>
+<br>The design adopted is shown schematically here:
+<br>
+<br><img
+SRC="http://www.atm.ox.ac.uk/user/wilson/WT2-3.jpg" height=414
+width=853>
+<p>This facility has been designed in collaboration with the wind tunnel
+research group in Oxford University's <a href="http://www.eng.ox.ac.uk">Department
+of Engineering Science</a>. It is located at the <a
+href="http://www.osneylab.org.uk">Osney Laboratory</a>,
+near the train station in Oxford.
+<p><a
+href="http://www.atm.ox.ac.uk/user/wilson/links.html">Links to other
+Martian Wind tunnels</a>
+<p>For further details, please contact:
+<br>
+<hr>
+<address>
+Colin Wilson</address>
+
+<address>
+E-mail: <a href="mailto:wilson@atm.ox.ac.uk">wilson@atm.ox.ac.uk</a></address>
+<address> Web: <a
+href="http://www.atm.ox.ac.uk/user/wilson/">http://www.atm.ox.ac.uk/user/wilson/</a></address>
+
+<address>
+<a href="http://www.atm.ox.ac.uk">Department of Atmospheric, Oceanic, and
+Planetary Physics</a></address>
+
+<address>Oxford University, OXFORD OX1 3PU, U.K.</address>
+
+<br>Tel:&nbsp; +44 1865 272 927
+<br>Fax: +44 1865 272 923
+</body>
+</html>
+
+
+man(

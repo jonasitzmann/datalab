@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<title>Accessibility Help</title>
+<meta name="DC.title" content="Accessibility Help" />
+<meta name="eGMS.accessibility" scheme="WCAG" content="Double-A" />
+<meta http-equiv="pics-label" content="(pics-1.1 'http://www.icra.org/ratingsv02.html' l gen false for 'http://www.knowsley.gov.uk' r (nz 1 vz 1 lz 1 oz 1 cz 1))" />
+<meta name="DCTERMS.audience" scheme="eGMSAES" content="Adults, Older People, Children, All" />
+<meta name="DCTERMS.mediator" scheme="eGMSAES" content="Corporate Web Team" />
+<meta name="DC.contributor" content="Edited by Web Team, corporatewebteam@knowsley.gov.uk" />
+<meta name="DC.coverage.spatial" scheme="ONS SNAC" content="Knowsley, Mersyside, England, United Kingdom, Europe" />
+<meta name="DC.creator" content="Administrator, knowsley@connectinternetsolutions.com" />
+<meta name="DC.date.available" scheme="W3CDTF" content="2005-08-07" />
+<meta name="DC.date.created" scheme="W3CDTF" content="2005-08-04" />
+<meta name="DC.date.updatingFrequency" content="Monthly" />
+<meta name="DC.description" content="Accessibility help guidance for the Knowsley Metropolitan Borough Council Website" />
+<meta name="DC.disposal.authorised" content="Administrator" />
+<meta name="DC.format" scheme="IMT" content="text/html" />
+<meta name="DC.identifier" content="http://www.knowsley.gov.uk/accessibility.html" />
+<meta name="DC.language" scheme="ISO 639-2/T" content="eng" />
+<meta name="DC.publisher" content="Knowsley Metropolitan Borough Council, Municipal Buildings, PO Box 21, Archway Road, Huyton, Knowsley, Merseyside, L36 9YU, 0151 489 6000, general.enquiries@knowsley.gov.uk" />
+<meta name="DC.rights.copyright" content="http://www.knowsley.gov.uk/copyright.html" />
+<meta name="eGMS.status" content="Version-2" />
+<meta name="eGMS.subject.keyword" content="accessibility, help, knowsley, borough, council" />
+<meta name="eGMS.subject.category" scheme="LGCL" content="Council, government and democracy" />
+<meta name="eGMS.subject.category" scheme="GCL" content="Government, politics and public administration" />
+<meta name="eGMS.subject.processIdentifier" scheme="LGCL" content="3088" />
+<meta name="eGMS.subject.processIdentifier" scheme="LGSL" content="0" />
+<meta name="AUTHOR" content="Administrator, knowsley@connectinternetsolutions.com" />
+<meta name="GENERATOR" content="CCME Version 5.4.1" />
+<meta name="DESCRIPTION" content="Accessibility help guidance for the Knowsley Metropolitan Borough Council Website" />
+<meta name="KEYWORDS" content="accessibility, help, knowsley, borough, council" />
+
+<script src="/shared/javascript/common/logging_script.php?transtype=Providing+Information&amp;pidno=0&amp;url=/accessibility.html" type="text/javascript">
+</script>
+<link rel="stylesheet" media="screen" type="text/css" href="/shared/graphics/kmbc/switchcss.php" /><link rel="stylesheet" media="print" href="/shared/graphics/kmbc/print.css" type="text/css" /></head>
+<body>
+<div id="container"><div id="header-back"><div id="header"><div id="topnav"><a href="#skipnav" accesskey="S" title="Skip Navigation"><img src="/shared/graphics/kmbc/images/blank.gif" width="1" height="1" alt="skip navigation" class="noborder" /></a><ul><li><a href="/" title="Home" accesskey="1" tabindex="1">Home</a></li>
+<li>|</li>
+<li><span class="graphics1"><a href="/shared/graphics/kmbc/cookiejar.php?set=text" title="Text Version" accesskey="O">Text</a></span><span style="display:none;">|</span><span class="graphics2"><a href="/shared/graphics/kmbc/cookiejar.php?set=textcontrast" title="Text-Contrast Version" accesskey="O">Text Version</a></span><span style="display:none;">|</span><span class="graphics3"><a href="/shared/graphics/kmbc/cookiejar.php?set=style" title="Graphical Version" accesskey="O">Graphical</a></span><span style="display:none;">|</span><span class="graphics4"><a href="/shared/graphics/kmbc/cookiejar.php?set=contrast" title="Graphical-Contrast Version" accesskey="O">Graphical Version</a></span></li>
+<li>|</li>
+<li><span class="contrast1"><a href="/shared/graphics/kmbc/cookiejar.php?set=contrast" title="High Contrast Version" accesskey="B">High Contrast</a></span><span style="display:none;">|</span><span class="contrast2"><a href="/shared/graphics/kmbc/cookiejar.php?set=style" title="Low Contrast Version" accesskey="B">Low Contrast</a></span><span style="display:none;">|</span><span class="contrast3"><a href="/shared/graphics/kmbc/cookiejar.php?set=textcontrast" title="High Contrast Text" accesskey="B">High Contrast Text</a></span><span style="display:none;">|</span><span class="contrast4"><a href="/shared/graphics/kmbc/cookiejar.php?set=text" title="Text Version" accesskey="B">Low Contrast Text</a></span></li>
+<li>|</li>
+<li><a href="/accessibility.html" title="Accessibility Help" accesskey="0" tabindex="2">Accessibility Help</a></li>
+<li>|</li>
+<li><a href="/contact.html" title="Contact Us" accesskey="9" tabindex="3">Contact Us</a></li>
+<li>|</li>
+<li><a href="/atoz/" title="A-Z Search" accesskey="Z" tabindex="4">A-Z Search</a></li>
+</ul>
+</div>
+<div id="search"><div id="searchbox">
+<form method="get" name="search" action="/search.php"><label for="searchy">Search&nbsp;</label><input accesskey="4" tabindex="3" type="text" id="searchy" value="Keyword" name="terms" onfocus="if(this.value=='Keyword')this.value=''" /><input tabindex="6" type="submit" name="Submit" value="Go" id="go" class="go" /></form>
+</div>
+</div>
+</div>
+</div>
+<div id="logo-back"><div id="logo-cntr"><div id="logo"><img src="/shared/graphics/kmbc/images/knowsleylogo.gif" alt="Knowsley Logo" width="546" height="73" /></div>
+</div>
+</div>
+<div id="breadcrumb-back"><div id="breadcrumb-cntr"><div id="home"><a href="/" title="Home Page" accesskey="1" tabindex="6">Home Page</a><span style="display:none;">|</span></div>
+<div id="breadcrumb"><div id="dateweather"><div id="breadcrumbsub"><ul><li><a tabindex="41" title="Home Page" href="/">Home Page</a></li>
+<li>-</li>
+<li>Accessibility Help</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="main-back"><div id="main-cntr"><div id="globalnav"><div id="globalnavtop">Visit...</div>
+
+<div id="globalnavlinks"><ul><li><a tabindex="101" title="Business" accesskey="U" href="/business/">Business</a></li>
+<li><a tabindex="102" title="Community and Living" accesskey="C" href="/community/">Community and Living</a></li>
+<li><a tabindex="103" title="Education and Learning" accesskey="D" href="/education/">Education and Learning</a></li>
+<li><a tabindex="104" title="Environment and Planning" accesskey="R" href="/environment/">Environment and Planning</a></li>
+<li><a tabindex="105" title="Health and Social Care" accesskey="Q" href="/health/">Health and Social Care</a></li>
+<li><a tabindex="106" title="Housing" accesskey="K" href="/housing/">Housing</a></li>
+<li><a tabindex="107" title="Jobs and Careers" accesskey="J" href="/jobs/jobs_and_careers.html">Jobs and Careers</a></li>
+<li><a tabindex="108" title="Legal Services" accesskey="L" href="/legal/">Legal Services</a></li>
+<li><a tabindex="109" title="Leisure and Culture" accesskey="X" href="/leisure/">Leisure and Culture</a></li>
+<li><a tabindex="110" title="Policing and Public Safety" accesskey="P" href="/policing/">Policing and Public Safety</a></li>
+<li><a tabindex="111" title="Social Issues" accesskey="I" href="/social/">Social Issues</a></li>
+<li><a tabindex="112" title="Transport and Streets" accesskey="G" href="/transport/">Transport and Streets</a></li>
+<li><a tabindex="113" title="Your Council" accesskey="Y" href="/your_council/">Your Council</a></li>
+</ul>
+</div>
+<div id="languages"><div id="langhead">Access Tools</div>
+<div class="lang"><a tabindex="114" title="Translation information" href="/accessibility/translation/">Translation information<br /><img alt="Translation information l" src="/resources/151893/logo_languages_accesstoolbox.gif" width="116" height="57" class="noborder" /></a><hr style="display:none;" /></div>
+<div class="lang"><a tabindex="115" title="Multimedia collection" href="/accessibility/multimedia.html">Multimedia collection<br /><img alt="Windows Media Logo" src="/resources/186244/WM_Comp.gif" width="116" height="52" class="noborder" /></a><hr style="display:none;" /></div>
+<br />
+<br />
+</div>
+</div>
+<div id="main"><a name="skipnav"></a><div id="middlecolumn"><div class="multipageheading"><h1><strong>Accessibility</strong></h1><div class="multipagegraphic"><img width="70" height="70" src="/shared/graphics/kmbc/images/accessibility.gif" alt="Logotype for Accessibility" /></div>
+</div>
+<div id="accessibility">
+			The following options are in this section:
+                        <br /><br /><ul><li><a href="#using">Using the Site</a></li>
+<li><a href="#accesshelp">Help</a></li>
+<li><a href="#accessstate">Accessibility Statement</a></li>
+<li><a href="#standards">Standards Compliance</a></li>
+<li><a href="#assistive">Use of Assistive Technologies</a></li>
+</ul><br /><br /><a name="using" id="using"></a><h2>Using the Site</h2>		
+			The website has five main areas:<br /><br />
+			The <strong>header</strong> contains fixed links to accessibility areas and search options, including an A-Z search, an advanced search and a keyword search facility. This navigation remains the same on all main council web pages.<br /><br />
+
+			The <strong>left side column</strong> contains the council's main global navigation. This navigation remains the same on all main council web pages. Once a global navigation item is selected, related sub-links appear in the middle column. <br /><br />
+			The <strong>middle column</strong> is the information area. It can contain any sub-links related to the main global navigation. The user can click any sub-links and drill down to content. The middle column also includes the breadcrumb trail. The breadcrumb trail is a navigation aid that shows you where you are on the website and allows you to quickly access upper levels of the site.<br /><br />
+			The <strong>right side column</strong> contains links, which will change dependant upon the information in the middle column. On the home page the right column contains links to key council features and services via 'Do it Online' and 'Council Tool' sections.<br /><br />
+
+			The <strong>footer</strong>, at the bottom of the page, contains fixed links to website terms and conditions, sitemap, website help and add-to-favourites. This navigation remains the same on all main council web pages.<br /><br /><a name="accesshelp" id="accesshelp"></a><h2>Accessibility Help</h2><h2>Access Keys</h2>
+			Most browser's support jumping to specific links by typing certain keys defined on the website.  In Windows, you can press ALT plus the listed access key; on Macintosh, you can press Control plus the list access key.  Pressing ENTER will then take you on to that page.<br /><br />
+			All Pages on this site define the following access keys:<br /><br /><table cellspacing="0" cellpadding="5" summary="This table gives a list of all Access Keys utilsed"><caption>Access Keys</caption><tbody><tr>
+<th scope="row" id="Key_S">S</th><td id="Skip_Navigation">Skip Navigation</td>
+</tr>
+<tr>
+<th scope="row" id="Key_1">1</th><td id="Home_Page">Home Page</td>
+</tr>
+<tr>
+<th scope="row" id="Key_2">2</th><td id="What's_New">What's New</td>
+</tr>
+<tr>
+<th scope="row" id="Key_3">3</th><td id="Sitemap">Sitemap</td>
+</tr>
+<tr>
+<th scope="row" id="Key_4">4</th><td id="Search">Search</td>
+</tr>
+<tr>
+<th scope="row" id="Key_6">6</th><td id="Help">Help</td>
+</tr>
+<tr>
+<th scope="row" id="Key_8">8</th><td id="Terms_and_conditions">Terms and conditions</td>
+</tr>
+<tr>
+<th scope="row" id="Key_9">9</th><td id="Contact_us">Contact Us</td>
+</tr>
+<tr>
+<th scope="row" id="Key_0">0</th><td id="Access_key_details">Access key details</td>
+</tr>
+<tr>
+<th scope="row" id="Key_Z">Z</th><td id="A-Z_Search">A-Z Search</td>
+</tr>
+<tr>
+<th scope="row" id="Key_M">M</th><td id="Add_to_Favorites">Add to Favourites</td>
+</tr>
+<tr>
+<th scope="row" id="Key_O">O</th><td id="Text_Version">Text or Graphics Version</td>
+</tr>
+<tr>
+<th scope="row" id="Key_B">B</th><td id="Change_Contrast">Change Contrast</td>
+</tr>
+<tr>
+<th scope="row" id="Key_U">U</th><td id="Business">Business</td>
+</tr>
+<tr>
+<th scope="row" id="Key_C">C</th><td id="Community_and_Living">Community and Living</td>
+</tr>
+<tr>
+<th scope="row" id="Key_D">D</th><td id="Education_and_Learning">Education and Learning</td>
+</tr>
+<tr>
+<th scope="row" id="Key_R">R</th><td id="Environment">Environment</td>
+</tr>
+<tr>
+<th scope="row" id="Key_Q">Q</th><td id="Health_and_Social_Care">Health and Social Care</td>
+</tr>
+<tr>
+<th scope="row" id="Key_K">K</th><td id="Housing">Housing</td>
+</tr>
+<tr>
+<th scope="row" id="Key_J">J</th><td id="Jobs_and_Careers">Jobs and Careers</td>
+</tr>
+<tr>
+<th scope="row" id="Key_L">L</th><td id="Legal_Services">Legal Services</td>
+</tr>
+<tr>
+<th scope="row" id="Key_X">X</th><td id="Leisure_and_Culture">Leisure and Culture</td>
+</tr>
+<tr>
+<th scope="row" id="Key_P">P</th><td id="Policing_and_Public_Safety">Policing and Public Safety</td>
+</tr>
+<tr>
+<th scope="row" id="Key_I">I</th><td id="Social_Issues">Social Issues</td>
+</tr>
+<tr>
+<th scope="row" id="Key_G">G</th><td id="Transport_and_Streets">Transport and Streets</td>
+</tr>
+<tr>
+<th scope="row" id="Key_Y">Y</th><td id="Your_Council">Your Council</td>
+</tr>
+</tbody></table>
+<h2>Text Only</h2>
+                        The text version of the website does not show images, although you will still be able to see any text associated with an image.  The <strong>text</strong> version of the website loads more quickly, is easier to copy from, is compatible with Screen Readers and is less expensive to print (if you have a colour printer).<br /><br /><h2>Images</h2>
+			All content images used in this site include descriptive ALT attributes.<br />  
+                        Decorative graphics include null ALT attributes.  Complex images include LONGDESC attributes, which explain the significance of each image to non-visual readers.
+                        <br /><br /><h2>Visual Design</h2>
+			This site uses cascading style sheets (CSS 1) for visual layout. <br /><br /> 
+
+                        This site uses relative font sizes, compatible with the user-specified "text size" option in visual browsers.<br /><br />
+
+                        If your browser or browsing device does not support style sheets at all, the content of each page is still readable.<br /><br /><h2>Controlling text and colours in your web browser</h2>
+                        You can specify the font sizes and foreground and background colour of web pages displayed on your computer screen.  This is useful if you have low vision, need larger fonts, or need high-contrast colours.<br /><br />
+
+If you use the Internet Explorer or Netscape browsers to view the Internet, the following guidelines will enable you to enlarge the size of the text and control the colours on your screen.<br /><br /><h2>Microsoft Internet Explorer for PC</h2><ul><li>Open your <em>Internet Explorer Web Browser.</em></li>
+<li>Select '<em>Tools</em>' from the menu at the top of your window.</li>
+<li>From the options which appear, select '<em>Internet Options...</em>'</li>
+<li>Click on the '<em>General tab</em>'.</li>
+<li>Click on the button marked '<em>Accessibility</em>'</li>
+<li>To change your font size, select the checkbox marked '<em>Ignore font sizes specified on Web pages</em>'</li>
+<li>To remove background and font colours, select the checkbox marked '<em>Ignore colours specified on Web pages</em>'</li>
+<li>Click <em>OK</em> (and again if necessary).</li>
+<li>Select <em>'View'</em> from the menu at the top of your window</li>
+<li>From the options, which appear, select <em>'Text Size'</em>.</li>
+<li><em>Select your desired text size</em>.</li>
+</ul>
+<br /><br /><h2>Microsoft Internet Explorer for Apple Mac</h2><ul><li>Open your <em>Internet Explorer Web Browser.</em></li>
+<li>Select the '<em>edit</em>' from the menu at the top of your window.</li>
+<li>From the options menu which appear, select '<em>preferences</em>'</li>
+<li>Click on '<em>web content</em>'.</li>
+<li>Deselect the button marked '<em>show style sheets</em>'.</li>
+<li>Return to the '<em>list of preferences</em>'</li>
+<li>Click on "<em>web browser</em>".</li>
+<li>Select <em>'language/fonts'</em>.</li>
+<li><em>Select the font size you require</em>.</li>
+</ul>
+<br /><br /><h2>Instructions for users of Netscape Navigator</h2><h2>Text:</h2><ul><li>Select '<em>Edit</em>' from the menu at the top of the window and choose '<em>Preferences</em>'</li>
+<li>Open the Appearance group and click the '<em>Fonts</em>' category.</li>
+<li>Next to'<em>For the encoding</em>' should read Western to tell the computer which types of letters and symbols to use.  From '<em>Size</em>' selct 18.</li>
+<li>Next to the Varible Width Font field is a drop down box: Select '<em>Arial</em>'.</li>
+<li>The Fixed Width Font box should already read '<em>Courier New</em>'. From '<em>Size</em>' select 18</li>
+<li>To override the fonts used by the designer of the web page, select '<em>Use my default fonts overriding document specified fonts</em>'</li>
+<li>Click "<em>OK</em>".</li>
+</ul>
+<br /><br /><h2>Colours:</h2><ul><li>Select '<em>Edit</em>' from the menu at the top of the window and choose '<em>Preferences</em>'</li>
+<li>Open the Appearance group and click the '<em>Colours</em>' category.</li>
+<li>Select a colour button to change colours of text, background, unvisited links or visited links</li>
+<li>To override the colours used by the designer of the web page, select '<em>Always use my colours, overriding document</em>'</li>
+<li>Click "<em>OK</em>".</li>
+</ul>
+<br /><br /><h2>Web pages in different languages</h2>
+			All Knowsley Council services are supported in different languages via telephone and face-to-face interpreter services. Go to <a href="http://www.knowsley.gov.uk/accessibility/translation/index.html">languages</a> for full details
+			<br /><br />
+			If you want to view website content in a different language, you can use the AltaVista Babel Fish Translator tool.
+			<br /><br /><script type="text/javascript" language="JavaScript1.2" src="http://www.altavista.com/static/scripts/translate_engl.js"></script><noscript><a href="http://www.altavista.com/babelfish/tr">AltaVista Babel Fish</a></noscript><br /><br />
+                          
+			You can translate passages of text or entire Web pages among nine languages by clicking on the 'AltaVista Babel Fish' link in the above illustration.             
+			<br /><br /><h2>Viewing PDF documents</h2>
+			This site uses PDF (Adobe Acrobat) file format for the publication of large and complex documents, and for a number of applications forms.<br />
+			Please note that Abode Acrobat documents can be converted back to plain text using Adobe's Web-based conversion service<br /><br />
+			To view and print PDF files, you must have Adobe Acrobat Reader installed: click the link below to download the software<br /><br /><a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="http://www.adobe.com/images/get_adobe_reader.gif" alt="Download Acrobat Reader" width="88" height="31" class="noborder" /></a>&nbsp;&nbsp;<span style="display:none;">|</span><a href="http://www.adobe.com/products/acrobat/readstep2.html">Click icon to download software</a><br /><br /><h2>Colour Contrast</h2>
+			This site has the option 'Change Contrast' (see link to top of the page). This increase the page contrast by switching the text to yellow and the 
+			background to black.  This could help some people to better read the site's content. The page can easily be chnaged back to normal contrast by 
+			clicking again on the 'Change Contrast' link.<br /><br /><a name="accessstate" id="accessstate"></a><h2>Accessibility statement</h2>
+			Knowsley council is committed to ensuring accessibility of its Web site for people with disabilities. New and updated Web content produced by our organisation will conform to W3C/WAI's Web Content Accessibility Guidelines 1.0, Conformance Level AAA. <br /><br />
+			Other council run websites may not conform to W3C/WAI's Web Content Accessibility Guidelines 1.0, Conformance Level AAA. Knowsley Council's aim is to bring such websites up to AAA conformance levels in the future.  <br /><br />
+			We will continually review this policy in the future to consider updating it to an advanced version of W3C's Web Content Accessibility Guidelines once available.<br /><br /><a name="standards" id="standards"></a><h2>Standards Compliance</h2>
+			Most pages on this site comply with all priority 1, 2 and 3 guidelines of the W3C Web Content Accessibility Guidelines.  <br /><br />
+			This site validates as XHTML 1.0 Transitional.<br /><br /> 
+			The stylesheets on this site are CSS 1. <br /><br />
+			The following are conformance badges relating to the accessibility and technical standards of this website.
+			                        
+                        <div id="linkmessage">Links open in new window
+<ul><li style="display:inline; padding-right:15px;"><a href="http://www.w3.org/WAI/WCAG1AAA-Conformance" title="Explanation of Level Triple-A Conformance" tabindex="402" target="blank"><img src="http://www.w3.org/WAI/wcag1AAA" alt="Level Triple-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" width="88" height="32" class="noborder" /></a></li><li style="display:inline; padding-right:15px;"><a href="http://jigsaw.w3.org/css-validator/" title="CSS validator" tabindex="403" target="blank"><img src="http://www.w3.org/Icons/valid-css.gif" alt="Valid CSS!" width="88" height="31" class="noborder" /></a></li><li style="display:inline;"><a href="http://validator.w3.org/check?uri=referer" title="W3C xHTML" tabindex="404" target="blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" width="88" height="31" class="noborder" /></a></li></ul></div><br /><br /><a name="assistive" id="assistive"></a><h2>Use of Assistive Technologies</h2>
+			
+			Assistive technologies are products used by people with disabilities to help accomplish web tasks that they cannot accomplish otherwise or could not do easily.<br /><br />
+			Some assistive technologies rely on output of other user agents, such as text browsers, voice browsers, multimedia players and plug-ins. Assistive technology comes in many different forms, some of these include;<br /><ol><li>Alternative keyboards</li>
+<li>Braille</li>
+<li>Screen magnifiers</li>
+<li>Screen readers</li>
+<li>Speech recognition</li>
+<li>Scanning software</li>
+<li>Tabbing through structural elements</li>
+<li>Text browsers</li>
+<li>Voice browsers</li>
+</ol>
+                        
+			All our newly developed web pages are tested against as many types of assistive technologies as we can to make the pages more accessible. If you are unable to access any information using any assistive technology then please contact us and we will try to find an alternative way for you to access or be provided with the information.
+			<br /><br /></div>
+</div>
+
+<div id="rightcolumn"><div class="rn-header"><div class="rn-white-curve"><h2>Do it Online...</h2></div>
+</div>
+<div class="nav-right"><ul><li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="316" title="Electronic Library" href="/leisure/libraries/electronic_library.html">Electronic Library</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="317" title="Find your Councillor" href="/your_council/council/">Find your Councillor</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="318" title="Golf Booking" href="/leisure/sports/sports_and_games/golf.html">Golf Booking</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="319" title="Job Vacancies" href="/jobs/">Job Vacancies</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="320" title="Leisure Bookings" href="/leisure/sports/online_booking.html">Leisure Bookings</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="321" title="Make a Complaint" href="/your_council/councils/complaints.html">Make a Complaint</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="322" title="Pay Council Tax and Bills" href="https://www.e-paycapita.com/knowsley/selection.jsp" target="new">Pay Council Tax and Bills (Opens in new window)</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="323" title="Planning" href="/environment/planningandbuilding/online_planning.html">Planning</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="324" title="Submit Forms" href="/submit_forms.html">Submit Forms</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="nav-right-footer">&nbsp;</div><div class="rn-header"><div class="rn-white-curve"><h2>Council Tools...</h2></div>
+</div>
+<div class="nav-right"><ul><li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools meetings" src="/resources/183215/ct_img6.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="325" title="Agendas and meetings" href="/meetings/may/">Agendas and meetings</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools surveys" src="/resources/151684/ct-img4.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="326" title="Consultations" href="/your_council/councils/consultation.html">Consultations</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools events" src="/resources/151675/ct-img1.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="327" title="Events in Knowsley" href="/events/may/">Events in Knowsley</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="tools journey planner" src="/resources/151678/ct-img2.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="328" title="Journey Planner" href="/journey_planner.html">Journey Planner</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools maps" src="/resources/151681/ct-img3.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="329" title="Knowsley Maps" href="/maps/knowsley_borough.html">Knowsley Maps</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools roadworks" src="/resources/186760/ct_img7.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="330" title="Road Works and Closures" href="/transport/motor_vehicles/roadworks.html">Road Works and Closures</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="nav-right-footer">&nbsp;</div>
+&nbsp;
+</div>
+</div>
+</div>
+</div>
+<div id="footer-back" style="clear:both;"><div id="footer-cntr"><div id="footer"><ul><li>&copy; Copyright Knowsley Metropolitan Borough Council 2005</li>
+<li>|</li>
+<li><a href="/sitemap/" title="Sitemap" accesskey="3" tabindex="405">Sitemap</a></li>
+<li>|</li>
+<li><a href="/help.html" title="Help" accesskey="6" tabindex="406">Help</a></li>
+<li>|</li>
+<li><a href="/statistics/" title="Site Statistics" tabindex="407">Site Statistics</a></li>
+<li>|</li>
+<li><a href="/conditions.html" title="Terms and Conditions" tabindex="408" accesskey="8">Terms and Conditions</a></li>
+<li>|</li>
+<li><a href="/help.html#favorites" title="Add to Favourites" accesskey="M" tabindex="409">Add to Favourites</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="connect">
+Knowsley Metropolitan Borough Council is not responsible for the content of external internet sites
+<br />
+<a href="http://www.connectinternetsolutions.com" tabindex="410" target="new">Powered by Connect Internet Solutions (Opens in new window)</a></div>
+</div>
+</body>
+</html>
+
+tm<
+htdc

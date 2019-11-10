@@ -1,0 +1,413 @@
+
+
+
+<html>
+<head>
+
+<title>Brighton &amp; Hove Education Online: BHCC website for schools PRINTABLE VERSION</title>
+
+
+<!-- Brighton & Hove City Council - Education Online skin -->
+<!-- Version 2.0 September 2003 -->
+<!-- Technical enquiries: james.burton@brighton-hove.gov.uk -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+	@import url(web/sites/education/page_display/may_03_print.css);
+</style>
+
+
+<meta name="keywords" content=""> <meta name="Description" content=""> 
+
+<script language="JavaScript">
+	window.print();
+</script>
+
+<style>
+.breadCrumbsText {
+	color: #000;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<p class="Upgrade">This page looks plain and unstyled because you're using a
+  non-standard compliant browser. Please upgrade to a browser that supports web standards as soon as possible. Staff within Brighton & Hove City Council can call the ICT Helpdesk on 292001. Staff within schools should contact their ICT Coordinator or ICT Support Staff. Everyone else can get useful information from <a href="http://www.webstandards.org/upgrade/" title="The Web Standards Project's Browser Upgrade initiative">The Web Standards Project's Browser Upgrade initiative</a>.</p>
+
+
+ 
+
+
+<div id="Container">   
+<h2 align="center">Brighton & Hove Education Online Printable version</h1>
+
+
+		  <div id="Main" style="background-color:#fff;">
+		
+		
+		
+		    <div id="Topmenu">
+				
+		<a href="index.cfm?request=a301" title="eds_News" class="breadCrumbsText">News</a>
+	
+			&nbsp;/ <strong>Events</strong>
+		 
+			</div>
+			
+			<div id="Content">
+			
+							
+				
+				
+	<style>
+		#calendar{
+			width:500px;
+			height:500px;
+		}
+		
+		#calendarHeader{
+		 width:500px;
+		 border:1pt solid #999;
+		 margin-bottom:10px;
+		}
+		
+		.calDate{
+			width:500px;
+			height:80px;
+			overflow:auto;
+			border:1px solid #999;
+			margin-bottom:10px;
+		}
+		
+		.calDate a:hover{
+			color:#f00;
+		}
+		.calDate a:visited{
+			color:#00f;
+		}
+		.dateHeader {
+			background-color: #6762AA;
+			color:#fff;
+			font-weight:bold;
+			display:block;
+			text-align:center;
+		}
+	</style>
+
+
+	<!-- form to go to another date -->
+<div>
+
+		
+		<FORM ACTION="index.cfm?request=b1000327" METHOD="post" name="goto">
+			<input type="hidden" name="action" value="showWeek">
+			<input type="hidden" name="goto" value="yes">
+				Go to week:&nbsp;
+				
+				<select name="we">
+				
+					<option value="13-Jan-07">07 Jan</option>
+					
+					<option value="20-Jan-07">14 Jan</option>
+					
+					<option value="27-Jan-07">21 Jan</option>
+					
+					<option value="03-Feb-07">28 Jan</option>
+					
+					<option value="10-Feb-07">04 Feb</option>
+					
+					<option value="17-Feb-07">11 Feb</option>
+					
+					<option value="24-Feb-07">18 Feb</option>
+					
+					<option value="03-Mar-07">25 Feb</option>
+					
+					<option value="10-Mar-07">04 Mar</option>
+					
+					<option value="17-Mar-07">11 Mar</option>
+					
+					<option value="24-Mar-07">18 Mar</option>
+					
+					<option value="31-Mar-07">25 Mar</option>
+					
+					<option value="07-Apr-07">01 Apr</option>
+					
+					<option value="14-Apr-07">08 Apr</option>
+					
+					<option value="21-Apr-07">15 Apr</option>
+					
+					<option value="28-Apr-07">22 Apr</option>
+					
+					<option value="05-May-07">29 Apr</option>
+					
+					<option value="12-May-07">06 May</option>
+					
+					<option value="19-May-07">13 May</option>
+					
+					<option value="26-May-07">20 May</option>
+					
+					<option value="02-Jun-07">27 May</option>
+					
+					<option value="09-Jun-07">03 Jun</option>
+					
+					<option value="16-Jun-07">10 Jun</option>
+					
+					<option value="23-Jun-07">17 Jun</option>
+					
+					<option value="30-Jun-07">24 Jun</option>
+					
+					<option value="07-Jul-07">01 Jul</option>
+					
+					<option value="14-Jul-07">08 Jul</option>
+					
+					<option value="21-Jul-07">15 Jul</option>
+					
+					<option value="28-Jul-07">22 Jul</option>
+					
+					<option value="04-Aug-07">29 Jul</option>
+					
+					<option value="11-Aug-07">05 Aug</option>
+					
+					<option value="18-Aug-07">12 Aug</option>
+					
+					<option value="25-Aug-07">19 Aug</option>
+					
+					<option value="01-Sep-07">26 Aug</option>
+					
+					<option value="08-Sep-07">02 Sep</option>
+					
+					<option value="15-Sep-07">09 Sep</option>
+					
+					<option value="22-Sep-07">16 Sep</option>
+					
+					<option value="29-Sep-07">23 Sep</option>
+					
+					<option value="06-Oct-07">30 Sep</option>
+					
+					<option value="13-Oct-07">07 Oct</option>
+					
+					<option value="20-Oct-07">14 Oct</option>
+					
+					<option value="27-Oct-07">21 Oct</option>
+					
+					<option value="03-Nov-07">28 Oct</option>
+					
+					<option value="10-Nov-07">04 Nov</option>
+					
+					<option value="17-Nov-07">11 Nov</option>
+					
+					<option value="24-Nov-07">18 Nov</option>
+					
+					<option value="01-Dec-07">25 Nov</option>
+					
+					<option value="08-Dec-07">02 Dec</option>
+					
+					<option value="15-Dec-07">09 Dec</option>
+					
+					<option value="22-Dec-07">16 Dec</option>
+					
+					<option value="29-Dec-07">23 Dec</option>
+					
+					<option value="05-Jan-08">30 Dec</option>
+					
+				</select>
+
+				<select name="year" onChange="window.location='index.cfm?request=b1000327&action=showWeek&we=06-May-07&selectYear='+this.options[this.selectedIndex].value;">
+					<option value="2003" >2003</option>
+					<option value="2004" >2004</option>
+					<option value="2005" >2005</option>
+				</select>
+	
+			<INPUT TYPE=submit  NAME="GotoUserDate" Value="Go">
+		
+			</FORM>
+
+
+</div>
+
+<div id="calendarHeader">
+	
+		<span style="width:90px;">
+			 <a href="index.cfm?request=b1000327&monthChange=backward&lastDate={ts '2007-05-06 23:08:45'}&action=showWeek" style="text-decoration:none;">&lt;&lt;23 Apr</a>
+		</span>
+		<span style="width:300px;background-color:#918BC1;color:#fff;text-align:center;">
+			 <strong>from Monday 30 April 2007</strong> <a href="index.cfm?request=b1000327&action=showWeek&we=" style="color:#fff;">Today</a>
+		</span> 
+		<span style="width:90px;text-align:right;">
+			<a href="index.cfm?request=b1000327&weekChange=forward&lastDate={ts '2007-05-06 23:08:45'}&action=showWeek" style="text-decoration:none;">07 May&gt;&gt;</a>
+		</span>
+		
+</div>
+
+<div id="calendar">   
+	
+				
+      <div class="calDate"> 
+        <span class="dateHeader">Monday 30</span> 
+           <a href="index.cfm?request=b1000327&event_id=197340AB293D0F6080257241005A9F30&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Paper Cuts</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=5C6605CBAB6A0171802572CA003DE302&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Susan Edwards</A><br />  
+           
+		
+		</div>
+	
+				
+      <div class="calDate"> 
+        <span class="dateHeader">Tuesday 01</span> 
+           <a href="index.cfm?request=b1000327&event_id=197340AB293D0F6080257241005A9F30&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Paper Cuts</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=DFAF82E19AE0F1E2802572C7004B95CA&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Early Years - Wheels</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=5C6605CBAB6A0171802572CA003DE302&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Susan Edwards</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=CB046522949806E5802571C400519AAB&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">The Art of the Word</A><br />  
+           
+		
+		</div>
+	
+				
+      <div class="calDate"> 
+        <span class="dateHeader">Wednesday 02</span> 
+           <a href="index.cfm?request=b1000327&event_id=197340AB293D0F6080257241005A9F30&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Paper Cuts</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=5C6605CBAB6A0171802572CA003DE302&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Susan Edwards</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=CB046522949806E5802571C400519AAB&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">The Art of the Word</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=0CF1CB96B2CA784B802572CD00237939&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Pond Planting</A><br />  
+           
+		
+		</div>
+	
+				
+      <div class="calDate"> 
+        <span class="dateHeader" style="background-color: #e5e6fb;color:#918bc1;">Thursday 03</span> 
+           <a href="index.cfm?request=b1000327&event_id=197340AB293D0F6080257241005A9F30&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Paper Cuts</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=74493B8068590778802572B4004ACF1E&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Guitar Hero 2 Bus Tour</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=CCDC65226D4294A8802572C7003EF71C&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Gorgeous Georgians - Life in 18th Century England</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=5C6605CBAB6A0171802572CA003DE302&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Susan Edwards</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=CB046522949806E5802571C400519AAB&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">The Art of the Word</A><br />  
+           
+		
+		</div>
+	
+				
+      <div class="calDate"> 
+        <span class="dateHeader">Friday 04</span> 
+           <a href="index.cfm?request=b1000327&event_id=197340AB293D0F6080257241005A9F30&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Paper Cuts</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=5C6605CBAB6A0171802572CA003DE302&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Susan Edwards</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=CB046522949806E5802571C400519AAB&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">The Art of the Word</A><br />  
+           
+		
+		</div>
+	
+				
+      <div class="calDate"> 
+        <span class="dateHeader">Saturday 05</span> 
+           <a href="index.cfm?request=b1000327&event_id=197340AB293D0F6080257241005A9F30&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Paper Cuts</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=42E27FA40988D5CA802571DB005D20E8&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Breeze up to Stanmer Park</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=2043F5547F801D57802572C6004B0BDF&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Preston Manor - Brighton Festival of Open Houses</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=F16099091E5B876E802572C60050B1BF&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Royal Pavilion Guided Tour</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=36CE0E2866641FC1802572C800371931&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Brighton Festival</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=A9B8A904940BBBC8802572C8003790A4&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Brighton Festival Fringe</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=85CD1BCF17A1A9CF802572C80036F262&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Fringe City</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=5C6605CBAB6A0171802572CA003DE302&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Susan Edwards</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=FD5F7598413A6C17802571DC002BA7C3&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Breeze up to Devil's Dyke</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=C8FF9FC05EDA1C43802571DC002A2F46&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Breeze up to Ditchling Beacon</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=6F3C87B8AEA7A947802572C2005D32AE&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Pedal to the pub</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=CB046522949806E5802571C400519AAB&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">The Art of the Word</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=E17B277109D5C104802572CA003D78E3&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Stagestruck! 200 years of Theatre Royal Brighton</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=4F200C0AA3B428B9802572CD003E02FF&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Royal Pavilion Guided Tour</A><br />  
+           
+		
+		</div>
+	
+				
+      <div class="calDate"> 
+        <span class="dateHeader">Sunday 06</span> 
+           <a href="index.cfm?request=b1000327&event_id=DB5F1296A773623C8025727D003F4330&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Mayday In Albion</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=197340AB293D0F6080257241005A9F30&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Paper Cuts</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=8D953EAEDC2D42EE802572C60039F04F&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">South Downs Display</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=81E392113DEC724A80257259004E5340&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Stonewall Equality Walk</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=45EEC90902863CEF802572870047C403&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">London to Brighton 2CV Run</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=42E27FA40988D5CA802571DB005D20E8&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Breeze up to Stanmer Park</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=2043F5547F801D57802572C6004B0BDF&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Preston Manor - Brighton Festival of Open Houses</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=F16099091E5B876E802572C60050B1BF&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Royal Pavilion Guided Tour</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=36CE0E2866641FC1802572C800371931&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Brighton Festival</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=A9B8A904940BBBC8802572C8003790A4&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Brighton Festival Fringe</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=5C6605CBAB6A0171802572CA003DE302&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Susan Edwards</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=FD5F7598413A6C17802571DC002BA7C3&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Breeze up to Devil's Dyke</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=C8FF9FC05EDA1C43802571DC002A2F46&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Breeze up to Ditchling Beacon</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=86EF36B9D35B02A880257289004DBB60&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Festival of Brass</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=3B46E6A1DE97817C80257291002A55E7&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Bluebell Walk</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=CB046522949806E5802571C400519AAB&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">The Art of the Word</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=E17B277109D5C104802572CA003D78E3&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Stagestruck! 200 years of Theatre Royal Brighton</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=4F200C0AA3B428B9802572CD003E02FF&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">Royal Pavilion Guided Tour</A><br />  
+          
+           <a href="index.cfm?request=b1000327&event_id=F296DF33C98E13FF802572CD00520BD7&cDate={ts '2007-05-06 23:08:45'}&caller=showWeek&action=showEvent">'Secret Agents'</A><br />  
+           
+		
+		</div>
+	
+	
+</div>
+
+
+
+
+			
+		</div>
+		<br >&nbsp;</br>
+		
+
+
+
+
+ </div>
+
+</body>
+</html>
+
+
+1om'mes/ e/nF<wo

@@ -1,0 +1,165 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: links: eos:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<a name="top"></a>
+<h2>
+Earth Observation Satellites
+</h2>
+
+<ul>
+<li><a href="#low">Low Earth Orbits</a>
+<li><a href="#geo">Geostationary Orbits</a>
+</ul>
+
+<FONT COLOR=#000099>
+
+
+<h3>
+<a name="low">Low Earth Orbits</a>
+</h3>
+<font size=-1>
+<ul>
+<li><a href="http://www.nasda.go.jp/projects/sat/adeos/index_e.html">ADEOS</a> (Avanced Earth Observing Satellite)<br>
+&nbsp;&nbsp<a href="http://www-ilas.nies.go.jp/">ILAS</a> (Improved Limb Atmospheric Spectrometer)<br>
+&nbsp;&nbsp<a href="http://toms.gsfc.nasa.gov/">TOMS</a> (Toal Ozone Mapping Spectrometer)<br>
+&nbsp;&nbsp <a href="http://www.eoc.jaxa.jp/satellite/sendata/img_e.html">IMG</a> Interferometric Monitor for Greenhouse Gases<br>
+&nbsp;&nbsp <a href="http://www.eoc.jaxa.jp/satellite/sendata/ris_e.html">RIS</a> Retroreflector In Space<br>
+&nbsp;&nbsp <a href="http://www.eoc.jaxa.jp/satellite/sendata/polder_e.html">POLDER</a> (Polarization and Directionality of the Earth's Reflectances)
+
+<p>
+<li><a href="http://www.eoc.jaxa.jp/satellite/satdata/adeos2_e.html">ADEOS II</a> (Avanced Earth Observing Satellite II)<br>
+&nbsp;&nbsp <a href="http://www-ilas2.nies.go.jp/">ILAS II</a> (Improved Limb Atmospheric Spectrometer II)<br>
+
+
+<p>
+<li><a href="http://eos-pm.gsfc.nasa.gov/">AQUA</a><br>
+&nbsp;&nbsp <a href="http://modis.gsfc.nasa.gov">MODIS</a> (Moderate Resolution Imaging Spectroradiometer)<br>
+&nbsp;&nbsp <a href="http://www-airs.jpl.nasa.gov/">AIRS</a> (Atmospheric Infrared Sounder)<br>
+&nbsp;&nbsp <a href="http://wwwghcc.msfc.nasa.gov/AMSR">AMSR/E</a> (Advanced Microwave Scanning Radiometer-EOS)<br>
+&nbsp;&nbsp <a href="http://orbit-net.nesdis.noaa.gov/crad/st/amsuclimate/amsu.html">AMSU</a> (Advanced Microwave Sounding Unit)<br>
+&nbsp;&nbsp <a href="http://www.inpe.br/programas/hsb/ingl/index.html">HSB</a> (Humidity Sounder for Brazil)<br>
+&nbsp;&nbsp <a href="http://asd-www.larc.nasa.gov/ceres/terra">CERES</a> (Clouds and the Earth's Radiant Energy System)
+
+<p>
+<li><a href="http://eos-chem.gsfc.nasa.gov/">AURA</a><br>
+&nbsp;&nbsp <a href="http://www.eos.ucar.edu/hirdls/home.html">HIRDLS</a> (High Resolution Dynamics Limb Shoulder)<br>
+&nbsp;&nbsp <a href="http://mls.jpl.nasa.gov/">MLS</a> (Microwave Limb Shoulder)<br>
+&nbsp;&nbsp <a href="http://tes.jpl.nasa.gov/">TES</a> (Tropospheric Emission Spectrometer)
+
+<p>
+<li><a href="http://www-calipso.larc.nasa.gov/">CALIPSO</a> (Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations)
+
+<p>
+<li><a href="http://cloudsat.atmos.colostate.edu/">CLOUDSAT</a>
+
+<p>
+<li><a href="http://envisat.esa.int/">ENVISAT</a> (Environmental Satellite)<br>
+&nbsp;&nbsp <a href="http://envisat.esa.int/instruments/gomos/index.html">GOMOS</a> (Global Ozone Monitoring by Occultation of Stars)<br>
+&nbsp;&nbsp <a href="http://envisat.esa.int/instruments/mipas/index.html">MIPAS</a> (Michelson Interferometer for Passive Atmospheric Sounding)<br>
+&nbsp;&nbsp <a href="http://envisat.esa.int/instruments/sciamachy/index.html">SCIAMACHY</a> (SCanning Imaging Absorption spectroMeter for Atmospheric CHartographY)
+
+<p>
+<li>ERS-2<br>
+&nbsp;&nbsp <a href="http://www-iup.physik.uni-bremen.de/ifepage/gome.html">GOME</a> (Global Ozone Monitoring Experiment)
+
+<p>
+<li>Earth Radiation Budget Satellite (ERBS)<br>
+&nbsp;&nbsp <a href="http://www-sage2.larc.nasa.gov/">SAGE II</a> (Stratospheric Aerosol and Gas Experiment II)
+
+<p>
+<li>International Space Station<br>
+&nbsp;&nbsp <a href="http://www-sage3.larc.nasa.gov/">SAGE III</a>(Stratospheric Aerosol and Gas Experiment III)
+
+<p>
+<li>METOP<br>
+&nbsp;&nbsp <a href="http://www.esa.int/export/esaME/iasi.html">IASI</a> (Infrared Atmospheric Sounding Interferometer)
+
+
+<p>
+<li>STS<br>
+&nbsp;&nbsp <a href="http://www.crista.uni-wuppertal.de/">CRISTA</a> (CRyogenic Infrared Spectrometers and Telescopes for the Atmosphere)
+
+<p>
+<li><a href="http://terra.nasa.gov/">Terra</a><br>
+&nbsp;&nbsp <a href="http://asterweb.jpl.nasa.gov/">ASTER</a> (Advanced Spaceborne Thermal Emission and Reflection Radiometer)<br>
+&nbsp;&nbsp <a href="http://asd-www.larc.nasa.gov/ceres/terra">CERES</a> (Clouds and Earth's Radiant Energy System)<br>
+&nbsp;&nbsp <a href="http://www-misr.jpl.nasa.gov/">MISR</a> (Multi-angle Imaging Spectroradiometer)<br>
+&nbsp;&nbsp <a href="http://www.atmosp.physics.utoronto.ca/MOPITT/home.html">MOPITT</a> (Measurements of Pollution in the Troposphere)<br>
+
+<p>
+<li><a href="http://triana.gsfc.nasa.gov/home/">TRIANA</a><br>
+&nbsp;&nbsp Scripps-NISTAR<br>
+&nbsp;&nbsp Scripps-EPIC
+
+<p>
+<li><a href="http://umpgal.gsfc.nasa.gov/uars-science.html">UARS</a> (Upper Atmosphere Research Satellite)<br>
+&nbsp;&nbsp <a href="http://www.lmsal.com/9120/CLAES/claes_homepage.html">CLAES</a> (Cryogenic Limb Array Etalon Spectrometer)<br>
+&nbsp;&nbsp <a href="http://auc.dfd.dlr.de/HALOE">HALOE</a> (The Halogen Occulation Experiment)<br>
+&nbsp;&nbsp <a href="http://www.sprl.umich.edu/HRDI/hrdi_homepage.html">HRDI</a> (The High Resolution Doppler Imager)<br>
+&nbsp;&nbsp <a href="http://www-atm.atm.ox.ac.uk/group/isams/">ISAMS</a> (The Improved Stratospheric And Mesospheric Sounder)<br>
+&nbsp;&nbsp <a href="http://mls.jpl.nasa.gov/">MLS</a> (Microwave Limb Sounder)
+
+</ul>
+
+
+<h3>
+<a name="geo">Geostationary Orbits</a>
+</h3>
+
+<font size=-1>
+<ul>
+<p>
+<p>
+<li>GOES (Geostationary Operational Environmental Satellite)<br>
+&nbsp;&nbsp <a href="http://rsd.gsfc.nasa.gov/goes/">GOES</a> (NASA)
+
+<p>
+<li>Meteosat Second Generation<br>
+&nbsp;&nbsp <a href="http://www.eumetsat.de/en/index.html?area=left3.html&body=/en/area3/topic1.html&a=310&b=1&c=300&d=300&e=0">MSG</a> (EUMETSAT)
+
+</ul>
+
+<p><a href="http://gaia.hq.nasa.gov/ese_missions/default.cfm?transaction=Enter_ESE_Missions">NASA's List of Earth Observing Spacecraft</a><p>
+
+<center><a href="#top">Back to Top</a></center>
+
+</FONT>
+
+</BODY></HTML>
+
+
+mh, Nc5xe" 

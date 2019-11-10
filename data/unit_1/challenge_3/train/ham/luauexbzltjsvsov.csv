@@ -1,0 +1,274 @@
+
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+<title>DeBug - The Insect Zone</title>
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+<link rel='stylesheet' type='text/css' href='DeBugStyle.css'>
+
+<script language="JavaScript" type="text/JavaScript">
+
+function disable(){
+	if (event.button == 2){
+		alert("Permission must be sought to use images or text.\nThank you")
+	}
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+
+</head>
+
+<body>
+<p align="center">
+	<br />
+	<a class="MenuLink" href="index.html">&nbsp;Home&nbsp;</a>
+	<a class="MenuLink" href="Quiz.html">&nbsp;Quiz&nbsp;</a>
+	<a class="MenuLink" href="WhatAmI.html">&nbsp;Guess&nbsp;the&nbsp;insect&nbsp;</a>
+	<a class="MenuLink" href="Anatomy.html">&nbsp;Insect&nbsp;anatomy&nbsp;</a>
+	<a class="MenuLink" href="Wallpapers.html">&nbsp;Wallpapers&nbsp;</a>
+	<a class="MenuLink" href="AskAQuestion.html">&nbsp;Ask&nbsp;a&nbsp;question&nbsp;</a>
+</p>
+
+<script type="text/javascript">
+mouseover=true
+
+function coordinates(){
+	if (!moveMe){
+		return
+	}
+	
+	if (event.srcElement.id=="moveMe"){
+		mouseover=true
+		pleft=document.getElementById('moveMe').style.pixelLeft
+		ptop=document.getElementById('moveMe').style.pixelTop
+		xcoor=event.clientX
+		ycoor=event.clientY
+		document.onmousemove=moveImage
+	}
+}
+
+function moveImage(){
+	if (mouseover&&event.button==1){
+		document.getElementById('moveMe').style.pixelLeft=pleft+event.clientX-xcoor
+		document.getElementById('moveMe').style.pixelTop=ptop+event.clientY-ycoor
+		return false
+	}
+}
+
+function mouseup(){
+	mouseover=false
+}
+
+document.onmousedown=coordinates
+document.onmouseup=mouseup
+
+var myimages = new Array();
+myimages[0]="400BlackHoverfly";
+myimages[1]="400Hoverfly";
+myimages[2]="400PodMidge";
+myimages[3]="400CaribidBeetle";
+myimages[4]="400StagBeetle";
+myimages[5]="400Weevil";
+myimages[6]="400Ladybird";
+myimages[7]="400InjectingAnEgg";
+myimages[8]="400Parasitoid";
+myimages[9]="400YellowParasitoid";
+myimages[10]="400Lacewing";
+myimages[11]="400Moth";
+myimages[12]="400Peacock";
+myimages[13]="400TaggedButterfly";
+myimages[14]="400WhiteButterfly";
+myimages[15]="400ThirstyBee";
+myimages[16]="400hortorum";
+myimages[17]="400Bumblebee";
+
+var mydescriptions = new Array();
+mydescriptions[0]="This hoverfly is mimicking a bee. Hoverflies eat aphids and are gardener's friends.";
+mydescriptions[1]="This wasp-like hoverfly fools predators into thinking it is dangerous. It isn't!";
+mydescriptions[2]="This is a tiny pod midge which attacks oilseed rape crops. Notice how furry the midge's antennae are.";
+mydescriptions[3]="This carabid ground beetle is a ferocious predator. It likes eating slugs.";
+mydescriptions[4]="This male stag beetle is about 4cm long and is the UK's biggest insect.";
+mydescriptions[5]="Beetles with long 'noses' like this are called weevils. This is a seed weevil.";
+mydescriptions[6]="This is a ladybird beetle showing her wings. Ladybirds use their wing cases (elytra) to protect their delicate folded wings.";
+mydescriptions[7]="This is a parasitic wasp injecting an egg into an aphid. The egg hatches and eats the aphid from the inside out.";
+mydescriptions[8]="This parasitic wasp preys on caterpillars. It can lay a lot of eggs in one caterpillar.";
+mydescriptions[9]="This is a very tiny parasitic wasp. Some parasitic wasps are so small you can hardly see them.";
+mydescriptions[10]="This is a lacewing. Lacewings are rather primitive insects which are beneficial because they eat aphids.";
+mydescriptions[11]="This is a tiger moth. Its bright colours give a warning to birds that it tastes horrible.";
+mydescriptions[12]="This is a beautiful peacock butterfly. Notice how hairy it is!";
+mydescriptions[13]="This is a butterfly tagged with a radar antenna. Radar is being used to see where butterflies fly.";
+mydescriptions[14]="This is a butterfly feeding on oilseed rape flowers. Butterflies have very long tongues which they use to drink nectar from flowers.";
+mydescriptions[15]="This is a honey bee taking a drink of water. Honey bees have very sensitive taste buds.";
+mydescriptions[16]="This is a bumblebee feeding on a flower. Bees have to drink a lot of nectar to get the energy they need to fly.";
+mydescriptions[17]="This is a close up of a bumblebee's face. Bumblebees are furry to keep them warm so they can fly early in the morning and late at night.";
+
+var mygroups = new Array();
+mygroups[0]="Fly";
+mygroups[1]="Fly";
+mygroups[2]="Fly";
+mygroups[3]="Beetle";
+mygroups[4]="Beetle";
+mygroups[5]="Beetle";
+mygroups[6]="Beetle";
+mygroups[7]="Parasitic&nbsp;wasp";
+mygroups[8]="Parasitic&nbsp;wasp";
+mygroups[9]="Parasitic&nbsp;wasp";
+mygroups[10]="Lacewing";
+mygroups[11]="Moth";
+mygroups[12]="Butterfly";
+mygroups[13]="Butterfly";
+mygroups[14]="Butterfly";
+mygroups[15]="Bee";
+mygroups[16]="Bee";
+mygroups[17]="Bee";
+
+var CurrentImageNumber = 0;
+var arrUsedImages = new Array()
+var Count = 0;
+var NumberOfImages = myimages.length;
+
+function RandomImage(){
+	var CurrentImage = document.getElementById('GuessMe').src;
+	document.getElementById('ShowAnswerButton').disabled = false;
+	document.getElementById('MaskHolder').filters.mask.enabled = true;
+	document.getElementById('moveMe').style.display = 'inline';
+	//random image generator
+	var Path = "http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/images/";
+	var FileType = ".jpg";
+	CurrentImageNumber = Math.floor(Math.random()*myimages.length);
+	var NewImage = Path + myimages[CurrentImageNumber] + FileType;
+	var ChosenBefore = false;
+	
+	for (i = 0; i < arrUsedImages.length; i++){
+		if (CurrentImageNumber == arrUsedImages[i]){	
+			ChosenBefore = true;
+		}
+	}
+	if (NewImage != CurrentImage && ChosenBefore == false){
+		document.getElementById('GuessMe').src = NewImage;
+	} else {
+		RandomImage();
+	}
+	RefreshAnswerBox();
+}
+
+
+
+function GetAnswer(Guess){
+	
+	if (Guess == "Guess"){
+		document.getElementById('ShowAnswerButton').disabled = true;
+	}
+	document.getElementById('AnswerDiv').innerHTML = "";
+	var AnswerText = "";
+	var ImageName = document.getElementById('GuessMe').src;
+	
+	for (i = 0; i < myimages.length; i++){
+		var IsItThere = ImageName.indexOf(myimages[i])
+		if (IsItThere > 0){
+			AnswerText = AnswerText + "<div class='AnswerNormal'><strong>" + mygroups[i] + "</strong></div><hr /><p>" + mydescriptions[i] + "</p>";			
+			break;
+		}
+	}
+	
+	document.getElementById('AnswerDiv').innerHTML = AnswerText;
+	document.getElementById('MaskHolder').filters.mask.enabled = false;
+	document.getElementById('moveMe').style.display = 'none';
+	
+	arrUsedImages[Count] = i;
+	Count = Count + 1;
+
+	if (Count == NumberOfImages){
+		SessionCompleted();
+	}
+	
+}
+
+function RefreshAnswerBox(){
+	document.getElementById('AnswerDiv').innerHTML = "";
+	var AnswerText = "<br />";
+	var LastImage =  "";
+	for (i = 0; i < mygroups.length; i++){
+		if (mygroups[i] != LastImage){
+			AnswerText = AnswerText + "<div class='AnswerNormal' onClick='CheckAnswer(" + i + ")' ";
+			AnswerText = AnswerText + "onMouseOver=this.className='AnswerHighlighted' onMouseOut=this.className='AnswerNormal'>";
+			AnswerText = AnswerText + mygroups[i] + "</div>";
+		}
+		LastImage = mygroups[i];
+	}
+	document.getElementById('AnswerDiv').innerHTML = AnswerText;
+}
+
+function CheckAnswer(ArrayNumber){
+	var CurrentInsectGroupName = mygroups[CurrentImageNumber];
+	var SubmittedAnswer = mygroups[ArrayNumber];
+	if (SubmittedAnswer == CurrentInsectGroupName){
+		document.getElementById('ShowAnswerButton').disabled = true;
+		alert("Well done. That's the right answer!");
+		GetAnswer();
+	} else {
+		alert("Please try again");
+	}
+}
+
+function SessionCompleted(){
+	document.getElementById('AnswerDiv').style.fontSize = 16;
+	AnswerText = "<br />Well done! You have completed this section of the DeBug website<br /><br />";
+	AnswerText = AnswerText + "Press reload to start again or choose one of the following links<br /><br />";
+	AnswerText = AnswerText + "<div style='text-align:left;'>";
+	AnswerText = AnswerText + "<li><a href='Quiz.html'>Quiz</a></li>";
+	AnswerText = AnswerText + "<li><a href='Wallpapers.html'>Wallpapers</a></li>";
+	AnswerText = AnswerText + "<li><a href='Anatomy.html'>Anatomy</a></li>";
+	AnswerText = AnswerText + "</div>";
+	document.getElementById('AnswerDiv').innerHTML = AnswerText;
+	document.getElementById('ShowAnswerButton').disabled = true;
+	document.getElementById('NextInsectButton').disabled = true;
+}
+
+</script>
+
+
+
+<script type="text/javascript" language="javascript">
+	if(navigator.appName != "Microsoft Internet Explorer"){ 
+		document.write("<h2 align=center><br />We're sorry, but this page only works with Microsoft Internet Explorer<br /><br />We hope you enjoy the rest of this site</p><p align=center><a href='http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/' class='BigLink'><img src='DeBugAnimationTwist.gif' border='0'><br />Click to go back to the DeBug home page</a><br /><br /></p></h2>");
+	} else {
+	
+		document.write("<table align='center' style='border: 4px solid #4678B4;' width='90%' bgcolor='#FFFFFF' cellpadding='10'><tr><td height=400 valign=top>");
+		document.write("<h2 align='center'>Guess the insect (click and drag the circle)</h2>");
+		document.write("<div class='MaskDiv' style='position:absolute;left:80;top:140;'>");
+		document.write("<img style='border: 0px;' name='GuessMe' id='GuessMe' class='MaskImage' width='400' height='300' src=''/></div>");
+		document.write("<div name='MaskHolder' id='MaskHolder' class='MaskDiv' ");
+		document.write("style='position:absolute;left:80;top:140;filter:mask(color=#ffffff);width:400;height:300'>");
+		document.write("<img style='border: 0px;' class='MaskImage' id='moveMe' src='images/mask.gif' width='80' height='80' alt='Move the circle around to see the insect'></div>");
+		
+		document.write("<div align=center class='AnswerNormal' name='AnswerDiv' id='AnswerDiv' style='position: absolute; left: 480; top: 140; width: 225px;'></div>");
+		
+		document.write("<a href=# class=Buttons name='ShowAnswerButton' id='ShowAnswerButton' style='position: absolute; left: 80; top: 450;' onClick=GetAnswer('Guess')>Show me the answer</a>" );
+		document.write("<a href=# class=Buttons name='NextInsectButton' id='NextInsectButton' style='position: absolute; left: 270; top: 450;' onClick='RandomImage()'>Choose another insect</a>");
+		document.write("</td></tr></table>");
+	}
+	//equal to onload event
+	RefreshAnswerBox();
+	RandomImage();	
+</script>
+
+<p align="center">
+	<a class="MenuLink" href="index.html">&nbsp;Home&nbsp;</a>
+	<a class="MenuLink" href="Quiz.html">&nbsp;Quiz&nbsp;</a>
+	<a class="MenuLink" href="WhatAmI.html">&nbsp;Guess&nbsp;the&nbsp;insect&nbsp;</a>
+	<a class="MenuLink" href="Anatomy.html">&nbsp;Insect&nbsp;anatomy&nbsp;</a>
+	<a class="MenuLink" href="Wallpapers.html">&nbsp;Wallpapers&nbsp;</a>
+	<!--<a class="MenuLink" href="AskAQuestion.html">&nbsp;Ask&nbsp;a&nbsp;question&nbsp;</a>-->
+</p>
+</body>
+</html>
+
+
+Iag e=

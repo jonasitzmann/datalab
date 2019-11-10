@@ -1,0 +1,157 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<TITLE>E-Postcards from the Gazetteer for Scotland</TITLE>
+
+<script language="javascript">
+
+function PreLoad() {
+
+img1 = new Image(320,218);
+img1.src = "/scotgaz/images/P1109.JPG";
+
+img2 = new Image(320,218);
+img2.src = "/scotgaz/images/P1092.JPG";
+
+img3 = new Image(320,218);
+img3.src = "/scotgaz/images/P5.JPG";
+
+img4 = new Image(320,218);
+img4.src = "/scotgaz/images/P2227.JPG";
+
+img5 = new Image(320,218);
+img5.src = "/scotgaz/images/P1073.JPG";
+
+img6 = new Image(320,218);
+img6.src = "/scotgaz/images/P49.JPG";
+
+img7 = new Image(320,218);
+img7.src = "/scotgaz/images/P440.JPG";
+
+img8 = new Image(320,218);
+img8.src = "/scotgaz/images/P2057.JPG";
+
+img9 = new Image(320,218);
+img9.src = "/scotgaz/images/P1916.JPG";
+
+img10 = new Image(320,218);
+img10.src = "/scotgaz/images/P1185.JPG";
+
+}
+function switchImage(img) {
+newImg = eval(img + ".src");
+document.images[0].src = newImg;
+}
+</script>
+</HEAD>
+
+<BODY onLoad="PreLoad()"; BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+<TABLE BGCOLOR="#FFCC33" BORDER=0 CELLPADDING=5 CELLSPACING=0>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif"SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Places"><B> Help </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif" COLOR="#ffffff"><A HREF="#"onClick="window.open('/scotgaz/glossw.html','GlossaryWin','width=600,height=400,scrollbars=1,top=150,screenY=150')"><B>Glossary</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/People.html"><B> People </B></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Places.html"><B> Places </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Statistics.html"><B> Statistics </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/members.html"><B> Member's Area </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/sgzexe/logout.pl"><B> Logout</B></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B>
+
+<script LANGUAGE="JavaScript">
+if ((navigator.appName == "Microsoft Internet Explorer")
+&&(parseInt(navigator.appVersion) >= 4)) {
+
+var url="http://www.geo.ed.ac.uk/scotgaz/members.html"
+var title="Gazetteer for Scotland Members area"
+
+document.write('<A HREF="javascript:window.ext')
+document.write('ernal.AddFavorite(url,title);" ')
+document.write('onMouseOver=" window.status=')
+document.write("'Add to your Favorites'; return true ")
+document.write('"onMouseOut=" window.status=')
+document.write("' '; return true ")
+document.write('">Add to Favorites</a>')
+}
+else {
+var msg = "Add as Bookmark"
+if(navigator.appName == "Netscape") msg += " (CTRL+D)"
+document.write(msg)
+}
+
+</script>
+</TABLE></TD>
+<TD BGCOLOR="#FFFFCC" VALIGN="TOP" ALIGN="left">
+<blockquote><br>
+
+<TABLE BORDER=0 WIDTH="100%" CELLPADDING="0" CELLSPACING="0" ALIGN="center">
+
+<TR><TD ALIGN="left"><FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+<font size=+1><b> Introducing E-postcards of Scotland! </b><font size=-1>
+</TD></TR>
+
+<TR><TD ALIGN="left"><FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+<FORM ACTION="/sgzexe/pickupcard.pl" METHOD="GET">
+<BR><BR><b>Received a card?</b>  Pick up it up here!
+<p>Claim number: <INPUT TYPE="TEXT" NAME="card_id" SIZE="16">
+<INPUT TYPE="SUBMIT" VALUE="Get My Card!">
+</form></TD></TR>
+
+<TR><TD ALIGN="left"><FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+
+<BR><BR><b>Want to send a card?</b>  Select the image you want to use:<p>
+</TD></TR>
+
+</TABLE><TABLE BORDER=0 WIDTH="700" CELLPADDING="0" CELLSPACING="6" ALIGN="left">
+
+<TR><TD ALIGN="left" VALIGN="center"><FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif" size="-2">
+<ul>
+
+<a href="/sgzexe/createcard.pl?m=1109&t=Forth+Road+Bridge&c=&s=JPG" onMouseOver="switchImage('img1')"; onMouseOut="switchImage('img5')"><li>Forth Road Bridge</a><br>
+<a href="/sgzexe/createcard.pl?m=1092&t=St.+Mary's+Episcopal+Church,+Dalkeith&c=&s=JPG" onMouseOver="switchImage('img2')"; onMouseOut="switchImage('img5')"><li>St. Mary's Episcopal Church, Dalkeith</a><br>
+<a href="/sgzexe/createcard.pl?m=5&t=Inchkeith&c=&s=JPG" onMouseOver="switchImage('img3')"; onMouseOut="switchImage('img5')"><li>Inchkeith</a><br>
+<a href="/sgzexe/createcard.pl?m=2227&t=Sheep+on+what+was+Carberry+Hill+Battlefield&c=&s=JPG" onMouseOver="switchImage('img4')"; onMouseOut="switchImage('img5')"><li>Sheep on what was Carberry Hill Battlefield</a><br>
+<a href="/sgzexe/createcard.pl?m=1073&t=View+to+Coigach+from+Aird+of+Coigach&c=&s=JPG" onMouseOver="switchImage('img5')"; onMouseOut="switchImage('img5')"><li>View to Coigach from Aird of Coigach</a><br>
+<a href="/sgzexe/createcard.pl?m=49&t=Dairsie+Bridge+and+Dairsie+Parish+Church&c=&s=JPG" onMouseOver="switchImage('img6')"; onMouseOut="switchImage('img5')"><li>Dairsie Bridge and Dairsie Parish Church</a><br>
+<a href="/sgzexe/createcard.pl?m=440&t=The+Harbour,+St.+Abbs+and+St.+Abb's+Head+beyond&c=&s=JPG" onMouseOver="switchImage('img7')"; onMouseOut="switchImage('img5')"><li>The Harbour, St. Abbs and St. Abb's Head beyond</a><br>
+<a href="/sgzexe/createcard.pl?m=2057&t=Selkirk+Sheriff+Court+and+Kirk&c=&s=JPG" onMouseOver="switchImage('img8')"; onMouseOut="switchImage('img5')"><li>Selkirk Sheriff Court and Kirk</a><br>
+<a href="/sgzexe/createcard.pl?m=1916&t=Stobo+Castle&c=&s=JPG" onMouseOver="switchImage('img9')"; onMouseOut="switchImage('img5')"><li>Stobo Castle</a><br>
+<a href="/sgzexe/createcard.pl?m=1185&t=Loch+Ness,+looking+north+towards+Inverness+and+Caledonian+Canal&c=&s=JPG" onMouseOver="switchImage('img10')"; onMouseOut="switchImage('img5')"><li>Loch Ness, looking north towards Inverness and Caledonian Canal</a><br>
+</ul></TD>
+
+<TD VALIGN="center" width="320"> <FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+
+<IMG SRC="/scotgaz/images/P1073.JPG" height=218 width=320 alt="Postcard Image" align="center">
+</TD></TR>
+
+</TABLE>
+</blockquote>
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFCC33">&nbsp;</TD>
+<TD BGCOLOR="#FFFFCC" ALIGN="CENTER">
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+
+<A HREF="/scotgaz/copyright.html">&#169;1995-2007
+The Editors of The Gazetteer for Scotland</A><BR> Supported by:
+
+<A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/rsgs/">The Royal Scottish Geographical Society,<BR></A>&nbsp;
+<A HREF="http://www.geos.ed.ac.uk/geography/">The Institute of Geography, University of Edinburgh.</A>&nbsp;
+<BR><BR></FONT>
+</TD></TR></TABLE>
+</body>
+</html>
+
+
+sp=t"t=.

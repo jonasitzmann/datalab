@@ -1,0 +1,109 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: facilities: index:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<h2>Facilities</h2>
+
+<p>The sub-department is located in an <a
+href="../dept/history.html">historic building</a> situated within the
+University of Oxford's Science Area and near the town centre. It can
+be conveniently reached by both <a
+href="../dept/gettinghere.html">road</a> and <a
+href="http://www.nationalrail.co.uk/planmyjourney/">rail</a>. The
+challenge over the past 25 years has been to turn a Victorian building
+into a modern, well-equippped laboratory, and this has been achieved
+by extensive <a href="building_modifications.html">modifications</a>
+to both the structure and the layout of the building. The resulting
+changes have produced a compact laboratory incorporating all the
+facilities and services needed to support the design, development and
+testing of space instrumentation.</p>
+<CENTER>
+<map NAME="GROUND">
+<area SHAPE="RECT" COORDS="367,17,430,56" HREF="vibration_testing_cleanroom.html">
+<area SHAPE="RECT" COORDS="73,84,158,122"
+HREF="2point2_metre_chamber.html">
+<area SHAPE="RECT" COORDS="362,110,448,151"
+HREF="electronics.html">
+<area SHAPE="RECT" COORDS="317,285,382,323"
+HREF="clean_assembly_area.html">
+<area SHAPE="RECT" COORDS="429,289,512,329"
+HREF="mechanical.html">
+<area SHAPE="RECT" COORDS="216,491,308,516"
+HREF="thermometry.html">
+<area SHAPE="RECT" COORDS="53,272,136,310"
+HREF="1point6_metre_chamber.html">
+<area SHAPE="RECT" COORDS="39,385,122,424"
+HREF="../capabilities/mechanical_coolers.html">
+</map>
+
+<IMG SRC="ground_floor_small.jpg" WIDTH=546 BORDER=0 USEMAP="#GROUND">
+<I>Fig 1: Diagram of ground floor of AOPP. For a more detailed map, click <a href="ground_floor_large.jpg">here</a></I>
+</CENTER>
+<p>The schematic shown in Fig&#160;1 provides an overview of the facilities
+and services provided on-site. The department's large test and
+calibration facilities, the <a
+href="2point2_metre_facility/index.html">2.2 metre
+facility</a> and the <a href="1point6_metre_chamber.html">1.6 metre
+facility</a>, each housing thermal vacuum chambers, are supported by a
+common control room.  Small, but well equipped <a
+href="mechanical.html">mechanical</a> and <a
+href="electronics.html">electronic</a> workshops are located close-by
+and provide the manufacturing and maintenance expertise needed to
+maintain and re-configure the thermal vacuum chambers. The workshops
+are also used in the manufacture and integration of space
+instrumentation at all levels, from working prototype to qualified
+flight hardware.</p>
+
+<p>In close proximity to both the workshops and test facilities are the
+department's clean <a href="vibration_testing.html">vibration test
+facility</a> and <a href="clean_assembly_area.html">clean
+assembly area</a>. The latter is used to assemble and test sub-systems
+and small instruments. The inter-connected nature of the facilities
+and services allows for rapid prototyping, modification and repair,
+with a minimum of transfer of flight hardware off-site.</p>
+
+<p>Facilities for coating and <a
+href="http://www.physics.ox.ac.uk/electronics/pfu/pfu-web-page-dr-weave-htm.htm">photofabrication</a>
+are also available from within the Physics Department and have been
+used extensively in the fabrication of flight hardware. In particular,
+low-thermal conductivity cryogenic harnesses for detector arrays have
+been successfully manufactured for several projects, using
+photofabrication techniques.</p>
+
+</BODY></HTML>
+
+
+= ugh8 thoei 

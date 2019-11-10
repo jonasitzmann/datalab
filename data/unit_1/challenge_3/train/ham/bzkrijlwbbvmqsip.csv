@@ -1,0 +1,200 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+<HEAD><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="keywords" content="scotland, scots, scottish, geography, history, encyclopedia, encyclopaedia, people, places, cities, towns, villages, features, tourist, attractions, attraction, feature, family, names, families, famous, tourism, geographical, information, mountains, hills, lochs, lakes, rivers, historic, buildings, monuments, largest, biggest, best, gaelic, celtic, picts, scotch, regions, counties, county, parish, parishes, maps, gazetteer">
+<META name="description" content="A vast encyclopedia of Scottish towns, villages, geographical features, historic sites, family names and famous people.">
+<TITLE>Gazetteer for Scotland: Scottish Towns, Villages, Places, People, Families</TITLE>
+<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<style type="text/css">
+#ticker {
+position: relative;
+text-align: left;
+margin: 8px 8px 8px 8px;
+height: 25px;
+border-top: 2px solid #fcc;
+border-bottom: 2px solid #fcc;
+border-left: 2px solid #fcc;
+border-right: 2px solid #fcc;
+background-color: #f9f9f9;
+overflow: hidden;
+font-family: verdana;
+font-size: 14px;
+font-weight: bold;
+}
+#ticker a {
+text-decoration: none;
+font-size: 100%;
+}
+#odd    {
+position: absolute;
+text-align: left;
+margin: 2px;
+white-space: nowrap;
+}
+#even   {
+position: absolute;
+text-align: left;
+margin: 2px;
+visibility: hidden;
+white-space: nowrap;
+}
+</style>
+<script type="text/javascript" language="JavaScript" src="/scotgaz/scotgaz.js"></script>
+<script type="text/javascript">
+msg=new Array(
+
+'<a href="/scotgaz/towns/townfirst567.html">Featured Town: Thurso </a>',
+
+'<a href="/scotgaz/features/featurefirst1276.html">Featured Geographical Feature: Register House </a>',
+
+'<a href="/scotgaz/features/featurefirst2585.html">Featured Attraction:  Loch Achray</a>',
+
+'<a href="/scotgaz/people/famousfirst57.html">Featured Famous Scot: Dr. Thomas Chalmers</a>',
+
+'<a href="/scotgaz/families/familyfirst193.html">Featured Family: MacPhee</a>',
+
+'<a href="/scotgaz/events/eventfirst26.html">Featured Event: Stone of Destiny Stolen </a>');
+var scrollmsga,scrollmsgb,diva,divb,posa,posb;
+speed=50;
+divpause=1000;
+stop=20*-1;
+i=-1; firsttime=true;
+function scrolla(obja) { savobja=obja; posa=posa-1; if(posa<=-1) { clearTimeout(scrollmsga); setTimeout('ticker()',divpause) }
+else { ela.style.top=posa+'px'; ela.style.visibility='visible'; scrollmsga=setTimeout('scrolla(savobja)',speed) } }
+function scrollb(objb) { savobjb=objb; posb=posb-1; if(posb<=stop) { clearTimeout(scrollmsgb) }
+else { elb.style.top=posb+'px'; scrollmsgb=setTimeout('scrollb(savobjb)',speed) } }
+function ticker() { i++; j=i-1; posa=stop*-1; posb=0; ela=document.getElementById('even'); elb=document.getElementById('odd'); totnum=msg.length-1;
+if(i>=msg.length) { i=0; j=totnum; }
+if(firsttime) { firsttime=false; elb.innerHTML=msg[i]; setTimeout('scrollb(divb)',divpause); i++; ela.innerHTML=msg[i]; setTimeout('scrolla(divb)',divpause); }
+else { ela.innerHTML=msg[i]; elb.innerHTML=msg[j]; scrollb(divb); scrolla(diva); } }
+</script>
+</HEAD>
+<BODY ONLOAD="ticker();" BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000" ondragstart="return false">
+<TABLE BGCOLOR="#FFFFFF" WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD ROWSPAN="3" WIDTH="100" BGCOLOR="#FFCC33" ALIGN="CENTER" VALIGN="TOP">
+<TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B>Gazetteer<BR>for<BR>Scotland</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Gazetteer Welcome"><B> Help </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="#" onClick="popupGloss()"><B> Glossary </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Background.html"><B> Background </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/bookshop.html"><B> Bookshop </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Copyright.html"><B> Copyright </B></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Credits.html"><B> Credits </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Disclaimer.html"><B> Disclaimer </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Feedback.html"><B> Feedback </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/sgzexe/Stats"><B> Gaz Stats </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Sources.html"><B> Sources </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Sponsors.html"><B> Sponsors </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/anyword.html"><B>Any Word Search</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><A HREF="/scotgaz/bookshop.html"><img src="/scotgaz/images/new.gif" border="0"></A></TD></TR>
+</TABLE>
+</TD>
+<TD COLSPAN="3" HEIGHT="20" BGCOLOR="#FFFFFF" ALIGN="CENTER" VALIGN="BOTTOM">
+</TD></TR>
+<TR>
+<TD WIDTH="130" VALIGN="top" ALIGN="CENTER">
+<a href="/scotgaz/councils/councilfirst11.html"><IMG SRC="/scotgaz/images/title/p931sm.jpg" ALT=" Regions " BORDER="0" WIDTH=110></A>
+<a href="/scotgaz/features/featurefirst115.html"><IMG SRC="/scotgaz/images/title/glamis.jpg" ALT=" Tourist Attractions " BORDER="0" WIDTH=110></A>
+<a href="/scotgaz/people/famousfirst229.html"><IMG SRC="/scotgaz/images/title/p1220sm.jpg" ALT=" People " BORDER="0" WIDTH=110></A>
+<a href="/scotgaz/towns/townfirst338.html"><IMG SRC="/scotgaz/images/title/p2556sm.jpg" ALT=" Glasgow " BORDER="0" WIDTH=110></A>
+</TD>
+<TD BGCOLOR="#FFFFFF" VALIGN="top" ALIGN="center">
+<FONT FACE="Verdana, Arial, Helvetica, sans serif" COLOR="#000080" SIZE="2">
+<FONT SIZE="5"><B>Welcome to the<br></FONT><FONT SIZE="6">Gazetteer for Scotland</B></FONT><p>
+<P ALIGN="JUSTIFY">The <b><i>Gazetteer for Scotland</i></b> is a vast
+geographical encyclopaedia, featuring details of towns, villages, bens and glens from the
+Scottish Borders to the Northern Isles. The first comprehensive gazetteer
+produced for Scotland since 1885, it includes tourist attractions,
+industries and historical sites, together with histories of family
+names, biographies of famous people
+and descriptions of historical events associated with Scotland.
+The network of connections between all of these entries make this
+gazetteer unique. Visitors will also find we have included the text of
+Groome's 19th Century <i>Ordnance Gazetteer of Scotland</i> in our
+entries to provide a historical perspective.</P>
+
+<P ALIGN="JUSTIFY">With at least <b>
+
+     13826
+</b> detailed entries, the Gazetteer is already the largest Scottish resource
+available on the web, yet it is growing constantly, with some<b>
+
+       347
+</b> entries added or updated in the last week alone. Please look at
+'Gaz Stats' for more information.</P>
+
+<p align="left">Browse the <b><i>Gazetteer for Scotland</i></b> using either:</p>
+<TABLE WIDTH="90%" border=0>
+<TR>
+<TD ALIGN="CENTER"><b><font size="+1" FACE="Verdana,Arial,Helvetica,sans serif"><A HREF="/scotgaz/scotland.html">Maps <br>and Places</A></font></b></TD>
+<TD><font size="+1" FACE="Verdana,Arial,Helvetica,sans serif"><b>OR</b></font></TD>
+<TD ALIGN="CENTER"><b><font size="+1" FACE="Verdana,Arial,Helvetica,sans serif"><A HREF="/scotgaz/timeline.html">History <br>Time-Line</A></font></b></TD>
+<TD><font size="+1" FACE="Verdana,Arial,Helvetica,sans serif"><b>OR</b></font></TD>
+<TD ALIGN="CENTER"><b><font size="+1" FACE="Verdana,Arial,Helvetica,sans serif"><A HREF="/scotgaz/anyword.html">Search<br>Pages</A></font></b></TD>
+</TR>
+</TABLE>
+<P ALIGN="JUSTIFY">
+Alternatively, look at our:
+<div id="ticker">
+<div id="odd">
+<noscript>
+
+<a href="/scotgaz/towns/townfirst2775.html">FEATURED TOWN</a>,
+
+<a href="/scotgaz/features/featurefirst1448.html">FEATURED GEOGRAPHICAL FEATURE</a>,
+
+<a href="/scotgaz/features/featurefirst8731.html">FEATURED ATTRACTION</a>,
+
+<a href="/scotgaz/people/famousfirst362.html">FEATURED FAMOUS SCOT</a>,
+
+<a href="/scotgaz/families/familyfirst124.html">FEATURED FAMILY</a>,
+
+ or <a href="/scotgaz/events/eventfirst34.html">FEATURED EVENT</a>.
+Featured entries are changed regularly and are an excellent way
+to find out something new or a different place to visit
+next time you take a trip!</p>
+</noscript>
+</div>
+<div id="even"></div>
+</div>
+<P ALIGN="JUSTIFY">
+You can also use the interactive facilities in our free
+<A HREF="/scotgaz/members.html">Member's Area</A> to
+make maps and add your own comments to individual entries.</p><p>
+
+<TABLE BORDER="1" BGCOLOR="#FFE0D8" WIDTH="100%" CELLPADDING="5"><TR><TD><P ALIGN="JUSTIFY"><FONT SIZE="+1" FACE="Verdana,Arial,Helvetica,sans serif"><B>NEWS FLASH !</B></FONT><FONT SIZE=-1 COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans serif"><BR>
+A further 550 photographs for Dundee, Fife and Perth & Kinross have been added. That's more than 3500 new photographs online this year. Look out for more in the coming months!
+</P></FONT></TD></TR></TABLE>
+
+<P ALIGN="JUSTIFY">This Gazetteer is being developed jointly by Bruce
+Gittings of the University of Edinburgh and Dr. David Munro of the Royal
+Scottish Geographical Society.</P><BR>
+</FONT></TD><TD WIDTH="130" VALIGN="top" ALIGN="CENTER">
+<a href="/scotgaz/features/featurefirst2585.html"><IMG SRC="/scotgaz/images/title/p2380sm.jpg" ALT=" Geographical Features " BORDER="0" WIDTH=110></A>
+<a href="/scotgaz/families/familyfirst70.html"><IMG SRC="/scotgaz/images/title/p1527sm.jpg" ALT=" Family Names " BORDER="0" WIDTH=110></A>
+<a href="/scotgaz/towns/townfirst278.html"><IMG SRC="/scotgaz/images/title/p970sm.jpg" ALT=" Towns " BORDER="0" WIDTH=110></A>
+<a href="/scotgaz/towns/townfirst337.html"><IMG SRC="/scotgaz/images/title/p2308sm.jpg" ALT=" Edinburgh " BORDER="0" WIDTH=110></A>
+</TD></TR>
+<TD COLSPAN="3" BGCOLOR="#FFFFFF" ALIGN="CENTER" VALIGN="TOP">
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+
+<A HREF="/scotgaz/copyright.html">&#169;1995-2007
+The Editors of The Gazetteer for Scotland</A><BR> Supported by:
+
+<A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/rsgs/">The Royal Scottish Geographical Society,<BR></A>&nbsp;
+<A HREF="http://www.geos.ed.ac.uk/geography/">The Institute of Geography, University of Edinburgh.</A>&nbsp;
+<BR><BR></FONT>
+</TD>
+</TR></TABLE></BODY></HTML>
+
+
+0N,h"m"

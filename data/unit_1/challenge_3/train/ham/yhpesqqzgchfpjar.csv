@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : Free Resources</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/primary-languages_f2.gif','../images/free-resources_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center"><form>
+  <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"> <div align="center"> 
+          <table width="660" border="0" cellspacing="1" cellpadding="0">
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr> 
+                    <td width="50%" rowspan="3"><img src="../images/new-logo.gif" alt="Comenius Yorkshire and the Humber" width="217" height="86"></td>
+                    <td width="50%" height="62" valign="top"> <div align="right" class="topbar"><font color="#666666"><img src="../index_clip_image002_0002.jpg" width="192" height="41"><br><a href="../contact-us/index.htm"></a><a href="../about-us/index.htm"></a><a href="../find-us/index.htm"></a><a href="../index.htm"></a></font></div></td>
+                  </tr>
+                  <tr>
+                    <td height="27" valign="middle"><div align="right"><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"></font></div></td>
+                  </tr>
+                  <tr>
+                    <td valign="bottom"><div align="right"><font color="#666666"><a href="../contact-us/index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="../about-us/index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+                  </tr>
+                </table></td>
+            </tr>
+            <tr>
+              <td colspan="6">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="maintext style44"><div align="center"><strong><a href="../events-courses/index.htm">Courses &amp; Conferences</a> </strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="../links/index.htm">Links</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training1','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/index.htm" onMouseOver="MM_swapImage('events1','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks31','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../primary-languages/index.htm" onMouseOver="MM_swapImage('languages1','','../images/primary-languages_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../free-resources/index.htm" onMouseOver="MM_swapImage('free1','','../images/free-resources_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news1','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../links/index.htm" onMouseOver="MM_swapImage('links1','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="354"><div align="center"><span class="style1">Quia 
+                      Software</span></div></td>
+                      <td><div align="right"><img src="../images/image-bar/free-resources.jpg"  width="281" height="157"></div></td>
+                    </tr>
+                    
+                  </table></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td height="27" class="pageTitle">&nbsp;</td>
+                    </tr>
+                    <tr valign="middle" class="maintext"> 
+                      <td height="45"> 
+                        <div align="center">
+                          <table width="100%" height="50" border="0" cellpadding="1" cellspacing="1" bgcolor="#666666">
+                            <tr> 
+                              <td bgcolor="#999999"><table width="100%" height="48" border="0" cellpadding="0" cellspacing="0" bgcolor="#E2E2E2">
+                                  <tr> 
+                                    <td height="19"><div align="center"><span class="maintext"><a href="resources.htm">Resources 
+                                        at the Centre</a> / <a href="quia_excercises.htm">Quia 
+                                        software resources</a> / <a href="activ.htm"><br>
+                                        </a><a href="preparing-interactive.htm">Preparing 
+                                        interactive whiteboard lessons</a> /  <a href="word.htm">Interactive 
+                                        worksheets</a><br>
+                                        <a href="powerpoint.htm">Powerpoint presentations                                        </a> / <a href="index.htm">Top 
+                                        Resources</a></span></div></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                          </table>
+                        </div></td>
+                    </tr>
+                    <tr valign="top" class="maintext"> 
+                      <td> <p><br>
+                          The following teaching resources have been created for 
+                          you to use with your classes. In the first section, 
+                          your class will need to have access to the Internet. 
+                          They are created using &#8220;Quia&#8221; software from 
+                          the Internet. If you would like to find out how to create 
+                          your own such exercises, why not take a look at our <a href="#tutorial">tutorial 
+                          below</a></p>
+                        <p class="headlines">Quia Exercises: classes need use 
+                          of Internet</p>
+                        <p class="headlines">French</p>
+                        <ul>
+                          <li> <a href="http://www.quia.com/rr/40730.html" target="_blank">&#8220;A 
+                            tense Business&#8221;: Who wants to be a millionaire 
+                            style game to practice tenses in French</a></li>
+                          <li> <a href="http://www.quia.com/rd/14008.html" target="_blank">Ordered 
+                            List: conversation in French clothes shop which must 
+                            be correctly reordered</a></li>
+                          <li> <a href="http://www.quia.com/cb/34146.html" target="_blank">Challenge 
+                            Board: numbers and time in French</a></li>
+                          <li> <a href="http://www.quia.com/jg/362537.html" target="_blank">Classroom 
+                            Objects in French: matching pictures to words</a></li>
+                          <li> <a href="http://www.quia.com/cz/12916.html" target="_blank">Harry 
+                            Potter &agrave; l&#8217;&eacute;cole des sorci&egrave;res 
+                            cloze exercise</a></li>
+                          <li> <a href="http://www.quia.com/hm/106658.html" target="_blank">Hangman: 
+                            les salles dans la maison</a></li>
+                          <li> <a href="http://www.quia.com/pop/42551.html" target="_blank">La 
+                            famille de Bart Simpson pop up quiz</a></li>
+                          <li> <a href="http://www.quia.com/cm/22965.html" target="_blank">Little 
+                            words for GCSE column matching exercise</a></li>
+                          <li> <a href="http://www.quia.com/jg/364838.html" target="_blank">L&#8217;environnement 
+                            matching exercise</a></li>
+                        </ul>
+                        <p><span class="headlines">Spanish</span></p>
+                        <ul>
+                          <li> <a href="http://www.quia.com/pop/42553.html" target="_blank">El 
+                            Pret&eacute;rito: sentences with pop up choices</a></li>
+                          <li> <a href="http://www.quia.com/hm/106688.html" target="_blank">Hangman: 
+                            Navidad theme</a></li>
+                          <li> <a href="http://www.quia.com/pop/42556.html" target="_blank">Ser 
+                            y estar pop up sentences</a></li>
+                          <li> <a href="http://www.quia.com/cb/34620.html" target="_blank">Y8 
+                            Spanish challenge</a></li>
+                          <li> <a href="http://www.quia.com/cz/12925.html" target="_blank">Pret&eacute;rito 
+                            o Imperfecto cloze exercise</a></li>
+                          <li> <a href="http://www.quia.com/pp/2088.html" target="_blank">Picture 
+                            Perfect exercise: reorder Spanish months correctly 
+                            to create a picture</a></li>
+                          <li> <a href="http://www.quia.com/jq/19645.html" target="_blank">Capitals 
+                            of Spanish speaking countries mini quiz</a></li>
+                        </ul>
+                        <p><span class="headlines">German</span></p>
+                        <ul>
+                          <li> <a href="http://www.quia.com/jg/299698.html" target="_blank">Das 
+                            Fr&uuml;hstuck: match pictures with words</a></li>
+                          <li> <a href="http://www.quia.com/hm/22754.html">Furniture 
+                            vocabulary hangman</a></li>
+                          <li> <a href="http://www.quia.com/cb/22765.html" target="_blank">Time 
+                            and numbers in German challenge board</a></li>
+                          <li> <a href="http://www.quia.com/pop/30355.html" target="_blank">Accusative 
+                            or Dative? Practice tenses after prepositions (pop 
+                            up sentences)</a></li>
+                          <li> <a href="http://www.quia.com/sh/7562.html" target="_blank">Berlin 
+                            quiz scavenger hunt</a></li>
+                          <li> <a href="http://www.quia.com/rd/11518.html" target="_blank">Auf 
+                            dem Markt ordered list</a></li>
+                          <li> <a href="http://www.quia.com/rr/32932.html" target="_blank">Geld 
+                            und Klamotten: a &#8220;who wants to be a millionaire&#8221; 
+                            type game to test knowledge of clothes and pocket 
+                            money (Y9 suggested)</a></li>
+                          <li> <a href="http://www.quia.com/jq/50557.html" target="_blank">Gesch&auml;fte 
+                            Quiz: Was kann man wo kaufen?</a></li>
+                        </ul>
+                        <p><br><span class="headlines"><a name="tutorial"></a>Quia 
+                          software tutorial</span></p>
+                        <p>I have found this to be by far the best software to 
+                          create tailor-made interactive activities for use with 
+                          the interactive whiteboard or in a multimedia IT suite.</p>
+                        <p>First, access the Internet and go to the following 
+                          site: <a href="http://www.quia.com/web" target="_blank">http://www.quia.com/web</a></p>
+                        <p>Here you can firstly click on to &#8220;Get a 30-day 
+                          free trial&#8221;. You will need to give your e-mail 
+                          address for this and choose username and password.</p>
+                        <p>You can then use this username and password to log 
+                          in for the next month and if you like it, persuade your 
+                          school to subscribe (cost is approx. &pound;30 per year 
+                          for 1 person).</p>
+                        <p>Once you are in the &#8220;Instructor Zone&#8221;, 
+                          click on &#8220;Activities&#8221;. You can then create 
+                          a new activity from the following options:</p>
+                        <ul>
+                          <li> Matching, flashcard, concentration or wordsearch 
+                            (usually pairs e.g. English and FL equivalents or 
+                            FL and pictures)</li>
+                          <li> Challenge board ( a range of questions which get 
+                            harder and for which students can gain increasing 
+                            points is the activities get harder)</li>
+                          <li> Cloze (a traditional gap filling exercise in the 
+                            form of a paragraph, with option to include choice 
+                            of answer)</li>
+                          <li> Columns (students have too columns of words, ie 
+                            one in FL and one in English and they have to draw 
+                            lines to match words to their correct meanings)</li>
+                          <li> Hangman (as the name suggests &#8211; good fun 
+                            to use with the Interactive Whiteboard in front of 
+                            the whole class)</li>
+                          <li> Jumbled words (words, for example in a sentence 
+                            with each jumbled up)</li>
+                          <li> Ordered List (a list e.g. of sentences that must 
+                            be put in correct order. Good for simple dialogues)</li>
+                          <li> Picture Perfect (order a list of words to reveal 
+                            a picture)</li>
+                          <li> Pop Ups (sentences with a missing word, and a choice 
+                            of answers appears in a pop-up list. Good for practising 
+                            grammar points)</li>
+                          <li> Rags to Riches (IT version of the &#8220;Who wants 
+                            to be a millionaire&#8221; game)</li>
+                          <li> Scavenger Hunt (list of comprehension questions 
+                            and a list of websites from which students can find 
+                            the answers)</li>
+                        </ul>
+                        <p>You can also click on &#8220;Quizzes&#8221; in the 
+                          Instructor Zone to create a quiz or mini quiz, which 
+                          are multiple choice.</p>
+                        <p>Click on any of these options and start creating your 
+                          own. When you&#8217;ve finished, it gives you a web 
+                          address. Write this down with the name of activity and 
+                          when you want your students to go on it, just get them 
+                          to go onto the Internet and give them the website and 
+                          they can start!</p>
+                        <p>To look at what others have created, you can go to 
+                          the directory: <a href="http://www.quia.com/dir/french/" target="_blank">http://www.quia.com/dir/french/</a></p>
+                        <p>Here, you can see what others have created in many 
+                          different languages. As well as French, German and Spanish 
+                          (there are more than 1000 activities for each of these) 
+                          there&#8217;s Italian, Japanese, Dutch, Swedish and 
+                          many more. </p>
+                        <p>You can copy other people&#8217;s activities to your 
+                          own directory one you are a paid up subscriber, and 
+                          even edit them to suit your needs.</p>
+                        <p><strong>Wendy Adeniji</strong> - 
+                          Comenius Centre ICT Consultant</p>
+                        <p><br>
+                        </p></td>
+                    </tr>
+                  </table></td>
+            </tr>
+          </table>
+        </div></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD <br>
+        Telephone 0113 
+            283 7226<br>
+            <font color="#999999">Page last updated: 
+            <!-- #BeginDate format:fcAm1 -->Monday, March 5, 2007<!-- #EndDate -->
+            </font> </div></td>
+    </tr>
+  </table></form>
+  <p class="style">&nbsp;</p>
+</div>
+</body>
+</html>
+
+
+=isx>7edF	

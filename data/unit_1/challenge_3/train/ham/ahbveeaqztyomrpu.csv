@@ -1,0 +1,199 @@
+<HTML>
+<HEAD>
+<TITLE>Bruce Gittings' Home Page</TITLE>
+<meta http-equiv="Page-Exit" content="revealTrans(Duration=2.0,Transition=3)">
+<meta NAME="keywords" CONTENT="Gittings, Bruce, Bruce Gittings"
+</HEAD>
+
+<BODY>
+<H1><A HREF ="test.html">
+<IMG src="bmg_casual.gif" align="left"></A>
+&nbsp; This Page belongs to <br> &nbsp; Bruce M. Gittings</H1>
+<IMG src="cat_THROUGH_FLAP_S.gif" align="right">
+
+<P>
+<hr>
+
+<TABLE WIDTH="100%" BORDER="0">
+<TR><TD WIDTH="50%">
+<PRE>
+     Bruce M. Gittings,
+     Institute of Geography,
+     School of GeoSciences,
+     The University of Edinburgh,
+     Drummond Street,
+     EDINBURGH  EH8 9XP,
+     United Kingdom.
+     
+     Phone:  0131-650 2558 / 2543
+     FAX:    0131-650 2524
+     
+     E-Mail: <a href="mailto:bruce@geo.ed.ac.uk">bruce@geo.ed.ac.uk</a>
+     Web: <a href="http://www.gittings.net/">www.gittings.net</a>
+
+</PRE>
+</TD><TD>
+My <a href="http://www.geos.ed.ac.uk/people/person.html?indv=6">Official School Page</a>
+will tell you about my:
+<ul>
+<li> <a href="/thesislabexe/diss_sups?BMG">M.Sc. in GIS Students</a>
+<li> <a href="http://www.geos.ed.ac.uk/people/res_students.html?indv=6&uinitials=BMG">Research
+Students</a> 
+<li> <a href="http://www.geos.ed.ac.uk/people/publications.html?indv=6">Publications</a>
+</UL>
+</TD></TR></TABLE>
+
+<HR>
+<h3>Links:</h3>
+<dl>
+<dd>
+<img src="cats/anim-cat.gif" align="right">
+<img src="/icons/yellowdot.gif" alt="* ">
+Meet <a href="cats/cats.html">my Cats</a>
+<be clear=all>
+<dd>
+<img src="/icons/yellowdot.gif" alt="* ">
+<a href="/~brucebak/tree/index.htm">My Family Tree</a>
+<dd>
+<img src="/icons/yellowdot.gif" alt="* ">
+<a href="links.html">My links</a> - probably only of interest to me
+<dd>
+<img src="/icons/yellowdot.gif" alt="* ">
+<a href="server.html">OSU Server Developers Links</a> - only available locally
+<dd>
+<img src="/icons/yellowdot.gif" alt="* ">
+<a href="course_management.html">GIS Course Management</a> - you can't get in here
+</dl>
+<p>
+<h3>Web Achievements:</h3>
+<p>
+Most things on this Web Server have involved me,  but those I
+am particularly proud of include:
+<ul>
+<li> The <a href="/quakes/quakes.html">World-Wide Earthquake Locator</a>
+<li> My <a href="/home/ded.html">Digital Elevation Data Catalogue</a>
+<li> The <a href="/home/scotland/scotland.html">Gateway to Scotland</a>
+     <img src="/icons/gatelogo.gif">
+<li> The <a href="/scotgaz/">Gazetteer for Scotland</a>
+<li> The database-driven <a href="/home/staff/staff.html">staff and rooms</a>
+     section of this site, which includes a significant body of secure 
+     reports and full user-authorisation system, which I clearly can't
+     show here!
+<li> <a href="/home/research/spsi/spsi.html">Scottish Palaeoecological Site 
+     Index</a>
+<li> <a href="/tephra/maps/tephramap.html">TephraBase Maps</a>
+<li> Initiating and ongoing consultation over the 
+     <a href="http://www.agi.org.uk">AGI Web Site</a>
+<li> The History of <a href="/home/hsy/hsy.html">High School Yards</a>
+</ul>
+
+<hr>
+<h3>Countries Visited:</h3>
+
+<a href="http://www.world66.com/myworld66">
+<img src="http://www.world66.com/myworld66/visitedCountries/worldmap?visited=CAUSATBECZDKFIFRDEGRITLUMCNLRUSECHUKAECNTH">
+</a>
+<p>
+<a href="visit_europe.html">European Countries Visited</a> |
+<a href="visit_us.html">US States Visited</a> 
+
+
+<hr>
+<h3>My Responsibilities:</h3>
+<ul>
+<li> I am External Relations Co-ordinator for our 
+<A HREF="http://www.geos.ed.ac.uk/gis/">Masters Programme in GIS</A>.  
+<LI> I am also Director of the 
+<A HREF="/home/research/gispal/gispal.html">
+GIS Parallel Architectures Lab (GIS-PAL)</A>
+in Edinburgh. 
+<LI> As a part-time "hobby" I maintain 
+this Web Server.
+</ul>
+<HR>
+<h3>My research interests include:</h3>
+<p>
+<ul>
+<li>
+GIS Performance, the benefits of Parallel / Multi-Processing computer 
+architectures and Configurational / Systems Issues relating to GIS
+<li>
+Database Management Systems
+<li>
+Terrain Modelling and Elevation, Bathymetric and Terrain Meta-Data
+<li>
+User Interfaces for GIS and Geographical Databases, including access
+to spatial data over local and wide area networks,  including the use
+of technologies such as the World Wide Web
+</ul>
+<p>
+<h3>Research Projects &amp; Funding:</h3>
+<p>
+<ul>
+<li> &#163;34,000  SCRAN for the Gazetteer for Scotland Project (2002 - 2003)
+<li> &#163;100,000  RSGS/Robertson Trust/Carnegie Trust for the Gazetteer for Scotland Project (1997 - 2001)
+<li> &#163;110,000  EPSRC Grant to examine Portable Parallel Algorithms (1998 - 1999)
+<li> &#163;260,000  DTI/SERC Parallel Applications Programme (1991 - 1994)
+<li> &#163;570,000  Industrial funding for above
+<li> &#163;1M       Digital Equipment Corporation Ltd. (1990 - 1992)
+<li> &#163;150,000  Laser-Scan Ltd. (1990 - 1992)
+<li> &#163;31,000   ESRC/NERC Geog. Information Handling Initiative (1990 - 1992)
+
+<li> &#163;10,000 Implementation of a Palynological Database for Historic Scotland 
+     (1995)
+<li> &#163;10,000 Design of a Palynological Database for Historic Scotland (1994)
+<li> Computer Board 'Computers in Teaching' Project (1989)
+<li> &#163;5,000, British Geological Survey (1989)
+<li> Carto-net Automated Map Cataloguing Project (British Library). (1987)
+
+</ul>
+<P>
+
+<P>
+<h3>National Involvement with GIS and Geography:</h3>
+<p>
+<ul>
+<li>
+I serve on the Council, the Library & Information Committee and 'Images for
+All' Project Group of the 
+<a href="http://www.rsgs.org/">Royal Scottish Geographical Society</a> (RSGS)
+<li>
+I served on the Council and the Direct 
+Action Committee of the <a href="http://www.agi.org.uk">Association for 
+Geographic 
+Information</a> (AGI) as well as founding and chairing their 
+"Internet Management Group"
+<li>
+I am a founder member of AGI Scotland (the AGI's Scottish Regional Group) and
+serve on their Executive Group
+<li>
+I am a founding member of the <a href="/gisruk/gisruk.html">GIS Research 
+UK (GISRUK) conference series</a>, and currently chair the GISRUK Steering
+Committee
+<li>
+I was a member of the Confederation of  Scottish 
+Local Authorities (COSLA) GIS Forum
+<li>
+I was a member  of 
+the Advisory Committee of the Registers for Scotland 
+</ul>
+
+<hr>
+<h3>PUBLICATIONS...</h3>
+<p>
+<a href="/home/research/gispal/book.html"><img src="book.jpg"  border=0 alt="Parallel Algorithms for GIS"></a>
+<a href="http://www.amazon.co.uk/exec/obidos/ASIN/074840886X/"><img src="book2.jpg" border=0 alt="Integrating Information Infrastructures with GI Technology"></a>
+<a href="http://www.amazon.co.uk/exec/obidos/ASIN/0004724666/"><img src="book3.jpg" border=0 alt="Scotland: An Encyclopedia of Places and Landscape"></a>
+<p>
+A full list of my publications is held in our 
+<a href="http://www.geos.ed.ac.uk/people/publications.html?indv=6">School Publications
+database</a>, designed by Steve Dowers and myself.
+<hr>
+<embed src="music.mid" width="0" height="0" autostart="true" loop="true">
+<bgsound src="music.mid" loop="infinite">
+
+</BODY>
+</HTML>
+
+
+so>eamEtik	lu

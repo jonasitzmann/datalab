@@ -1,0 +1,64 @@
+<HTML>
+<HEAD>
+<TITLE> Running MORSE  </TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="morse.css">
+</HEAD>
+<BODY>
+<H1 CLASS=PAGE>Running MORSE</h1>
+<h6>13SEP05</H6>
+<HR>
+<P>
+<b>MORSE</b> is run in the same way as any other program under
+unix/linux.
+Assuming an executable called <b>morse</b> and has been 
+<a href=compile.html>compiled</a> in relative
+directory <b>../source/</b>, to run <B>MORSE</b> type
+<blockquote><DIV CLASS=TERMBOX><PRE><B>   ../source/morse</b></PRE></BOX></blockquote>
+Note that on some systems, if <b>morse</b> is in the local directory,
+you may need to type <b>./morse</b>
+rather than simply <b>morse</b>.
+<P>
+When run, <B>MORSE</b> attempts to open a file called <b>morse.drv</b> 
+(the <a href=driver.html>driver table</a>) in the local directory which
+determines which other files are required and 
+controls subsequent operations. No terminal inputs are required.
+<P>
+A typical terminal output for a successful run would then be something like
+<P> 
+<DL>
+<DD><BLOCKQUOTE><div class=termbox><PRE>R-MORSE: Running MORSE v25AUG05 
+I-MORSE: Processing PT__0001  686.400  689.400 30.0 68.0
+I-MSEMIC: Processing Sweep#01 Alt= 67.8 [km]
+I-MSEMIC: Processing Sweep#02 Alt= 59.9 [km]
+I-MSEMIC: Processing Sweep#03 Alt= 52.1 [km]
+...<br>
+R-MORSE: Successful completion<br></PRE></div></BLOCKQUOTE>
+</dl>
+<P>
+The messages <b>R-MORSE:...</b> are always the first and (if successful)
+last messages,
+the first message also confirming the <a href=updates.html>version</a> 
+of the software
+<P>
+The messages <B>I-MORSE: Processing ...</b> indicate each microwindow,
+its wavenumber and tangent altitude range as read from the 
+<a href=inputs.html#mwl><b>.lst</b> file</a>
+in the <a href=driver.html#mwl><B>*MWL</b></a> section of the driver table.
+<P>
+The messages <B>I-MORSE: Processing Sweep...</b> indicate each sweep#
+within the L1C data being processed for the current microwindow, 
+and its (revised) tangent altitude.
+<P>
+An <i>unsuccessful</I> run will terminate with an
+<a href=errors.html>error message</a> (usually the second line printed
+to the terminal) starting with <B>F-ABCDEF</B> where
+<b>ABCDEF</b> is the subroutine where the error was detected.
+<HR>
+<UL>
+<LI><a href=index.html>Back to MORSE Index</a>
+</UL>
+</BODY>
+</HTML>
+
+
+do< rw

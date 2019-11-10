@@ -1,0 +1,327 @@
+<html>
+<head>
+
+<title>
+
+CERES Harvest III.v</title>
+
+</head>
+
+<body background=gifs/sheaf2.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h2 align=center>CERES Harvest III.v<br>
+16.9.98</h2>
+<center><table><tr width=80%><td><h4>
+Hearing is but as the sowing of the Seed; talking is not sufficient to
+prove that fruit is indeed in the heart and life; and let us assure our
+selves, that at the day of Doom, men shall be judged according to their
+fruits. It will not be said then, Did you believe? but, Were you Doers, or
+Talkers only? and accordingly shall they be judged. The end of the World is
+compared to our Harvest, and you know men at Harvest regard nothing but
+Fruit.
+</h4></td></tr></table></center>
+<p>
+<hr>
+<h2 align=center>ELECTRONIC RESOURCES</h2>
+<p>
+<strong>ONLINE GLORIANA: SIMPLY THE BESS!</strong><br>
+CERES headed off around the internet to see what sort of presence Queen
+Elizabeth I could boast. Not surprisingly the most pleasing discoveries
+were reproductions of pictures, especially portraits, but there were other
+things of value. Disappointingly only one communication from the spirit
+world was turned up, and CERES fears that the medium involved may be a bit
+of a crank. No, really.
+<p>
+<cite><big>portraits</big></cite><br>
+There is a general Elizabethan site at <a href=http://tudor.simplenet.com/>http://tudor.simplenet.com/</a>.  
+This is good stuff: the enthusiastic owner tells stories and puts down the
+facts. There are also plenty of pics of the main players in the Tudor
+period. The site also includes material on Tudor architecture, including a few
+examples not in the CERES list of renaissance buildings on the web.  The best yield from this site is probably a nice row of Elizabeth portraits at <a href=http://tudor.simplenet.com/elizabeth/gallery.html>http://tudor.simplenet.com/elizabeth/gallery.html</a>.
+<p>
+There is typically gorgeous stuff from Luminarium at
+<a href=http://www.luminarium.org/renlit/elizface.htm>http://www.luminarium.org/renlit/elizface.htm</a>.  
+Lots of portraits, beautifully presented, although with (hem hem) an
+ungainly use of terminal long 's'.  Luminarium's list of links is very good, connecting to genealogies,
+biographies, etc. Don't get excited by the thought of an Elizabeth I Barbie
+Doll. That link does not work: outrageous! Plenty of other good things at
+<a href=http://www.luminarium.org/renlit/elizlink.htm>http://www.luminarium.org/renlit/elizlink.htm</a>.
+<p>
+<cite><big>elizabethan bacon?</big></cite><br>
+Permit yourselves a small chuckle at the description of a Hilliard painting
+as 'Elizabeth and her Son' at <a href=http://www.sirbacon.org/gallery/liz2.html>http://www.sirbacon.org/gallery/liz2.html</a>.  In fact the Baconians who run this site have a very good explanation for
+all this: Elizabeth's two sons were Essex (of course!) and Francis Bacon.
+To find out exactly what was going on here I had to pass through the main
+page of the site (<a href=http://www.sirbacon.org>http://www.sirbacon.org</a>) which features Bacon riding a
+motorbike decorated with the words 'Francis Bacon Is Shakespeare'. The next
+page I reached said that Bacon's plays have been attributed to 'William
+Shakespeare, an illiterate peasant'. At this point I came over all
+intolerant and set fire to my computer. I did not find out exactly what was
+going on.  But I did see a very attractive page with the astrological charts of the
+Queen and her (gulp) son, Francis Tudor Bacon (double gulp). It looks
+lovely at <a href=http://www.sirbacon.org/links/charts.htm>http://www.sirbacon.org/links/charts.htm</a>, but it means, er, whatever you decide, dear reader.
+<p>
+<cite><big>works</big></cite><br>
+For Elizabeth's works (poems, speeches, letters) head for Luminarium again.
+You can link to online versions of her works from here, some of which are
+held at Luminarium itself. Others are at Toronto (head for
+<a href=http://library.utoronto.ca/www/utel/rp/indexauthors.html>http://library.utoronto.ca/www/utel/rp/indexauthors.html</a>).
+<p>
+The Brown Women Writers Project, which has featured in our pages many times before, is due ever more respect for its contribution to the Elizabeth trawl.  There are various collections at
+<a href=http://swansong.stg.brown.edu:1081/dynaweb/>http://swansong.stg.brown.edu:1081/dynaweb/</a>. Two are particularly relevant to CERES, one being 'In Her Own Words: Elizabeth I Onstage and Online'. This has some detailed contextual material and texts of the surviving speeches. It is a high-level resource and the
+software does a decent job.  The other thing to check out here is 'Renaissance Women Online', with its
+many texts, contextual materials, and more general essays. This is another
+example of how those working on women's writing are making particularly
+good use of the opportunities offered by electronic media.
+<p>
+DynaWeb's strategy of using multiple windows makes it very clear where you are in the database.  In the end, this adds an enormous amount to these materials, outweighing the disadvantage of the smaller
+window size.  If you prefer a more conventional approach, you can get to the Elizabeth materials (and find out that 'In
+Her Own Words' is also a series of performances) in a more run-of-the-mill
+format via <a href=http://www.wwp.brown.edu/rich/QEIhome.html>http://www.wwp.brown.edu/rich/QEIhome.html</a>.  For more information on DynaWeb software, see <a href=http://www.inso.com/>http://www.inso.com/</a>.
+<p>
+<cite><big>handwriting</big></cite><br>
+Samples of Elizabeth's handwriting abound.  There's a copy of the queen's signature at
+<a href=http://www.handwriting.org/images/samples/qelizab1.htm>http://www.handwriting.org/images/samples/qelizab1.htm</a>.  You can find Henry VIII's scribble at the same site, and between the two
+English monarchs in the index of 'Political Leaders' is Ross Perot.
+Bizarre. They have several samples of Bill Clinton, all (fortunately) in
+ink.  Other versions of the signature include <a href=http://www.mala.bc.ca/~Lepage/Eliza.htm>http://www.mala.bc.ca/~Lepage/Eliza.htm</a> and <a href=http://tudor.simplenet.com/elizabeth/signature.gif>http://tudor.simplenet.com/elizabeth/signature.gif</a>(too clear to be true?).  As far as more prosey autographs go, there is a nice image of a document in which Elizabeth grants lottery cash to the Free Grammar School in Bury St Edmunds, available at <a href=http://www.suffolkcc.gov.uk/libraries_and_heritage/sro/e5_9_102.html>http://www.suffolkcc.gov.uk/libraries_and_heritage/sro/e5_9_102.html</a>.
+<p>
+<cite><big>elizabeth's sayings</big></cite><br>
+In an unusual perspective, five of Elizabeth I's most famous sayings are connected to five different
+kinds of creativity by the good people at bemorecreative.com. Now CERES
+didn't find itself very inspired by this, but you may feel that cynicism is
+our biggest problem.  Think creatively by starting at <a href=http://www.bemorecreative.com/one/612.htm>http://www.bemorecreative.com/one/612.htm</a>.
+<p>
+<cite><big>elizabethan costume</big></cite><br>
+If you're interested in Elizabethan costume, your best bet is to find your own path through the shimmering depths of  
+<a href=http://www.dnaco.net/~aleed/corsets/general.html>http://www.dnaco.net/~aleed/corsets/general.html</a>.
+This site has everything from the history of the Elizabethan corset to
+instructions on how to make a genuine Elizabethan bumroll. Much of the site
+is made up of instructions on how to make your own garments, but there is also
+general historical material. You can even search the wardrobe accounts of  Mary Tudor and Edward IV, an excellent feature which, sadly, wasn't working
+when CERES had a go. Still, if anyone finds out how many black lace
+petticoats Edward IV had, you know who wants to know. There are links to
+pictures of Elizabethan costume all over this site, and there is a good
+annotated bibliography from which you can leap to Amazon.com to order the
+books in question.  If CERES gave out some kind of award, this site would get two; Drea Leed, creator of this site, we salute you!
+<p>
+<strong>JAMESTOWN REDISCOVERY</strong><br>
+The Association for the Preservation of Virginia Antiquities keeps a website
+at <a href=http://www.apva.org/>http://www.apva.org/</a>.  Excavations and discoveries continue on the site of James I's settlement in
+Virginia. This site offers historical background, description of recent
+discoveries, plans for the future, and information about visiting. Some of
+the pages use a fairly basic question and answer format, but the information
+and presentation are usually interesting.
+<p>
+Williamsburg Online also has Jamestown pages, which are aimed at potential
+visitors and have background information. Find out what's available at
+<a href=http://www.williamsburg.com/james/james.html>http://www.williamsburg.com/james/james.html</a>.
+The main site at <a href=http://www.williamsburg.com>http://www.williamsburg.com</a> is a feast of colonial
+American fun.
+<p>
+<strong>AND ROANOKE TOO</strong><br>
+Lots of recent archaeology in Roanoke too, some of which is described on the Web.
+A good starting point is <a href=http://scrtec.org/track/tracks/t00428.html>http://scrtec.org/track/tracks/t00428.html</a>.
+This is a kind of public service thingummy called Trackstar, featuring lists of resources aimed at education. From here you can reach various resources related to discoveries about the mysterious lost colony.
+The most interesting link is to news of a discovery in 1996 of a possible
+Croatan Indian site, at <a href=http://www.nando.net/newsroom/nao/nc/030696/nct_1686.html>http://www.nando.net/newsroom/nao/nc/030696/nct_1686.html</a>.
+<p>
+One potentially very useful resource is run by Tom Langford of the
+International Internet Genealogical Society. For CERES purposes what is
+offered here is information (numbers and names) about settlers heading for
+colonies in the Americas. It has information about individual ships and
+about settlements, so you can get a list of the Roanoke settlers. It is not
+exhaustive or complete, but it is substantial. Start from <a href=http://www.primenet.com/~langford/>http://www.primenet.com/~langford/</a>.
+<p>
+Curiously enough, you can get Ralph Lane's account of the first Roanoke
+colony, and John Smith's account of Jamestown, via the list of Historical
+Documents put online by the National Center for Public Policy Research,
+URL: <a href=http://www.nationalcenter.org/HistoricalDocuments.html>http://www.nationalcenter.org/HistoricalDocuments.html</a>. The NCPPR's list of documents, set out in chronological order, is
+presumably designed to convert anyone who reads too many of them to
+'Conservative' views, so CERES urges <strong>considerable caution</strong> in the use of
+this site.  For an alternative view, head for the relevant section of Hakim Bey's 'The
+Temporary Autonomous Zone' at <a href=http://www.notam.uio.no/~mariusw/bey/taz/taz.html#labelGoneToCroatan>http://www.notam.uio.no/~mariusw/bey/taz/taz.html#labelGoneToCroatan</a>.
+<p>
+There are links to various sources of online information about the Lost
+Colony from <a href=http://www.kidinfo.com/American_History/Colonization_Roanoke.html>http://www.kidinfo.com/American_History/Colonization_Roanoke.html</a>.  However, it is possible that many CERES members are well-informed and/or
+self-conscious enough not to want to visit any site called Kid Info.
+<p>
+Some of John White's engravings made during his time in the Roanoke colony can be
+seen at <a href=http://www.philaprintshop.com/debry.html>http://www.philaprintshop.com/debry.html</a> as part of their De Bry
+series. The Philadelphia Print Shop is actually trying to sell you things
+at this site, but CERES emerged with wallet unscathed, although the
+pictures are great.
+<p>
+<strong>RENAISSANCE NEWS AND NOTES</strong><br>
+The latest issue of Renaissance News and Notes, including information and
+registration forms for the 1999 RSA conference, has just been put on the
+RSA website  (<a href=http://www.r-s-a.org>http://www.r-s-a.org</a>).
+<p>
+<strong>AENEID BOOK 13 ONLINE</strong><br>
+Maffeo Vegio's addition of a thirteenth book to the Aeneid has never much
+impressed modern readers but it was a common and significant accompaniment
+to Virgil's epic in the Renaissance. Web hero David Wilson-Okamura has put
+the text online, made it searchable, and included Twyne's translation. Good
+work!  
+<ul>
+<li>Latin text (from the editio princeps, 1471)
+<a href=http://www.virgil.org/supplementa/vegio-latin.htm>http://www.virgil.org/supplementa/vegio-latin.htm</a>
+<li>English translation (by Thomas Twyne, 1584) <a href=http://www.virgil.org/supplementa/vegio-twyne.htm>http://www.virgil.org/supplementa/vegio-twyne.htm</a>
+<li>Search Vegio's text <a href=http://www.virgil.org/texts>http://www.virgil.org/texts</a>
+</ul>
+To try the search engine, first select 'Vegio's Supplementum' from the
+'Query scope' pull-down menu. Or, to compare Vegio's usage with Virgil's,
+select 'Vegio's Supplement & Virgil's works.'
+<p>
+<strong>MORE RENASCENCE EDITIONS</strong><br>
+Richard Bear's excellent project yields more electronic texts:
+<ul>
+<li>Mary Sidney, Countess of Pembroke's <cite>The Tragedie of Antonie</cite> is available
+at <a href=http://darkwing.uoregon.edu/~rbear/antonie.html>http://darkwing.uoregon.edu/~rbear/antonie.html</a>.
+<li>Roger Ascham's <cite>The Scholemaster</cite> is available (in a transcription by Judy
+Boss) at <a href=http://darkwing.uoregon.edu/~rbear/ren.htm>http://darkwing.uoregon.edu/~rbear/ren.htm</a>.
+</ul>
+<p>
+<strong>RESOURCES IN ART HISTORY</strong><br>
+Adrienne DeAngelis of Rutgers has started up a site called 'Resources in
+Art History for Graduate Students', located at
+<a href=http://www.eden.rutgers.edu/~acd>http://www.eden.rutgers.edu/~acd</a>.
+This lists fellowships, grants, internships, symposia and other types of
+assistance for graduate students in art history and related fields.
+<p>
+<strong>VERSIFICATION</strong>
+The Versification web page has now moved to the following URL:
+<a href=http://sizcol.u-shizuoka-ken.ac.jp/versif/versification.html>http://sizcol.u-shizuoka-ken.ac.jp/versif/versification.html</a>.  Follow links for information about the Versification discussion list.
+<p>
+<strong>EXPLORATIONS IN RENAISSANCE CULTURE</strong><br>
+Another nice journal website, with information and tables of contents. URL: <a href=http://www.smsu.edu/English/eirc/eirc.html>http://www.smsu.edu/English/eirc/eirc.html</a>.
+
+<p>
+<small><a href=#top>Back to top.</a><br>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+</html>
+
+
+
+treu/e
+ mng

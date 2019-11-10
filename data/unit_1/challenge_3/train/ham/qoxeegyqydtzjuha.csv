@@ -1,0 +1,106 @@
+<head>
+<title>Daniel Lea's PhD work</title>
+</head>
+
+<body bgcolor="#BBDDFF">
+<img src="sm_eddies.gif" align=left
+ hspace=10>
+<h1>Daniel Lea</h1>
+
+<p>I'm a postdoc who was working in Oxford in <a
+href="http://www.atm.ox.ac.uk">atmospheric
+oceanic and planetary physics</a> in the <a
+href="http://www.atm.ox.ac.uk/group/ocean/">physical oceanography
+group</a>. I've now moved to Johns Hopkins University Applied Physics
+Laboratory in Maryland, USA. I still working on Data assimilation,
+however.
+
+<p>I was looking at 4D variational assimilation of ERS altimetry and ATSR
+radiometric sea surface temperatures into an ocean model. The model used
+is a reduced gravity multi-layer shallow water model based on a model
+developed in Oxford. </p>
+
+<p>My <a href="thesis.ps.gz">thesis can be downloaded here.</a>
+(gzipped postscript).
+
+<p>
+My <a
+href="report.ps">first year report</a>
+contains much more detail on my work. Also here is my
+<a href="progress.ps">
+second year report</a>.</p>
+
+<p>I've also done some work with the Lorenz(1963) system including testing
+the ideas of data assimilation which I will apply to the ocean system. 
+Also I have looked at the limitations of sensitivity analysis using the
+adjoint method, and possible ways around it. Download a copy of my first 
+paper 
+<a href="sensitivity.ps">Sensitivity
+analysis of the climate of a chaotic system</a> (Tellus A - Oct 2000).
+
+<!p><!There's also 'Waterworld' or what happens to ocean circulation in a
+world with no continents; which is pretty boring so far unfortunately.
+However I've also just found out about 'Self Organised Criticality' from a
+book by Per Bak (lent to me by Tom Haine) which is fantastically exciting.
+Basically it is an attempt to understand how complexity arises from very
+simple systems. It could be relavant to fluid dynamics and oceanography
+and I think it's actually quite deep philosophically as well
+as scientifically. I could (and probably will) waste many hours
+investigating this!><!/p>
+
+<p>I've helped with the practicals for the spring school on quantitive
+earth observation which was held here in Oxford at Easter 1999 and 2000.
+Here are some <a href="spring_school.html">notes I wrote for the EO Spring
+school. 1999</a></p>
+
+<p>Read my <a href="cv.txt">CV</a>.
+
+<hr>
+<h1>Selected Publications</h1>
+
+<p>
+<b>D. J. Lea</b> (2001). 
+<em><a href="thesis.ps.gz">
+Joint assimilation of sea surface temperature and sea surface height.
+</a></em>
+DPhil thesis (Oxford University).
+
+<p>
+<b>D. J. Lea</b>, M. R. Allen, T. W. N. Haine, J. Hansen (2001).
+<em><a href="sac2abs.html">Sensitivity analysis of the climate of a
+chaotic
+ocean circulation
+model</em> (abstract only)</a>.
+In preparation. (available soon).
+Email me at <a href="mailto:lea@atm.ox.ac.uk">lea@atm.ox.ac.uk</a> for
+more info.
+
+
+<p><b>D. J. Lea</b>, M. R. Allen, T. W. N. Haine (2000).
+<em><a href="sensitivity.ps">Sensitivity
+analysis of the climate of a chaotic system</a></em>. Tellus 52A
+pp523-532.
+
+<p><b>D. J. Lea</b> (1999).
+<em><a
+href="progress.ps">Second year report</a></em>.
+Atmospheric, Oceanic and Planetary Physics, Dept. of Physics, Clarendon
+Laboratory, Parks Road, Oxford OX1 3PU, UK. 
+<p>
+
+<p><b>D. J. Lea</b> (1998).
+<em><a
+href="report.ps">First year report</a></em>.
+Atmospheric, Oceanic and Planetary Physics, Dept. of Physics, Clarendon
+Laboratory, Parks Road, Oxford OX1 3PU, UK. 
+
+
+<hr>
+Email me at <a
+href="mailto:leaNO@SPAMatm.ox.ac.uk">leaNO@SPAMatm.ox.ac.uk</a>. (Remove
+the NO and SPAM to use).
+<p>Last updated 17 Jan 2001. 
+</body>
+
+
+iKeee

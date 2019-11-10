@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>ALL SAINTS - ALL STARS</title>
+<link href="micro.css" rel="stylesheet" type="text/css" />
+<link href="indexRollover.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="sifr/sIFR-screen.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="sifr/sIFR-print.css" type="text/css" media="print" />
+
+<script src="sifr/sifr.js" type="text/javascript"></script>
+<script src="sifr/sifr-addons.js" type="text/javascript"></script>
+<script type="text/javascript" src="flashobject.js"></script>
+<script type="text/javascript" src="allstarsJavaScript.js"></script>
+
+<style type="text/css">
+<!--
+#flashcontent {
+width:738px;
+z-index:1px;
+background:##FFFFFF;
+}
+#flashobject {
+z-index:1px;
+}
+.style1 {font-size: 14px}
+-->
+</style>
+</head> 
+<body>  
+<div >
+			
+		</div>
+<div id="container" >
+	<div id="flashcontent" style="background:#FFFFFF">
+		Sorry you need Flash Plugin 7 or higher.
+	</div>
+	<div id="flashobject">
+		<script type="text/javascript">
+			//FlashObject(swf,name,width,height,version,color)
+			var fo = new FlashObject("allstars_navSplash.swf","allstars","738px","180px","7","#FFFFFF");
+			fo.addParam("allowScriptAccess", "sameDomain");
+			fo.addParam("menu", "false");
+			fo.addParam("wmode", "transparent");
+			fo.write("flashcontent");
+			//
+		</script>
+	</div>
+	
+		<div id="content_green" style="background:#ffffff; clear:both; border-bottom-color:#A3163E;">
+			<div style="width:640px; margin:auto; background:#ffffff">
+			
+				<table width="640" border="0" cellspacing="0" cellpadding="0" summary="select a year in which to commence your studies">
+					<tr>
+						<td width="300"><div class="outer1"><a href="processing/set-site-view.asp?sd=S2007" title="I am hoping to start studying in 2007"><div class="displaynone">I am hoping to start studying in 2007</div></a></div></td>
+						
+						<td width="40"><img src="images/spacer.gif" width="40" height="50" alt="" border="0"/></td>
+						
+						<td width="300"><div class="outer2"><a href="processing/set-site-view.asp?sd=S2008" title="I am hoping to start studying in 2008"><div class="displaynone">I am hoping to start studying in 2008</div></a></div></td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+		
+			
+	
+		
+	<div id="footer">
+				<table width="728" border="0" cellspacing="0" cellpadding="0" >
+			<tr>
+				<td width="10" valign="top"><img src="images/spacer.gif" width="10" height="50" /></td>
+				
+				<td width="270" valign="top"><div style="margin:10px; 0 0 0"><a href="/index.asp"><img src="images/trinityLogo_sm.jpg" alt="leeds trinity and all saints logo" border="0"/></a></div></td>
+				<td width="290" valign="top"><div class="footerText" style="margin:20px 0 0 0;">LEEDS TRINITY &amp; ALL SAINTS - <a href="contactus.asp">CONTACT US</a></div></td>
+				<td width="178" valign="top" align="right"><div style="margin:20px 0 0 0; font-size:10px">Website partner: <a href="http://www.fmedia.co.uk/" target="_blank">Future Media</a></div></td>
+			</tr>
+		</table>
+	</div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+/* Replacement calls. Please see documentation for more information. */
+
+if(typeof sIFR == "function"){
+
+// This is the preferred "named argument" syntax
+	sIFR.replaceElement(named({sSelector:"div.footerText", sFlashSrc:"sifr/gill.swf", sColor:"#6A6A6A", sLinkColor:"#6A6A6A", sBgColor:null, sHoverColor:"#CCCCCC", nPaddingTop:1, nPaddingBottom:1, sFlashVars:"textalign=left&offsetTop=1&underline=true",sWmode:"transparent"}));
+};
+
+//]]>
+</script>
+</body>
+</html>
+
+
+ o -a	a/<g.bs e

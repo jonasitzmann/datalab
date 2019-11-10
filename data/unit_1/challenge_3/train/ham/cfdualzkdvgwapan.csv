@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>P Leaching in the UK - Soil Microbial Biomass Group  - Rothamsted Research 2005</title>
+<link rel="stylesheet" href="dependant/emx_nav_left.css" type="text/css">
+<script type="text/javascript">
+<!--
+var time = 3000;
+var numofitems = 5;
+
+//menu constructor
+function menu(allitems,thisitem,startstate){
+  callname= "gl"+thisitem;
+  divname="subglobal"+thisitem;
+  this.numberofmenuitems = 5;
+  this.caller = document.getElementById(callname);
+  this.thediv = document.getElementById(divname);
+  this.thediv.style.visibility = startstate;
+}
+
+//menu methods
+function ehandler(event,theobj){
+  for (var i=1; i<= theobj.numberofmenuitems; i++){
+    var shutdiv =eval( "menuitem"+i+".thediv");
+    shutdiv.style.visibility="hidden";
+  }
+  theobj.thediv.style.visibility="visible";
+}
+
+function closesubnav(event){
+  if ((event.clientY <48)||(event.clientY > 107)){
+    for (var i=1; i<= numofitems; i++){
+      var shutdiv =eval('menuitem'+i+'.thediv');
+      shutdiv.style.visibility='hidden';
+    }
+  }
+}
+// -->
+</script>
+</head>
+<body onmousemove="closesubnav(event);">
+<div id="masthead">
+  <h1 id="siteName">Soil Microbial Biomass Research Group </h1>
+  <div id="utility">
+    <a href="index.html" target="_blank">Home</a> | <a href="sitemap.html">Site Map</a> | <a href="mailto:philip.brookes@bbsrc.ac.uk" target="_blank">Contact</a>
+  </div>
+  <div id="globalNav">
+    <img alt="" src="dependant/gblnav_left.gif" height="32" width="4" id="gnl"> <img alt="" src="dependant/glbnav_right.gif" height="32" width="4" id="gnr">
+    <div id="globalLink">
+      <a href="#" id="gl1" class="glink" onmouseover="ehandler(event,menuitem1);">Home
+	  </a><a href="#" id="gl2" class="glink" onmouseover="ehandler(event,menuitem2);">People
+	  </a><a href="#" id="gl3" class="glink" onmouseover="ehandler(event,menuitem3);">Projects
+	  </a><a href="#" id="gl4" class="glink" onmouseover="ehandler(event,menuitem4);">Methods
+	  </a><a href="#" id="gl5" class="glink" onmouseover="ehandler(event,menuitem5);">Links
+	  </a>
+    </div>
+    <!--end globalLinks-->
+  </div>
+  <!-- end globalNav -->
+  <div id="subglobal1" class="subglobalNav">
+    <a href="index.html">Soil Microbial Biomass Group</a> | <a href="http://www.rothamsted.bbsrc.ac.uk/aen/">SS Home</a> | <a href="http://www.rothamsted.bbsrc.ac.uk/aen/CarbonCycling/">Carbon Cyling Home</a> | <a href="http://www.rothamsted.ac.uk">RRes Home</a>
+  </div>
+  <div id="subglobal2" class="subglobalNav">
+    <a href="phil.html">Prof. Phil Brookes</a> | <a href="sarah.html">Sarah Kemmitt</a> | <a href="anna.html">Anna Swain</a> | <a href="kathy.html">Kathy Snars</a> | <a href="lorette.html">Lorette Michallon</a> |<a href="visiting.html">Visiting Workers</a>
+  </div> <div id="subglobal3" class="subglobalNav">
+    <a href="paradox.html">Mineralization paradox</a> | <a href="survival.html">SMB survival</a> |<a href="puk.html">P leaching-UK</a> | <a href="pchina.html">P leaching-China</a> | <a href="pafrica.html">P-Africa</a> | <a href="tillage.html">Tillage</a> | <a href="compost.html">Compost</a>
+  </div> <div id="subglobal4" class="subglobalNav">
+    <a href="methintro.html">introduction</a> | <a href="methdnld.html">download lab manual</a>
+  </div>
+  <div id="subglobal5" class="subglobalNav">
+    <a href="linkint.html">Internal</a> | <a href="linkext.html">External</a>
+  </div>
+</div>
+<!-- end masthead -->
+<div id="pagecell1">
+  <!--pagecell1-->
+  <img alt="" src="dependant/tl_curve_white.gif" height="6" width="6" id="tl"> <img alt="" src="dependant/tr_curve_white.gif" height="6" width="6" id="tr">
+  <div id="breadCrumb">
+  </div>
+  <div id="pageName">
+    <h2>Phosphorus leaching in the UK </h2>
+
+  </div>
+  <div id="pageNav">
+    <div id="sectionLinks">
+    </div>
+    <div id="advert">
+      <img src="images/Rres%20LogoMed.gif" alt="Rothamsted Research Logo" width="100" height="129" /> <BR CLEAR=ALL><img src="images/IGER100px_w.jpg" alt="IGER Logo" width="100" height="107" /> </div>
+  </div>
+  <div id="content">
+    <div class="feature">
+      <img src="images/rowdenaerial.jpg" alt="aerial photo of Rowden Moor" width="200" height="129">
+      <h3>The contribution of microbial phosphorus to P leaching.</h3>
+      <p>Rothamsted workers: <a href="mailto:%20philip.brookes@bbsrc.ac.uk">Phil Brookes</a>, <a href="mailto:%20kathy.snars@bbsrc.ac.uk">Kathy Snars</a>.</p>
+      <p>IGER workers:<a href="mailto:%20phil.haygarth@bbsrc.ac.uk">Phil Haygarth</a>, <a href="mailto:%20phil.murray@bbsrc.ac.uk">Phil Murray</a>, <a href="mailto:%20Martin.blackwell@bbsrc.ac.uk">Martin Blackwell</a>, <a href="mailto:%20jenny.stamp@bbsrc.ac.uk">Jenny Stamp</a>.</p>
+      <p>&nbsp;</p>
+      <p>Funding: BBSRC.   Please note that this is one of the first projects under the Cross Institute Programme for Sustainable Soil Function and the page for this project will be transferred to the new CIP web site once it is launched.</p>
+      <p>&nbsp;</p>
+      <h2>Background to Project.</h2>
+      <p>       We are investigating the interactions between soil microbial biomass phosphorus (P) and potential for the movement of P to watercourses in two contrasting agricultural systems, grassland and arable. We are studying  a range of scales, from microcosms to field scale representing the two systems and subjected to a range of hydrological stresses (i.e. wetting & drying/rewetting or flooding).  In the UK, arable sysytems usually have long periods of bare soil, especially during the wetter winter months. In contrast grassland has continuous crop cover.</p><p> The soil microbial biomass (the sum of the biomasses of all soil micro-organisms) may have a fresh weight of several tonnes in arable soils and more in grassland systems. Thus the biomass can be considered as a labile reservoir of phosphate (P) and other plant nutrients which may become mineralised and /or mobilized during the process of biomass turnover. The natural hydrological cycles and events (i.e. showers of rain) are some of the key components in soil ecosystems which influence the rate of turnover of the microbial biomass, and, of course, biomass P.  </p><p>Soil wetting and drying cycles are known to increase the rate of microbial turnover. Such occurrences, coupled with gross hydrological disturbance, for example storms or flooding, may contribute substantially to losses of P from the soil system to adjacent watercourses, with catastrophic results for waters in terms of eutrophication.</p>
+ <p>
+ <img src="images/making_lysimeters_1.jpg" alt="lysimeter" width="250" height="187">
+ <img src="images/making_lysimeters_2.jpg" alt="lysimeter" width="250" height="187"> Making lysimeters<BR CLEAR=ALL>
+
+
+</p> <BR CLEAR=ALL>   <p>
+<img src="images/making_lysimeters_3.jpg" alt="lysimeter" width="250" height="187">
+ <img src="images/making_lysimeters_4.jpg" alt="lysimeter" width="250" height="187"> <BR CLEAR=ALL>
+
+
+</p>
+<br />
+<h2></h2>
+      <p></p>
+    </div>
+    <div class="story"></div>
+  </div>
+   <div id="siteInfo">
+     <div align="center"><a href="index.html">About Us</a> | <a href="sitemap.html">Site
+      Map</a> | <a href="mailto:philip.brookes@bbsrc.ac.uk">Contact Us</a> | &copy;2004
+      Rothamsted Research </div>
+   </div>
+</div>
+<!--end pagecell1-->
+<br />
+<script type="text/javascript">
+    <!--
+      var menuitem1 = new menu(5,1,"hidden");
+			var menuitem2 = new menu(7,2,"hidden");
+			var menuitem3 = new menu(7,3,"hidden");
+			var menuitem4 = new menu(7,4,"hidden");
+			var menuitem5 = new menu(7,5,"hidden");
+
+    // -->
+    </script>
+</body>
+</html>
+
+
+ t=e;ak;is

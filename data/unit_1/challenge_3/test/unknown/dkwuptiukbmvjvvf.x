@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>business insurance Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=business-and-finance"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">business and finance</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=small-business-finance"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">small business finance</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=business-gift"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">business gift</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=business-promotional-gift"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">business promotional gift</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=home-business"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">home business</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=home-based-business"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">home based business</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=business-commerce-home"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">business commerce home</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=business-insurance"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">business insurance</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=internet-business"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">internet business</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=internet-business-opportunity"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">internet business opportunity</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=ad-on-internet-business-opportunity"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">ad on internet business opportunity</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=business-travel"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">business travel</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">business insurance Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://www.thehighstreetweb.com"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Great Business Insurance Deals</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Choose from a variety of the UK's favourite business insurance specialists. Great deals and the latest offers.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.thehighstreetweb.com</font><br><br>
+<br><a href="http://www.axa-insurance.co.uk"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Business Insurance</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Business insurance inc. shop and home based business packages provided by AXA Insurance UK plc.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.axa-insurance.co.uk</font><br><br>
+<br><a href="http://shopshrewd.co.uk"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Shopshrewd UK directory</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Compare the leading offers in our UK focused directory.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://shopshrewd.co.uk</font><br><br>
+<br><a href="http://www.britishwebsearch.com"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Find the Best Business Insurance Sites with Britishwebsearch.com</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Let British Web Search do the hard work for you - British results only - our directory will find Business Insurance websites for you. The top websites listed in one place for your convenience.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.britishwebsearch.com</font><br><br>
+<br><a href="http://www.insurance2day.co.uk"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Business Insurance Quotes</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>For all your business insurance needs visit www.insurance2day.co.uk and complete your details for same day quotes. Instant cover available. Mainland UK only.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.insurance2day.co.uk</font><br><br>
+<br><a href="http://www.ask.com"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Find Business Insurance at Ask.com</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Visit www.ask.com to find a great selection of insurance providers online.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.ask.com</font><br><br>
+<br><a href="http://www.businessinsurance.org.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>BusinessInsurance UK - Cheap Small Business Insurance and Medium Business Insurance Quotes - BusinessInsurance .org.uk </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>BusinessInsurance .org.uk home secured loans unsecured loans tenant loans student finance remortgages car insurance life insurance bike insurance van insurance business insurance savings Search: Ch...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.businessinsurance.org.uk/</font><br><br>
+<br><a href="http://www.petbusinessinsurance.co.uk/default.aspx"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Pet Business Insurance - Public Liability, Professional Indemnity, Liability to Animals, Employers Liability </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>HOME About Pet Business Insurance Contact us Enquiry form Call back General enquiry Insurance for Pet Boarding Pet Minder Pet Sitter Dog Walker Dog Trainer Pet Behaviourist Dog Groomer Mobile Dog G...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.petbusinessinsurance.co.uk/default.aspx</font><br><br>
+<br><a href="http://www.theaa.com/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>The AA: Car Insurance, Breakdown Cover, Loans, Motoring Advice, Travel and Maps </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Car Buyers Guide Insurance Car insurance Home insurance Travel insurance Van insurance Motorcycle insurance Pet insurance Life insurance Business insurance Classic car insurance Loans Personal ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.theaa.com/</font><br><br>
+<br><a href="http://www.smallbusiness.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Small business advice business start up small business finance solutions </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Franchise checklist Franchise your business Case studies Jargon buster Q&A Forum Ask a question There are 850 posts Offers Get Business Insurance with Premierline Low cost Business Insurance On...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.smallbusiness.co.uk/</font><br><br>
+<br><a href="http://www.shopperuk.com/business-to-business/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>UK Business to Business UK - Business Economy - Business Finance - Home Business Opportunity </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... can save up to 30%? Select a Country » May 04, 2007 Product Search Web Search Bookmark this Page Set as Home Page 1 2 3 Barclays Business Insurance Cover - You could get two months free cover w...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.shopperuk.com/business-to-business/</font><br><br>
+<br><a href="http://news.bbc.co.uk/1/hi/business/2310575.stm"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>BBC NEWS Business Holidaymakers 'miss out' on insurance </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... number of travellers taking advantage of low cost air travel and late holiday deals. See also: 04 Oct 02 Business Insurance warning for holiday makers 04 Oct 02 Breakfast How a mini-break could...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://news.bbc.co.uk/1/hi/business/2310575.stm</font><br><br>
+<br><a href="http://en.wikipedia.org/wiki/American_Family_Insurance"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>American Family Insurance - Wikipedia, the free encyclopedia </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... 2 Operating Territory 3 Products 3.1 Vehicle Insurance 3.2 Property Insurance 3.3 Health Insurance 3.4 Life Insurance 3.5 Business Insurance 3.6 Financial Products 4 Company History 5 Reference...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://en.wikipedia.org/wiki/American_Family_Insurance</font><br><br>
+<br><a href="http://www.datinglove.biz/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>datinglove.biz - Domain Name Holding Page - Telivo.com </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Free Online Casino , Video Poker , Black Jack , Slots , Craps More.. Insurance Van Insurance , Business Insurance , Pet Insurance , Motorcycle Insurance , Travel Insurance , Insurance Brokers M...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.datinglove.biz/</font><br><br>
+<br><a href="http://www.artworldonline.co.uk/205-forigen-business-insurance-bro ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>forigen business insurance brokers </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Find more forigen business insurance brokers on site: forigen business insurance brokers where can i get money for a new business magnet business card holders business planning for not for profit o...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.artworldonline.co.uk/205-forigen-business-insurance-bro ...</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+1nh_iteG l

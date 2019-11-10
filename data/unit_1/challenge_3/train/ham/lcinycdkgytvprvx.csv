@@ -1,0 +1,86 @@
+<HTML>
+<HEAD>
+<TITLE> MIPAS Documents from Oxford </TITLE>
+</HEAD>
+<BODY bgcolor="white">
+<font face="sans-serif" size=2>
+<center>
+<img src="../ncrest.gif" align=left height=100>
+<img src="../aopp_3.gif" align=right height=80>
+<H1>MIPAS Documents from Oxford</H1>
+</center>
+
+<HR>
+TN = Technical Note, MA = Manual
+<dl>
+<dt>
+<a href="PO-TN-OXF-GS-0011.txt">PO-TN-OXF-GS_0011</a> (ASCII Text) Dec'04
+<DD> SVD-Decompression for tabulated k-coefficients
+<DD><i> Task 1.5, CCN2 11886/96/NL/GS</i>
+
+<DT><a href="PO-TN-OXF-GS-0012.pdf">PO-TN-OXF-GS-0012</a> (pdf file) Apr'99
+<DD>  Retrieval errors due to spectral errors
+<DD>  <i>Task 4, CCN3 11886/96/NL/GS</i>
+
+<dt><a href="PO-TN-OXF-GS-0013.pdf">PO-TN-OXF-GS-0013</a> (pdf file) Sep'99 
+<dd> A Multi-Layer Technique for Microwindow Selection
+<dd> <i>Task 2.1, CCN4 11886/96/NL/GS</i>
+
+<DT><a href="PO-TN-OXF-GS-0014.pdf">PO-TN-OXF-GS-0014</a> (pdf file) Jun'00 
+<dd> MIPAS Ultimate Retrieval Accuracy - Final Report 
+<dd><i> Task 4.3, CCN5 11886/96/NL/GS</i>
+
+<dt><a href="PO-TN-OXF-GS-0014_appendix.pdf">PO-TN-OXF-GS-0014 Appendix</a>
+(pdf file) Dec'00 
+<dd> MIPAS Ultimate Retrieval Accuracy - Appendix
+<dd> <i>Task 4.3, CCN5 11886/96/NL/GS</i>
+
+<dt><a href="PO-TN-OXF-GS-0015.pdf">PO-TN-OXF-GS-0015</a> (pdf file) Feb'01
+<dd> Latitude-Dependence of MIPAS Microwindow Selection
+<dd> <i>Task 5.7, CCN5 1171/95/NL/CN</i>
+
+<dt><a href="http://www.atm.ox.ac.uk/RFM/mwmake.html">PO-MA-OXF-GS-0016</a>
+(web page)  Apr'01 
+<dd> MWMAKE (Microwindow Selection) - User's Guide
+<dd> <i>Task 3, CCN5 11886/96/NL/GS</i>
+
+<dt><a href="PO-TN-OXF-GS-0017.pdf">PO-TN-OXF-GS-0017</a> (pdf file) Aug'01 
+<dd> HITRAN Error Correlations
+<dd> 
+                         
+<dt><a href="PO-TN-OXF-GS-0018.pdf">PO-TN-OXF-GS-0018</a> (pdf file) Aug'01 
+<dd> MIPAS Predicted Retrieval Accuracy
+<dd> <I>Now superseded by web-pages 
+<a href=http://www.atm.ox.ac.uk/group/mipas/err/>
+http://www.atm.ox.ac.uk/group/mipas/err/</a></i>
+
+<dt><a href="PO-MA-OXF-GS-0019.pdf">PO-MA-OXF-GS-0019</a> (pdf file) Aug'01 
+<dd> MIPAS Microwindow Processing Scheme (MWPROC)
+<dd> <I>Task 2, CCN5 11886/96/NL/GS</i>
+
+<dt><a href="PO-TN-OXF-GS-0020.pdf">PO-TN-OXF-GS-0020</a> (pdf file) Apr'03 
+<dd> REC Analysis of MIPAS Data
+<dd> <i>MIPAS Cal/Val</i>
+
+<dt><a href="PO-TN-OXF-GS-0021.pdf">PO-TN-OXF-GS-0021</a> (pdf file) Apr'03 
+<dd> MIPAS Occupation Matrix Statistics Jul02-Feb03
+<dd> <i>MIPAS Cal/Val</i>
+
+</dl>
+<hr>
+<ul>
+<LI><a href="index.html">AOPP MIPAS page</a>
+<li><a href="http://www-atm.atm.ox.ac.uk/group/earth.html">AOPP 
+Earth Observation
+Space Experiments</a>
+<li><a href="http://www-atm.atm.ox.ac.uk/">Atmospheric, Oceanic and Planetary
+Physics Home Page</a>
+</ul>
+<i>Last 14-JAN-02  AD </i>
+
+</BODY>
+</HTML>
+
+
+l s"
+,F

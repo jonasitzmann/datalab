@@ -1,0 +1,201 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: mie: mie_single:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+        LI.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+        A.LeftMenu {font-weight: normal; font-size: 10pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.5;}
+        A.LeftMenu:link { color: #ffffff;}
+        A.LeftMenu:visited { color: #ffffff;}
+        A.LeftMenu:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuInsert {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuInsert:link { color: #ffffff;}
+        A.LeftMenuInsert:visited { color: #ffffff;}
+        A.LeftMenuInsert:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuReplace {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #0000c4; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuReplace:link { color: #e7e7ff;}
+        A.LeftMenuReplace:visited { color: #e7e7ff;}
+
+        A.TopMenu {font-weight: normal; font-size: 7pt;
+        text-decoration : none; color: #000079; font-weight: bold;
+        font-family: Arial, Helvetica, San-Serif;}
+        A.TopMenu:link { color: #000079; text-decoration:none;}
+        A.TopMenu:visited { color: #000079; text-decoration:none;}
+        A.TopMenu:hover { color: #000000; text-decoration:underline;}
+
+-->
+</STYLE></HEAD><BODY>
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 BGCOLOR="#FFFFFF">
+<TR><TD WIDTH=142 ROWSPAN=2 CLASS="Bottomright">
+<A HREF="http://www.physics.ox.ac.uk">
+<IMG BORDER=0 ALT="Oxford Physics" SRC="../../main/images/OxPhysics.gif"></A></TD>
+<TD WIDTH=16 HEIGHT=60></TD><TD WIDTH=560 CLASS="Middle">
+<TABLE WIDTH=560 BORDER=0 CELLPADDING=5 CELLSPACING=1 BGCOLOR="#0000C4"><TR>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/default/index.html">HOME</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.physics.ox.ac.uk">Oxford Physics</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.ox.ac.uk">Oxford University</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../weather">Live Weather</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/dept/gettinghere.html">Getting here</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/dept/contact.html">Contact</A></TD>
+</TR></TABLE></TD></TR>
+<TR><TD COLSPAN=2><IMG SRC="../../main/images/physics_banner.gif"></TD></TR><TR>
+<TD COLSPAN=2><IMG SRC="../../main/images/physics_top.gif"></TD><TD></TD></TR><TR>
+<TD COLSPAN=2 BGCOLOR="#000099">
+<TABLE  CELLPADDING=0 CELLSPACING=0 BORDER=0 >
+<TR><TD WIDTH=32></TD><TD WIDTH=126 CLASS="Top">
+<BR><A HREF="index.html" CLASS="LeftMenu">Introduction</A>
+<BR><A HREF="mie_single.html" CLASS="LeftMenu">&nbsp; <font size=-1>mie_single</font></A>
+<BR><A HREF="mie_lognormal.html" CLASS="LeftMenu">&nbsp; <font size=-1>mie_lognormal</font></A>
+<BR><A HREF="mie_derivs.html" CLASS="LeftMenu">&nbsp; <font size=-1>mie_derivs</font></A>
+<BR><A HREF="mie_derivs_ln.html" CLASS="LeftMenu">&nbsp; <font size=-1>mie_derivs_ln</font></A>
+<BR><A HREF="mie_dlm_single.html" CLASS="LeftMenu">&nbsp; <font size=-1>mie_dlm_single</font></A>
+<BR><A HREF="mieext_f.html" CLASS="LeftMenu">&nbsp; <font size=-1>mieext_f</font></A>
+<BR><A HREF="http://www.atm.ox.ac.uk" CLASS="LeftMenu">AOPP home</A>
+<BR><A HREF="mailto:gthomas@atm.ox.ac.uk" CLASS="LeftMenu">Contact</A>
+<BR><BR></TD></TR><TR><TD COLSPAN=2><CENTER>
+<A HREF="http://www.ox.ac.uk"><IMG SRC="../../main/images/webshield.gif" BORDER=0 ALT="UNIVERSITY HOME"></A></CENTER></TD></TR><TR><TD></TD><TD>
+</TD></TR></TABLE></TD><TD>
+<TABLE CELLSPACING=5 CELLPADDING=0 BGCOLOR="#FFFFFF" BORDER=0 WIDTH=560>
+<TR><TD>
+<TABLE CELLSPACING=1 CELLPADDING=5 BGCOLOR="#C4C4C4" BORDER=0 WIDTH=550>
+<TR><TD HEIGHT=300 BGCOLOR="#FFFFFF">
+<a name="top"></a><center><H2>mie_single.pro
+</H2><hr></center>
+
+<UL>
+<LI><a href="#intro"><font color="#000099">Purpose</font></a>
+<LI><a href="#pro"><font color="#000099">Calling the procedure</font></a>
+<LI><a href="#limit"><font color="#000099">Limitations and dependences</font></a>
+<LI><a href="#dl"><font color="#000099">Download source code</font></a>
+</UL>
+
+<a name="intro"><h3>Purpose</h3></a>
+
+<p>The <tt>mie_single.pro</tt> routine performs single particle Mie scattering
+calculations, providing the distribution of scattering radiation, as well
+as various particle cross sections and the asymmetry parameter.</p>
+
+<a name="pro"><h3>Calling the procedure</h3></a>
+
+<p><tt>mie_single.pro</tt> is an IDL procedure and can be called with the following
+command line from the IDL prompt (as long as the source file lies within your
+<tt>IDL_PATH</tt> environment variable):</p>
+
+<p><tt>mie_single, Dx, Cm, [Dqv=dqv], Dqxt, Dqsc, Dqbk, Dg, Xs1, Xs2, Dph, /dlm</tt>
+</p>
+
+<p>The input parameters in the above call are:
+<UL>
+<LI><tt>Dx</tt>: The particle size parameter(s). This can either be a scalar
+  float/double quantity or a vector of values and must always be greater
+  than zero.
+<LI><tt>Cm</tt>: The complex refractive index of the particles. Only one refractive
+  index value can be used in each call to the procedure and must take the
+  form complex(a,-b) (where a is the real part of the refractive index,
+  and b is the imaginary (or absorpative) part, and is either zero or
+  negative).
+<LI><tt>Dqv=dqv</tt>: This is an optional keyword parameter which specifies
+  the cosine of the scattering angles at which to calculate the phase
+  function. If specified it must be either a scalar quantity, or a vector
+  of such values.
+<LI><tt>dlm=dlm</tt>: If set the IDL DLM version of the algorthim (<a href="mie_dlm_single.html"><tt>mie_dlm_single</tt></a>) will be used instead of the IDL coded version. Note: This requires the DLM to be set up on your system!
+</UL>
+The output parameters are:
+<UL>
+<LI><tt>Dqxt</tt>: The extinction efficiency. This will be a vector of type double,
+  with the same number of elements as <tt>Dx</tt>.
+<LI><tt>Dqsc</tt>: The scattering efficiency. This is of the same type and size as
+  <tt>Dqxt</tt>.
+<LI><tt>Dqbk</tt>: The back-scatter efficiency. This is of the same type and size as
+  <tt>Dqxt</tt>.
+<LI><tt>Dg</tt>: The asymmetry parameter. Again, this is of the same type and size as
+  <tt>Dqxt</tt>.
+<LI><tt>Xs1</tt>: The first amplitude function - amplitude of light polarized
+  in the plane perpendicular to the directions of incident light propagation
+  and observation. Xs1 is a complex array of dimensions the no. of elements in
+  <tt>Dqv</tt> by the no. of elements in <tt>Dx</tt>. It is only calculated if
+  <tt>Dqv</tt> is specified.
+<LI><tt>Xs2</tt>: The second amplitude function - amplitude of light polarized
+  in the plane parallel to the directions of incident light propagation and
+  observation. <tt>Xs2</tt> is of the same type and size as
+  <tt>Xs1</tt> and is also only calculated if <tt>Dqv</tt> is specified.
+<LI><tt>Dph</tt>: The phase function. This is of type double and has the same
+  dimensions as <tt>Xs1</tt> and <tt>Xs2</tt> and is also only calculated if
+  <tt>Dqv</tt> is specified.
+</UL>
+</p>
+
+<a name="limit"><h3>Limitations and dependences</h3></a>
+
+<p>The maximum size parameter allowed by <tt>mie_single.pro</tt> is 1200. Any
+value larger than this will result in the programme halting with the error
+message "<tt>Error: Size Parameter Overflow in Mie</tt>".</p>
+
+<p>To allow the use of the <tt>dlm</tt> keyword the IDL DLM <a href="mie_dlm_single.html"><tt>mie_dlm_single</tt></a> must be installed and set up on your system.</p>
+
+<p>This procedure is called by the
+<a href="mie_lognormal.html"><tt>mie_lognormal.pro</tt></a> and
+<a href="mie_derivs_ln.html"><tt>mie_derivs_ln.pro</tt></a> procedures.</p>
+
+<a name="dl"><h3>Download source code</h3></a>
+
+The source code for this routine can be downloaded in gzip form from
+<a href="mie_single.pro.gz">here</a>.
+
+</body></TD></TR></TABLE></TD></TR></TABLE>
+<TABLE WIDTH="98%" ALIGN=CENTER BORDER=0 CELLSPACING = 0 CELLPADDING=0>
+<TR><TD CLASS="Left">
+<FONT SIZE=-4 COLOR="#E7E7FF">last updated @15:31 GMT 29-Nov-2006</FONT></TD>
+<TD CLASS="Right"><A HREF="mie_single_nocol.html"><FONT SIZE=-4>printable version</FONT></A></TD></TR></TABLE></TD></TR><TR><TD COLSPAN=2>
+<IMG SRC="../../main/images/physics_bottom.gif"></TD></TR></TABLE></BODY></HTML>
+
+
+
+rn=pgihi"dt

@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : Free Resources</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/primary-languages_f2.gif','../images/free-resources_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center">
+  <form>
+    <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"> <div align="center">
+            <table width="660" border="0" cellspacing="1" cellpadding="0">
+              <tr> 
+                <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="50%" rowspan="3"><img src="../images/new-logo.gif" alt="Comenius Yorkshire and the Humber" width="217" height="86"></td>
+                      <td width="50%" height="54" valign="top"> <div align="right" class="topbar"><font color="#666666"><img src="../index_clip_image002_0002.jpg" width="192" height="41"><br><a href="../contact-us/index.htm"></a><a href="../about-us/index.htm"></a><a href="../find-us/index.htm"></a><a href="../index.htm"></a></font></div></td>
+                    </tr>
+                    <tr>
+                      <td height="31" valign="middle"><div align="right"><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"></font></div></td>
+                    </tr>
+                    <tr>
+                      <td valign="bottom"><div align="right"><font color="#666666"><a href="../contact-us/index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="../about-us/index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td colspan="6">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="maintext style44"><div align="center"><strong><a href="../events-courses/index.htm">Courses &amp; Conferences</a> </strong></div></td>
+                <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+                <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+                <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/links/index.htm">Links</a></strong></div></td>
+                <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+                <td class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+              </tr>
+              <tr> 
+                <td colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/index.htm" onMouseOver="MM_swapImage('events','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks3','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../primary-languages/index.htm" onMouseOver="MM_swapImage('languages','','../images/primary-languages_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../free-resources/index.htm" onMouseOver="MM_swapImage('free','','../images/free-resources_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../links/index.htm" onMouseOver="MM_swapImage('links','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+              </tr>
+              <tr> 
+                <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="354"><div align="center"><span class="style1">Interactive 
+                      Worksheets </span></div></td>
+                      <td><div align="right"><img src="../images/image-bar/free-resources.jpg"  width="269" height="142"></div></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    
+                  </table></td>
+              </tr>
+              <tr> 
+                <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr valign="middle" class="maintext"> 
+                      <td width="100%" height="45"> 
+                        <div align="center">
+                          <table width="100%" height="50" border="0" cellpadding="1" cellspacing="1" bgcolor="#666666">
+                            <tr> 
+                              <td bgcolor="#999999"><table width="100%" height="48" border="0" cellpadding="0" cellspacing="0" bgcolor="#E2E2E2">
+                                  <tr> 
+                                    <td height="19"><div align="center"><span class="maintext"><a href="resources.htm">Resources 
+                                        at the Centre</a> / <a href="quia_excercises.htm">Quia 
+                                        software resources</a> / <a href="activ.htm"><br>
+                                        </a><a href="preparing-interactive.htm">Preparing 
+                                        interactive whiteboard lessons</a> /  <a href="word.htm">Interactive 
+                                        worksheets</a><br>
+                                        <a href="powerpoint.htm">Powerpoint presentations                                        </a> / <a href="index.htm">Top 
+                                        Resources</a></span></div></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                          </table>
+                        </div></td>
+                    </tr>
+                    <tr valign="top" class="maintext"> 
+                      <td><p><br>
+                          <strong>Interactive Worksheets</strong><br>
+                          You need to save these to your Word files on the common 
+                          area that pupils have access to in your school. Again, 
+                          the students need to have access to the Internet, as 
+                          these worksheets require them to click on a link to 
+                          a website, with comprehension questions about the site. 
+                          These types of exercises have been found to be much 
+                          more motivating than the traditional reading comprehension 
+                          exercises, as students are working &#8220;live&#8221; 
+                          on a real site.</p>                      </td>
+                    </tr>
+                    <tr valign="top" class="maintext"> 
+                      <td> <p class="headlines"><br>
+                          European</p>
+                        <ul>
+                          <li><a href="../downloads/word/resources/The%20Euro.doc"> 
+                            The euro</a> <span class="smallText"><font color="#000000">- 
+                            24KB</font></span></li>
+                        </ul>
+                        <p class="headlines">French</p>
+                        <ul>
+                          <li><a href="../downloads/word/resources/french/Amis%20de%20la%20Terre%20worksheet.doc"> 
+                            Les Amis de la Terre</a> <span class="smallText"><font color="#000000">- 
+                            32KB</font></span><br>
+                            Suitable for high ability Y11 or AS French, this worksheet 
+                            links to the &#8220;Amis de la Terre&#8221; site and 
+                            is a reading cmprehension.</li>
+                          <li> <a href="../downloads/word/resources/french/L%27Union%20Europeene.doc" target="_blank">L&#8217;Union 
+                            Europ&eacute;enne</a> <span class="smallText"><font color="#000000">- 
+                            53KB</font></span><br>
+                            Suitable for AS and A2 French, this worksheet will 
+                            help pupils to have a greater understanding of the 
+                            UE and give them useful phrases and vocabulary in 
+                            the target language. </li>
+                          <li> <a href="../downloads/word/resources/french/La%20televsion%20francaise.doc" target="_blank">La 
+                            t&eacute;l&eacute;vision francaise</a> <span class="smallText"><font color="#000000">- 
+                            40KB</font></span><br>
+                            Suitable for Y9, 10 and 11, this comprehension sheet 
+                            links to the channel France 2 and asks questions about 
+                            current programme. </li>
+                          <li> <a href="../downloads/word/resources/french/Paris%20Quiz.doc" target="_blank">Paris 
+                            quiz</a> <span class="smallText"><font color="#000000">- 
+                            24KB</font></span><br>
+                            A webquest in English about Paris. </li>
+                          <li> <a href="../downloads/word/resources/french/Une%20Ecole%20en%20France.doc" target="_blank">Une 
+                            Ecole en France</a> <span class="smallText"><font color="#000000">-19KB</font></span><br>
+                            This sheets links to a French school with questions 
+                            in French and English. Suitable for Y9 upwards, and 
+                            as an introduction to the AQA coursework &#8220;My 
+                            ideal school&quot;</li>
+                          <li><a href="../downloads/word/resources/french/Lecin%E8ma.doc">Le 
+                            cin&egrave;ma</a> <span class="smallText"><font color="#000000">- 
+                            31KB</font></span><br>
+                            Suitable for KS4, this helps pupils to learn new phrases 
+                            to give opinions and describe films, particularly 
+                            suitable for those commencing AQA coursework &#8220;Critique 
+                            of a film&#8221; </li>
+                        </ul>
+                        <p><span class="headlines">German</span></p>
+                        <ul>
+                          <li><a href="../downloads/word/resources/german/Hannover%20Zoo%20Tiere%20A-Z.doc"> 
+                            Hannover Zoo Tiere A-Z</a> <span class="smallText"><font color="#000000">- 
+                            67KB</font></span><br>
+                            Use this site to teach zoo animals, with the names 
+                            and corresponding photos of the animals to make this 
+                            more visually stimulating. </li>
+                          <li><a href="../downloads/word/resources/german/Kino.doc"> 
+                            Kino</a> <span class="smallText"><font color="#000000">- 
+                            27KB</font></span><br>
+                            Visit a German cinema and answer questions about films 
+                            of the moment in the target language. Suitable for 
+                            KS4, particularly to introduce the AQA coursework 
+                            &#8220;Critique of a film&#8221; </li>
+                        </ul>
+                        <p><span class="headlines">Spanish</span></p>
+                        <ul>
+                          <li><a href="../downloads/word/resources/spanish/Camping%20las%20Palmeras.doc" target="_blank">Camping 
+                            las Palmeras</a> <span class="smallText"><font color="#000000">- 
+                            23KB</font></span><br>
+                            Suitable for Y8 and 9, this sheet invites pupils to 
+                            visit a Spanish campsite and answer questions in English.                          </li>
+                          <li><a href="../downloads/word/resources/spanish/Estoy%20en%20forma.doc" target="_blank"> 
+                            Estoy en forma</a> <span class="smallText"><font color="#000000">- 
+                            34KB</font></span><br>
+                            Suitable for KS4, particularly to introduce the AQA 
+                            coursework &#8220;Am I fit?&#8221;, it visits two 
+                            sites and examines questions of fitness and health.                          </li>
+                          <li><a href="../downloads/word/resources/spanish/Familia%20crossword.doc" target="_blank">Familia 
+                            crossword</a> <span class="smallText"><font color="#000000">- 
+                            24KB</font></span><br>
+                            A crossword created using puzzlemaker.com, this practises 
+                            relationships within a family and is suitable for 
+                            Y8 and Y9. </li>
+                          <li><a href="../downloads/word/resources/spanish/La%20comida%20-%20sano%20o%20malsano.doc" target="_blank">La 
+                            comida - sano o malsano</a> <span class="smallText"><font color="#000000">- 
+                            19KB</font></span><br>
+                            This worksheet can be used by pupils individually 
+                            and practises food vocabulary and asks pupils to divide 
+                            food into the two categories. Suitable for KS3 and 
+                            4. Although this is quite simple, it may serve as 
+                            a useful revision before embarking on the AQA coursework 
+                            &#8220;Am I fit?&#8221; </li>
+                          <li><a href="../downloads/word/resources/spanish/La%20Televisi%F3n%20Espa%F1ola.doc">La 
+                            Televisi&oacute;n Espa&ntilde;ola</a> <span class="smallText"><font color="#000000">- 
+                            32KB</font></span><br>
+                            This sheet links pupils to the Spanish TV channel 
+                            RTVE and asks target language questions about current 
+                            programme </li>
+                          <li><a href="../downloads/word/resources/spanish/Restaurantes.doc" target="_blank"> 
+                            Restaurantes</a> <span class="smallText"><font color="#000000">- 
+                            24KB</font></span><br>
+                            This links pupils to the menu of a Spanish restaurant 
+                            and asks questions in Spanish and English about the 
+                            menu. Suitable for Y9 upwards. </li>
+                        </ul></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+          </div></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD <br>
+        Telephone 0113 
+            283 7226<br>
+            <font color="#999999">Page last updated: 
+            <!-- #BeginDate format:fcAm1 -->Monday, March 5, 2007<!-- #EndDate -->
+            </font> </div></td>
+    </tr>
+  </table></form> 
+</div>
+</body>
+</html>
+
+
+1shi

@@ -1,0 +1,819 @@
+<html>
+
+<head><title>CERES Starter Guide</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h4 align=center><cite>But now at last the sacred influence<br>
+Of light appears, and from the walls of heaven<br>
+Shoots far into the bosom of dim Night<br>
+A glimmering dawn.</cite></h4>
+<p>
+
+<strong>INTRODUCTION</strong>
+
+<p>
+
+When CERES started in October 1996 its managers prepared a series
+
+of guides to electronic resources. These guides have been edited,
+
+truncated, and amalgamated into this one. This document is
+
+designed to work alongside the HARVEST Digests, the first of
+
+which was produced after HARVEST I.vi in June 1997.  <cite>NB</cite> Much of the information below has been digested from the sources described, and often retains their wording.
+
+<p>
+
+<strong>CONTENTS</strong>
+
+<p>
+
+Please select from the following menu or scroll through below.
+
+<ul>
+
+<li><a href=#bids>Brief intro to BIDS</a>
+
+<li><a href=#bifs>Brief intro to First Search</a>
+
+<li><a href=#otherdats>Other Databases</a>
+
+<li><a href=#intersits>Internet Sites</a>
+
+<li><a href=#intermail>Internet Mailing Lists</a>
+
+</ul>
+
+<p>
+
+<hr>
+
+<a name=bids></a>
+
+<h2 align=center>BIDS (Bath Information and Data Services)</h2>
+
+<p>
+
+The Bottom Line At The Top: BIDS is very useful indeed. Dry
+
+descriptions can tell you far less than an hour's exploring.
+
+<p>
+
+Access: BIDS requires users to register and thereby obtain a
+
+password. How this is done depends on your institution: in Cambridge, for instance, just ask at the central desk of the UL reading room.
+
+<p>
+
+What's there: several databases of which the most relevant one is the
+
+Arts and Humanities section of the BIDS - ISI database. This
+
+includes a vast collection of journal articles. There is also a
+
+Social Sciences Database. The special feature
+
+of BIDS is that it is a citation index as well as a bibliography,
+
+i.e. for every article you retrieve there is a full list of all
+
+the works cited in its notes. This can often speed up the process
+
+of finding relevant secondary material. BIDS also offers a
+
+service whereby you can order copies of articles from the British Library.
+
+<p>
+
+Getting there: BIDS has a website at<a href=http://www.bids.ac.uk/> http://www.bids.ac.uk/</a> from which you can link to ISI using, for example, Netscape. It also
+
+has a telnet connection at <a href=telnet:bids.ac.uk>telnet bids.ac.uk</a>. Telnet is a very
+
+common program which pretty much any networked computer will
+
+have. It has numerous forms but generally typing bids.ac.uk
+
+either at the relevant prompt, or having used the Connect menu,
+
+will do the trick.
+
+<p>
+
+Searching: Basic searches on the web version are performed by
+
+selecting the Easy Search Form and filling in the boxes. If
+
+you've reached BIDS via telnet then you'll have to choose a few
+
+numbered options from menus in order to reach the search screen.
+
+There are numerous refinements of the search process possible and
+
+CERES strongly suggests a careful reading of the HELP sections of
+
+BIDS in order to get the best out of it.
+
+<p>
+
+Viewing Search Results: again, this can be simple or more refined
+
+and the HELP sections are the best way to exploit the
+
+capabilities of BIDS fully. 
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=bifs></a>
+
+<h2 align=center>OCLC FirstSearch <strong>(including MLA Bibliography)</strong></h2>
+
+<p>
+FirstSearch is a selected package of reference databases hosted in Ohio by OCLC Inc., with a mirror site in the UK. The databases are a combination of OCLC's proprietary services plus specialised databases from other producers. Searching is free to end-users who are members of subscribing institutions (though there may be charges for associated services such as printed guides and document delivery).
+<p>
+FirstSearch can be reached via telnet or via the web. Telnet access (UK only) via the NISS gateway at <a href=telnet:wwwx25.niss.ac.uk>telnet://wwwx25.niss.ac.uk</a> (follow the menu to 'Data services requiring registration'). Better, though, is the web interface. Follow links from your Institution's library, or go direct to <a href=http://homer.uk.oclc.org/>http://homer.uk.oclc.org/</a> or (US/Canada) <a href=http://www.oclc.org/>http://www.oclc.org/</a>.
+
+<p>
+
+FirstSearch comprises the following databases:
+<ul>
+
+<li>WORLDCAT is the OCLC online union catalogue, containing more than 27 million records describing items on all subjects, with coverage dating from about AD 1000. It does not include entries for individual journal articles or book chapters. 
+
+<li>ARTICLEFIRST contains records describing items listed on the contents page of individual issues of more than 11,000 journals in science, technology, medicine, social science, business, the humanities, and popular culture. Coverage starts in 1990, and many records contain abstracts. 
+<li>CONTENTSFIRST contains the complete table of contents page from individual issues of more than 11,000 journals in science, technology, medicine, social science, business, the humanities, and popular culture. Coverage includes all the titles included in the British Library's Inside Information service, and dates from 1990.
+<li>ALSO:
+
+<ul>
+<li>PapersFirst
+
+<li>ProceedingsFirst
+
+</ul>Well, you're getting the picture now, aren't you?
+
+</ul>
+Also now available online via OCLC is the long-running (and, we hope, known to you all) MLA Bibliography. Follow the link to the Arts and Humanities Database Area.
+
+<p>
+<cite>For more information on OCLC, please see recent coverage in Harvest III.iii <a href=arch-3-3.htm>here</a>.</cite>
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=otherdats></a>
+
+<h2 align=center>OTHER DATABASES</h2>
+
+<p>
+
+<cite>NB The Cambridge University server can send you on your way to a whole
+
+range of databases and service via a handy start page: <a href=http://www.cam.ac.uk/AcadInfoRes>http://www.cam.ac.uk/AcadInfoRes</a>. </cite>
+
+<p>
+
+<strong>NISS Gateway</strong><br>
+
+The NISS gateway at <a href=http://www.niss.ac.uk/> http://www.niss.ac.uk/ </a> is a gateway to academic resources aimed at the UK. From here you can gather info
+
+about, and then link to, a wide range of databases and services. Presumably the service will expand.
+
+<p>
+
+<strong>HENSA Service</strong><br>
+
+MUCH free software (of a very grown-up kind) available via the
+
+HENSA service (particularly the MICROS section). Web yourself
+
+over to <a href=http://www.hensa.ac.uk> http://www.hensa.ac.uk</a> if you want to download copies of handy applications etc.
+
+<p>
+
+<strong>HUMBUL Gateway</strong><br>
+
+The HUMBUL gateway at the following address:
+
+<a href=http://users.ox.ac.uk/humbul/> http://users.ox.ac.uk/humbul/</a>
+
+opens the way to a wide range of Net features.
+
+<p>
+
+<strong>Institute of Historical Research</strong><br>
+
+Betake yourself to <a href=http://ihr.sas.ac.uk> http://ihr.sas.ac.uk </a> for the Institute of Historical Research's guide to web resources etc.
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=intersits></a>
+
+<h2 align=center>INTERNET SITES</h2>
+
+<p>
+
+<strong>STARTING POINTS</strong><br>
+
+<ul>
+
+<li>EARLY MODERN LITERARY STUDIES is an electronic journal with a
+
+wide variety of links to electronic texts and other resources on
+
+the Web: <a href=http://users.ox.ac.uk/~emls/emlshome.html> http://users.ox.ac.uk/~emls/emlshome.html</a>.
+
+<li>JACK LYNCH'S PAGES: revered by webheads, he has a huge range of
+
+links: <a href=http://www.english.upenn.edu/~jlynch/Lit> http://www.english.upenn.edu/~jlynch/Lit</a>.
+
+<li>CARNEGIE-MELLON English server: <a href=http://english-server.hss.cmu.edu> http://english-server.hss.cmu.edu</a>.
+
+<li>THE VOICE OF THE SHUTTLE is a general humanities server of some
+
+standing: <a href=http://users.ox.ac.uk/~enginfo/shuttle/> http://users.ox.ac.uk/~enginfo/shuttle/</a>.
+
+</ul>
+
+<p>
+
+<strong>SHAKESPEARE</strong><br>
+
+<ul>
+
+<li>MIT SHAKESPEARE SITE: <a href=http://the-tech.mit.edu/Shakespeare/works.html> http://the-tech.mit.edu/Shakespeare/works.html </a>. Very good: includes a searchable Collected Works and plenty more.
+</ul>
+
+<p>
+
+<strong>SPENSER</strong><br>
+
+<ul>
+
+<li>THE SPENSER WEB: this hypertext Shepheardes Calender created by John Tolva is ambitious, but sadly incomplete: <a href=http://www.mindspring.com/~jntolva/spenser/index.html>http://www.mindspring.com/~jntolva/spenser/index.html</a>. The rest of John Tolva's pages,
+
+<a href=http://www.mindspring.com/~jntolva/> http://www.mindspring.com/~jntolva/</a>, include some useful things on hypermedia and the Renaissance
+
+<li>SPENSER HOME PAGE: <a href=http://darkwing.uoregon.edu/~rbear/> http://darkwing.uoregon.edu/~rbear/</a>has lots
+
+of texts (of Spenser, Sidney, and others), and info, as well as
+
+links e.g. to the SPENSER-L mailing list. Highly recommended.
+
+</ul>
+
+<p>
+
+<strong>ELECTRONIC PERIODICALS</strong><br>
+
+<ul>
+
+<li>RENAISSANCE FORUM:  <a href=http://www.hull.ac.uk/Hull/EL_Web/renforum>http://www.hull.ac.uk/Hull/EL_Web/renforum</a>
+
+<li>CAHIERS ELISABETHAINS:
+
+<a href=http://serinf2.univ-montp3.fr/CERRA/cahiers.html>http://serinf2.univ-montp3.fr/CERRA/cahiers.html</a>
+
+<li>MILTON QUARTERLY: <a href=http://voyager.cns.ohiou.edu/~somalley/milton.html>http://voyager.cns.ohiou.edu/~somalley/milton.html</a>
+
+<li>MILTON REVIEW: <a href=http://www.urich.edu/~creamer/review.html>http://www.urich.edu/~creamer/review.html</a>
+
+<li>ELECTRONIC SIXTEENTH-CENTURY JOURNAL: <a href=http://www.truman.edu/escj/home.html>http://www.truman.edu/escj/home.html</a>
+</ul>
+
+<p>
+
+<strong>OTHERS</strong><br>
+
+<ul>
+
+<li>HISTORY OF THE BOOK AT OXFORD: <a href=http://users.ox.ac.uk/~pemb0049/bkintro.html>http://users.ox.ac.uk/~pemb0049/bkintro.html</a>.This includes the D.F. McKenzie Website: <a href=http://users.ox.ac.uk/~pemb0049/dfmhome.html> http://users.ox.ac.uk/~pemb0049/dfmhome.html</a>.
+
+<li>PLANNED RENAISSANCE EDITIONS is a site at Reading: <a href=http://www.rdg.ac.uk/AcaDepts/ln/English/English-PRE.html> http://www.rdg.ac.uk/AcaDepts/ln/English/English-PRE.html</a> (potentially highly useful list of academic work in progress, but not updated regularly enough).
+
+<li>MANCHESTER UNIVERSITY ENGLISH DEPARTMENT: <a href=http://info.mcc.ac.uk/Arts/english/> http://info.mcc.ac.uk/Arts/english/</a> (includes the electronic graduate journal *Manuscript*).
+
+<li>BRITISH LIBRARY SERVER: <a href=http://portico.bl.uk>http://portico.bl.uk</a>, with links to
+
+Europe's national libraries at <a href=http://portico.bl.uk/gabriel/en/services.html>http://portico.bl.uk/gabriel/en/services.html</a>.
+
+<li>HUMANITIES TEXT INITIATIVE at Michigan: <a href=http://www.hti.umich.edu/>http://www.hti.umich.edu/</a>.  An excellent site, which includes, inter alia: a searchable database of early-modern English language use, details of the 'Collaboratory' set up for research in IT, etc. Also lots
+
+of things which non-UM people can't get into.
+
+<li>CONFERENCE INFO AT PENN: <a href=http://www.english.upenn.edu/CFP/> http://www.english.upenn.edu/CFP/</a> (coordinates calls for papers etc. for conferences all over the world).  To enter info: e-mail <a href=mailto:cfp@english.upenn.edu>cfp@english.upenn.edu.</a> To subscribe: send message 'subscribe cfp' to <a href=mailto:listserv@english.upenn.edu> listserv@english.upenn.edu</a>.
+
+<li>INSTITUTE FOR ADVANCED TECHNOLOGY IN THE HUMANITIES at
+
+Charlottesville: <a href=http://jefferson.village.virginia.edu/> http://jefferson.village.virginia.edu/</a>.  An impressive set of projects, well worth a visit. Includes a collection of watermarks from the 1616 Jonson Folio by David
+
+Gants: <a href=http://jefferson.village.virginia.edu/gants/Folio.html> http://jefferson.village.virginia.edu/gants/Folio.html</a>.
+
+<li>FURTHER READING: Jerome McGann, 'The Rationale of Hypertext', a ground-breaking attempt to theorise the realm of electronic editing, found at: <a href=http://jefferson.village.virginia.edu/public/jjm2f/rationale.html> http://jefferson.village.virginia.edu/public/jjm2f/rationale.html</a>.
+
+</ul>
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=intermail></a>
+
+<h2 align=center>ELECTRONIC MAILING LISTS</h2>
+
+<p>
+
+The alphabetical list which follows has been compiled from
+
+various sources: lists which pertain to other areas of literary
+
+research can generally be found on Jack Lynch's pages or at Early
+
+Modern Literary Studies (addresses above). All these lists work
+
+via e-mail and require only simple e-mail instructions to get
+
+started. You can passively observe discussions, or become a
+
+frequent contributor.
+
+<p>
+
+A couple of caveats: first, joining a list means you will receive
+
+more e-mail and dealing with it (even if all you do is delete
+
+large chunks) will take time. Second, it is fair to say that the
+
+quality of academic content is not always first-rate: it is still
+
+generally the case that if a scholar is doing important work in a
+
+given area, then an electronic mailing-list is not the obvious
+
+place to air it. However, plenty of excellent discussions do take
+
+place, and if there is a problem with quality, the question is:
+
+do you want to be part of the problem, or part of the solution?
+
+<p>
+
+<strong>EARLYM-L</strong><br>
+
+A forum for the exchange of news and views about
+
+Medieval, Renaissance and Baroque music.
+
+Membership Information: WWW Home Page at
+
+<a href=http://www-wu-wien.ac.at/earlym-l/> http://www.wu-wien.ac.at/earlym-l/</a>.  Contact Gerhard Gonter (<a href=mailto:gonter@isis.wu-wien.ac.at>gonter@isis.wu-wien.ac.at</a>).
+
+<p>
+
+<strong>ExLibris</strong><br>
+
+ExLibris
+provides an environment for discussing matters related to rare
+
+book and manuscript librarianship, including special collections
+
+and related issues. Membership Information at URL:
+
+<a href=http://aultnis.rutgers.edu/texts/exsignon.html> http://aultnis.rutgers.edu/texts/exsignon.html</a>.
+
+<p>
+
+<strong>FICINO</strong><br>
+
+Discussion of the Renaissance and Reformation. FICINO is
+
+an international electronic seminar and bulletin-board devoted to
+
+all aspects of the Renaissance and Reformation. For membership
+
+information, contact Professor William Bowen (<a href=mailto:editor@epas.utoronto.ca>editor@epas.utoronto.ca</a>), or go to the FICINO homepage: <a href=http://citd.scar.utoronto.ca/CRRS/FICINO.html>http://citd.scar.utoronto.ca/CRRS/FICINO.html</a>.
+
+<p>
+
+<strong>FRAUEN-L</strong><br>
+
+A list for all who study, research,
+
+and teach on matters pertaining to women and gender in early
+
+modern Europe. To subscribe: either 1) send a message to
+
+<a href=mailto:kzapalac@artsci.wustl.edu>kzapalac@artsci.wustl.edu</a> or 2) fill out the form attached to the list's webpage at
+
+<a href=http://www.h-net.msu.edu/~frauen-l/>http://www.h-net.msu.edu/~frauen-l/ </a>.
+
+<p>
+
+<strong>GEMCS-L</strong><br>
+
+The Group for Early Modern Cultural Studies list is
+
+meant as a forum for the discussion of early modern culture, both
+
+western and eastern. Membership Information: Contact Kevin
+
+LaGrandeur or Jody DeRitter (both at <a href=mailto:GEMCS-L@vaxc.hofstra.edu>GEMCS-L@vaxc.hofstra.edu</a>) -- under 'subject,' write 'informational question.'
+
+<p>
+
+<strong>H-RHETOR</strong><br>
+
+An international electronic forum for scholars and
+
+teachers of the history of rhetoric, writing, and communication.
+
+Subscription Address: <a href=mailto:listserv@msu.edu>listserv@msu.edu</a>.
+
+Contact Address: Gary Hatch (<a href=mailto:gary_hatch@byu.edu>gary_hatch@byu.edu</a>).
+
+<p>
+
+<strong>HUMANIST</strong><br>
+
+Humanist is an international electronic seminar devoted
+
+to all aspects of humanities computing. Its editor is Willard
+
+McCarty (<a href=mailto:willard.mccarty@kcl.ac.uk>willard.mccarty@kcl.ac.uk</a>) of Kings College, London.  Humanist has a home page on the World Wide Web, at <a href=http://www.princeton.edu/~mccarty/humanist/> http://www.princeton.edu/~mccarty/humanist/</a>.
+
+<p>
+
+<strong>IATH-L</strong><br> 
+
+The main discussion group for the Institute for
+
+Advanced Technology in the Humanities at the University of
+
+Virginia. The purpose of this list is threefold: to function as a
+
+general list for IATH, where local and networked Institute
+
+fellows and their associates may communicate, to provide a forum
+
+for discussion of the disciplinary and professional aspects of
+
+computing in the humanities, and to archive and publish reference
+
+materials and excerpted discussions from this and related lists. <br>
+
+Subscription Address: <a href=mailto:listproc@jefferson.village.virginia.edu> listproc@jefferson.village.virginia.edu</a><br>
+
+Submission Address: <a href=mailto:IATH-L@jefferson.village.virginia.edu> IATH-L@jefferson.village.virginia.edu</a>.
+
+<p>
+
+<strong>JOHN_DEE</strong><br>
+
+A list to discuss John Dee. To subscribe, send email
+
+to: <a href=mailto:listserv@fre.fsu.umd.edu> listserv@fre.fsu.umd.edu</a> with no subject line and the following line as the body of your message: SUBSCRIBE JOHN_DEE (firstname) (lastname). Post to JOHN_DEE by mailing <a href=mailto:john_dee@fre.fsu.umd.edu>john_dee@fre.fsu.umd.edu</a>.
+
+<p>
+
+<strong>LANYER</strong><br>
+
+This list discusses the works of Aemilia Lanyer. To
+
+subscribe, send the message SUBSCRIBE Lanyer (firstname)
+
+(lastname) to <a href=mailto:listserv@listserv.arizona.edu>listserv@listserv.arizona.edu</a>.
+
+<p>
+
+<strong>MANTOVANO</strong><br>
+
+An online, ongoing discussion of Virgil and his
+
+influence. Its Home Page can be reached at <a href=http://www.virgil.org/mantovano>http://www.virgil.org/mantovano</a>. <br>Subscription Address: <a href=mailto:majordomo@virgil.org>majordomo@virgil.org</a>.
+
+<br>Contact Address: David Wilson-Okamura (<a href=mailto:owner-mantovano@virgil.org>owner-mantovano@virgil.org</a>).
+
+<p>
+
+<strong>MARCAV-L</strong><br>
+
+This list discusses Margaret Cavendish. To subscribe,
+
+send the message SUBSCRIBE MARCAV-L to
+
+<a href=mailto:MARCAV-L-REQUEST@lists.nau.edu>MARCAV-L-REQUEST@lists.nau.edu</a>.
+
+<p>
+
+<strong>MED-AND-REN-MUSIC</strong><br>
+
+Enables those engaged on research into any
+
+aspect of Medieval and Renaissance Music to exchange information.
+
+For membership information, contact Dr. Isobel Preece (<a href=mailto:med-and-ren-music-request@mailbase.ac.uk>med-and-ren-music-request@mailbase.ac.uk</a>).
+
+<p>
+
+<strong>MILTON-L</strong><br>
+
+The John Milton E-conference is for scholars, students,
+
+and others interested in the life and work of John Milton.
+
+Membership Information: Contact Kevin J.T. Creamer
+(<a href=mailto:MILTON-REQUEST@URVAX.URICH.EDU>MILTON-REQUEST@URVAX.URICH.EDU</a>).  
+
+To subscribe to Milton-L, send the message SUBSCRIBE MILTON-L to
+
+<a href=mailto:Mailserv@urvax.urich.edu> Mailserv@urvax.urich.edu</a>.
+
+<p>
+
+<strong>MILTON REVIEW</strong><br>
+
+Milton-L's sister list; a review of books of
+
+interest to Milton and Renaissance scholars.
+
+To subscribe to Milton Review send the message SUBSCRIBE
+
+MILTON-REVIEW to <a href=mailto:Mailserv@urvax.urich.edu>Mailserv@urvax.urich.edu</a>.
+
+The Milton Review web page, with links to reviews, is found at
+
+<a href=http://www.urich.edu/~creamer/review.html> http://www.urich.edu/~creamer/review.html</a>.
+
+<p>
+
+<strong>REED-L</strong><br>
+
+Records of Early English Drama Discussion.
+
+For membership information, contact Dr. Abigail Young (<a href=mailto:reed@epas.utoronto.ca>reed@epas.utoronto.ca</a>).
+
+<p>
+
+<strong>RENAIS-L</strong><br>
+
+Deals with Early Modern History of the
+
+Renaissance and is a forum for debate, discussion, and the
+
+exchange of information by students and scholars of the history
+
+of the Renaissance. Contact James A. Cocks (<a href=mailto:JACOCK01@ulkyvm.louisville.edu>JACOCK01@ulkyvm.louisville.edu</a>).
+
+<p>
+
+<strong>RENDANCE</strong><br>
+
+A list for discussion of Renaissance dance. The
+
+RENDANCE WWW Page is located at
+
+<a href=http://www.ucs.mun.ca/~andrew/rendance.html> http://www.ucs.mun.ca/~andrew/rendance.html</a>.  For membership information, contact Andrew Draskoy (<a href=mailto:andrew@bransle.ucs.mun.ca>andrew@bransle.ucs.mun.ca</a>).
+
+<p>
+
+<strong>RENFORUM</strong><br>
+
+Will be used as a means of distributing the contents
+
+pages of the journal (see above). It will also tell you how to
+
+receive, download or store the actual journal. To join the list,
+
+send an email to <a href=mailto:renforum-request@hull.ac.uk>renforum-request@hull.ac.uk</a> with the message (not subject):<br>
+
+subscribe<br>
+
+stop<br>
+
+Online help can be obtained by sending the following message in
+
+the same way:<br>
+
+help<br>
+
+stop<br>
+
+Any other queries relating to the list can be directed to Andrew
+
+Butler (<a href=mailto:A.M.Butler@english.hull.ac.uk>A.M.Butler@english.hull.ac.uk</a>).
+
+<p>
+
+<strong>RESTORATION CULTURE</strong><br>
+
+Devoted to the discussion of Restoration Culture,
+
+which can include all aspects of cultural expression in the
+
+Restoration period. Subscribers need to send the message
+
+'SUBSCRIBE RESTORATION [YOUR NAME]' to <a href=mailto:listproc@listproc.bgsu.edu> listproc@listproc.bgsu.edu</a>.  For more information e-mail the listowner at <a href=mailto:smorgan@bgnet.bgsu.edu>smorgan@bgnet.bgsu.edu</a>.
+
+<p>
+
+<strong>SHAKSPER</strong><br>
+
+The Global Electronic Shakespeare Conference. SHAKSPER
+
+is the international electronic conference for Shakespearean
+
+researchers, instructors, students, and those who share their
+
+academic interests and concerns. Membership Information: Write to
+
+the editor, Hardy M. Cook (<a href=mailto:HMCook@boe00.minc.umd>HMCook@boe00.minc.umd</a>).
+
+<p>
+<strong>SIDNEY-L</strong><br>
+
+Intended to serve as an online forum for scholars and students of Sir Philip Sidney, the Countess of Pembroke, Lady Mary Wroth, and other members of the Sidney family and Sidney Circle. To subscribe, send email to: <a href=mailto:listserv@listserv.uoguelph.ca>listserv@listserv.uoguelph.ca</a>. In the body of the mail message, type: 'subscribe sidney-l Your Full Name'.
+
+For more information visit the Sidney Journal homepage at <a href=http://www.uoguelph.ca/englit/sidney>http://www.uoguelph.ca/englit/sidney</a>. The list is archived at <a href=http://info.uoguelph.ca/archives/sidney-l.html> http://info.uoguelph.ca/archives/sidney-l.html</a>.
+<p>
+
+<strong>SPENSER-L</strong><br>
+
+Intended to serve as an online discussion
+
+of the early English Renaissance, with focus on Edmund Spenser
+
+and his contemporaries: Philip Sidney, Mary Sidney, Fulke
+
+Greville, George Gascoigne, and others. To subscribe, send the
+
+following command to <a href=mailto:majordomo@darkwing.uoregon.edu> majordomo@darkwing.uoregon.edu</a> in the body
+
+of your e-mail: subscribe SPENSER-L.  SPENSER-L's home page is:
+
+<a href=http://darkwing.uoregon.edu/~rbear/list.html> http://darkwing.uoregon.edu/~rbear/list.html</a>.
+
+<p>
+
+<strong>WITTENBERG</strong><br>
+
+Project Wittenberg and LutherNet are proud to announce a new
+
+electronic mail discussion list, WITTENBERG.  The list will
+
+function as a forum for Lutheran Church
+
+History. To subscribe, send a message to <a href=mailto:Mailserv@CRF.CUIS.Edu>Mailserv@CRF.CUIS.Edu</a>.
+
+Leave the subject line blank. The body of the message should be: Subscribe WITTENBERG.  You should also send a message to <a href=mailto:Mailserv@CRF.CUIS.Edu>Mailserv@CRF.CUIS.Edu</a> as soon as you're subscribed, with the command 'HELP' as the body of the text.
+
+<p>
+
+<small><a href=#top>Back to top.</a>
+<a href=archive.htm>Return to Archive.</a></small>
+
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+
+
+
+hbhM>/

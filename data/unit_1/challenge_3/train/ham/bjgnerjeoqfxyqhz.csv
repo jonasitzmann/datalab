@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<img src=images/40v.gif><br>
+<table width=80%>
+<tr>
+<td>
+<center><font size=-1>[<a href=pdf/datescribe.pdf target="_new">Download this document</a> as a PDF file]</font></center><p>&nbsp;<p>
+<h2 align=center>Dating and Describing Hands</h2>
+<p>
+<img src=images/10v.gif>
+<p>
+An adequate description of a hand will include information about the type of hand, whether or not it is scribal, how formal/cursive it is, and how the document is laid out, and will comment on particular characteristics of the hand and individual letter forms, both in support of the description and with a view to determining a range for dating.  Try to convey an impression of how the hand relates to the evolution of handwriting in the Renaissance, including whether it typifies certain tendencies or is atypical.
+<p>&nbsp;
+<p>
+<strong>HANDS</strong><p>
+<table width=95%>
+<tr>
+<td width=15% valign=top>
+Book hands	
+</td>
+<td width=85% valign=top>
+the hands found in books produced by scriptoria prior to the spread of printing; such hands are more accommodating of attempts at codification<p>
+</td></tr>
+<tr><td width=15% valign=top>
+Court hands	
+</td>
+<td width=85% valign=top>
+general business/literary hands, including stylised hands in particular offices/professions which
+survive alongside Secretary (e.g. chancery hand, exchequer hand, etc.)<p>
+</td>
+</tr><tr>
+<td width=15% valign=top>
+Secretary</td>
+<td width=85% valign=top>
+an offshoot of the court hands of the beginning of the C16 (early-, mid-, late-Tudor, Jacobean)<p>
+</td></tr>
+<tr><td width=15%>
+Italic</td>
+<td width=85% valign=top>
+created in Italy c. 1400 and popular with English Humanists from the early C16 on; only once the
+hand becomes widespread does it start to infect secretary and produce...<p>
+</td></tr>
+<tr><td width=15% valign=top>
+Mixed</td>
+<td width=85% valign=top>
+or hybrid/transitional hands, the next stage of the Italic conquest, leading to<p>
+</td></tr>
+<tr><td width=15% valign=top>
+Round hand
+</td><td width=85% valign=top>mid-late C17 Italic:  the hand we have inherited</td></tr>
+</table>
+&nbsp;
+<p>
+<table width=75% align=center border=yes cellpadding=10>
+<tr><td>
+Martin Billingsley, <i>The Pens Excellencie</i> (1618)<p>
+
+<i>the </i>Secretary<i> . . . is so termed (as I conceive) partly because it is the Secretaries common hand; and partly also, because it is the onely usuall hand of England, for dispatching of all manner of businesses for the most part, whatsoever.
+<p>
+</i>[Italic] <i>is conceived to be the easiest hand that is written with Pen, and to be taught in the shortest time:  Therefore it is usually taught to women, for as much as they (having not the patience to take any great paines, besides phantasticall and humorsome) must be taught that which they may instantly learne.</i>
+</table>
+<p>
+&nbsp;
+<p>
+<strong>SCRIBAL/NON-SCRIBAL</strong>
+<p>
+Though how do we define a scribe?  Someone who was paid to write and copy manuscripts, whether in a scriptorium, or as someone's amanuensis or secretary?  And what do we call non-scribes?  Amateurs?  Features such as speed, regularity, legibility, use of contractions, consistency, systematic use of punctuation and letter forms, and clarity of layout may indicate scribal habits at work.  But there was no school for scribes.  Words like 'professional' may come in useful, but do not aim at too clear-cut a set of distinctions.
+<p>
+&nbsp;
+<p>
+<strong>SPEED/DEGREE OF FORMALITY</strong><p>
+Set/facile/rapid<br>
+<blockquote><i>or</i></blockquote>
+Formal/cursive [and such scientific intensifiers as 'very', or 'fairly']
+<p>
+&nbsp;
+<p>
+
+<strong>DESCRIBING FEATURES OF WRITING AND LETTER FORMS</strong>
+<br>
+<i>terms from</i> English Cursive Book Hands 1250-1500, <i>by M.B. Parkes (Oxford: Clarendon Press, 1969)</i><p>
+<table width=95%>
+<tr>
+<td width=15% valign=top>script</td>
+<td width=85% valign=top>the model which the scribe has in his mind's eye when he writes</td>
+</tr>
+<tr>
+<td width=15% valign=top>hand</td>
+<td width=85% valign=top>what he actually puts down on the page</td>
+</tr>
+<tr>
+<td width=15% valign=top>graph</td>
+<td width=85% valign=top>another name for a letter form</td>
+</tr>
+<tr>
+<td width=15% valign=top>stroke</td>
+<td width=85% valign=top>single trace made by the pen on the page</td>
+</tr>
+<tr>
+<td width=15% valign=top>minim</td>
+<td width=85% valign=top>the shortest and simplest stroke, used to form the letters <b>i</b>, <b>m</b>, <b>n</b>, <b>u</b></td>
+</tr>
+<tr>
+<td width=15% valign=top>otiose stroke</td>
+<td width=85% valign=top>a superfluous stroke, which does not form part of a letter, or indicate an abbreviation</td>
+</tr>
+<tr>
+<td width=15% valign=top>biting</td>
+<td width=85% valign=top>when two adjacent contrary curved strokes coalesce, e.g. <b>b</b> followed by <b>o</b></td>
+</tr>
+<tr>
+<td width=15% valign=top>letter forms:</td>	
+<td width=85% valign=top><b>b</b> comprises a <i>stem</i> or mainstroke which rises above the general level of the other letters (<i>ascender</i>) and a <i>lobe</i> made with a curved stroke to the right of the stem<br>
+	<b>p</b> comprises a <i>descender</i> and a lobe<br>
+	<b>h</b> comprises an ascender and a <i>limb</i><br>
+	<b>t</b> comprises a <i>shaft</i> and a <i>headstroke</i>
+</td>
+</tr>
+</table>
+The <i>body</i> of a letter form is that part which does not include an ascender or descender.
+
+<p>
+&nbsp;
+<p>
+<strong>MORE TERMS</strong><p>
+<ul type=circle>
+<li>flourish<p>
+<li>holograph/autograph (written in the author's hand; e.g. letter, poem)<p>
+<li>capital/majuscule/upper case<p>
+<li>minuscule/lower case<p>
+<li>linear (a, c, e), supralinear (d, b, h), infralinear (g, j, p), and double-length (f, long s) letters<p>
+<li>initial, medial, terminal/final
+<p>
+<li>text hand and glossing hand [if within one passage the same writer uses two scripts, one for text, the other for commentary and headings]
+<p>
+<li>engrossing = the most formal variety of a script
+</ul>
+<p>
+&nbsp;
+<p>
+<strong>EVEN MORE TERMS</strong><p>
+[see Petti, <i>English Literary Hands, Chaucer to Dryden</i>, pp. 8-9, <i>cum grano salis</i>]
+<p>
+&nbsp;
+<p>
+<strong>DATING</strong><p>
+When dating a hand, don't be fooled by the contents (e.g. a date written in a headnote to the manuscript, or some dating evidence affixed to the end of a letter). These may give a <i>terminus a quo</i> but will never give an airtight <i>terminus ad quem</i> unless you <i>know</i> that the manuscript is autograph; you may be sure that a poem or a letter was written in 1540, but it may have been transcribed in 1680. Remember that it may take some subtlety to distinguish a good humanist italic ca. 1550 from one ca. 1620; that old men might write a hand in 1640 which they learnt in 1580, with very little difference; and that attempts to comment on the age or gender of the writer are almost certainly doomed.  So aim at a date-range (e.g. 1575-1600) or a rough date (c. 1600, which indicates something like 1590-1610).  Or (to be clever) use periods:  early-Tudor, mid-Tudor, [early-/mid-/late-] Elizabethan, [early-/late-] Jacobean, Caroline, mid-century, late seventeenth-century.  To give yourself elbow room, combine these ('late-Elizabethan/early-Jacobean').  Period-style dates have the virtue of accommodating anomalies (the old man/ultra-modern young man syndrome), so a hand can be described as having typical late-Elizabethan features even though the manuscripts may turn out to date from 1565 or 1620.  
+<p>
+Try to get a feel for the general appearance of hands of a certain date, their slope, economy, degree of flourish, use of nib, etc.; this will come gradually with much experience, if you remain attentive to the dating evidence of pages passing before you.  Remember that spelling provides evidence of sorts (y for i; u/v), as does punctuation (potted histories of spelling and punctuation, digested and distilled into a short slate of useful notes, might very usefully be carried in your palaeography toolkit whenever you are visiting archives or libraries).  And notice how the evolution of handwriting is the sum of its parts -- a single archaic letter form may refine the dating of a hand which might otherwise be only roughly dated.  Expect to be surprised, and above all, remember that dating is an uncertain business; wherever possible, rely on good external evidence (provenance/ownership, dates contained in an autograph manuscript, evidence of the manuscript's (or manuscript portion's) relationship to other manuscripts in the same collection (or other sections of the same manuscript), etc.) to give a firm idea of date, and then supplement this by reflecting on the characteristics of the hand -- do they support such an ascription, or do they complicate the picture? Discrepancies between external and palaeographical dating evidence will be a good indication that you may be looking at a tricky specimen.
+<p>
+<img src=images/30v.gif><br>
+</td></tr></table>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+<p>
+</body></html>
+
+
+"aeo	m

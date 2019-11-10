@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//zh">
+<html>
+<head>
+<title>:: The Glasgow School of Art ::</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+a:link {
+	font-size: 10px;
+	color: #1C146B;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 10px;
+	color: #999999;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 10px;
+	color: #1C146B;
+	text-decoration: underline;
+}
+a:active {
+	font-size: 10px;
+	color: #C6A00C;
+}
+.linky {
+	font-size: 10px;
+	color: #C6A00C;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/image_nav_r1_c1_f2.gif','images/image_nav_r1_c3_f2.gif','images/image_nav_r1_c5_f2.gif','images/image_nav_r1_c7_f2.gif','images/image_nav_r1_c9_f2.gif','images/image_nav_r3_c1_f2.gif','images/image_nav_r3_c3_f2.gif','images/image_nav_r3_c5_f2.gif','images/image_nav_r3_c7_f2.gif','images/image_nav_r3_c9_f2.gif','images/image_nav_r5_c1_f2.gif','images/image_nav_r5_c3_f2.gif','images/image_nav_r5_c5_f2.gif','images/image_nav_r5_c7_f2.gif','images/image_nav_r5_c9_f2.gif')">
+<table width="100%" height="95%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center"> 
+        <table border="0" cellpadding="0" cellspacing="0" width="760">
+          <!-- fwtable fwsrc="GSA_language.png" fwbase="GSA_language.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="1" -->
+          <tr> 
+            <td><img name="GSA_language_r1_c1" src="images/GSA_language_r1_c1.gif" width="14" height="420" border="0" alt=""></td>
+            <td><table border="0" cellpadding="0" cellspacing="0" width="652">
+                <tr> 
+                  <td><img name="GSA_language_r1_c2" src="images/GSA_language_r1_c2.gif" width="278" height="14" border="0" alt=""></td>
+                  <td><img name="GSA_ribbon" src="images/GSA_ribbon.gif" width="374" height="14" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td><table border="0" cellpadding="0" cellspacing="0" width="278">
+                      <tr> 
+                        <td><img name="GSA_tl" src="images/GSA_tl.gif" width="278" height="170" border="0" alt=""></td>
+                      </tr>
+                      <tr> 
+                        <td><img name="GSA_language_r3_c2" src="images/GSA_language_r3_c2.gif" width="278" height="2" border="0" alt=""></td>
+                      </tr>
+                      <tr> 
+                        <td><a href="../index.html"><img name="GSA_language_r4_c2" src="images/GSA_language_r4_c2.gif" width="278" height="46" border="0" alt=""></a></td>
+                      </tr>
+                      <tr> 
+                        <td><img name="GSA_language_r5_c2" src="images/GSA_language_r5_c2.gif" width="278" height="13" border="0" alt=""></td>
+                      </tr>
+                      <tr> 
+                        <td><table border="0" cellpadding="0" cellspacing="0" width="278">
+                            <tr> 
+                              <td width="16"><img name="GSA_language_r7_c2" src="images/GSA_language_r7_c2.gif" width="14" height="161" border="0" alt=""></td>
+                              <td width="262" valign="top"><font size="2"><a href="ch_overview.html">¸Å¿ö</a><br>
+                                <a href="ch_location.html">ËùÔÚµØ</a><br>
+                                </font><font size="2"><a href="ch_accomodation.html">×¡ËÞ</a></font><font size="2"><br>
+                                <a href="ch_facilities.html">ÉèÊ©</a><br>
+                                <a href="ch_student_life.html">Ñ§ÉúÉú»î</a><br>
+                                <a href="ch_fees.html">Ñ§·ÑºÍÈëÑ§ÒªÇó</a><br>
+                                <a href="ch_scholarships.html">Ñ§ÉúÉú»î</a><br><br>
+                                <a href="ch_cafa.html"><font color="#C6A00C">¸ñÀ­Ë¹¸çÃÀÊõÑ§Ôº(GSA)ÖÐ¹úÏîÄ¿</font></a> 
+                                </font></td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                      <tr> 
+                        <td><img name="GSA_language_r8_c2" src="images/GSA_language_r8_c2.gif" width="278" height="14" border="0" alt=""></td>
+                      </tr>
+                    </table></td>
+                  <td><table border="0" cellpadding="0" cellspacing="0" width="374">
+                      <tr> 
+                        <td><img name="GSA_language_r2_c4" src="images/GSA_language_r2_c4.gif" width="2" height="406" border="0" alt=""></td>
+                        <td valign="top">
+<iframe src="ch_cafatxt.html" width="372" marginwidth="0" height="406" marginheight="0" scrolling="auto" frameborder="0"></iframe></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+            <td><img name="GSA_language_r1_c6" src="images/GSA_language_r1_c6.gif" width="2" height="420" border="0" alt=""></td>
+            <td><table border="0" cellpadding="0" cellspacing="0" width="78">
+                <tr> 
+                  <td><img name="GSA_language_r1_c7" src="images/GSA_language_r1_c7.gif" width="78" height="14" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td><img name="GSA_tr" src="images/GSA_tr.gif" width="78" height="170" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td><img name="GSA_language_r3_c7" src="images/GSA_language_r3_c7.gif" width="78" height="2" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td><table border="0" cellpadding="0" cellspacing="0" width="78">
+                      <!-- fwtable fwsrc="image_nav.png" fwbase="image_nav.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+                      <tr> 
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/1.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOver="MM_swapImage('image_nav_r1_c1','','images/image_nav_r1_c1_f2.gif',1);" onMouseOut="MM_swapImgRestore()"><img src="images/image_nav_r1_c1.gif" alt="Student working in Computer Centre at The Glasgow School of Art" name="image_nav_r1_c1" width="14" height="14" border="0"></a></td>
+                        <td rowspan="5"><img name="image_nav_r1_c2" src="images/image_nav_r1_c2.gif" width="2" height="46" border="0" alt=""></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/2.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r1_c3','','images/image_nav_r1_c3_f2.gif',1);"><img name="image_nav_r1_c3" src="images/image_nav_r1_c3.gif" width="14" height="14" border="0" alt="Painting student working at The Glasgow School of Art"></a></td>
+                        <td rowspan="5"><img name="image_nav_r1_c4" src="images/image_nav_r1_c4.gif" width="2" height="46" border="0" alt=""></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/3.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r1_c5','','images/image_nav_r1_c5_f2.gif',1);"><img name="image_nav_r1_c5" src="images/image_nav_r1_c5.gif" width="14" height="14" border="0" alt="Students in the Silversmithing and Jewellery workshop at The Glasgow School of Art"></a></td>
+                        <td rowspan="5"><img name="image_nav_r1_c6" src="images/image_nav_r1_c6.gif" width="2" height="46" border="0" alt=""></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/4.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r1_c7','','images/image_nav_r1_c7_f2.gif',1);"><img name="image_nav_r1_c7" src="images/image_nav_r1_c7.gif" width="14" height="14" border="0" alt="Design students and tutor at the GSA"></a></td>
+                        <td rowspan="5"><img name="image_nav_r1_c8" src="images/image_nav_r1_c8.gif" width="2" height="46" border="0" alt=""></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/5.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r1_c9','','images/image_nav_r1_c9_f2.gif',1);"><img name="image_nav_r1_c9" src="images/image_nav_r1_c9.gif" width="14" height="14" border="0" alt="Exhibition Hall of Plaster Model, Central Academy of Fine Arts"></a></td>
+                      </tr>
+                      <tr> 
+                        <td><img name="image_nav_r2_c1" src="images/image_nav_r2_c1.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r2_c3" src="images/image_nav_r2_c3.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r2_c5" src="images/image_nav_r2_c5.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r2_c7" src="images/image_nav_r2_c7.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r2_c9" src="images/image_nav_r2_c9.gif" width="14" height="2" border="0" alt=""></td>
+                      </tr>
+                      <tr> 
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/6.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r3_c1','','images/image_nav_r3_c1_f2.gif',1);"><img name="image_nav_r3_c1" src="images/image_nav_r3_c1.gif" width="14" height="14" border="0" alt="Mackintosh Building, The Glasgow School of Art"></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/7.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r3_c3','','images/image_nav_r3_c3_f2.gif',1);"><img name="image_nav_r3_c3" src="images/image_nav_r3_c3.gif" width="14" height="14" border="0" alt="Edinburgh College of Art and Edinburgh Castle"></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/8.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r3_c5','','images/image_nav_r3_c5_f2.gif',1);"><img name="image_nav_r3_c5" src="images/image_nav_r3_c5.gif" width="14" height="14" border="0" alt="Outdoor performance area, Central Academy of Fine Arts"></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/9.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r3_c7','','images/image_nav_r3_c7_f2.gif',1);"><img name="image_nav_r3_c7" src="images/image_nav_r3_c7.gif" width="14" height="14" border="0" alt="Architecture student presenting work at The Glasgow School of Art"></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/10.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')"onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r3_c9','','images/image_nav_r3_c9_f2.gif',1);"><img name="image_nav_r3_c9" src="images/image_nav_r3_c9.gif" width="14" height="14" border="0" alt="The Mackintosh Building at The Glasgow School of Art"></a></td>
+                      </tr>
+                      <tr> 
+                        <td><img name="image_nav_r4_c1" src="images/image_nav_r4_c1.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r4_c3" src="images/image_nav_r4_c3.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r4_c5" src="images/image_nav_r4_c5.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r4_c7" src="images/image_nav_r4_c7.gif" width="14" height="2" border="0" alt=""></td>
+                        <td><img name="image_nav_r4_c9" src="images/image_nav_r4_c9.gif" width="14" height="2" border="0" alt=""></td>
+                      </tr>
+                      <tr> 
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/11.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r5_c1','','images/image_nav_r5_c1_f2.gif',1);"><img name="image_nav_r5_c1" src="images/image_nav_r5_c1.gif" width="14" height="14" border="0" alt="The City of Glasgow - courtesy of Scottish Viewpoint"></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/12.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r5_c3','','images/image_nav_r5_c3_f2.gif',1);"><img name="image_nav_r5_c3" src="images/image_nav_r5_c3.gif" width="14" height="14" border="0" alt="Photography student working in a studio at The Glasgow School of Art"></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/13.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r5_c5','','images/image_nav_r5_c5_f2.gif',1);"><img name="image_nav_r5_c5" src="images/image_nav_r5_c5.gif" width="14" height="14" border="0" alt="Student in Ceramics studio at The Glasgow School of Art"></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/14.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r5_c7','','images/image_nav_r5_c7_f2.gif',1);"><img name="image_nav_r5_c7" src="images/image_nav_r5_c7.gif" width="14" height="14" border="0" alt="Visual Communication student working in the studio at The Glasgow School of Art "></a></td>
+                        <td><a href="#" onClick="MM_openBrWindow('images/cafa/15-NOTFLASH.jpg','','scrollbars=yes,resizable=yes,width=600,height=600')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image_nav_r5_c9','','images/image_nav_r5_c9_f2.gif',1);"><img name="image_nav_r5_c9" src="images/image_nav_r5_c9.gif" width="14" height="14" border="0" alt="Interior Design student at work - dedicated studio space is a unique feature of studying at The Glasgow School of Art"></a></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr> 
+                  <td><img name="GSA_language_r5_c7" src="images/GSA_language_r5_c7.gif" width="78" height="2" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td><img name="GSA_language_r6_c7" src="images/GSA_language_r6_c7.gif" width="78" height="172" border="0" alt=""></td>
+                </tr>
+                <tr> 
+                  <td><img name="GSA_language_r8_c7" src="images/GSA_language_r8_c7.gif" width="78" height="14" border="0" alt=""></td>
+                </tr>
+              </table></td>
+            <td><img name="GSA_language_r1_c8" src="images/GSA_language_r1_c8.gif" width="14" height="420" border="0" alt=""></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+ c.  l

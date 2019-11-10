@@ -1,0 +1,113 @@
+<!doctype html public -//w3c//dtd html 3.2//en>
+<html>
+<head>
+<META NAME="htdig-keywords" CONTENT="Rothamsted Insect survey, suction traps, aphid bulletin, aphids, light traps, moths">
+<title>Rothamsted Insect Survey</title>
+<link rel="stylesheet" type="text/css" href="/insect-survey/includes/insect-survey.css" media="screen">
+</head>
+<body>
+<table style="width: 100%; max-width: 970px;" border="0">
+<tr>
+<td valign="top" width="200">
+<a href="/insect-survey/index.php">
+<img src="/insect-survey/Graphics/RISLogo200.gif" alt="Rothamsted Insect Survey logo - click for home page" border="0">
+</a>
+<li><a href="/insect-survey/ContactUs.php">Contact us</a></li>
+<br />
+<strong>Suction Trapping</strong>
+<li><a href="/insect-survey/STAphidBulletin.php">Aphid bulletin</a></li>
+<li><a href="/insect-survey/STAphidBulletinArchive.php?Year=2007">Bulletin archive</a></li>
+<li><a href="/insect-survey/STSponsors.php">Sponsors</a></li>
+<li><a href="/insect-survey/STTrapSites.php">Trap sites</a></li>
+<li><a href="/insect-survey/STAphids.php">Aphid species</a></li>
+<li><a href="/examine/">EXAMINE</a></li>
+<br />
+<strong>Light Trapping</strong>
+<li><a href="/insect-survey/LTTrapSites.php">Trap sites</a></li>
+<li><a href="/insect-survey/LTNewsletters.php">Newsletters and articles</a></li>
+<br />
+<strong>Vertical-Looking Radar</strong>
+<li><a href="/insect-survey/VLR.php">Introduction</a></li>
+<strong>Environmental Change Network</strong>
+<li><a href="/insect-survey/ECN.php">Introduction</a></li>
+
+
+<p>
+Rothamsted Insect Survey,<br />
+<a href='http://www.rothamsted.ac.uk/pie/'>Department of Plant and Invertebrate Ecology</a>,<br />
+<a href='http://www.rothamsted.ac.uk/'>Rothamsted Research</a>,<br />
+Harpenden,<br />
+Hertfordshire,<br />
+AL5 2JQ<br />
+Tel: + 44 (0) 1582 763 133<br />
+Fax: + 44 (0) 1582 760 981
+</p>
+
+
+<p><a href='/insect-survey/CHDCounter/Visitors.php'>55 visitors since<br />Tuesday 1st May 2007</a></p>
+
+<!--<div id="STimage"><img src="/insect-survey/Photos/RichardHarrington200.jpg" alt="Richard Harrington" />
+<div id="STtext">
+<strong>Suction Trapping</strong>
+<li>Aphid bulletin</li>
+<li>Bulletin Archive</li>
+<li>Sponsors</li>
+<li>Trap sites</li>
+<li>Aphids</li>
+<li>EXAMINE</li>
+</div></div>
+
+
+<div id="LTimage"><img src="/insect-survey/Photos/IanWoiwod200.jpg" alt="Richard Harrington" />
+<div id="LTtext">
+<strong>Light Trapping</strong>
+<li>Trap sites</li>
+</div></div>
+
+
+<div id="STimage"><img src="/insect-survey/Photos/VLR200.jpg" alt="Richard Harrington" />
+<div id="STtext">
+<strong>Vertical-Looking Radar</strong>
+<li>Trap sites</li>
+</div></div>-->
+</td>
+<td width="10">&nbsp;</td>
+<td valign="top"><script type="text/javascript" language="javascript">
+document.title = "Environmental Change Network (ECN)";				
+</script>
+
+
+<h1>Environmental Change Network (ECN)</h1>
+
+
+<table align="right" style="background-color: #2E3092; " cellspacing="0">
+<tr><td><a href="http://www.ecn.ac.uk/sites.htm"><img src="/insect-survey/Graphics/ECNMap.jpg" alt="ECN sites - Click for more information" border="0"></td></tr>
+<tr><td align="center" style="color:#FFFFFF; "><strong>ECN sites</strong></td></tr></table>
+
+
+
+
+<p>The ECN is the UK's long-term, integrated environmental monitoring and research programme.  ECN gathers information about the pressures on and responses to environmental change in physical, chemical and biological systems.  It is supported by a consortium of fourteen sponsoring organisations and seven research organisations.  ECN's objectives are:</p>
+
+<ul style="font-size: smaller;">
+<li>To establish and maintain a selected network of sites within the UK from which to obtain comparable long-term datasets through the monitoring of a range of variables identified as being of major environmental importance.</li>
+<li>To provide for the integration and analysis of these data, so as to identify natural and man-induced environmental changes and improve understanding of the causes of change.</li>
+<li>To distinguish short-term fluctuations from long-term trends, and predict future changes.</li> 
+<li>To provide, for research purposes, a range of representative sites with good instrumentation and reliable environmental information.</li> 
+</ul>
+
+
+<p>The ECN consists of 12 terrestrial and 44 freshwater sites representing different UK ecosystems. At each site a wide range of chemical, physical and biological measurements are made. These are used to identify environmental change and improve our understanding of its cause.</p>
+
+<p>
+<li><a href="/aen/ecn/">The Environmental Change Network at Rothamsted</a> (Soil Science Department)</li>
+</p>
+
+</td></tr></table>
+<iframe id="RecordBrowser" name="RecordBrowser" height="400" width="600" 
+style="display: none;"></iframe>
+<script type="text/javascript" language="javascript" src="/insect-survey/CHDCounter/VisitorsDetails.js"></script>
+</body>
+</html>
+
+2> o"Io

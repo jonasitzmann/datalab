@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : Primary Languages</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style20 {font-family: Arial, Helvetica, sans-serif; font-size: 16pt; }
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/primary-languages_f2.gif','../images/free-resources_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center">
+  <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"> <div align="center"> 
+          <blockquote>&nbsp;</blockquote>
+          <table width="660" border="0" cellspacing="1" cellpadding="0">
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr> 
+                    <td width="50%" rowspan="3"><img src="../images/new-logo.gif" alt="Comenius Yorkshire and the Humber" width="217" height="86"></td>
+                    <td width="50%" height="57" valign="top"> <div align="right" class="topbar"><font color="#666666"><img src="../index_clip_image002_0002.jpg" width="192" height="41"><br><a href="../contact-us/index.htm"></a><a href="../about-us/index.htm"></a><a href="../find-us/index.htm"></a><a href="../indexold.htm"></a></font></div></td>
+                  </tr>
+                  <tr>
+                    <td height="33" valign="middle"><div align="right"><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"></font></div></td>
+                  </tr>
+                  <tr>
+                    <td valign="bottom"><div align="right"><font color="#666666"><a href="../contact-us/index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="../about-us/index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+                  </tr>
+                </table></td>
+            </tr>
+            <tr>
+              <td colspan="6">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="maintext style44"><div align="center"><strong><a href="../events-courses/index.htm">Courses &amp; Conferences</a> </strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/links/index.htm">Links</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/index.htm" onMouseOver="MM_swapImage('events','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks3','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../primary-languages/index.htm" onMouseOver="MM_swapImage('languages','','../images/primary-languages_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../free-resources/index.htm" onMouseOver="MM_swapImage('free','','../images/free-resources_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../links/index.htm" onMouseOver="MM_swapImage('links','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr> 
+                    <td width="354"><div align="center" class="style20">Primary Languages in 
+                        <br>
+                    West Yorkshire</div></td>
+                    <td><img src="../images/image-bar/early-learning.jpg" width="354" height="180"></td>
+                  </tr>
+                  
+                </table></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  
+                  <tr> 
+                    <td width="100%" class="maintext"><br>
+<p> Comenius Yorkshire and the Humber   host  Regional Support Group  (ELL RSG) sessions for 
+                        the West Yorkshire region at Leeds Trinity &amp; All Saints. On behalf of the DfES and in 
+                        accordance with the National Languages Strategy, CILT 
+                        is managing a network of ELL RSGs across the country, 
+                        and the Comenius Yorkshire &amp; the Humber centre is one of these.</p>
+<table width="80%" height="592"  border="1" align="center" cellpadding="10" cellspacing="0">
+  <tr>
+    <td width="504" height="590"><p align="center" class="maintext"><strong>LANGUAGES IN THE PRIMARY SCHOOL <br>
+  PROGRAMME 2006-2007 </strong></p>
+      <p class="maintext">FREE Training &amp; Networking Sessions for teachers to be held at Leeds Trinity &amp; All Saints: </p>
+      <p class="maintext"><strong>NACELL Regional Support Group (RSG)</strong><br>
+        These training, networking and information sessions are for all involved in teaching languages to young learners &nbsp; or those interested in starting to teach languages - nursery, foundation, KS1 &amp; KS2 Class teachers, Learning support assistants, Headteachers and Governors.  </p>
+      <ul>
+        <li class="maintext"><strong><em>Session Four - Tuesday 22 May 2007</em></strong><br>
+        Session will include Mime and Movement with David Hicks; Montpellier Presentation by Hothfield Primary School and resource displays by Harcourt Education and LCP. <br>
+        <em><strong><br>
+        </strong></em></li>
+        <li class="maintext"><strong><em>Session Five - Thursday 14 June 2007     </em></strong><br>
+        Session will include Focus on Interactive Whiteboard Materials by Promethean; Good Practice in School Presentation by Rawdon St Peter's Primary School; Resource Presentation by Early Start Resources; and resource display by Harcourt Education.</li>
+      </ul>
+      <p align="left" class="maintext"><strong> A Powerpoint presentation outlining what was covered in Session 1 (26 September) is available for download - please <a href="../downloads/Session 1 Sept 2006.ppt">click</a> here. To read the evaluations for this session, please <a href="../training/RSG 1 260906.html">click</a> here. <br>
+          <br>
+            </strong>To download any of the forms featured in the above presentation, please click on the appropriate link:<strong><br>
+                  <br>
+                  </strong><a href="../downloads/British Council Information/Host Comenius Assistant application form.doc">Host Comenius Assistant Application Form</a><a href="downloads/British Council Information/Bialystok Poland-invitation.doc"><br>
+                                  </a><a href="../downloads/British Council Information/Guidelines Comenius Assistant hosts.doc">Comenius Assistants Host Guidelines</a><br>
+                                  <a href="../downloads/British Council Information/Comenius 1 School Partnerships.doc">Comenius One Schools Partnership Information</a><a href="downloads/British Council Information/Bialystok Poland-invitation.doc"><br>
+                                                  </a><a href="../downloads/British Council Information/Com1-PV-2006_Application Form.doc">Comenius One Preparatory Visit Application Form</a><a href="../downloads/British Council Information/Bialystok Poland-invitation.doc"><br>
+Bialystok Poland Invitation</a><br>
+<a href="../downloads/British Council Information/Programme Seminar Poland.doc">Poland Seminar Programme</a><br>
+<a href="../downloads/British Council Information/Bruges PROGRAMME.doc">Bruges Programme</a><br>
+<a href="../downloads/British Council Information/Bruges seminar practical information.doc">Bruges Seminar Practical Information</a><br>
+<a href="../downloads/British Council Information/Bilzen Belgium Draft Programme.doc">Bilzen Belgium Draft Programme</a><br>
+<a href="../downloads/British Council Information/Bilzen Belgium PRACTICAL INFORMATION.doc">Bilzen Belgium Practical Information</a><strong><br>
+          </strong><br>
+          <strong>Regional Support Group - Session 2 - 
+          November 2006</strong><br>
+          To download the handout on How to write a Language Policy, please <a href="../downloads/2006-07/Making a Languages Policy Handout.doc">click</a> here. <br>
+          To read the evaluations for this session, please <a href="../training/RSG 2 081106.html">click</a> here. <br>
+          <br>
+          <strong>Regional Support Group - Session 3 - February 2007</strong><br>
+          For further information about the evening please <a href="RSG 3.html">click</a> here. For the Au Panier Gourmand website, please <a href="http://www.britnett-carver.co.uk/aupanier/index.html">click</a> here.
+          To read the evaluations for this session, please <a href="../training/RSG 3 200207.html">click</a> here. <br>
+          <br>
+          <strong>Regional Support Group Newsletter - 
+        November 2006<br>
+          </strong>Please <a href="../downloads/2006-07/RSG newsletter Nov2006.doc">click</a> here to download.<br>
+          <br>
+          <strong><br>
+          NACELL Regional Consultative Group (RCG)</strong><br>
+        This training and networking group meets once each term and brings together ELL trainers and co-ordinators from across the West Yorkshire region. We welcome members of NALA and ALL, ITT trainers, LEA Advisers, ATs and ASTs, primary links co-ordinators from SLCs or secondary languages departments, and co-ordinators from primary schools.  </p>
+      <ul><li class="maintext">Session Three - Wednesday 16 May 2007   </li>
+        </ul>
+      <p align="center" class="maintext"><a href="../downloads/word/ELL RSG Programme 2006-07.doc" target="_blank">Download booking form (word document) </a><br>
+        <br>
+          <strong>PLEASE ENSURE YOU BOOK YOUR PLACE ON THE ABOVE SESSIONS BY CALLING 0113 283 7226</strong></p>      </td>
+  </tr>
+</table>
+<p>Catherine Cheater, who has worked at a national level 
+                        in policy making for early language learning and is co-author 
+                        of two CILT Young Pathfinders, is the Early Language Teaching 
+                        Adviser based here at 
+
+
+ Comenius Yorkshire and the Humber
+
+.<br>
+<br>
+For an example of Catherine's training methods, please <a href="../images/titles/Catherine Training 003.avi">click</a> here for first video clip and <a href="../images/image-bar/Catherine Training 004.avi">click</a> here for second video clip. </p>
+                      <ul>
+                        <li> We have at least 5 ELL RSG twilight 
+                          sessions each year, at no cost to participating 
+                          teachers (<strong>but please let us know if you wish to come 
+                          along!</strong>). We welcome primary and secondary teachers to 
+                          these meetings, as well as ITT trainers, foreign language 
+                          assistants, teaching support assistants, ASTs and PGCE 
+                          students.<br>
+                        </li>
+                        <li> We are also holding consultative 
+                          forums each term, to which any of the above are welcome. <br>
+                        </li>
+                        <li> The national ELL website is at <a href="http://www.nacell.org.uk" target="_blank">www.nacell.org.uk</a>. 
+                          NACELL is the National Advisory Centre on Early Language 
+                          Learning, based at CILT (Centre for Information on Language 
+                          Teaching and Research). See <a href="http://www.cilt.org.uk" target="_blank">www.cilt.org.uk</a>. 
+                          The NACELL website gives details of CILT ELL training 
+                          courses in this country and abroad. NACELL can be contacted 
+                          at nacell@cilt.org.uk.<br>
+                        </li>
+                        <li> Primary schools wishing to develop ELL in the curriculum 
+                          will find that the CILT DIRECT PRIMARY scheme offers 
+                          a fully comprehensive package of information and support. 
+                          Details of this scheme can be found at <a href="http://www.nacell.org.uk/ciltdirect.htm" target="_blank">www.nacell.org.uk/ciltdirect.htm</a><br>
+                        </li>
+                        <li> Training Courses at home and abroad - <a href="http://www.cilt.org.uk/cpd/primary.htm" target="_blank">www.cilt.org.uk/cpd/primary.htm</a> 
+                          gives details of current courses.<br>
+                          <br>
+                        </li>
+                    </ul></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table>
+        </div></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD <br>
+        Telephone 0113 
+          283 7226<br>
+          <font color="#999999">Page last updated: 
+          <!-- #BeginDate format:fcAm1 -->Friday, April 27, 2007<!-- #EndDate -->
+          </font> </div></td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>
+
+
+.lnscma "drn

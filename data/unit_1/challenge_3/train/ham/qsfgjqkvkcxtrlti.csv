@@ -1,0 +1,104 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: 2point2_metre_facility: chamber_1:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<h2>The 2.2 Metre Vacuum Chamber</title></h2>
+
+<p>The 2 metre long fixed section of the vacuum vessel straddles the
+<a href="mass_3.html">seismic mass</a>, while the two castor-mounted
+end caps offer exceptional access to both the instrument under test
+and its <a href="CMS_4.html">optical</a> and <a
+href="targets_5.html">radiometric</a> test equipment. 
+
+<CENTER>
+<IMG SRC="chamber_fig1.jpg"><BR>
+<BR><I>Fig 1: Photograph of the vacuum chamber</I>
+</CENTER>
+<BR>
+The chamber, which is shown in Fig 1, is fitted with many large
+diameter service ports for the vacuum pumps (Fig 2 and Fig 3), the
+numerous electrical-vacuum feedthroughs (power, signal and control),
+the contamination control instrumentation and the many
+refrigerant-vacuum feedthroughs, Fig 4.<p>
+
+<p><strong>Cooling systems</strong> comprise a <a
+href="cool_6.html">large liquid nitrogen (LN2) storage vessel</a>, LN2
+distribution systems, phase separators, <a
+href="heat_7.html">LN2-cooled heat-exchangers</a>, refrigerant flow
+and return lines and control and monitoring equipment.<p>
+
+<p>Partial pressures of residual gases are monitored qualitatively and
+continuously with a <strong>1 to 200 amu residual gas
+analyser</strong>, while <strong>infrared absorption and reflection
+spectra</strong> for non volatile residue films condensed on windows
+and mirrors provide a more quantitative (although time integrated)
+measure of cleanliness. Exposed <strong>witness foil samples</strong>
+and <strong>TCQCM</strong> measurements showed the vacuum chamber to
+be clean to the levels required for HIRDLS test and calibration, which
+was carried in vacuua better than 5.0 <FONT
+FACE="Symbol">&times;</FONT> 10<SUP>-7</SUP> mbar, with the longest
+period of continuous thermal vacuum testing extending to 5 weeks.</p>
+
+<TABLE WIDTH=100%><TR><TD VALIGN=TOP>
+<IMG SRC="chamber_fig2.jpg"><BR>
+<BR><I>Fig 2: Photograph of turbopump, and pipework passing through bulkhead</I>
+</TD><TD>
+<IMG SRC="chamber_fig3.jpg"><BR>
+<BR><I>Fig 3: Photograph of dry pumping stack in main air plenum</I></TD>
+</TR>
+</TABLE>
+</BR>
+<TABLE WIDTH=100%><TR><TD VALIGN=TOP>
+<center>
+<IMG SRC="chamber_fig4.jpg">
+</center>
+</TD><TD>
+<center>
+<IMG SRC="chamber_fig5.jpg">
+</center>
+</TD>
+</TR>
+</TABLE>
+<center><br>
+<I>Figs 4 and 5: Photograph of Galden feedthroughs and electrical
+feedthoughs</I>
+</center>
+
+
+</BODY></HTML>
+
+
+&;Wc >

@@ -1,0 +1,123 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: 2point2_metre_facility: index:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<h2>2.2 Metre Calibration Facility for HIRDLS Calibration</h2>
+
+<p>Originally built<sup><small>*</small></sup> for the test and calibration of the <a
+href="http://www.atm.ox.ac.uk/hirdls/home.htm">High Resolution
+Dynamics Limb Sounder (HIRDLS)</a>, the 2.2 Metre Calibration Facility
+comprises a large <a href="chamber_1.html">thermal vacuum chamber</a>,
+located in a <a href="clean_2.html">class 100 cleanroom</a> (0.5
+micron particles, Fed Std 209E).</p>
+<p>The requirements for HIRDLS Test and Calibration necessitated the
+provision of a <strong>low vibration environment</strong>. This was achieved by
+the configuration shown in Fig 1. The <a href="mass_3.html">seismic
+mass</a> and pneumatic isolators mechanically decoupled the instrument
+and its optical test equipment from all sources of structure-borne
+vibration.</p>
+<p>This drawing was chosen as it shows both the facility's unique
+feature - the low vibration support - as well as the scale of the
+installation.</p>
+<CENTER>
+<a href="main_fig1_large.jpg"><IMG SRC="main_fig1.jpg"></a><BR>
+<BR><I>Fig 1: ACAD drawing of chamber</I>
+</CENTER>
+</BR>
+<CENTER>
+<a href="main_fig2_large.jpg"><IMG SRC="main_fig2.jpg"></a><BR>
+<BR><I>Fig 2: Photograph of chamber in the clean room</I>
+</CENTER>
+</BR>
+<p>The vacuum-side table, which is capable of supporting up to 500 kg of
+equipment, is shown loaded with the HIRDLS instrument in Fig 3, and with
+the <a href="CMS_4.html">collimator monochromator system (CMS)</a> in Fig 4.
+<BR>
+<BR>
+<TABLE WIDTH=100%><TR><TD VALIGN=TOP>
+<IMG SRC="main_fig3.jpg"><BR>
+<BR><I>Fig 3: Photograph of HIRDLS in the
+chamber.</I></TD>
+</TD><TD>
+<IMG SRC="main_fig4.jpg"><BR>
+<BR><I>Fig 4: Photograph of CMS in the
+chamber (flanked by the radiometric calibration targets)</I></TD>
+</TR>
+</TABLE>
+<BR>
+<TABLE WIDTH=100%><TR><TD VALIGN=TOP>
+<p>The purpose-built CMS was used for precision <strong>field of view
+(FOV)</strong> and <strong>spectral response</strong> determinations under <strong>thermal
+vacuum</strong> conditions.  Test equipment which is either insensitive to
+vibration, such as the <a href="targets_5.html">radiometric
+calibration targets</a>, or a source of vibration, such as the <a
+href="cool_6.html">cold walls and cooling systems</a>, are supported
+off the chamber wall and positioned by the four, heavy duty equipment
+support bars that pass through the fixed, central section of the
+chamber, Fig 5.</p>
+<p><strong>In summary, the key features of the facility  are:</strong>
+
+<UL>
+<LI>Exceptionally clean environments, for instrument integration, test and
+calibration.
+
+<LI>Vibrationally isolated support structures for precision optical
+measurements under thermal vacuum conditions.
+
+<LI>Cooling systems for thermal balance, thermal vacuum and orbital heat-flux
+simulations
+
+<LI>Optical GSE for instrument test and calibration under thermal vacuum
+conditions
+
+<LI>Radiometric GSE for instrument calibration under thermal vacuum conditions
+</UL></p>
+
+</TD><TD> <IMG SRC="main_fig5.jpg"><BR> <BR><I>Fig 5: Photograph of
+the HIRDLS cold reference target, a vibration source and so held
+off the chamber wall by heavy duty support bars.</I></TD>
+</TR>
+</TABLE>
+<p>Enquiries about 2.2 metre and 1.6 metre facilities: Bob Watkins (<a
+href="mailto:b.watkins1@physics.ox.ac.uk">b.watkins1@physics.ox.ac.uk</a>)</p>
+<sup><small>*</small></sup>We gratefully aknowledge the Natural Enviroment Research
+Council (NERC), UK, for funding this research
+
+
+</BODY></HTML>
+
+
+ , 

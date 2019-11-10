@@ -1,0 +1,71 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>instruments</title>
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="1" link="#009999">
+
+<p align="center"><img border="0" src="images/Head.jpg" align="left" width="511" height="89">&nbsp;<img border="0" src="images/Word.jpg" align="left" width="153" height="45">
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><font size="5" color="#500028">INSTRUMENTS</font></p>
+
+KEY PARAMETERS
+<br>
+Measurement Approach
+<ul>
+  <li> Scanning infrared limb sounder</li>
+  <li> 21 photoconductive HgCdTe detectors cooled to 80K</li>
+  <li> Each detector has a separate band pass interference filter, see table of <a href="inst/spectral_channels.htm">Pass Bands</a></li>
+  <li> Swath: Typically six profiles across 2,000- to 3,000-km-wide swath</li>
+  <li> Spatial resolution: Profile spacing 500 x 400 km horizontally (equivalent to 5 degrees long x 4 degrees lat) x 1 km 
+vertically; averaging volume for each data sample 1 km vertical x 10 km across x 400 km along line-of-sight</li>
+</ul>
+Accommodation Issues
+<ul>
+   <li> Mass: 185 kg<li>
+   <li> Duty cycle: 100%</li>
+   <li> Power: 220 W (average), 230 W (peak)</li>
+   <li> Data rate: 65 kbps</li>
+   <li> Thermal control by: 65K Stirling cycle coolers, passive radiator, heaters, sun baffle</li>
+   <li> FOV (scan range): Elevation, +-2.5 degrees about -25.3 degrees be low horizontal; azimuth, -20 degrees (sun side) to 
++50 degrees (anti-sun side)</li>
+   <li> Detector IFOV: 1 km vertical x 10 km (2.5 degrees ) horizontal</li>
+   <li> Physical size: 130 x 80 x 100 cm (stowed); 130 x 90 x 120 cm (deployed)</li>
+</ul>
+
+<ul type="square">
+  <li><a target="view_frame" href="http://www.atm.ox.ac.uk/hirdls/inst/fig1.pdf">Instrument
+overview</a></li>
+  <li><a href="instrum1.htm">Instrument Description map</a>
+  </li>
+  <li><a href="http://www.atm.ox.ac.uk/hirdls/inst/fig6.pdf">Instrument Subsystem map</a></li>
+  <li><a href="explode0.htm">Explosion map&nbsp;&nbsp;</a> click on each
+stage of 3D model to view the internals of the system stage by stage</li>
+  <li><a href="http://www.atm.ox.ac.uk/hirdls/inst/sys_sld4.html">Exploded view of the
+instrument</a></li>
+  <li><a href="http://www.atm.ox.ac.uk/hirdls/inst/fig4.pdf">Optical Schematic</a></li>
+  <li><a href="http://www.atm.ox.ac.uk/hirdls/inst/fig3.pdf">Optical Bench</a></li>
+  <li><a href="http://www.atm.ox.ac.uk/hirdls/inst/fig7.pdf">Flight Software overview</a>
+  </li>
+  <li><a href="http://www.atm.ox.ac.uk/hirdls/inst/fig5.pdf">Field of view map</a></li>
+  <li><a href="teles.htm">Telescope Subsystem </a>(TSS)</li>
+</ul>
+
+<p><br>
+</p>
+
+</body>
+
+</html>
+
+
+ a"r	eano

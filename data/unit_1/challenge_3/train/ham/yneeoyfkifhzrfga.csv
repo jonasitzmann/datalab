@@ -1,0 +1,154 @@
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+<TITLE>RRes - SS Department - sundial</TITLE>
+<style>
+<!--
+A { text-decoration: none;  }  
+A:visited, A:hover, A:active { text-decoration: none; } 
+// -->
+</STYLE>
+</HEAD>
+
+<body background="/aen/NewIACRBackground.gif">
+
+<table border="0" cellpadding="6">
+<tr>
+<td colspan="3" valign="top">
+<font face="arial" size="+3"><b>Soil Science&nbsp;</b></font>
+</td>
+</tr>
+
+<tr>
+<td HEIGHT="10"><!--blank cell--></td>
+</tr>
+
+<tr>
+
+<td width="165" valign="top" align="left">
+
+<!-- side menu Start -->
+
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><img border="0" src="/iacr/iacrimages/template3.gif" width="100" height="129"></a>
+<br />
+<p align="left">
+<font face="arial" size="2">
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><b>RRes home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/htdig/search.html"><b>Search</b></a><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html"><b>Research</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/aenindex.htm"><b>SS Department home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+
+<a href="/aen/nut_dyn/nutdyn.htm"><b>Nutrient Dynamics</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/soil_prot/soilprot.htm"><b>Soil Protection and Remediation</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/c_cycling/index.htm"><b>Carbon Cycling</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+<br />
+
+<a href="/aen/project.htm"><b>AEN project pages</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/software.htm"><b>Software</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/meetings.htm"><b>Meetings</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/links.htm"><b>Useful links</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+<B>Soil Science Department<br />
+Rothamsted Research<br />
+Harpenden, Herts<br />
+AL5 2JQ  England<br />
+<br />
+Tel: +44 (0) 1582 763133<br />
+Fax: +44 (0) 1582 469036<br /> 
+E-mail: <A HREF="MAILTO:christine.jaggard@bbsrc.ac.uk">Secretary</A></B><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+</font>
+
+
+<!-- side menu End -->
+
+
+</td>
+
+<td Width="10"><!--blank cell--></td>
+
+
+<td valign="top">
+  <!-- Created with AOLpress/2.0 -->
+  <TITLE>Whole farm modelling using SUNDIAL</TITLE>
+<H1 ALIGN=Center>
+  <BIG><B><BIG><BIG><FONT COLOR=#1111ff>SUNDIAL</font></BIG></BIG> </B></BIG>
+</H1>
+<PRE>
+<H2 ALIGN=Center> Simulation of Nitrogen Dynamics in Arable Land 
+</H2></PRE>
+<P>
+<P>
+<BIG><BIG><BIG><B>Whole farm modelling using SUNDIAL</B></BIG></BIG></BIG>
+<P>
+<hr />
+<P>
+Much of the research to improve knowledge about factors controlling nitrate
+leaching has concentrated on developing principles on a single crop or in
+a single year. In practice farmers operate within more complex systems, involving
+rotations of crops and planning timescales of several years. Nitrogen (N)
+fertiliser applied to the current crop can influence the N available to
+subsequent crops, and so complete rotations should be planned to optimise
+the use of N across the whole farm.
+<P>
+The N turnover model <A HREF="sci.htm">SUNDIAL</A> is designed to
+be used in a &#145;carry-forward&#146; mode, with one year&#146;s run providing
+the inputs for the next. This allows it to be used to investigate more complex
+systems involving rotations of crops over several years.
+<P>
+A Decision Support System (DSS) has been constructed around
+<A HREF="sci.htm">SUNDIAL</A> that allows farmers and policy makers
+to explore how arable rotations respond to practical strategies for reducing
+nitrate leaching (Smith &amp; Glendining, 1996).
+<A HREF="sci.htm">SUNDIAL</A> has been attached to an automated systematic
+method or <I>scenario generator</I>, which derives all rotations of crops
+allowed within an imposed set of farming constraints. The N dynamics of each
+rotation may then be investigated. Constraints are initially defined by
+restrictions on cropping and management practices, for example due to pest
+and disease considerations or EC regulations. The N dynamics of all the resulting
+permutations of crops are automatically simulated and the optimum management
+strategies selected. Smith and Glendining (1996), Smith <I>et al </I>(1997;
+1998) and Glendining and Smith (1999) give further details of the DSS
+(see <A HREF="refs.htm">References and further reading</A>).
+<P>
+
+<hr />
+
+<A HREF="sundial.htm">Back to Sundial
+home page</A>
+
+
+</td>
+
+</tr>
+</table>
+
+
+
+2lMath-to /ebr

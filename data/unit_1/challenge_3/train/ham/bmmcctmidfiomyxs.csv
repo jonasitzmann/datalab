@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<TITLE>Computing help</TITLE>
+</HEAD>
+<BODY BACKGROUND="orange_paper.gif">
+<H1>Computing help</H1>
+<HR>
+
+<H1>1. Graphics packages </H1>
+
+<H3>1.1 <A HREF="grads.html">GrADS</a> </H3>
+
+<H3>1.2 <A HREF="idl.html">IDL</a> </H3>
+
+<H3>1.3 <A HREF="matlab.html">Matlab</a> </H3>
+
+<HR>
+
+<H1>2. Programming languages </H1>
+
+<H3>2.1 <A HREF="fortran.html">Fortran</a> </H3>
+
+<H3>2.2 <A HREF="idl.html">IDL</a> </H3>
+
+<H3>2.3 <A HREF="c.html">C</a> </H3>
+
+<H3>2.4 <A HREF="unix.html">Unix and shell scripts</a> </H3>
+
+<HR>
+
+<H1>3. Editing </H1>
+
+<H3>3.1 <A HREF="emacs.html"> Emacs </a> </H3>
+
+<H3>3.2 <A HREF="latex.html"> LaTeX </a> </H3>
+
+<HR>
+
+<H1>4. Miscellaneous </H1>
+
+<H3>4.1 <A HREF="backups.html">Backups</a> </H3>
+
+<H3>4.2 <A HREF="netcdf.html">NetCDF data format</a> </H3>
+
+</BODY>
+</HTML>
+
+
+c/eeiE ro .Rdr=2

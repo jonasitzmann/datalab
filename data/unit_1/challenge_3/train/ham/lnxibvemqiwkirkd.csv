@@ -1,0 +1,340 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<HTML><!-- InstanceBegin template="/Templates/PostDWindex.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<TITLE>Rothamsted Research</TITLE>
+<!-- InstanceEndEditable --> 
+
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+
+<link rel='stylesheet' type='text/css' href='http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStyle.css' media="screen">
+<link rel="stylesheet" href="http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStylePrint.css" type="text/css" media="print" />
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<script language="JavaScript" type="text/JavaScript" src="/Includes/TemplateScriptTop.js"></script>
+</HEAD>
+<BODY background='http://www.rothamsted.bbsrc.ac.uk/Graphics/InternetBackground.gif' 
+onLoad='ConfigurePage();' onResize='ConfigurePage();'>
+
+<div id="LeftSection" tabindex="1" onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')">
+<a href='http://www.rothamsted.bbsrc.ac.uk/index.html'>
+<img src='http://www.rothamsted.bbsrc.ac.uk/Graphics/LogoLarge.gif' alt='Click for RRes home page' width="148" height="195" border='0' style="position: absolute; top: 10px; left: 10px;"> 
+</a> 
+
+<form action='http://www.rothamsted.bbsrc.ac.uk/cgi-bin/htsearch' method='post' name='RResSearch' id='RResSearch'>
+    <input type='hidden' name='method' value='and'>
+    <input type='hidden' name='format' value='builtin-long'>
+    <input type='hidden' name='sort' value='score'>
+    <input type='hidden' name='restrict' value=''>
+    <input type='hidden' name='exclude' value=''>
+    <input type='hidden' name='config' value='rothamsted'>
+    <input class='SearchBox' type='text' name='words' id='words' value='Search website' 
+onClick='ClearSearchBox()' tabindex="2" title="Type a search term here and press enter">
+<input type="submit" value="Go!" class="GoButton" />
+</form>
+
+<div tabindex="4" id="ScienceLinks" style="position:absolute; left:10px; top:228px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+>Science 
+  Links</div>
+
+<div tabindex="5" id="PrinterFriendlyVersion" style="position:absolute; left:10px; top:247px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="PrintVersion();" onKeyPress="PrintVersion();" >Printer 
+  friendly version</div>
+
+</div>
+
+<div tabindex="6" id="Disclaimer" style="position:absolute; left:10px; bottom:30px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+>Disclaimer</div>
+
+<div tabindex="7" id="MakeComments" style="position:absolute; left:10px; bottom:10px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+>Make comments</div>
+
+
+
+<div class='Category' style='left: 160px;' id="Category1" tabindex="8"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>About us</div>
+
+<div class='Category' style='left: 260px;' id="Category2" tabindex="19" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Resources</div>
+
+<div class='Category' style='left: 360px;' id="Category3" tabindex="30" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Research</div>
+
+<div class='Category' style='left: 460px;' id="Category4" tabindex="41"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Into practice</div>
+
+<div class='Category' style='left: 560px;' id="Category5" tabindex="52" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>For the public</div>
+
+<div class='Category' style='left: 660px;' id="Category6" tabindex="62" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+>Careers</div>
+
+<div id="MenuSection1" class="MenuDetails" style="z-index:1; visibility: hidden;"> 
+
+  <blockquote style="position:relative; left: -40px; "> <a class="MainMenuLink" tabindex="9" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Introduction.html">Mission of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Origins.html">Origins of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/CompanyInformation.html">Company Information</a><br />	
+    <a class="MainMenuLink" tabindex="11" href="http://www.rothamsted.bbsrc.ac.uk/corporate/ContactUs.html">Contact Us</a><br />
+    <a class="MainMenuLink" tabindex="12" href="http://www.rothamsted.bbsrc.ac.uk/corporate/AnnualReports.html">Annual Reports</a><br />
+    <a class="MainMenuLink" tabindex="13" href="http://www.rothamsted.bbsrc.ac.uk/corporate/PressReleases/PressOffice.html">Press Office</a><br />
+    <a class="MainMenuLink" tabindex="14" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Location.html">Directions And Map of Campus</a><br />
+    <a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/OwnershipAndFunding.html">Ownership and Funding</a><br />
+	<a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/LawesAgriculturalTrust.html">Lawes Agricultural Trust</a><br />
+    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Strategy.html">The Next Decade</a><br />
+	    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/StrategicPlan.html">Strategic Plan 2005-2010</a><br />
+    <a class="MainMenuLink" tabindex="17" href="http://www.rothamsted.bbsrc.ac.uk/corporate/SeniorManagement.html">Senior Management</a><br />
+    <a class="MainMenuLink" tabindex="18" href="http://www.rothamsted-international.org">Rothamsted International</a> </blockquote>
+</div>
+
+<div id="MenuSection2" class="MenuDetails" style="z-index:2; visibility: hidden;"> 
+  <!--<h4>Resources</h4>-->
+  <blockquote style="position:relative; left: 50px; "> <a class="MainMenuLink" tabindex="20" href="http://www.rothamsted.bbsrc.ac.uk/resources/ResourcesAtRRes.html">Resources 
+    at Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="21" href="http://www.rothamsted.bbsrc.ac.uk/resources/RResPromo.html">Rothamsted Research Promotional 
+    video (18Mb)</a><br />
+    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/LongTermExperiments.html">Long Term Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/ClassicalExperiments.html">Classical Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/eRA/ ">Electronic Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/resources/TheRothamstedArchive.html">Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="24" href="http://www.rothamsted.bbsrc.ac.uk/resources/library/">Rothamsted Library</a><br />
+    <a class="MainMenuLink" tabindex="25" href="http://www.rothamsted.bbsrc.ac.uk/resources/ConferenceFacilities.html">Conference Facilities</a><br />
+    <a class="MainMenuLink" tabindex="26" href="http://www.rothamsted.bbsrc.ac.uk/resources/rmlmanor/index.htm">Rothamsted Manor</a><br />
+    <a class="MainMenuLink" tabindex="27" href="http://www.rothamsted.bbsrc.ac.uk/resources/RothamstedFarms.html">Rothamsted Farms</a><br />
+    <a class="MainMenuLink" tabindex="28" href="http://www.rothamsted.bbsrc.ac.uk/resources/TimeLapse.html">Time-lapse Video of the Construction of the Centenary Building</a><br />
+    <a class="MainMenuLink" tabindex="29" href="http://www.rothamsted.bbsrc.ac.uk/resources/CentenaryOpening.html">Photo Gallery of the Opening of the Centenary Building</a> <br />
+    <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/aen/ecn/">Local Weather and the Environmental Change Network</a> 	
+	</blockquote>
+</div>
+
+<div id="MenuSection3" class="MenuDetails" style="z-index:3; visibility: hidden;"> 
+  <!--<h4>Research</h4>-->
+  <blockquote style="position:relative; left: 150px; "> 
+  <!--<a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres.php">Research Centres</a><br />-->
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres/">Research Centres</a><br />  
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html">Research Overview</a><br />
+     <a class="MainMenuLink" tabindex="31" href="http://www.rothamsted.bbsrc.ac.uk/Research/RResQualityStatement.pdf">Rothamsted Research Quality Statement</a> (PDF)<br />
+    <a class="MainMenuLink" tabindex="32" href="http://www.rothamsted.bbsrc.ac.uk/Research/FeaturedProjects.html">Featured Projects</a><br />
+    <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Conferences.html">Conferences and Meetings</a> <br />
+	 <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Publications/">Publications</a> <br />
+	
+	<b>Research Departments:</b><br />
+    <a class="MainMenuLink" tabindex="34" href="http://www.rothamsted.bbsrc.ac.uk/broom/">Applied Crop Sciences</a> (Broom's Barn)<br />
+    <a class="MainMenuLink" tabindex="35" href="http://www.rothamsted.bbsrc.ac.uk/bch/">Biological Chemistry</a><br />
+	<a class="MainMenuLink" tabindex="36" href="http://www.rothamsted.bbsrc.ac.uk/bab/">Biomathematics and Bioinformatics</a><br />		
+    <a class="MainMenuLink" tabindex="37" href="http://www.rothamsted.bbsrc.ac.uk/pie/">Plant and Invertebrate Ecology</a><br />
+    <a class="MainMenuLink" tabindex="38" href="http://www.rothamsted.bbsrc.ac.uk/ppi/">Plant Pathology and Microbiology</a><br />
+    <a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/cpi/">Plant Science</a><br />
+	
+    <a class="MainMenuLink" tabindex="40" href="http://www.rothamsted.bbsrc.ac.uk/aen/">Soil Science</a><br />
+    <!--<a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/Research/Posters.html">Scientific posters</a><br />-->
+  </blockquote>
+</div>
+
+<div id="MenuSection4" class="MenuDetails" style="z-index:4; visibility: hidden; text-align:right;"> 
+  <!--<h4>Into practice</h4>-->
+  <blockquote style="position:relative; right: 150px; "> <a class="MainMenuLink" tabindex="41" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Impact.html">Impact Over the Past 30 Years</a><br />
+	   <a class="MainMenuLink" tabindex="42" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/ClimateChange.html">Climate Change and Land Management</a><br />
+
+    <a class="MainMenuLink" tabindex="43" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/AssociatedCompanies.html">Associated Companies</a><br />
+    <a class="MainMenuLink" tabindex="44" href="http://www.rothamsted.bbsrc.ac.uk/broom/sbrindex.html">Sugar Beet Research at Broom's Barn</a><br />
+    <a class="MainMenuLink" tabindex="45" target="_blank" href="http://www.rothra.org/">Rothamsted 
+    Research Association (formerly ARIA)</a><br />
+    <a class="MainMenuLink" tabindex="46" href="http://www.rothamsted.ac.uk/insect-survey/STAphidBulletin.php">Rothamsted Insect Survey Aphid Bulletin</a><br />
+    <a class="MainMenuLink" tabindex="47" href="http://www.rothamsted.bbsrc.ac.uk/pie/wowp/">Weeds or Wild Plants?</a><br />
+    <a class="MainMenuLink" tabindex="48" href="http://www3.res.bbsrc.ac.uk/leafspot/">Light Leafspot Forecast</a><br />
+    <a class="MainMenuLink" tabindex="49" href="http://www.rothamsted.bbsrc.ac.uk/aen/sundial/sundial.htm">SUNDIAL (SimUlation of Nitrogen 
+    Dynamics In Arable Land)</a><br />
+    <a class="MainMenuLink" tabindex="50" href="http://www.rothamsted.bbsrc.ac.uk/aen/rothlime/">RothLime (Rothamsted Lime Requirement Model)</a><br /><a class="MainMenuLink" tabindex="51" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Biomarket.html">Biomarket</a><br />
+    <a class="MainMenuLink" tabindex="51" href="http://www.dessac.iacr.ac.uk">DESSAC - DEcision Support System for Arable Crops</a> 
+	</blockquote>
+</div>
+
+<div id="MenuSection5" class="MenuDetails" style="z-index:5; visibility: hidden; text-align:right;"> 
+  <!--<h4>For the public</h4>-->
+  <blockquote style="position:relative; right: 50px;"> 
+<!--  <a class="MainMenuLink" tabindex="52" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/MailingListForm.php">Join our mailing list</a><br />  -->
+  
+  <a class="MainMenuLink" tabindex="53" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/PublicEvents.html">Public 
+    Events</a><br />
+    <a class="MainMenuLink" tabindex="54" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/EventsForSchools.html">Resources for 
+    Schools</a><br />
+	
+	    <a class="MainMenuLink" tabindex="55" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/ScienceSnapshots.html">Science Snapshots</a><br />
+
+    <a class="MainMenuLink" tabindex="56" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/Exhibitions.html">Rothamsted Exhibitions</a><br />
+    <a class="MainMenuLink" tabindex="57" href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/">DeBug - Interactive Insects</a><br />
+	
+
+    <a class="MainMenuLink" tabindex="58" href="http://www.rothamsted.bbsrc.ac.uk/notebook/index.html">Molecular Biology Notebook (teaching 
+    resource)</a><br />
+
+    <!--<a class="MainMenuLink" tabindex="59" href="http://www.rothamsted.bbsrc.ac.uk/sportsday/">BBSRC sports day 2004</a><br />-->
+
+
+    <strong>Links external to Rothamsted Research:</strong> <br />
+	
+    <a class="MainMenuLink" tabindex="59" target="_blank" href="http://www.bbsrc.ac.uk/life/buzz/Welcome.html">The 
+    Buzz of Science</a><br />
+    <a class="MainMenuLink" tabindex="60" target="_blank" href="http://www.bbsrc.ac.uk/life/comic/index.html">Science 
+    Stories Comic Book </a><br />
+    <a class="MainMenuLink" tabindex="61" target="_blank" href="http://www.bbsrc.ac.uk/life/zones/Welcome.html">Zones 
+    of Inhibition. Science, Art and Fungi</a> </blockquote>
+</div>
+
+<div id="MenuSection6" class="MenuDetails" style="z-index:6; visibility: hidden; hidden; text-align:right;"> 
+  <!--<h4>Careers</h4>-->
+  <blockquote style="position:relative; right: -40px;"> 
+  <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Vacancies.html">Vacancies</a><br />
+  
+ <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Studentships.html">PhD Studentships</a><br />
+  
+    <a class="MainMenuLink" tabindex="64" href="http://www.rothamsted.bbsrc.ac.uk/careers/WhyChooseRRes.html">Why Choose Rothamsted?</a><br />
+    <a class="MainMenuLink" tabindex="65" href="http://www.rothamsted.bbsrc.ac.uk/careers/AboutRRes.html">About Rothamsted</a><br />
+    <a class="MainMenuLink" tabindex="66" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherSites.html">Other Sites</a><br />
+    <a class="MainMenuLink" tabindex="67" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherFacilities.html">Other Facilities Available</a><br />
+    <a class="MainMenuLink" tabindex="68" href="http://www.rothamsted.bbsrc.ac.uk/careers/LearningResources.html">Learning Resources</a><br />
+    <a class="MainMenuLink" tabindex="69" href="http://www.rothamsted.bbsrc.ac.uk/careers/StaffSupport.html">Staff Support and Sports 
+    and Social Activities</a><br />
+    <a class="MainMenuLink" tabindex="70" href="http://www.rothamsted.bbsrc.ac.uk/careers/Accommodation.html">Accommodation</a><br />
+    <a class="MainMenuLink" tabindex="71" href="http://www.rothamsted.bbsrc.ac.uk/careers/PostGraduateProspectus.html">Postgraduate Information</a><br />
+    <a class="MainMenuLink" tabindex="72" href="http://www.rothamsted.bbsrc.ac.uk/careers/PhDStudentPolicy.html">PhD policy</a> </blockquote>
+</div>
+
+
+
+<div class='RightImageSection' name='RightImageSection' id='RightImageSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+  <img src='' name='RandomImage' width='200' height='550' id='RandomImage' alt='Random image'> 
+</div>
+
+<div id="SubMenuSection" class="SubMenuSection"> 
+<!-- InstanceBeginEditable name="SubmenuRegion" -->
+  <img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/">BCH home page</a>
+<div align="center"><strong>Programmes</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/CEGroup/index.html">Chemical Ecology Group</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/IMBGroup/index.html">Insect Molecular Biology Group</a><br />
+<div align="center"><strong>Links</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/ContactUs.html">Contact us</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/PCGroup/pete.html">PETE</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/UK-China.html">UK-China Collaborations</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/Who.html">Who's who in BCH</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/telephone.html">Telephone Numbers</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/bch/Links.html">Useful Links</a><br />
+<!-- InstanceEndEditable --> 
+</div>
+
+<div class='MainSection' name='MainSection' id='MainSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+
+  <!-- InstanceBeginEditable name="MainSectionRegion" --> 
+
+<h2>Chemical Ecology Group</h2>
+
+<h3>Push-pull habitat manipulation for control of maize stemborers and the witchweed <em>Striga</em></h3>
+
+<p>Stemborers and <em>Striga</em> are the major pests of cereal crops in Eastern and Southern Africa. Spraying with pesticides is not only expensive and harmful to the environment, but usually ineffective as the chemicals cannot reach deep inside the plant stems where stemborer larvae reside. </p>
+
+
+<table style="background-color: #003C23" align="center" cellspacing="0">
+<tr><td align="center"><img src="/bch/images/StrigaStemborer.jpg" alt="Stemborers and Striga" width="560"></td></tr>
+<tr><td style="color #FFFFFF;" align="center"><strong>Stemborers and <em>Striga</em></strong></td></tr>
+</table>
+
+<p>The Chemical Ecology Group at Rothamsted in partnership with the International Centre of Insect Physiology and Ecology (ICIPE) have developed a habitat management strategy which manipulates the agro-ecohabitat. The approach relies on a carefully selected combination of companion crops planted around and among maize or sorghum plants. Both domestic and wild grasses can help to protect the crops by attracting and trapping the stemborers. The grasses are planted in the border around the maize and sorghum fields where invading adult moths become attracted to chemicals emitted by the grasses themselves instead of landing on the maize or sorghum plants. These grasses provide the "pull" in the "<a href="http://www.push-pull.net/">push-pull</a>" strategy.</p>
+
+<table style="background-color: #003C23" align="center" cellspacing="0">
+<tr><td align="center"><img src="/bch/images/ExperimentalField.jpg" alt="Experimental field" width="560"></td></tr>
+<tr><td style="color: #FFFFFF;" align="center"><strong>Experimental field</strong></td></tr>
+</table>
+
+<p>They  also serve as a refuge for the borers' natural enemies. Good trap crops include  well-known grasses such as Napier grass (<em>Pennisetum purpureum) </em>and Sudan grass (<em>Sorghum vulgare sudanense</em>). Napier grass has a particularly clever way of defending itself against the pest  onslaught: once attacked by a borer larva, it secrets sticky substance that  physically traps the pest and effectively limits its damage. The  &quot;push&quot; in the intercropping scheme is provided by the plants that  emit chemicals which repel stemborer moths and drive them away from the main  crop (maize or sorghum). The best candidates discovered so far with the  repellent properties are members of leguminous genus <em>Desmodium </em>spp. whichis planted in between  the rows of maize or sorghum. Being low-growing plant it does not interfere  with the crops' growth and furthermore has the advantage of maintaining soil  stability and improving soil fertility through nitrogen-fixation. It also  serves as a highly nutritious animal feed and effectively suppresses <em>Striga</em>. Another plant showing good  repellent properties is molasses grass (<em>Melinis minutiflora</em>), a nutritious  animal feed with tick-repelling and stemborer larval parasitoid attractive  properties.</p>
+
+<table style="background-color: #003C23" align="center" cellspacing="0">
+<tr><td align="center"><img src="/bch/images/PushPull.gif" alt="Push-pull strategy" width="560"></td></tr>
+<tr><td style="color: #FFFFFF;" align="center"><strong>Push-pull strategy</strong></td></tr>
+</table>
+
+<h3>Publications</h3>
+
+
+<p><strong>Cook, S.M., Khan, Z.R., Pickett, J.A. </strong>The use of push-pull strategies in integrated pest management (2007) <em>Annu. Rev. Entomol.</em>, <strong>52</strong>: 375-400. </p>
+
+<p><strong>Kalule, T., Khan, Z.R., Bigirwa, G., Alupo, J., Okanya, S., Pickett, J.A., Wadhams, L.J. </strong>Farmers' perceptions of importance, control practices and alternative hosts of maize stemborers in Uganda (2006) <em>Int. J. Tropical Insect Sci.</em>, <strong>26</strong>: 71-77. </p>
+
+<p><strong>Khan, Z.R., Pickett, J.A., Wadhams, L.J., Hassanali, A., Midega, C.A.O. </strong>Combined control of <em>Striga hermonthica</em> and stemborers by maize-<em>Desmodium</em> spp. intercrops (2006) <em>Crop Prot.</em>, <strong>25</strong>: 989-995. </p>
+
+<p><strong>Chamberlain, K., Khan, Z.R., Pickett, J.A., Toshova, T., Wadhams, L.J.</strong> Diel periodicity in the production of green leaf volatiles by wild and cultivated host plants of stemborer moths, <em>Chilo partellus </em>and <em>Busseola fusca </em>(2006) <em>J. Chem. Ecol.</em>, <strong>32</strong>: 565-577.</p>
+
+<p><strong>Midega, C.A.O., Khan, Z.R., Van Den Berg, J., Ogol, C.K.P.O., Pickett, J.A., Wadhams, L.J. </strong>Maize stemborer predator activity under 'push-pull' system and Bt-maize: A potential component in managing Bt resistance (2006) <em>Int. J. Pest Man</em>., <strong>52</strong>: 1-10.</p>
+
+<p><strong>Tsanuo, M.K., Hassanali, A., Hooper, A.M., Khan, Z., Kaberia, F., Pickett, J.A., Wadhams, L.J. </strong>Isoflavanones from the allelopathic aqueous root exudate of <em>Desmodium uncinatum</em> (2003) <em>Phytochemistry</em>, <strong>64</strong>: 265-273.</p>
+
+<p><strong>Gohole, L.S., Overholt, W.A., Khan, Z.R., Pickett, J.A., Vet, L.E.M. </strong>Effects of molasses grass, <em>Melinis minutiflora</em> volatiles on the foraging behavior of the cereal stemborer parasitoid, <em>Cotesia sesamiae</em> (2003) <em>J. Chem. Ecol</em>., <strong>29</strong>: 731-745.</p>
+
+<p><strong>Khan, Z.R., Hassanali, A., Overholt, W., Khamis, T.M., Hooper, A.M., Pickett, J.A., Wadhams, L.J., Woodcock, C.M. </strong>Control of witchweed <em>Striga hermonthica</em> by intercropping with <em>Desmodium</em> spp., and the mechanism defined as allelopathic (2002) <em>J. Chem. Ecol</em>., <strong>28</strong>: 1871-1885.</p>
+
+<p><strong>Kimani, S.M., Chhabra, S.C., Lwande, W., Khan, Z.R., Hassanali, A., Pickett, J.A.</strong> Airborne volatiles from <em>Melinis minutiflora</em> P. Beauv., A non-host plant of the spotted stem borer (2000) J. Ess. Oil Res., <strong>12</strong>: 221-224.</p>
+
+<p><strong>Khan, Z.R., Pickett, J.A., Van den Berg, J., Wadhams, L.J., Woodcock,  C.M. </strong>Exploiting  chemical ecology and species diversity: Stem borer and <em>Striga</em> control for maize and sorghum in Africa  (2000) <em>Pest</em><em> Manag. Sci.,</em> <strong>56</strong>: 957-962. </p>
+
+<p>&nbsp;</p>
+    <!-- InstanceEndEditable -->  </div>
+
+<script type="text/javascript" language="JavaScript" src="/Includes/TemplateScriptBottom.js"></script>
+</BODY><!-- InstanceEnd --></HTML>
+
+
+R&		ddr

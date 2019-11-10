@@ -1,0 +1,115 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: facilities: electronics:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<h2>Electronics Services Workshop</h2>
+
+<p>The department supports a small, but well equipped, 'on-site'
+electronics workshop, with additional resources available 'off-site'
+from a <a href="http://www.physics.ox.ac.uk/electronics/">central
+physics electronics workshop</a> and <a
+href="http://www.physics.ox.ac.uk/electronics/pfu/pfu-web-page-dr-weave-htm.htm">photolithography
+facility</a>. The 'on-site' workshop staff (Fig&#160;1) are unique in
+having acquired more than 20 years experience through their
+involvement with the following earth observation and planetary
+experiments: ISAMS (on UARS), ATSR1/2 (on ERS1/2), PMIRR1 (on Mars
+Observer), PMIRR2 (on Mars Climate Orbiter) EOR (on EURECA) MOPITT (on
+Terra), CIRS (on Cassini), and HIRDLS (on Aura).</p>
+<map NAME="andy_and_john">
+<area SHAPE="RECT" COORDS="0,0,4,4"
+HREF="electronics/andy_and_john_small.jpg">
+</map>
+<CENTER>
+<a href="electronics/fig1_large.jpg"><IMG
+SRC="electronics/fig1_small.jpg"></a>
+<IMG SRC="electronics/blank.jpg" WIDTH=5 BORDER=0 USEMAP="#andy_and_john">
+<BR>
+<BR><I>Fig 1: Andy Clack and Jonathon Temple working on a breadboard
+design for a cryogenic pre-amplifier</I>
+</CENTER>
+<p>At the component-level of assembly, quality assurance (QA) is
+provided by recognised training courses: at the Jet Propulsion
+Laboratory in 1990 (applicable NASA Handbooks NHB5300.4(3A-2) and
+NHB5300.4(3L)), and more recently in 1999 at the <a
+href="http://www.highbury.ac.uk/pdf/ESA/ESA2.pdf">ESA authorised
+training centre (UK)</a> at <a
+href="http://www.highbury.ac.uk/business/esa.html">Highbury
+College</a>, Portsmouth (applicable ESA Specifications, PSS-01-708 and
+PSS-01-738). In compliance with the quality assurance requirements for
+space flight electronics, finished assemblies may also undergo
+environmental testing 'on-site' using the department's <a
+href="vibration_testing.html">vibration test facility</a> or in one of
+its many thermal vacuum chambers, such as the newly installed <a
+href="thermal_cycling_chamber.html">thermal cycling chamber</a>.</p> <TABLE WIDTH=100%
+CELLPADDING="5%"><TR><TD VALIGN=TOP>
+<CENTER>
+<a href="electronics/fig2_large.jpg"><IMG
+SRC="electronics/fig2_small.jpg"></a><BR> <BR><I>Fig 2: Photograph of
+electronics boards in the Blackbody Electronics Unit (BEU)</I></TD>
+</CENTER>
+</TD><TD>
+<CENTER>
+<a href="electronics/fig3_large.jpg"><IMG
+SRC="electronics/fig3_small.jpg"></a><BR> <BR><I>Fig 3: Photograph of
+the BEU with the lid off showing the inductive voltage
+dividers</I></TD>
+</CENTER>
+</TR>
+</TABLE>
+<p>An example of a recently delivered electronics subsystem is the HIRDLS
+Blackbody Electronics Unit (BEU) shown partly assembled in Fig&#160;2 and
+Fig&#160;3. The BEU, the <a
+href="../capabilities/blackbodies.html">In-flight
+Calibration Blackbody (IFCBB)</a> and the interconnecting harness
+comprise the instrument's in-flight calibration subsystem. The
+electronics design was a joint development between Oxford University
+and <a href="http://www.brightwell-instruments.co.uk">Brightwell
+Instruments Ltd.</a>, while manufacture, assembly and test was carried
+out at Oxford. The workshop staff are also skilled in the assembly of
+precision mechanical parts and mechanisms, closely support the
+integration and re-configuring of the department's test and
+calibration facilities and manufacture and terminate the cryogenic
+harnesses used in <a
+href="../capabilities/fpa.html">focal plane
+arrays</a>.  Lightweight enclosures for flight electronics may now be
+manufactured 'on-site' using design and finite element analysis
+software and the machine tools available in the <a
+href="mechanical.html">mechanical workshop</a>.</p>
+</BODY></HTML>
+
+
+/#"
+>

@@ -1,0 +1,242 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<TITLE>Background to the Gazetteer for Scotland</TITLE>
+<script type="text/javascript" language="JavaScript" src="/scotgaz/scotgaz.js"></script>
+</HEAD>
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+ <TR>
+  <TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+   <TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Background"><B> Help </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="#" onClick="popupGloss()"><B> Glossary </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B> Background </B></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/bookshop.html"><B> Bookshop </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Copyright.html"><B> Copyright </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Credits.html"><B> Credits </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Disclaimer.html"><B> Disclaimer </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Feedback.html"><B> Feedback </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/sgzexe/Stats"><B> Gaz Stats </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Sources.html"><B> Sources </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Sponsors.html"><B> Sponsors </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/anyword.html"><B>Any Word Search</B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><A HREF="/scotgaz/bookshop.html"><img src="/scotgaz/images/new.gif" alt="Click for Bookshop" border="0"></A></TD></TR>
+   </TABLE>
+  </TD>
+  <TD BGCOLOR="#FFFFFF" VALIGN="TOP" ALIGN="left">
+   <BLOCKQUOTE><BR>
+   <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+   <H3>Background to the Gazetteer for Scotland</H3>
+   <H3><A NAME="Contents">Contents</A></H3>
+   <DL>
+     <DD><A HREF="#Aim">Aim</A></DD>
+     <DD><A HREF="#What_is">What is a Gazetteer</A></DD>
+     <DD><A HREF="#The_History">The History of Scottish Gazetteers</A></DD>
+     <DD><A HREF="faq.html">Frequently Asked Questions</A></DD>
+     <DD><A HREF="#sponsor">Sponsoring or Licensing the &quot;Gazetteer for Scotland&quot;</A></DD>
+   </DL>
+   <HR SIZE=1 NOSHADE="noshade">
+   <H3><A NAME="Aim">Aim</A></H3><FONT SIZE=-1>
+   <P>The "Gazetteer for Scotland" was conceived by Bruce Gittings of the
+   <A HREF="/home/geoghome.html">Department of Geography, University of
+   Edinburgh</a> and David Munro of the <A HREF="/~rsgs/">Royal Scottish
+   Geographical Society</a> as a major development to promote understanding of the
+   Geography of Scotland.  The Gazetteer is also a significant historical,
+   cultural, architectural and environmental resource, which aims to connect 
+   Scotland's people with places.  It is aimed both at 
+   the local Scottish community, and at an international audience.</P>
+   <P>The intention was to develop a comprehensive geographical
+   database for Scotland, accessible via the World-Wide Web.</P>
+   <P>Whilst high quality geographic information has gained widespread acknowledgment
+   as an important resource, in 1995 when this project began there was 
+   a dearth of information
+   available on Scotland. Until the late 19th Century, Scotland maintained a
+   strong tradition of quality geographical directories and gazetteers but nothing
+   comparable has been produced during the 20th Century. With the advent of the
+   information super-highway and advances made in computer database management systems, the
+   tools which exist today, it was possible to produce a relatively cost-effective and easily updateable
+   <i>Gazetteer for Scotland</i>, which can be accessed by millions. In addition 
+   this approach allows a more flexible form of map-based browsing of
+   information through interactive multi-media, which is not possible in a paper
+   based medium.</P>
+   <P>Data and additional functions have been progressively added to
+   the <i>Gazetteer for Scotland</i> to provide an easy to use on-line data
+   source, incorporating a substantial body of text,
+   photographs, maps, video, sounds and including word search and a range of
+   other query facilities.  The Gazetteer database contains information on
+   towns, villages, rivers, bens, glens,
+   tourist attractions, historic buildings and sites, family names,
+   famous people, statistical information and business data
+   from the Scottish Borders to the
+   Northern Isles.</P>
+   <P>The Gazetteer for Scotland has
+   received generous funding from the <I><B>Robertson Trust</B></I> and the
+   <I><B>Carnegie Trust for the Universities of Scotland</B></I>, which has
+   allowed a basic system to be built and the first tranche of data collected.</P>
+   <p>There is however, a lot more work to be completed, and already we have a
+   long list of new connections we would like to make and additional data we would
+   wish to integrate.  Thus if you like what you
+   see, please consider either donating or 
+   <A HREF="#sponsor">becoming a sponsor of the <i>Gazetteer for Scotland</i>
+   project</a>.</P>
+
+<table cellpadding="5" border="0">
+<TR>
+<TD valign ="top">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="bruce@geo.ed.ac.uk">
+<input type="hidden" name="item_name" value="Gazetteer for Scotland">
+<input type="hidden" name="item_number" value="features2585">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return"
+value="http://www.geo.ed.ac.uk/scotgaz/paypalthankyou.html">
+<input type="hidden" name="cancel_return"
+value="http://www.geo.ed.ac.uk/scotgaz/paypalcancel.html">
+<input type="hidden" name="cn" value="Message">
+<input type="hidden" name="currency_code" value="GBP">
+<input type="hidden" name="tax" value="0">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif"
+border="0" name="submit" alt="Donate using PayPal - fast, free and secure!">
+</form>
+</TD>
+<TD valign ="top"><font size="-2" color="#000000"
+FACE="Verdana,Arial,Helvetica,sans-serif">Please consider making a donation.
+If everyone reading this gave just &pound;3 or $5<br>
+it would make it much easier maintain and improve
+the site.</font></TD>
+</TR>
+</table>
+
+   <P><A HREF="#Contents">Return to Contents</A></P>
+   </FONT><HR SIZE=1 NOSHADE="noshade">
+   <H3><A NAME="What_is">What is a Gazetteer</A></H3><FONT SIZE=-1>
+   <P>The term gazetteer is derived from
+   the Latin <I>Gazetta</I> to mean broadly, a geographical
+   dictionary. The popularity of gazetteers started in Britain in the
+   16th Century and reached a peak by the 19th Century, with a large
+   number of publishing houses producing detailed topographical
+   directories. Typically, place names would be listed alphabetically
+   with each entry including its grid reference, population,
+   contextual location, main industries and for larger places, a
+   short paragraph containing associated points of interest, famous
+   people and historical events. The interest in gazetteers can be
+   correlated with the imperial expansion of the time and an
+   increased knowledge and fascination for foreign lands.
+   The gazetteer was a highly revered reference publication and
+   enjoyed the status and popularity of a dictionary or an
+   encyclopaedia, as this quote from the Imperial Gazetteer (1855)
+   suggests;</P>
+   <BLOCKQUOTE><I>&quot;Next to a good
+   dictionary, the most generally useful book is a good gazetteer&quot;</I>
+   <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+   -- W.G. Blackie (1855)</BLOCKQUOTE>
+   <P>However, during the 20th Century the
+   gazetteer became less fashionable partly due to the rapid changes
+   in political boundaries, particularly in Europe and hence the need
+   for almost continual, expensive updates and perhaps also partly
+   due to a plethora of tourist guide books which, however, provide
+   only part of the information and function of a good gazetteer. Today, the skills and
+   expertise necessary to produce a quality gazetteer are
+   correspondingly scarce.</P>
+   <P><A HREF="#Contents">Return to Contents</A></P>
+   </FONT><HR SIZE=1 NOSHADE="noshade">
+   <H3><A NAME="The_History">The History of Scottish Gazetteers</A></H3><FONT SIZE=-1>
+   <P>The last fully comprehensive Scottish
+   Gazetteer was the <i>Ordnance Gazetteer of Scotland</i> compiled in 1885
+   edited by Francis Groome, which incredibly remains the standard
+   geographical reference text on Scotland to be found in major libraries. 
+   The only topographical directories for Scotland produced
+   this Century have been place-name lists published by the Ordnance
+   Survey and the Registrar General for Scotland and the Johnston's
+   Gazetteer of Scotland (last updated 1973) which is limited in
+   content and now out of print.</P>
+   <P>There is however, a current
+   resurgence of interest in producing a comprehensive Gazetteer for
+   Scotland driven by Dr. David Munro (Editor of the Oxford
+   Dictionary of the World and Chambers World Gazetteer), Bruce Gittings
+   (a specialist in Geographical Information at the University of Edinburgh)
+   and the
+   Royal Scottish Geographical Society in order to address the dearth
+   of up-to-date geographical information on Scotland.</P>
+   <P><A HREF="#Contents">Return to Contents</A></P>
+   </FONT>
+
+   <HR SIZE=1 NOSHADE="noshade">
+   <H3>Frequently Asked Questions</H3><FONT SIZE=-1>
+   <P><a href="faq.html">This link</a> provides the answers to frequently 
+   asked questions
+   about the &quot;Gazetteer for Scotland&quot;.
+   </P>
+   <P><A HREF="#Contents">Return to Contents</A></P>
+
+   <HR SIZE=1 NOSHADE="noshade">
+   <H3><A NAME="sponsor">Sponsoring this Project</A></H3><FONT SIZE=-1>
+   <P>The &quot;Gazetteer for Scotland&quot;
+   is a major research project, which has already taken a significant
+   number of years to achieve what you see today. However, it will probably
+   never be complete because of the ongoing need for regular significant 
+   updates. This
+   Gazetteer is already the most significant resource of Scottish
+   information available online. We intend that it should be freely
+   accessible internationally and, unlike a book-based gazetteer, it
+   will retain a historical record of information through time.</P>
+   <P>The only way that this project can continue to be
+   successful and be kept up-to-date will be if we can raise the necessary 
+   funding. 
+   Individuals can help with a donation, however small. Corporate bodies can
+   help us and promote themselves through sponsorship.
+   Sponsors will benefit from exposure to a very large number of
+   users of the gazetteer; currently around 250,000 access per
+   week and growing by the month. Sponsors will have their
+   name included on every gazetteer page, links to their own &quot;home
+   page&quot; and etc.</P>
+   <P>We are also willing to licence the use of the <i>Gazetteer for
+   Scotland</i> database on other web-sites. Entries include considerable
+   descriptive text, a map reference,
+   associated statistics, potentially at least one photograph and can be
+   easily linked to your own site. Pages can be prepared in your own 'house
+   style' with your advertising or links. They can include customised content
+   from the large number of database fields we hold and be provided to you in 
+   a ready-to-use format. We can also provide regular updates as required.
+   Applications include community web sites, estate agency, relocation,
+   tourism, directory services and many others. You won't find a more
+   comprehensive description of Scotland.</P>
+   <P>If you would like more information on these opportunities, please 
+   contact Bruce Gittings (<A HREF="mailto:bruce@geo.ed.ac.uk">bruce@geo.ed.ac.uk</A>).
+   </P>
+   <P><A HREF="#Contents">Return to Contents</A></P><HR SIZE=1 NOSHADE="noshade">
+   <P><I>Bruce Gittings &amp; David Munro<BR>
+    Updated January, 2004 (Original September, 1999)</I></P>
+   </FONT></FONT>
+   </BLOCKQUOTE>
+  </TD>
+ </TR>
+ <TR>
+  <TD BGCOLOR="#FFCC33" >&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" ALIGN="CENTER">
+  <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+  <A HREF="/scotgaz/copyright.html">&#169;1995-2006 The Gazetteer for Scotland</A> <BR>Sponsored by:
+   <A HREF="http://www.therobertsontrust.org.uk">The Robertson Trust</a>,&nbsp;
+   <A HREF="http://www.geo.ed.ac.uk/rsgs/menu.html">The Royal Scottish Geographical Society</A>,<br>
+   <A HREF="http://www.geo.ed.ac.uk/">The Institute of Geography, University of Edinburgh</A><BR><BR>
+  </FONT>
+  </TD>
+ </TR>
+</TABLE>
+</BODY></HTML>
+
+
+?-kcafw(>sw

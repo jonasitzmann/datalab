@@ -1,0 +1,572 @@
+
+<head>
+
+<title>
+
+CERES Harvest III.ii</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h2 align=center>CERES Harvest III.ii<br>
+
+10.3.98</h2>
+<center><table width=75%>
+<tr><td><h4 align=justified><cite>
+And hoow bountiful Ceres in provizion waz, gess ye by this: that in lyttl
+more then a three dayz space, 72. tunn of Ale and Beer waz pyept vp quite:
+what that mighte whilst with it of bread beside meat, I report me to yoo.</cite></h4></td></tr></table>
+</center>
+
+<p>
+<hr>
+
+<strong>CONTENTS</strong><br>
+
+Please select from the index or scroll through below.
+
+<ul>
+
+<li><a href=#netsources>Internet Resources</a>
+
+<li><a href=#nftn>News From the Net</a>
+
+</ul>
+
+<p>
+
+<hr>
+
+<a name=netsources></a>
+
+<h2 align=center>INTERNET RESOURCES</h2>
+<p>
+<a name=arden></a>
+<strong>ARDEN SHAKESPEARE SITE (ArdenNet)</strong><br>
+With the 3rd series of editions in progress and an excellent CD-ROM, the
+people at Arden Shakespeare are striving to monopolise academic
+Shakespeare. The Internet's possibilities could one day make a bit of a
+mockery of print dominance, so they've made a bold attempt to get into the
+action in this arena as well.
+<p>
+Head for the Arden Shakespeare website at: <a href=http://www.ardenshakespeare.com/main/welcome.html>http://www.ardenshakespeare.com/main/welcome.html</a>.
+<p>
+There's a lot here - or rather, there's a framework for a lot here. This
+site depends on enthusiastic input from an imagined constituency of
+electronic scholars. The fact that this constituency has not been proved to
+exist anywhere else yet (although the FICINO list and its kind come close)
+is the problem: and the question facing us is, as CERES has trumpeted
+before, whether to be part of the problem, or part of the solution.
+<p>
+To get started you'll need to surrender some not very intimate information
+and think up a password. By the way, some would say that it would be a good
+idea not to use the same password for everything.
+<p>
+The site is organised under headings which cover a wide range of content.
+You should know that the following chirpy-sounding list mainly uses the
+ArdenNet's own wording:
+<dl>
+<dt><strong>Professional</strong></dt>
+<dd>This section provides those involved in Shakespeare studies with the
+everyday information they need in their work. Currently, it provides: a
+listing of Shakespeare organisations; a calendar of Shakespeare
+conferences; the opportunity for institutions to post employment vacancies
+in the Shakespearean world.</dd>
+<dt><strong>Internet</strong></dt>
+<dd>This section groups together those essays and resources in ArdenNet which
+relate to the wider Internet. Currently available are a review of sites
+useful for Shakespeare research on the Internet by Gabriel Egan, and all
+the links from this and other articles in ArdenNet.</dd>
+<dt><strong>Scholarship</strong></dt>
+<dd>The Scholarship section is the heart of ArdenNet - and members are invited
+to participate. Its purpose is to exploit the potential of the World Wide
+Web by providing a space for shorter pieces, 'work in progress' towards
+academic papers, articles or books, or for discussion papers, ideas and
+thoughts which are either too short or inappropriate for publication via
+the currently available channels. Already available are an essay on
+Shakespeare in the Electronic Age by Peter S. Donaldson and the transcript
+of an interview with the RSC actor John Voss.</dd>
+<dt><strong>News & Reviews</strong></dt>
+<dd>The News and Reviews section is where to go for listings and comment about
+Shakespeare books, multimedia and performances (on both stage and screen).
+Highlights include theatre listings and reviews, and 'my favourite book'
+and 'my favourite performance' selections from ArdenNet members. 'My
+favourite' selections available include an account of Shakespeare on stage
+in Nigeria from Martin Banham and Olwen Terris' account of an influential
+set of Rossiter lectures in print.</dd>
+<dt><strong>Teaching</strong></dt>
+<dd>This area of ArdenNet is devoted to the discussion of teaching Shakespeare
+- from high school to postgraduate level. It is intended to be an organic
+resource which grows as ArdenNet members contribute their own thoughts and
+experiences as short articles or multimedia pieces. Currently available are
+essays from David Scott Kastan (on teaching textual Shakespeare) and
+Rebecca Bushnell (on teaching Shakespeare using the Internet).</dd>
+<dt><strong>Discussion</strong></dt>
+<dd>Join the debates... ArdenNet invites members to join the community's
+discussions of the issues raised by its resources.</dd>
+</dl>
+<p>
+CERES offers its two-penn'orth: as was hinted above, it's easy to summarise
+the state of play: the system is there, and the space available, to create
+a really substantial forum for electronic discussion. Whether we are yet at
+the technological watershed which will suddenly make this work well is
+unclear. Hope springs eternal, and Arden has many influential friends, so
+keep an eye on ArdenNet.
+<p>
+<strong>EMLS NEW ISSUE OUT NOW</strong><br>
+Early Modern Literary Studies 3.3 (January, 1998) is now available at
+<a href=http://purl.oclc.org/emls/emlshome.html>http://purl.oclc.org/emls/emlshome.html</a>. This EMLS is a special issue called 'The Internet Shakespeare:
+Opportunities in a New Medium' and includes articles by Paul Werstine on
+'Hypertext and Editorial Myth', Anne Lancashire on 'What Do the Users
+Really Want?', Ian Lancashire on 'The Common Reader's Shakespeare', Donald
+Foster on 'A Romance of Electronic Scholarship; with the True and
+Lamentable Tragedies of Hamlet, Prince of Denmark. Part 1: The Words', R.G.
+Siemens on 'Disparate Structures, Electronic and Otherwise: Conceptions of
+Textual Organisation in the Electronic Medium, with Reference to Electronic
+Editions of Shakespeare and the Internet', and a foreword and afterword by
+Michael Best.  Also included are a note on 'Production Resources at the
+Whitefriars Playhouse, 1609-1612' and a good clutch of reviews.
+<p>
+<strong>MORE TEXTS AT RENASCENCE EDITIONS</strong><br>
+<ul>
+<li>Henry Constable's sonnet sequence <cite>Diana</cite> (1594) is now available at: <a href=http://darkwing.uoregon.edu/~rbear/diana.html>http://darkwing.uoregon.edu/~rbear/diana.html</a>.
+<li>Samuel Daniel's <cite>Delia. Contayning certayne Sonnets: vvith the complaint of Rosamond</cite> is available in HTML at:
+<a href=http://darkwing.uoregon.edu/~rbear/delia.html>http://darkwing.uoregon.edu/~rbear/delia.html</a>.
+</ul>
+Spenserians and others may be interested in testing and commenting on the
+Search Engine for <cite>The Faerie Queene</cite> created by Matt Kozusko at the
+University of Georgia: <a href=http://virtual.park.uga.edu/~mkozusko/spenser/fqsearch.html>http://virtual.park.uga.edu/~mkozusko/spenser/fqsearch.html</a>. 
+<p>
+<strong>CULTURAL READINGS: COLONIZATION AND PRINT IN THE AMERICAS<br>
+NEW ON LINE EXHIBITION</strong><br>
+This collaborative web site presents and interprets a wide variety of texts
+- books, manuscripts, illustrations, maps, and artifacts - generated by
+Europe's colonization of the Americas. Comparative and broad in scope, the
+exhibition investigates Spanish, French, English, and Dutch 'readings' of
+the New World and the 'readings' of Europeans made by many Native cultures.
+Topics covered include the literature of colonial promotion; printed images
+of Natives; Native responses to print; missionary activities; Indian
+languages; the geographies of the New World; and captivity narratives. The
+web site also contains essays by Louise Burkhart, Sabine MacCormack,
+Michael Ryan, Daniel Slive, and Karim Tiro; bibliography; and web links.
+Materials shown in 'Cultural Readings' are drawn from the collections of
+the Jay I. Kislak Foundation; the Rosenbach Museum & Library; the
+University of Pennsylvania's Department of Special Collections; and the
+University of Pennsylvania Museum of Archaeology and Anthropology. Find it at <a href=http://www.library.upenn.edu/special/gallery/kislak/index/cultural.html>http://www.library.upenn.edu/special/gallery/kislak/index/cultural.html</a>.
+<p>
+<strong>REED UPDATES</strong><br>
+The meta-page of annotated theatre research sites on-line, which is part of
+REED's home page, has just been updated with the removal of some expired
+links and the addition of new ones. We have also made some corrections to
+the Publications List section of our home page, including the addition of a
+link to the Video Catalogue for PLS and other Toronto mediaeval videos.
+URLs for REED:
+<ul>
+<li>home page: <a href=http://www.chass.utoronto.ca/~reed/reed.html>http://www.chass.utoronto.ca/~reed/reed.html</a>
+<li>list home page: <a href=http://www.chass.utoronto.ca/~reed/reed-l.html>http://www.chass.utoronto.ca/~reed/reed-l.html</a>
+<li>theatre resources page: <a href=http://www.chass.utoronto.ca/~reed/stage.html>http://www.chass.utoronto.ca/~reed/stage.html</a>
+</ul>
+<p>
+<small><a href=#top>Back to top.</a></small>
+<hr>
+<a name=nftn></a>
+<h2 align=center>NEWS FROM THE NET</h2>
+<p>
+<strong>EARLY MODERN SCIENTIFIC DISCOURSES 1500-1750</strong><br>
+This proposed volume of essays has received initial and favorable approval
+from Brepols publishing company. A final decision will be made pending
+receipt of the complete manuscript. One of the contributors has been forced
+to withdraw, and the editor is seeking another essay to complete the
+project. The volume surveys current approaches (Linguistics, History of
+Science, Rhetoric of Science, Cultural Studies of Science, Sociology of
+Science, etc.) to the question of science and language in the early modern
+period.  15 to 25 page previously unpublished essays with Chicago-style endnotes
+should be directed to: A.S. Weber, Editor, The Pennsylvania State
+University, Wilkes-Barre, Lehman, PA  18627.  Deadline was March 30, 1998.
+<p>
+<strong>MARGARET CAVENDISH AND HER MILIEU</strong><br>
+The second international conference of the Margaret Cavendish Society,
+University of Paris 8 (Saint-Denis, North of Paris -- Metro: Saint-Denis
+Universite), 11-12 June 1999.  Papers will bear on various aspects of Cavendish's works and career, but they can also focus more broadly on her (and others') connections with the Royal Society, on her husband William, on Royalists in exile, or on women writing and reading in the 17th century. Priority will be given to papers
+offering a new light on Cavendish's cultural milieu.
+Contact: Line Cottegnies (<a href=mailto:Cottegnies@aol.com>Cottegnies@aol.com</a>) or Fatima Zenati (<a href=mailto:fzenati@univ-paris8.fr>fzenati@univ-paris8.fr</a>). Deadline: 31 December 1998.
+<p>
+<strong>GEMCS CONFERENCE</strong><br>
+(Website at <a href=http://www.frontiernet.net/~nicolo/>http://www.frontiernet.net/~nicolo/</a>)
+The Group for Early Modern Cultural Studies invites submissions for its
+sixth annual conference, to be held in Newport Rhode Island, November
+19-21, 1998. This year's theme is 'Antagonism, Contradiction, Resolution,'
+and proposals are sought which deal with social, economic, aesthetic,
+sexual, artistic, political, racial, and philosophic conflict. There is
+particular interest in proposals that address the following topics: Battle
+of the Sexes; Ancients vs. Moderns; Tradition and Innovation; Metaphors of
+Warfare; Duelling; Conflicts in trade; Science vs. poetry; capitalism;
+Competing versions of the body; Political aesthetics; Contradicting
+identities.  Submissions were due April 30, 1998.  More information can be had from Professor Jean Marsden, English Department U-25, University of Connecticut, Storrs, CT  06269.
+<p>
+<strong>ITALIAN BUSINESSMEN ABROAD</strong><br>
+Anyone interested in participating in a session at the 1998 Sixteenth
+Century Conference (22-25 October 1998 in Toronto, Canada) on the
+political, economic, or cultural activities of Italian merchants stationed
+abroad is invited to send a paper title, a brief paper abstract, and a very
+brief (one-paragraph) curriculum vitae before 15 March 1998 to Laura E.
+Hunt, Centre for Reformation and Renaissance Studies, e-mail:
+<a href=mailto:lhunt@chass.utoronto.ca>lhunt@chass.utoronto.ca</a>.
+<p>
+<strong>INTERNATIONAL JOHN BUNYAN SOCIETY, SECOND TRIENNIAL CONFERENCE</strong><br>
+'The Holy War: Ideology, Culture and Dissent in Bunyan's England', an
+interdisciplinary residential conference at the University of Stirling: 31
+August-4 September, 1998. Plenary Speakers: Annabel Patterson, Elaine
+Hobby, Nigel Smith, William Lamont. Proposals were invited for 25- 30 minute
+papers on Bunyan's life, thought, and work, on nonconformity in the
+Restoration period, and, more generally, on the politics, religion and
+literature of the Puritan and radical traditions of seventeenth-century
+England. Proposals were due by 31 January; more information can be had from Prof. N.H. Keeble, Department of English, University of Stirling, e-mail <a href=mailto:nhk1@stir.ac.uk>nhk1@stir.ac.uk</a>.  Registration forms are now available.
+<p>
+<strong>UNIVERSITY OF LONDON SUMMER PALAEOGRAPHY PROGRAMME 1998</strong><br>
+In June 1998 the School of Advanced Study, with the co-operation of the
+University of London Library and Lambeth Palace Library, will be organizing
+a series of one and two day courses in palaeography. These intensive
+courses are designed as 'master classes' providing opportunities for study
+with acknowledged experts in their respective fields. The fees cover all
+documentary material necessary to complete the courses as well as coffee,
+sandwich lunch and tea. A limited number of bursaries is available.
+Accommodation can be provided in a University Hall of Residence at a
+moderate additional cost. Early application is advisable. Places will be
+allocated on a 'first come, first served' basis.
+<p>
+<ul>
+<li>Monday 8 June, in the University of London Library: Insular and Carolingian
+Manuscripts, by Professor David Ganz (King's College London). 55 pounds.
+Limited to 12 places.
+<li>Monday 8 June, in the Institute of Historical Research: Understanding the
+Latin in Latin Palaeography, by Dr Michael Evans (Warburg Institute). 55
+pounds. Limited to 20 places.
+<li>Tuesday 9 June, in the School of Advanced Study: Books of Hours, by Dr
+Jenny Stratford (Institute of Historical Research). 55 pounds. Limited to
+12 places.
+<li>Tuesday 9 June afternoon and Wednesday 10 June morning, in the Institute of
+Historical Research: Reading German Script, 17th-20th centuries, by Dr
+Dorothea McEwan (Warburg Institute). 55 pounds. Limited to 12 places.
+<li>Wednesday 10 June, in the School of Advanced Study: Italian Humanistic
+Manuscripts, by Professor A. C. de la Mare (Oxford). 55 pounds. Limited to
+12 places.
+<li>Wednesday 10 June and Thursday 11 June, at Lambeth Palace Library:
+Exploring Ecclesiastical Archives, 12th-18th centuries, by Miss Melanie
+Barber (Lambeth Palace Library) and Professor Jane Sayers (University
+College London). 95 pounds.  Limited to 12 places.
+<li>Thursday 11 June and Friday 12 June, in the University of London Library:
+Dating Manuscripts, by Dr Teresa Webber (Trinity College Cambridge) and
+Miss Pamela Robinson (Centre for English Studies). 95 pounds. Limited to 12
+places.
+</ul>
+Further details and application forms are available from the Secretary to
+the Summer Palaeography Programme, Institute of Historical Research, School
+of Advanced Study, University of London, e-mail <a href=mailto:ihr@sas.ac.uk>ihr@sas.ac.uk</a>.
+<p>
+Closing dates for applications were/are as follows: for accommodation 20 March;
+for bursaries 1 May; for places on courses 22 May 1998.
+<p>
+<strong>1614: YEAR OF CRISIS</strong><br>
+A one-day conference at Birkbeck College, University of London, Saturday
+July 25th 1998.  This one-day conference at Birkbeck College aims to reassess this
+particular year in the Jacobean reign, from the perspective of literary and
+political historians. Particular emphasis will be placed on the 'Addled
+Parliament', but there will also be papers on more general political or
+ideological issues which found particular expression in that year.
+Provisional programme:
+<ul>
+<li>Conrad Russell (Kings College London), 'Bishop Berkeley at Westminster: Can
+There be a Crisis which is not perceived?'
+<li>Stephen Clucas (Birkbeck College), 'Robert Cotton's 'A Short Historie of Henry III' and its presentation in 1614'
+<li>David Colclough (Kings College Cambridge), 'Better
+becoming a Senate of Venice'? The 'Addled Parliament' and Jacobean debates
+on Freedom of Speech'
+<li>John Cramsie (Drury College), 'Crown Finance in
+Crisis: The Consequences of the Addled Parliament'
+<li>Rosalind Davies (QMW), 'A text for trade: Richard Hakluyt's Principal Navigations and competing interests in London's merchant community in 1614' <li>Jonathan Gibson (University of Durham), 'Revolution in 1614: The translation of Lucan's Pharsalia'
+<li>James Knowles (University of Newcastle), 'Masques and sexuality
+in 1614'
+<li>Jeremy Maule (Trinity College, Cambridge), 'Satisfying the
+Somersets'
+<li>Michelle O'Callaghan (Nene College), 'Parliament and Political
+Debates and the Jacobean Spenserians in 1614'
+<li>Reynold Silva (Birkbeck), The Publication of George Chapman's Andromeda Liberata and the aftermath of the Howard Divorce'
+<li>Alan Stewart (Birkbeck College), ''Purging troubled
+humours': The duelling debate, 1613-1614'
+<li>Andrew Thrush (History of Parliament), 'Issues and Origins of the 1614 Parliament'
+<li>Joad Raymond (Aberdeen), 'Public Opinion and the Political Pamphlet in the Crisis of 1614.'
+</ul>
+For further information contact the Conference Organizer, Dr Stephen
+Clucas, Birkbeck College, University of London, e-mail:
+<a href=mailto:s.clucas@english.bbk.ac.uk>s.clucas@english.bbk.ac.uk</a>. The programme can also be found at the conference web page:
+<a href=http://www.bbk.ac.uk/Departments/English/1614.htm>http://www.bbk.ac.uk/Departments/English/1614.htm</a>.
+<p>
+<strong>CUNY RENAISSANCE STUDIES SCHEDULE OF EVENTS FOR SPRING 1998</strong><br>
+The schedule is posted at: <a href=http://web.gc.cuny.edu/dept/renai/>http://web.gc.cuny.edu/dept/renai/</a>.
+<p>
+<strong>THE SIXTEENTH BARNARD COLLEGE MEDIEVAL AND RENAISSANCE CONFERENCE</strong><br>
+'Marketplace and Society: Intersections of the economic sphere with
+politics, religion, and culture', December 5, 1998. Possible topics include: literary production; architecture and the plastic arts; university culture; religious life; patronage and court society; marriage and sexuality; social structures; political institutions and policies, etc. Deadline for submission: May 15, 1998. Please submit
+abstracts (150-300 words) and c.v. to: Joel Kaye, Department of History,
+Barnard College, email: <a href=mailto:JKaye@Barnard.Columbia.edu>JKaye@Barnard.Columbia.edu</a>.
+<p>
+<strong>THE ARTIST IN AN AGE OF IMPERIAL CULTURE:<br>
+CAREERS IN THE EARLY MODERN PERIOD</strong><br>
+June 1-24, 1998, University Park, Pennsylvania. 'The Artist in an Age of Imperial Culture: Careers in the Early Modern Period' will offer an introduction to this neglected topic in English and European humanities curricula, focusing primarily on literary careers and secondarily on the careers of visual artists. By highlighting the figure of the artist shaping a career amid the constraints of imperial culture, the
+institute will form the first attempt to establish a baseline on which
+future work may proceed.
+<p>
+The institute will be open to fifteen qualified participants. Each
+participant must be either a faculty member at an accredited college or
+university, or a graduate student from an accredited college or university
+attending the institute with a faculty mentor. All participants must hold
+at least a master of arts degree or its equivalent.
+<p>
+The institute seeks to attract a wide audience, including (1) teachers and
+scholars of the early modern period who want to learn of current trends and
+research possibilities in this area; (2) specialists in classics, art
+history, history, Italian, French, Spanish, and English, as well as other
+languages, who wish to study texts from their respective disciplines and
+who then wish to broaden their study through a comparative and
+interdisciplinary framework; (3) teachers of the humanities who wish to
+incorporate the topic of English and European careers in their courses; (4)
+teachers in other periods-such as medieval or eighteenth-century-who wish
+to understand the historical tradition that the institute will examine. For
+complete details and up-to-date information, please visit the web site:
+<a href=http://www.outreach.psu.edu/C&I/LiteraryCareers/>http://www.outreach.psu.edu/C&I/LiteraryCareers/</a>.
+<p>
+For more information... about program content: Patrick Cheney
+(<a href=mailto:pgc2@psu.edu>pgc2@psu.edu</a>), about registration, or to receive a brochure: Suzanne St. Pierre (<a href=mailto:ConferenceInfo1@cde.psu.edu>ConferenceInfo1@cde.psu.edu</a>).
+<p>
+<strong>WOMEN WRITING 1550-1750</strong><br>
+Conference at La Trobe University, Melbourne, Australia, July 10 and 11,
+1999, Convenors: Kate Lilley (Sydney University); Paul Salzman (La Trobe
+University).  This two day conference (please note changed date) will explore all aspects of women's writing from 1550 to 1750. Please send a brief outline for
+either a 20 minute paper or a five minute contribution to a colloquium to:
+Paul Salzman, School of English, La Trobe University, Bundoora, Victoria,
+Australia, 3083; email: <a href=mailto:P.Salzman@latrobe.edu.au>P.Salzman@latrobe.edu.au </a> by 1 December 1998. Conference web site: <a href=http://www.latrobe.edu.au/www/english/wwconf.html>http://www.latrobe.edu.au/www/english/wwconf.html</a>.
+<p>
+<strong>JONSON IN TORONTO</strong><br>
+The Ben Jonson Journal will sponsor several sessions at the 1998 Sixteenth
+Century Studies conference in Toronto, October 22-25. Brief abstracts by
+March 15, including mailing address, university affiliation, phone number,
+and e-mail address, to John Kerrigan, Editorial Assistant, The Ben Jonson
+Journal, English Department, University of Nevada, Las Vegas, Las Vegas, NV
+ 89154-5069.
+<p>
+<strong>SHAKESPEARE ON SCREEN: THE CENTENARY CONFERENCE</strong><br>
+To commemorate the first one hundred years of filmed Shakespeare, the
+English Department of the University of Malaga (Spain) will be organizing a
+three-day conference on September 22-24, 1999. The conference will deal with
+all aspects of film and TV Shakespeare. Plenary speakers will include
+Kenneth S. Rothwell and Anthony Davies. Suggestions for papers, round
+tables and sessions are welcome. Please send all requests for information
+and/or one-page abstracts to : Jose Ramon Diaz-Fernandez, Dept. of English
+and French, Faculty of Arts, Univ. of Malaga, Malaga-29071 (SPAIN), e-mail:
+<a href=mailto:jrdiazfernan@uma.es>jrdiazfernan@uma.es</a>.
+<p>
+<strong>JOHN FOXE AND HIS WORLD</strong><br>
+An Interdisciplinary Colloquium at The Ohio State University, Columbus,
+Ohio, Thursday to Sunday 29 April - 2 May 1999.  Plenary Lectures By Patrick Collinson, Frances Dolan, David Kastan, David Loades, Stephen Mullaney.
+One-page proposals from art historians, literary scholars, political,
+social, and ecclesiastical historians, and others to John N. King, Department of English, The Ohio State University, Columbus, OH 43210-1370; e-mail: <a href=mailto:lindberg.2@osu.edu>lindberg.2@osu.edu</a>.  Deadline: 30.9.98.
+<p>
+<strong>THE IMPRINT OF ROYAL AUTHORITY</strong><br>
+The Imprint of Royal Authority in Early Modern England, 1504-1649, proposed
+session at the Sixteenth Century Studies, Conference, October 22-25, 1998,
+Toronto, Ontario. This session seeks to refine New Historicist narratives about royal
+authority in early modern England by focusing on links between Monarchs and
+print in the period. Of particular interest are (1) Papers that examine
+literary/dramatic representations of royal authority in the context of
+historical data about relations between the crown and the printing house;
+(2) Papers that examine a specific monarch's use of print; or (3) Papers
+that examine the official activities of specific printers/publishers
+designated as 'King's Printer.' Send 500 word abstracts by February 20 to Douglas A. Brooks, Assistant Professor, Department of English, Texas A&M University, College Station, Texas 77843-4227, <a href=mailto:dab39@acs.tamu.edu>dab39@acs.tamu.edu</a>.
+<p>
+<strong>THE URBAN ROGUE IN 17TH CENTURY LONDON</strong><br>
+CFP for a session at the Central New York Conference on Language and
+Literature, SUNY Cortland, Cortland, NY October 18-20, 1998. As London grew
+from a medieval village to a seventeenth-century metropolis, the urban
+rogue and trickster, sometimes a con man, sometimes a thief, sometimes a
+self-portrait of a writer, became increasingly important to English
+literature.  This panel focuses on how different literary versions of the
+urban rogue reflect changes in the culture of early modern England.  Papers
+considering the transmission of the Spanish picaro into English letters are
+also welcome.  Send 250-word abstracts by June 15.
+Info to/from Steve Mentz, Yale University, 484 Whitney Ave, #A3, New Haven,
+CT 06511, <a href=mailto:smentz@pantheon.yale.edu>smentz@pantheon.yale.edu</a>.
+<p>
+<strong>RENAISSANCE TEENAGERS</strong><br>
+'Teenagers in the Renaissance' is the current working title for an
+international multidisciplinary conference in Toronto, at the Centre for
+Reformation and Renaissance Studies, for the fall of 1999 (early November).
+The conference seeks to examine the place and role of youths aged 10-20
+(approximately) in the late Middle Ages and the Renaissance. Some of the
+topics that might be discussed may include questions of: political
+influence/power (teenage rulers, ecclesiasts, etc.), religious life,
+youthful prodigies, military role, youths in literature, teenage writers or
+artists or musicians, puberty, sexuality, marriage, youth associations,
+etc.  Send one-page (or less) abstract and a short curriculum vitae (with
+university affiliation, address, telephone, fax, and email) to Konrad
+Eisenbichler, <a href=mailto:konrade@chass.utoronto.ca>konrade@chass.utoronto.ca</a>.
+<p>
+<strong>APHRA BEHN SOCIETY</strong><br>
+'The Fair Sex?' Women in the Arts: 1660-1830 October 29-31, 1998, El Caribe
+Hotel and Conference Center Oceanfront, Daytona Beach, Florida
+The conference welcomes papers that address:
+<ul>
+<li>general investigation of women in the arts throughout the long eighteenth
+century
+<li>specific examinations of issues of beauty and justice as they relate to
+gender
+<li>visual representations of women--in theatre, painting, prints, and
+literature
+<li>as well as questions of what it means to be 'the fair sex'
+</ul>
+Send one-page proposals by April 15th 1998 to: Dr. Phoebe Smith Department
+of English Stetson University DeLand, FL 32720, or by email at <a href=mailto:psmith@stetson.edu>psmith@stetson.edu</a>.
+<p>
+<strong>MILTON AT MIDWEST MLA</strong><br>
+Proposed Special Session: 'John Milton: Revolutionary, Republican,
+Radical',  invites papers which discuss how Milton's political interests
+relate to his poetic career. Send abstracts of no more than 500 words by March 25 to: Braden Jeffrey Hosch, Department of English, University of Wisconsin - Madison, 600 N. Park Street, Madison, WI 53706.  Or email in TEXT format to: <a href=mailto:bjhosch@facstaff.wisc.edu>bjhosch@facstaff.wisc.edu</a>.
+<p>
+<strong>'THE TEMPEST' IN THE OLD WORLD AND THE NEW</strong><br>
+A University of Maryland Colloquium, Saturday 4 April 1998, Language House,
+St. Mary's Hall, University of Maryland. Participants: Crystal Bartolovich,
+Lisa Jardine, Eric Cheyfitz, Barbara Mowat, Merle Collins, Joseph Roach,
+Joan Dayan, William Sherman, Donna Hamilton, Alden Vaughan, Peter Hulme,
+Virginia Vaughan.  To reserve a place or request more info, contact Dr William Sherman, Department of English, University of Maryland, College Park, MD 20742, e-mail <a href=mailto:ws76@umail.umd.edu>ws76@umail.umd.edu</a>.
+<p>
+<small><a href=#top>Back to top.</a><br>
+<a href=archive.htm>Return to CERES Archive.</a></small>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+
+o,>r  smp	p

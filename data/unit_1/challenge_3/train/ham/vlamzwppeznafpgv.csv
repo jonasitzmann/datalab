@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<TITLE> MORSE Updates</TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="morse.css">
+</HEAD>
+<BODY>
+<H1 CLASS=PAGE>MORSE Updates</h1>
+<HR>
+Dates refer to MORSE versions (which are printed into the first record of
+each output file)
+<DL>
+<a name=v01may07>
+<DT> <B>v01may07</b>
+     <DD> <i>New Features</i>
+     <UL> 
+     <LI> Vibrational Temperature Retrieval
+     <LI> VT specified by .atm files as alternative to .nte files
+     </ul>
+     <DD> <i>Bug Fixes</i>
+     <UL> 
+     </UL>
+<P>
+<a name=v26apr06>
+<DT> <B>v26apr06</b>
+     <DD> <i>New Features</i>
+     <UL>
+     </ul>
+     <DD> <i>Bug Fixes</i>
+     <UL> 
+     <LI> <a href=bugs.html#bug24>Bug#24</a>
+     </UL>
+
+<P>
+<a name=v10mar06>
+<DT> <B>v10mar06</b>
+     <DD> <i>New Features</i>
+     <UL>
+     </ul>
+     <DD> <i>Bug Fixes</i>
+     <UL> 
+     <LI> <a href=bugs.html#bug22>Bug#22</a>
+     <LI> <a href=bugs.html#bug23>Bug#23</a>
+     </UL>
+
+<P>
+<a name=v08nov05>
+<DT> <B>v08nov05</b>
+     <DD> <i>New Features</i>
+     <UL>
+     <LI> Allow single <B>AEROSOL</B> profile to be retrieved as an alternative
+     to independent continuum (<B>CTM</B>) from each microwindow.
+     <LI> Add units to output profile species header records.
+     </ul>
+     <DD> <i>Bug Fixes</i>
+     <UL> 
+     <LI> none
+     </UL>
+
+<P>
+<a name=v01nov05>
+<DT> <B>v01nov05</b>
+     <DD> <i>New Features</i>
+     <UL>
+     <LI> 
+     </ul>
+     <DD> <i>Bug Fixes</i>
+     <UL> 
+     <LI> <a href=bugs.html#bug21>Bug#21</a>
+     </UL>
+
+<P>
+<a name=v09sep05>
+<DT> <B>v09sep05</b>
+     <DD> <i>New Features</i>
+     <UL>
+     <LI> <a href=morse_v3.html>MORSE v3</a> first release
+     </ul>
+<P>
+</DL>
+<HR>
+<UL>
+<LI><a href=./v2/updates.html>MORSE v2 Updates</a>
+<LI><a href=index.html>Back to MORSE Index</a>
+</UL>
+</BODY>
+</HTML>
+
+
+
+q/u-

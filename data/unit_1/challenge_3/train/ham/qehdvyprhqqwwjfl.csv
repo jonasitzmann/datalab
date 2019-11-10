@@ -1,0 +1,67 @@
+<html>
+<title>Wood and Andrews papers</title>
+
+<body>
+<h2> A Spectral Model for Simulation of Tides in the Middle Atmosphere. 
+I: Formulation</h2>
+
+<h3>Andrew R Wood and David G Andrews</h3>
+<p>
+(<i>J. Atmos. Terrest. Phys</i>, <b>59</b>, 31-51, 1997)
+<p>
+A linear spectral tidal model is developed for use in interpreting
+satellite data for the middle atmosphere.  It allows for inclusion of
+zonal-mean background winds and the parameterization of dissipation
+processes.  In the companion papers (Wood and Andrews 1997 b,c), the
+model is used to simulate diurnal and semidiurnal tides and comparisons
+are made with other models and with observations. 
+
+<hr>
+
+<h2>A Spectral Model for Simulation of Tides in the Middle Atmosphere. 
+II: Results for the Diurnal Tide</h2>
+
+<h3>Andrew R Wood and David G Andrews</h3>
+<p>
+(<i>J. Atmos. Terrest. Phys</i>, <b>59</b>, 53-77, 1997)
+<p>
+We present calculations of the diurnal tide in the middle atmosphere
+made using the spectral tidal model described in Wood and Andrews (1997a).  
+The results are partly verified by comparisons with those from a
+'classical' model for the case when background winds are absent. 
+Calculations including the effects of background winds are compared
+with previous models and with observations.  The convergence of the
+numerical algorithms is checked by a number of sensitivity studies. A
+method of dealing with certain singular matrices that appear in the
+computation is described, as are experiments in which the tidal heating
+rates and the zonal-mean wind fields are adjusted. 
+
+<hr>
+
+<h2>A Spectral Model for Simulation of Tides in the Middle Atmosphere.
+III: Results for the Semidiurnal Tide</h2>
+
+<h3>Andrew R Wood and David G Andrews</h3>
+<p>
+(<i>J. Atmos. Terrest. Phys</i>, <b>59</b>, 79-97, 1997)
+<p>
+We present results for the semidiurnal tide in the middle atmosphere
+calculated using the model described in Wood and Andrews (1997a).  As in 
+Wood and Andrews (1997b),  results from this model are  compared with those
+from a 'classical' model and with published model and observational
+results. Sensitivity studies are performed to confirm the convergence
+of the numerical calculations. The effects of mean winds and heating
+rates on the monthly climatologies of the semidiurnal temperature tide
+are briefly explored. 
+
+<hr>
+
+<h3>Correction page for these papers</h3>
+
+Download <a href= tidecorr.ps>Postscript file</a> (109kb). 
+
+</body>
+
+</html>
+
+hmih''<oc

@@ -1,0 +1,616 @@
+<html>
+<head>
+
+<title>
+
+CERES Harvest IV.iii</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr>
+</center>
+<p>
+<h2 align=center>CERES Harvest IV.iii<br>
+28.2.2000</h2>
+<center><table><tr><td><h4>
+Of Autumns fruits a basket on his arm, <br>
+His golden God in's purse, which was his charm. <br>
+And last of all to act upon this stage <br>
+Leaning upon his staff came up Old Age, <br>
+Under his arm a sheaf of wheat he bore, <br>
+An harvest of the best, what needs he more?
+</td></tr></table></center>
+<p>
+<hr>
+<strong>INTRODUCTION</strong><br>
+This is the first CERES Harvest since August, and it is high time to inform
+you of the latest phase in the perpetual reformation that we enjoy here at
+CERES Towers. From this issue onwards, there will be a few changes. First
+of all, Harvests will no longer attempt to keep up with conference
+announcements and calls for papers: the CFP mailing list and website (link
+there from our links page) do the job very well, and we don't. Related to
+this is the decision to remove the Bulletin Board from the CERES website.
+<p>
+This will allow us to concentrate on the things we think we do well, and
+which we want to do better. Harvest will become a quarterly review of
+Internet sites which will aim to review rather than to list. In particular,
+we will concentrate more on special features such as the one in this issue.
+The COPIA section of our website (CERES Online Publications Interactive)
+will remain a top priority, with additions to the existing projects
+(Sidneiana and Aeneas and Isabella) and exciting new projects to be
+announced soon.
+<p>
+We remain keen to feature your work, whether surveys and reviews of
+Internet resources, or electronic publishing projects which would fit under
+the COPIA banner. Please contact us via the addresses below.
+<p>
+Despite the transitional phase currently being managed by the CERES
+Secretariat, this issue of Harvest has one of our most important articles
+yet, Andrew Zurcher's survey of Online Editing projects. This comes first:
+but don't forget to read on to a few more gems nestling below.
+<p>
+<hr>
+<p>
+<h2 align=center>FEATURE</h2>
+<h3 align=center>Online Editing</h3>
+<center><i>by Andrew Zurcher</i></center>
+<p>
+As more and more 'regular' people become interested in the possibilities of
+publishing edited and original texts online, problems once reserved for the
+trade publisher or the computer programmer become the more common concerns
+of the ordinary net-surfer: issues of, for example, encoding, archiving,
+and addressing, and of intellectual property, fair use, and proper
+citation. For those of you who have considered the possibility of
+publishing Renaissance texts or criticism on the internet, these issues
+(and probably many others) will have surfaced, and nagged, and nagged. In
+an attempt to force a little order on the internet, I offer here a
+preliminary bibliography of online materials relating to electronic and
+particularly online publishing, some of which may prove useful or
+provocative.
+<p:>
+I am aware that there are very likely some glaring gaps in this collection
+of materials; as this bibliography is an ongoing project of mine, I would
+be grateful for any suggestions or other feedback (to <a href=mailto:aez20@cus.cam.ac.uk>aez20@cus.cam.ac.uk</a>).
+As the bibliography develops, I will post and maintain an updated version
+on the internet.
+
+<p>
+The following materials have been very quickly rated on a * - ***** scale.
+This scale does not reflect a given site's overall quality, but rather
+gauges my own sense of that site's combination of quality, relevance to
+online publishing, scope, and currency. As I say, these were quick ratings,
+meant to aid in efficient sifting.
+<p>
+<strong>INTELLECTUAL PROPERTY AND COPYRIGHT</strong><br>
+Special Issue of the <i>Journal of Electronic Publishing</i>: 'Who Owns What? Intellectual Property, Copyright, and the Next Millennium'  ***<br>
+<a href=http://www.press.umich.edu/jep/04-03/>http://www.press.umich.edu/jep/04-03/</a><br>
+Includes a number of provocative, and recent (March 1999), articles on key
+problems in electronic publishing, including pieces on intellectual
+property and fair use and on cyberspace citations.
+<p>
+English Server at Carnegie Mellon: Articles on Copyright and Intellectual
+Property  *<br>
+<a href=http://english-server.hss.cmu.edu/internet/copyright.html>http://english-server.hss.cmu.edu/internet/copyright.html</a><br>
+If this list were corrected and updated, it would prove very useful; at the
+moment, only three of twelve links seem to work.
+<p>
+Stanford University Fair Use Site  *****<br>
+<a href=http://fairuse.stanford.edu/>http://fairuse.stanford.edu/</a>
+Stanford University's very responsible and clearly presented take on fair
+use, copyright, and intellectual property. See especially their
+bibliography of articles, <a href=http://fairuse.stanford.edu/articles/>http://fairuse.stanford.edu/articles/</a>
+<p>
+<strong>ELECTRONIC EDITING</strong><br>
+Renear et al., 'Refining Our Notion of What Text Really Is: The Problem of
+Overlapping Hierarchies'  **<br>
+<a href=http://www.stg.brown.edu/resources/stg/monographs/ohco.html>http://www.stg.brown.edu/resources/stg/monographs/ohco.html</a>
+<p>
+McGann, Jerome:<br>
+<li>'The Rationale of HyperText'  ****<br>
+<a href=http://jefferson.village.virginia.edu/public/jjm2f/rationale.html>http://jefferson.village.virginia.edu/public/jjm2f/rationale.html</a><br>
+<li>'Imagining what you don't know: the theoretical goals of the Rosetti
+Archive'  ***<br>
+<a href=http://www.iath.virginia.edu/~jjm2f/chum.html>http://www.iath.virginia.edu/~jjm2f/chum.html</a><br>
+The first is a dated (1995) but thoughtful article on the emergence of
+electronic texts and editions in electronic (particularly CD-ROM) formats,
+including treatment of several examples. The second is a sort of follow-up
+to the first, discussing the limitations of text-based encoding for future
+electronic publishing.
+<p>
+Brown Women Writers Project Online Bibliography of Electronic Editing and
+Text Encoding  ****<br>
+<a href=http://www.wwp.brown.edu/encoding/bibliography.html>http://www.wwp.brown.edu/encoding/bibliography.html</a><br>
+Slightly dated but otherwise comprehensive bibliography of printed and
+online sources, with special attention to mechanics of markup and to the
+publicating of women's writing.
+<p>
+Electronic Labryinth  **<br>
+<a href=http://web.uvic.ca/~ckeep/elab.html>http://web.uvic.ca/~ckeep/elab.html</a><br>
+Dated (1993-5) but interesting theory-based approach to the status of the
+text in an electronic environment.
+<p>
+The Electric Scriptorium: Approaches to the Electronic Imaging,
+Transcription, Editing and Analysis of Medieval Manuscript Texts; A
+Physical & Virtual Conference (November, 1995). ***<br>
+<a href=http://www.acs.ucalgary.ca/~scriptor/>http://www.acs.ucalgary.ca/~scriptor/</a><br>
+Includes a number of presentations, including pieces on electronic versions
+of Beowulf, Piers Plowman, Chaucer's works, and Sir Gawain and the Green
+Knight. Though dated, there are some provocative ideas in this archive of
+essays.
+<p>
+Internet Shakespeare Editions (ISE) Project Articles  ***<br>
+<li>'The Politics of Copyright on the Internet' (Michael Best)<br>
+<a href=http://castle.uvic.ca/shakespeare/Annex/Articles/SAA1997.html>http://castle.uvic.ca/shakespeare/Annex/Articles/SAA1997.html</a><br>
+<li>'Scholarly Editions of Shakespeare for the Internet' (Michael Best)<br>
+<a href=http://castle.uvic.ca/shakespeare/Annex/Articles/ISA1996.html>http://castle.uvic.ca/shakespeare/Annex/Articles/ISA1996.html</a><br>
+<li>'From Book to Screen: A Window on Renaissance Electronic Texts' (Michael
+Best)<br>
+<a href=http://unixg.ubc.ca:7001/0/e-sources/emls/01-2/bestbook.html>http://unixg.ubc.ca:7001/0/e-sources/emls/01-2/bestbook.html</a><br>
+<li>EMLS Special Issue on ISE Project<br>
+<a href=http://castle.uvic.ca/shakespeare/Annex/Articles/EMLS3.3MB.html>http://castle.uvic.ca/shakespeare/Annex/Articles/EMLS3.3MB.html</a>
+<p>
+The Canterbury Tales Project, from Peter Robinson  **<br>
+<a href=http://www.cta.dmu.ac.uk/projects/ctp/>http://www.cta.dmu.ac.uk/projects/ctp/</a><br>
+For details of a forthcoming one-day conference on electronic publishing of
+medieval texts, see their announcement at
+<a href=http://www.cta.dmu.ac.uk/projects/ctp/conference.html>http://www.cta.dmu.ac.uk/projects/ctp/conference.html</a>
+<p>
+Flanders, Julia. 'Editorial Methodology and the Electronic Text', part of a
+conference session entitled Electronic Texts and Textuality, NASSR 1996.
+***<br>
+<a href=http://www.wwp.brown.edu/encoding/research/NASSR/Argument.html>http://www.wwp.brown.edu/encoding/research/NASSR/Argument.html</a><br>
+A brief presentation of some issues in electronic publishing, from the
+Brown Women Writers Project.
+<p>
+Thaler, Manfred, Dino Buzzetti, and Stefan Aumann, 'Digital Manuscripts:
+Editions v. Archives' (conference session). **<br>
+Session site:<br>
+<a href=http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/thaller1.html>http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/thaller1.html</a><br>
+This session includes three papers:
+<li>Buzzetti, Dino. 'Digital Editions: Variant Readings and Interpretations'<br>
+<a href=http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/buzzetti.html>http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/buzzetti.html</a>
+<li>Thaler, Manfred. 'Text as a Data Type'<br>
+<a href=http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/thaller2.html>http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/thaller2.html</a>
+<li>Aumann, Stefan. 'Digital Archives'<br>
+<a href=http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/aumann.html>http://gonzo.hd.uib.no/allc-ach96/Panels/Thaller/aumann.html</a>
+<p>
+<strong>JOURNALS</strong><br>
+<i>Journal of Electronic Publishing</i>  ***<br>
+<a href=http://www.press.umich.edu/jep/>http://www.press.umich.edu/jep/</a>
+<p>
+<i>Intellectual Property Magazine</i>  ***<br>
+<a href=http://www.ipmag.com/>http://www.ipmag.com/</a>
+<p>
+<i>Harvard Journal of Law & Technology </i> ****<br>
+<a href=http://jolt.law.harvard.edu/>http://jolt.law.harvard.edu/</a>
+<p>
+<i>The Copyright and New Media Law Newsletter</i> (archived TOCs only) ***<br>
+<a href=http://copyrightlaws.com/index2.html>http://copyrightlaws.com/index2.html</a>
+<p>
+<strong>OTHER RESOURCES</strong><br>
+Text Encoding Initiative  *****<br>
+<a href=http://www.tei-c.org/>http://www.tei-c.org/</a>, or <a href=http://www.hcu.ox.ac.uk/TEI/>http://www.hcu.ox.ac.uk/TEI/</a> for the TEI Oxford Home Page (includes TEI guidelines)<br>
+...setting the standards for how texts
+should and eventually will be encoded in various electronic formats. TEI
+dtd, SGML, and XML may sound very daunting, but these comprehensive pages
+explain text encoding issues very carefully. Scrupulously updated.
+<p>
+Association for Computing Machinery  ***<br>
+<a href=http://www.acm.org/>http://www.acm.org/</a><br>
+An educational and scientific computing society, interested (among other
+things) in issues of intellectual property and in computing applications in
+education and the humanities.
+<p>
+National Initiative for a Networked Cultural Heritage (NINCH)  **<br>
+<a href=http://www.ninch.org/>http://www.ninch.org/</a> 
+(especially <a href=http://www.ninch.org/ISSUES/COPYRIGHT.html>http://www.ninch.org/ISSUES/COPYRIGHT.html</a>)<br>
+A US group; its usefulness occasionally obscured by its jargon (e.g. their
+mission: 'educating policymakers, the cultural community and the public
+about the critical importance of translating the vision of a connected,
+distributed and accessible collection of cultural knowledge into a working
+reality').
+<p>
+SCETI: The Schoenberg Center for Electronic Text & Image, University of
+Pennsylvania<br>
+<a href=http://www.library.upenn.edu/etext/collections/index.html>http://www.library.upenn.edu/etext/collections/index.html</a><br>
+This exemplary project provides high-quality reproductions of rare books
+and manuscripts in the collections of the University of Pennsylvania - an
+important emerging strategy for presenting early modern materials on the
+web, if still a little cumbersome.  Of special interest to Renaissance
+scholars will be the Furness Shakespeare collection.  Other collections
+include 'Women's Studies', (Early Modern) 'Science, the Occult, and
+Religion', and the 'Lawrence Schoenberg collection of Medieval and
+Renaissance MSS'.
+<p>
+Word Wide Web Consortium (W3C) *****<br>
+<a href=http://www.w3.org>http://www.w3.org</a><br>
+Headed by founder of the internet, Tim Berners-Lee, this organization sets
+the recommendations and standards for all internet authoring - guidelines
+that set the parameters not only for software companies, but for the
+everyday web architect. Details of the latest HTML specifications (4.01, at
+present) are the very least among the stars in this rich crown.
+<p>
+<img src=gifs/20v.gif><br>
+<h2 align=center>ELECTRONIC RESOURCES</h2>
+<strong>SPENSER HOMEPAGE</strong><br>
+The Edmund Spenser Homepage has moved from the University of Oregon and its
+creator Richard Bear, and now resides virtually next door to CERES on the
+Cambridge English Faculty's server. Andrew Zurcher, his skills sharpened on
+CERES, takes the helm. The new address is <a href=http://www.english.cam.ac.uk/spenser>http://www.english.cam.ac.uk/spenser</a>
+<p>
+<strong>BEAUMONT AND FLETCHER</strong><br>
+Drew Whitehead of the University of Queensland starts with the ambitious
+and very worthwhile project of producing electronic editions of the works
+in the B and F canon. Entitled 'Twilight Pictures', this site currently has
+draft texts of only a few plays, of which the most interesting is of The
+Woman's Prize. The 1647 Folio and Lambarde MS texts are available in
+various forms, including a useful parallel text, but only of the first 30
+lines. One to watch: it could turn out to be as interesting, and nearly as
+funky, as the Enfolded Hamlet, for which zap to <a href=http://www.global-language.com/cgi/openbin/enhamp?type=EN>http://www.global-language.com/cgi/openbin/enhamp?type=EN</a>
+<p>
+The URL is <a href=http://www.uq.edu.au/drama/twilight/>http://www.uq.edu.au/drama/twilight/</a>
+<p>
+<strong>AUGUSTINE'S CONFESSIONS</strong><br>
+A substantial project and a significant phenomenon in Internet publishing,
+this is an electronic version of James J. O'Donnell's 1992 edition and
+commentary on Augustine's Confessions, first published by OUP. The entire
+work is now available on the Internet free of charge to users, under the
+auspices of the Stoa consortium, at a catchy URL:
+<a href=http://www.stoa.org/hippo>http://www.stoa.org/hippo</a>. A duplicate copy is available at <a href=http://ccat.sas.upenn.edu/jod/conf> http://ccat.sas.upenn.edu/jod/conf</a>. The work provides a complete Latin text
+of the Confessions, a detailed scholarly commentary on the text
+line-by-line, and a lengthy interpretive introduction.
+<p>
+<strong>EMLS NEWS</strong><br>
+Early Modern Literary Studies (<a href=http://purl.oclc.org/emls/05-3/05-3toc.htm>http://purl.oclc.org/emls/05-3/05-3toc.htm</a>)
+has recently published a special issue on Renaissance Literary Studies and
+Humanities Computing, guest-edited by R.G. Siemens and David R. Shore. Here
+there are various articles, usually provocative and knowledgable, including
+surveys of important projects such as ITER, the Virtual Furness Shakespeare
+Library, and EMLS itself.
+<p>
+EMLS also invites submissions for a special issue entitled 'Listening to
+the Early Modern', re: the early modern perception of sound e.g. in 
+speech, oratory, ballads, music and literature, the acoustics of
+performance, Renaissance theories of sound, acoustic metaphors,
+synaesthesia. The closing date for submissions is 1 September 2000.
+Enquiries should be directed to Matthew Steggle, <a href=mailto:M.Steggle@shu.ac.uk>M.Steggle@shu.ac.uk</a>.
+<p>
+<strong>MARGARET CAVENDISH SOCIETY</strong><br>
+MC's many devotees have always given her a big electronic profile (the
+MARCAV-L list has been around for years) and now there is this neat and
+substantial website. Bibliography, links, pictures, and society info at
+<a href=http://www.clarehall.cam.ac.uk/mcs/>http://www.clarehall.cam.ac.uk/mcs/</a>
+<p>
+<strong>ITINERANT HOBO</strong><br>
+Our new neighbour at: <a href=http://www.english.cam.ac.uk/hobo>http://www.english.cam.ac.uk/hobo</a>.
+Run by Ian Gadd and Martin Moonie, this splendid site, formerly 'History of
+the Book @ Oxford' offers a dedicated webspace for all History of the Book
+events and resources throughout the UK. Updated weekly and frighteningly
+comprehensive.
+<p>
+<strong>RENAISSANCE DRAMA ONLINE RESOURCES</strong><br>
+A useful set of links for students studying Renaissance drama, produced by
+Emma Smith, and proving that an interesting enough reading list can be made
+up of online materials. Some of the links go via services (Project Muse)
+which your ISP may not subscribe to, or which you may have to access less
+directly: <a href= http://www.english.ox.ac.uk/smith.html>http://www.english.ox.ac.uk/smith.html</a>
+<p>
+<strong>THOMAS BROWNE</strong><br>
+A site devoted to the wise one, with an ample and growing selection of
+etexts and some other non-Browneish goodies. Edited by James Eason at
+Chicago: <a href=http://penelope.uchicago.edu/>http://penelope.uchicago.edu/</a>
+<p>
+<strong>ELECTRONIC HYPNEROTOMACHIA</strong><br>
+The MIT Press, in collaboration with the Design Knowledge Systems Group
+at The Technical University of Delft, has made available a complete
+electronic facsimile of the original 1499 Aldine <i>Hypnerotomachia Poliphili</i>.
+The editing of the electronic book is based on research published in Liane
+Lefaivre's <i>Leon Battista Alberti's Hypnerotomachia Poliphili</i>, published by
+The MIT Press, and coincides with its release. Go wide-eyed to:
+<a href=http://mitpress.mit.edu/e-books/HP/>http://mitpress.mit.edu/e-books/HP/</a>
+<p>
+The site includes helpful snippets of Lefaivre's 1997 book by way of guide
+and overview, and does not insist on agreement with her intriguing
+attribution of the work to Leon Battista Alberti. The electronic text of
+this architectural and erotic fantasy is a superb example of web facsimile.
+Easy to browse, well-reproduced, it makes available all 467 pages of
+Aldus's beautifully produced book - a joy to behold with its quite perfect
+Bembo font and stunning images. Click on images for enlargements, and then
+go back and forth through the images alone, or wander through the book page
+by page or chapter by chapter. One to browse with Joscelyn Godwin's new
+English translation of the complete text to hand.
+<p>
+<strong>BIBLIOTHEQUE NATIONALE CATALOGUES</strong><br>
+Finally a web catalogue (BN-OPALE PLUS) is available en ligne, combining
+the contents of OPALE (new stuff) and OPALINE (old stuff), previously
+available only via telnet: <a href=http://catalogue.bnf.fr/>http://catalogue.bnf.fr/</a><br>
+For a full list of catalogues go to: <a href=http://www.bnf.fr/web-bnf/catalog/index.htm>http://www.bnf.fr/web-bnf/catalog/index.htm</a>
+<p>
+<strong>TRITHEMIUS, DEE, BRUNO ONLINE</strong><br>
+<a href=http://www.avesta.org/esoteric.htm>http://www.avesta.org/esoteric.htm</a><br>
+A site run by Joseph H. Peterson called The Twilit Grotto offers an awesome
+array of occult etexts. Some are in progress, and the following site map is
+incomplete: <a href=http://www.avesta.org/sitemap.html>http://www.avesta.org/sitemap.html</a>
+We are not adept to comment on the accuracy of the contents, though the
+texts look to have been carefully edited and the graphics very well
+handled. Among scores of pages are versions of STC volumes, manuscripts,
+and more recent editions, as well as various indexes and lists of symbols,
+angel's names, and the like. Some of the texts (Bruno's De gli eroici
+furori, Sacrobosco's Sphere) are more likely to cross literary paths;
+others will just scare you.
+<p>
+<strong>THE GALILEO PROJECT</strong><br>
+Based at Rice University, the Galileo Project is a hypertext source of
+information on the life and work of Galileo Galilei (1564-1642) and the
+science of his time. Started in 1995 and still under construction, much of
+the information is presented as a tour of the rooms of Galileo's villa (the
+library, the instrument closet...). Aimed at 'viewers of all ages and
+levels of expertise', the information is rich and well-presented: <a href=http://es.rice.edu/ES/humsoc/Galileo/>http://es.rice.edu/ES/humsoc/Galileo/</a>
+<p>
+<strong>PILLARBOX</strong><br>
+Pillarbox is a free email service which notifies subscribers of all
+announcements it receives for UK & European conferences, seminar series and
+publication opportunities in the field of literary and cultural studies.
+Pillarbox was inspired by Jack Lynch's CFP network at the University of
+Pennsylvania, which sends out mostly American calls for papers and
+publication opportunities. It is intended to be a slightly modified British
+version of CFP. We have subscribed and can confirm that whilst there is
+much overlap with CFP, if you are a conference junkie you will want to be
+on the Pillarbox list. Go to: <a href=http://come.to/Pillarbox>http://come.to/Pillarbox</a>. Or if that link dies, go via the onelist site, which hosts the service: <a href=http://www.onelist.com/group/Pillarbox>http://www.onelist.com/group/Pillarbox</a>
+<p>
+<strong>CURL UNION CATALOGUE AND SCIPIO AT EUREKA</strong><br>
+New to Eureka, which you may or may not have access to, are the 13 million
+records of the CURL Union Catalogue. The Consortium of University Research
+Libraries (CURL) is a group of research libraries in the British Isles
+whose mission is 'to promote, maintain and improve library resources for
+research in universities'. The CURL Union Catalogue (CUC) represents the
+holdings of CURL members, including UK and Ireland legal deposit libraries.
+<p>
+Now, may we for once replace our usual witless optimism with a certain
+frankness? The CURL records are also the basis for COPAC, which is free,
+and can be accessed direct via: <a href=http://copac.ac.uk/copac/>http://copac.ac.uk/copac/</a>. COPAC is easy to search and fast to use. CURL via Eureka, on the other
+hand... For one, there is no way of limiting author searches properly. So
+'Buxton, John' gets swamped by records listing the works of that notable
+author of Peaks District murder mysteries, John Buxton Hilton. In other
+words, hypertext markup is rudimentary compared to other Eureka offerings
+like ESTC. 'Buxton, Tradition' gets 10 separate hits for the 10 libraries
+which COPAC also lists as holding the book. But COPAC manages to stick most
+of these records together to give two hits. Perhaps we're missing
+something, but we wonder what value is being added here.
+<p>
+Better, when it has grown, will be SCIPIO: Art and Rare Book Sales
+Catalogs. This database describes art auction and rare book catalogs for
+sales from the late sixteenth century to scheduled auctions not yet held.
+Records include the dates and places of sales, the auction houses, sellers,
+institutional holdings, and titles of works. Updated daily, SCIPIO has more
+than 625,000 records, and will prove a must for the provenance hunters of
+the future. Other recent Eureka additions include the German National Union
+catalogue and the Research Libraries Group Archival Resources database
+(currently a bit of a hotch-potch, more likely to turn up the letters of a
+nineteenth-century bore with the middle name of your subject than anything
+you really need). The usual URLs: <a href=http://eureka.rlg.ac.uk/>http://eureka.rlg.ac.uk/</a> and
+<a href=http://eureka.rlg.org/>http://eureka.rlg.org/</a>.  Or go via your institution's link to bypass password requests.
+<p>
+<strong>ETHEREAL ETEXTS</strong><br>
+A very rich source of Christian classics, and including such favourites as
+Donne's <i>Devotions Upon Emergent Occasions</i> and <i>Death's Duel</i>, is the
+Christian Classics Ethereal Library at <a href=http://ccel.org/>http://ccel.org/</a>
+<p>
+All a bit modernised for our taste, but if you don't mind scrolling past
+Billy Graham to get to Ignatius Loyola, worth a trip.
+<p>
+<strong>A GUIDE TO MEDIEVAL AND RENAISSANCE INSTRUMENTS</strong><br>
+<a href=http://www.s-hamilton.k12.ia.us/antiqua/instrumt.html>http://www.s-hamilton.k12.ia.us/antiqua/instrumt.html</a><br>
+Just that. Pretty pictures and sounds and just the place to find out about
+the hurdy gurdy and the psaltery. Also includes a good set of early music
+links: <a href=http://www.s-hamilton.k12.ia.us/antiqua/links.htm>http://www.s-hamilton.k12.ia.us/antiqua/links.htm</a>
+<p>
+<strong>ECCLESIASTICAL CALENDAR CALCULATOR</strong><br>
+If you ever need to calculate a date in the Ecclesiastical Calendar, this
+is where you should go: <a href=http://www.smart.net/~mmontes/ec-cal.html>http://www.smart.net/~mmontes/ec-cal.html</a>
+<p>
+<strong>GROVE DICTIONARIES ONLINE</strong><br>
+A subscription-only service, but what a service! Full texts of the Grove
+Dictionary of Art: <a href=http://www.groveart.com/>http://www.groveart.com/</a>. 
+And of the Grove Dictionary of Opera: <a href=http://www.groveopera.com/>http://www.groveopera.com/</a>
+The Dictionary of Music (2nd edition, while we wait for the 3rd edition in
+print) is on its way in September.
+<p>
+<strong>TLS CENTENARY ARCHIVE</strong><br>
+<a href=http://www.tls.psmedia.com/>http://www.tls.psmedia.com/</a><br>
+A useful (therefore not free) service offering the contents of the TLS up
+to fairly recent times (for more recent content, subscribers to the printed
+journal can go to the TLS site: <a href=http://www.the-tls.co.uk/>http://www.the-tls.co.uk/</a>). At present the archive has got stuck in the twenties (though this already includes such pleasures as the copious review journalism of Virginia Woolf), and is
+rather difficult to search. You must hit 'search' for each new search
+rather than using your browser's button to go back to the search page (in
+which case your original search is resubmitted regardless of what you
+type). There has been hot debate about the ethics of charging for access
+whilst not paying authors any further fees. All rather redolent of the
+British book trade before copyright.
+<p>
+<strong>BRITANNICA ONLINE</strong><br>
+The Encyclopedia Britannica website is now free to all, costs being covered
+by adverts instead of the small charge originally made. A wonderful
+resource and first port of call: <a href=http://www.britannica.com/>http://www.britannica.com/</a>
+<p>
+<strong>EARLY ENGLISH BOOKS ONLINE</strong><br>
+While the English Short Title Catalogue continues to grow and its
+proprietors begin work on digitisation of the books themselves (e18, at
+<a href=http://www.e18.psmedia.com/>http://www.e18.psmedia.com/</a>), UMI have rather stolen their thunder with the
+stunning Early English Books Online, or EEBO. This site will offer
+snapshots of every page in every book in STC and Wing, that is from 1475 to
+1700, taken direct from UMI microfilms. You will need a decent computer and
+a fast connection, and may be steered towards some plugins on first
+arrival, but the result is images which are of such high resolution that
+when printed off they actually beat the quality of print-offs from
+microfilm. There is a charge, and you may find yourself barred from some
+areas of the site if your institution does not already subscribe. To see if
+you are one of the lucky ones, go to <a href=http://wwwlib.umi.com/eebo/>http://wwwlib.umi.com/eebo/</a> and click
+'enter'
+<p>
+Search by author, title, STC/Wing number, or keywords, under either the
+basic or advanced search options. The matches which come up are in short
+record format. Click the text icon for a decently full citation. Or click
+either the camera or pen nib icons for page images and illustrations
+(anything pictorial) respectively. If the image in question has never been
+requested before you get a gratifying message reporting on your pioneer
+status and asking you to wait while the image is transferred from a CD to
+the server. The excellent viewing plugins allow the page images to be
+manipulated and printed off.
+<p>
+Like many of the best sites reviewed by CERES, this one will come into its
+own in a few years, when bandwidth increases allow access to be
+instantaneous. At present, waiting times can be a little frustrating and,
+depending on the strength of the adhesion of your backside to its computer
+chair and the distance of your office from the library, a trip to look at
+the microfilm may still be a better option. But already, for the simple
+focussed enquiry (say, for a printout of the title page of a particular
+edition of a particular book) EEBO is a considerable blessing. And, let's
+face it, this is the one resource that we at CERES have been waiting for,
+and preparing you for.
+<p>
+<strong>LIBER LIBER</strong><br>
+It would be churlish to complain about the visual appearance of this
+project, found at <a href=http://www.liberliber.it/biblioteca/t/index.htm>http://www.liberliber.it/biblioteca/t/index.htm</a>
+A pioneering and burgeoning resource, it includes electronic texts of
+Italian literature, and does so in abundance.
+<p>
+<strong>STARRY MESSENGER</strong><br>
+<a href=http://www.hps.cam.ac.uk/starrymessenger.html>http://www.hps.cam.ac.uk/starrymessenger.html</a><br>
+The aim of this project is to make available electronically some aspects of
+the early history of astronomy for the use of students studying the History
+and Philosophy of Science in the University of Cambridge - but other
+interested parties can get there too! By drawing on the rich collection of
+instruments and books in the Whipple Collection, the University Library and
+the Wren Library, it seeks to produce a history of astronomy which focuses
+on the uses of astronomy and its instruments, as well as on the
+practitioners of astronomy.
+<p>
+<small><a href=#top>Back to top.</a><br>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+res "h8.o

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<link href="css/buffet%20text.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-color: #EEEFC7;
+}
+-->
+</style></head>
+<body>
+<div id="history" style="position:absolute; left:355px; top:28px; width:132px; height:31px; z-index:111; font-size: 36px; font-family: Verdana, Arial, Helvetica, sans-serif; visibility: visible;" class="main_heading">history</div>
+<div id="RMLlogoBrown" style="position:absolute; left:193px; top:7px; width:87px; height:61px; z-index:112; visibility: visible;"><a href="index.htm"><img src="images/logos/rml_logo_red.gif" alt="home" width="96" height="69" border="0" /></a></div>
+<div id="LeftBackground" style="position:absolute; left:52px; top:0px; width:263px; height:625px; z-index:105; background-color: #980E33; layer-background-color: #980E33; border: 1px none #000000; visibility: visible;"></div>
+
+<div id="RothLogo" style="position:absolute; left:70px; top:4px; width:51px; height:62px; z-index:113; visibility: visible;"><a href="http://local-info.rothamsted.bbsrc.ac.uk/"><img src="images/logos/RRLogo50px.gif" alt="Rothamsted home page" width="50" height="64" border="0" /></a></div>
+<div id="home" style="position:absolute; left:52px; top:386px; width:263px; height:87px; z-index:114; visibility: visible;"><a href="index.htm"><img src="images/gif/colour_dots.gif" alt="home" width="263" height="90" border="0" /></a></div>
+</div>
+<div id="manorPic" style="position:absolute; left:640px; top:438px; width:243px; height:163px; z-index:117; visibility: visible;"><img src="images/gif/manor_front.gif" alt="rothamsted manor" width="260" height="173" /></div>
+<div id="mainText" style="position:absolute; left:355px; top:90px; width:260px; height:136px; z-index:115; visibility: visible;"><span class="main_text">Rothamsted Manor as we know it today evolved from a more modest dwelling that was on this site possibly from as early as the 13th century. The appearance of the south front is due to the 17th century additions and alterations of Sir John Wittewronge, the first Wittewronge to live at Rothamsted, whose grandfather fled to London from Ghent in 1564 to escape religious persecution. The Wittewronges and their descendants continued to own the house until 1934 although it passed by female descent first into the Bennet family, and then to the Bennet-Lawes. Perhaps the most famous inhabitant of the house was Sir John Bennet Lawes (1814-1900). He began agricultural research at Rothamsted, which is today continued by Rothamsted Research of which the Manor is an integral part.</span></div>
+<div id="mainText2" style="position:absolute; left:640px; top:90px; width:260px; height:285px; z-index:116; visibility: visible;"><span class="main_text">Today the Manor and the gardens are maintained by staff from Rothamsted and is used to house scientists visiting from other countries and students working on site. It is well equipped, with over 35 bedrooms it has a capacity of 48 people in single and shared accommodation on a half-board basis. The residents have full access to the gardens and there are many other facilities available. </span></div>
+<div id="manorBack" style="position:absolute; left:52px; top:2px; width:946px; height:598px; z-index:109; visibility: visible;"><img src="images/gif/manor_mono_lemon.gif" width="943" height="620" /></div>
+</body>
+</html>
+
+
+nfaeaw"l1iI a

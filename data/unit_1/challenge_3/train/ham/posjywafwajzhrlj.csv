@@ -1,0 +1,315 @@
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	// moock fpi [f.lash p.layer i.nspector]
+	// version: 1.3.5
+	// written by colin moock
+	// code maintained at: http://www.moock.org/webdesign/flash/detection/moockfpi/
+	// terms of use posted at: http://www.moock.org/terms/
+	
+	
+	
+	// =============================================================================
+	// These are the user defined globals.
+	// Modify the following variables to customize the inspection behaviour.
+	
+	var requiredVersion = 8;   // Version the user needs to view site (max 6, min 2)
+	var useRedirect = true;    // Flag indicating whether or not to load a separate
+	                           // page based on detection results. Set to true to
+	                           // load a separate page. Set to false to embed the
+	                           // movie or alternate html directly into this page.
+	                           
+	// Only set next three vars if useRedirect is true...
+	var flashPage = "gsa.cfm?pid=2083&version=flash&detect=done"      // The location of the flash movie page
+	var noFlashPage = "gsa.cfm?pid=2083&version=html"  // Page displayed if the user doesn't have the
+	                                  // plugin or we can't detect it.
+	var upgradePage = "update_flash.html"  // Page displayed if we detect an old plugin
+	// =============================================================================
+	
+	
+	
+	// *************
+	// Everything below this point is internal until after the BODY tag.
+	// Do not modify! Proceed to the BODY tag for further instructions.
+	// *************
+	
+	// System globals
+	var flash2Installed = false;    // boolean. true if flash 2 is installed
+	var flash3Installed = false;    // boolean. true if flash 3 is installed
+	var flash4Installed = false;    // boolean. true if flash 4 is installed
+	var flash5Installed = false;    // boolean. true if flash 5 is installed
+	var flash6Installed = false;    // boolean. true if flash 6 is installed
+	var flash7Installed = false;    // boolean. true if flash 6 is installed
+	var flash8Installed = false;    // boolean. true if flash 6 is installed
+	var maxVersion = 8;             // highest version we can actually detect
+	var actualVersion = 0;          // version the user really has
+	var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+	var jsVersion = 1.0;            // the version of javascript supported
+	
+	// -->
+	</script>
+
+	<script language="JavaScript1.1" type="text/javascript">
+	<!--
+	
+	// Check the browser...we're looking for ie/win
+	var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+	var isWin = (navigator.appVersion.indexOf("Windows") != -1) ? true : false; // true if we're on windows
+	
+	// This is a js1.1 code block, so make note that js1.1 is supported.
+	jsVersion = 1.1;
+	
+	// Write vbscript detection on ie win. IE on Windows doesn't support regular
+	// JavaScript plugins array detection.
+	if(isIE && isWin){
+	  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+	  document.write('on error resume next \n');
+	  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+	  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+	  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+	  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+	  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+	  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');  
+	  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');  
+	  document.write('</SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+	}
+	// -->
+	</script>
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	
+	// Next comes the standard javascript detection that uses the 
+	// navigator.plugins array. We pack the detector into a function so it loads
+	// before we run it.
+	
+	function detectFlash() {  
+	  // If navigator.plugins exists...
+	  if (navigator.plugins) {
+	    // ...then check for flash 2 or flash 3+.
+	    if (navigator.plugins["Shockwave Flash 2.0"]
+	        || navigator.plugins["Shockwave Flash"]) {
+	
+	      // Some version of Flash was found. Time to figure out which.
+	      
+	      // Set convenient references to flash 2 and the plugin description.
+	      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+	      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+	
+	      // DEBUGGING: uncomment next line to see the actual description.
+	      // alert("Flash plugin description: " + flashDescription);
+	      
+	      // A flash plugin-description looks like this: Shockwave Flash 4.0 r5
+	      // We can get the major version by grabbing the character before the period
+	      // note that we don't bother with minor version detection. 
+	      // Do that in your movie with $version or getVersion().
+	      var flashVersion = parseInt(flashDescription.charAt(flashDescription.indexOf(".") - 1));
+	     
+	      // We found the version, now set appropriate version flags. Make sure
+	      // to use >= on the highest version so we don't prevent future version
+	      // users from entering the site.
+	      flash2Installed = flashVersion == 2;    
+	      flash3Installed = flashVersion == 3;
+	      flash4Installed = flashVersion == 4;
+	      flash5Installed = flashVersion == 5;
+	      flash6Installed = flashVersion == 6;
+	      flash7Installed = flashVersion == 7;
+	      flash8Installed = flashVersion >= 8;
+	    }
+	  }
+	  
+	  // Loop through all versions we're checking, and
+	  // set actualVersion to highest detected version.
+	  for (var i = 2; i <= maxVersion; i++) {  
+	    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+	  }
+	  
+	  // If we're on webtv, the version supported is 2 (pre-summer2000, 
+	  // or 3, post-summer2000). Note that we don't bother sniffing varieties
+	  // of webtv. You could if you were sadistic...
+	  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 3;  
+	  
+	  // DEBUGGING: uncomment next line to display flash version
+	  // alert("version detected: " + actualVersion);
+	
+	
+	  // We're finished getting the version on all browsers that support detection.
+	  // Time to take the appropriate action.
+	
+	  // If the user has a new enough version...
+	  if (actualVersion >= requiredVersion) {
+	    // ...then we'll redirect them to the flash page, unless we've
+	    // been told not to redirect.
+	    if (useRedirect) {
+	      // Need javascript1.1 to do location.replace
+	      if(jsVersion > 1.0) {
+	        // It's safe to use replace(). Good...we won't break the back button.
+	        window.location.replace(flashPage);  
+	      } else {
+	        // JavaScript version is too old, so use .location to load
+	        // the flash page.
+	        window.location = flashPage;
+	      }
+	    }
+	    
+	    // If we got here, we didn't redirect. So we make a note that we should
+	    // write out the object/embed tags later.
+	    hasRightVersion = true;                
+	  } else {  
+	    // The user doesn't have a new enough version.
+	    // If the redirection option is on, load the appropriate alternate page.
+	    if (useRedirect) {
+	      // Do the same .replace() call only if js1.1+ is available.
+	      if(jsVersion > 1.0) {
+	        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+	      } else {
+	        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+	      }
+	    }
+	  }
+	}
+	
+	detectFlash();  // call our detector now that it's safely loaded.  
+	  
+	// -->
+	</script>
+
+	
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="En">
+<head>
+	
+<title>:: The Glasgow School of Art :: - Resources for Learning</title>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+	
+<meta name="keywords" content="gsa, glasgow school of art, glasgow, art school, fine art, photography, graphic design, charles rennie mackintosh, c r mackintosh, architecture, architect, digital design studio, dds, ceramics, art, design, interior design, product design, product design engineering, silversmithing, jewellery, textiles, visual communications, research, enterprise, centre for advanced textiles, cat, c.a.t., idri, i.d.r.i, mearu, m.e.a.r.u., mackintosh shop, drawing institute, mphil, phd, ma, 2d, 3d, motion graphics, m.des, mdes, textiles as fashion, fashion, fashion design, ">
+
+	
+<script language="JavaScript">
+	<!--
+	function openPage(theURL) {
+	  window.open(theURL,'printPane','status,width=525,height=330,scrollbars=yes');
+	}
+	function openWindow(theURL) {
+	  window.open(theURL,'infoPane','width=400,height=500,scrollbars=yes');
+	}
+	// -->
+	</script>
+	
+<style>
+	td,a {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: none;
+	}
+	a:hover {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: underline;
+	}
+	</style>
+</head>
+
+
+
+
+<!--
+flash8template.swf
+-->
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" height="95%" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td valign="middle" align="center">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="420">
+            <tr> 
+  <td style="background-image: url(/images/flashbg/c6a00c-left.gif); background-repeat: no-repeat; background-position: right top;">&nbsp;</td>
+              <td valign="middle" width="760" align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="420">
+                        <param name="movie" value="flash8template.swf" />
+                        <param name="menu" value="false" />
+						<param name="FLASHVARS" value="pid=2083&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=" /> 
+                      <param name="quality" value="high" />
+                      <embed src="flash8template.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="420" flashvars="pid=2083&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=&preview="></embed></object></td>
+  <td style="background-image: url(/images/flashbg/c6a00c-right.gif); background-repeat: no-repeat; background-position: left top;">&nbsp;</td>
+            </tr>
+  <tr>
+		<td></td>
+  	<td><div style="padding-left: 666px; padding-top: 4px;"><a href="/gsa.cfm?pid=2083&amp;nid=0&amp;sid=0&amp;criteria=&amp;version=html" style="font-size: 9px; font-family:Arial, Helvetica, sans-serif;">HTML VERSION</a></div></td>
+		<td></td>
+  </tr>
+          </table>
+		</td>
+  </tr>
+
+</table>
+
+
+
+<div style="display: none; height: 1px; width: 1px; overflow: hidden;">
+
+
+
+
+	
+
+	
+		
+
+		
+		
+		
+			
+		
+
+		<h2>RESOURCES FOR LEARNING</h2><p>The learning resources at the GSA are there to inform and inspire students. They provide easy access to the highest quality art, design and architecture information from around the world.</p><h2>LIBRARY</h2><p>Our library and its computer facilities are at the heart of the GSA providing a core service to all staff and students. The School has had a library since 1845 and the present collection is a superb gateway to learning and research, with dedicated staff for each academic discipline. It comprises some 80,000 books and 250 current periodicals from around the world, plus a comprehensive and expanding range of slides, video and audio tapes, CD-ROMs and DVDs. Our online databases and image banks can give students access to information no matter where they are. </p><p>The Library prides itself in offering an inclusive facility that is accessible to all. <br />The service is user led and students are encouraged to shape provision through participation in a Student-Library Forum, which meets each term to discuss and implement their suggestions. The Library's mission, to inform and inspire students, is reflected in the broad range of its collections which include material on philosophy, cultural studies and non- Western film, in addition to the traditional art, design and architecture subject areas. </p><p>The School's original and famous Mackintosh Library is a reference library housing our collection of historic books, periodicals and journals and is an excellent research resource. Our interlibrary loans service complements our own collections and enables materials to be delivered from other libraries around the world. GSA students and staff also have access to the rich resources of research libraries both in Glasgow and beyond.</p><h2>COMPUTER CENTRE</h2><p>In addition to the specialist IT facilites found across the School, the GSA has a dedicated Computer Centre, located within the School's main library, where networked computers give students almost unlimited access to the worldwide web, email, word processing, and image manipulation. </p><p>The Centre has five areas: the computer centre office, the training room, the scanning room, the eMac cluster and a small training room. There are over <br />50 Apple Mackintosh computers as well as PCs. There are hands-on introductory sessions, IT training and technical staff available to give advice and support. The Library and Computer Centre are also wireless zones enabling students to connect to the internet using their own laptops.</p><h2>ENTERPRISE</h2><p>The GSA is very proud of its history of graduate innovators and entrepreneurs and today, as a member of the Scottish Institute for Enterprise (SIE), strives to encourage creative enterprise among its students through specialist support.</p><p>A specialist student intern working collaboratively with the Career Service, actively promotes enterprise opportunities to students, raising the enterprise profile and delivering a series of focused seminars and events. Throughout the academic year students are invited to participate in events such as National Business Plan competition and Shell livewire.</p><h2>INSIGHT OUT LEARNING</h2><p>Insight Out learning is an innovative web-based curriculum resource specifically developed by the GSA in collaboration with NESTA, Grays School of Art and SIE. Specifically developed to enable academics to embed enterprise thinking tools within the curriculum, it provides creative business strategies using models sympathetic to the mindset of the creative undergraduate.</p><h2>EXHIBITIONS</h2><p>The GSA has not just one but four superb galleries of its own. The historic Mackintosh Gallery shows work by contemporary artists and designers of international standing while the Newbery Gallery showcases current students' work. In addition, the Grace and Clark Fyfe Gallery is a forum for the Architecture School and the Atrium Gallery focuses on the presentation of design. These are open to the public and offer a continuous programme of exhibitions and accompanying events throughout the year featuring international exhibitions by some of the world's leading contemporary artists, designers and architects and equally importantly, work by our highly talented students and staff. </p><p>The exhibitions programme also enables us to foster links with local and international institutions and organisations such as the Goethe Institut, the Japan Foundation, the Jerwood Foundation, the Academy of Visual Arts (HGB) Leipzig, the Design Museum, London and the Royal Academy. </p><p>Among those featured in recent exhibitions are:<br />:CJ Lim - Museums (Work in Progress) <br />:William Kentridge<br />:Beagles and Ramsay <br />:Jerwood Drawing Prize <br />:Scottish painter Ken Currie <br />:Steven Campbell<br />:English textile designer Lucienne Day <br />:Japanese sculptor Susumu Shingu</p><h2>LIFE AS A STUDENT</h2><p>To help make the most of your time in Glasgow the GSA has a range of student services to help you fulfil your potential and make the most of living and studying in Scotland's creative capital.</p><h2>STUDENT SUPPORT</h2><p>All our programmes are designed to support the creative development of students in their chosen subject and we also offer excellent specialist support services from which many students benefit during their studies:</p><p>>LEARNING SUPPORT SERVICE helps students to recognise and develop their learning skills and offers specialist services to students with disabilities and also language support if English is your second language.  </p><p><b>STUDENT WELFARE SERVICE</b> offers advice and assistance on issues such as student funding, accommodation and practical welfare issues for home and international students. <br /><b>STUDENT COUNSELLING SERVICE</b> provides a confidential environment in which students can explore personal or academic related issues with a professional counsellor. <br /><b>CAREERS SERVICE</b> offers impartial careers advice and guidance plus a wide array of careers information and resources on occupations, self-employment, funding and postgraduate options. </p><h2>SPORTS</h2><p>For a nominal fee, GSA students can enjoy Glasgow University's sports facilities and join many diverse sports clubs at two conveniently located sites within Glasgow. Additional information on facilities and on how to join is available on www.gla.ac.uk/services/sport</p><h2>ACCOMMODATION</h2><p>Situated in the heart of the city,  <br />The Glasgow School of Art's own purpose built student halls of residence, Margaret Macdonald House, is just a short walk to the famous Mackintosh Building and close to city centre shops, bars, clubs and restaurants. </p><p>Primarily providing student accommodation for first year and international students new to Glasgow, Margaret Macdonald House comprises 116 single study bedrooms in 18 self-catering flats, with rent starting from approximately &pound;770 per term.  </p><p>We recommend that students seeking accommodation in the residence apply as early as possible, even if your offer of a place to study at the GSA is conditional.  </p><p>As Scotland's largest city, Glasgow has an excellent stock of student accommodation to choose from.  The Student Welfare Adviser will be able to provide you with details of privately run student halls, located in and around the city centre.</p><p>Many students feel that sharing a flat with other students is their preferred option.  Rent in the private sector is approximately &pound;260/month, based on two students sharing a 2-bedroom flat.  </p><p>KEY CONTACTS<br />:f.sloan@gsa.ac.uk <br />:m.robertson@gsa.ac.uk</p><h2>STUDENTS' ASSOCIATION</h2><p>The Association is the social hub of the GSA, and it plays a vital role in strengthening the GSA's reputation as a hotbed of creative activity by bringing together students from all parts of the School to share ideas and views. Through numerous gigs and club nights, often featuring international artists as well as local and overseas bands, the Students' Association (known simply as 'The Art School') has become one of Glasgow's most well-known venues and is legendary for nurturing such groups as Belle and Sebastian and Franz Ferdinand. </p><p>Two highly sought after exhibition spaces provide a weekly showcase of students' work. </p><p>As a democratic association run for and by GSA students, the Association provides our students with a strong voice through the Student Representative Council, and can provide help with any academic or general concerns. It also organises the annual Freshers Week for new students and A Yearly Event during February Reading Week. </p><p>The Education Act 1994 gives students the right to opt out of membership of the Students Association.</p>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+	
+
+
+
+Ay ln "	

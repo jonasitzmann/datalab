@@ -1,0 +1,523 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML><HEAD>
+<TITLE>Gazetteer for Scotland: Help</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<script type="text/javascript" language="JavaScript" src="/scotgaz/scotgaz.js"></script>
+</HEAD>
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<A NAME="top"></A>
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+ <TR>
+  <TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+   <TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B> Help </B></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif" COLOR="#ffffff"><A HREF="#" onClick="popupGloss()"><B>Glossary</B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/People.html"><B> People </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Places.html"><B> Places </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Statistics.html"><B> Statistics </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><A HREF="/scotgaz/bookshop.html"><img src="/scotgaz/images/new.gif" alt="Click for Bookshop" border="0"></A></TD></TR>
+   </TABLE>
+  </TD>
+  <TD BGCOLOR="white" VALIGN="TOP" ALIGN="left">
+  <BLOCKQUOTE><BR>
+   <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1>
+   <H4><A NAME="Gazetteer Welcome">Gazetteer Welcome</A></H4>
+
+<P>You are at the Welcome page for the Gazetteer for Scotland.  You can enter
+the Gazetteer by clicking on <B>Enter the Gazetteer for Scotland</B> in the
+middle of the page.  You can also select any of the links on the left-hand side
+by clicking on them.  They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to an <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Scotland Map"><B>Scotland Map</B></A></H4>
+   <P>The basic layout of this screen and all the screens you will see is:
+   <UL><LI>a left-hand gold border;
+   <LI>a white page for information or a yellow page for searches and messages;
+   <LI>a set of <A HREF="#Tabs">tabs</A> on the right-hand side.
+   </UL>
+   <P>The left-hand gold bar contains links.  You can return to the title page by clicking on <B>Gazetteer for Scotland</B>.  You can click on <B>Help</B> to get advice on how to use the Gazetteer.  The other links take you to different search pages.  These search pages are:</P>
+   <UL><LI><B>Any Word</B> - Search by name for Attractions, Families, Famous People, Geographical Features and Settlements.
+   <LI><B>People</B> - Search for Famous People by category e.g. Academic, Entrepreneur, etc.  Each Famous Person can appear in up to four different categories.
+   <LI><B>Places</B> - Search for Attractions and Geographical Features by category e.g. Historic Building, Mountain, etc.  Each Attraction or Geographical Feature will only appear in one category.
+
+<LI><B>Statistics</B> - Search for places (settlements, features, attractions
+or people) by stored statistics. You can select from a range of database
+statistics and optionally enter a range of values (sensible values will be
+provided if you don't enter anything).
+
+   </UL>
+
+   <P>When you enter the gazetteer you can use clickable maps to move from an overall Map of Scotland to more detailed maps of Council Areas and particular Settlements.  You move to one of the regions shown on the map by positioning the cursor anywhere on the region and clicking your mouse or select a region from the list at the bottom of the map.  You can move to a more detailed map of the Central Belt of Scotland by positioning your cursor over one of the regions which does not have a name.</P>
+   <P>The <A HREF="#Tabs">tabs</A> on the right-hand tab bar are dynamic.  When you see a white tab you are currently viewing that page.  When you see an icon on a yellow tab you can select this tab.  When you see a yellow tab with a faint icon that there is no data for this entry and you cannot select the tab.</P>
+   <P>If you have switched off loading images to speed up your browser you should still be able to move around because the labels for all the images clearly state what they are.  If you are looking at a page that displays an image map with your images switched off you can still make the same selections as you would be able to on the image map from the text list.</P>
+
+   <HR SIZE="3" NOSHADE="noshade"><H4><A NAME="Timeline"><B>History Timeline</B></A></H4>
+
+The basic page layout is the same as for the '<a href="#Scotland Map">Scotland
+Map</a>' described above. The same searches, that is <b>Any Word, People,
+Places</b> and <b>Statistics</b> are available.
+
+The timeline lets you enter the Gazetteer through various time periods which
+are listed.  You will be presented with lists of years, which relate to the
+births and deaths of famous people, dates of battles, historic buildings,
+bridges and so on.
+
+A link at the beginning of each time period allow you to move back to the
+previous period, while another link at the end of the time period advances
+you to the next period.
+<p>
+Note that, within a single year, events on the timelines 
+are not necessarily presented in chronological order.
+<p>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Background"><B>Background</B></A></H4>
+
+<P>This page provides information about the Gazetteer project.  Clicking on the
+list of contents takes you to that section.  You can return to the title page
+by clicking on the <B>Gazetteer for Scotland</B> link in the top left-hand
+corner or return to the page you left using your browser's <B>Back</B> button.
+You can also select any of the links on the left-hand side by clicking on them.
+They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to the <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Copyright"><B>Copyright</B></A></H4>
+
+<P>This page shows the copyright statement for the Gazetteer project.  You can
+return to the title page by clicking on the <B>Gazetteer for Scotland</B> link
+in the top left-hand corner, use one of the links on the left or return to the
+page you left using your browser's <B>Back</B> button.  You can also select any
+of the links on the left-hand side by clicking on them.  
+They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to the <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Credits"><B>Credits</B></A></H4>
+
+<P>This page shows the credits for the Gazetteer project.  You can return to
+the title page by clicking on the <B>Gazetteer for Scotland</B> link in the top
+left-hand corner, use one of the links on the left or return to the page you
+left using your browser's <B>Back</B> button.  You can also select any of the
+links on the left-hand side by clicking on them.  
+They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to the <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Disclaimer"><B>Disclaimer</B></A></H4>
+
+<P>This page shows the disclaimer for the Gazetteer project.  You can return to
+the title page by clicking on the <B>Gazetteer for Scotland</B> link in the top
+left-hand corner, use one of the links on the left or return to the page you
+left using your browser's <B>Back</B> button.  You can also select any of the
+links on the left-hand side by clicking on them.  
+They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to the <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+<HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Feedback"><B>Feedback</B></A></H4>
+   <P>Use this page to find out what is happening to the Gazetteer and to tell
+   us what you think of the Gazetteer.  Click on Frequently asked questions,
+   Known problems and Intended developments and programme of data collation to
+   move to these sections or scroll down the page using the scroll bar. These
+   sections may well answer the questions you have.
+   You can return to the title page by clicking on the <B>Gazetteer for
+   Scotland</B> link in the top left-hand corner, use one of the links on the
+   left or return to the page you left using your browser's <B>Back</B> button.
+   You can also select any of the links on the left-hand side by clicking on
+   them. 
+They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to the <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Gaz Stats"><B>Gaz Stats</B></A></H4>
+   <P>This page gives you up-to-the-minute details of how many entries there 
+   are in the Gazetteer.
+   You can see the number of entries grow week-by-week. You can return to
+   the title page by clicking on the <B>Gazetteer for Scotland</B> link in
+   the top left-hand corner, use one of the links on the left or return to
+   the page you left using your browser's <B>Back</B> button.  You can also
+   select any of the links on the left-hand side by clicking on them.
+They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to the <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Sources"><B>Sources</B></A></H4>
+   <P>This page lists the sources we have used to compile the Gazetteer for
+   Scotland.  You can return to the title page by clicking on the
+   <B>Gazetteer for Scotland</B> link in the top left-hand corner, use one
+   of the links on the left or return to the page you left using your
+   browser's <B>Back</B> button.  You can also select any of the links on the
+   left-hand side by clicking on them.  
+They will take you to information on <B>Background</B>,
+<B>Credits</B>, <B>Copyright</B>, <B>Disclaimer</B>, <B>Feedback</B>,
+<B>Gaz Stats</B>, <B>Sources</B> and <B>Sponsors</B>, together
+with access to the <b>Any Word</b> search and the <B>Member's Area</B>.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Members"><B>Member's Area</B></A></H4>
+   <P>The Member's Area gives access to a range of advanced features and
+   facilities, including the ability to leave your own comments attached to
+   any of our entries.  Membership is <b>free</b>.  For further information
+   on the Member's Area look <a href="/scotgaz/whyjoin2.html">here</a>.
+
+
+   <HR SIZE="3" NOSHADE="noshade"><H4><A NAME="Central Scotland Map"><B>Central Scotland Map</B></A></H4>
+   <P>The left-hand gold bar contains links.  You can return to the title page by clicking on <B>Gazetteer for Scotland</B>.  You can click on <B>Help</B> to get advice on how to use the Gazetteer.  The other links take you to different search pages.  These search pages are:</P>
+   <UL><LI><B>Any Word</B> - Search by name for Attractions, Families, Famous People, Geographical Features and Settlements.
+   <LI><B>People</B> - Search for Famous People by category e.g. Academic, Entrepreneur, etc.  Each Famous Person can appear in up to four different categories.
+   <LI><B>Places</B> - Search for Attractions and Geographical Features by category e.g. Historic Building, Mountain, etc.  Each Attraction or Geographical Feature will only appear in one category.
+
+<LI><B>Statistics</B> - Search for places (settlements, features, attractions
+or people) by stored statistics. You can select from a range of database
+statistics and optionally enter a range of values (sensible values will be
+provided if you don't enter anything).
+
+   </UL>
+   <P>You move to one of the regions shown on the map by positioning the cursor anywhere on the region and clicking your mouse or select a region from the list at the bottom of the map.  You can move back to a map of Scotland by selecting <B>All Scotland</B> from the list below the map.</P>
+   <P>The <A HREF="#Tabs">tabs</A> on the right-hand tab bar are dynamic.  When you see a white tab you are currently viewing that page.  When you see an icon on a yellow tab you can select this tab.  When you see a yellow tab with a faint icon that there is no data for this entry and you cannot select the tab.</P>
+   <P>If you have switched off loading images to speed up your browser you should still be able to move around because the labels for all the images clearly state what they are.  If you are looking at a page that displays an image map with your images switched off you can still make the same selections as you would be able to on the image map from the text list.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Any Word"><B>Any Word</B></A></H4>
+   <P>Use <B>Any Word</B> to search the site with 'Google' or use our own
+   search to create a list of 
+   all settlements, features, attractions, families and famous people 
+   containing the letters you enter.  To use the Google search you should enter
+   one or more complete words. This searching technqiue has the advantage of speed, but
+   doesn't always find all that is available.  For our own search, position your cursor in the box and type 
+   in the letters you want to search for.  Select or de-select types of record and then click on the <B>Search</B> link.  You must enter at least two letters in the box.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="People"><B>People</B></A></H4>
+   <P>You can search for Famous People from this page.  Follow the instructions on screen.  Select a category from the list, select a Council Area and then click on <B>Search</B>.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Places"><B>Places</B></A></H4>
+   <P>You can search for Features and Attractions from this page. Follow the instructions on screen.  Select a category, type and subtype (if available) from the lists, select a Council Area and then click on <B>Search</B>.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Population"><A NAME="Statistics"><B>Statistics</B></A></A></H4>
+
+<P>Using this page you can search for places (settlements, features, attractions
+or people) by stored statistics. You can select from a list of database
+statistics and optionally enter a range of values (sensible values will be
+provided if you don't enter anything). Each feature may include one or more
+statistics. You can, for example, list all of the highest mountains, deepest
+lochs or longest rivers in Scotland using this option. The population figures are from the 1991
+Census. The values are always listed from the largest in descending order. 
+<p>
+Use the detailed instructions on the 'statistics' page to guide you through the
+search procedure.
+<P>
+For settlements, features and attractions you can search either all of Scotland
+or just one council area.  For searches involving famous people this option is
+ignored by the system.  This is because famous people are less often associated
+with a modern council area.  They are much more likely to be associated
+with individual settlements or features.
+<p>
+
+
+   <HR SIZE="3" NOSHADE="noshade"><H4><A NAME="Overview">Council Area</A></H4>
+
+   Since 1995, Scotland is divided into 32 local government divisions called 
+   <i>Council Areas</i>.  In the Gazetteer for Scotland, we have used these
+   contemporary geographical units as the principal division for settlements,
+   features and attractions.  An entry has been written for each council area,
+   which encompasses its character, geography, history and industry. Of the
+   thirty-two, there are three island authorities (Orkney, Shetland and the
+   Western Isles) and four city authorities (Aberdeen, Dundee, Edinburgh and
+   Glasgow).  Each of these cities will have a 
+'<A HREF="#TOverview">settlement</a>' entry in addition
+   to the 'council area' entry. The former tend to be more specific and cover
+   only the city itself and not surrounding settlements or districts which 
+   might be included in the council area. A further important distinction between
+   the 'council area' and 'settlement' entries for these four cities is that
+   the '<A NAME="CMoreDetails">More Details</a>' 
+<A href="#Tabs">tab</a> for council areas only gives information about
+   other entities which must be contained within that particular council area.
+   In contrast, settlement entries may include links to any other entity where
+   some valid connection exists (eg. proximity, a mention in the text etc.).
+
+
+   <H4><B>Overview</B></H4>
+   <P>This page gives a brief overview of the Council Area, together with a 
+   picture (if available).  The tab bar gives you access to more information 
+about the Council Area through the <A HREF="#Tabs">tabs</A>: <B>Overview</B>, <B>Map</B>, <B>More information</B>, <B>Photographs</B>, <B>Sounds</B>, <B>Video</B> and <B>Sponsors</B>.  Click on the <A HREF="#Tabs">tabs</A> to move around and see different types of information for this Council Area.  If the tab is yellow with a faint icon there is no information of this type available for this Council Area at present.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="CMap"><B>Map</B></A></H4>
+   <P>This shows you a clickable map of the Council Area.  You can move to information about a settlement by clicking on one of the blue dots.</P>
+   <P>The tab bar gives you access to more information about the Council Area through the <A HREF="#Tabs">tabs</A>: 'Overview', <B>Map</B>(selected), <B>More information</B>, <B>Photographs</B>, <B>Sounds</B>, <B>Video</B> and <B>Sponsors</B>.  Click on the <A HREF="#Tabs">tabs</A> to move around and see different types of information for this Council Area.  If the tab is yellow with a faint icon there is no information of this type available for this Council Area at present.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="CMoreDetails"><B>More Details</B></A></H4>
+   <P>This page show you several additional pieces of information for the Council Area.  First it provides some basic statistical details and an address.  After this it shows any additional information on the Geography, History and Industry for the Region.</P>
+   <P>This is followed by a list of publications for further reading.  Finally, at the bottom of the page, you can see a list of all the Settlements, Features, Families, Famous People and Attractions for this Council Area.  You can use this list to move to any of the Places or People shown by simply clicking on the name.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="CPictures"><B>Photographs</B></A></H4>
+   <P>This page displays all additional pictures of the Council Area.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="CSounds"><B>Sounds</B></A></H4>
+   <P>This page enables you to hear the first part of the Overview text read by someone from this Council Area.  You simply click on phrase and the sound file will download.  If you do not have a sound card in your computer you will not be able to hear the sound.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="CVideo"><B>Video</B></A></H4>
+   <P>This page enables you to download a video clip of the Council Area.  You need to be able to re-play RealMovies (.RM) files.  If you do not have the appropriate software you will not be able to see this file.</P>
+
+   <HR SIZE="3" NOSHADE="noshade"><H4><A NAME="TOverview">Settlements</a></H4>
+
+   Settlements vary in size and composition from large cities, such as Glasgow,
+   through to tiny hamlets which perhaps include only a few scattered houses.
+   Note that for each of the four main Scottish cities, which are also 
+   Council Areas, there are two gazetteer entries;
+namely a 'settlement' entry and a '<a href="#Overview">council area</a>' entry. 
+The former tend to be more specific and cover
+   only the city itself and not surrounding settlements or districts which
+   might be included in the council area.  A further important distinction
+between
+   the 'council area' and 'settlement' entries for these four cities is that
+   the 'further details' tab for council areas only gives information about
+   other entities which must be contained within that particular council area.
+   In contrast, settlement entries may include links to any other entity where
+   some valid connection exists (eg. proximity, a mention in the text etc.).
+
+   <H4><B>Overview</B></H4>
+   <P>This page gives a brief overview of the Settlement, together with a 
+   picture (if available).  The tab bar gives you access to more information about the Settlement through the <A HREF="#Tabs">tabs</A>: <B>Overview</B>, <B>Map</B>, <B>More information</B>, <B>Photographs</B>, <B>Sounds</B>, <B>Video</B> and <B>Sponsors</B>.  Click on the <A HREF="#Tabs">tabs</A> to move around and see different types of information for this Settlement.  If the tab is yellow with a faint icon there is no information of this type available for this Settlement at present.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="TMap"><B>Map</B></A></H4>
+   <P>This shows you a map of the Town.  If the map has numbers in red on it you can click on these to see more information.  The list of key to the map is underneath. You can also move to one of these features by clicking on the name in the key.</P>
+   <P>The tab bar gives you access to more information about the Settlement 
+   through the <A HREF="#Tabs">tabs</A>: <b>Overview</b>, <B>Map</B> (selected), <B>More information</B>, <B>Photographs</B>, <B>Sounds</B>, <B>Video</B> and <B>Sponsors</B>.  Click on the <A HREF="#Tabs">tabs</A> to move around and see different types of information for this Settlement.  If the tab is yellow with a faint icon there is no information of this type available for this Settlement at present.</P>
+
+<HR SIZE=1 NOSHADE="noshade"><H4><A NAME="TMoreDetails"><B>More
+Details</B></A></H4>
+
+<P>This page show you several additional pieces of information for the
+Settlement.  First it provides a classification of the 'Settlement Type', 
+primarily based on population, as follows:
+
+<ul>
+<li>City - the largest settlement, cities are legally-defined entities
+<li>Town - a settlement with a population of more than 20,000 persons which is
+not a city
+<li>Small town - a settlement with a population between 6,000 - 20,000
+<li>Village - a settlement with a population with up to 6,000 persons
+<li>Hamlet - a small nucleated settlement without a defined population
+(probably less than 50)
+<li>Settlement - a very small, perhaps ill-defined settlement 
+<li>Locality - a scattered collection of features, including some form of 
+settlement, which share a name
+<li>Suburb - part of a city or town, which grew from a distinctly separate
+settlement ('new' suburbs are defined as geographical-features (above) of type
+'urban district'
+</ul>
+
+This is followed by the population of the settlement from the 1991
+Census. Below this any additional information on the Geography,
+History and Industry for the Settlement is displayed.</P>
+
+<P>This is followed by a list of publications for further reading.  Finally, at
+the bottom of the page, you can see a list of all the related Features,
+Families, Famous People and Attractions for this Settlement.  You can use this
+list to move to any of the Places or People shown by simply clicking on the
+name.</P>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="THistorical"><B>Historical Information</B></A></H4>
+   <p>This page includes a historical perspective on the settlement, drawn from
+   Francis H. Groome's <i>Ordnance Gazetteer for Scotland</i>, published in the late
+   19th Century.  There is also a link to a 19th C. historical map of the area.</p>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="TPictures"><B>Photographs</B></A></H4>
+   <P>This page displays all additional pictures of the Settlement.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="TSounds"><B>Sounds</B></A></H4>
+   <P>This page enables you to hear the pronunciation of the Settlement name and, in some cases, some additional phrases.  You simply click on 'Pronunciation of Settlement' and the sound file will download.  If you do not have a sound card in your computer you will not be able to hear the sound.</P>
+
+
+   <HR SIZE="3" NOSHADE="noshade"><H4>Feature or Attraction</H4>
+   <H4><A NAME="GOverview"><B>Overview</B></A></H4>
+   <P>This page gives a brief overview of the Feature or Attraction, together 
+   with a picture (if available).  The tab bar gives you access to more information about the Feature or Attraction through the <A HREF="#Tabs">tabs</A>: <B>Overview</B>, <B>More information</B>, <B>Photographs</B>, <B>Sounds</B>, <B>Video</B> and <B>Sponsors</B>.  Click on the <A HREF="#Tabs">tabs</A> to move around and see different types of information for this Feature or Attraction.  If the tab is yellow with a faint icon there is no information of this type available for this Feature or Attraction at present.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="GMoreDetails"><B>More Details</B></A></H4>
+   <P>This page show you additional information for the Feature or Attraction. 
+   This is followed by a list of publications for further reading.  At the bottom of the page, you can see a list of all the related Settlements, Families and Famous People for this Feature or Attraction.  You can use this list to move to any of the Places or People shown by simply clicking on the name.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="GHistorical"><B>Historical Information</B></A></H4>
+   <p>This page includes a historical perspective on the feature or attraction, drawn from
+   Francis H. Groome's <i>Ordnance Gazetteer for Scotland</i>, published in the late
+   19th Century.  There is also a link to a 19th C. historical map of the area.</p>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="GPictures"><B>Photographs</B></A></H4>
+   <P>This page displays all additional pictures of the Feature or Attraction.</P>
+
+
+   <HR SIZE="3" NOSHADE="noshade"><H4>Families</H4>
+   <H4><A NAME="FOverview"><B>Overview</B></A></H4>
+   <P>This page gives a brief overview of the Family, together with a picture (if available).  The tab bar gives you access to more information about the Family through the <A HREF="#Tabs">tabs</A>: <B>Overview</B>, <B>More information</B>, <B>Photographs</B>, <B>Sounds</B>, <B>Video</B> and <B>Sponsors</B>.  Click on the <A HREF="#Tabs">tabs</A> to move around and see different types of information for this Family.  If the tab is yellow with a faint icon there is no information of this type available for this Family at present.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="FMoreDetails"><B>More Details</B></A></H4>
+   <P>This page show you additional information for the Family.  This is 
+   followed by a list of publications for further reading.  At the bottom of the page, you can see a list of all the related Settlements, Features and Attractions.  You can use this list to move to any of the Places or People shown by simply clicking on the name.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="FPictures"><B>Photographs</B></A></H4>
+   <P>This page displays all additional pictures of the Family.</P>
+
+
+   <HR SIZE="3" NOSHADE="noshade"><H4>Famous People</H4>
+   <H4><A NAME="POverview"><B>Overview</B></A></H4>
+   <P>This page gives a brief overview of the Famous Person, together with a 
+   picture (if available).  The tab bar gives you access to more information about the Famous Person through the <A HREF="#Tabs">tabs</A>: <B>Overview</B>, <B>More information</B>, <B>Photographs</B>, <B>Sounds</B>, <B>Video</B> and <B>Sponsors</B>.  Click on the <A HREF="#Tabs">tabs</A> to move around and see different types of information for this Famous Person.  If the tab is yellow with a faint icon there is no information of this type available for this Famous Person at present.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="PMoreDetails"><B>More Details</B></A></H4>
+   <P>This page show you additional information for the Famous Person.  This 
+   is followed by a list of publications for further reading.  At the bottom of the page, you can see a list of all the related Settlements, Features and Attractions.  You can use this list to move to any of the Places or People shown by simply clicking on the name.</P>
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="PPictures"><B>Photographs</B></A></H4>
+   <P>This page displays all additional pictures of the Famous Person.</P>
+
+
+   <HR SIZE="3" NOSHADE="noshade"><H4><A NAME="Tabs"><B>Tabs</B></A></H4>
+   <TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0>
+   <TR ALIGN="center"><TH><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Type</FONT></TH><TH><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Selected</FONT></TH><TH><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Not selected</FONT></TH><TH><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Not available</FONT></TH></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Overview</FONT></TD><TD><IMG SRC="/scotgaz/images/overview_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/overview_offi.gif"> </TD><TD><IMG SRC="/scotgaz/images/overview_noi.gif"></TD></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">More information</FONT></TD><TD><IMG SRC="/scotgaz/images/details_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/details_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/details_noi.gif"></TD></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Historical</FONT></TD><TD><IMG SRC="/scotgaz/images/groome_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/groome_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/groome_noi.gif"></TD></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Map</FONT></TD><TD><IMG SRC="/scotgaz/images/map_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/map_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/map_noi.gif"></TD></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Photographs</FONT></TD><TD><IMG SRC="/scotgaz/images/photo_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/photo_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/photo_noi.gif"></TD></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Sounds</FONT></TD><TD><IMG SRC="/scotgaz/images/sounds_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/sounds_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/sounds_noi.gif"></TD></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Video</FONT></TD><TD><IMG SRC="/scotgaz/images/video_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/video_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/video_noi.gif"> </TD></TR>
+   <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Comments</FONT></TD><TD><IMG SRC="/scotgaz/images/com_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/com_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/com_noi.gif"> </TD></TR> 
+  <TR ALIGN="center"><TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Sponsors</FONT></TD><TD><IMG SRC="/scotgaz/images/sponsors_oni.gif"></TD><TD><IMG SRC="/scotgaz/images/sponsors_offi.gif"></TD><TD><IMG SRC="/scotgaz/images/sponsors_noi.gif"></TD></TR>
+   </TABLE>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Tourist"><B>Tourist Rating</B></A></H4>
+
+   <TABLE BORDER=0 CELLPADDING=5 CELLSPACING=0>
+   <TR ALIGN="center">
+   <TH width="12">&nbsp;</TH>
+   <TH width="25%"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Code
+   </FONT></TH>
+   <TH><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+   Meaning</FONT></TH></TR>
+
+   <TR ALIGN="center"><TD>&nbsp;</TD>
+   <TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">Yes
+   </FONT></TD>
+   <TD ALIGN="left"><FONT COLOR="#000080" SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif">
+   This is a settlement of interest to tourists, or a
+   tourist attraction, but we have not yet rated it.</FONT></TD></TR>
+
+   <TR ALIGN="center"><TD>&nbsp;</TD>
+   <TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+   <img src="/scotgaz/images/star4.gif" alt="Four Star">
+   </FONT></TD>
+   <TD ALIGN="left"><FONT COLOR="#000080" SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif">
+   This is a settlement or tourist attraction which you should not miss.</FONT></TD></TR>
+
+   <TR ALIGN="center"><TD>&nbsp;</TD>
+   <TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+   <img src="/scotgaz/images/star3.gif" alt="Three Star">
+   </FONT></TD>
+   <TD ALIGN="left"><FONT COLOR="#000080" SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif">
+   This is a settlement or tourist attraction which is worth diverting for.</FONT></TD></TR>
+
+   <TR ALIGN="center"><TD>&nbsp;</TD>
+   <TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+   <img src="/scotgaz/images/star2.gif" alt="Two Star">
+   </FONT></TD>
+   <TD ALIGN="left"><FONT COLOR="#000080" SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif">
+   This is a settlement or tourist attraction which you should try to include
+   in your itinerary</FONT></TD></TR>
+
+   <TR ALIGN="center"><TD>&nbsp;</TD>
+   <TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+   <img src="/scotgaz/images/star1.gif" alt="One Star">
+   </FONT></TD>
+   <TD ALIGN="left"><FONT COLOR="#000080" SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif">
+   This is a settlement or tourist attraction which you should visit only
+   if you have time.</FONT></TD></TR>
+
+   <TR ALIGN="center"><TD>&nbsp;</TD>
+   <TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">No
+   </FONT></TD>
+   <TD ALIGN="left"><FONT COLOR="#000080" SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif">
+   This settlement is not of interest to tourists.</FONT></TD></TR>
+
+   <TR ALIGN="center"><TD>&nbsp;</TD>
+   <TD><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">N/A
+   </FONT></TD>
+   <TD ALIGN="left"><FONT COLOR="#000080" SIZE="-1" FACE="Verdana,Arial,Helvetica,sans-serif">
+   A classification is not yet available.</FONT></TD></TR>
+
+   </TABLE>
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="Latlon"><B>Latitude and Longitude</B></A></H4>
+
+   Latitude and Longitude are an internationally-used method of locating
+   places and positions on the surface of the earth.  This is one of two
+   methods we use in the Gazetteer for Scotland to give you a location, the
+   other being the <A HREF="#NGrid">British National Grid</a>. Latitude and
+   Longitude have the advantage of being used in most atlases, although often
+   the scale of the maps you will find there is not sufficiently detailed to
+   prove useful within a small country like Scotland.
+   <p>
+   Latitude expresses the distance North or South of the equator, whereas
+   longitude expresses the distance East or West of an arbitrary line drawn
+   through Greenwich (near London). We have adopted the convention of giving
+   these values as 'decimal degrees', for example:
+   <blockquote>
+           56.45&deg; N  or 3.25&deg; W
+   </blockquote>
+   <p>
+   Latitude and longitude values displayed in the Gazetteer for Scotland may
+   not be completely exact although we try to maintain an accuracy of better 
+   than +/- 200m.  This is because latitute and longitude values are
+   automatically calculated from British National Grid references, which 
+   themselves are stored to an accuracy of 100m. 
+
+   <HR SIZE=1 NOSHADE="noshade"><H4><A NAME="NGrid"><B>The National Grid</B></A></H4>
+
+   The National Grid is the primary map referencing system used in Great
+   Britain (ie. including Scotland, but excluding Northern Ireland, which uses
+   an Irish Grid).  It was developed by the Ordnance Survey, Britain's 
+   National Mapping Agency to allow places to be located on their mapping.
+   <p>
+   The Gazetteer for Scotland provides a <b>National Grid Reference</b> to
+   tell you where places are, and allow them to be located on British maps,
+   particularly the Ordnance Survey Landranger Series.
+   <p>
+   The National Grid divides the country up into 100km grid squares and
+   assigns each a two-letter prefix (eg. the NT square includes Edinburgh).
+   Numbers are then added to give an exact location. Usually six numbers are
+   used, giving a location down to 100m on the ground. The first three numbers
+   give the East-West location (the 'x' dimension or easting) and the last
+   three numbers give the North-South location (the 'y' dimension or northing).
+   <p>
+   Thus the National Grid Reference for Edinburgh Castle is:
+   <blockquote>
+   <a href="http://www.streetmap.co.uk/newsearch.srf?X=325150&Y=673550&z=3&ar=Y&dn=526">
+   NT 251 735</a>
+   </blockquote>
+   <p>This means that it is in the 100km square 'NT' and is 25.1km east 
+   and 73.7km north from the bottom-left corner of that square. You can click
+   on the above reference to see the location on a example of an Ordnance
+   Survey Landranger map (thanks to streetmap.co.uk)
+   <p>
+   The grid is overprinted on all Landranger maps as 1km squares to allow easy
+   location of places. Further information is available on the Ordnance Survey Web Site, 
+   <a href="http://www.ordnancesurvey.co.uk/">http://www.ordnancesurvey.co.uk/</a>
+   <p>
+   
+   </FONT></FONT>
+   <BR></BLOCKQUOTE>
+  </TD>
+ </TR>
+ <TR>
+  <TD BGCOLOR="#FFCC33" ALIGN="CENTER">  <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2><A HREF="#top">Top of Page</A></FONT></TD>
+  <TD BGCOLOR="#FFFFFF" ALIGN="CENTER">
+  <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+  <A HREF="/scotgaz/copyright.html">&#169;1995-2006  The Gazetteer for Scotland</A><br> 
+    Sponsored by:
+   <A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,&nbsp;
+   <A HREF="http://www.geo.ed.ac.uk/~rsgs/menu.html">The Royal Scottish Geographical Society</A>,&nbsp;
+<BR>
+   <A HREF="http://www.geo.ed.ac.uk/">The Institute of Geography, University of Edinburgh</A>.<BR><BR>
+  </FONT>
+  </TD>
+ </TR>
+</TABLE>
+</BODY></HTML>
+
+
+t "	rm

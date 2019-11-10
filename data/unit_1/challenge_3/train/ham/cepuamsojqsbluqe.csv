@@ -1,0 +1,2477 @@
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	// moock fpi [f.lash p.layer i.nspector]
+	// version: 1.3.5
+	// written by colin moock
+	// code maintained at: http://www.moock.org/webdesign/flash/detection/moockfpi/
+	// terms of use posted at: http://www.moock.org/terms/
+	
+	
+	
+	// =============================================================================
+	// These are the user defined globals.
+	// Modify the following variables to customize the inspection behaviour.
+	
+	var requiredVersion = 8;   // Version the user needs to view site (max 6, min 2)
+	var useRedirect = true;    // Flag indicating whether or not to load a separate
+	                           // page based on detection results. Set to true to
+	                           // load a separate page. Set to false to embed the
+	                           // movie or alternate html directly into this page.
+	                           
+	// Only set next three vars if useRedirect is true...
+	var flashPage = "gsa.cfm?pid=624&version=flash&detect=done"      // The location of the flash movie page
+	var noFlashPage = "gsa.cfm?pid=624&version=html"  // Page displayed if the user doesn't have the
+	                                  // plugin or we can't detect it.
+	var upgradePage = "update_flash.html"  // Page displayed if we detect an old plugin
+	// =============================================================================
+	
+	
+	
+	// *************
+	// Everything below this point is internal until after the BODY tag.
+	// Do not modify! Proceed to the BODY tag for further instructions.
+	// *************
+	
+	// System globals
+	var flash2Installed = false;    // boolean. true if flash 2 is installed
+	var flash3Installed = false;    // boolean. true if flash 3 is installed
+	var flash4Installed = false;    // boolean. true if flash 4 is installed
+	var flash5Installed = false;    // boolean. true if flash 5 is installed
+	var flash6Installed = false;    // boolean. true if flash 6 is installed
+	var flash7Installed = false;    // boolean. true if flash 6 is installed
+	var flash8Installed = false;    // boolean. true if flash 6 is installed
+	var maxVersion = 8;             // highest version we can actually detect
+	var actualVersion = 0;          // version the user really has
+	var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+	var jsVersion = 1.0;            // the version of javascript supported
+	
+	// -->
+	</script>
+
+	<script language="JavaScript1.1" type="text/javascript">
+	<!--
+	
+	// Check the browser...we're looking for ie/win
+	var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+	var isWin = (navigator.appVersion.indexOf("Windows") != -1) ? true : false; // true if we're on windows
+	
+	// This is a js1.1 code block, so make note that js1.1 is supported.
+	jsVersion = 1.1;
+	
+	// Write vbscript detection on ie win. IE on Windows doesn't support regular
+	// JavaScript plugins array detection.
+	if(isIE && isWin){
+	  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+	  document.write('on error resume next \n');
+	  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+	  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+	  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+	  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+	  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+	  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');  
+	  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');  
+	  document.write('</SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+	}
+	// -->
+	</script>
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	
+	// Next comes the standard javascript detection that uses the 
+	// navigator.plugins array. We pack the detector into a function so it loads
+	// before we run it.
+	
+	function detectFlash() {  
+	  // If navigator.plugins exists...
+	  if (navigator.plugins) {
+	    // ...then check for flash 2 or flash 3+.
+	    if (navigator.plugins["Shockwave Flash 2.0"]
+	        || navigator.plugins["Shockwave Flash"]) {
+	
+	      // Some version of Flash was found. Time to figure out which.
+	      
+	      // Set convenient references to flash 2 and the plugin description.
+	      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+	      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+	
+	      // DEBUGGING: uncomment next line to see the actual description.
+	      // alert("Flash plugin description: " + flashDescription);
+	      
+	      // A flash plugin-description looks like this: Shockwave Flash 4.0 r5
+	      // We can get the major version by grabbing the character before the period
+	      // note that we don't bother with minor version detection. 
+	      // Do that in your movie with $version or getVersion().
+	      var flashVersion = parseInt(flashDescription.charAt(flashDescription.indexOf(".") - 1));
+	     
+	      // We found the version, now set appropriate version flags. Make sure
+	      // to use >= on the highest version so we don't prevent future version
+	      // users from entering the site.
+	      flash2Installed = flashVersion == 2;    
+	      flash3Installed = flashVersion == 3;
+	      flash4Installed = flashVersion == 4;
+	      flash5Installed = flashVersion == 5;
+	      flash6Installed = flashVersion == 6;
+	      flash7Installed = flashVersion == 7;
+	      flash8Installed = flashVersion >= 8;
+	    }
+	  }
+	  
+	  // Loop through all versions we're checking, and
+	  // set actualVersion to highest detected version.
+	  for (var i = 2; i <= maxVersion; i++) {  
+	    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+	  }
+	  
+	  // If we're on webtv, the version supported is 2 (pre-summer2000, 
+	  // or 3, post-summer2000). Note that we don't bother sniffing varieties
+	  // of webtv. You could if you were sadistic...
+	  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 3;  
+	  
+	  // DEBUGGING: uncomment next line to display flash version
+	  // alert("version detected: " + actualVersion);
+	
+	
+	  // We're finished getting the version on all browsers that support detection.
+	  // Time to take the appropriate action.
+	
+	  // If the user has a new enough version...
+	  if (actualVersion >= requiredVersion) {
+	    // ...then we'll redirect them to the flash page, unless we've
+	    // been told not to redirect.
+	    if (useRedirect) {
+	      // Need javascript1.1 to do location.replace
+	      if(jsVersion > 1.0) {
+	        // It's safe to use replace(). Good...we won't break the back button.
+	        window.location.replace(flashPage);  
+	      } else {
+	        // JavaScript version is too old, so use .location to load
+	        // the flash page.
+	        window.location = flashPage;
+	      }
+	    }
+	    
+	    // If we got here, we didn't redirect. So we make a note that we should
+	    // write out the object/embed tags later.
+	    hasRightVersion = true;                
+	  } else {  
+	    // The user doesn't have a new enough version.
+	    // If the redirection option is on, load the appropriate alternate page.
+	    if (useRedirect) {
+	      // Do the same .replace() call only if js1.1+ is available.
+	      if(jsVersion > 1.0) {
+	        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+	      } else {
+	        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+	      }
+	    }
+	  }
+	}
+	
+	detectFlash();  // call our detector now that it's safely loaded.  
+	  
+	// -->
+	</script>
+
+	
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="En">
+<head>
+	
+<title>:: The Glasgow School of Art :: - News Stories</title>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+	
+<meta name="keywords" content="gsa, glasgow school of art, glasgow, art school, fine art, photography, graphic design, charles rennie mackintosh, c r mackintosh, architecture, architect, digital design studio, dds, ceramics, art, design, interior design, product design, product design engineering, silversmithing, jewellery, textiles, visual communications, research, enterprise, centre for advanced textiles, cat, c.a.t., idri, i.d.r.i, mearu, m.e.a.r.u., mackintosh shop, drawing institute, mphil, phd, ma, 2d, 3d, motion graphics, m.des, mdes, textiles as fashion, fashion, fashion design, gsa news, news, news stories">
+
+	
+<script language="JavaScript">
+	<!--
+	function openPage(theURL) {
+	  window.open(theURL,'printPane','status,width=525,height=330,scrollbars=yes');
+	}
+	function openWindow(theURL) {
+	  window.open(theURL,'infoPane','width=400,height=500,scrollbars=yes');
+	}
+	// -->
+	</script>
+	
+<style>
+	td,a {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: none;
+	}
+	a:hover {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: underline;
+	}
+	</style>
+</head>
+
+
+
+
+<!--
+flash8template.swf
+-->
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" height="95%" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td valign="middle" align="center">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="420">
+            <tr> 
+  <td style="background-image: url(/images/flashbg/c6a00c-left.gif); background-repeat: no-repeat; background-position: right top;">&nbsp;</td>
+              <td valign="middle" width="760" align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="420">
+                        <param name="movie" value="flash8template.swf" />
+                        <param name="menu" value="false" />
+						<param name="FLASHVARS" value="pid=624&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=" /> 
+                      <param name="quality" value="high" />
+                      <embed src="flash8template.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="420" flashvars="pid=624&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=&preview="></embed></object></td>
+  <td style="background-image: url(/images/flashbg/c6a00c-right.gif); background-repeat: no-repeat; background-position: left top;">&nbsp;</td>
+            </tr>
+  <tr>
+		<td></td>
+  	<td><div style="padding-left: 666px; padding-top: 4px;"><a href="/gsa.cfm?pid=624&amp;nid=0&amp;sid=0&amp;criteria=&amp;version=html" style="font-size: 9px; font-family:Arial, Helvetica, sans-serif;">HTML VERSION</a></div></td>
+		<td></td>
+  </tr>
+          </table>
+		</td>
+  </tr>
+
+</table>
+
+
+
+<div style="display: none; height: 1px; width: 1px; overflow: hidden;">
+
+
+
+
+	
+
+	
+		
+
+		
+		
+		
+			
+		
+
+		<h2>NEWS STORIES</h2>
+
+<p>This is the latest news from the GSA.</p>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+		
+			
+			
+			
+			
+
+			
+				<table width="100%">
+					<tr valign="top">
+						<td><b>Date</b></td>
+						<td><b>Article</b></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/4/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=481" target="_top">New Technology Helps Restore Mackintosh Masterpiece</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/4/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=480" target="_top">Japanese Graduates Exhibit at The Scottish Parliament</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>18/4/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=479" target="_top">Graduate wins Mercury Art Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=477" target="_top">Glasgow Boys Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=478" target="_top">Ideal Home Show Winner</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=476" target="_top">Inspiring Women</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=474" target="_top">Gray heads up judging panel</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=475" target="_top">ÃÂ£16M Investment In Glasgow Artists</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=473" target="_top">John Byrne Play Makes Theatre Top 20</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=472" target="_top">GSA Students Win Scottish Business Plan Competition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=470" target="_top">GSA President Given Freedom Of The City</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=471" target="_top">Aspect Prize 2007 Launch</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=468" target="_top">Silversmith Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=469" target="_top">Design Week Commends Incubator</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/3/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=467" target="_top">Fashion Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=466" target="_top">Jolomo Lloyds TSB Scotland Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>26/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=465" target="_top">Mountain Festival</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=464" target="_top">Dining in Style</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=462" target="_top">Hollywood Director Has Designs on Wiszniewski</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=463" target="_top">Beasties Set Up Shop In London</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=460" target="_top">Silver of the Stars</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=461" target="_top">The Scottish Show 2007</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=459" target="_top">First Album For Alumni In Four Years</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=457" target="_top">Alison Watt Exhibits in Edinburgh</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/2/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=458" target="_top">Donald Forbes</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=455" target="_top">Mackintosh Campaign Raises A Million More</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=456" target="_top">Mendelsohn Exhibtion</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=454" target="_top">Ae Fond Kiss opens</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=452" target="_top">Three Million Pound Boost for Scotland's Artists</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=453" target="_top">Breathing Life Back into John Brown's Shipyard.</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=449" target="_top">Venice Biennale</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=450" target="_top">Hot 50</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=451" target="_top">Alumnus awarded Royal distinction</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=447" target="_top">Graduates Shortlisted for Creative Scotland Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=448" target="_top">BBC Commissions Toby Paterson</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=444" target="_top">OBE for Architecture Professor</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=445" target="_top">Julie Roberts The New Woman Artist</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/1/2007</td>
+						<td><a href="/gsa.cfm?pid=624&nid=446" target="_top">Impressing Duncan Bannatyne</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=443" target="_top">Glasgow Style</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=441" target="_top">Express Yourself</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=442" target="_top">Hannah Frank Donates Painting</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=439" target="_top">Fashion</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=440" target="_top">Cameraman Makes Whoopee</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=438" target="_top">GSA student wins prestigious RIBA President's Medal</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=437" target="_top">Graduate Raises Money for Malawi</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/12/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=436" target="_top">Spirit of Scotland</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=434" target="_top">Lottery Funding</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=435" target="_top">University Honours Muriel Gray</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=432" target="_top">Hannah Frank's First London Solo Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=433" target="_top">GSA Student Raises For Charity</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=430" target="_top">Lightweight Medical are Scottish Creative Entrepreneurs</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=431" target="_top">GSA graduate wins Glasgow 1999 Medal</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=428" target="_top">Christine Borland Retrospective</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=429" target="_top">Gisborne Mourns</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=427" target="_top">Calling All Philanthropists</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=425" target="_top">Students Vote For Glasgow</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=426" target="_top">Young Architect Of The Year</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=423" target="_top">Snowpoles Frozen</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/11/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=424" target="_top">Tatlin's Tower</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=420" target="_top">Gold Finger</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=421" target="_top">Performance Art</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=422" target="_top">Village Life</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=419" target="_top">Student Wins Photography Competition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=418" target="_top">Night Vision</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=417" target="_top">Read All About Her</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=416" target="_top">Mackintosh Festival Tours Extended</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=415" target="_top">Franz Ferdinand Record Kids' Album</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=413" target="_top">Beth Hamer Wins Eco Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/10/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=414" target="_top">Another Glasgow Turner Prize Nominee</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=412" target="_top">Fifth Silversmith Award for GSA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=410" target="_top">GSA Graduate Shortlisted For Green Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=411" target="_top">New Incubator Design</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>18/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=409" target="_top">Glasgow Artists Given Boost</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=408" target="_top">Lottery Funding Preserves Architects' Legacy</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=407" target="_top">Virtual Sale</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=404" target="_top">Self Portrait Sells For Thirty Thousand</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=405" target="_top">London Fashion Week</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/9/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=406" target="_top">First For Cromarty Arts Trust</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=402" target="_top">Mr and Mrs Mackintosh</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=403" target="_top">Steven Campbell On Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=400" target="_top">Douglas Gordon To Exhibit In Scotland</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=401" target="_top">Funnyman</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=399" target="_top">Scottish Graduates Get On Better</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=397" target="_top">Smiles All Round</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=398" target="_top">Bishop's Blessings</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=395" target="_top">GSA  Draws Tourists In Glasgow's Visitor Boom</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=396" target="_top">Craftscotland Display at SECC will feature GSA alumni</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=393" target="_top">New Head of H&C</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/8/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=394" target="_top">Rare Mackintosh Drawings On Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=388" target="_top">GSA has lowest drop-out rate in Scotland</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=389" target="_top">Raffel part of Scotland with Style Design Collective</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=390" target="_top">64p Architecture</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=391" target="_top">Tartan Chic to the Sheiks</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=392" target="_top">GSA Graduate Top Entrepreneur</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=387" target="_top">Summer Highlights</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=385" target="_top">Chancellor Presents Award To GSA Graduate</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/7/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=386" target="_top">GSA students are Best in Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>26/6/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=384" target="_top">Sculpture on Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/6/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=382" target="_top">Degree Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/6/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=383" target="_top">Best for Architecture</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/6/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=381" target="_top">Mackintosh Festival Launched</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/6/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=380" target="_top">National Newspapers recommend our Degree Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>31/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=378" target="_top">Student Winners</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>31/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=379" target="_top">Hannah Frank on Film</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=377" target="_top">New York Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=375" target="_top">Glasgow's Smiles Better</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=376" target="_top">Alexander Goudie Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>18/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=374" target="_top">New Head of MFA Appointed</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=373" target="_top">Deep Fried Mars Bar</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=369" target="_top">Rewarding Research</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=370" target="_top">It's Cooking!</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=371" target="_top">Promising Student</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=372" target="_top">MFA Exhibtions</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=367" target="_top">Prestigious Paintings</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=368" target="_top">Beasties In New-Builds</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=365" target="_top">Degree Show Details</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/5/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=366" target="_top">Hetty Goes Solo</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/4/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=363" target="_top">Mercury Art Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/4/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=364" target="_top">Gillian Purvis Trust Announces New Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/4/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=362" target="_top">Vote for Us</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/4/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=359" target="_top">Scottish Executive Commissions Student</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/4/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=360" target="_top">Graduate Named As National Gallery's Associate Artist</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/4/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=361" target="_top">Degree Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>29/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=358" target="_top">Farewell Ian Hamilton Finlay</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=357" target="_top">Capaldi Shortlisted for BAFTA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=355" target="_top">Mackintosh Festival</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=356" target="_top">Kentridge is coming</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=354" target="_top">Commonwealth Games Success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=352" target="_top">Sculptor bids farewell by e-mail</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=353" target="_top">Silversmithing Success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=350" target="_top">Creative Scotland Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=351" target="_top">Tate Triennial 2006 - New British Art</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=349" target="_top">Goodbye Ivor</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=347" target="_top">Winning Design</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=348" target="_top">Game Frame</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=345" target="_top">Teamwork</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/3/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=346" target="_top">Fashion Meets Film</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/2/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=343" target="_top">GSA students shortlisted for top enterpreneur award.</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/2/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=344" target="_top">Edinburgh International Fashion Festival</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/2/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=341" target="_top">Jerwood Prize at GSA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/2/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=342" target="_top">From Top Shop to Fashion Week</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/2/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=339" target="_top">Winning Design</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/2/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=340" target="_top">Franz Ferdinand to tour America</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/2/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=338" target="_top">GSA graduate wins Oscar nomination</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=336" target="_top">Rosalind Nashashibi joins distillery artists</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=337" target="_top">Hannah Frank Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>29/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=334" target="_top">JR Exhibits in Glasgow</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>29/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=335" target="_top">GSA graduate shortlisted for Edinburgh artwork</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=331" target="_top">Motorway Art</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=332" target="_top">Toby Paterson presents 2nd Gillian Purvis Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=333" target="_top">Cover Story</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>18/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=329" target="_top">Bringing The British Empire Exhibition to Life</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>18/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=330" target="_top">In Vogue</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=328" target="_top">GSA graduates once again make Beck's Futures short list</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=325" target="_top">Creative Scotland Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=326" target="_top">Franz Ferdinand nominated for three Brit awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/1/2006</td>
+						<td><a href="/gsa.cfm?pid=624&nid=327" target="_top">Lambie and Glenfiddich</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>31/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=323" target="_top">New Year Honours</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>31/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=324" target="_top">You Could Have it So Much Better</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=322" target="_top">1938 British Empire Exhibition brought back to life</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=321" target="_top">Art Therapy</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=320" target="_top">Treasury publishes Cox Review</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=319" target="_top">Mackintosh Festival</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=317" target="_top">Selective Memory works like a dream</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=318" target="_top">Starling and GOMA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=316" target="_top">GSA Graduate Wins The Turner Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=314" target="_top">Guardian Media Award win for Vis Com</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=315" target="_top">Janey Buchan Gifts</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=312" target="_top">Lochead appointed Writer-in-Residence</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/12/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=313" target="_top">Flow wins major Scottish Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=311" target="_top">Drawing's Back in Fashion</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=310" target="_top">4c Design named Creative Entrepreneurs of the Year</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=308" target="_top">Game Boy</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=309" target="_top">Hannah Frank Honoured</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=307" target="_top">Cover Story</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=305" target="_top">GSA Wins Marketing Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=306" target="_top">National Gallery to Hold First Mackintosh Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=304" target="_top">1999 Medal Shortlist announced</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=303" target="_top">MDes Fashion Show - tickets now available</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=302" target="_top">Smile Please!</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/11/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=301" target="_top">The Art of Football</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>31/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=298" target="_top">Paintings in the Attic</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>31/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=300" target="_top">El Presidente reinforce Glasgow's Capital of Pop Crown</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=279" target="_top">Flow Magazine Shortlisted for Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>24/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=276" target="_top">Turner Prize Show</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>24/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=277" target="_top">Maybe Mackintosh</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>24/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=278" target="_top">Open Day</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=273" target="_top">New Epilepsy Alarm Invented by GSA Student</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=274" target="_top">Glasgow City Centre Is Creative Hotspot.</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=275" target="_top">Urban Deprivation Inspires New London Toile</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=271" target="_top">GSA Graduate nominated for the Commonwealth Games</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=272" target="_top">Taggart Tours Take In The Art School</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=266" target="_top">Cash Boost for International Students</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=268" target="_top">Something For The Weekend</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=269" target="_top">Franz Ferdinand Release Second Album</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/10/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=270" target="_top">Scotland with Style</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=265" target="_top">Five go to Gateshead</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=261" target="_top">Mackintosh Draws Tourists</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=262" target="_top">Web wizard with a heart of gold</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=263" target="_top">World Heritage Bid For Art School</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=264" target="_top">Howson's record breaker</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=260" target="_top">Capaldi directs McGregor!</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=259" target="_top">CAT Researcher at Creativity Conference</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=258" target="_top">Professor Reid welcomes GSA students in China</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/9/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=257" target="_top">GSA MFA exhibits in China</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=256" target="_top">GSA Student on winning Parachute Team</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=232" target="_top">Better By Design</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=233" target="_top">GSA Graduates Included in Scotland's New 'Exciting Art Collection'</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=234" target="_top">Scottish Design Award Successes</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=235" target="_top">Scotland's exhibition opens in Venice</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=236" target="_top">Two GSA Graduates Shortlisted For The Turner Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=237" target="_top">Top Design Prize Awarded To Former Student</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=238" target="_top">Venice Biennale</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=239" target="_top">GSA Graduates Go To Chelsea</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=240" target="_top">Two Awards for Head of Product Design Engineering</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=241" target="_top">Mackintosh to be Glasgow's Gaudi</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=242" target="_top">Mother And Daughter Share Major Art Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=243" target="_top">GSA Graduate Creates Royal Memorial</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=244" target="_top">'Knitwire' fabric is one of Scotland's most creative products</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=245" target="_top">Half of Creative Scotland awards won by GSA staff or alumni</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=246" target="_top">Lochhead appointed Glasgow's Poet Laureate</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=247" target="_top">Hagrid Creates Havoc</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=248" target="_top">Saunders designs for VisitScotland</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=249" target="_top">BAFTA Success for Vis Com</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=250" target="_top">Franz Ferdinand NME Awards Success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=251" target="_top">Watt becomes Artist in Residence</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=252" target="_top">Franz Ferdinand tops Brits Nominations</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=253" target="_top">Toby Paterson Donates First Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=254" target="_top">Peter Howson Designs for Music</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=231" target="_top">Better by Design</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/8/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=230" target="_top">MFA exhibits in Japan</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>26/7/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=229" target="_top">Sensacional!</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/7/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=228" target="_top">GSA student wins RSA Design Directions Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=227" target="_top">GSA Secures major grant for Mackintosh</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=225" target="_top">Highly Commended</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=226" target="_top">GSA Graduates Included in Scotland's New 'Exciting Art Collection'</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=223" target="_top">Scotland's exhibition opens in Venice</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=224" target="_top">Scottish Design Award Successes</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=222" target="_top">GSA Appoints Influential Design Leader</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=220" target="_top">Two GSA Graduates Shortlisted For The Turner Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/6/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=221" target="_top">Top Design Prize Awarded To Former Student</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=217" target="_top">East Meets West</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=218" target="_top">Torched!</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=219" target="_top">Venice Biennale</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=216" target="_top">Flying Scotsmen</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=214" target="_top">New Talent</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=215" target="_top">Photo First</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=212" target="_top">Superior Interior</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=213" target="_top">GSA Graduates Go To Chelsea</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=211" target="_top">Two Awards for Head of Product Design Engineering</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/5/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=210" target="_top">Mackintosh to be Glasgow's Gaudi</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/4/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=208" target="_top">Soup and a Roll (Rock and Roll)</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/4/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=209" target="_top">The GSA Gets 10 out of 10 in Guardian Guide</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/4/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=205" target="_top">Hagrid Creates Havoc</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/4/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=206" target="_top">Pick up a Penguin</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/4/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=207" target="_top">Mother And Daughter Share Major Art Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/4/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=204" target="_top">GSA  Honorary Vice President receives Wallace Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>4/4/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=203" target="_top">Winning Design</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=201" target="_top">'Knitwire' fabric is one of Scotland's most creative products</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=202" target="_top">GSA Graduate Creates Royal Memorial</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=200" target="_top">GSA student's anti-racism mosaic unveiled in Glasgow.</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=199" target="_top">Half of Creative Scotland awards won by GSA staff or alumni</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=198" target="_top">GSA  Jewellery Design Student Wins Major Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=194" target="_top">Lochead appointed Glasgow's Poet Laureate</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=195" target="_top">Saunders designs for VisitScotland</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=196" target="_top">GSA participates in major international festival</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=197" target="_top">Glasgow rain for sale!</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>3/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=192" target="_top">BAFTA Success for Vis Com</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=190" target="_top">Scottish Show comes home</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=191" target="_top">Scotland's Many Cultures</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/3/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=189" target="_top">Art for All short listed for A&B Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/2/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=188" target="_top">GSA staff + alumni make Shortlist for Creative Scotland Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>18/2/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=186" target="_top">GSA graduates represent Scotland at Venice</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>18/2/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=187" target="_top">Franz Ferdinand NME Awards Success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/2/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=182" target="_top">Franz Ferdinand Brits Success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/2/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=183" target="_top">Watt becomes Artist in Residence</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/2/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=184" target="_top">Evening Times Funny Man</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/2/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=185" target="_top">GSA and CAFA join forces</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/1/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=181" target="_top">GSA Magazine Up For Communications Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/1/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=180" target="_top">Franz Ferdinand tops Brits Nominations</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>10/1/2005</td>
+						<td><a href="/gsa.cfm?pid=624&nid=179" target="_top">GSA Students Win Big Idea Competition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/12/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=177" target="_top">Toby Paterson Donates First Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/12/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=178" target="_top">Peter Howson Designs for Music</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/12/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=175" target="_top">GSA Graduate Chosen for First Minister's Christmas Card</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/12/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=176" target="_top">Mackintosh Building Voted One of Top Scottish Works of Art</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>24/11/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=172" target="_top">Textile Graduates Exhibit at Texprint 2004</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>24/11/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=173" target="_top">Raul Ortega Ayala at Scoplondon</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>24/11/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=174" target="_top">GSA Graduates shortlisted for Glenfiddich Spirit of Scotland Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/11/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=171" target="_top">S&J Graduate to exhibit at Schmuck 2005</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/11/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=170" target="_top">GSA Graduate Wins Glasgow 1999 Medal</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/10/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=169" target="_top">GSA Student is Young Silversmith of the Year</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/10/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=163" target="_top">Professor Cooper exhibits in London</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/10/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=164" target="_top">Hunter's Animal Virtues</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/10/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=165" target="_top">Rise of the Material Girl</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/10/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=166" target="_top">Standard Life's BraveArt Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/10/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=167" target="_top">Abi's date with the Queen</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/9/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=162" target="_top">Franz Ferdinand win Mercury Music Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/9/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=161" target="_top">GSA students have new designs on dining</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/8/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=157" target="_top">Power Rangers and Sick Kids</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/8/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=158" target="_top">Mackintosh Mural Found in Fife</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/8/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=159" target="_top">Steven Campbell at Glasgow Print Studios</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/8/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=160" target="_top">Timorous Beasties open new store</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=154" target="_top">Success in Engineering in the Olympics</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=155" target="_top">GSA graduate tipped as Tomorrow's leader</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=156" target="_top">Alison Watt exhibits in Edinburgh</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=147" target="_top">International Award for Hothouse</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=148" target="_top">Cunningham awarded SAC Grant</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=149" target="_top">Donald Dewar Prize for 2003 Graduate</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=150" target="_top">STV/Scottish Screen Award for GSA Student</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=151" target="_top">GSA Designs for International Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=152" target="_top">Mackintosh Exhibition in Port Vendres</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=153" target="_top">Gorbals embraces Hunter</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=140" target="_top">D&AD Best New Blood selects GSA students</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=141" target="_top">Engineering Olympics success for PDE</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=142" target="_top">Japan Foundation Fellowship for Macdonald</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=143" target="_top">Scottish Screen Success for Visual Communication Students</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=144" target="_top">Scottish Design Awards Success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=145" target="_top">College of Excellence Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=146" target="_top">Summer placement for PDE Student</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=137" target="_top">Hugo Boss Shortlist for Starling</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=138" target="_top">Barclay exhibits at the Tate</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/7/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=139" target="_top">RSA Inclusive Design success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>21/6/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=136" target="_top">Shell Livewire Young Entrepreneurs are GSA Graduates</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/6/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=135" target="_top">Art for All wins Arts and Business Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/6/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=131" target="_top">BBC Commissions Richard Wright</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/6/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=132" target="_top">Saville exhibits at the Royal Academy</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/6/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=133" target="_top">Japan Foundation Fellowship for Macdonald</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/6/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=134" target="_top">Jury duty for Cairns</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=130" target="_top">Website wins commendation</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=129" target="_top">Japanese Ministry award Scholarships</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=128" target="_top">Gray exhibits at Smith Gallery</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>14/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=127" target="_top">NESTA Success for GSA Graduate</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=123" target="_top">Art for All short listed for A&B Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=124" target="_top">New Governor for GSA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=125" target="_top">RSA Success for GSA Students</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>13/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=126" target="_top">Textiles heading for New York</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=118" target="_top">Visiting Professorship for Head of Interior Design</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=119" target="_top">New public art for the Gorbals</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=120" target="_top">Architecture says materials matter</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=121" target="_top">Punton exhibits in Bristol</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/5/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=122" target="_top">Cairns annual review</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=116" target="_top">From Pilcher to the Planets</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>30/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=117" target="_top">From pheasants to pineapples</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=115" target="_top">Gold Award for GSA Website</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=112" target="_top">Glenfiddich selects GSA graduates</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=113" target="_top">GSA graduates show entrepreneurial spirit</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=114" target="_top">4c's meeting of minds</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=111" target="_top">Scotland at the International Milan Design Fair</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=109" target="_top">GSA at Art Fair</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/4/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=110" target="_top">Beck's Winner exhibits at CCA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>29/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=106" target="_top">Saskia is Scotland with Style</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>29/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=107" target="_top">GSA students crowned Bobby Dazzlers</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>29/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=108" target="_top">Marshall Scholarships for Post Graduate Study</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=104" target="_top">It's an Ideal World</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=105" target="_top">Watt's creative Scotland</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=103" target="_top">Website wins HEIST Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=102" target="_top">Thomas Cooper Exhibits in Edinburgh</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=100" target="_top">Bowie Art Exhibition to include 2 GSA graduates</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=101" target="_top">Design firm wins development grant</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=97" target="_top">Interior Design Success</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=98" target="_top">Architecture's RSA scoop</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=99" target="_top">Success in national business plan competition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=92" target="_top">Urban Renewal in New Delhi</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=93" target="_top">Calcutt curates at the CCA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=94" target="_top">GSA's expert in maritime history</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=95" target="_top">Prof. Reid becomes Trustee at Cove Park</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>8/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=96" target="_top">4c Design receives SMART award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=87" target="_top">New Personal Professorship announced</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=88" target="_top">New Honorary Professors appointed</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=89" target="_top">Printmaking's new Artist in Residence</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=90" target="_top">Palmer's Austrian Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>7/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=91" target="_top">Hussey + Sutherland - Re-Motion</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=85" target="_top">Gold Medal Winner</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>2/3/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=86" target="_top">Lockerbie witness box to be part of exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>25/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=84" target="_top">Light art comes to Dundasvale Court</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=80" target="_top">This seasons hot tip workng with CAT</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=81" target="_top">Saunders wins New Generation Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=82" target="_top">GSA goes to Rosshall Academy</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=83" target="_top">GSA Graduate short listed for Designer of the Year</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=77" target="_top">GSA lights up design for school children</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=78" target="_top">Design Talents Share their innermost secrets</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>16/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=79" target="_top">GSA alumni amongst Scotland's power sharers</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>6/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=76" target="_top">GSA students in City of Love</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/2/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=75" target="_top">Glasgow artists selected for Holyrood Building</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/1/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=74" target="_top">MFA alumnus exhibits at Hiscox Art Projects</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>27/1/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=73" target="_top">Howson buys Advertising Space</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>26/1/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=71" target="_top">Alasdair Gray named one of Scotland's greatest</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>26/1/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=72" target="_top">Howson to show work at St Paul's</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/1/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=70" target="_top">Textiles graduate in cutting-edge design team</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>12/1/2004</td>
+						<td><a href="/gsa.cfm?pid=624&nid=69" target="_top">GSA graduate is craftswoman in residence</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/12/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=67" target="_top">GSA Graduate makes Beck's Futures Shortlist</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/12/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=68" target="_top">GSA Graduates shortlisted for Creative Scotland Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/12/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=64" target="_top">City Bid for Mackintosh World Heritage Status</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/12/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=65" target="_top">Kylie wears Jonathan Saunders</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>22/12/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=66" target="_top">Painted Sheep confuse Panther</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>5/12/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=63" target="_top">Incubator can help to save babies' lives</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>28/11/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=62" target="_top">Travis - Ticket scramble for Spring tour</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=56" target="_top">John Byrne: Classic play at the Traverse Theatre</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=57" target="_top">Liz Lochhead: Shortlisted for award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=58" target="_top">Channel 4: Skaer & Fullerton</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=59" target="_top">Sculptor finds sales in Oz can be bullish</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=60" target="_top">Jim Lambie: Primal Scream</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>20/11/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=61" target="_top">Squigee: Wallpaper comeback</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>23/10/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=55" target="_top">Sutherland Hussey win RIAS Best Building Scotland 2003</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/10/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=48" target="_top">National role for Buckie teacher</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/10/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=49" target="_top">Jonathan Saunders takes London by storm</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/10/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=50" target="_top">Deutsche Bank Pyramid Award 2003</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/10/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=51" target="_top">The Stirling Prize 2003</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>9/10/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=52" target="_top">Alexander Stoddart immortalises Kidnapped!</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/9/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=43" target="_top">Fashion First at the GSA</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/9/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=46" target="_top">Sutherland Hussey shortlisted for Stirling Prize</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/9/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=47" target="_top">Green Margarine - a contemporary response to Whistler</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/9/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=44" target="_top">Glasgow and Jerusalem summer school</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>1/9/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=45" target="_top">The GSA commissions replica  chairs</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=38" target="_top">4c Design success at Shell LiveWire Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=39" target="_top">Graduate scoops honours at Picture Editor's Awards</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=40" target="_top">Design Graduates win awards at New Blood 2003</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=41" target="_top">International Design Award for Stuart Urquhart</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>17/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=42" target="_top">Scottish Design Awards 2003</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=33" target="_top">Robert Stewart Exhibition</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=34" target="_top">Ground Breaking Commission</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=35" target="_top">Summer School Kicks Off</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>11/7/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=36" target="_top">New Honorary Vice President Appointed</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/6/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=31" target="_top">Expert on Urban Issues Arrives</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>19/6/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=32" target="_top">GSA Design Goes Into Production</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>29/4/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=1" target="_top">2003 Beck's Futures Award</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td>15/1/2003</td>
+						<td><a href="/gsa.cfm?pid=624&nid=2" target="_top">Venice Biennale</a></td>
+					</tr>
+					
+					<tr valign="top">
+						<td></td>
+						<td><a href="/gsa.cfm?pid=624&nid=" target="_top"></a></td>
+					</tr>
+					
+				</table>
+			
+
+		
+
+	
+	
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+	
+
+
+
+".t	al

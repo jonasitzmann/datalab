@@ -1,0 +1,852 @@
+<!doctype html public -//w3c//dtd html 3.2//en>
+<html>
+<head>
+<META NAME="htdig-keywords" CONTENT="Rothamsted Insect survey, suction traps, aphid bulletin, aphids, light traps, moths">
+<title>Rothamsted Insect Survey</title>
+<link rel="stylesheet" type="text/css" href="/insect-survey/includes/insect-survey.css" media="screen">
+</head>
+<body>
+<table style="width: 100%; max-width: 970px;" border="0">
+<tr>
+<td valign="top" width="200">
+<a href="/insect-survey/index.php">
+<img src="/insect-survey/Graphics/RISLogo200.gif" alt="Rothamsted Insect Survey logo - click for home page" border="0">
+</a>
+<li><a href="/insect-survey/ContactUs.php">Contact us</a></li>
+<br />
+<strong>Suction Trapping</strong>
+<li><a href="/insect-survey/STAphidBulletin.php">Aphid bulletin</a></li>
+<li><a href="/insect-survey/STAphidBulletinArchive.php?Year=2007">Bulletin archive</a></li>
+<li><a href="/insect-survey/STSponsors.php">Sponsors</a></li>
+<li><a href="/insect-survey/STTrapSites.php">Trap sites</a></li>
+<li><a href="/insect-survey/STAphids.php">Aphid species</a></li>
+<li><a href="/examine/">EXAMINE</a></li>
+<br />
+<strong>Light Trapping</strong>
+<li><a href="/insect-survey/LTTrapSites.php">Trap sites</a></li>
+<li><a href="/insect-survey/LTNewsletters.php">Newsletters and articles</a></li>
+<br />
+<strong>Vertical-Looking Radar</strong>
+<li><a href="/insect-survey/VLR.php">Introduction</a></li>
+<strong>Environmental Change Network</strong>
+<li><a href="/insect-survey/ECN.php">Introduction</a></li>
+
+
+<p>
+Rothamsted Insect Survey,<br />
+<a href='http://www.rothamsted.ac.uk/pie/'>Department of Plant and Invertebrate Ecology</a>,<br />
+<a href='http://www.rothamsted.ac.uk/'>Rothamsted Research</a>,<br />
+Harpenden,<br />
+Hertfordshire,<br />
+AL5 2JQ<br />
+Tel: + 44 (0) 1582 763 133<br />
+Fax: + 44 (0) 1582 760 981
+</p>
+
+
+<p><a href='/insect-survey/CHDCounter/Visitors.php'>55 visitors since<br />Tuesday 1st May 2007</a></p>
+
+<!--<div id="STimage"><img src="/insect-survey/Photos/RichardHarrington200.jpg" alt="Richard Harrington" />
+<div id="STtext">
+<strong>Suction Trapping</strong>
+<li>Aphid bulletin</li>
+<li>Bulletin Archive</li>
+<li>Sponsors</li>
+<li>Trap sites</li>
+<li>Aphids</li>
+<li>EXAMINE</li>
+</div></div>
+
+
+<div id="LTimage"><img src="/insect-survey/Photos/IanWoiwod200.jpg" alt="Richard Harrington" />
+<div id="LTtext">
+<strong>Light Trapping</strong>
+<li>Trap sites</li>
+</div></div>
+
+
+<div id="STimage"><img src="/insect-survey/Photos/VLR200.jpg" alt="Richard Harrington" />
+<div id="STtext">
+<strong>Vertical-Looking Radar</strong>
+<li>Trap sites</li>
+</div></div>-->
+</td>
+<td width="10">&nbsp;</td>
+<td valign="top"><script type="text/javascript" language="javascript">
+document.title = "Bulletin archive";				
+</script>
+
+
+<h1>Bulletin archive</h1>
+
+<h2>
+<a id='2007link' href='STAphidBulletinArchive.php?Year=2007'>2007</a> &bull; <a id='2006link' href='STAphidBulletinArchive.php?Year=2006'>2006</a> &bull; <a id='2005link' href='STAphidBulletinArchive.php?Year=2005'>2005</a> &bull; <a id='2004link' href='STAphidBulletinArchive.php?Year=2004'>2004</a> &bull; <a id='2003link' href='STAphidBulletinArchive.php?Year=2003'>2003</a> &bull; <a id='2002link' href='STAphidBulletinArchive.php?Year=2002'>2002</a> &bull; <a id='2001link' href='STAphidBulletinArchive.php?Year=2001'>2001</a></h2>
+
+
+// RESAPHID copy, paste, then update file name and bulletin number to this week's bulletin
+
+<div id="2007" style="display: none;">
+
+<li><a href="/insect-survey/Bulletins/earlyaphids2007.html">
+Bulletin aphids caught up to 25th March 2007
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2007WebBulletin1.html">
+Number 1: 26 March - 1 April 2007
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2007WebBulletin2.html">
+Number 2: 2 April - 8 April 2007
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2007WebBulletin3.html">
+Number 3: 9 April - 15 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2007WebBulletin4.html">
+Number 4: 16 April - 22 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2007WebBulletin5.html">
+Number 5: 23 April - 29 April
+</a></li>
+
+</div>
+
+
+
+<!--------------------------------------------------------------------------------------------->
+
+<div id="2006" style="display: none;">
+
+<li><a href="/insect-survey/Bulletins/2006EarlySeasonBulletin.html">
+Bulletin aphids caught up to the first bulletin of 2006
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin1.html">
+Number 1: 18 - 23 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin2.html">
+Number 2: 24 - 30 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin3.html">
+Number 3: 1 - 7 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin4.html">
+Number 4: 8 - 14 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin5.html">
+Number 5: 14 - 21 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin6.html">
+Number 6: 22 - 28 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin7.html">
+Number 7: 29 May - 4 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin8.html">
+Number 8: 5 - 11 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin9.html">
+Number 9: 12 - 18 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin10.html">
+Number 10: 19 - 25 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin11.html">
+Number 11: 26 June - 2 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin12.html">
+Number 12: 3 - 9 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin13.html">
+Number 13: 10 - 16 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin14.html">
+Number 14: 17 - 23 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin15.html">
+Number 15: 24 - 30 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin16.html">
+Number 16: 31 July  - 6 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin17.html">
+Number 17: 7 - 13 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin18.html">
+Number 18: 14 - 20 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin19.html">
+Number 19: 21 - 27 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin20.html">
+Number 20: 28 August - 3 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin21.html">
+Number 21: 4 - 10 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin22.html">
+Number 22: 11 - 17 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin23.html">
+Number 23: 18 - 24 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin24.html">
+Number 24: 25 September - 1 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin25.html">
+Number 25: 2 - 8 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin26.html">
+Number 26: 9 - 15 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin27.html">
+Number 27: 16 - 22 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin28.html">
+Number 28: 23 - 29 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin29.html">
+Number 29: 30 October - 5 November
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin30.html">
+Number 30: 6 - 12 November
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin31.html">
+Number 31: 13 - 19 November
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2006WebBulletin32.html">
+Number 32: 20 - 26 November
+</a></li>
+
+</div>
+
+<!--------------------------------------------------------------------------------------------->
+
+<div id="2005" style="display: none;">
+
+<li><a href="/insect-survey/Bulletins/2005EarlySeasonBulletin.html">
+Bulletin aphids caught up to 10th April 2005
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin1.html">
+Number 1: 11 - 17 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin2.html">
+Number 2: 18 - 24 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin3.html">
+Number 3: 25 April - 1 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin4.html">
+Number 4: 2 - 8 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin5.html">
+Number 5: 9 - 15 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin6.html">
+Number 6: 16 - 22 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin7.html">
+Number 7: 23 - 29 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin8.html">
+Number 8: 30 May  - 5 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin9.html">
+Number 9: 6 - 12 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin10.html">
+Number 10: 13 - 19 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin11.html">
+Number 11: 20 - 26 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin12.html">
+Number 12: 27 June - 3 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin13.html">
+Number 13: 4 - 10 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin14.html">
+Number 14: 11 - 17 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin15.html">
+Number 15: 18 - 24 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin16.html">
+Number 16: 25 - 31 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin17.html">
+Number 17: 1 - 7 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin18.html">
+Number 18: 8 - 14 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin19.html">
+Number 19: 15 - 21 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin20.html">
+Number 20: 22 - 28 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin21.html">
+Number 21: 29 August - 4 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin22.html">
+Number 22: 5 - 11 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin23.html">
+Number 23: 12 - 18 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin24.html">
+Number 24: 19 - 25 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin25.html">
+Number 25: 26 September - 2 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin26.html">
+Number 26: 3 - 9 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin27.html">
+Number 27: 10 - 16 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin28.html">
+Number 28: 17 - 23 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin29.html">
+Number 29: 24 - 30 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin30.html">
+Number 30: 31 October - 6 November
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin31.html">
+Number 31: 7 - 13 November
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2005WebBulletin32.html">
+Number 32: 14 - 20 November
+</a></li>
+
+</div>
+
+<!--------------------------------------------------------------------------------------------->
+
+<div id="2004" style="display: none;">
+
+<li><a href="/insect-survey/Bulletins/2004EarlySeasonBulletin.html">
+Bulletin aphids caught up to 12th April 2004
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin1.html">
+Number 1: 12 - 18 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin2.html">
+Number 2: 19 - 25 April
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin3.html">
+Number 3: 26 April - 2 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin4.html">
+Number 4: 3 - 9 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin5.html">
+Number 5: 10 - 16 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin6.html">
+Number 6: 17 - 23 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin7.html">
+Number 7: 24 - 30 May
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin8.html">
+Number 8: 31 May - 6 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin9.html">
+Number 9: 7 - 13 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin10.html">
+Number 10: 14 - 20 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin11.html">
+Number 11: 21 - 27 June
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin12.html">
+Number 12: 28 June - 4 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin13.html">
+Number 13: 5 - 11 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin14.html">
+Number 14: 12 - 18 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin15.html">
+Number 15: 19 - 25 July
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin16.html">
+Number 16: 26 July - 1 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin17.html">
+Number 17: 2 - 8 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin18.html">
+Number 18: 9 - 15 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin19.html">
+Number 19: 16 - 22 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin20.html">
+Number 20: 23 - 29 August
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin21.html">
+Number 21: 30 August - 5 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin22.html">
+Number 22: 6 - 12 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin23.html">
+Number 23: 13 - 19 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin24.html">
+Number 24: 20 - 26 September
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin25.html">
+Number 25: 27 September - 3 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin26.html">
+Number 26: 4 - 10 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin27.html">
+Number 27: 11 - 17 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin28.html">
+Number 28: 18 - 24 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin29.html">
+Number 29: 25 - 31 October
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin30.html">
+Number 30: 1 - 7 November
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin31.html">
+Number 31: 8 - 14 November
+</a></li>
+
+<li><a href="/insect-survey/Bulletins/2004WebBulletin32.html">
+Number 32: 15 - 21 November
+</a></li>
+
+</div>
+
+<!--------------------------------------------------------------------------------------------->
+
+<div id="2003" style="display: none;">
+
+<li><a href="/insect-survey/Bulletins/2003EarlySeasonBulletin.html">
+Bulletin aphids caught up to 13th April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin1.html">
+Number 1: 14 - 20 April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin2.html">
+Number 2: 21 - 27 April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin3.html">
+Number 3: 28 April - 4 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin4.html">
+Number 4: 5 - 11 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin5.html">
+Number 5: 12 - 18 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin6.html">
+Number 6: 19 - 25 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin7.html">
+Number 7: 26 May - 1 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin8.html">
+Number 8: 2 - 8 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin9.html">
+Number 9: 9 - 15 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin10.html">
+Number 10: 16 - 22 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin11.html">
+Number 11: 23 - 29 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin12.html">
+Number 12: 30 June - 6 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin13.html">
+Number 13: 7 - 13 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin14.html">
+Number 14: 14 - 20 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin15.html">
+Number 15: 21 - 27 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin16.html">
+Number 16: 28 - 3 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin17.html">
+Number 17: 4 - 10 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin18.html">
+Number 18: 11 - 17 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin19.html">
+Number 19: 18 - 24 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin20.html">
+Number 20: 25 - 31 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin21.html">
+Number 21: 1 - 7 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin22.html">
+Number 22: 8 - 14 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin23.html">
+Number 23: 15 - 21 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin24.html">
+Number 24: 22 - 28 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin25.html">
+Number 25: 29 - 5 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin26.html">
+Number 26: 6 - 12 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin27.html">
+Number 27: 13 - 19 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin28.html">
+Number 28: 20 - 26 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin29.html">
+Number 29: 27 October - 2 November
+</a></li>
+<li><a href="/insect-survey/Bulletins/2003WebBulletin30.html">
+Number 30: 3 - 9 November
+</a></li>
+
+</div>
+
+<!--------------------------------------------------------------------------------------------->
+
+<div id="2002" style="display: none;">
+
+<li><a href="/insect-survey/Bulletins/2002EarlySeasonBulletin.html">
+Bulletin aphids caught up to 1st April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin1.html">
+Number 1: 2 - 7 April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin2.html">
+Number 2: 8 - 14 April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin3.html">
+Number 3: 15  - 21 April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin4.html">
+Number 4: 22  - 28 April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin5.html">
+Number 5: 29  April - 5 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin6.html">
+Number 6: 6 - 12 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin7.html">
+Number 7: 13 - 19 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin8.html">
+Number 8: 20 - 26 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin9.html">
+Number 9: 27  May - 2 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin10.html">
+Number 10: 3 - 9 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin11.html">
+Number 11: 10 - 16 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin12.html">
+Number 12: 17 - 23 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin13.html">
+Number 13: 24 - 30 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin14.html">
+Number 14: 1 - 7 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin15.html">
+Number 15: 8 - 14 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin16.html">
+Number 16: 15 - 21 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin17.html">
+Number 17: 22 - 28 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin18.html">
+Number 18: 29 July - 4 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin19.html">
+Number 19: 4 - 11 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin20.html">
+Number 20: 12 - 18 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin21.html">
+Number 21: 19 - 25 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin22.html">
+Number 22: 26 August - 1 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin23.html">
+Number 23: 2 - 8 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin24.html">
+Number 24: 9 - 15 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin25.html">
+Number 25: 16 - 22 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin26.html">
+Number 26: 23 - 29 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin27.html">
+Number 27: 30 September - 6 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin28.html">
+Number 28:  7 October - 13 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin29.html">
+Number 29: 14 - 20 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin30.html">
+Number 30: 21 - 27 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin31.html">
+Number 31: 28 October - 3 November
+</a></li>
+<li><a href="/insect-survey/Bulletins/2002WebBulletin32.html">
+Number 32: 4 - 10 November
+</a></li>
+
+</div>
+
+<!--------------------------------------------------------------------------------------------->
+
+<div id="2001" style="display: none;">
+
+<li><a href="/insect-survey/Bulletins/2001EarlySeasonBulletin.html">
+Bulletin aphids caught up to 22nd April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin1.html">
+Number 1: 23 - 29 April
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin2.html">
+Number 2: 30 April - 6 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin3.html">
+Number 3: 7 - 13 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin4.html">
+Number 4: 14 - 20 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin5.html">
+Number 5: 21 - 27 May
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin6.html">
+Number 6: 28 May - 3 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin7.html">
+Number 7: 4 - 10 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin8.html">
+Number 8: 11 - 17 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin9.html">
+Number 9: 18 - 24 June
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin10.html">
+Number 10: 25 June - 1 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin11.html">
+Number 11: 2 - 8 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin12.html">
+Number 12: 9 - 15 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin13.html">
+Number 13: 16 - 22 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin14.html">
+Number 14: 23 - 29 July
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin15.html">
+Number 15: 30 July - 5 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin16.html">
+Number 16: 6 - 12 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin17.html">
+Number 17: 13 - 19 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin18.html">
+Number 18: 20 - 26 August
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin19.html">
+Number 19: 27 August - 2 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin20.html">
+Number 20: 3 - 9 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin21.html">
+Number 21: 10 - 16 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin22.html">
+Number 22: 17 - 23 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin23.html">
+Number 23: 24 - 30 September
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin24.html">
+Number 24: 1 - 7 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin25.html">
+Number 25: 8 - 14 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin26.html">
+Number 26: 15 - 21 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin27.html">
+Number 27: 22 - 28 October
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin28.html">
+Number 28: 29 October - 4 November
+</a></li>
+<li><a href="/insect-survey/Bulletins/2001WebBulletin29.html">
+Number 29: 5 - 11 November
+</a></li>
+
+</div>
+
+<!--------------------------------------------------------------------------------------------->
+
+
+
+
+		<script type='text/javascript' language='javascript'>
+			document.getElementById(2007).style.display = 'block';	
+			var Highlite = 2007 + 'link';
+			document.getElementById(Highlite).style.color = '#C96D38';			
+		</script>
+	</td></tr></table>
+<iframe id="RecordBrowser" name="RecordBrowser" height="400" width="600" 
+style="display: none;"></iframe>
+<script type="text/javascript" language="javascript" src="/insect-survey/CHDCounter/VisitorsDetails.js"></script>
+</body>
+</html>
+
+pv/achty< t m@

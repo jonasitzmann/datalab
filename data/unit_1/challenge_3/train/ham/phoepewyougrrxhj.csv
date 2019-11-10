@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : About us</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/primary-languages_f2.gif','../images/free-resources_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center">
+  <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"> <div align="center">
+        <table width="660" border="0" cellspacing="1" cellpadding="0">
+          <tr>
+            <td height="107" colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="50%" rowspan="3"><a href="../indexold.htm"><span class="style2"><a href="index.htm"><img src="../images/new-logo.gif" width="217" height="86" border="0"></a></span></a></td>
+                  <td width="50%" height="55" valign="bottom"><div align="right" class="topbar"><font color="#666666"><img src="../index_clip_image002_0002.jpg" width="192" height="41"><br>
+                    <a href="../contact-us/index.htm"></a><a href="index.htm"></a><a href="../find-us/index.htm"></a><a href="../indexold.htm"></a></font></div></td>
+                </tr>
+                <tr>
+                  <td height="29" valign="bottom"><div align="right"><font color="#666666"><a href="../find-us/index.htm"></a><a href="../contact-us/index.htm"></a><a href="index.htm"></a><a href="../find-us/index.htm"></a><a href="../indexold.htm"></a></font><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"></font></div></td>
+                </tr>
+                <tr>
+                  <td height="21" valign="bottom"><div align="right"><font color="#666666"><a href="../contact-us/index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="6" class="maintext style44">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="maintext style44"><div align="center"><strong><a href="../events-courses/index.htm">Courses &amp; Conferences</a> </strong></div></td>
+            <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+            <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+            <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/links/index.htm">Links</a></strong></div></td>
+            <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+            <td class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+          </tr>
+          <tr>
+            <td colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/index.htm" onMouseOver="MM_swapImage('events','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks3','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../primary-languages/index.htm" onMouseOver="MM_swapImage('languages','','../images/primary-languages_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../free-resources/index.htm" onMouseOver="MM_swapImage('free','','../images/free-resources_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../links/index.htm" onMouseOver="MM_swapImage('links','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"><br>
+            </a></td>
+          </tr>
+          <tr>
+            <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="329"><div align="center"><span class="style2">About us</span></div></td>
+                  <td width="329"><div align="center"><a href="../find-us/index.htm"><img src="../images/image-bar/map-directions.gif" alt="Click here for map and directions to find us"  width="286" height="79" border="0"></a></div></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="147"><br></td>
+                  <td width="511"><br></td>
+                </tr>
+                <tr>
+                  <td valign="top"><div align="left"><img src="../images/Simon Green.jpg" width="138" height="110"></div></td>
+                  <td valign="top"><p><span class="headlines">Simon Green</span><span class="maintext"><br>
+                    Simon Green taught German and French in Yorkshire before 
+                    becoming Senior Lecturer in Education and German at Trinity 
+                    and All Saints College, Leeds in 1991. He became Co-ordinator 
+                    of the Comenius Yorkshire and the Humber in 1994 and 
+                    is widely involved in delivering training courses to MFL 
+                    teachers. Simon's special interests are creative language learning, 
+                    A level languages and the European dimension. <br>
+                    In 2000, he was made Chevalier dans l'Ordre des Palmes Acad</span><span class="maintext">&eacute;</span><span class="maintext">miques by the French Embassy. He has written <a href="http://www.cilt.org.uk/publications/secondary.htm#action">Actions 
+                      stations! Transforming language learning through creative 
+                      strategies</a> with Steve Haworth. In 2004, Simon became Lead Manager of Comenius Yorkshire and the Humber. </span></p></td>
+                </tr>
+                <tr>
+                  <td valign="top"><div align="center"></div></td>
+                  <td valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top"><p align="left"><img src="../images/Steve Haworth.jpg" width="140" height="115"></p></td>
+                  <td valign="top"><p class="maintext"><span class="headlines">Steve 
+                    Haworth</span><br>
+                    Steve Haworth taught French and Spanish in Yorkshire before 
+                    becoming Teacher Advisor for MFL in Bradford in 1993. 
+                    In 1996 he became Education Inspector/Advisor where, apart 
+                    from working with inspection teams, he delivered courses 
+                    on teaching and learning and leadership and management. 
+                    He joined the Comenius team in January 2002 and is widely 
+                    involved in delivering training courses to MFL teachers. <br>
+                    Steve also works for the Specialist Schools and Academies Trust and CILT as a 
+                    consultant. He has co-authored a number of French and 
+                    Spanish publications including<a href="http://www.cilt.org.uk/publications/secondary.htm#action"> Actions stations! Transforming language learning through 
+                      creative strategies</a> with Simon Green.  In 2000, he was made Chevalier dans l'Ordre des Palmes Acad&eacute;miques by the French Embassy.<br>
+                  </p></td>
+                </tr>
+                <tr>
+                  <td valign="top"><div align="center"></div></td>
+                  <td valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top"><div align="center"><img src="index_clip_image001.jpg" alt="Catherine" width="114" height="148" align="left"></div></td>
+                  <td valign="top"><span class="headlines">Catherine Cheater</span><br>
+                      <span class="maintext">Catherine Cheater is a  Language Teaching Consultant, specialising in language teaching in the primary  phase. She is renowned as a trainer in this field, having previously been an  Advisory Teacher for PMFL in Croydon LEA and more recently Senior Language  Teaching Adviser at CILT, The National Centre for Languages. <br>
+                        Catherine has written two  CILT Young Pathfinders &ndash; <a href="http://www.cilt.org.uk/publications/ypf.htm">Let&rsquo;s Join in! (YPF6)</a> with Dr Cynthia Martin, and <a href="http://www.cilt.org.uk/publications/ypf.htm">The  Literacy Link (YPF9)</a> with Anne Farren. <br>
+                        Her areas of special  interest include the links between learning another language and the  development of literacy skills in young learners, linguistic progression in the  primary phase, and the use of music, movement, drama and poetry in the teaching  of languages to the very young. <br>
+                        In 2004 Catherine was made a  Chevalier dans l&rsquo;Ordre des Palmes Acad&eacute;miques, in recognition of her  outstanding contribution to the development of French teaching in primary  schools in England.</span></td>
+                </tr>
+                <tr>
+                  <td valign="top"><div align="center"></div></td>
+                  <td valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top"><div align="left"><img src="index_clip_image001_0000.jpg" alt="Photograph of Wendy Adeniji" width="134" height="123" border="0"></div></td>
+                  <td valign="top"><span class="headlines">Wendy Adeniji</span><br>
+                      <span class="maintext">Wendy  taught French, Spanish and German for 10 years and now works as a trainer and  consultant.&nbsp; She is the lead tutor for  the CILT Graduate Teacher Programme in Leeds  and regularly&nbsp; delivers MFL-specific  interactive whiteboard training in schools.&nbsp;  She has also acted as a consultant for the BBC digital curriculum, is  the ICT consultant for Comenius Yorkshire and the Humber  and has recently acted as consultant for a KS3 Strategy project relating to how  interactive whiteboards can improve learning modern languages.&nbsp; She is the MFL moderator for the Ngfl Teacher  Resource Exchange and writes regularly for the TES on matters relating to MFL.</span></td>
+                </tr>
+                <tr>
+                  <td valign="top">&nbsp;</td>
+                  <td valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top"><img src="../images/Martine.jpg" width="135" height="123"></td>
+                  <td valign="top"><p><span class="headlines">Martine Pillette </span><br>  
+                        <span class="maintext">Martine Pillette is a very experienced trainer and author  and is in high demand as an excellent presenter at many modern languages  conferences around the country. She has  recently appeared at Language World, the NALA conference (for Language  Advisers) and a national CILT conference in London. She is the author of several modern languages publications  including &ldquo;Formule X&rdquo; a text book for KS3 French.&nbsp;</span><span class="maintext">She was a KS3 consultant and an adviser on  the &ldquo;Framework for teaching modern languages in KS3&rdquo; and has recently been  appointed Regional Trainer for KS3 Languages with Comenius Yorkshire and the Humber.<br>
+                        Martine is also in demand as an excellent trainer for A/S  and A2 French and she has devised her own highly original and popular course  &ldquo;La France  des douze derniers mois&rdquo;.&nbsp; She has  presented this course in several venues and has received outstanding  evaluations.<br>
+                    We are delighted that Martine is continuing her association  with Comenius Yorkshire and the Humber by running several courses in Leeds in  2006/07.</span></p>                    </td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+      </div></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD <br>
+        Telephone 0113 
+          283 7226<br>
+          <font color="#999999">Page last updated: 
+          <!-- #BeginDate format:fcAm1 -->Friday, April 27, 2007<!-- #EndDate -->
+          </font> </div></td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>
+
+
+lsv",	/

@@ -1,0 +1,244 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>Gazetteer for Scotland: Statistical Search</TITLE>
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<script type="text/javascript" language="JavaScript" src="/scotgaz/scotgaz.js"></script>
+</HEAD>
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR><TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+<TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Population"><B> Help </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="#" onClick="popupGloss()"><B> Glossary </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/People.html"><B> People </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Places.html"><B> Places </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B> Statistics </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><A HREF="bookshop.html"><img src="images/new.gif" border="0"></A></TD></TR>
+</TABLE>
+</TD>
+<TD BGCOLOR="#FFFFCC" VALIGN="TOP" ALIGN="left"><BLOCKQUOTE><BR>
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+<H3>Statistical Search</H3><FONT SIZE=-1>
+<FORM METHOD="POST" ACTION="/sgzexe/statistics">
+<UL>
+<LI>The statistical search allows you to retrieve entries from the
+Gazetteer on the basis of certain vital statistics, for example, to list
+mountains by their heights.<p>
+Choose the feature and the associated statistic you wish to use from the list below,
+and then you have the option of choosing a lower and an upper limit for that statistic.
+<P>
+<TABLE WIDTH=80% BORDER=0><TR><TD>
+<FONT COLOR="#000080" SIZE=-1 FACE="Verdana,Arial,Helvetica,sans-serif">
+<SELECT NAME="STAT" SIZE=1>
+
+<OPTION VALUE="G1-89"> Administrative District : Population    </OPTION>
+<OPTION VALUE="G2-89"> Administrative District : Area (sq. km)    </OPTION>
+<OPTION VALUE="G1-2"> Airport : Opened    </OPTION>
+<OPTION VALUE="G2-2"> Airport : Longest Runway (m)    </OPTION>
+<OPTION VALUE="G1-30"> Archaeological Site : Built    </OPTION>
+<OPTION VALUE="G2-30"> Archaeological Site : Abandoned    </OPTION>
+<OPTION VALUE="G1-86"> Archdiocese and Diocese : Communicants    </OPTION>
+<OPTION VALUE="G2-86"> Archdiocese and Diocese : Area (sq. km)    </OPTION>
+<OPTION VALUE="G1-35"> Basin : Length (km)    </OPTION>
+<OPTION VALUE="G2-35"> Basin : Width (km)    </OPTION>
+<OPTION VALUE="G1-29"> Battlefield : Battle Fought    </OPTION>
+<OPTION VALUE="G1-19"> Bay or Cove : Width (m)    </OPTION>
+<OPTION VALUE="G1-79"> Brewery : Opened    </OPTION>
+<OPTION VALUE="G2-79"> Brewery : Output (l)    </OPTION>
+<OPTION VALUE="G1-15"> Bridge : Length (m)    </OPTION>
+<OPTION VALUE="G2-15"> Bridge : Opened    </OPTION>
+<OPTION VALUE="G1-54"> Bus Station : Opened    </OPTION>
+<OPTION VALUE="G1-6"> Business Park or Centre : Opened    </OPTION>
+<OPTION VALUE="G2-6"> Business Park or Centre : Area (ha)    </OPTION>
+<OPTION VALUE="G1-17"> Canal : Length (km)    </OPTION>
+<OPTION VALUE="G2-17"> Canal : Opened    </OPTION>
+<OPTION VALUE="G1-75"> Castle or Tower : Built    </OPTION>
+<OPTION VALUE="G1-48"> Cemetery or Crematorium : Opened    </OPTION>
+<OPTION VALUE="G2-48"> Cemetery or Crematorium : Area (ha)    </OPTION>
+<OPTION VALUE="G1-58"> Central Government Building : Opened    </OPTION>
+<OPTION VALUE="G1-39"> Channel, Sound or Strait : Length (km)    </OPTION>
+<OPTION VALUE="G2-39"> Channel, Sound or Strait : Width (km)    </OPTION>
+<OPTION VALUE="G1-59"> Court : Built    </OPTION>
+<OPTION VALUE="G1-80"> Distillery : Opened    </OPTION>
+<OPTION VALUE="G2-80"> Distillery : Output (bottles)    </OPTION>
+<OPTION VALUE="G1-72"> Entertainment Venue : Opened    </OPTION>
+<OPTION VALUE="G2-72"> Entertainment Venue : Capacity    </OPTION>
+<OPTION VALUE="G1-36"> Estate : Area (ha)    </OPTION>
+<OPTION VALUE="G1-14"> Estuary : Length (km)    </OPTION>
+<OPTION VALUE="E"> Event : Date   </OPTION>
+<OPTION VALUE="G1-8"> Exhibition or Centre : Opened    </OPTION>
+<OPTION VALUE="G2-8"> Exhibition or Centre : Closed    </OPTION>
+<OPTION VALUE="G1-22"> Forest or Wood : Area (ha)    </OPTION>
+<OPTION VALUE="G1-4"> Garden or Park : Area (ha)    </OPTION>
+<OPTION VALUE="G2-4"> Garden or Park : Created    </OPTION>
+<OPTION VALUE="G1-41"> Golf Course or Club : Opened    </OPTION>
+<OPTION VALUE="G2-41"> Golf Course or Club : Length (yards)    </OPTION>
+<OPTION VALUE="G1-81"> Harbour : Built    </OPTION>
+<OPTION VALUE="G2-81"> Harbour : Cargo Handled per Year (tonnes)    </OPTION>
+<OPTION VALUE="G1-11"> Hill : Height (m)    </OPTION>
+<OPTION VALUE="G1-12"> Hill Range : Height (m)    </OPTION>
+<OPTION VALUE="G2-12"> Hill Range : Area (sq. km)    </OPTION>
+<OPTION VALUE="G1-9"> Historic Building : Built    </OPTION>
+<OPTION VALUE="G1-60"> Hospital : Built / Opened    </OPTION>
+<OPTION VALUE="G2-60"> Hospital : Closed    </OPTION>
+<OPTION VALUE="G1-92"> Hotel or Inn : Built    </OPTION>
+<OPTION VALUE="G1-76"> House, Mansion or Palace : Built    </OPTION>
+<OPTION VALUE="G1-18"> Island : Population    </OPTION>
+<OPTION VALUE="G2-18"> Island : Area (ha)    </OPTION>
+<OPTION VALUE="G1-23"> Learned Society or Academy : Established    </OPTION>
+<OPTION VALUE="G1-61"> Library : Established    </OPTION>
+<OPTION VALUE="G1-55"> Lighthouse : Built    </OPTION>
+<OPTION VALUE="G2-55"> Lighthouse : Closed    </OPTION>
+<OPTION VALUE="G1-62"> Local Government Building : Opened    </OPTION>
+<OPTION VALUE="G1-25"> Loch or Lake : Depth (m)    </OPTION>
+<OPTION VALUE="G2-25"> Loch or Lake : Area (ha)    </OPTION>
+<OPTION VALUE="G1-77"> Lodge : Built    </OPTION>
+<OPTION VALUE="G1-31"> Military Installation : Opened    </OPTION>
+<OPTION VALUE="G2-31"> Military Installation : Closed    </OPTION>
+<OPTION VALUE="G1-82"> Mill : Opened    </OPTION>
+<OPTION VALUE="G2-82"> Mill : Closed    </OPTION>
+<OPTION VALUE="G1-83"> Mine or Quarry : Opened    </OPTION>
+<OPTION VALUE="G2-83"> Mine or Quarry : Closed    </OPTION>
+<OPTION VALUE="G1-3"> Monument : Erected    </OPTION>
+<OPTION VALUE="G1-52"> Moor or Moss : Height (m)    </OPTION>
+<OPTION VALUE="G2-52"> Moor or Moss : Area (ha)    </OPTION>
+<OPTION VALUE="G1-10"> Mountain : Height (m)    </OPTION>
+<OPTION VALUE="G1-13"> Mountain Range : Height (m)    </OPTION>
+<OPTION VALUE="G2-13"> Mountain Range : Area (sq. km)    </OPTION>
+<OPTION VALUE="G1-1"> Museum or Gallery : Opened    </OPTION>
+<OPTION VALUE="G1-45"> Nature Reserve : Designated    </OPTION>
+<OPTION VALUE="G2-45"> Nature Reserve : Area (ha)    </OPTION>
+<OPTION VALUE="G1-84"> Oil or Gas Facility : Opened    </OPTION>
+<OPTION VALUE="G2-84"> Oil or Gas Facility : Closed    </OPTION>
+<OPTION VALUE="G1-78"> Other Domestic Building : Built    </OPTION>
+<OPTION VALUE="G1-85"> Other Industrial or Commercial Site : Opened    </OPTION>
+<OPTION VALUE="G1-71"> Other Sports Venue : Opened    </OPTION>
+<OPTION VALUE="G1-57"> Other Transport Infrastructure : Opened    </OPTION>
+<OPTION VALUE="G1-37"> Parish : Population    </OPTION>
+<OPTION VALUE="G1-46"> Pass : Height (m)    </OPTION>
+<OPTION VALUE="G1-34"> Peninsula : Length (km)    </OPTION>
+<OPTION VALUE="G2-34"> Peninsula : Width (km)    </OPTION>
+<OPTION VALUE="PB"> People : Birth   </OPTION>
+<OPTION VALUE="PD"> People : Death   </OPTION>
+<OPTION VALUE="G1-5"> Physiographic District : Population    </OPTION>
+<OPTION VALUE="G2-5"> Physiographic District : Area (ha)    </OPTION>
+<OPTION VALUE="G1-63"> Place of Worship : Built    </OPTION>
+<OPTION VALUE="G1-32"> Power Station : Opened    </OPTION>
+<OPTION VALUE="G2-32"> Power Station : Power Output (MW)    </OPTION>
+<OPTION VALUE="G1-64"> Prison : Built    </OPTION>
+<OPTION VALUE="G1-70"> Race Course : Opened    </OPTION>
+<OPTION VALUE="G2-70"> Race Course : Length (km)    </OPTION>
+<OPTION VALUE="G1-21"> Railway : Opened    </OPTION>
+<OPTION VALUE="G2-21"> Railway : Length (km)    </OPTION>
+<OPTION VALUE="G1-28"> Railway Station : Opened    </OPTION>
+<OPTION VALUE="G2-28"> Railway Station : Closed    </OPTION>
+<OPTION VALUE="G1-65"> Research Institute : Established    </OPTION>
+<OPTION VALUE="G1-33"> Reservoir : Opened    </OPTION>
+<OPTION VALUE="G2-33"> Reservoir : Depth (m)    </OPTION>
+<OPTION VALUE="G1-16"> River : Length (km)    </OPTION>
+<OPTION VALUE="G2-16"> River : Catchment Size (sq. km)    </OPTION>
+<OPTION VALUE="G1-27"> Road or Street : Constructed    </OPTION>
+<OPTION VALUE="G2-27"> Road or Street : Length (km)    </OPTION>
+<OPTION VALUE="G1-66"> School : Established    </OPTION>
+<OPTION VALUE="G1-38"> Sea Loch or Inlet : Length (km)    </OPTION>
+<OPTION VALUE="G2-38"> Sea Loch or Inlet : Width (km)    </OPTION>
+<OPTION VALUE="S"> Settlement : Population (1991)   </OPTION>
+<OPTION VALUE="G1-73"> Shopping Centre : Opened    </OPTION>
+<OPTION VALUE="G2-73"> Shopping Centre : Area (sq. m)    </OPTION>
+<OPTION VALUE="G1-69"> Ski Centre : Opened    </OPTION>
+<OPTION VALUE="G2-69"> Ski Centre : Length (m)    </OPTION>
+<OPTION VALUE="G1-91"> Sports or Leisure Complex : Opened    </OPTION>
+<OPTION VALUE="G1-7"> Stadium : Opened    </OPTION>
+<OPTION VALUE="G2-7"> Stadium : Capacity    </OPTION>
+<OPTION VALUE="G1-90"> Swimming Pool : Opened    </OPTION>
+<OPTION VALUE="G2-90"> Swimming Pool : Length (m)    </OPTION>
+<OPTION VALUE="G1-67"> University or College : Established    </OPTION>
+<OPTION VALUE="G1-87"> Urban District : Population    </OPTION>
+<OPTION VALUE="G2-87"> Urban District : Area (sq. km)    </OPTION>
+<OPTION VALUE="G1-24"> Valley : Length (km)    </OPTION>
+<OPTION VALUE="G1-56"> Walking Route or Way : Length (km)    </OPTION>
+<OPTION VALUE="G2-56"> Walking Route or Way : Opened    </OPTION>
+<OPTION VALUE="G1-26"> Waterfall : Height (m)    </OPTION>
+<OPTION VALUE="G1-47"> Whirlpool : Size    </OPTION>
+</SELECT></FONT></TD><TD>
+<FONT COLOR="#000080" SIZE=-1 FACE="Verdana,Arial,Helvetica,sans-serif">
+between lower limit:</FONT></TD>
+<TD><FONT COLOR="#000080" SIZE=-1 FACE="Verdana,Arial,Helvetica,sans-serif">
+<INPUT NAME="KEY1" TYPE="TEXT" SIZE=8 MAXSIZE=8>
+</FONT></TD>
+<TD><FONT COLOR="#000080" SIZE=-1 FACE="Verdana,Arial,Helvetica,sans-serif">
+and upper limit:
+</FONT></TD>
+<TD><FONT COLOR="#000080" SIZE=-1 FACE="Verdana,Arial,Helvetica,sans-serif">
+<INPUT NAME="KEY2" TYPE="TEXT" SIZE=8 MAXSIZE=8></FONT></TD></TR>
+<TR><TD>&nbsp;</TD><TD>&nbsp;</TD>
+<TD><FONT COLOR="#000080" SIZE=-1 FACE="Verdana,Arial,Helvetica,sans-serif">
+e.g. 1000</FONT></TD><TD>&nbsp;</TD>
+<TD><FONT COLOR="#000080" SIZE=-1 FACE="Verdana,Arial,Helvetica,sans-serif">
+e.g. 2000</FONT></TD></TR></TABLE><P>
+
+<LI>Select the council areas you want to include in your search.
+You can choose 'All of Scotland' to include all council areas.
+(This choice has no effect for 'people' and 'event' statistics).
+<P><SELECT NAME="KEY3" SIZE="1">
+<OPTION SELECTED="selected" VALUE="99"> All of Scotland </OPTION>
+
+<OPTION VALUE="1"> Aberdeen City </OPTION>
+<OPTION VALUE="2"> Aberdeenshire </OPTION>
+<OPTION VALUE="3"> Angus </OPTION>
+<OPTION VALUE="4"> Argyll and Bute </OPTION>
+<OPTION VALUE="13"> City of Edinburgh </OPTION>
+<OPTION VALUE="5"> Clackmannanshire </OPTION>
+<OPTION VALUE="7"> Dumfries and Galloway </OPTION>
+<OPTION VALUE="8"> Dundee City </OPTION>
+<OPTION VALUE="9"> East Ayrshire </OPTION>
+<OPTION VALUE="10"> East Dunbartonshire </OPTION>
+<OPTION VALUE="11"> East Lothian </OPTION>
+<OPTION VALUE="12"> East Renfrewshire </OPTION>
+<OPTION VALUE="14"> Falkirk </OPTION>
+<OPTION VALUE="15"> Fife </OPTION>
+<OPTION VALUE="16"> Glasgow City </OPTION>
+<OPTION VALUE="17"> Highland </OPTION>
+<OPTION VALUE="18"> Inverclyde </OPTION>
+<OPTION VALUE="19"> Midlothian </OPTION>
+<OPTION VALUE="20"> Moray </OPTION>
+<OPTION VALUE="21"> North Ayrshire </OPTION>
+<OPTION VALUE="22"> North Lanarkshire </OPTION>
+<OPTION VALUE="30"> Orkney </OPTION>
+<OPTION VALUE="23"> Perth and Kinross </OPTION>
+<OPTION VALUE="24"> Renfrewshire </OPTION>
+<OPTION VALUE="25"> Scottish Borders </OPTION>
+<OPTION VALUE="31"> Shetland </OPTION>
+<OPTION VALUE="26"> South Ayrshire </OPTION>
+<OPTION VALUE="27"> South Lanarkshire </OPTION>
+<OPTION VALUE="28"> Stirling </OPTION>
+<OPTION VALUE="6"> West Dunbartonshire </OPTION>
+<OPTION VALUE="29"> West Lothian </OPTION>
+<OPTION VALUE="32"> Western Isles </OPTION>
+</SELECT></P>
+<LI>Click on the button below to start your search.
+<P><INPUT TYPE="SUBMIT" VALUE="Search"></FORM></P>
+</UL></FONT></FONT><BR></BLOCKQUOTE></TD></TR>
+<TR><TD BGCOLOR="#FFCC33">&nbsp;</TD>
+<TD BGCOLOR="#FFFFCC" ALIGN="CENTER">
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+
+<A HREF="/scotgaz/copyright.html">&#169;1995-2007
+The Editors of The Gazetteer for Scotland</A><BR> Supported by:
+
+<A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/rsgs/">The Royal Scottish Geographical Society,<BR></A>&nbsp;
+<A HREF="http://www.geos.ed.ac.uk/geography/">The Institute of Geography, University of Edinburgh.</A>&nbsp;
+<BR><BR></FONT>
+</TD></TR></TABLE></BODY></HTML>
+
+
+5sm=heUa

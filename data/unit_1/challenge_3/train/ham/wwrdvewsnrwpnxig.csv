@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title></title>
+<link rel="stylesheet" type="text/css" name="MainStyle" id="MainStyle" href="http://www.rothamsted.ac.uk/Includes/RResCentres.css" media="screen">
+<style>
+h3{border-bottom: 1px dotted #003C23;}
+hr{height: 1px; background-color: #003C23;color: #003C23;}
+li {color: #003C23;}
+li span {color:black;}
+</style>
+</head>
+
+<body bgcolor="#003C23" onload="FixHeight();" onresize="FixHeight();">
+
+
+<table border="0" width="100%" bgcolor="#FFFFFF" style="min-height: 100%;" cellpadding="0" cellspacing="0">
+
+<tr height="20" style=" background-color: #003C23; color: #FFFFFF;">
+<td align="left">
+&nbsp;
+<a class="TopBarLinks" href="index.php">Rothamsted Centres</a>&nbsp;|&nbsp;
+<a class="TopBarLinks" href="http://www.rothamsted.ac.uk/corporate/ContactUs.html">Contact Us</a>&nbsp;|&nbsp;
+<a class="TopBarLinks" href="http://www.rothamsted.ac.uk/corporate/Links.html">Links</a>&nbsp;|&nbsp;
+<a class="TopBarLinks" href="http://www.rothamsted.ac.uk/corporate/Breedquack.html">Feedback</a>&nbsp;|&nbsp;
+<a class="TopBarLinks" href="http://www.rothamsted.ac.uk/corporate/Disclaimer.html">Disclaimer</a>&nbsp;|&nbsp;
+<a class="TopBarLinks" href="http://www.rothamsted.ac.uk/corporate/PressReleases/PressReleases.html">News</a>&nbsp;|&nbsp;
+<a class="TopBarLinks" href="http://www.rothamsted.ac.uk/corporate/rss/rss.php">RSS</a>
+</td>
+<td align="right">
+
+<form action="http://www.rothamsted.bbsrc.ac.uk/cgi-bin/htsearch" method="post" name="RResSearch" id="RResSearch" style="display: inline;">
+    <input type="hidden" name="method" value="and">
+    <input type="hidden" name="format" value="builtin-long">
+    <input type="hidden" name="sort" value="score">
+    <input type="hidden" name="restrict" value="">
+    <input type="hidden" name="exclude" value="">
+    <input type="hidden" name="config" value="rothamsted">
+    <input type="text" name="words" id="words" value="Search website" size="20" style="font-size:11px; border: 1px solid #FFFFFF;" value="Search website" onclick="this.value='';" />
+<input type="submit" value="Search" style="font-size:11px;" style="border: 1px solid #FFFFFF;" />
+</form>
+&nbsp;
+</td>
+</tr>
+
+<tr height="86">
+<td colspan="2">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td width="65" rowspan="5" valign="top"><a title="Click for Rothamsted Research home page" href="http://www.rothamsted.ac.uk/"><img src="http://www.rothamsted.ac.uk/Graphics/RR-Logo86px.gif" align="left" border="0" /></a></td>
+
+<td width="8" rowspan="5" valign="top" bgcolor="#003C23">&nbsp;</td>
+
+
+<td id='BCCTopLink' width='' class='BCC1'>&nbsp;Bioenergy and Climate Change&nbsp;</td> 
+</tr> 
+<tr><td id='CGITopLink' width='' class='CGI1'>&nbsp;Crop Genetic Improvement&nbsp;</td> 
+</tr> 
+<tr><td id='SEFTopLink' width='' class='SEF1'>&nbsp;Soils and Ecosystem Functions&nbsp;</td> 
+</tr> 
+<tr><td id='PDMTopLink' width='' class='PDM1'>&nbsp;Sustainable Pest and Disease Management&nbsp;</td> 
+</tr> 
+<tr><td id='MCBTopLink' width='' class='MCB1'>&nbsp;Mathematical and Computational Biology&nbsp;</td> 
+</tr> 
+</table>
+</td>
+</tr>
+
+
+<tr height='20'><td colspan='2' style='color: #FFFFFF; background-color: #003C23;'>&nbsp;</td>
+</tr>
+
+<tr>
+<td id="MainBody" colspan="2" style="background-image: url(http://www.rothamsted.ac.uk/Graphics/centres/Corner.jpg); background-position: bottom right; background-repeat: no-repeat; padding-top: 10px; padding-left: 10px; padding-right: 150px;">
+
+<img id="Spacer" width="1" align="left" style="visibility: hidden;" alt="Spacer" />
+
+
+<p>The Institute focuses its activities in five high-profile and integrated strategic areas of sustainability science. Five Rothamsted Research Centres address the primary grand challenges that face science in support of land-based economies in both the developed and the developing world. Efficient use of finite land resources for enhanced production of food, energy and other renewable crop-based products requires new scientific knowledge and understanding, particularly with the necessity to maintain bio-diverse, functional, agro-ecosystems and simultaneously reduce greenhouse gas emissions, water demand and reliance on fossil-fuels. </p>
+
+<ul>
+<li>The impacts of climate change on agriculture and approaches to its mitigation will be addressed in the <strong>Centre for Bioenergy and Climate Change</strong></li>
+<li>Development of arable crops with improved resource use, performance, yield and end-use quality (including enhanced human health benefits) will be addressed in the <strong>Centre for Crop Genetic Improvement</strong></li>
+<li>The vital functions performed by soils and agricultural ecosystems will be addressed in the <strong>Centre for Soils and Ecosystem Functions</strong></li> 
+<li>Effective and lasting approaches to reducing the impacts of pest and disease will be addressed in the <strong>Centre for Sustainable Pest and Disease Management</strong>. </li>
+<li>Quantification, prediction and the ability to derive value from large volumes of data are increasingly important in the biological sciences; the <strong>Centre for Mathematical and Computational Biology</strong> will be closely integrated with the other four Centres to deliver new tools, analytical approaches and scientific insights.</li>
+</ul>
+
+<div align="center">
+<img src="images/CentresVenn.gif" alt="Schematic of the relationships between the Research Centres" />
+<br />
+Schematic of the relationships between the Research Centres
+</div>
+				<script type='text/javascript' language='javascript'>
+					document.getElementById('MainBody').style.backgroundImage =  'url(images/CGICorner.jpg)';
+				</script>
+			<p id="WTF">&nbsp;</p>
+
+</td>
+</tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="javascript">
+function FixHeight(){
+	//get window height
+	if (self.innerWidth){
+		ScreenHeight = self.innerHeight;
+	} else if (document.documentElement && document.documentElement.clientWidth){
+		ScreenHeight = document.documentElement.clientHeight;
+	} else if (document.body){
+		ScreenHeight = document.body.clientHeight;
+	}
+	//top rows: fixed banner: 20 logo and choice = 100 -> 130
+	if (navigator.appName == "Microsoft Internet Explorer"){ 
+		var MainCellMinHeight = eval(ScreenHeight - 136);
+	} else {
+		var MainCellMinHeight = eval(ScreenHeight - 136);
+	}
+	document.getElementById('Spacer').height =  MainCellMinHeight;
+	//document.getElementById('WTF').innerHTML =  MainCellMinHeight;
+	//document.getElementById('Spacer').width =  10;
+	//document.getElementById('Spacer').style.visibility =  'visible';
+}
+document.title = "Rothamsted Research Centres";
+</script>
+</body>
+</html>
+
+
+e /fdi o/eF

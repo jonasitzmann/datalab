@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="En">
+
+<head>
+<title>:: Welcome to the Glasgow School of Art ::</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="gsa, glasgow school of art, glasgow, art school, fine art, photography, graphic design, charles rennie mackintosh, c r mackintosh, architecture, architect, digital design studio, dds, ceramics, art, design, interior design, product design, product design engineering, silversmithing, jewellery, textiles, visual communications, research, enterprise, centre for advanced textiles, cat, c.a.t., idri, i.d.r.i, mearu, m.e.a.r.u., mackintosh shop, drawing institute, mphil, phd, ma, 2d, 3d, motion graphics, m.des, mdes, textiles as fashion, fashion, fashion design, welcome, glasgow school of art, gsa, flash, html">
+<!--
+Included for historical purposes.  Removed by MB (2006/02/14)
+script language="JavaScript" type="text/JavaScript" src="http://www.reinvigorate.net/archive/app.bin/jsinclude.php?9249"
+-->
+<script>version=parseInt(navigator.appVersion);if (navigator.appVersion.indexOf('5.')>-1){version=5};if (navigator.appVersion.indexOf('6.')>-1){version=6}; if (navigator.appVersion.indexOf('7.')>-1){version=7}; browser='OTHER'; if (navigator.appName=='Netscape'){browser='NS'+version;} if (navigator.appName=='Microsoft Internet Explorer'){browser='MSIE'+version;} if (navigator.appVersion.indexOf('MSIE 3')>0) {browser='MSIE3';} if(browser == 'NS5'){browser='NS6'};if (browser=='NS3') {window.location='http://www.gsa.ac.uk/index_netscape.html'}if (browser=='NS4') {window.location='http://www.gsa.ac.uk/index_netscape.html'}</script>
+<script language="JavaScript" type="text/javaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+function randomNumber(limit){
+  return Math.floor(Math.random()*limit);
+}
+// * Dependencies * 
+// this function requires the following snippets:
+// JavaScript/Randomizers/randomNumber
+function randomBgImage()
+{
+  var randy = randomNumber(10)+1;
+	// WARNING!  TYPO AHEAD: "backg(r)ound"  Name new images without the "r".
+  return "backgound" + randy +".jpg";
+}
+bgImage = randomBgImage();
+//-->
+</script>
+<link href="css/netscapeSplash.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+@import url(css/splash.new.css);
+</style>
+<style>
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-align: center;
+	/* part 1 of 2 centering hack */
+	}
+#centred {
+	width: 760px; 
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	
+	/* opera does not like 'margin:20px auto' */
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 760px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 760px;
+	}
+html>body #centred {
+	width: 760px; /* ie5win fudge ends */
+	}
+</style>
+</head>
+<body>
+
+<table width="100%" height="95%" border="0" cellpadding="0" cellspacing="0" align="center" summary="This table displays the choices for the different versions of the GSA site">
+  <tr> 
+    <td valign="middle" align="center">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="420" summary="This table also displays the choices for the different versions of the GSA site">
+        <tr> 
+  <td>&nbsp;</td>
+              
+          <td valign="middle" align="center"> 
+            <div id="imageBack">
+<script language="JavaScript" type="text/javaScript">document.write('<img src="index_images/'+bgImage+'" alt="" width="760" height="420" border="0">');</script>
+<noscript>
+<img src="index_images/backgound1.jpg" alt="" width="760" height="420" border="0">
+</noscript>
+
+<div id="logo"><img src="index_images/GSA_LOGO.gif" alt="The Glasgow School of Art logo" title = "The Glasgow School of Art logo" width="274" height="55"></div>
+
+<div class="textElement" id="enterFlash">
+<a href="gsa.cfm?version=flash" title="Enter Flash site">ENTER</a>
+</div>
+
+<div class="textElement" id="getFlash">
+<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank" title="Flash 8 download">GET FLASH</a>
+</div>
+
+<div class="textElement" id="enterHtml">
+<a href="gsa.cfm?version=html" title="Enter HTML site">HTML</a>
+</div>
+
+<div class="textElement" id="textOnly">
+<a href="gsa.cfm?version=accessible" title="Enter text only site">TEXT ONLY</a>
+</div>
+
+<div class="textElement" id="textOnlyInfo">
+Text Only Version is recommended for visually impaired users and people using screen readers.
+</div>
+
+<div id="chinese"><a href="language/ch_overview.html"><img src="index_images/flag_chinese.gif" alt="Chinese flag, enter chinese translation" width="17" height="17" border="0" title = "Chinese flag, click here for chinese translation"></a></div>
+<div id="japanese"><a href="language/ja_overview.html"><img src="index_images/flag_japan.gif" alt="Japanese flag, enter Japanese translation" width="17" height="17" border="0" title = "Japanese flag, click here for Japanese translation"></a></div>
+<div id="matrix"><img src="index_images/matrix_white.gif" alt="" width="93" height="55"></div>
+<div id="mexico" style="position:absolute; left:692px; top:181px; width:17px; height:17px; z-index:11"><a href="language/esp01.html"><img src="index_images/flag_mex.gif" alt="Mexican flag, click here for Mexican translation" width="17" height="17" border="0"></a></div>
+<div id="spain" style="position:absolute; left:711px; top:181px; width:17px; height:17px; z-index:20"><a href="language/esp01.html"><img src="index_images/flag_esp.gif" alt="Spanish flag, click here for Spanish translation" width="17" height="17" border="0"></a></div>
+<div id="southkorea" style="position:absolute; left:730px; top:181px; width:17px; height:17px; z-index:22"><a href="language/sk_overview.html"><img src="index_images/flag_south_korea.gif" alt="South Korean flag, click here for South Korean translation" width="17" height="17" border="0" title="South Korean flag, click here for South Korean translation"></a></div>
+</div>
+</td>
+  <td>&nbsp;</td>
+            </tr>
+          </table>
+	</td>
+  </tr>
+
+</table>
+</body>
+</html>
+
+
+
+c hs/o>Evi-2

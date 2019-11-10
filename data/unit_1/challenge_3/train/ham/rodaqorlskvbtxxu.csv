@@ -1,0 +1,559 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<HTML><!-- InstanceBegin template="/Templates/PostDWindex.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<TITLE>Mike Adams</TITLE>
+<!-- InstanceEndEditable --> 
+
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+
+<link rel='stylesheet' type='text/css' href='http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStyle.css' media="screen">
+<link rel="stylesheet" href="http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStylePrint.css" type="text/css" media="print" />
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<script language="JavaScript" type="text/JavaScript" src="/Includes/TemplateScriptTop.js"></script>
+</HEAD>
+<BODY background='http://www.rothamsted.bbsrc.ac.uk/Graphics/InternetBackground.gif' 
+onLoad='ConfigurePage();' onResize='ConfigurePage();'>
+
+<div id="LeftSection" tabindex="1" onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')">
+<a href='http://www.rothamsted.bbsrc.ac.uk/index.html'>
+<img src='http://www.rothamsted.bbsrc.ac.uk/Graphics/LogoLarge.gif' alt='Click for RRes home page' width="148" height="195" border='0' style="position: absolute; top: 10px; left: 10px;"> 
+</a> 
+
+<form action='http://www.rothamsted.bbsrc.ac.uk/cgi-bin/htsearch' method='post' name='RResSearch' id='RResSearch'>
+    <input type='hidden' name='method' value='and'>
+    <input type='hidden' name='format' value='builtin-long'>
+    <input type='hidden' name='sort' value='score'>
+    <input type='hidden' name='restrict' value=''>
+    <input type='hidden' name='exclude' value=''>
+    <input type='hidden' name='config' value='rothamsted'>
+    <input class='SearchBox' type='text' name='words' id='words' value='Search website' 
+onClick='ClearSearchBox()' tabindex="2" title="Type a search term here and press enter">
+<input type="submit" value="Go!" class="GoButton" />
+</form>
+
+<div tabindex="4" id="ScienceLinks" style="position:absolute; left:10px; top:228px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+>Science 
+  Links</div>
+
+<div tabindex="5" id="PrinterFriendlyVersion" style="position:absolute; left:10px; top:247px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="PrintVersion();" onKeyPress="PrintVersion();" >Printer 
+  friendly version</div>
+
+</div>
+
+<div tabindex="6" id="Disclaimer" style="position:absolute; left:10px; bottom:30px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+>Disclaimer</div>
+
+<div tabindex="7" id="MakeComments" style="position:absolute; left:10px; bottom:10px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+>Make comments</div>
+
+
+
+<div class='Category' style='left: 160px;' id="Category1" tabindex="8"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>About us</div>
+
+<div class='Category' style='left: 260px;' id="Category2" tabindex="19" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Resources</div>
+
+<div class='Category' style='left: 360px;' id="Category3" tabindex="30" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Research</div>
+
+<div class='Category' style='left: 460px;' id="Category4" tabindex="41"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Into practice</div>
+
+<div class='Category' style='left: 560px;' id="Category5" tabindex="52" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>For the public</div>
+
+<div class='Category' style='left: 660px;' id="Category6" tabindex="62" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+>Careers</div>
+
+<div id="MenuSection1" class="MenuDetails" style="z-index:1; visibility: hidden;"> 
+
+  <blockquote style="position:relative; left: -40px; "> <a class="MainMenuLink" tabindex="9" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Introduction.html">Mission of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Origins.html">Origins of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/CompanyInformation.html">Company Information</a><br />	
+    <a class="MainMenuLink" tabindex="11" href="http://www.rothamsted.bbsrc.ac.uk/corporate/ContactUs.html">Contact Us</a><br />
+    <a class="MainMenuLink" tabindex="12" href="http://www.rothamsted.bbsrc.ac.uk/corporate/AnnualReports.html">Annual Reports</a><br />
+    <a class="MainMenuLink" tabindex="13" href="http://www.rothamsted.bbsrc.ac.uk/corporate/PressReleases/PressOffice.html">Press Office</a><br />
+    <a class="MainMenuLink" tabindex="14" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Location.html">Directions And Map of Campus</a><br />
+    <a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/OwnershipAndFunding.html">Ownership and Funding</a><br />
+	<a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/LawesAgriculturalTrust.html">Lawes Agricultural Trust</a><br />
+    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Strategy.html">The Next Decade</a><br />
+	    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/StrategicPlan.html">Strategic Plan 2005-2010</a><br />
+    <a class="MainMenuLink" tabindex="17" href="http://www.rothamsted.bbsrc.ac.uk/corporate/SeniorManagement.html">Senior Management</a><br />
+    <a class="MainMenuLink" tabindex="18" href="http://www.rothamsted-international.org">Rothamsted International</a> </blockquote>
+</div>
+
+<div id="MenuSection2" class="MenuDetails" style="z-index:2; visibility: hidden;"> 
+  <!--<h4>Resources</h4>-->
+  <blockquote style="position:relative; left: 50px; "> <a class="MainMenuLink" tabindex="20" href="http://www.rothamsted.bbsrc.ac.uk/resources/ResourcesAtRRes.html">Resources 
+    at Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="21" href="http://www.rothamsted.bbsrc.ac.uk/resources/RResPromo.html">Rothamsted Research Promotional 
+    video (18Mb)</a><br />
+    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/LongTermExperiments.html">Long Term Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/ClassicalExperiments.html">Classical Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/eRA/ ">Electronic Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/resources/TheRothamstedArchive.html">Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="24" href="http://www.rothamsted.bbsrc.ac.uk/resources/library/">Rothamsted Library</a><br />
+    <a class="MainMenuLink" tabindex="25" href="http://www.rothamsted.bbsrc.ac.uk/resources/ConferenceFacilities.html">Conference Facilities</a><br />
+    <a class="MainMenuLink" tabindex="26" href="http://www.rothamsted.bbsrc.ac.uk/resources/rmlmanor/index.htm">Rothamsted Manor</a><br />
+    <a class="MainMenuLink" tabindex="27" href="http://www.rothamsted.bbsrc.ac.uk/resources/RothamstedFarms.html">Rothamsted Farms</a><br />
+    <a class="MainMenuLink" tabindex="28" href="http://www.rothamsted.bbsrc.ac.uk/resources/TimeLapse.html">Time-lapse Video of the Construction of the Centenary Building</a><br />
+    <a class="MainMenuLink" tabindex="29" href="http://www.rothamsted.bbsrc.ac.uk/resources/CentenaryOpening.html">Photo Gallery of the Opening of the Centenary Building</a> <br />
+    <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/aen/ecn/">Local Weather and the Environmental Change Network</a> 	
+	</blockquote>
+</div>
+
+<div id="MenuSection3" class="MenuDetails" style="z-index:3; visibility: hidden;"> 
+  <!--<h4>Research</h4>-->
+  <blockquote style="position:relative; left: 150px; "> 
+  <!--<a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres.php">Research Centres</a><br />-->
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres/">Research Centres</a><br />  
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html">Research Overview</a><br />
+     <a class="MainMenuLink" tabindex="31" href="http://www.rothamsted.bbsrc.ac.uk/Research/RResQualityStatement.pdf">Rothamsted Research Quality Statement</a> (PDF)<br />
+    <a class="MainMenuLink" tabindex="32" href="http://www.rothamsted.bbsrc.ac.uk/Research/FeaturedProjects.html">Featured Projects</a><br />
+    <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Conferences.html">Conferences and Meetings</a> <br />
+	 <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Publications/">Publications</a> <br />
+	
+	<b>Research Departments:</b><br />
+    <a class="MainMenuLink" tabindex="34" href="http://www.rothamsted.bbsrc.ac.uk/broom/">Applied Crop Sciences</a> (Broom's Barn)<br />
+    <a class="MainMenuLink" tabindex="35" href="http://www.rothamsted.bbsrc.ac.uk/bch/">Biological Chemistry</a><br />
+	<a class="MainMenuLink" tabindex="36" href="http://www.rothamsted.bbsrc.ac.uk/bab/">Biomathematics and Bioinformatics</a><br />		
+    <a class="MainMenuLink" tabindex="37" href="http://www.rothamsted.bbsrc.ac.uk/pie/">Plant and Invertebrate Ecology</a><br />
+    <a class="MainMenuLink" tabindex="38" href="http://www.rothamsted.bbsrc.ac.uk/ppi/">Plant Pathology and Microbiology</a><br />
+    <a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/cpi/">Plant Science</a><br />
+	
+    <a class="MainMenuLink" tabindex="40" href="http://www.rothamsted.bbsrc.ac.uk/aen/">Soil Science</a><br />
+    <!--<a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/Research/Posters.html">Scientific posters</a><br />-->
+  </blockquote>
+</div>
+
+<div id="MenuSection4" class="MenuDetails" style="z-index:4; visibility: hidden; text-align:right;"> 
+  <!--<h4>Into practice</h4>-->
+  <blockquote style="position:relative; right: 150px; "> <a class="MainMenuLink" tabindex="41" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Impact.html">Impact Over the Past 30 Years</a><br />
+	   <a class="MainMenuLink" tabindex="42" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/ClimateChange.html">Climate Change and Land Management</a><br />
+
+    <a class="MainMenuLink" tabindex="43" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/AssociatedCompanies.html">Associated Companies</a><br />
+    <a class="MainMenuLink" tabindex="44" href="http://www.rothamsted.bbsrc.ac.uk/broom/sbrindex.html">Sugar Beet Research at Broom's Barn</a><br />
+    <a class="MainMenuLink" tabindex="45" target="_blank" href="http://www.rothra.org/">Rothamsted 
+    Research Association (formerly ARIA)</a><br />
+    <a class="MainMenuLink" tabindex="46" href="http://www.rothamsted.ac.uk/insect-survey/STAphidBulletin.php">Rothamsted Insect Survey Aphid Bulletin</a><br />
+    <a class="MainMenuLink" tabindex="47" href="http://www.rothamsted.bbsrc.ac.uk/pie/wowp/">Weeds or Wild Plants?</a><br />
+    <a class="MainMenuLink" tabindex="48" href="http://www3.res.bbsrc.ac.uk/leafspot/">Light Leafspot Forecast</a><br />
+    <a class="MainMenuLink" tabindex="49" href="http://www.rothamsted.bbsrc.ac.uk/aen/sundial/sundial.htm">SUNDIAL (SimUlation of Nitrogen 
+    Dynamics In Arable Land)</a><br />
+    <a class="MainMenuLink" tabindex="50" href="http://www.rothamsted.bbsrc.ac.uk/aen/rothlime/">RothLime (Rothamsted Lime Requirement Model)</a><br /><a class="MainMenuLink" tabindex="51" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Biomarket.html">Biomarket</a><br />
+    <a class="MainMenuLink" tabindex="51" href="http://www.dessac.iacr.ac.uk">DESSAC - DEcision Support System for Arable Crops</a> 
+	</blockquote>
+</div>
+
+<div id="MenuSection5" class="MenuDetails" style="z-index:5; visibility: hidden; text-align:right;"> 
+  <!--<h4>For the public</h4>-->
+  <blockquote style="position:relative; right: 50px;"> 
+<!--  <a class="MainMenuLink" tabindex="52" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/MailingListForm.php">Join our mailing list</a><br />  -->
+  
+  <a class="MainMenuLink" tabindex="53" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/PublicEvents.html">Public 
+    Events</a><br />
+    <a class="MainMenuLink" tabindex="54" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/EventsForSchools.html">Resources for 
+    Schools</a><br />
+	
+	    <a class="MainMenuLink" tabindex="55" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/ScienceSnapshots.html">Science Snapshots</a><br />
+
+    <a class="MainMenuLink" tabindex="56" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/Exhibitions.html">Rothamsted Exhibitions</a><br />
+    <a class="MainMenuLink" tabindex="57" href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/">DeBug - Interactive Insects</a><br />
+	
+
+    <a class="MainMenuLink" tabindex="58" href="http://www.rothamsted.bbsrc.ac.uk/notebook/index.html">Molecular Biology Notebook (teaching 
+    resource)</a><br />
+
+    <!--<a class="MainMenuLink" tabindex="59" href="http://www.rothamsted.bbsrc.ac.uk/sportsday/">BBSRC sports day 2004</a><br />-->
+
+
+    <strong>Links external to Rothamsted Research:</strong> <br />
+	
+    <a class="MainMenuLink" tabindex="59" target="_blank" href="http://www.bbsrc.ac.uk/life/buzz/Welcome.html">The 
+    Buzz of Science</a><br />
+    <a class="MainMenuLink" tabindex="60" target="_blank" href="http://www.bbsrc.ac.uk/life/comic/index.html">Science 
+    Stories Comic Book </a><br />
+    <a class="MainMenuLink" tabindex="61" target="_blank" href="http://www.bbsrc.ac.uk/life/zones/Welcome.html">Zones 
+    of Inhibition. Science, Art and Fungi</a> </blockquote>
+</div>
+
+<div id="MenuSection6" class="MenuDetails" style="z-index:6; visibility: hidden; hidden; text-align:right;"> 
+  <!--<h4>Careers</h4>-->
+  <blockquote style="position:relative; right: -40px;"> 
+  <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Vacancies.html">Vacancies</a><br />
+  
+ <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Studentships.html">PhD Studentships</a><br />
+  
+    <a class="MainMenuLink" tabindex="64" href="http://www.rothamsted.bbsrc.ac.uk/careers/WhyChooseRRes.html">Why Choose Rothamsted?</a><br />
+    <a class="MainMenuLink" tabindex="65" href="http://www.rothamsted.bbsrc.ac.uk/careers/AboutRRes.html">About Rothamsted</a><br />
+    <a class="MainMenuLink" tabindex="66" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherSites.html">Other Sites</a><br />
+    <a class="MainMenuLink" tabindex="67" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherFacilities.html">Other Facilities Available</a><br />
+    <a class="MainMenuLink" tabindex="68" href="http://www.rothamsted.bbsrc.ac.uk/careers/LearningResources.html">Learning Resources</a><br />
+    <a class="MainMenuLink" tabindex="69" href="http://www.rothamsted.bbsrc.ac.uk/careers/StaffSupport.html">Staff Support and Sports 
+    and Social Activities</a><br />
+    <a class="MainMenuLink" tabindex="70" href="http://www.rothamsted.bbsrc.ac.uk/careers/Accommodation.html">Accommodation</a><br />
+    <a class="MainMenuLink" tabindex="71" href="http://www.rothamsted.bbsrc.ac.uk/careers/PostGraduateProspectus.html">Postgraduate Information</a><br />
+    <a class="MainMenuLink" tabindex="72" href="http://www.rothamsted.bbsrc.ac.uk/careers/PhDStudentPolicy.html">PhD policy</a> </blockquote>
+</div>
+
+
+
+<div class='RightImageSection' name='RightImageSection' id='RightImageSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+  <img src='' name='RandomImage' width='200' height='550' id='RandomImage' alt='Random image'> 
+</div>
+
+<div id="SubMenuSection" class="SubMenuSection"> 
+<!-- InstanceBeginEditable name="SubmenuRegion" -->
+  <img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/">PPM home page</a>
+<div align="center"><strong>Programmes</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppbtop.html">Pathogen Population Biology and Disease Management</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/wptop.html">Wheat pathogenesis</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/rhizo.html">Rhizospere Biology</a>
+<div align="center"><strong>Departmental units</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/bioimage.html">Centre for Bioimaging</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/gpc/index.htm">Global Plant Clinic</a><br />
+<div align="center"><strong>Links</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/staff/ppistaff.html">Who's who in PPM</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppigallery.html">Pest and disease gallery</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/pplinks.html">Plant pathology links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/glinks.html">General links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppi_form.html">Leave a comment or ask a question</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="http://local-info.rothamsted.bbsrc.ac.uk/divisions/ppi/">PPM Intranet (RRes only)</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/vacs.html">Vacancies within PPM Department</a>
+<!-- InstanceEndEditable --> 
+</div>
+
+<div class='MainSection' name='MainSection' id='MainSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+
+  <!-- InstanceBeginEditable name="MainSectionRegion" --> 
+<table width="500">
+  <tr>
+	<td align="left">
+	<h2>Dr. Mike Adams</h2>
+		  
+      <P>Retired Principal Investigator</P>
+       <P>Honorary Professor, Zhejiang Academy of Agricultural Sciences, Hangzhou, People's Republic of China</P>
+
+	</td>
+	<td align="left" valign="middle">
+		<img src="/ppi/pics/new/Mike_Adams.jpg" width=200 alt="Image of Mike Adams" border="0">
+	</td>
+	</tr>
+	
+	<tr>
+	<td><img src="../staff/emailgifs/mja.gif" alt="Mike Adams' email address" border="0">
+	</td>
+	</tr>
+  </table>
+
+
+<hr />
+<DIV ALIGN="center"><table width="90%">
+<tr>
+<td align="center"><A HREF="#research">Old research<br />programme</A></td>
+<td align="center"><A HREF="#pictures">Related<br />pictures</A></td>
+<td align="center"><A HREF="#publications">Recent<br />publications</A></td>
+<td align="center"><A HREF="#links">Links</A></td>
+</td>
+</tr>
+</table></DIV>
+<hr /><P></P>
+<b>Notice</b>: Although I am no longer employed by Rothamsted Research, I still have an office and e-mail account and will be continuing my collaboration with Zhejiang Academy of Agricultural Sciences. This will include maintaining an interest in plant virus taxonomy and sequence analysis.<br />
+For some years I tested barley samples for mosaic virus as part of a long-running survey. I regret that we can no longer receive samples on this basis. However, <A HREF="kk.html">Dr Kostya Kanyuka</A> is still keen to obtain <i>resistant</i> barley or any wheat samples that may be infected with soil-borne viruses.<P></P>
+<hr /><P></P>
+<A NAME="research"><H3>Old research programme (until April 2006)</H3></A>
+<UL>
+<LI><B>Studies of the fungally transmitted viruses of cereals</B> (especially the bymo- and furo-viruses in Europe and China) and their vector, <I>Polymyxa graminis</I>. <P>The main aims were to investigate the mechanism of virus transmission, the epidemiology and control of the diseases, the variability in the virus genomes and the biology and ecology of the vector (traditionally regarded as a fungus but now often classified as a protist). This work was funded by BBSRC, DEFRA, H-GCA and the EU. The members of the team were: 
+<UL>
+<LI><A HREF="kk.html">Dr Kostya Kanyuka</A>: molecular virology and genetics of host plant resistance
+<LI><a href="../pics/new/Chris_Bass.jpg" target="_blank">Dr Chris Bass</a>: (50% with Kostya until September 2006)
+<LI>Dr Anna Tymon: molecular virology (until February 2006)
+<LI><a href="../pics/new/Khalid_Alhudaib.jpg" target="_blank">Khalid Alhudaib</a>: PhD student working on the P2 protein of <em>Barley mild mosaic virus</em>; jointly supervised by Mike and Kostya (until July 2006)
+<LI><a href="../pics/new/Rebecca_Lyons.jpg" target="_blank">Rebecca Lyons</a>: PhD student working on genetics of resistance to furoviruses in wheat; jointly supervised by Kim Hammond-Kosack and Kostya
+<LI><A HREF="ew.html">Dr Elaine Ward</A>: molecular and diagnostic aspects of <I>Polymyxa</I>
+<LI><a href="mjs.html">Madeleine Smith</a>: PhD student working on characterisation of ribotypes of <I>Polymyxa graminis</I>; jointly supervised by Mike and Elaine
+</UL>
+</P></LI>
+
+<LI><B>Comparative genome analysis of plant viruses</B>. <P>In collaboration with <A HREF="jfa.html">Dr John Antoniw</A>, and arising from our work on the <strong>AAB Descriptions of Plant Viruses</strong>, a comprehensive sequence database for plant (and some other) viruses has been created and software is being developed to exploit this resource. Full details of the CD-ROM marketed by AAB and the related web resources can be found on the <A HREF="http://www.dpvweb.net/">DPV Web</A> pages. I also act as advisor on plant viruses to the <A HREF="http://www.ncbi.nlm.nih.gov/genomes/VIRUSES/viruses.html">NCBI RefSeq project</A> and am the Plant virus Subcommittee Chair for the <a href="http://www.ncbi.nlm.nih.gov/ICTV/">International Committee on Taxonomy of Viruses</a> (ICTV). This work is continuing despite my retirement.</P> 
+</LI>
+
+<LI><B>Characterisation of plant viruses in China</B>. <P>This work is part of a very productive collaboration with Prof Dr Chen Jianping and colleagues at the Zhejang Academy of Agricultural Sciences, Hangzhou, People's Republic of China. Molecular and biological characterisation and phylogenetic analyses are identifying viruses of many crops in China, particularly those from the genera <I>Potyvirus</I> and <I>Carlavirus</I>. A full list of our joint publications can be found <A HREF="mja_zaas.html">here</A>.</P></LI>
+</UL>
+<hr /><P></P>
+<A NAME="pictures"><H3>Some pictures related to the barley mosaic viruses</H3></A>
+
+<table>
+<tr>
+<td>The barley mosaic viruses are usually first noticed in the winter or early spring as yellow patches in the crop. This field had a mixture of both <I>Barley yellow mosaic virus</I> (BaYMV) and <I>Barley mild mosaic virus</I> (BaMMV).</td>
+<td align ="left" valign ="middle"><img src="/ppi/pics/patch_early.jpg" width=400></td>
+</tr><tr>
+<td>The typical mosaic symptoms on the younger leaves are shown in this picture.</td>
+<td align ="left" valign ="middle"><img src="/ppi/pics/leaf_symptoms.jpg" width=400></td>
+</tr>
+<tr>
+<td>Barley mosaic viruses can be effectively controlled using resistant varieties as this photograph from a BaYMV trial in Gloucestershire, UK, shows dramatically.</td>
+<td align ="left" valign ="middle"><img src="/ppi/pics/Ntrial.jpg" width=400></td>
+</tr>
+<tr>
+<td>Composite aerial photograph of the same trial taken by Dr Vick Jordan using a model aeroplane.</td>
+<td align ="left" valign ="middle"><img src="/ppi/pics/aerial.jpg" width=400></td>
+</tr>
+<tr>
+<td>By flowering, symptoms of the mosaic viruses are usually difficult to find but crops can remain stunted as this picture illustrates. Severe infection by the mosaic viruses can result in yield losses of 30% or more.</td>
+<td align ="left" valign ="middle"><img src="/ppi/pics/patch_late.jpg" width=400></td>
+</tr>
+<tr>
+<td>Light micrograph of a typical, irregularly lobed, zoosporangium of <I>Polymyxa graminis</I> in a barley root cell (stained with trypan blue).</td>
+<td align ="left" valign ="middle"><img src="/ppi/pics/zoosporangium.jpg" width=400></td>
+</tr>
+<tr>
+<td>Light- and electron- micrographs showing the resting spore clusters ("cystosori") of <I>Polymyxa graminis</I>.</td>
+<td align ="left" valign ="middle"><img src="/ppi/pics/cystosori.jpg" width=400></td>
+</tr>
+
+</table>
+
+<hr /><P></P>
+<A NAME="publications"><H3>Publications from 2001 onwards</H3></A>
+<P></P>
+
+<P><strong>Original research papers</strong></P>
+
+<TABLE CELLPADDING=5>
+<TR><TD>YANG, J., CHEN, J., CHEN, J., &amp; ADAMS, M.J. (2001). Sequence analysis of a soil-borne wheat mosaic virus isolate from Italy shows that it is the same virus as <I>European wheat mosaic virus</I> and <I>Soil-borne rye mosaic virus</I>. <I>Science in China (Series C)</I> <B>44,</B> 216-224. [Chinese version <B>30,</B> 627-634. (2000)].</TD> <TD></TD> </TR>
+
+<TR><TD>CHEN, J., CHEN, J. &amp; ADAMS, M.J. (2001). A universal PCR primer to detect members of the <I>Potyviridae</I> and its use to examine the taxonomic status of several members of the family<I>.</I> <I>Archives of Virology</I> <B>146,</B> 757-766. </TD><TD></TD> </TR>
+
+<TR><TD>YANG, J., CHEN, J., CHEN, J., JIANG. H., ZHAO, Q. &amp; ADAMS, M.J. (2001). Sequence of a second isolate of Chinese wheat mosaic furovirus. <I>Journal of Phytopathology</I> <B>149,</B> 135-140. </TD><TD></TD></TR>
+
+<TR><TD>ADAMS, M.J., ANTONIW, J.F. &amp; MULLINS, J. (2001). Plant virus transmission by plasmodiophorid fungi is associated with distinctive transmembrane regions of virus-encoded proteins. <I>Archives of Virology</I> <B>146,</B> 1139-1153. </TD><TD></TD> </TR>
+
+<TR><TD>ZHU, H., HONG, J., YE, R., CHEN, J., YU, S. &amp; ADAMS, M.J. (2001). Sequence analysis shows that <I>Ribgrass mosaic virus</I> Shanghai isolate (RMV-Sh) is closely related to <I>Youcai mosaic virus</I>. <I>Archives of Virology</I> <B>146,</B> 1231-1238. </TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., CHEN, J., CHEN, J. &amp; ADAMS, M.J. (2001). Molecular characterisation of an isolate of <I>Dasheen mosaic virus</I> from <I>Zantedeschia aethiopica</I> in China and comparisons in the genus <I>Potyvirus</I>. <I>Archives of Virology</I> <B>146,</B> 1821-1829. </TD><TD></TD> </TR>
+
+<TR><TD>ZHANG, H., CHEN, J., LEI, J. &amp; ADAMS, M.J. (2001). Sequence analysis shows that a dwarfing disease on rice, wheat and maize in China is caused by <I>Rice black-streaked dwarf virus</I> (RBSDV).<I> European Journal of Plant Pathology</I> <B>107,</B> 563-567.</TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., CHEN, J. &amp; ADAMS, M.J. (2001). Molecular characterisation of a complex mixture of viruses in garlic with mosaic symptoms in China. <I>Archives of Virology</I> <B>146,</B> 1841-1853. </TD><TD></TD> </TR>
+
+<TR><TD>ZHANG, H., CHEN, J. &amp; ADAMS, M.J. (2001). Molecular characterisation of segments 1 to 6 of <I>Rice black-streaked dwarf virus</I> from China provides the complete genome. <I>Archives of Virology</I> <B>146, </B>2331-2339. </TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., CHEN, J. &amp; ADAMS, M.J. (2002). Characterisation of some carla- and potyviruses from bulb crops in China. <I>Archives of Virology</I> <B>147,</B> 419-428. </TD><TD></TD> </TR>
+
+<TR><TD>ZHENG, T., CHEN, J. , CHEN, J. &amp; ADAMS, M.J. (2002). The complete sequence of <I>Oat mosaic virus</I> and evidence for deletion and duplication in RNA2. <I>Archives of Virology</I> <B>147,</B> 635-642. </TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., ZHENG, H.Y., CHEN, J.P. &amp; ADAMS, M.J. (2002). Characterisation of a potyvirus and a potexvirus from Chinese scallion. <I>Archives of Virology</I> <B>147,</B> 683-693. </TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., CHEN, J. &amp; ADAMS, M.J. (2002). Variation between <I>Turnip mosaic virus</I> isolates in Zhejiang province, China and evidence for recombination. <I>Journal of Phytopathology</I> <B>150,</B> 142-145. </TD><TD></TD></TR>
+
+<TR><TD>CHEN, J., CHEN, J. &amp; ADAMS, M.J. (2002). Characterisation of potyviruses from sugarcane and maize in China. <I>Archives of Virology</I> <B>147,</B> 1237-1246. </TD><TD></TD> </TR>
+
+<TR><TD>ZHENG, H.Y., CHEN, J., CHEN, J.P., ADAMS, M.J. &amp; HOU, M.S. (2002). <I>Bean common mosaic virus</I> isolates causing different symptoms in asparagus bean in China differ greatly in the 5'-parts of their genomes. <I>Archives of Virology</I> <B>147,</B> 1257-1262. </TD><TD></TD> </TR>
+
+<TR><TD>YANG, J., CHEN, J., CHENG, Y., CHEN, J., JIANG, H., LIU, Q., YANG, K., XU, H. &amp; ADAMS, M.J. (2002). Responses of some American, European and Japanese wheat cultivars to soil-borne wheat viruses in China. <I>Agricultural Sciences in China</I> <B>1,</B> 1141-1150.</TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., CHEN, J.P., LANGEVELD, S.A., DERKS, A.F.L.M. &amp; ADAMS, M.J. (2003). Molecular characterisation of carla- and potyviruses from <I>Narcissus</I> in China. <I>Journal of Phytopathology</I> <b>151,</b> 26-29. </TD><TD></TD></TR>
+
+<TR><TD>CHEN, J., ADAMS, M.J., ZHENG, H.-Y. &amp;  CHEN, J.-P. (2003). Sequence analysis demonstrates that <I>Onion yellow dwarf virus</I> isolates from China contain a P3 region much larger than other potyviruses. <I>Archives of Virology</I> <b>148,</b> 1165-1173. </TD><TD></TD> </TR>
+
+<TR><TD>ZHAO, M.-F., CHEN, J., ZHENG, H.-Y., ADAMS, M.J. &amp;  CHEN, J.-P. (2003). Molecular analysis of <I>Zucchini yellow mosaic virus</I> isolates from Hangzhou, China. <I>Journal of Phytopathology</I> <b>151,</b> 307-311. </TD><TD></TD></TR>
+
+<TR><TD>KANYUKA, K., WARD, E &amp; ADAMS, M.J. (2003). <I>Polymyxa graminis</I> and the cereal viruses it transmits: A research challenge. <I>Molecular Plant Pathology</I> <b>4,</b> 393-406.  </TD><TD></TD></TR>
+
+<TR><TD>KUHNE, T., SHI, N., PROESELER, G., ADAMS, M. &amp; KANYUKA, K. (2003). The ability of a bymovirus to overcome the <I>rym4</I>-mediated resistance in barley correlates with a codon change in the VPg coding region on RNA1.  <I>Journal of General Virology</I> <b>84,</b> 2853-2859.</TD><TD><a href="/ppi/staff/mike_pdf/BaYMV_VPg.pdf"><img src="/ppi/pics/pdficon.gif" width="32" height="32" border="0" alt=""> Get PDF</a></TD> </TR>
+
+<TR><TD>ZHENG, H.-Y., CHEN, J., ZHAO, M.-F., LIN, L., CHEN, J.-P., ANTONIW, J.F. &amp; ADAMS, M.J. (2003). Occurrence and sequences of <I>Lily mottle virus</I> and <I>Lily symptomless virus</I> in plants grown from imported bulbs in Zhejiang province, China. <I>Archives of Virology</I> <b>148,</b> 2419-2428.</TD><TD></TD> </TR>
+
+<TR><TD>ADAMS, M.J. &amp; ANTONIW, J.F. (2004). Codon usage bias amongst plant viruses. <I>Archives of Virology</I> <b>149,</b> 113-135.</TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., ZHENG, H.-Y., LIN, L., ADAMS, M.J., ANTONIW, J.F., ZHAO, M.-F., SHANG, Y.F., &amp; CHEN, J.-P. (2004). A virus related to <I>Soybean mosaic virus</I> from <I>Pinellia ternata</I> in China and its comparison with local soybean SMV isolates. <I>Archives of Virology</I> <b>149,</b> 349-363.</TD><TD></TD> </TR>
+
+<TR><TD>CHEN, J., ZHENG, H.-Y., ANTONIW, J.F., ADAMS, M.J., CHEN, J.-P. &amp; LIN, L. (2004). Detection and classification of allexiviruses from garlic in China. <I>Archives of Virology</I> <b>149,</b> 435-445.</TD><TD></TD> </TR>
+
+<TR><TD>KANYUKA, K., LOVELL, D., MITROFANOVA, O., HAMMOND-KOSACK, K. &amp; ADAMS, M.J. (2004). A controlled environment test for resistance to <I>Soil-borne cereal mosaic virus</I> and its use to determine the mode of inheritance of the resistance in the UK wheat variety Cadenza, and to screen diverse <I>Triticum monococcum</I> genotypes for potential sources of improved disease resistance. <I>Plant Pathology</I> <b>53,</b> 154-160.</TD><TD></TD> </TR>
+
+<TR><TD>McGRANN, G.R.D. &amp; ADAMS, M.J. (2004). Investigating resistance to <I>Barley mild mosaic virus</I>. <I>Plant Pathology</I> <b>53,</b> 161-169.</TD><TD></TD> </TR>
+
+<TR><TD>LIN, L., ZHENG, H.-Y., CHEN, J., CHEN, J.-P., ZHANG, Q.-Y., ZHAO, M.-F., ANTONIW, J.F. &amp; ADAMS, M.J. (2004). A new potyvirus from tuberose (<I>Polianthes tuberosa</I>) in China. <I>Archives of Virology</I> <b>149,</b> 1469-1480.</TD><TD></TD> </TR>
+
+<TR><TD>ADAMS, M.J., ANTONIW, J.F., BAR-JOSEPH, M., BRUNT, A.A., CANDRESSE, T., FOSTER, G.D., MARTELLI, G.P., MILNE, R.G., ZAVRIEV, S.K. &amp; FAUQUET, C.M. (2004). The new plant virus family <i>Flexiviridae</i> and assessment of molecular criteria for species demarcation. <I>Archives of Virology</I> <b>149,</b> 1045-1060.</TD><TD><a href="/ppi/staff/mike_pdf/Flexiviridae.pdf"><img src="/ppi/pics/pdficon.gif" width="32" height="32" border="0" alt=""> Get PDF</a></TD></TR>
+
+<TR><TD>KANYUKA, K., McGRANN, G., ALHUDAIB, K., HARIRI, D. &amp; ADAMS, M.J. (2004). Biological and sequence analysis of a novel European isolate of <i>Barley mild mosaic virus</i> that overcomes the barley <i>rym5</i> resistance gene. <I>Archives of Virology</I> <b>149,</b> 1107-1116.</TD><TD></TD> </TR>
+
+<TR><TD>SHI, Y.-H., HONG, X.-Y., CHEN, J., ADAMS, M.J., ZHENG, H.-Y., LIN, L., QING, B.-X. &AMP; CHEN, J.-P. (2005). Further molecular characterisation of potyviruses infecting aroid plants for medicinal use in China. <I>Archives of Virology</I>, <b>150,</b> 125-135.</TD><TD></TD> </TR>
+
+<TR><TD>WARD, E., KANYUKA, K., MOTTERAM, J., KORNYUKHIN, D. &amp; ADAMS, M.J. (2005). The use of conventional and quantitative real-time PCR assays for <em>Polymyxa graminis</em> to examine host plant resistance, inoculum levels and intraspecific variation. <em>New Phytologist</em> <b>165,</b> 875-885.</TD><TD></TD></TR>
+
+<TR><TD>ADAMS , M.J., ANTONIW, J.F., &amp; FAUQUET, C.M. (2005). Molecular criteria for genus and species discrimination within the family <em>Potyviridae. Archives of Virology</em> <strong>150,</strong> 459-479. </TD><TD></TD></TR>
+
+<TR><TD>CHEN, J., SHI, Y.-H., ADAMS , M.J. &amp; CHEN, J.-P. (2005). The complete sequence of the genomic RNA of <em>Lily virus X </em> (genus <em>Potexvirus </em>). <em>Archives of Virology</em> <strong>150,</strong> 825-832.</TD><TD></TD></TR>
+
+<TR><TD>WEI, C.-B., CHEN, J., ZHANG, Q.-Y., SHI, Y.-H., LIN, L., ZHENG, H.-Y., ADAMS, M.J. &amp; CHEN, J.-P. (2005). A new potyvirus from Thunberg fritillary (<em>Fritillaria thunbergii</em> Miq.) in Zhejiang, China. <em>Archives of Virology</em> <strong>150,</strong> 1271-1280.</TD>
+<TD></TD></TR>
+
+<TR><TD>CHEN, J., WEI, C.-B., ZHENG, H.-Y., SHI, Y.-H., ADAMS, M.J., LIN, L., ZHANG, Q.-Y., WANG, S.-J. &amp; CHEN, J.-P. (2005). Characterisation of the welsh onion isolate of <em>Shallot yellow stripe virus</em> from China. <em>Archives of Virology,</em> <b>150,</b> 2091-2099. </TD><TD></TD></TR>
+
+<TR><TD>KANYUKA, K., DRUKA, A., CALDWELL, D.G., TYMON, A., McCALLUM, N., WAUGH, R. & ADAMS, M.J. (2005). Evidence that the recessive bymovirus resistance locus <em>rym</em>4 in barley corresponds to the eukaryotic translation initiation factor 4E gene. <em>Molecular Plant Pathology</em> <strong>6,</strong> 449-458.</TD><TD></TD></TR>
+
+<TR><TD>ADAMS, M.J., ANTONIW, J.F. & BEAUDOIN, F. (2005). Overview and analysis of the polyprotein cleavage sites in the family <em>Potyviridae</em>. <em>Molecular Plant Pathology</em> <strong>6,</strong> 471-487. </TD><TD></TD></TR>
+
+<TR><TD>ADAMS, M.J. &amp; ANTONIW, J.F. (2006). DPVweb: a comprehensive database of plant and fungal virus genes and genomes. <em>Nucleic Acids Research</em> <strong>34,</strong> Database issue, D382-D385. </TD><TD></TD></TR>
+
+<TR><TD>CHEN, J., ZHENG, H.-Y., SHI, Y.-H., ADAMS, M.J., WEI, C.-B., LIN, L. &amp; CHEN, J.-P. (2006). Detection and characterisation of a second potyvirus from Thunberg fritillary in China. <em>Archives of Virology</em> <strong>151,</strong> 439-447. </TD><TD></TD></TR>
+
+<TR><TD>BASS, C., HENDLEY, R., ADAMS , M.J., HAMMOND-KOSACK, K. &amp; KANYUKA, K. (2006). The <em>Sbm</em>1 locus conferring resistance to <em>Soil-borne cereal mosaic virus</em> maps to a gene-rich region on 5DL in wheat. <em>Genome</em> <strong>49,</strong> 1140-1148. </TD>
+<TD></TD></TR>
+
+<TR><TD>ZHENG, H.-Y., CHEN, J., ADAMS , M.J. &amp; CHEN, J.-P. (2006). Complete nucleotide sequence and affinities of the genomic RNA of Narcissus common latent virus (genus <em>Carlavirus </em>). <em>Archives of Virology</em> <strong>151,</strong> 1667-1672.</TD>
+<TD></TD></TR>
+
+<TR><TD>CHEN, J., SHENG, J.-L., LU Y.-W., SHI, Y.-H., ADAMS, M.J. &amp; CHEN, J.-P (2006). Complete nucleotide sequence of the genomic RNA of Narcissus yellow stripe virus from Chinese narcissus in Zhangzhou city, China. <em>Archives of Virology</em> <strong>151,</strong> 1673-1677.</TD>
+<TD></TD></TR>
+
+<TR><TD>CHEN, J., LU, Y.-W., SHI, Y.-H., ADAMS, M.J. &amp; CHEN, J.-P. (2006). Narcissus symptomless virus: a new carlavirus of daffodils. <em>Archives of Virology</em> <strong>151,</strong> 2261-2267.</TD>
+<TD></TD></TR>
+
+<TR><TD>CHEN, J., SHI, Y.-H., ADAMS, M.J., QIN, B.-X. &amp; CHEN, J.-P. (2007). Characterisation of an isolate of <em>Narcissus degeneration virus</em> from Chinese narcissus (<em>Narcissus tazetta</em> var. <em>chinensis</em>). <em>Archives of Virology</em> <strong>152,</strong> 441-448.</TD>
+<TD></TD></TR>
+
+<TR><TD>FRANCIS, S.A., RODEN, B.C., ADAMS, M.J., WEILAND, J. &amp; ASHER M.J.C. (2007). Comparison of ITS sequences from British and American sugar-beet powdery mildews and the designation of <em>Erysiphe betae</em>. <em>Mycological Research</em>, in press. </TD>
+<TD></TD></TR>
+
+<TR><TD>McGRANN, G.R.D., MARTIN, L.D., KINGSNORTH, C.S., ASHER, M.J.C., ADAMS, M.J. &amp; MUTASA-GÖTTGENS, E.S. (2007). Screening for genetic elements involved in the non-host response of sugar beet to the plasmodiophorid cereal root parasite <em>Polymyxa graminis</em> by representational difference analysis. <em>Journal of General Plant Pathology</em>, in press. </TD>
+<TD></TD></TR>
+
+<TR><TD>ZHANG, H.-M., YANG, J., XIN, X., CHEN, J.-P. &amp; ADAMS, M.J. (2007). Molecular characterization of the largest and smallest genome segments, S1 and S12, of <em>Rice gall dwarf virus</em>. <em>Virus Genes</em>, in press. </TD>
+
+
+<TD></TD></TR>
+
+</TABLE>
+
+
+
+<P><strong>Book chapters and reviews</strong></P>
+
+<P>ADAMS, M.J. (2002). The mosaic viruses of barley: problems and prospects. In: <I>Proceedings of the BCPC Crop Protection Conference, Pests and Diseases, Brighton UK, November 2002</I> <B>1,</B> 105-112.</P>
+
+<P>ADAMS, M.J. (2002). Fungi. In: <I>Interactions between plant viruses and their vectors, </I>Ed. R. T. Plumb. <I>Advances in Botanical Research</I> <B>36,</B> 47-64.</P>
+
+<P>ADAMS, M.J. (2002). Genus <I>Bymovirus</I> and Genus <I>Furovirus</I>. In: The Springer Index of Viruses. Eds C.A.Tidona &amp; G. Darai. Wien and New York: Springer-Verlag.</P>
+
+<P>ADAMS, M.J. (2004) Barley yellow mosaic virus, Barley mild mosaic virus, Oat golden stripe virus and section on transmission by fungi. In: Virus diseases of <I>Poaceae</I> (<I>Gramineae</I>). Eds Lapierre, H. &amp; Signoret, P. INRA Editions.</P>
+
+<P>HENRY, M. &amp; ADAMS, M.J. (2004). Other cereals. In: <I>Virus and Virus-Like Diseases of Major Crops in Developing Countries</I>. Eds G. Loebenstein &amp; G. Thottappilly. Kluwer, pp. 337-354.</P>
+
+<P>ADAMS, M.J. &amp; ANTONIW, J.F. (2005). Membrane proteins in plant viruses. In: <I>Viral membrane proteins: structure, function, drug design</I>. Ed. W. Fisher. Kluwer, 3-19.</P> 
+
+<P>BERGER, P.H., ADAMS, M.J., BARNETT, O.W., BRUNT, A.A., HAMMOND, J., HILL, J.H., JORDAN, R.L., KASHIWAZAKI, S., RYBICKI, E., SPENCE, N., STENGER, D.C., OHKI, S.T., UYEDA, I., VAN ZAAYEN, A. VALKONEN, J. &amp VETTEN, H.J. (2005).  <i>Potyviridae</i>.  In: <i>Virus Taxonomy</i>, VIIIth Report of the ICTV (Eds C.M. Fauquet, M.A. Mayo, J. Maniloff, U. Desselberger, &amp L.A. Ball), pp. 819-841.  Elsevier/Academic Press, London.</P> 
+
+<P>ADAMS, M.J., ACCOTTO, G.P., AGRANOVSKY, A.A., BAR-JOSEPH, M., BOSCIA, D., BRUNT A.A., CANDRESSE, T., COUTTS, R.H.A., DOLJA, V.V., FALK, B.W., FOSTER, G.D., GONSALVES, D., JELKMANN, W., KARASEV, A., MARTELLI G.P., MAWASSI, M., MILNE, R.G., MINAFRA, A., NAMBA, S., ROWHANI A., VETTEN, H.J., VISHNICHENKO, V.K., WISLER, G.C., YOSHIKAWA, N. &amp; ZAVRIEV, S.K. (2005).  <i>Flexiviridae</i>.  In: <i>Virus Taxonomy</i>, VIIIth Report of the ICTV (Eds C.M. Fauquet, M.A. Mayo, J. Maniloff, U. Desselberger, &amp L.A. Ball), pp. 1089-1124.  Elsevier/Academic Press, London.</P> 
+
+<P>MARTELLI, G., ADAMS, M.J., KREUZE, J.F. &amp; DOLJA, V.V. (2007). Family Flexiviridae: a case study in virion and genome plasticity. <i>Annual Review of Phytopathology</i> in press.</P> 
+
+<P>ADAMS, M.J. (2007). Obligate zoosporic root colonizers. In: <i>Compendium of wheat diseases, 3rd Edition</i>, ed W. W. Bockus. St Paul, Minnesota, USA: APS press, in press.</P> 
+
+<hr /><P></P>
+<A NAME="links"><H3>Links to resources connected with my research interests:</H3></A>
+<P></P>
+  
+<p><A HREF="http://www.dpvweb.net/"><strong>DPV Web</strong></A><br />
+  This site contains a virtually complete on-line version of the DPV program and much more. In addition to the individual virus descriptions, there is extensive taxonomic coverage (all viruses except those with a double-stranded DNA genome), classified lists of plant virus sequences and a new sequence database and software for rapid access to viral gene sequences and subsequent analyses. Details of the <A HREF="http://www.dpvweb.net/dpv/cdrom/index.php/">stand-alone CD-ROM</A> version marketed by AAB can also be found on this site.</p>
+<P></P>
+
+<A HREF="http://www.dpvweb.net/potycleavage/index.html"><strong>Potyviridae cleavage site page</strong></A> <br />
+This page summarises current information about polyprotein cleavages sites predicted in sequences of the family <I>Potyviridae</I>.
+
+<P></P><A HREF="/ppi/links/pplinks/virusems/index.html"><strong>Electron micrographs of Plant Viruses</strong></A><br />
+Gateway to a selection of images of plant viruses.
+
+<P></P>
+<A HREF="/ppi/Iwgpvfv/index.html"><strong>The International Working Group on Plant Viruses with Fungal Vectors (IWGPVFV)</strong></A><br />
+The IWGPVFV exists to encourage research, contacts and communication amongst anyone who is interested in plant viruses transmitted by &quot;fungi&quot; and/or the fungal vectors.
+
+<P></P>
+<A HREF="/ppi/links/pplinks/plasmod/index.html"> 
+<strong>Molecular studies of the Plasmodiophorids</strong></A><br />
+Rothamsted's site collating molecular information on the <I>Plasmodiophorales</I> 
+(maintained in collaboration with <A HREF="ew.html">Elaine Ward</A>)  
+<P></P>            
+<hr />
+<P></P>
+
+        
+
+
+<!-- InstanceEndEditable --> 
+  
+</div>
+
+<script type="text/javascript" language="JavaScript" src="/Includes/TemplateScriptBottom.js"></script>
+</BODY><!-- InstanceEnd --></HTML>
+
+
+n C'> 9e
+<V

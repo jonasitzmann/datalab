@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>world sport Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=world-of-computer"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">world of computer</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=entertainment-world-wrestling"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">entertainment world wrestling</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=game-copy-world"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">game copy world</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=catalog-gift-uk-world"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">catalog gift uk world</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=channel-ideal-shopping-world"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">channel ideal shopping world</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=ideal-shopping-world"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">ideal shopping world</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=world-sport"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">world sport</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=world-travel"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">world travel</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=worldwide-travel-insurance"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">worldwide travel insurance</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">world sport Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://www.sportingworld.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>The Sporting World </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Email for more information. Visit The New Year Sprint - the longest running open athletics event in the UK. You are visitor number since 18th December 1998</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.sportingworld.co.uk/</font><br><br>
+<br><a href="http://www.extremesportsworld.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Extreme Sports World </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>my cart my account SELECTED CURRENCY: » List all brands... » Aaron Chang » Analog » Animal » Animal Girls » Anon » Apo » Arcus » Atomic » Balin » Bern » Billabong » Billabong Ladies » Burton » Clin...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.extremesportsworld.co.uk/</font><br><br>
+<br><a href="http://www.channel4news.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>ITN - Headlines </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Send feedback headlines world sport entertainment britain business Helicopter: wreckage found Wreckage of a helicopter believed to be carrying wealthy football supporter Phillip Carter has been fou...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.channel4news.co.uk/</font><br><br>
+<br><a href="http://www.sportwebsites.co.uk/details/343/runners-world.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>UK250 - Further information for Runners World </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>UK250 1000s of quality UK websites in 250 categories » UK250 » add to favourites » tell a friend » list your site » help » see all categories Runners World / Sport URL: http://www.runnersworld.co.u...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.sportwebsites.co.uk/details/343/runners-world.html</font><br><br>
+<br><a href="http://www.worldclubchampions.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>World Club Champions - the best clubs, teams and franchises in World Sport - football, rugby, cricket, US sports etc </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Football Rugby League Rugby Union Cricket American Football Golf Ice Hockey This website will track the latest World Champions in Sport. We will preview the events, we will look back at the results...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.worldclubchampions.co.uk/</font><br><br>
+<br><a href="http://www.tws.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Total World Sports Ltd </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Total World Sports - Suppliers of Outside Broadcast Television Facilities for News & Sports Latest News... TWS announce the availability of High Definition RF Cameras using the Gigawave HD-Cam syst...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.tws.co.uk/</font><br><br>
+<br><a href="http://www.pharmweb.co.uk/pwmirror/pwa/pharmweba.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>PharmWeb Internet Directory </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... to reference resources on the Internet Sport AFCi CrickInfo Golf.com SportsWeb World Wide Web of SportsWorld Wide Web of Sports World Sport Center Yahoo Sports Page Travel Information city.net ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.pharmweb.co.uk/pwmirror/pwa/pharmweba.html</font><br><br>
+<br><a href="http://www.slotcarcentre.co.uk/acatalog/Sport_World.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Scalextric Digital, Sport World and Micro Scalextric at Slotcarcentre.co.uk </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Online Catalogue > Scalextric Sport World Sport World Sport World Sport World adds a new dimension to running on analogue circuits - racing against other drivers on identical tracks, over the i...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.slotcarcentre.co.uk/acatalog/Sport_World.html</font><br><br>
+<br><a href="http://www.sportstar.org.uk/itv-sport/index.shtml"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Itv Sport - organised, comprehensive listings </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... 1. Welcome to TV World Sport 'What's New Home Contact Help Links Credits SPORT SPORT MAIN LINK'S BBC SPORT ITV SPORT SKY SPORT SCREEN / EURO SPORT SPORT RELATED PAGE'S BBC GRANDSTAND EURO 2000 ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.sportstar.org.uk/itv-sport/index.shtml</font><br><br>
+<br><a href="http://www.slot-cars.co.uk/1495_1.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Scalextric & Slot Racing, Scalextric Sport World Antics Online </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Free UK Delivery for orders over £30.00 ( more ) Scalextric & Slot Racing Search Index $ ? Checkout Back > Scalextric Sport World Sport World is a ground breaking 'world first' unlike any other...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.slot-cars.co.uk/1495_1.html</font><br><br>
+<br><a href="http://www.thebettingsites.co.uk/detail/10/sporting-life-sports-ne ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Sporting Life Sports News The Betting Sites .co.uk </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... news, results, breaking news, video, audio and feature stories. BBC Sport covers the major events and all the professional football clubs in the UK, plus cricket, rugby, golf, tennis, motorspor...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.thebettingsites.co.uk/detail/10/sporting-life-sports-ne ...</font><br><br>
+<br><a href="http://www.hisport.org.uk/overview.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Highland Institute of Sport </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... needs. It is athlete centred, coach led, performance focused. The Highland Institute of Sport partners strive to support local talented athletes in their journey to succeed on the national, int...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.hisport.org.uk/overview.html</font><br><br>
+<br><a href="http://166420.1click-shop.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Buzz Sports! </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Name Buzz Sports! Details Buzz Sports comes packed with great new content including hundreds of fixed images and video clips spread between local and world sporting stars and heroes from past and p...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://166420.1click-shop.co.uk/</font><br><br>
+<br><a href="http://www.bet-science.co.uk/cs/resources.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Online Sports Betting Bet-Science - Professional Online Sports Betting System RESOURCES </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... www.88sportsbetting.com Provides online betting on all major sports worldwide. A Australian Sportsbook - http://www.sportsbook.com.au Sports betting on all major sports from around the world fr...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.bet-science.co.uk/cs/resources.html</font><br><br>
+<br><a href="http://www.gymnasticsonline.co.uk/html/acro_world_s_06.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Acro World's 06 </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... 14 April - WORLD SPORTS ACROBATICS CHAMPIONSHIP?S 2006 INTERNATIONAL AGE GROUP CHAMPIONSHIPS COIMBRA PORTUGAL We are delighted to announce that we have been contacted by the Vice President of t...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.gymnasticsonline.co.uk/html/acro_world_s_06.html</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+f>ueamlw	l 

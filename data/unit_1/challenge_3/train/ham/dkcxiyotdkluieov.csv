@@ -1,0 +1,549 @@
+<!DOCTYPE HTML PUBliC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<HTML><!-- InstanceBegin template="/Templates/PostDWindex.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<TITLE>Dr Keith Davies, PPM Department, Rothamsted Research</TITLE>
+<!-- InstanceEndEditable --> 
+
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+
+<link rel='stylesheet' type='text/css' href='http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStyle.css' media="screen">
+<link rel="stylesheet" href="http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStylePrint.css" type="text/css" media="print" />
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<script language="JavaScript" type="text/JavaScript" src="/Includes/TemplateScriptTop.js"></script>
+</HEAD>
+<BODY background='http://www.rothamsted.bbsrc.ac.uk/Graphics/InternetBackground.gif' 
+onLoad='ConfigurePage();' onResize='ConfigurePage();'>
+
+<div id="LeftSection" tabindex="1" onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')">
+<a href='http://www.rothamsted.bbsrc.ac.uk/index.html'>
+<img src='http://www.rothamsted.bbsrc.ac.uk/Graphics/LogoLarge.gif' alt='Click for RRes home page' width="148" height="195" border='0' style="position: absolute; top: 10px; left: 10px;"> 
+</a> 
+
+<form action='http://www.rothamsted.bbsrc.ac.uk/cgi-bin/htsearch' method='post' name='RResSearch' id='RResSearch'>
+    <input type='hidden' name='method' value='and'>
+    <input type='hidden' name='format' value='builtin-long'>
+    <input type='hidden' name='sort' value='score'>
+    <input type='hidden' name='restrict' value=''>
+    <input type='hidden' name='exclude' value=''>
+    <input type='hidden' name='config' value='rothamsted'>
+    <input class='SearchBox' type='text' name='words' id='words' value='Search website' 
+onClick='ClearSearchBox()' tabindex="2" title="Type a search term here and press enter">
+<input type="submit" value="Go!" class="GoButton" />
+</form>
+
+<div tabindex="4" id="ScienceLinks" style="position:absolute; left:10px; top:228px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+>Science 
+  Links</div>
+
+<div tabindex="5" id="PrinterFriendlyVersion" style="position:absolute; left:10px; top:247px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="PrintVersion();" onKeyPress="PrintVersion();" >Printer 
+  friendly version</div>
+
+</div>
+
+<div tabindex="6" id="Disclaimer" style="position:absolute; left:10px; bottom:30px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+>Disclaimer</div>
+
+<div tabindex="7" id="MakeComments" style="position:absolute; left:10px; bottom:10px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+>Make comments</div>
+
+
+
+<div class='Category' style='left: 160px;' id="Category1" tabindex="8"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>About us</div>
+
+<div class='Category' style='left: 260px;' id="Category2" tabindex="19" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Resources</div>
+
+<div class='Category' style='left: 360px;' id="Category3" tabindex="30" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Research</div>
+
+<div class='Category' style='left: 460px;' id="Category4" tabindex="41"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Into practice</div>
+
+<div class='Category' style='left: 560px;' id="Category5" tabindex="52" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>For the public</div>
+
+<div class='Category' style='left: 660px;' id="Category6" tabindex="62" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+>Careers</div>
+
+<div id="MenuSection1" class="MenuDetails" style="z-index:1; visibility: hidden;"> 
+
+  <blockquote style="position:relative; left: -40px; "> <a class="MainMenuLink" tabindex="9" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Introduction.html">Mission of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Origins.html">Origins of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/CompanyInformation.html">Company Information</a><br />	
+    <a class="MainMenuLink" tabindex="11" href="http://www.rothamsted.bbsrc.ac.uk/corporate/ContactUs.html">Contact Us</a><br />
+    <a class="MainMenuLink" tabindex="12" href="http://www.rothamsted.bbsrc.ac.uk/corporate/AnnualReports.html">Annual Reports</a><br />
+    <a class="MainMenuLink" tabindex="13" href="http://www.rothamsted.bbsrc.ac.uk/corporate/PressReleases/PressOffice.html">Press Office</a><br />
+    <a class="MainMenuLink" tabindex="14" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Location.html">Directions And Map of Campus</a><br />
+    <a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/OwnershipAndFunding.html">Ownership and Funding</a><br />
+	<a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/LawesAgriculturalTrust.html">Lawes Agricultural Trust</a><br />
+    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Strategy.html">The Next Decade</a><br />
+	    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/StrategicPlan.html">Strategic Plan 2005-2010</a><br />
+    <a class="MainMenuLink" tabindex="17" href="http://www.rothamsted.bbsrc.ac.uk/corporate/SeniorManagement.html">Senior Management</a><br />
+    <a class="MainMenuLink" tabindex="18" href="http://www.rothamsted-international.org">Rothamsted International</a> </blockquote>
+</div>
+
+<div id="MenuSection2" class="MenuDetails" style="z-index:2; visibility: hidden;"> 
+  <!--<h4>Resources</h4>-->
+  <blockquote style="position:relative; left: 50px; "> <a class="MainMenuLink" tabindex="20" href="http://www.rothamsted.bbsrc.ac.uk/resources/ResourcesAtRRes.html">Resources 
+    at Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="21" href="http://www.rothamsted.bbsrc.ac.uk/resources/RResPromo.html">Rothamsted Research Promotional 
+    video (18Mb)</a><br />
+    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/LongTermExperiments.html">Long Term Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/ClassicalExperiments.html">Classical Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/eRA/ ">Electronic Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/resources/TheRothamstedArchive.html">Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="24" href="http://www.rothamsted.bbsrc.ac.uk/resources/library/">Rothamsted Library</a><br />
+    <a class="MainMenuLink" tabindex="25" href="http://www.rothamsted.bbsrc.ac.uk/resources/ConferenceFacilities.html">Conference Facilities</a><br />
+    <a class="MainMenuLink" tabindex="26" href="http://www.rothamsted.bbsrc.ac.uk/resources/rmlmanor/index.htm">Rothamsted Manor</a><br />
+    <a class="MainMenuLink" tabindex="27" href="http://www.rothamsted.bbsrc.ac.uk/resources/RothamstedFarms.html">Rothamsted Farms</a><br />
+    <a class="MainMenuLink" tabindex="28" href="http://www.rothamsted.bbsrc.ac.uk/resources/TimeLapse.html">Time-lapse Video of the Construction of the Centenary Building</a><br />
+    <a class="MainMenuLink" tabindex="29" href="http://www.rothamsted.bbsrc.ac.uk/resources/CentenaryOpening.html">Photo Gallery of the Opening of the Centenary Building</a> <br />
+    <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/aen/ecn/">Local Weather and the Environmental Change Network</a> 	
+	</blockquote>
+</div>
+
+<div id="MenuSection3" class="MenuDetails" style="z-index:3; visibility: hidden;"> 
+  <!--<h4>Research</h4>-->
+  <blockquote style="position:relative; left: 150px; "> 
+  <!--<a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres.php">Research Centres</a><br />-->
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres/">Research Centres</a><br />  
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html">Research Overview</a><br />
+     <a class="MainMenuLink" tabindex="31" href="http://www.rothamsted.bbsrc.ac.uk/Research/RResQualityStatement.pdf">Rothamsted Research Quality Statement</a> (PDF)<br />
+    <a class="MainMenuLink" tabindex="32" href="http://www.rothamsted.bbsrc.ac.uk/Research/FeaturedProjects.html">Featured Projects</a><br />
+    <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Conferences.html">Conferences and Meetings</a> <br />
+	 <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Publications/">Publications</a> <br />
+	
+	<b>Research Departments:</b><br />
+    <a class="MainMenuLink" tabindex="34" href="http://www.rothamsted.bbsrc.ac.uk/broom/">Applied Crop Sciences</a> (Broom's Barn)<br />
+    <a class="MainMenuLink" tabindex="35" href="http://www.rothamsted.bbsrc.ac.uk/bch/">Biological Chemistry</a><br />
+	<a class="MainMenuLink" tabindex="36" href="http://www.rothamsted.bbsrc.ac.uk/bab/">Biomathematics and Bioinformatics</a><br />		
+    <a class="MainMenuLink" tabindex="37" href="http://www.rothamsted.bbsrc.ac.uk/pie/">Plant and Invertebrate Ecology</a><br />
+    <a class="MainMenuLink" tabindex="38" href="http://www.rothamsted.bbsrc.ac.uk/ppi/">Plant Pathology and Microbiology</a><br />
+    <a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/cpi/">Plant Science</a><br />
+	
+    <a class="MainMenuLink" tabindex="40" href="http://www.rothamsted.bbsrc.ac.uk/aen/">Soil Science</a><br />
+    <!--<a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/Research/Posters.html">Scientific posters</a><br />-->
+  </blockquote>
+</div>
+
+<div id="MenuSection4" class="MenuDetails" style="z-index:4; visibility: hidden; text-align:right;"> 
+  <!--<h4>Into practice</h4>-->
+  <blockquote style="position:relative; right: 150px; "> <a class="MainMenuLink" tabindex="41" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Impact.html">Impact Over the Past 30 Years</a><br />
+	   <a class="MainMenuLink" tabindex="42" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/ClimateChange.html">Climate Change and Land Management</a><br />
+
+    <a class="MainMenuLink" tabindex="43" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/AssociatedCompanies.html">Associated Companies</a><br />
+    <a class="MainMenuLink" tabindex="44" href="http://www.rothamsted.bbsrc.ac.uk/broom/sbrindex.html">Sugar Beet Research at Broom's Barn</a><br />
+    <a class="MainMenuLink" tabindex="45" target="_blank" href="http://www.rothra.org/">Rothamsted 
+    Research Association (formerly ARIA)</a><br />
+    <a class="MainMenuLink" tabindex="46" href="http://www.rothamsted.ac.uk/insect-survey/STAphidBulletin.php">Rothamsted Insect Survey Aphid Bulletin</a><br />
+    <a class="MainMenuLink" tabindex="47" href="http://www.rothamsted.bbsrc.ac.uk/pie/wowp/">Weeds or Wild Plants?</a><br />
+    <a class="MainMenuLink" tabindex="48" href="http://www3.res.bbsrc.ac.uk/leafspot/">Light Leafspot Forecast</a><br />
+    <a class="MainMenuLink" tabindex="49" href="http://www.rothamsted.bbsrc.ac.uk/aen/sundial/sundial.htm">SUNDIAL (SimUlation of Nitrogen 
+    Dynamics In Arable Land)</a><br />
+    <a class="MainMenuLink" tabindex="50" href="http://www.rothamsted.bbsrc.ac.uk/aen/rothlime/">RothLime (Rothamsted Lime Requirement Model)</a><br /><a class="MainMenuLink" tabindex="51" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Biomarket.html">Biomarket</a><br />
+    <a class="MainMenuLink" tabindex="51" href="http://www.dessac.iacr.ac.uk">DESSAC - DEcision Support System for Arable Crops</a> 
+	</blockquote>
+</div>
+
+<div id="MenuSection5" class="MenuDetails" style="z-index:5; visibility: hidden; text-align:right;"> 
+  <!--<h4>For the public</h4>-->
+  <blockquote style="position:relative; right: 50px;"> 
+<!--  <a class="MainMenuLink" tabindex="52" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/MailingListForm.php">Join our mailing list</a><br />  -->
+  
+  <a class="MainMenuLink" tabindex="53" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/PublicEvents.html">Public 
+    Events</a><br />
+    <a class="MainMenuLink" tabindex="54" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/EventsForSchools.html">Resources for 
+    Schools</a><br />
+	
+	    <a class="MainMenuLink" tabindex="55" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/ScienceSnapshots.html">Science Snapshots</a><br />
+
+    <a class="MainMenuLink" tabindex="56" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/Exhibitions.html">Rothamsted Exhibitions</a><br />
+    <a class="MainMenuLink" tabindex="57" href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/">DeBug - Interactive Insects</a><br />
+	
+
+    <a class="MainMenuLink" tabindex="58" href="http://www.rothamsted.bbsrc.ac.uk/notebook/index.html">Molecular Biology Notebook (teaching 
+    resource)</a><br />
+
+    <!--<a class="MainMenuLink" tabindex="59" href="http://www.rothamsted.bbsrc.ac.uk/sportsday/">BBSRC sports day 2004</a><br />-->
+
+
+    <strong>Links external to Rothamsted Research:</strong> <br />
+	
+    <a class="MainMenuLink" tabindex="59" target="_blank" href="http://www.bbsrc.ac.uk/life/buzz/Welcome.html">The 
+    Buzz of Science</a><br />
+    <a class="MainMenuLink" tabindex="60" target="_blank" href="http://www.bbsrc.ac.uk/life/comic/index.html">Science 
+    Stories Comic Book </a><br />
+    <a class="MainMenuLink" tabindex="61" target="_blank" href="http://www.bbsrc.ac.uk/life/zones/Welcome.html">Zones 
+    of Inhibition. Science, Art and Fungi</a> </blockquote>
+</div>
+
+<div id="MenuSection6" class="MenuDetails" style="z-index:6; visibility: hidden; hidden; text-align:right;"> 
+  <!--<h4>Careers</h4>-->
+  <blockquote style="position:relative; right: -40px;"> 
+  <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Vacancies.html">Vacancies</a><br />
+  
+ <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Studentships.html">PhD Studentships</a><br />
+  
+    <a class="MainMenuLink" tabindex="64" href="http://www.rothamsted.bbsrc.ac.uk/careers/WhyChooseRRes.html">Why Choose Rothamsted?</a><br />
+    <a class="MainMenuLink" tabindex="65" href="http://www.rothamsted.bbsrc.ac.uk/careers/AboutRRes.html">About Rothamsted</a><br />
+    <a class="MainMenuLink" tabindex="66" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherSites.html">Other Sites</a><br />
+    <a class="MainMenuLink" tabindex="67" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherFacilities.html">Other Facilities Available</a><br />
+    <a class="MainMenuLink" tabindex="68" href="http://www.rothamsted.bbsrc.ac.uk/careers/LearningResources.html">Learning Resources</a><br />
+    <a class="MainMenuLink" tabindex="69" href="http://www.rothamsted.bbsrc.ac.uk/careers/StaffSupport.html">Staff Support and Sports 
+    and Social Activities</a><br />
+    <a class="MainMenuLink" tabindex="70" href="http://www.rothamsted.bbsrc.ac.uk/careers/Accommodation.html">Accommodation</a><br />
+    <a class="MainMenuLink" tabindex="71" href="http://www.rothamsted.bbsrc.ac.uk/careers/PostGraduateProspectus.html">Postgraduate Information</a><br />
+    <a class="MainMenuLink" tabindex="72" href="http://www.rothamsted.bbsrc.ac.uk/careers/PhDStudentPolicy.html">PhD policy</a> </blockquote>
+</div>
+
+
+
+<div class='RightImageSection' name='RightImageSection' id='RightImageSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+  <img src='' name='RandomImage' width='200' height='550' id='RandomImage' alt='Random image'> 
+</div>
+
+<div id="SubMenuSection" class="SubMenuSection"> 
+<!-- InstanceBeginEditable name="SubmenuRegion" -->
+  <img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/">PPM home page</a>
+<div align="center"><strong>Programmes</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppbtop.html">Pathogen Population Biology and Disease Management</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/wptop.html">Wheat pathogenesis</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/rhizo.html">Rhizospere Biology</a>
+<div align="center"><strong>Departmental units</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/bioimage.html">Centre for Bioimaging</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/gpc/index.htm">Global Plant Clinic</a><br />
+<div align="center"><strong>Links</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/staff/ppistaff.html">Who's who in PPM</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppigallery.html">Pest and disease gallery</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/pplinks.html">Plant pathology links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/glinks.html">General links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppi_form.html">Leave a comment or ask a question</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="http://local-info.rothamsted.bbsrc.ac.uk/divisions/ppi/">PPM Intranet (RRes only)</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/vacs.html">Vacancies within PPM Department</a>
+<!-- InstanceEndEditable --> 
+</div>
+
+<div class='MainSection' name='MainSection' id='MainSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+
+  <!-- InstanceBeginEditable name="MainSectionRegion" --> 
+<table width="563">
+<tr>
+<td width="365">
+<h2>Dr Keith Davies</h2><br />
+<br /><IMG src="../GreenLine.gif" width="344" height="8"><br />
+<h3><i>Invertebrate Pathology</i></h3>
+<br />
+
+</td>
+<td width="186" align ="left" valign ="middle">
+<IMG src="../pics/kgd.jpg" width="170">
+
+
+</td>
+</tr>
+</table>
+
+
+
+<table>
+<tr>
+    <td>
+<font size=-1>Department of Plant Pathology and Microbiology, Rothamsted Research Limited,
+Harpenden, Hertfordshire, AL5 2JQ, UK.</font>
+<br />
+<font size=-1><b>Telephone:</b> +44 (0)1582 763133 x2220.
+<b>Fax:</b> +44 (0)1582 760981</font>
+<br />
+      <img src="../staff/emailgifs/kgd.gif" width="242" height="22" alt="" border="0">	
+
+<hr />
+	  <p>Click <a href="kgd/kgdprofile.pdf" title="Keith Davies profile" target="_blank">here</a> for a detailed biography that was published in the "Nematology Newsletter" in June 2005 (PDF, 194KB)</p>
+	  <hr />
+      <p align="justify"><font size="-1">I graduated from Hatfield Polytechnic with an Honours Degree in Applied Biology in 1979 with an interest in the area of plant and soil microbiology. After my degree I spent two years working as a plant pathologist at the Shire Valley Agricultural Development Project in Malawi, Africa, and running ICRISAT's sorghum and millet germplasm screening programme and also undertaking some studies on the infection of sorghum roots by mycorrhizae. In 1982 I started a PhD in Plant Biology, at the University College of North Wales Bangor, where I investigated the use of rhizobacteria to promote plant growth.  My research takes place within the context of reconciling the conflict between agricultural food production and environmental, economic and social sustainability; in particular the application of science to control of plant parasitic nematodes pests exploiting microbial control agents.  I also have an interest in scientific citizenship which includes the public understanding of science and the good governance of science (<a href="http://www.governanceofscience.org" title="Link to www.governanceofscience.org" target="_blank">www.governanceofscience.org</a>).  In this context I am curious about how to balance meeting the needs of research scientists, with meeting the needs of the organisations in which they work and the broader needs of society.  I am a Fellow of The Linnean Society of London, and have membership to The British Crop Protection Council, The American Society of Nematologists (where I am an editor on their Journal of Nematology), and The Royal Institute of Philosophy. I am also a member of a trades' union Prospect, and sit on the BBSRCs' Joint Negotiating and Consultative Committee. </font></p>
+
+<IMG alt="Pasteuria spores attached to a nematode" hspace  =4 src="../pics/Pasteuria.gif" align=right vspace=4 >
+<p align="justify"><font size=-1><strong>Research:</strong> Nematodes (eel-worms)
+    are thread like metazoans usually less than a millimetre in length that can
+    live freely in the soil or be parasitic on plants (they are also animal parasites).
+    The most economically important plant parasitic nematode pests are the sedentary
+    endoparasites including the cyst and root knot nematodes. These important
+    crop pests occur in intensive cropping systems and have until recently been
+    controlled by nematicides. With the withdrawal of 
+<IMG alt="Phasmarhabditis, the slug biocontrol agent" hspace  =4 src="../pics/Phasmarhabditis.gif" align=left vspace=4 >nematicides
+from the market, in particular methyl bromide which will be banned from use in
+Europe from 2005 (and in developing countries by 2015) alternative approaches
+are being sought. Soils can be found which are suppressive to plant parasitic
+nematodes and several groups of fungi and bacteria have been identified that
+are responsible for suppressing nematode populations to a level at which their
+damage does not cause significant economic losses. The application of these micro-organisms
+to the soil as biological control agents offers an alternative method to control
+these important pests. To date the application of fungi and bacteria to control
+these nematodes has produced highly variable results with successes in one situation
+but not another. In order for success to be consistently predictable an understanding
+of the mechanisms by which these micro-organisms infect and reduce the populations
+of their nematode hosts is needed. This requires a thorough understanding from
+molecular interactions and the role of functional variation involved in infection
+processes, through to the way these molecular interactions, in turn, affect the
+population dynamics of both the nematode and its parasite. On the molecular front
+my research is aimed at understanding the genetic mechanisms of the interaction
+between root-knot nematodes and the bacterium <em>Pasteuria
+penetrans</em>. In collaboration
+with <a href="http://www.cals.ncsu.edu/plantpath/people/faculty/opperman/" title="Link to Charlie Opperman's homepage at NCSU" target="_blank">Prof. Charlie Opperman's lab</a>, in North Carolina USA, we have embarked on
+a genomics project to sequence the genome of this bacterium (<a href="../pubs/kgd/GenomicsBSPPposterweb.pdf" title="Link to Davies BSPP poster" target="_blank">Davies <em>et
+al</em>., Genome poster</a>) and have also shown that this bacterium has
+a life-cycle very similar to that of Bacillus spp. to which it appears closely
+related (<a href="../pubs/kgd/ESN_poster.pdf" title="Link to Davies ESN poster" target="_blank">Davies <em>et
+al</em>., Life-cycle poster</a>).
+Recently I have spent a sabbatical in Charlie Opperman&rsquo;s laboratory in
+North Carolina where we have continued to mine the Pasteuria genome for genes
+involved in endospore attachment as part of our collaboration. Interestingly,
+we have now identified several collagen-like sequences which show similarities
+to collagens in other <em>Bacillus</em> spp. (<a href="../pubs/kgd/Collagen_poster.pdf" title="Link to Davies and Opperman collagen poster" target="_blank">Davies &amp; Opperman, Collagen
+poster</a>). In
+a European Union training project I am involved in a study of the role of microbial
+enemies of plant parasitic nematodes to affect the colonisation and stability
+of marram grass (<em>Ammophila arenaria</em>) in sand dunes (<a href="http://www.nioo.knaw.nl/projects/ECOTRAIN" title="Link to ECOTRAIN website" target="_blank">www.nioo.knaw.nl/projects/ECOTRAIN</a>).
+It is hoped that the knowledge gained from these studies can be applied to develop
+sustainable methods of plant parasitic nematode management by manipulating the
+population dynamics of these micro-organisms.
+</font></p>
+
+<p>
+<h3><i>Selected Publications</i></h3>
+<br />
+If you are interested in further details or of obtaining copies of any of the 
+publications below please e-mail me.
+<hr />
+<font size=+1><b>Recent posters</b></font>
+<br />
+<li><font size="-1"><strong>Davies</strong> <em>et al</em> (2003) Functional genomics of <em>Pasteuria penetrans</em>, a bacterial parasite of plant parasitic nematodes (<a href="../pubs/kgd/GenomicsBSPPposterweb.pdf" title="Link to pdf - functional genomics poster" target="_blank">pdf</a>)</font></li>
+<br />
+<li><font size="-1"><strong>Davies</strong> <em>et al</em> (2004) The life-cycle of <em>Pasteuria penetrans</em> in excised root-knot nematodes, Meloidogyne spp.: a re-evaluation (<a href="../pubs/kgd/ESN_poster.pdf" title="Link to pdf - Life-cycle poster" target="_blank">pdf</a>)</font></li>
+<br />
+<li><font size="-1"><strong>Davies</strong> & Opperman (2004) Collagen-like proteins have been identified in the genome of <em>Pasteuria penetrans</em>, similar to those in other species of Bacilli and are likely to be important in endospore attachment (<a href="../pubs/kgd/Collagen_poster.pdf" title="Link to pdf - Collagen poster" target="_blank">pdf</a>)</font></li>
+<br /><br />
+<font size=+1><b>Biological control</b></font>
+  <br />
+  <br />
+    <li><font size="-1">Costa, S.R., Kerry, B.R., Bardgett, R., <strong>Davies, K.G.</strong> (2006) Exploitation of Immunofluorescence for the Quantification and Characterisation of Small Numbers of Pasteuria Endospores. <i>FEMS Microbiology Ecology</i> (in press).
+</font></li>
+    <li><font size="-1">
+<strong>Davies, K.G.</strong> & Williamson, V.M. (2006) Host-specificity exhibited by populations of endospores of <i>Pasteuria penetrans</i> to the juvenile and male cuticles of <i>Meloidogyne hapla</i>. <i>Nematology</i> (in press).
+</font></li>
+
+
+    <li><font size="-1">
+van der Putten, W.H/. Cook, R., Costa, S., <strong>Davies, K.G.</strong>, Fargette, M., Freitas, H., Hol, W.H.G., Kerry, B.R., Maher, N., Mateille, T., Moens, M., Pena, Piskiewicz, A.M., Raeymaekers, A.D.W., Rodriguez-Echeverria, and van der Wurff, A.W.G. (2006) Nematode Interactions in Nature: models for sustainable control of nematode pests of crop plants. <i>Advances in Agronomy</i> <strong>89</strong>, 227 - 260.
+</font></li>
+
+
+    <li><font size="-1">
+  Charles, L., Carbonne, I., <strong>Davies, K.G.</strong>, Bird, D., Burke, M., Opperman, C.H. (2005) Phylogenetic analysis of <em>Pasteuria penetrans</em> using multiple genetic loci. <em>Journal of Bacteriology</em>, <strong>187</strong>, 5700-5708.</font>
+  </li>
+  <br />
+  <li><font size="-1">
+<strong>Davies, K.G.</strong> (2005) Interactions between Nematodes and Microorganisms: Bridging Ecological and Molecular Approaches. <em>Advances in Applied Microbiology</em> <strong>57</strong>, 53-78.</font></li>
+ 
+  
+  
+  </li>
+ <li><font size="-1">Wishart, J., Blok, V.C., Phillips, M.S. and <strong>Davies,
+       K.G.</strong> (2004) <em>Pasteuria penetrans</em> and <em>P.
+       nishizawae</em> attachment to <em>Meloidogyne chitwoodi</em>, <em>M.
+       fallax</em> and <em>M. hapla</em>. <em>Nematology</em> <strong>6</strong>, 507-510</font> </li>
+  <br />
+<li><font size="-1">Bird, D., Opperman, C.H. and <strong>Davies, K.G.</strong> (2003) Interactions between bacteria and plant parasitic nematodes: now and then.  <em>International Journal of Parasitiology</em> <strong>33</strong>, 1269-1276.</font></li>
+<br />
+      <li><font size=-1>Vaid, A., Bishop, A.H. and <b>Davies, K.G.</b> (2002) The polypeptide 
+        components of the parasporal fibres of <i>Pasteuria penetrans</i>. <i>World 
+        Journal of Microbiology & Biotechnology</i> <b>18</b>, 151-157.</font> </li>
+        <br />
+<li><font size=-1>Mohan, S., Fould, S. and <b>Davies, K.G.</b> (2001) The
+interaction between the gelatin-binding domain of fibronectin and the attachment
+of <i>Pasteuria penetrans</i> endospores to nematode cuticle 
+<I>Parasitology</I> <B>123</B> 271-276.</font></li>
+<br />
+<li><font size=-1><b>Davies, K. G.</b>, Fargette, M., Balla, G., Daudi,
+A., Duponnois, R., Gowen, S.R., Mateille, T., Phillips, M. S., Sawadogo,
+A., Trivino, C., Vouyoukalou, E. &amp; Trudgill, D.L. (2001) Cuticle heterogeneity
+as exhibited by <i>Pasteuria </i>spore attachment is not linked to the
+phylogeny of parthenogenetic root-knot nematodes (<i>Meloidogyne</i> spp.)
+<i>Parasitology</i><b>122</b>, 111-120.</font></li>
+<br />
+<li><font size=-1>Hirsch, P., Atkins, S.D., Mauchline, T.H., Morton, C.O.,
+<b>Davies, K.G.</b> &amp; Kerry, B.R. (2001) Techniques for studying nematophagous
+fungi in the root environment. <i>Plant and Soil</i> <b>232</b>, 21-30.</font></li>
+<br />
+<li><font size=-1>Mendoza de Gives, P., <b>Davies, K.G.,</b> Clark, S. J.
+and Behnke, J.M. (1999) Predatory behaviour of trapping fungi against <i>srf</i>
+mutants of <i>Caenorhabditis elegans</i> and different plant and animal
+parasitic nematodes. <i>Parasitology</i> <b>119</b>, 95-104.</font></li>
+<br />
+<li><font size=-1>Mendoza de Gives, P., <b>Davies, K.G</b>., Morgan, M.,
+and Behnke, J.M. (1999) Attachment tests of <i>Pasteuria penetrans</i>
+to the cuticle of plant and animal parasitic nematodes, free living nematodes
+and <i>srf </i>mutants of <i>Caenorhabditis elegans</i>. <i>Journal of
+Helminthology</i> <b>73</b>, 67-71.</font></li>
+<br />
+<li><font size=-1><b>Davies, K. G.</b> and Redden, M. (1997) Diversity and
+partial characterisation of putative virulence determinants in <i>Pasteuria
+penetrans</i>, the hyperparasite of root-knot nematodes <i>Journal of Applied
+Microbiology</i>, <b>83</b>, 227-235.</font></li>
+<br />
+<li><font size=-1>Sharma, S. B. &amp; <b>Davies, K. G.</b> (1997) Modulation
+of spore adhesion of the hyperparasitic bacterium <i>Pasteuria penetrans</i>
+to nematode cuticle. <i>Letters in Applied Microbiology</i> <b>25</b>,
+426-430.</font></li>
+<br />
+<li><font size=-1>Sharma, S.B. and <b>Davies, K.G.</b> (1996) A comparison
+of two sympatric species of <i>Pasteuria</i> isolated from a tropical vertisol
+soil<i>. World Journal of Microbiology and Biotechnology</i> <b>12</b>,
+361-366.</font></li>
+<br />
+<li><font size=-1><b>Davies, K.G.,</b> Afolabi, P. and O'Shea, P.S. (1996)
+Adhesion of <i>Pasteuria penetrans</i> to the cuticle of root-knot nematodes
+(<i>Meloidogyne</i> spp) inhibited by fibronectin: a study of electrostatic
+and hydrophobic interactions. <i>Parasitology</i> <b>112</b>, 553-559).</font></li>
+<br />
+<li><font size=-1><b>Davies, K. G.,</b> Redden, M. and T. K. Pearson, (1994)
+Endospore heterogeneity in <i>Pasteuria penetrans</i> related to attachment
+to plant-parasitic nematodes. <i>Letters in Applied Microbiology</i> <b>19</b>,
+370-373.</font></li>
+<br />
+<br /><font size=+1><b>Immunodiagnostics</b></font>
+<br />
+<li><font size=-1><b>Davies, K.G.</b>, Curtis, R.H. &amp; Evans, K. (1996)
+Serologically based diagnostic and quantification tests for nematodes.
+<i>Pesticide Science</i> <b>47</b>, 81-87.</font></li>
+<br />
+<li><font size=-1>Ibrahim, S., <b>Davies, K. G.,</b> and Perry, R. N. (1996)
+Identification of root-knot nematode, <i>Meloidogyne incognita</i>, using
+monoclonal antibodies raised to non-specific esterases <i>Physiological
+and Molecular Plant Pathology</i> <b>49</b>, 79-88.</font></li>
+<br />
+<li><font size=-1><b>Davies, K. G.</b> and Carter, B. (1995) Comparison
+of immunoassays for the quantification of root-knot nematodes extracted
+from soil. <i>EPPO Bulletin</i> <b>25</b>,367-375.</font></li>
+<br /><br />
+<font size=+1><b>Critical reviews</b></font>
+<br />
+<li><font size=-1>Timper, P. and <b>Davies, K.G.</b> (2004) Biotic Interactions. In: Nematode Behaviour
+  (eds. R. Gaugler and Anwar L. Bilgrami) CABI Publications Wallingford, UK.</font></li>
+  <br />
+<li><font size=-1>Whipps, J.M. and <b>Davies, K.G.</b> (2000) Biocontrol
+  of plant pathogens and nematodes by microorganisms. In Measures of Success
+  in Biological Control (Edt. Geoff Gurr and Steve Wratten) Kluwer Academic
+  Publishers, Dordrecht, The Netherlands.</font></li>
+    <br />
+<li><font size=-1><b>Davies, K. G.</b> (1998) Natural parasites and biological
+control research. In: Cyst Forming Nematodes (Ed) S.B. Sharma, Chapman
+Hall, London.</font></li>
+<br />
+<li><font size=-1><b>Davies, K. G.</b> (1994) A nematode case study focusing
+on the application of serology. In: Identification and Characterisation
+of Pest Organisms (Ed) D. L. Hawksworth. CABI, Wallingford, UK. pp 395-413.&nbsp;</font></li>
+<br /><br />
+<font size=+1><b>Essays &amp; article</b>s</font>
+<br />
+<li><font size="-1"><strong>Davies, K.G.</strong> & Wolf-Phillips, J.W. (2006) Scientific Citizenship and Good Governance: Implications for Biotechnology <i>Trends in Biotechnology</i> <strong>24</strong>, 57-61.
+</font></li>
+
+<li><font size="-1"><strong>Davies, K.G.</strong> (2003) Zones of Inhibition: interactions between art and science. <em>Endeavour</em>, <strong>27</strong>, 131-133.</font>
+<li><font size=-1><b>Davies, K.G. </b>(2001)&nbsp; What makes genetically
+modified organisms so distasteful? <i>Trends in Biotechnology</i> <strong>19</strong> , 424-427.</font></li>
+
+<li><font size=-1>Bolyos, T. and <B>Davies, K.G.</B> (2001) Zones of Inhibition: an exhibition 
+of the private lives of fungi. (<a href="http://www.bbsrc.ac.uk/life/zones/">www.bbsrc.ac.uk/life/zones/</a>).</font></li>
+
+<li><font size=-1><b>Davies, K.G.</b> (2000) Creative tension: what links
+Aristotle, William Blake, Darwin and GM Crops? <i>Nature</i>, <b>407</b>,
+135-135.</font></li>
+<br /><br />
+<font size=+1><b>Poems</b></font>
+<br />
+<li><font size=-1><b>Davies, K.G.</b> (2006) Up High and Invisible Collected poems Brambleby Books, Harpenden, UK</font></li> 
+
+<li><font size=-1><b>Davies, K.G.</b> (2000) <a href="http://news.bmn.com/hmsbeagle/88/xcursion/poem">Homo Faber 2000</a> (After reading
+<i>Homo Faber</i> by Max Frisch). In HMS Beagle: The BioMedNet Magazine
+Issue 88 (Oct 13).</font></li>
+<br />
+<li><font size=-1><b>Davies, K.G.</b> (2001) <a href="http://news.bmn.com/hmsbeagle/109/xcursion/poem">Ghost of an Arcadian Hominid</a>
+(After reading <i>The Face of Violence</i> by Jacob 
+ Bronowski).&nbsp; In HMS Beagle:
+The BioMedNet Magazine Issue 109 (Aug 31).</font><font face=Arial size=3> </font></li>
+
+</td>
+</tr>
+</table>
+<!-- InstanceEndEditable --> 
+  
+</div>
+
+<script type="text/javascript" language="JavaScript" src="/Includes/TemplateScriptBottom.js"></script>
+</BODY><!-- InstanceEnd --></HTML>
+
+
+xrig ==

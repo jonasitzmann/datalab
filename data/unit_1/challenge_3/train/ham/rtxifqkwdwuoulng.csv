@@ -1,0 +1,175 @@
+<!doctype html public -//w3c//dtd html 3.2//en>
+<html>
+<head>
+<META NAME="htdig-keywords" CONTENT="Rothamsted Insect survey, suction traps, aphid bulletin, aphids, light traps, moths">
+<title>Rothamsted Insect Survey</title>
+<link rel="stylesheet" type="text/css" href="/insect-survey/includes/insect-survey.css" media="screen">
+</head>
+<body>
+<table style="width: 100%; max-width: 970px;" border="0">
+<tr>
+<td valign="top" width="200">
+<a href="/insect-survey/index.php">
+<img src="/insect-survey/Graphics/RISLogo200.gif" alt="Rothamsted Insect Survey logo - click for home page" border="0">
+</a>
+<li><a href="/insect-survey/ContactUs.php">Contact us</a></li>
+<br />
+<strong>Suction Trapping</strong>
+<li><a href="/insect-survey/STAphidBulletin.php">Aphid bulletin</a></li>
+<li><a href="/insect-survey/STAphidBulletinArchive.php?Year=2007">Bulletin archive</a></li>
+<li><a href="/insect-survey/STSponsors.php">Sponsors</a></li>
+<li><a href="/insect-survey/STTrapSites.php">Trap sites</a></li>
+<li><a href="/insect-survey/STAphids.php">Aphid species</a></li>
+<li><a href="/examine/">EXAMINE</a></li>
+<br />
+<strong>Light Trapping</strong>
+<li><a href="/insect-survey/LTTrapSites.php">Trap sites</a></li>
+<li><a href="/insect-survey/LTNewsletters.php">Newsletters and articles</a></li>
+<br />
+<strong>Vertical-Looking Radar</strong>
+<li><a href="/insect-survey/VLR.php">Introduction</a></li>
+<strong>Environmental Change Network</strong>
+<li><a href="/insect-survey/ECN.php">Introduction</a></li>
+
+
+<p>
+Rothamsted Insect Survey,<br />
+<a href='http://www.rothamsted.ac.uk/pie/'>Department of Plant and Invertebrate Ecology</a>,<br />
+<a href='http://www.rothamsted.ac.uk/'>Rothamsted Research</a>,<br />
+Harpenden,<br />
+Hertfordshire,<br />
+AL5 2JQ<br />
+Tel: + 44 (0) 1582 763 133<br />
+Fax: + 44 (0) 1582 760 981
+</p>
+
+
+<p><a href='/insect-survey/CHDCounter/Visitors.php'>55 visitors since<br />Tuesday 1st May 2007</a></p>
+
+<!--<div id="STimage"><img src="/insect-survey/Photos/RichardHarrington200.jpg" alt="Richard Harrington" />
+<div id="STtext">
+<strong>Suction Trapping</strong>
+<li>Aphid bulletin</li>
+<li>Bulletin Archive</li>
+<li>Sponsors</li>
+<li>Trap sites</li>
+<li>Aphids</li>
+<li>EXAMINE</li>
+</div></div>
+
+
+<div id="LTimage"><img src="/insect-survey/Photos/IanWoiwod200.jpg" alt="Richard Harrington" />
+<div id="LTtext">
+<strong>Light Trapping</strong>
+<li>Trap sites</li>
+</div></div>
+
+
+<div id="STimage"><img src="/insect-survey/Photos/VLR200.jpg" alt="Richard Harrington" />
+<div id="STtext">
+<strong>Vertical-Looking Radar</strong>
+<li>Trap sites</li>
+</div></div>-->
+</td>
+<td width="10">&nbsp;</td>
+<td valign="top"><script type="text/javascript" language="javascript">
+document.title = "Aphid species";				
+</script>
+
+
+
+<script type="text/javascript" language="javascript">
+function SwitchNameType(type){
+	if (type == 0){
+		document.getElementById('ByCommonChoice').style.fontVariant = "small-caps";
+		document.getElementById('ByLatinChoice').style.fontVariant = "normal";
+		document.getElementById('ByCommon').style.display = "block";
+		document.getElementById('ByLatin').style.display = "none";
+	} else {
+		document.getElementById('ByCommonChoice').style.fontVariant = "normal";
+		document.getElementById('ByLatinChoice').style.fontVariant = "small-caps";
+		document.getElementById('ByCommon').style.display = "none";
+		document.getElementById('ByLatin').style.display = "block";
+	}
+}
+</script>
+
+
+
+
+ 
+
+
+<table align="right" style="background-color: #2E3092; " cellspacing="0">
+<tr><td><img src="" id="RandomImage" alt=""></td></tr>
+<tr><td align="center" style="color:#FFFFFF; "><strong><em id="AphidName"></em></strong></td></tr></table>
+
+
+		<script type='text/javascript' language='javascript'>
+		document.getElementById('RandomImage').src = '/insect-survey/Photos/Aphids400/Brachycaudus_helichrysi400.jpg';
+		document.getElementById('RandomImage').alt = 'Brachycaudus helichrysi - this image is chosen randomly from a collection';
+		document.getElementById('AphidName').innerHTML = 'Brachycaudus helichrysi';
+		</script>
+	
+
+<h1>Aphid species</h1>
+
+<h3>List by <a href="javascript:SwitchNameType(0);" id="ByCommonChoice" style="font-variant: small-caps;">common name</a> or <a href="javascript:SwitchNameType(1);" id="ByLatinChoice">Latin name</a></h3>
+
+<div id="ByCommon" style="display: block'">
+<li><a href="STRhopalosiphum_insertum.php">Apple - grass aphid (<em>Rhopalosiphum insertum</em>)</a></li>
+<li><a href="STRhopalosiphum_padi.php">Bird cherry - oat aphid (<em>Rhopalosiphum padi</em>)</a></li>
+<li><a href="STAphis_fabae.php">Black bean aphid (<em>Aphis fabae</em>)</a></li>
+<li><a href="STSitobion_fragariae.php">Blackberry - cereal aphid (<em>Sitobion fragariae</em>)</a></li>
+<li><a href="STHyperomyzus_lactucae.php">Blackcurrant - sowthistle aphid (<em>Hyperomyzus lactucae</em>)</a></li>
+<li><a href="STRhopalosiphum_maidis.php">Corn leaf aphid (<em>Rhopalosiphum maidis</em>)</a></li>
+<li><a href="STNasonovia_ribisnigri.php">Currant - lettuce aphid (<em>Nasonovia ribisnigri</em>)</a></li>
+<li><a href="STPhorodon_humuli.php">Damson - hop aphid (<em>Phorodon humuli</em>)</a></li>
+<li><a href="STAulacorthum_solani.php">Glasshouse - potato aphid (<em>Aulacorthum solani</em>)</a></li>
+<li><a href="STSitobion_avenae.php">Grain aphid (<em>Sitobion avenae</em>)</a></li>
+<li><a href="STElatobium_abietinum.php">Green spruce aphid (<em>Elatobium abietinum</em>)</a></li>
+<li><a href="STBrachycaudus_helichrysi.php">Leaf-curling plum aphid (<em>Brachycaudus helichrysi</em>)</a></li>
+<li><a href="STBrevicoryne_brassicae.php">Mealy cabbage aphid (<em>Brevicoryne brassicae</em>)</a></li>
+<li><a href="STHyalopterus_pruni.php">Mealy plum aphid (<em>Hyalopterus pruni</em>)</a></li>
+<li><a href="STAcyrthosiphon_pisum.php">Pea aphid (<em>Acyrthosiphon pisum</em>)</a></li>
+<li><a href="STMyzus_persicae.php">Peach - potato aphid (<em>Myzus persicae</em>)</a></li>
+<li><a href="STMacrosiphum_euphorbiae.php">Potato aphid (<em>Macrosiphum euphorbiae</em>)</a></li>
+<li><a href="STMetopolophium_dirhodum.php">Rose - grain aphid (<em>Metopolophium dirhodum</em>)</a></li>
+<li><a href="STMyzus_ascalonicus.php">Shallot aphid (<em>Myzus ascalonicus</em>)</a></li>
+<li><a href="STDrepanosiphum_platanoidis.php">Sycamore aphid (<em>Drepanosiphum platanoidis</em>)</a></li>
+<li><a href="STCavariella_aegopodii.php">Willow - carrot aphid (<em>Cavariella aegopodii</em>)</a></li>
+</div>
+
+<div id="ByLatin" style="display: none;">
+<li><a href="STAcyrthosiphon_pisum.php"><em>Acyrthosiphon pisum</em> (Pea aphid)</a></li>
+<li><a href="STAphis_fabae.php"><em>Aphis fabae</em> (Black bean aphid)</a></li>
+<li><a href="STAulacorthum_solani.php"><em>Aulacorthum solani</em> (Glasshouse - potato aphid)</a></li>
+<li><a href="STBrachycaudus_helichrysi.php"><em>Brachycaudus helichrysi</em> (Leaf-curling plum aphid)</a></li>
+<li><a href="STBrevicoryne_brassicae.php"><em>Brevicoryne brassicae</em> (Mealy cabbage aphid)</a></li>
+<li><a href="STCavariella_aegopodii.php"><em>Cavariella aegopodii</em> (Willow - carrot aphid)</a></li>
+<li><a href="STDrepanosiphum_platanoidis.php"><em>Drepanosiphum platanoidis</em> (Sycamore aphid)</a></li>
+<li><a href="STElatobium_abietinum.php"><em>Elatobium abietinum</em> (Green spruce aphid)</a></li>
+<li><a href="STHyalopterus_pruni.php"><em>Hyalopterus pruni</em> (Mealy plum aphid)</a></li>
+<li><a href="STHyperomyzus_lactucae.php"><em>Hyperomyzus lactucae</em> (Blackcurrant - sowthistle aphid)</a></li>
+<li><a href="STMacrosiphum_euphorbiae.php"><em>Macrosiphum euphorbiae</em> (Potato aphid)</a></li>
+<li><a href="STMetopolophium_dirhodum.php"><em>Metopolophium dirhodum</em> (Rose - grain aphid)</a></li>
+<li><a href="STMyzus_ascalonicus.php"><em>Myzus ascalonicus</em> (Shallot aphid)</a></li>
+<li><a href="STMyzus_persicae.php"><em>Myzus persicae</em> (Peach - potato aphid)</a></li>
+<li><a href="STNasonovia_ribisnigri.php"><em>Nasonovia ribisnigri</em> (Currant - lettuce aphid)</a></li>
+<li><a href="STPhorodon_humuli.php"><em>Phorodon humuli</em> (Damson - hop aphid)</a></li>
+<li><a href="STRhopalosiphum_insertum.php"><em>Rhopalosiphum insertum</em> (Apple - grass aphid)</a></li>
+<li><a href="STRhopalosiphum_maidis.php"><em>Rhopalosiphum maidis</em> (Corn leaf aphid)</a></li>
+<li><a href="STRhopalosiphum_padi.php"><em>Rhopalosiphum padi</em> (Bird cherry - oat aphid)</a></li>
+<li><a href="STSitobion_avenae.php"><em>Sitobion avenae</em> (Grain aphid)</a></li>
+<li><a href="STSitobion_fragariae.php"><em>Sitobion fragariae</em> (Blackberry - cereal aphid)</a></li>
+</div>
+
+</td></tr></table>
+<iframe id="RecordBrowser" name="RecordBrowser" height="400" width="600" 
+style="display: none;"></iframe>
+<script type="text/javascript" language="javascript" src="/insect-survey/CHDCounter/VisitorsDetails.js"></script>
+</body>
+</html>
+
+"Os 
+ce

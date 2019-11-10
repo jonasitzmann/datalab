@@ -1,0 +1,99 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<TITLE>Gazetteer for Scotland: Famous People Search</TITLE>
+<script type="text/javascript" language="JavaScript" src="/scotgaz/scotgaz.js"></script>
+</HEAD>
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+<TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#People"><B> Help </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="#" onClick="popupGloss()"><B> Glossary </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B> People </B></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Places.html"><B> Places </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Statistics.html"><B> Statistics </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><A HREF="bookshop.html"><img src="images/new.gif" border="0"></A></TD></TR>
+</TABLE>
+</TD>
+<TD BGCOLOR="#FFFFCC" VALIGN="TOP" ALIGN="left">
+<BLOCKQUOTE><BR>
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+<H3>Famous People Search</H3><FONT SIZE=-1>
+<FORM METHOD="POST" ACTION="/sgzexe/famoustypelist">
+<UL><LI>Select the category of famous people you want to search for.
+Each famous person may fall into more than one category.
+If you are looking for a particular famous person or a family name try
+the <b>Any Word</b> search.
+<P><SELECT NAME="KEY1" SIZE="1">
+
+<OPTION VALUE="Academic"> Academic    </OPTION>
+<OPTION VALUE="Actor"> Actor    </OPTION>
+<OPTION VALUE="Architect"> Architect    </OPTION>
+<OPTION VALUE="Artist"> Artist    </OPTION>
+<OPTION VALUE="Author"> Author    </OPTION>
+<OPTION VALUE="Civil Servant"> Civil Servant    </OPTION>
+<OPTION VALUE="Clergy"> Clergy    </OPTION>
+<OPTION VALUE="Commerce"> Commerce    </OPTION>
+<OPTION VALUE="Composer"> Composer    </OPTION>
+<OPTION VALUE="Conservationist"> Conservationist    </OPTION>
+<OPTION VALUE="Engineer"> Engineer    </OPTION>
+<OPTION VALUE="Entertainer"> Entertainer    </OPTION>
+<OPTION VALUE="Entrepreneur"> Entrepreneur    </OPTION>
+<OPTION VALUE="Explorer"> Explorer    </OPTION>
+<OPTION VALUE="Industrialist"> Industrialist    </OPTION>
+<OPTION VALUE="Infamous"> Infamous    </OPTION>
+<OPTION VALUE="Inventor"> Inventor    </OPTION>
+<OPTION VALUE="Landowner"> Landowner    </OPTION>
+<OPTION VALUE="Lawyer"> Lawyer    </OPTION>
+<OPTION VALUE="Media Personality"> Media Personality    </OPTION>
+<OPTION VALUE="Medical"> Medical    </OPTION>
+<OPTION VALUE="Military"> Military    </OPTION>
+<OPTION VALUE="Miscellaneous"> Miscellaneous    </OPTION>
+<OPTION VALUE="Musician"> Musician    </OPTION>
+<OPTION VALUE="Nobility"> Nobility    </OPTION>
+<OPTION VALUE="Philanthropist"> Philanthropist    </OPTION>
+<OPTION VALUE="Philosopher"> Philosopher    </OPTION>
+<OPTION VALUE="Poet"> Poet    </OPTION>
+<OPTION VALUE="Politician"> Politician    </OPTION>
+<OPTION VALUE="Reformer"> Reformer    </OPTION>
+<OPTION VALUE="Royalty"> Royalty    </OPTION>
+<OPTION VALUE="Scientist"> Scientist    </OPTION>
+<OPTION VALUE="Singer"> Singer    </OPTION>
+<OPTION VALUE="Social Scientist"> Social Scientist    </OPTION>
+<OPTION VALUE="Sports Personality"> Sports Personality    </OPTION>
+<OPTION VALUE="Statesman"> Statesman    </OPTION>
+</SELECT></P>
+<LI>Click on the button below to start your search.
+<P><INPUT TYPE="SUBMIT" VALUE="Search"></FORM></P>
+</UL>
+</FONT></FONT>
+<BR></BLOCKQUOTE>
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFCC33">&nbsp;</TD>
+<TD BGCOLOR="#FFFFCC" ALIGN="CENTER">
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+
+<A HREF="/scotgaz/copyright.html">&#169;1995-2007
+The Editors of The Gazetteer for Scotland</A><BR> Supported by:
+
+<A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/rsgs/">The Royal Scottish Geographical Society,<BR></A>&nbsp;
+<A HREF="http://www.geos.ed.ac.uk/geography/">The Institute of Geography, University of Edinburgh.</A>&nbsp;
+<BR><BR></FONT>
+</TD></TR></TABLE></BODY></HTML>
+
+
+ /x wf;n0PnuW
+T

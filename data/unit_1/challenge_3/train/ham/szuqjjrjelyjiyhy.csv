@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>ALL SAINTS - ALL STARS</title>
+<script type="text/javascript" src="flashobject.js"></script>
+<script type="text/javascript" src="allstarsJavaScript.js"></script>
+<link href="../allstars_new/micro.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#flashcontent {
+width:738px;
+z-index:1px;
+background:#66AC30;
+}
+#flashobject {
+z-index:1px;
+}
+.style1 {font-size: 14px}
+-->
+</style></head> 
+   
+<div id="container">
+	<div id="flashcontent">
+		Sorry you need Flash Plugin 7 or higher.	</div>
+	<div id="flashobject">
+		<script type="text/javascript">
+			//FlashObject(swf,name,width,height,version,color)
+			var fo = new FlashObject("allstars_template.swf","allstars","738px","180px","6","#007BC8");
+			fo.addParam("allowScriptAccess", "sameDomain");
+			fo.addParam("menu", "false");
+			fo.addParam("wmode", "transparent");
+			fo.write("flashcontent");
+			//
+		</script>
+	</div>
+	<div id="header">
+		<img src="../allstars_new/images/header02b.gif" alt="VISIT US"/>	</div>
+	<div id="content_green">
+		<div class="content_col">
+			<p>Our Open Days for 2007 entrants are now finished.  But don't worry if you haven't yet visited Trinity &amp; All Saints - it's not too late.</p>
+			<p>You can visit us in person by coming on one of our  Campus Tours.</p>
+			<p>We run campus tours on Mondays at 1pm. A current student will show you round the campus and answer all your questions. You can book using our online form or <strong>call 0113 283 7349</strong>. See our <a href="http://www.leedstrinity.ac.uk/about/travel.htm">map and directions</a> page for travel details. </p>
+			<p>Alternatively, you can explore our campus right now via our <a href="http://www.leedstrinity.ac.uk/virtual_tour.htm">virtual tour</a> and email or call us if you have any questions.</p>
+	        <p class="style1">&nbsp;</p>
+	        <p>Starting in September 2008? <a href="http://www.leedstrinity.ac.uk/opendays/">Find out more</a> </p>
+		</div>
+	  <div class="content_col">
+	    <p><br />
+          <br />
+          <br />
+        <a href="/allstars/opendayForm_campus_tour.asp"><img src="../allstars_new/images/openday_add2.gif" alt="Call 0113 283 7150" border="0" /></a></p>
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.leedstrinity.ac.uk/virtual_tour.htm"><img src="../allstars_new/images/virtual tour-button.jpg" alt="Virtual Tour of Trinity &amp; All Saints" width="314" height="70" border="0" /></a><br />
+          </p>
+	  </div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<img src="/allstars_new/images/footer2.gif" alt="LEEDS TRINITY AND ALL SAINTS - CONTACT US" border="0" usemap="#Map" />
+        <map name="Map" id="Map">
+       	    <area shape="rect" coords="190,17,270,33" href="../allstars_new/contactus.html" target="_top" />
+        </map>
+	</div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+/* Replacement calls. Please see documentation for more information. */
+
+if(typeof sIFR == "function"){
+
+// This is the preferred "named argument" syntax
+	sIFR.replaceElement(named({sSelector:"div.footerText", sFlashSrc:"sifr/gill.swf", sColor:"#6A6A6A", sLinkColor:"#6A6A6A", sBgColor:null, sHoverColor:"#CCCCCC", nPaddingTop:1, nPaddingBottom:1, sFlashVars:"textalign=left&offsetTop=1&underline=true",sWmode:"transparent"}));
+};
+
+//]]>
+</script>
+</body>
+</html>
+
+
+.Rni 

@@ -1,0 +1,169 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: eodg: index:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+
+
+<a name="top"></a><center><H2>EODG Homepage
+</H2><hr></center>
+
+
+<a name="intro"><h3>Introduction</h3></a>
+
+<p>This page provides an overview of the work performed at the
+University of Oxford in the Earth Observation Data Group (EODG). </p>
+
+<p>The principal focus of EODG is the retrieval of atmospheric
+properties (e.g. temperature, pressure, trace gas concentrations, wind
+speed, aerosol and cloud properties) from data gathered by Earth
+Observing satellites.  Often, the EO instruments have been built
+and/or calibrated within the sub-department. </p>
+
+
+
+<a name="current"><h3>Current Research Projects</h3></a>
+
+<ul>
+<li><a href="/project/Globaerosol/">Globaerosol</a><br>
+<li><a href="/project/grape/">GRAPE</a><br>
+<li><a href="/group/mipas">MIPAS</a><br>
+<li><a href="/project/Quantify/">Quantify</a><br>
+<li><a href="/project/UTGARD/">UTGARD</a><br>
+</ul>
+
+<a name="completed"><h3>Completed Research Projects</h3></a>
+<table>
+<tr> 
+
+<td> 
+<ul>
+<li><a href="/project/aerosol/">Aerosol Measurement (Volcanic Ash)</a><br>
+</ul>
+</td>
+
+<td> 
+<ul><li><a href="/project/aircraft/">Aircraft Emissions</a><br>
+</ul>
+</td>
+
+<td>
+<ul><li><a href="/project/adriex/">ADRIEX</a><br>
+</ul>
+</td>
+
+</tr> 
+
+<tr> 
+<td> 
+<ul>
+<li><a href="/project/EUMETSAT/">EUMETSAT Aerosol</a><br>
+</ul>
+</td>
+
+<td> 
+<ul>
+<li><a href="http://www.leos.le.ac.uk/mapscore">MAPSCORE</a><br>
+</ul>
+</td>
+
+<td> 
+<ul>
+<li><a href="/project/PARTS/">PARTS</a><br>
+</ul>
+</td>
+
+
+</tr>
+</table>
+
+<a name="tools"><h3>Research Tools</h3></a>
+<table>
+<tr> 
+
+<td> 
+<ul>
+<li><a href="/RFM/">The RFM</a><br>
+</ul>
+</td> 
+
+<td> 
+<ul>
+<li><a href="/MORSE/">MORSE</a><br>
+</ul>
+</td> 
+
+<td> 
+<ul>
+<li><a href="/code/mie/index.html">Mie Code</a><br>
+</ul>
+</td>
+
+</tr>
+
+<tr> 
+
+<td> 
+<ul>
+<li><a href="equipment/index.html">Lab Equipment</a><br>
+</ul>
+</td>
+
+<td> 
+<ul>
+<li><a href="yau/index.html">Yau Cluster (instructions)</a><br>
+</ul>
+</td>
+
+<td> 
+<ul>
+<li><a href="http://eccles.atm.ox.ac.uk/ganglia/?m=load_one&r=week&s=descending&c=Yau+Cluster&h=&sh=1&hc=4">Yau Cluster (monitor)</a><br>
+</ul>
+</td>
+
+
+</tr>
+</table>
+
+<h3><a href="/group/eodg/internal.html">EODG Documents (Local Access Only)</a></h3>
+
+
+<p>Maintained by <a href="mailto:surname@atm.ox.ac.uk">Grainger</a></p>
+
+
+</BODY></HTML>
+
+
+c tn> <

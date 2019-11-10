@@ -1,0 +1,339 @@
+<HEAD>
+
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+
+<TITLE>Rothamsted Research - SS Department - UK Carbon</TITLE>
+
+<style>
+
+<!--
+
+A { text-decoration: none;  }  
+
+A:visited, A:hover, A:active { text-decoration: none; } 
+
+// -->
+
+</STYLE>
+
+</HEAD>
+
+
+
+<body background="/aen/NewIACRBackground.gif">
+
+
+
+<table border="0" >
+
+
+
+<! ----------------- 1st row ----------- start>
+
+<tr>
+<td colspan="3" valign="top">
+<font face="arial" size="+3"><b><font color=#008080>Soil Science Department</font>&nbsp;</b></font>
+</td>
+</tr>
+
+<! ----------------- 1st row ----------- end>
+
+
+
+<tr>
+<td HEIGHT="10"><!--blank cell--></td>
+</tr>
+
+
+<! ----------------- 2nd row ----------- start>
+
+<tr>
+
+<! -----------------2nd row side menu----------- start>
+
+
+<SCRIPT>
+<!--
+// Array function
+function makeArray(len) {    
+for (var i = 0; i < len; i++) this[i] = null;
+this.length = len;
+}
+
+
+
+//-->
+
+
+</SCRIPT>
+
+<td width="165" valign="top" align="left">
+
+
+<!-- side menu Start -->
+
+
+
+<a href="http://www.rothamsted.bbsrc.ac.uk">
+
+<img border="0" src="/aen/iacrlogo.gif">
+
+</a>
+
+
+
+<p align="left">
+
+<font face="arial" size="2">
+
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/"><b>RRes home</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/htdig/search.html"><b>Search</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html"><b>Research</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/aenindex.htm"><b>SS Department home</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+
+<br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/c_cycling/index.htm"><b>SS Carbon Cycling</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/project.htm"><b>SS projects</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+<B>National Soil C project</B>
+
+<br />
+<FONT size=2>
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/ukcarbon/index.htm"><B>Project Home</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/ukcarbon/activities.html"><B>Activities</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/ukcarbon/reports.html"><B>Reports/Publications</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/ukcarbon/links.html"><B>Links</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+</FONT>
+</font>
+
+<br />
+
+
+<FONT SIZE="1" face="arial" >
+<br />
+<I>Contact</I><br />
+Pete Falloon<br />
+SS Department<br />
+Rothamsted Research<br />
+Harpenden, Herts<br />
+AL5 2JQ. UK<br />
+
+Tel: +44 (0)1582 763133<br />
+Fax: +44 (0)1582 769222<br />
+Fax: +44 (0)1582 760981<br /> 
+
+<A HREF="MAILTO:pete.falloon@bbsrc.ac.uk">pete.falloon@bbsrc.ac.uk</A>
+
+<br />
+<br />
+
+
+Pete Smith<br />
+Plant & Soil Science Dept.<br />
+Cruickshank Building<br />
+University of Aberdeen<br />
+Aberdeen AB24 3UU. UK<br />
+Tel: +44 (0)1224 272702<br />
+Fax: +44 (0)1224 272703 <br />
+<A HREF="MAILTO:pete.smith@abdn.ac.uk">pete.smith@abdn.ac.uk</A><br />
+
+
+
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+</font>
+
+<!-- side menu End -->
+
+
+
+
+</td>
+
+<! ----------------- 2nd row side menu----------- end>
+
+
+
+<! ----------------- 2nd row body ------------------ start>
+
+<td valign="top">
+
+
+
+<font face="arial">
+
+<!------------------------------ put stuff in here: start ---------------------------------------------->
+
+
+<br />
+
+<font face="arial" size="+3"><b>Project activities</b></font>
+
+
+
+<hr />
+<font size=2>
+<CENTER>
+<A HREF="#objective">Scientific Objectives</A> | 
+<A HREF="#approach">Approaches and Research Plan</A> | 
+ </CENTER>
+<hr />
+
+<A NAME="objective"></A>
+
+<P>
+<B>Scientific Objectives</B><br />
+1. To compare a dynamic simulation approach for estimating CO2 fluxes from land use change with the soil-related coefficient method currently used - 1 year after project begins.<br />
+2. Assess the uncertainty associated with estimates of CO2 flux from land use change as a function of assumptions about rates and geographical location of land-use change - 2 years after project begins.<br />
+3. To compare a spatially explicit approach for estimating CO2 fluxes from land use change with the methods currently used - 2 years after project begins.<br />
+4. To develop a computer-based model for estimating CO2 flux from soil type and land-use change combinations representative of UK conditions  prototype 1 year after project begins, deliver final version 2 years after project begins.<br />
+5. To develop a GIS-compatible version of the model, attached to the National Soil Map at a suitable scale - prototype 1 year after project begins - deliver final version 3 years after project begins.<br />
+6. Provide annual national and regional figures on CO2 flux from land use change, in a suitable format to be included in the UK GHGEI, from 1990 to 2012 - full high-spatial-resolution estimates for all years to be provided 3 years after project begins - interim estimates derived from more aggregated data annually.<br />
+7. Projected long term CO2 flux from land use change, according to a range of land use and climate change scenarios to be developed within the research work, and estimated historic fluxes since 1960 - 3 years after the project begins.<br />
+8. Quantified assessment of the potential for a range of soil management practices to be used as CO2 emission mitigation options - 3 years after the project begins.<br />
+9. Co-ordinate the MAFF and DETR components of the project and liase with other relevant parties such as the ITE, DETR and the project steering committee.<br />
+
+<P>
+<A NAME="approach"><B>Approaches and research plan</B></A>
+The tasks correspond directly (i.e. with the same numbers) with the numbered objectives outlined above. Some tasks are sub-divided into sub-tasks.
+<br /><P>
+Task 1: To compare a dynamic simulation approach for estimating CO2 fluxes from land use change with the soil-related coefficient method currently used
+<P>
+<I>1.1	Compare current method with dynamic simulation model using data at highest levels of aggregation</I>
+<br />
+The current method for providing estimates of soil C fluxes from soils as a result of land-use change for the UK Greenhouse Gas Emissions Inventory (GHGEI) involves the use of a step change in a soil-related coefficient. This is applied to soils and land-use change data aggregated at the national (UK) level and at the regional (England, Wales, Scotland, Northern Ireland) level. The first step in the project will be to compare the new dynamic simulation approach (based on an adaptation of the RothC model) with the current method. The same raw and derived data on land-use, land-use change matrices and soil as that currently used for estimating figures for the GHGEI will be used. The figures derived using the soil-related coefficient method will be compared to the figures produced by the new dynamic simulation method.
+<br />
+<I>1.2	Compare current method with dynamic simulation model using actual data from a number of selected, representative grid-squares</I>
+<br />
+The soil-related coefficient method will be compared to the dynamic simulation method using actual data from a number of selected grid squares (Countryside Survey) in the UK representing different regions, dominant soil types (National Soil Map) and land-use changes (Countryside Survey). For each selected grid square, the absolute CO2 flux for a range of years after a land use change and the timecourse to reach a new equilibrium will be compared for each method. Differences between the approaches will be examined across regions, soil types and land-use changes.
+<br />
+<I>1.3	Examine sensitivity of each approach to the assumed depth to which the land use change is applied</I>
+<br />
+At the grid-square level and at the regional / national (highly-aggregated) levels, the effects of assuming a change in soil organic carbon (SOC) to 1m, versus an effect only in the topsoil (0-30cm) will be examined. Each method (soil-related coefficient and simulation model) will be tested to determine any differential sensitivity to depth. Even when land-use change is assumed only to affect 0-30cm, CO-2 fluxes can, if required,  be expressed to 1m  (for the purposes of the GHGEI).
+<P>
+Task 2: To assess the uncertainty associated with estimates of CO2 flux from land use change as a function of assumptions about rates and geographical location of land-use change
+<P>
+<I>2.1 Examine sensitivity of the modelling approach to different assumptions about the rate and geographical location of land-use change and assess the uncertainty in these estimates</I>
+<br />
+Working at the level of selected individual grid squares (Countryside Survey grid-squares with National Soil Map), uncertainty associated with estimated CO2  fluxes will be assessed in two ways, a) by establishing worst-case, best-case, median and average fluxes, and b) by stochastic parameter selection within a specified uncertainty range for each parameter. These aims will be accomplished as follows:
+Worst-case, best-case, median and average: For discontinuous input variables, the maximum flux attributable to a land-use change in selected grid squares will be established by, for example, applying a step change in a SOC depleting land-use change immediately after the first survey date in the area of highest SOC within the square. The minimum flux will be obtained by applying a step change the year before the most recent survey in the area of lowest SOC and the median flux will be determined by applying the step change between survey dates on an area of average SOC. The average SOC change (or the best estimate of the likely CO2 flux) will be determined as described below in 2.2. This exercise will establish the absolute upper and lower bounds of the estimated CO2 flux as well as a best estimate. 
+Stochastic parameter selection: For continuous variables (such as rainfall, temperature, clay content), a likely uncertainty range for each input will be specified (based on accuracy and uncertainty of measurement) and values will be sampled using Monte Carlo methods to assess the impact of input variable uncertainty on model output. Parameters will be varied singly or in combination with others to provide a probability distribution of model outputs (predicted change in SOC). The predicted change in SOC can then be expressed with a 95% confidence interval based on uncertainty in input variables
+<br />
+<I>2.2 Derive methods for allocating the spatial location and timing of land-use change to provide meaningful regional and national estimates of impact on CO2 fluxes. </I>
+<br />
+The best estimate of land-use change impact on CO2 flux will probably involve the application of the land-use change on a gradual, yearly basis. The soil series (where there are more than one) to which the land-use is applied in a grid square will be determined either randomly or otherwise (e.g. using agricultural land quality / suitability classes). The exact method for land use change allocation within a grid square will be developed during the course of this task. A working document will be produced for comment by the steering committee and other interested parties (e.g. ITE, DETR). This exercise will provide the best estimate of the most likely change due to a land use change.
+<P>
+Task 3: To compare a high-resolution spatially explicit approach for estimating CO2 fluxes from land use change,  with methods using highly aggregated data on soils and land-use change
+<P>
+<I>3.1 Compare the regional and national outputs of the simulation model using highly aggregated data on soil and land use with the outputs using high resolution spatially explicit data</I>
+<br />
+Having derived the most appropriate method for allocating land-use change within a grid square, the model will be applied at the national and regional levels. Data required will be Countryside Survey Data (all census periods), soil data from England and Wales (SSLRC), Scotland (MLURI/ITE), Northern Ireland (QUB/DANI/ITE) and climate data (interpolated TVS or University of East Anglia CRU/UKCIP data). The total fluxes using the high resolution spatial approach will be compared to the soil related coefficient step-change method using highly aggregated data and the dynamic modelling approach using highly aggregated data.
+<P>
+Task 4: To develop a computer-based model for estimating CO2 flux from soil type and land-use change combinations representative of UK conditions
+<P>
+Task 4 will be completed as a result of tasks 1 to 3. This will be based on the RothC model and will retain its simplicity and ease of use. If appropriate, an existing Windows interface will be adapted to aid transparency for other users.
+<P>
+Task 5: To develop a GIS-compatible version of the model, attached to the National Soil Map at a suitable scale
+<P>
+During the work contributing to Tasks 1 to 4,  a GIS-compatible version of the model will be developed. It will be coupled to the National Soil Map in order to complete Task 3. The prototype GIS-compatible model will be completed during year 1. The final product will be completed for the end of the project. The probable mode of operation will involve a model accessing georeferenced flat (ASCII or CSV) files produced by a GIS package such as Arc Info. The model will then write results to georeferenced flat files which can then be visualised (e.g. for map production) in Arc View. Output files will also be compatible with relational database packages (e.g. ACCESS) and Spreadsheet packages (e.g. Excel) for numerical and statistical processing.
+<P>
+Task 6: Provide annual national and regional figures on CO2 flux from land use change, in a suitable format to be included in the UK GHGEI, from 1990 to 2012
+<P>
+In the first 18 months of the project, highly aggregated data will be used to provide annual national and regional figures on CO2 flux from land use change, in a suitable format to be included in the UK GHGEI, from 1990 to 2012. In the second half of the project, the GIS version of the model will be sufficiently developed to use high-resolution spatially explicit data. National and regional figures using aggregated and high-resolution spatially explicit data will be compared and will be informed by the results of task 3.
+<P>
+Task 7: Projected long term CO2 flux from land use change, according to a range of land use and climate change scenarios to be developed within the research work, and estimated historic fluxes since 1960
+<P>
+Annual CO2 fluxes (national and regional) between the years 1960 and 2050 will be provided based upon a) land-use change only (as in Task 6 above but for a longer period), b) climate change only (using UKCIP and University of East Anglia Climate Research Unit climate change data from 1960 to 2050), and c) with land-use change and climate change combined. In addition, the climate change only and combined scenario will be examined both with and without an assumed CO2 fertilization effect. Outputs from this task will allow the relative importance of, and interactions between, land-use change, climate change and CO2 fertilization to be examined.
+<P>
+Task 8: Quantified assessment of the potential for a range of soil management practices to be used as CO2 emission mitigation options
+<P>
+Using the scenarios developed in Task 7, a range of model experiments will be run to determine the potential for practices of alternative land-use and changed land-management practice to mitigate CO2 emissions. Initial practices will be based upon previous work (6,7,8,9,10,11) and will include reduced tillage, soil amendment with organic materials (animal manure, straw, sewage sludge), increasing the proportion of ley-arable rotations, use of bioenergy crops and reversion of arable land to woodland or semi-natural ecosystems. Other options, such as the conservation of semi-natural and natural ecosystems (such as peatlands) will also be examined. Where possible, suitable areas for the implementation of these practices (based on soil type, climate, accessibility and availability of resource) will be identified. Other potential mitigation options will be decided upon during the course of the project with input from the project steering group.
+<P>
+Task 9: Co-ordinate the MAFF and DETR components of the project and liase with other relevant parties such as the ITE, DETR and the project steering committee.
+<P>
+Rothamsted Research will co-ordinate the MAFF and DETR components of the project and will liase with other relevant parties such as DETR, ITE, UKCIP and the project steering committee. There will be a meeting at outset of project then (at least) annually. Other meetings will he held on an ad hoc basis as and when required but it is anticipated that frequent contact between SSLRC (responsible for data collation) and Rothamsted Research (responsible for modelling) will be required.
+
+
+
+</FONT>
+
+
+<hr />
+<CENTER><FONT SIZE=-4>Pages created by <A HREF="mailto:pete.falloon@bbsrc.ac.uk">Pete.Falloon@bbsrc.ac.uk</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</CENTER>
+
+
+
+
+<!------------------------------ put stuff in here: End ---------------------------------------------->
+
+</font>
+
+
+
+<br />
+
+
+
+<hr />
+
+<p><DIV align="center">
+
+<font FACE="arial" FONT SIZE="1" align = "center" ><a HREF="http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html">Comments
+
+and suggestions</a> about this WEB site are always welcome</font></DIV></p>
+
+
+
+</td>
+
+<! ----------------- 2nd row body ------------------ end>
+
+
+
+</tr>
+
+<! ----------------- 2nd row ----------- end>
+
+
+
+</table>
+
+
+
+
+
+qr 
+
+ynmra

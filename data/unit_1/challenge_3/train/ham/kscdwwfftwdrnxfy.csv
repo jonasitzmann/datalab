@@ -1,0 +1,217 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+var url="";
+var winname="";
+
+function bigWin(url,winname)
+{
+window.open(url,winname,'width=800,height=700,scrollbars=yes');
+}
+
+function smallWin(url,winname)
+{
+window.open(url,winname,'width=600,height=700,scrollbars=yes');
+}
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<img src=images/40v.gif><br>
+<h2 align=center>Early Modern Handwriting: An Introduction</h2>
+<h3 align=center>Elisabeth Leedham-Green</h3>
+<p>&nbsp;<p>&nbsp;<p>
+<table width=100%>
+<tr>
+<td width=30% valign=middle><center><a href=images/introphotos/galls.jpg target="_new"><img src=images/introphotos/smallgalls.jpg border=none></a><p><font size=-1>Oak galls</font></center></td>
+<td width=40% valign=top>
+<b>Materials: Inks, Pens, and Surfaces</b><p>
+
+The documents/samples of hands displayed here were written between 1500 and 1690, most or all of them with a goose-quill pen and an iron gall or carbon-based ink. Iron gall ink was made up from galls (usually oak-galls), copperas [copper sulphate] or green vitriol [ferrous sulphate], and <a href="javascript:smallWin('intro/resins.html','resins')">gum arabic</a>, in varying proportions; carbon inks were developed using soot. To either mixture could be added other ingredients affecting the colour and the consistency to suit the immediate purpose: a rapid writer might want his ink runnier, a professional scribe preparing a formal text, a blacker and stickier ink.
+<p>
+</td><td width=30% valign=top><table border bgcolor=DDCEBE cellpadding=7><tr><td><font size=-1>To make common Inke of wine take a quart<br>Two ounces of Gumme let that be a part,<br>&nbsp; &nbsp;Fiue ounces of Gals, of Copres take three,<br>&nbsp; &nbsp;Long standing doth make it the better to be.<br>If wine ye do want, raine water is best,<br>And then as much stuffe as aboue at the least.<br>&nbsp; &nbsp;If Inke be too thicke, put vineger in:<br>&nbsp; &nbsp;For water doth make the colour more dim.<p>'Rules Made by E. B. for Children to write by', in <i>A new booke, containing all sort of hands</i> (1611)<p><center><a href="javascript:smallWin('intro/inkrecipes.html','inkrecipes')">More on ink recipes</a></td></tr></table></td></tr>
+<tr><td width=30% valign=middle></td><td width=40% valign=middle>
+Different writing surfaces might also call for inks of different viscosity. School desks and privy walls presented their own problems, but the commonest writing surfaces were paper and vellum, or parchment. Paper in this period was invariably rag paper, less than perfectly smooth, and naturally absorbent. Paper for writing was treated with size, a gelatinous substance made from the hooves and skins of animals, applied to the surface after the paper had been removed from the mould, rather than mixed with the pulp as it has been in later years. Paper for printing was normally much less sized, as printer's ink was oil based, and so did not run. A problem, accordingly, confronted those wishing to make marginal notes in printed texts, and a remedy was to rub the margins with powdered gum sandarac, a resin, so as to make them easier to write in. Many writing masters contended that this slowed the pen too much for use on sized writing paper.
+<p>&nbsp;
+</td><td width=30% valign=middle><center><font size=+1><a href="javascript:smallWin('intro/resins.html','resins')">gum sandarac</a></font></center></td></tr>
+<tr><td width=30% valign=top>
+<center><a href=images/introphotos/pounce.jpg target="_new"><img src=images/introphotos/smallpounce.jpg border=none></a><p>
+<font size=-1>A bag of pounce</font></center></td>
+<td width=40% valign=top>
+Vellum, except when an earlier text had been scraped off, presented a different problem, as it was likely to be greasy, notwithstanding prior treatment with chalk and pumice during manufacture. The writer therefore needed also some 'pounce'-usually powdered pumice and/or cuttle-fish bone-which was scattered over, and rubbed into, the vellum before writing. There was room for improvisation: some writers commended crushed egg-shells with powdered incense, others a mixture of allum and resin. The flesh side would be greasier but smoother than the hair side.
+<p>&nbsp;<td width=30% valign=middle><table border cellpadding=7 bgcolor=DDCEBE><tr><td><font size=-1>To take grease out of parchement or paper<p>
+Take shepes burres & burne them to pouder and laye the saide pouder on bothe sydes the parchment or paper betwene two paper bourdes & presse them by the space of two dayes or more, and it will drye & soke out all the grease.<br>(<i>The arte of Limming</i>, 1573)</font></td></tr></table></td></tr>
+<tr>
+<td width=30% valign=middle><a href="javascript:bigWin('intro/bales.html','bales')"><img src=images/introphotos/bales.gif border=none></a></td><td width=40% valign=middle>
+Writing surface and ink to hand, we finally reach for the pen. Almost certainly it is a quill. There had been metal pens, possibly from Roman, and certainly from late medieval times, but relatively few survive and it is difficult to gauge their popularity; and, from antiquity there had been reed pens, which needed frequent recutting. Quills had been in use from at least the 6th century A.D., proving more elastic and more durable than the reed pen. They were also easier to cut. The great majority of quills were goose quills, but other large fowl were put to service: ravens, crows, ducks, peacocks, vultures, even pelicans and, in the fulness of time, turkeys--which last, in particular, provided lawyers with broad nibs for engrossing hands. Queen Elizabeth favoured swans, and wisely: although some writers found them too stiff, a swan quill would outlast 50 goose quills.
+</td>
+<td width=30% valign=middle><center><a href=images/introphotos/reed.jpg target="_new"><img src=images/introphotos/smallreed.jpg border=none></a><p><a href=images/introphotos/quill.jpg target="_new"><img src=images/introphotos/smallquill.jpg border=none></a><p><font size=-1>A reed pen and a quill</font></center></td></tr>
+<tr><td width=30% valign=middle></td>
+<td width=40% valign=middle>
+<p>
+The life expectancy of goose quills was extremely variable. Philemon Holland made them last:
+<blockquote>
+		With one sole pen I wrote this book<br>
+		Made of a grey goose quill;<br>
+		A pen it was when I it tooke,<br>
+		And a pen I leave it still.
+</blockquote>
+The jingle is attached to his translations both of Camden's <i>Britannia</i> and of Pliny's <i>Natural History</i>, both very substantial, and he may have been as economical with the truth as with his quills. Nevertheless, given that the claim was made with pride, and may be exaggerated, it seems intended to demand credence. At the other end of the scale, Exchequer clerks in 1807 had an allowance of between one hundred and three hundred pens a quarter-up to about 3 quills a day. Unlike Philemon Holland, the Exchequer clerks probably had little time to re-cut or repair their quills in the course of the working day. 
+<p>&nbsp;
+</td>
+<td width=30% valign=middle></td></tr>
+<tr><td width=30% valign=middle>
+<center><a href=images/introphotos/pot.jpg target="_new"><img src=images/introphotos/smallpot.jpg border=none></a><p><font size=-1>An inkorn and stand</font></center></td>
+<td width=40% valign=middle>
+Most writers, as well as their inkhorn, their pounce pot, and their quills, will also have used a pen-kife, the design of which varied over the years. Characteristically it would have had a blade with a curved sharp edge, and with one flat and one slightly convex side, the whole narrowing to a point. Several texts published by writing masters gave instructions on the cutting of pens; of course, the final finishing would depend on the style of writing intended, according to whether a stroke of consistent width (as in some chancery hands) or a variety of broad and narrow strokes (as in secretary) was required. The stiffness of the pen could also be varied both by the practice of 'dutching' (soaking the barrel in water and then plunging it into hot sand or ashes) and, of course, by the width and length of the nib.
+<p>&nbsp;<p>&nbsp;
+</td><td width=30% valign=middle><center><a href=images/introphotos/knife.jpg target="_new"><img src=images/introphotos/smallknife.jpg border=none></a><p><font size=-1>A curved knife</font></center></td>
+</tr>
+<tr><td width=30% valign=middle><center><a href=images/introphotos/pentrial.gif target="_new"><img src=images/introphotos/pentrial.gif width=200 border=none></a><p>
+<font size=-2>Pen trials at the end of a work by Cicero</font></center></td>
+<td width=40% valign=middle>
+<b>Manuscript writing: Contexts and hands</b>
+<p>
+What use did the early modern man and woman make of this equipment? What did he or she write? It sounds like a silly question, and to some extent, of course, they wrote the same sorts of things as we write nowadays--but only to some extent. Vellum was expensive, and was reserved for very fine presentation copies of literary works and, far more copiously, for title deeds and other legal documents--things designed to last. Paper, however, was expensive too, and memories correspondingly better; so, though we may find mundane documents, such as accounts, we shall seldom find shopping lists. If we do find anything so ephemeral, it will be written on blank spaces of something intended to last longer, like the endpapers of printed and manuscript books, along with pen-trials. (Quills can be mischievous, and it was necessary to make sure that they were in good order before starting to write.) However, just as there were things that early modern people seldom committed to paper, they did use manuscript in a variety of ways which we seldom employ now.
+<p>&nbsp;</td><td width=30% valign=middle></tr>
+<tr><td width=30% valign=middle><font size=-1><blockquote>That many of the texts known to an educated English reader of the seventeenth century would have been encountered in manuscript rather than in print is hardly news: the collections of major British and United States libraries contain many thousands of testimonies to this fact. That some of this material was the creation of professional scribes, whose work was distributed through organized markets, while less widely known, is also a matter of record--the advent of the press did not extinguish older methods of publication through manuscript. That certain seventeenth-century poets, among them Donne, Corbett, Strode, King, Carew, Pestell, Marvell, Cotton, Katherine Philips, Traherne, Rochester and Dorset, wrote primarily for scribal transmission is amply acknowledged by their editors and confirmed by the formidable list of sources for the best-known of these given in Peter Beal's volumes of the <i>Index of English literary manuscripts</i>. What is lacking to date has been an awareness that each of these things is a part of a larger phenomenon--scribal publication--which had a role in the culture and commerce of texts just as assured as that of print publication.</blockquote><br>
+Love's clarion call, <i>Scribal Publication in Seventeenth-century England</i>, pp. 3-4.</font></td>
+<td width=40% valign=middle>
+Lovers of fine books, in the decades after the appearance of the printing press, sometimes saw no appeal in the printed book, and admitted only manuscripts to their libraries, commissioning manuscript copies of printed texts; humbler personages also copied printed texts, doubtless for reasons of economy, or, perhaps, from force of habit. Long after the acceptance of print, however, manuscript culture continued to flourish: Harold Love's <i>Scribal publication in seventeenth-century England</i> (Oxford, 1993) describes the continued function of scriptoria long after the appearance of print. Before print, scriptoria had produced multiple copies of liturgical texts, university text-books, and a vast range of other literary texts. After print, they tended to concentrate on material for which print was less suitable, or rather, for which manuscript transmission was uniquely suitable, such as political satire. Scriptoria also issued newsletters, and in this context it is worth remembering that, if speed was of the essence, scribal publication of a document of modest length, could well be more rapid than print. The scribes in scriptoria cultivated similar hands, so that work could be shared between several writers without distracting or confusing the reader by, for example, having one quire in one hand and the next in another. These hands are rapid and nearly always very legible, sometimes stylised, but seldom formal, in the sense that they have few extraneous flourishes or unnecessary strokes.</td>
+<td width=30% valign=middle><center><a href=images/introphotos/scribal.jpg border=none target="_new"><img src=images/introphotos/scribal.jpg width=250></a><p><font size=-1>A typical scribal secretary hand, like this late Elizabethan example from a manuscript in the library of Gonville and Caius College, Cambridge, is cursive, regular, and very legible. </font></center></td>
+</tr>
+<tr><td width=30% valign=middle></td>
+<td width=40% valign=middle>
+<p>
+Other kinds of scribal hands appear in different contexts, and their styles overlap. Scribes employed by government, or by those who could afford private secretaries, often used a notarial hand-deliberate, often with otiose strokes, upright and, again, very legible (once you have got used to it). Such scribes made conscientious use of engrossing hands for titles, and of italic for quotations from foreign languages, especially Latin, and often for proper names. Different government departments, for example Chancery, the Exchequer, and the King's Bench, each had distinctive scripts.
+<p>
+</td><td width=30% valign=middle><center><a href=images/introphotos/chancery2.jpg target="_new"><img src=images/introphotos/chancery1.jpg border=none></a><br><font size=-1>The hand of the Tudor Chancery<p>
+<a href=images/introphotos/legal2.jpg target="_new"><img src=images/introphotos/legal1.jpg border=none></a><br>The hand of the Tudor Court of Common Pleas (Place)</td>
+</tr>
+<tr><td width=30% valign=middle>
+<blockquote><font size=-1>The Elizabethan poet Edmund Spenser, who served as a secretary in the English administration in Ireland, used two, and possibly three, distinct hands in his official and personal business. The fluid secretary hand preserved in many state papers (below, top) was his usual hand for official work, while engrossed words or endorsements, marginalia, Latin text, or personal/literary documents were more likely to be executed in his italic hand (below, bottom). Some scholars also attribute to Spenser a more florid, rounded italic hand appearing on some important letters from Arthur Lord Grey de Wilton, Lord Deputy of Ireland, to Queen Elizabeth.</font></blockquote>
+<br>&nbsp;
+<center>
+<img src=images/introphotos/spenser1.jpg><p>
+<img src=images/introphotos/spenser2.jpg></center>
+</td>
+</td>
+<td width=40% valign=middle>
+In addition to the commercial productions of the scriptoria, many literary texts circulated in manuscript for many years before they were printed. Some still await print. Notable among these are the texts circulated among literary coteries. Appearance in print was often regarded as not quite gentlemanly, and besides, there was a cosiness in the distribution among friends only; although, of course, many pieces, originally confined to a few select individuals, escaped into the manuscript anthologies which were so popular throughout the reading classes of the sixteenth and seventeenth centuries.
+<p>
+Many writers used more than one hand, according not only to the need for haste, but also for the formality of the document. They might, if good humanists, use italic in public, but secretary hand for private documents. Hamlet, when he forged the death warrant for Rosencrantz and Guildenstern to replace his own, made necessary adjustments to his usual hand, either subsituting secretary for the gentlemanly italic, or, perhaps, employing a formal secretary hand:
+<blockquote>
+.. I sat me down,<br>
+Devis'd a new commission, wrote it fair.<br>
+I once did hold it, as our statists do,<br>
+A baseness to write fair, and laboured much<br>
+How to forget that learning; but, sir, now<br>
+It did me yeoman's service.<br>
+ (Act 5, scene 2, 32-37)
+</blockquote>
+<p>&nbsp;<p>
+</td>
+<td width=30% valign=middle></td></tr>
+<tr>
+<td width=30% valign=middle></td>
+<td width=40% valign=middle>
+<b>Dating hands</b>
+<p>
+English italic hands are hard to date, although it is perhaps true that the earliest exemplars are closer to their Italian originals. Secretary hand, by contrast, does evolve, if erratically. Descenders and ascenders tend to become longer, and scripts become more sloping. Italic forms creep in, producing hybrid secretary/italic hands. At the other end of the spectrum, early sixteenth-century hands often conserve forms from the earlier anglicana styles, notably the long 'r'. That being said, most writers retained the basic characteristics of the hands (often both a secretary and an italic hand) which they first learned, maybe fifty years earlier, and their writing master might have formed his hand yet fifty years earlier still--so precise dating from the hand alone can be hazardous. Richard Okes, Provost of King's College, Cambridge from 1850 to 1889, regularly employs a long 's'.
+</td><td width=30% valign=middle>
+<font size=-1><blockquote>Anglicana long 'r' appears throughout the secretary hand used in this indenture of 1514, as here in 'Indentures'. </blockquote>&nbsp;<center>
+<img src=images/introphotos/longr.jpg>
+</center>
+<p>
+</td>
+</tr>
+</table>
+<p>&nbsp;<p>
+<table width=100%>
+<tr><td width=30% valign=top></td>
+<td width=40% valign=top>
+<font size=-1>Dr Elisabeth Leedham-Green, FSA, formerly Deputy Keeper of the Cambridge University Archives, is a fellow of Darwin College, Cambridge. She is co-editor, with M T Webber, of the forthcoming <i>History of Libraries in Britain and Ireland</i> (CUP), and with R. J. Fehrenbach of <i>Private Libraries in Britain and Ireland</i>. She serves as a Vice-President of the Bibliographical Society, and is the Hon. Editor of the <i>Transactions of the Cambridge Bibliographical Society</i>. 
+</font></td><td width=30% valign=top></td></tr></table>
+<p>
+<img src=images/30v.gif><br>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+
+
+
+
+fe>R<u

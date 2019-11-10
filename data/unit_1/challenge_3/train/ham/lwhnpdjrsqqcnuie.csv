@@ -1,0 +1,423 @@
+
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>Attractions and Features Search</TITLE>
+<LINK REL="stylesheet"HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css"></HEAD>
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+<TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Places"><B> Help </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><a href="#" onClick="window.open('/scotgaz/glossw.html','GlossaryWin','width=600,height=400,scrollbars=1,top=150,screenY=150')"><B> Glossary </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/People.html"><B> People </B></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B> Places</B></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Statistics.html"><B> Statistics </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080"FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><A HREF="bookshop.html"><img src="images/new.gif" border="0"></A></TD></TR>
+</TABLE>
+</TD>
+<TD BGCOLOR="#FFFFCC" VALIGN="TOP" ALIGN="left">
+<BLOCKQUOTE><BR>
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+<H3>Attractions and Features Search</H3><FONT SIZE=-1>
+<p>
+<UL><LI>Choose a category and type to select an attraction or feature from. The search can be narrowed
+if subtypes are available.  Searching without a subtype returns all attractions and features from
+that type. If you are searching for towns, villages or cities try the <b>AnyWord</b> search.<p>
+
+<FORM name="form_1" METHOD="POST" ACTION="/sgzexe/featurelistnew">
+<select name="cat" size="1" onChange="redirect(this.options.selectedIndex)">
+<option value="0" selected>---Category-------------</option>
+<option value="1">Water or Coastal Features</option>
+<option value="2">Land Features</option>
+<option value="3">Transport Infrastructure</option>
+<option value="4">Institution and Government Buildings</option>
+<option value="5">Sports Venues</option>
+<option value="6">Cultural Features</option>
+<option value="7">Domestic Buildings</option>
+<option value="8">Industrial and Commercial Sites</option>
+<option value="9">Districts</option>
+</select>
+
+<select name="type" size="1" onChange="redirect1(this.options.selectedIndex)">
+<option value="0" selected>---Types--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+<option value=" " selected>---Select2--------------</option>
+</select>
+
+<select name="subtype" size="1">
+<option value="0" selected>---Sub Types----------------</option>
+<option value=" " selected>---Select3--------------</option>
+<option value=" " selected>---Select3--------------</option>
+<option value=" " selected>---Select3--------------</option>
+<option value=" " selected>---Select3--------------</option>
+<option value=" " selected>---Select3--------------</option>
+<option value=" " selected>---Select3--------------</option>
+</select>
+
+<script>
+<!--
+
+var groups=document.form_1.cat.options.length
+var group=new Array(groups)
+for (i=0; i<groups; i++)
+group[i]=new Array()
+
+group[0][0]=new Option("---Types---"," ");
+group[1][0]=new Option("Now Select a Type"," ");
+group[2][0]=new Option("Now Select a Type"," ");
+group[3][0]=new Option("Now Select a Type"," ");
+group[4][0]=new Option("Now Select a Type"," ");
+group[5][0]=new Option("Now Select a Type"," ");
+group[6][0]=new Option("Now Select a Type"," ");
+group[7][0]=new Option("Now Select a Type"," ");
+group[8][0]=new Option("Now Select a Type"," ");
+group[9][0]=new Option("Now Select a Type"," ");
+group[1][1]=new Option("Estuary","14");
+group[1][2]=new Option("River","16");
+group[1][3]=new Option("Canal","17");
+group[1][4]=new Option("Island","18");
+group[1][5]=new Option("Bay or Cove","19");
+group[1][6]=new Option("Cave (Coastal)","20");
+group[1][7]=new Option("Loch or Lake","25");
+group[1][8]=new Option("Waterfall","26");
+group[1][9]=new Option("Reservoir","33");
+group[1][10]=new Option("Peninsula","34");
+group[1][11]=new Option("Basin","35");
+group[1][12]=new Option("Sea Loch or Inlet","38");
+group[1][13]=new Option("Channel, Sound or Strait","39");
+group[1][14]=new Option("Point or Cape","40");
+group[1][15]=new Option("Rock or Reef","42");
+group[1][16]=new Option("Spit","43");
+group[1][17]=new Option("Beach, Bank or Shoal","44");
+group[1][18]=new Option("Nature Reserve","45");
+group[1][19]=new Option("Whirlpool","47");
+group[1][20]=new Option("Viewpoint","50");
+group[1][21]=new Option("Other Water or Coastal Feature","51");
+group[1][22]=new Option("Lighthouse","55");
+group[1][23]=new Option("Cliff, Stack or Arch","93");
+group[2][1]=new Option("Garden or Park","4");
+group[2][2]=new Option("Mountain","10");
+group[2][3]=new Option("Hill","11");
+group[2][4]=new Option("Hill Range","12");
+group[2][5]=new Option("Mountain Range","13");
+group[2][6]=new Option("Forest or Wood","22");
+group[2][7]=new Option("Valley","24");
+group[2][8]=new Option("Estate","36");
+group[2][9]=new Option("Nature Reserve","45");
+group[2][10]=new Option("Pass","46");
+group[2][11]=new Option("Cave (Inland)","49");
+group[2][12]=new Option("Viewpoint","50");
+group[2][13]=new Option("Moor or Moss","52");
+group[2][14]=new Option("Other Land Feature","53");
+group[3][1]=new Option("Airport","2");
+group[3][2]=new Option("Bridge","15");
+group[3][3]=new Option("Canal","17");
+group[3][4]=new Option("Railway","21");
+group[3][5]=new Option("Road or Street","27");
+group[3][6]=new Option("Railway Station","28");
+group[3][7]=new Option("Bus Station","54");
+group[3][8]=new Option("Lighthouse","55");
+group[3][9]=new Option("Walking Route or Way","56");
+group[3][10]=new Option("Other Transport Infrastructure","57");
+group[4][1]=new Option("Learned Society or Academy","23");
+group[4][2]=new Option("Military Installation","31");
+group[4][3]=new Option("Central Government Building","58");
+group[4][4]=new Option("Court","59");
+group[4][5]=new Option("Hospital","60");
+group[4][6]=new Option("Library","61");
+group[4][7]=new Option("Local Government Building","62");
+group[4][8]=new Option("Place of Worship","63");
+group[4][9]=new Option("Prison","64");
+group[4][10]=new Option("Research Institute","65");
+group[4][11]=new Option("School","66");
+group[4][12]=new Option("University or College","67");
+group[4][13]=new Option("Other Institution or Government Building","68");
+group[5][1]=new Option("Stadium","7");
+group[5][2]=new Option("Golf Course or Club","41");
+group[5][3]=new Option("Walking Route or Way","56");
+group[5][4]=new Option("Ski Centre","69");
+group[5][5]=new Option("Race Course","70");
+group[5][6]=new Option("Other Sports Venue","71");
+group[5][7]=new Option("Swimming Pool","90");
+group[5][8]=new Option("Sports or Leisure Complex","91");
+group[6][1]=new Option("Museum or Gallery","1");
+group[6][2]=new Option("Monument","3");
+group[6][3]=new Option("Exhibition or Centre","8");
+group[6][4]=new Option("Historic Building","9");
+group[6][5]=new Option("Road or Street","27");
+group[6][6]=new Option("Battlefield","29");
+group[6][7]=new Option("Archaeological Site","30");
+group[6][8]=new Option("Cemetery or Crematorium","48");
+group[6][9]=new Option("Library","61");
+group[6][10]=new Option("Place of Worship","63");
+group[6][11]=new Option("Entertainment Venue","72");
+group[6][12]=new Option("Shopping Centre","73");
+group[6][13]=new Option("Other Cultural Feature","74");
+group[6][14]=new Option("Distillery","80");
+group[7][1]=new Option("Castle or Tower","75");
+group[7][2]=new Option("House, Mansion or Palace","76");
+group[7][3]=new Option("Lodge","77");
+group[7][4]=new Option("Other Domestic Building","78");
+group[7][5]=new Option("Hotel or Inn","92");
+group[8][1]=new Option("Business Park or Centre","6");
+group[8][2]=new Option("Power Station","32");
+group[8][3]=new Option("Brewery","79");
+group[8][4]=new Option("Distillery","80");
+group[8][5]=new Option("Harbour","81");
+group[8][6]=new Option("Mill","82");
+group[8][7]=new Option("Mine or Quarry","83");
+group[8][8]=new Option("Oil or Gas Facility","84");
+group[8][9]=new Option("Other Industrial or Commercial Site","85");
+group[9][1]=new Option("Physiographic District","5");
+group[9][2]=new Option("Parish","37");
+group[9][3]=new Option("Archdiocese and Diocese","86");
+group[9][4]=new Option("Urban District","87");
+group[9][5]=new Option("Other District","88");
+group[9][6]=new Option("Administrative District","89");
+
+
+var temp=document.form_1.type
+
+function redirect(x){
+for (m=temp.options.length-1;m>0;m--)
+temp.options[m]=null
+for (i=0;i<group[x].length;i++){
+temp.options[i]=new Option(group[x][i].text,group[x][i].value)
+}
+temp.options[0].selected=true
+redirect1(0)
+}
+
+var secondGroups=document.form_1.type.options.length
+var secondGroup=new Array(groups)
+for (i=0; i<groups; i++) {
+secondGroup[i]=new Array(group[i].length)
+for (j=0; j<group[i].length; j++) {
+secondGroup[i][j]=new Array() }}
+secondGroup[1][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[2][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[3][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[4][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[5][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[6][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[7][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[8][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[9][0][0]=new Option("-----Subtype-----"," ");
+secondGroup[1][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][2][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][6][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][7][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][8][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][9][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][10][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][11][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][12][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][13][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][14][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][15][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][16][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][17][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][18][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][19][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][20][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][21][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][22][0]=new Option("No Subtypes Available"," ");
+secondGroup[1][23][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][1][1]=new Option("Zoo or Wildlife Park","1");
+secondGroup[2][1][2]=new Option("Botanical Garden","2");
+secondGroup[2][2][1]=new Option("Munro","3");
+secondGroup[2][2][2]=new Option("Corbett","4");
+secondGroup[2][2][3]=new Option("Graham","5");
+secondGroup[2][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][6][1]=new Option("Deer Forest","10");
+secondGroup[2][7][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][8][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][9][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][10][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][11][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][12][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][13][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][14][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][2][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][6][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][7][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][8][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][9][0]=new Option("No Subtypes Available"," ");
+secondGroup[3][10][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][2][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][6][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][7][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][8][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][9][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][10][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][11][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][12][0]=new Option("No Subtypes Available"," ");
+secondGroup[4][13][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][2][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][6][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][7][0]=new Option("No Subtypes Available"," ");
+secondGroup[5][8][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][2][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][6][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][7][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][8][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][9][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][10][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][11][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][12][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][13][0]=new Option("No Subtypes Available"," ");
+secondGroup[6][14][0]=new Option("No Subtypes Available"," ");
+secondGroup[7][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[7][2][0]=new Option("No Subtypes Available"," ");
+secondGroup[7][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[7][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[7][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][2][1]=new Option("Coal","6");
+secondGroup[8][2][2]=new Option("Nuclear","7");
+secondGroup[8][2][3]=new Option("Hydro-Electric","8");
+secondGroup[8][2][4]=new Option("Wind Farm","9");
+secondGroup[8][2][5]=new Option("Oil or Gas","11");
+secondGroup[8][2][6]=new Option("Other","12");
+secondGroup[8][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][6][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][7][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][8][0]=new Option("No Subtypes Available"," ");
+secondGroup[8][9][0]=new Option("No Subtypes Available"," ");
+secondGroup[9][1][0]=new Option("No Subtypes Available"," ");
+secondGroup[9][2][0]=new Option("No Subtypes Available"," ");
+secondGroup[9][3][0]=new Option("No Subtypes Available"," ");
+secondGroup[9][4][0]=new Option("No Subtypes Available"," ");
+secondGroup[9][5][0]=new Option("No Subtypes Available"," ");
+secondGroup[9][6][0]=new Option("No Subtypes Available"," ");
+secondGroup[2][1][0]=new Option("Subtypes Available"," ");
+secondGroup[2][2][0]=new Option("Subtypes Available"," ");
+secondGroup[2][6][0]=new Option("Subtypes Available"," ");
+secondGroup[8][2][0]=new Option("Subtypes Available"," ");
+
+
+var temp1=document.form_1.subtype
+function redirect1(y){
+for (m=temp1.options.length-1;m>0;m--)
+temp1.options[m]=null
+for(i=0;i<secondGroup[document.form_1.cat.options.selectedIndex][y].length;i++){
+temp1.options[i]=new
+Option(secondGroup[document.form_1.cat.options.selectedIndex][y][i].text,secondGroup[document.form_1.cat.options.selectedIndex][y][i].value)
+}
+temp1.options[0].selected=true
+}
+
+ function set_orig()
+ 
+ {
+  window.document.form_1.cat.selectedIndex = 0;
+  window.document.form_1.type.selectedIndex = 0;
+  window.document.form_1.subtype.selectedIndex = 0;
+  window.document.form_1.area.selectedIndex = 0;
+ }
+
+ window.onload=set_orig
+
+
+//-->
+</script>
+</p>
+
+<LI>Select the council area you want to include in your search.
+You can choose 'All of Scotland' to include all council areas.
+<P><SELECT NAME="area" SIZE="1">
+<OPTION SELECTED="selected" VALUE="99"> All of Scotland</OPTION>
+<option value="1">Aberdeen City</option>
+<option value="2">Aberdeenshire</option>
+<option value="3">Angus</option>
+<option value="4">Argyll and Bute</option>
+<option value="13">City of Edinburgh</option>
+<option value="5">Clackmannanshire</option>
+<option value="7">Dumfries and Galloway</option>
+<option value="8">Dundee City</option>
+<option value="9">East Ayrshire</option>
+<option value="10">East Dunbartonshire</option>
+<option value="11">East Lothian</option>
+<option value="12">East Renfrewshire</option>
+<option value="14">Falkirk</option>
+<option value="15">Fife</option>
+<option value="16">Glasgow City</option>
+<option value="17">Highland</option>
+<option value="18">Inverclyde</option>
+<option value="19">Midlothian</option>
+<option value="20">Moray</option>
+<option value="21">North Ayrshire</option>
+<option value="22">North Lanarkshire</option>
+<option value="30">Orkney</option>
+<option value="23">Perth and Kinross</option>
+<option value="24">Renfrewshire</option>
+<option value="25">Scottish Borders</option>
+<option value="31">Shetland</option>
+<option value="26">South Ayrshire</option>
+<option value="27">South Lanarkshire</option>
+<option value="28">Stirling</option>
+<option value="6">West Dunbartonshire</option>
+<option value="29">West Lothian</option>
+<option value="32">Western Isles</option>
+</select></p>
+<li>Click on the button below to start your search.
+<p><input type="submit" value="Search"></form></p>
+</ul></font></font>
+<BR></BLOCKQUOTE>
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFCC33">&nbsp;</TD>
+<TD BGCOLOR="#FFFFCC" ALIGN="CENTER">
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+
+<A HREF="/scotgaz/copyright.html">&#169;1995-2006
+Gazetteer for Scotland</A><BR> Supported by:
+
+<A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/rsgs/">The Royal Scottish GeographicalSociety,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/">The Institute of Geography, University of Edinburgh.</A>&nbsp;
+<BR><BR></FONT>
+</TD></TR></TABLE></BODY></HTML>
+
+
+rWhli-g=4o	

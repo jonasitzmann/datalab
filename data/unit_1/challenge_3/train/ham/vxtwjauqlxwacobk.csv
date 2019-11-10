@@ -1,0 +1,78 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: 2point2_metre_facility: cool_6:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<h2>Description of cooling systems for environment walls</h2>
+
+<TABLE WIDTH=100%><TR><TD VALIGN=TOP>
+<CENTER><a href="cool_fig1_large.jpg"><IMG SRC="cool_fig1.jpg"></a><BR>
+<BR><I>Fig 1: Photograph of LN2 storage vessel</I></CENTER>
+</TD><TD>
+<p>A number of cooling systems are used at the department for thermal
+vacuum testing. For the 2.2 metre facility these include direct
+cooling using liquid nitrogen (LN2), and indirect cooling using
+LN2-cooled <a href="heat_7.html">heat-exchangers</a> and
+re-circulating fluid loops. The souce of LN2 is a 6000 litre storage
+vessel situated close to the facilities, Fig 1.</p>
+
+<p>The liquid nitrogen is distributed around the facilities via
+super-insulated vacuum lines, and supplied to the various thermal
+vacuum chambers from pressurised, multiple-outlet phase separators,
+Fig 2. Boil-off gas from the storage vessel is used for purging and
+back-filling chambers at the end of thermal vacuum testing.
+</TD></TR>
+</TABLE>
+
+<CENTER><IMG SRC="cool_fig2.jpg"><BR>
+<BR><I>Fig 2: Photograph of cryogenic feedthroughs passing into the vacuum
+vessel</I></CENTER>
+
+<p>The purpose-built environment walls for <a
+href="http://www.atm.ox.ac.uk/hirdls/home.htm">HIRDLS test and
+calibration</a> were supported by rails (heavy duty stainless steel
+tubing) attached to the central section of the <a
+href="chamber_1.html">thermal vacuum chamber</a>. The support rails,
+which are some 3 metre long, provide a very versatile construction
+framework for supporting cold walls in both new and existing
+configurations, Fig 3.</p>
+
+<CENTER><IMG SRC="cool_fig3.jpg"><BR>
+<BR><I>Fig 3: Photograph of cold wall support system</I></CENTER>
+
+</BODY></HTML>
+
+
+lRcat=

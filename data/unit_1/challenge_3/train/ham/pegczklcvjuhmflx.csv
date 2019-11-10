@@ -1,0 +1,97 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: 2point2_metre_facility: mass_3:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<h2>Description of low vibration system</h2>
+
+<p>The stringent requirements for <a
+href="http://www.atm.ox.ac.uk/hirdls/home.htm">HIRDLS Test and
+Calibration</a> necessitated the provision of a low vibration
+equipment support inside the <a href="chamber_1.html">thermal vacuum
+chamber</a>, one that could carry loads in excess of 500 kg with a
+high centre of gravity.</p>
+
+<CENTER><IMG SRC="mass_fig1.jpg"><BR> 
+<BR><I>Fig 1: Three dimensional
+drawing of the seismic mass on isolators and with the stanchions and
+box-beam table attached)</I></CENTER>
+
+<p>To achieve the specified low vibration environment the instrument
+and its optical test equipment, the so-called <a
+href="CMS_4.html">collimator-monochromator system (CMS)</a>, were
+supported by a <strong>10,000 kg inertial mass</strong> resting on
+four <strong>pneumatic isolators</strong>, Fig 1.</p>
+
+<CENTER><IMG SRC="mass_fig2.jpg"><BR>
+<BR><I>Fig 2: Photograph of box beam table</I></CENTER>
+<BR>
+<TABLE WIDTH=100%><TR><TD VALIGN=TOP>
+<p>The simple box-beam
+equipment support table shown in Fig 2 is connected to the mass via
+two large diameter stanchions. The integrity of the vacuum enclosure
+is maintained by Dacron-reinforced Viton rolling diaphragm seals, Fig
+3.</p>
+<p>The shape and weight of the reinforced concrete block ensures a low
+centre of gravity even when the support table is loaded with test
+equipment. The low natural frequency of the pneumatic mounts (3 Hz
+vertical) and the high stiffness of the block (natural frequency > 100
+Hz) ensure low, structure-borne vibration levels when making sensitive
+optical measurements.</p>
+</TD><TD>
+</TD><TD>
+<a href="mass_fig3_large.jpg"><IMG SRC="mass_fig3.jpg"></a><BR>
+<BR><I>Fig 3: Diagram of sealing arrangement</I>
+</TD>
+</TR>
+</TABLE>
+
+<p>The success of the arangement, which included
+supporting the instrument at an angle of 25 degress in the chamber
+(see Fig 4) is borne out by the quality of the <a
+href="CMS_4.html">field of view (FOV) plots</a> derived during test
+and calibration. Other test equipment, such as the cold walls and
+external <a href="targets_5.html">radiometric calibration targets</a>
+were supported on heavy duty rails attached to the central section of
+the chamber.</p>
+
+
+<CENTER><IMG SRC="mass_fig4.jpg"><BR>
+<BR><I>Fig 4: Photograph of HIRDLS in chamber</I></CENTER>
+
+</BODY></HTML>
+
+
+9"  oth

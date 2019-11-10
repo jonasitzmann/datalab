@@ -1,0 +1,109 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: undergraduates: fluids:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<H2>
+Physics of Fluid Flows
+</H2>
+
+<P>This is a Minor Option for Part B of Oxford University's Honour
+School of Natural Science (Physics).  It is part of the four-year
+course leading to the M.Phys. degree and also part of the three-year
+course leading to the B.A. degree.  It is taught by members of the
+subdepartment of Atmospheric, Oceanic and Planetary Physics.
+
+<H3>Aims of the course</H3>
+
+<P>This course will introduce the study of the macroscopic physics of
+fluid flows. The topics covered will illustrate a variety of aspects
+of modern fluid dynamics.
+
+<H3>Reading list</H3>
+
+<P>
+D J Tritton, <i>Physical Fluid Dynamics</i>, 2nd edition (C.U.P.)<br>
+T E Faber, <i>Fluid Dynamics for Physicists</i> (C.U.P.)<br>
+D J Acheson, <i>Elementary Fluid Dynamics</i> (O.U.P.)<br>
+B Massey and J Ward-Smith, <i>Mechanics of Fluids</i> (Stanley Thornes)<br>
+J Lighthill, <i>Waves in Fluids</i> (C.U.P.)<br>
+M Van Dyke, <i>An Album of Fluid Motion</i> (Parabolic Press)
+
+<P>For introductory reading: <i>The Feynman Lectures</i>, Vol. II,
+Sections 40, 41 (Addison Wesley)
+
+<H3>Lecture Synopsis</H3>
+
+The course will cover the following topics:
+
+<P><i>Lectures 1, 2. Introduction:</i> Examples of fluid flows in
+physics, geophysics, aerodynamics, engineering and biology. Fluids as
+continua. Newton's Second Law for a small element of fluid, leading to
+the Navier-Stokes equation.  Lagrangian and Eulerian
+viewpoints. Equation for mass conservation.
+
+<P><i>Lectures 3, 4. Some simple models of fluid flows:</i> Exact
+solutions of the equations of motion: Poiseuille flow in a pipe,
+Reynolds's experiment, the Reynolds number; Couette flow between
+rotating cylinders.  Vorticity and its physical interpretation.
+
+<P><i>Lectures 5, 6, 7. Inviscid flows without vorticity:</i>
+Electrostatics analogy, applications to aircraft flight.  Water waves
+on oceans and ponds; phase and group velocity; qualitative description
+of ship waves. Nonlinear effects: solitons, hydraulic jumps.
+
+<P><i>Lectures 8, 9. Very viscous flows:</i> Stokes's Law for the drag
+on a sphere.  Thin-film flows and applications to lubrication.
+
+<P><i>Lectures 10, 11, 12. Instability:</i> Breakdown of laminar
+flows; pathways to turbulence and chaos.  Kelvin-Helmholtz
+instability.  Convection, with applications to the atmospheres of the
+Earth and stars.
+
+<H3>Problems</H3>
+
+A problem set will be circulated.
+
+
+<author>d.andrews1@physics.ox.ac.uk</author>
+
+
+
+
+
+</BODY></HTML>
+
+
+fct.v

@@ -1,0 +1,85 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML><HEAD>
+<TITLE>Gazetteer for Scotland: Map of Scotland</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META name="keywords" content="scotland, scots, scottish, geography, maps, region, district, council, parish, places, cities, towns, villages, features, tourist, attractions, attraction, feature, geographical, regions, districts, counties, county, parishes, maps, gazetteer">
+<META name="description" content="A vast encyclopedia of Scottish towns, villages, geographical features, historic sites, family names and famous people.">
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<script type="text/javascript" language="JavaScript" src="/scotgaz/scotgaz.js"></script>
+</HEAD>
+<BODY BGCOLOR="navy" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+ <TR>
+  <TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center"WIDTH=100>
+   <TABLE BGCOLOR="#FFCC33" BORDER=0 CELLPADDING=3 CELLSPACING=0>
+    <TR><TD ALIGN="center"><FONT COLOR="navy" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="navy" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Scotland Map"><B> Help </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="#" onClick="popupGloss()"><B> Glossary </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="navy" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="navy" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/People.html"><B> People </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="navy" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Places.html"><B> Places </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="navy" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Statistics.html"><B> Statistics </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><A HREF="bookshop.html"><img src="images/new.gif" border="0"></A></TD></TR>
+</TD></TR></TABLE>
+  </TD>
+  <TD BGCOLOR="#FFFFFF" VALIGN="TOP" ALIGN="LEFT">
+   <DIV ALIGN="center"><BLOCKQUOTE>
+
+   <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+   <A HREF="/scotgaz/scotland.imagemap"><IMG SRC="/scotgaz/images/Scotland.jpg" ALT="Clickable Map of Scotland" ISMAP="ISMAP" TITLE="Click on Map for More Information" BORDER="0"></A><BR>
+   <CENTER>
+   <A HREF="/scotgaz/councils/councilfirst1.html"> Aberdeen City</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst2.html"> Aberdeenshire</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst3.html"> Angus</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst4.html"> Argyll and Bute</A> &nbsp;
+   <A HREF="/scotgaz/Centralscotland.html"> Central Scotland</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst7.html"> Dumfries and Galloway</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst8.html"> Dundee City</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst15.html"> Fife</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst17.html"> Highland</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst20.html"> Moray</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst30.html"> Orkney</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst23.html"> Perth and Kinross</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst25.html"> Scottish Borders</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst31.html"> Shetland</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst26.html"> South Ayrshire</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst28.html"> Stirling</A> &nbsp;
+   <A HREF="/scotgaz/councils/councilfirst32.html"> Western Isles</A> &nbsp;
+   </CENTER>
+   </FONT>
+   </BLOCKQUOTE></DIV>
+  </TD>
+  <TD CLASS=TD2 VALIGN="top">
+   <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+    <TR><TD><IMG SRC="/scotgaz/images/overview_noi.gif" ALT=" No overview"></TD>
+    <TR><TD><IMG SRC="/scotgaz/images/details_noi.gif" ALT="No information" BORDER=0></A></TD>
+    <TR><TD><IMG SRC="/scotgaz/images/map_oni.gif"></A></TD>
+    <TR><TD><IMG SRC="/scotgaz/images/photo_noi.gif" ALT="No photographs" BORDER=0></A></TD>
+    <TR><TD><IMG SRC="/scotgaz/images/sounds_noi.gif" ALT="No sounds" BORDER=0></A></TD>
+    <TR><TD><IMG SRC="/scotgaz/images/video_noi.gif" ALT="No video"></TD>
+    <TR><TD><IMG SRC="/scotgaz/images/com_noi.gif" ALT="No comments"></TD>
+    <TR><TD><IMG SRC="/scotgaz/images/sponsors_noi.gif" ALT="No sponsors"></TD>
+   </TABLE>
+  </TD>
+ </TR>
+ <TR>
+  <TD BGCOLOR="#FFCC33">&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" ALIGN="CENTER">
+  <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+<A HREF="/scotgaz/copyright.html">&#169;1995-2006
+The Gazetteer for Scotland</A><BR> Supported by:
+
+<A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/rsgs/">The Royal Scottish Geographical Society,<BR></A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/">The Institute of Geography, University of Edinburgh.</A>&nbsp;
+<BR><BR></FONT>
+</TD>
+</TR></TABLE></BODY></HTML>
+
+
+ll#jbio/tD

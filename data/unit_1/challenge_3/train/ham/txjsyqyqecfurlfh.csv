@@ -1,0 +1,314 @@
+<HTML>
+<HEAD>
+<TITLE>ST2.01, EGS, NICE 2001</TITLE>
+</HEAD>
+<BODY>
+
+
+
+<P> <HR WIDTH="80%" SIZE=4> <P>
+
+<CENTER>
+ <H1> <FONT size=8 color="#cf0040">ST2.01: Middle Atmospheric Dynamics</FONT>
+ </H1>
+ <H2> <FONT color="#cf0040">EGS XXVI General Assembly </FONT>
+ </H2>
+ <H2> <FONT color="#cf0040">Nice, 25 - 30 March 2001</FONT>
+ </H2>
+</CENTER>
+
+<P> <HR WIDTH="80%" SIZE=4> <P>
+<FONT size=4>
+
+The session started with a series of talks on the theme of
+the downward phase propagation of the Artic Oscillation.
+<B> O'Neill </B> and Berrisford questioned whether the AO was a ``physical
+mode'', given that the dynamics involved are fundamentally
+non-linear and asymmetric, whereas the AO is a symmetric
+mode which is derived from a linear statistical analysis.
+He also questioned the validity of the usual approach of
+treating the stratosphere and troposphere as distinct systems.
+<B> Kodera </B> and Kuroda showed that the first and second EOFs of
+15 day mean zonal mean wind evolve in a coherent cycle, with
+a period of about 4 months. The cycle produces the characteristic
+downward phase propagation of the AO. <B> Perlwitz</B> reiterated
+the point that the standard statistical tools (EOFs, SVD and CCA)
+are all essentially linear and will not necessarily represent the
+underlying non-linear dynamical structures. It was shown that 
+dynamically meaningful results could be obtaind by separating
+strongly perturbed from weakly perturbed events before calculating the
+statistics. A weak vortex was associated with a strong upward
+propagating signal, a strong vortex on the other hand, produced 
+a downward propagating signal.
+<B> Christiansen</B> presented diagnostics from a hierarchy of systems
+ranging from a minimal model through the Holton-Mass model, a
+perpetual January GCM and a GCM with annual cycle to the full stratospheric
+system as represented in the NCEP reanalyses.
+Both the minimal model and the Holton-Mass model could be shown to produce
+vacillations at large forcing amplitudes related to a Hopf bifurcation.
+Hopf bifurcation behaviour was also found in the perpetual January GCM.
+A series of experiments where carried out with this model in which
+a perturbation was introduced at a range of levels and the ensemble
+response diagnosed. Interestingly, the initial response was barotropic
+but after 70 days a downward propagating signal appeared.
+
+<P>
+<B> Plumb</B> disagreed with some of the above, suggesting that the 
+downward phase propagation of the AO signal was simply an artifact
+of the greater inertia at lower levels: the lower levels respond 
+more slowly and hence later than upper levels. This view was supported
+by some calculations with the Holton-Mass model which showed that the
+response at lower levels was insensitive to changes at upper levels
+created by imposing strong damping. Moving onto the forcing of the
+Brewer-Dobson circulation he noted a contradiction between the theory
+often used to describe the non-linear mixing in the mid and upper
+stratosphere, which would imply that the mixing should be centred
+on the zero wind line, and the actuality in which the mixing is confined
+poleward of that line. It was also noted that wave drag poleward of
+30degrees is unable to affect tropical upwelling in a linear model,
+so a non-linear thermally driven circulation may be more relevant
+(linearity here refers to the anomalies in absolute angular momentum).
+Finally, it was noted that air of recent mesospheric origin has been
+detected as low as 10hPa at the northern winter pole, implying faster
+decent rates than normally expected and suggesting that the entire
+mesosphere is stuffed into the polar vortex each winter.
+
+<P>
+<B> Pitari</B> and Mancini showed results from a coupled climate model used
+to investigate response to volcanic eruptions. It was shown that feedbacks
+between the dynamics and the chemistry, associated with an enhanced 
+meridional transport circulation, played a significant part in the overall
+response (a cooling lasting 3 to 4 years after the eruption).
+
+<P>
+<B> Bannister</B>, Gregory, O'Neill and Slingo used a study of transport in
+the Met Office Unified Model to investigate the transport of water vapour
+into the tropical stratosphere. In DJF it was found that the transport
+was greatest where the convection was most active, over the maritime
+continent. In JJA, on the other hand, the transport is greatest above
+the tropical Pacific, though the convection is displaced over SE Asia
+(transport here is measured relative to the 100hPa surface).
+
+<P>
+<B> Meleon</B> et al. compared a range of different transport models. The net
+fluxes across the tropopause where found to be broadly consistent,
+but separating fluxes into upwards and downwards components produced
+a wide range of behaviour. Fluxes across the dynamical tropopause,
+taken as the 2PVU isosurface,
+showed much greater spread than those across the 300hPa surface.
+
+<P>
+<B> Langbein</B> and Kouker used N2O and Potential Vorticity fields 
+from the Karlsruhe Middle Atmosphere model (KASIMA) to produce a 
+climatology of stratospheric streamers. Concentrations of streamers
+were found in bands either side of the tropics, at around 10degrees
+as well as in the winter surf zone.
+
+<P>
+<B> Baldwin</B> used the NCEP 42 year reanalysis to investigate stratosphere
+troposphere coupling in the Arctic Oscillation. A composite based on
+strong events showed a marked downwards propagating signal, which
+persisted in the troposphere for two months after the initial
+onset in the stratosphere. Significant changes in storm frequency were
+found after stratospheric warmings. It was found that the response at
+lower stratospheric levels continued to grow after the forcing, as measured
+by the vertical EP flux anomaly, had reversed. This behaviour appears inconsistent
+with the suggestion made by <B> Plumb</B> (above) that the lower stratosphere
+lags because it responds more slowly.
+It was also argued that, contrary to <B> O'Neill's</B> suggestion (above) the
+AO is a fundamental mode because it occurs with similar structure in both
+north and south and because EOFs of the zonal mean match those of the full
+field well, implying that asymmetries do not contribute much.
+
+<P>
+<B> Norton</B> et al discussed several aspects of the mean meridional
+circulation  in the tropics. In the middle and upper stratosphere
+it appears that the resolved waves in the European Centre Reanalyses
+cannot account for the momentum fluxes required to satisfy the
+transformed Eulerian mean zonal
+momentum budget, implying that gravity waves are making a significant
+contribution. At lower levels it was pointd out that most
+of the mass flux through the tropopause leaves the tropics
+in the lower stratosphere where tropospheric wave breaking is
+still a significant source of momentum fluxes. It was implied that
+that the annual cycle in synoptic wave breaking in the troposphere
+is more important in modulating the mass flux through the tropical
+tropopause than the breaking of planetary waves in the middle startosphere.
+
+<P>
+<B> Riese et al</B> used CRISTA-2 data (which acieves near global 
+coverage) to examine transport associated with planetary wave breaking. They
+found that the strength of the transport depends on how close
+the vortex approaches the sub-tropical transport barrier.
+
+<P>
+<B> Juckes</B> showed animations of tropopause potential temperature
+and isentropic fields of potential vorticity in the lower stratosphere,
+pointing out the greater activity in small scales associated with the
+different dynamical structure in the tropopause region, and the
+coherence between synoptic structures at the tropopause and 
+a wavebreaking event at 450K.
+
+<P>
+<B> Montgomery</B> and Brunet described an analytic solution for
+sheared Rossby waves on a vortex. The solution portrays bands
+of overturning contours separated by bands of enhanced gradients.
+
+<P>
+<B> Haigh</B> et al reported form the SOLICE project on the solar influences
+of climate. As evidence of possible influences, she showed that
+30 hPa geopotential heights are correlated with solar variability.
+In order to evaluate the effects of solar variability by means of model
+studies, she stressed the importance of taking into account not only
+total solar irradiance changes but also variations within spectral
+bands, most of the solar variability being confined to the ultraviolet
+part of the spectrum. Preliminary results from the SOLICE models
+show generally a similar responce to solar changes. 
+
+<P>
+<B> Shibata</B> et al. presented results from the Meteorological Research
+Institute general circulation model forced by either the ozone observed trend or the solar 11-year cycle. In both cases, the variability associated with the polar night jet appears to be sensitive, although it is difficult to extract statistically significant signals.
+
+<P>
+<B> Simon</B>  et al used the climate model ARPEGE coupled to the OPA ocean
+model to simulate climate changes from near present to future
+(100 year simulation, period 1950-2050, transient IPPC scenario).
+The ARPEGE model includes a very simple parameterization of ozone chemistry.
+He showed that a non negligible ozone hole is still present in the Antarctic
+at the end of the simulation, 2050.
+
+<P>
+<B> Halenka</B> intruduced global spherical harmonics as a method to evaluate
+long term variability and extra-terrestrial influences on the atmospheric
+circulations. He used Free University and NCEP reanalysis data and found that
+his analysis seems to suggest a change in the circulation characteristics
+occuring during the late seventies. 
+
+<P>
+<B> Hartogh</B> et al reported about water vapor profiles (40-85 km) from
+measurements at Alomar (Norway), available since 1995. The deduced seasonal
+cycle in water vapor shows a fast increase in spring but a slow decrease
+in autumn. In the upper stratosphere and mesosphere, the water vapor is
+larger in summer than in winter, in agreement with the expectation from
+the large scale mass transport. In the upper stratosphere during winter,
+high interannual variability is noted.
+
+<P>
+<B> Schaeler</B> et al assimilated CHRISTA II water vapor data in the ROSE model (3D chemical transport model). The animation of the assimilated data at 215 hPa revealed sharp bands of water vapor indicative of troposphere - stratosphere exchange. 
+
+<P>
+<B> Gray</B>, Dunkerton and Juckes  described an investigation into
+the Holton-Tan mechanism using a stratosphere-mesosphere model
+run in perpetual January mode with steady zonal wavenumber 1 
+forcing at 100hPa. The tropical winds were relaxed to zero except in
+a 10km deep band relaxed to -20m/s. The greatest
+sensitivity was found when the band was in the upper stratosphere
+(40-50km), contrary to the expectation that the lower stratosphere
+(20-30km) would have greater impact.
+
+<P>
+<B> Shuckburgh</B> and Norton showed statistics relating variations
+in the equivalent length (a measure of mixing) to the QBO, ENSO and trends.
+The west phase of the QBO was found to be associated with enhanced
+mixing in the subtropics and reduced mixing in the tropics.
+ENSO was found to be associated with changes in transport at around 350K.
+No clear pattern in the trends was identified.
+
+<P>
+<B> Hauchecorne</B> and Keckhut described an analysis of trends in the 20 year
+record from the lidar of the Observatior&eacute; Haut Provence. 
+
+<P>
+<B> Cagnazzo</B> et al have looked for signals of the QBO, solar cycle,
+volcanic eruptions and ENSO in monthly mean TOVS data, 1987-95.
+The ENSO signal consisted of two cooling regions at 100-70hPa
+over the tropical Pacific. The QBO signal was only significant
+if the Pinatubo period was excluded from the analysis. The solar cycle has 
+an influence, but not statistically reliable because only 3/4 of a
+cycle was covered.
+
+
+<P>
+<B> Sato</B> described evidence that there is a gravity wave source in
+the southern winter polar stratosphere.
+Radiosonde data show evidence of downward propagating waves and 
+generation of waves was found in a GCM. In the latter case
+the waves were emitted from regions of high curvature with
+high local Rossby number.
+An MST radar is to be build at Syowa (39E, 69S) and will be able
+to answer some of the outstanding questions.
+
+
+<P>
+<B> Th&eacute;odore et al</B> described an algorithm for extracting temperature
+information from fluctuations in the signal measured by the GOMOS stellar
+occultation instrument on ENVISAT. The time delay between scintillations
+was related to refractivity and thence to density and temperature.
+Temperature profiles accurate to 1K between 20 and 40km 
+at about 300 locations per day were held in prospect.
+
+<P>
+<B> Alexander</B> described latitudinal variations in observed gravity wave 
+potential energy. There is a peak in the tropics. The width of this
+peak is broader than the Kelvin wave structure. It was suggested that this
+peak is evidence of low frequency (in the range <i>f</i> to 3<i>f</i>) gravity waves
+with periods of about 1day. Evidence of high frequency waves over 
+convection was also presented.
+
+<P>
+<B> Whiteway</B> et al described measuremens of gravity wave activity in the
+tropopause region made with the Egrett aircraft, which can fly up to
+15km and measure wind and temperature with a horizontal resolution of
+2m. Gravity waves and turbulence associated with their breaking
+had been measured. The wave flow was found to obey a minus 3 power
+law, and the turbulence an minus 5/3 law.
+
+<P>
+<B> Osprey</B> and Lawrence looked at the forcing of mesospheric
+planetary waves by gravity waves. They found that tropospheric filtering
+of the waves produced a component of forcing 
+at stationary zonal wavenumber 1 in the mesosphere.
+
+<P>
+<B> Medvedev</B> described a parmetrisation of gravity waves due to
+Medvedev and Klaasen. This differs from the Hines scheme in only
+allowing waves to doppler shift other waves at smaller scales.
+This modification allows the scheme to reproduce the minus 3
+saturated spectrum.
+Implied diffusion coefficients in the mesosphere where of the
+order of 100m2/s, implying that the residual circulation
+could no longer be a good measure of transport.
+It was argued that the mesopause SAO and the QBO above 80km are driven
+by gravity waves. It was also suggested that gravity wave
+deceleration of the jet could control the occurence of
+polar stratospheric warmings.
+
+
+<P>
+In the poster seesion,
+<B> Manzini</B>, Steil and Bruehl described GCM experiments looking at 
+the sensitivity of the residual mean circulation to imposed CO2 and SST
+changes. It was found that a rise in tropical SST was associated with
+and increased residual circulation close to the tropical tropopause.
+
+<P>
+<B> Song</B>, Hartogh and Jarchow compared ground based
+(MPAE, microwave spectrometer) and space measurements (HALOE) of water vapour. The intercomparison shows that on average the water vapor from the microwave are higher in the stratosphere and lower above. 
+
+<P>
+<B> Hampson</B> and Haynes used a mechanistic model to investigate
+interannual variability in the QBO. It was found that extratropical
+dynamics influences the timing of the phase changes in the QBO.
+
+<P>
+<B> De Rudder</B> et al described the 
+middle atmosphere resources provided by the
+<a href=http://www.badc.rl.ac.uk/data/stratosphere.html>
+British Atmospheric Data Centre</a>.
+
+
+</BODY>
+ </HTML>
+
+
+0 nP/F"ha=w

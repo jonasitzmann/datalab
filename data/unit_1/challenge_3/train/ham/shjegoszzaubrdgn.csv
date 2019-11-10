@@ -1,0 +1,278 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<img src=images/40v.gif><br>
+<table width=70%>
+<tr>
+<td>
+<h2 align=center>Acknowledgements and Thanks</h2>
+<p>&nbsp;<p>&nbsp;<p>
+
+
+One of the advantages of calling on the goodwill of others is the experience of finding that goodwill intact, robust, and resilient. The other benefit is having the opportunity to say thank you. In putting together such a large and richly-documented project, we have of course relied upon many people and institutions, and have incurred a substantial number of debts. We have tried to make sense of them below. 
+<p>&nbsp;<p>
+
+<i>Funding and Equipment</i>
+<p>
+The EHOC project was almost entirely funded by a grant from CARET, the Centre for Applied Research in Educational Technologies, in Cambridge, UK. Staff at CARET also helped us solve some of the thornier technical problems, and gave us advice and resources at critical stages. At CARET, we would like to thank Jem Rashbass, Sue Danson, Adrian Joyce, John Norman, Karen Wells, Kim Whittlestone, and Warwick Bailey. On the equipment side, thanks go to the Faculty of English for allowing us the use of the Faculty's digital camera, to Claire Daunton for her support, and to Jenni Tucker and Jen Pollard for liaising on server and software issues.
+<p>&nbsp;<p>
+
+<i>Manuscripts and Manuscript Images</i>
+<p>
+For permission to photograph and publish portions of manuscripts, we would like to thank the Master and Fellows of Gonville and Caius College, the Master and Fellows of Trinity College, the Master and Fellows of Christ's College, and the Provost and Fellows of King's College. The Librarians and Archivists of each of these colleges--Jeremy Prynne, David McKitterick, Virginia Cox, Geoffrey Martin, Rosalind Moad, and Peter Jones--kindly allowed us access and courteous supervision. Mark Statham and the staff at Caius, Candace Guite and the staff at Christ's, and the staff at the Wren Library were consistently patient and more helpful than we had right to expect. Les Goodey at the Cambridge University Library gave us great images and a standard to aspire to.
+<p>&nbsp;<p>
+
+<i>Transcriptions and Other Content</i>
+<p>
+The core of this resource lies in the images and transcriptions. The heavy hours of double-transcription were undertaken by a team of graduate volunteers, veterans of the Cambridge English Faculty's M. Phil. in Renaissance Literature. For their generosity and meticulous care, we would like to thank Christopher Burlinson, Tom Charlton, Nandini Das, Katrin Ettenhuber, Gabriel Heaton, Faith Lanum, Hester Lees-Jeffries, Tom Lockwood, Maartje Scheltens, and Angus Vine. Elisabeth Leedham-Green yielded up her invaluable time and expertise at several important stages, not least in the writing of her expert introduction. Heather Wolfe negotiated the participation of the Folger Shakespeare Library. We would like to thank the Librarian and staff at the Folger for their courteous and professional help, and for permission to reproduce their copy of Martin Billingsley's <i>The Pens Excellencie</i>. For their corrections and suggestions at various stages along the way, we are indebted to Colin Burrow, Amelia Sandy, and Georgia Aarons.
+
+<p>&nbsp;<p>
+It has been a pleasure to work with so many generous and expert collaborators; we hope you will find it a pleasure, too. 
+
+<p>&nbsp;<p>
+Andrew Zurcher, Gonville and Caius College, Cambridge<br>
+Gavin Alexander, Christ's College, Cambridge<br>
+Raphael Lyne, New Hall, Cambridge
+<p>&nbsp;<p>&nbsp;<p>
+<hr>
+<p>&nbsp;<p>
+<b>Statements of Intellectual Property in Course Content</b>
+<p>
+In the absence of a robust domestic or international convention on the
+copyright of electronic materials, the authors of and contributors to this
+site rely on the goodwill and discretion of those making use of our
+materials. Given the amount of generosity and hard work that has gone into
+creating this resource, we hope that you will be pleased to respect 
+and observe the following statements of intellectual property.
+<p>
+All text appearing on this site (http://www.english.cam.ac.uk/ceres/ehoc)
+remains the property of its original authors, and should not be copied or
+distributed without the authors' consent. 
+<p>
+All property in the manuscript images presented on this site
+(http://www.english.cam.ac.uk/ceres/ehoc) remains with the Colleges from
+whose libraries and archives the images were taken, as detailed in the
+schedule below. The images should not be copied, printed, or distributed
+under any circumstances (even for academic purposes). Should news of such
+copying or distribution reach us, we may be forced to remove the images
+from the site, effectively destroying the course. 
+<p>&nbsp;<p><center>
+<font size=-1><b>Schedule of Manuscript Images</b></font>
+<p>
+<table width=100% cellpadding=10>
+<tr>
+<td width=50% valign=top><font size=-1>
+<i>The Master and Fellows of Gonville and Caius College</i><p>
+1. 'The arraignment of Robert Earle of Essex and Henrye Earl of Southampton, 8
+February, 1600'; G&CC MS 150/200, pp. 1, 5, 6, 7; gc200-1.jpg, gc200-5.jpg; gc200-6.jpg, gc200-7.jpg
+<p>
+2. 'The Earle of Essex his instructions to his sonne'; G&CC MS 150/200, pp. 21, 22, 23, 24, 25; gc200-21.jpg, gc200-22.jpg, gc-200-23.jpg, gc200-24.jpg, gc200-25.jpg
+<p>
+3. The discovery and recovery of Ireland, with The Author's Apology; G&CC MS 150/200, pp. 81, 105, 109, 127, 155; gc200-81.jpg, gc200-105.jpg, gc200-109.jpg, gc200-127.jpg, gc200-155.jpg
+<p>
+4. 'The names of all the Gentlemen and Freeholders in several towns' (Macclesfield); G&CC MS 197/103, pp. 10, 37, 38, 39; gc103-10.jpg, gc103-37.jpg, gc103-38.jpg, gc103-39.jpg
+<p>
+5. 'Nomina villarum in Sex Hundred infra Com. Cester'; G&CC MS 197/103, pp. 48, 49; gc103-48.jpg, gc103-49.jpg
+<p>
+6. 'Arraignments in the Star-Chamber' (Duke of Norfolk); G&CC MS 197/103, pp. 259, 260; gc103-259.jpg, gc103-260.jpg
+<p>
+7. 'To preserve quinses'; G&CC MS 197/103, p. 356; gc103-356.jpg
+,P>
+8. 'My Muse not I'; G&CC MS 197/103, pp. 384, 385; gc103-384.jpg, gc103-385.jpg
+<p>
+9. 'The words of Ptolemæus'; G&CC MS 197/103, p. 402; gc103-402.jpg
+<p>
+10. 'An answeare of the Queen of Scotts to Mr Babington's letter'; G&CC MS 197/103, pp. 518, 519, 520, 521, 526; gc103-518.jpg, gc103-519.jpg, gc103-520.jpg, gc103-521.jpg, gc103-526.jpg
+<p>
+11. 'The Earle of Essex his complaint, in verse'; G&CC MS 73/40, ff. 157r, 157v, 158r; gc40-157r.jpg, gc40-157v.jpg, gc40-158r.jpg
+<p>
+12. 'The Articles in Libell laid down by the Ladye Frances Howard against the Earle of Essex, ... 1615'; G&CC MS 73/40, f. 217r; gc40-217r.jpg
+<p>
+13. 'Sir Walter Rawleigh his apologie'; G&CC MS 73/40, ff. 204r, 204v, 205r; gc40-204r.jpg, gc40-204v.jpg, gc40-205r.jpg
+<p>
+14. 'Sir Walter Rawleigh his letter to the King at his return from Guiana', with 'Even such is time that takes in trust'; G&CC MS 73/40, ff. 215r, 215v; gc40-215r.jpg, gc40-215v.jpg
+<p>
+15. Mr Briggs his visitation; G&CC MS 220/235, pp. 1, 2, 3; gc235-1.jpg, gc235-2.jpg, gc235-3.jpg
+<p>
+16. Three sonnets of commendation preceding 'A pamphlett', perhaps by R. Southwell, G&CC MS 218/233, p. 115; gc233-115.jpg
+<p>
+17. 'Verses on the return of the Duke [of Buckingham] from Ree', G&CC MS 143/193, pp. 149, 150, 151; gc193-149.jpg, gc193-150.jpg, gc193-151.jpg
+<p>
+18. 'Rhodomontadoes', G&CC MS 143/193, pp. 152, 153; gc193-152.jpg, gc193-153.jpg
+<p>
+19. 'Verses upon Lord Cooke (Sir Edward Coke and Lord Bacon), Sheriffe of
+Buckingham'; G&CC MS 143/193, pp. 160, 161, 162; gc193-160.jpg, gc193-161.jpg, gc193-162.jpg
+<p>
+20. The Duke of Buckingham's Letter to the University (of Cambridge), 'Haveing chosen him their Chancellour: from Whitehall, June 5, 1626'; G&CC MS 143/193, p. 167; gc193-167.jpg
+<p>
+21. Prescriptions for various disorders; G&CC MS 206/112, pp. 177, 179, 211, 212; gc112-177.jpg, gc112-179.jpg, gc112-211.jpg, gc112-212.jpg
+<p>
+22. 'A briefe and profound or groundlie Treatise of Explication of the secreate or
+misterie of the Love'; G&CC MS 389/609, pp. 247, 249; gc609-247.jpg, gc609-249.jpg
+<p>
+23. 'Of Robert Devereux Earle of Essex, and George Villiers Duke of Buckingham,
+some observations by way of Parallel'; G&CC MS 389/609, pp. 423, 424, 425; gc609-423.jpg, gc609-424.jpg, gc609-425.jpg
+<p>
+24. 'The Summe of a Sermon', on Genesis 3:17; G&CC MS 389/609, pp. 313, 314, 315; gc609-313.jpg, gc609-314.jpg, gc609-315.jpg
+<p>
+25. 'A sermon preached before the kinge's Maiestie at Greenwich by John Burgess, 19th of June, 1604', on Ps. 122: 8, 9; G&CC MS 389/609, pp. 343, 344, 345; gc609-343.jpg, gc609-344.jpg, gc609-345.jpg
+<p>
+26. 'The boke wherein ys conteined the most secret treasure called Alchamy, maide by Mr George Riplay'; G&CC MS 399/618, ff. 8v, 9v, 10r; gc618-8v.jpg, gc618-9v.jpg, gc618-10r.jpg
+<p>
+27. 'Select propositions in Spherical Trigonometry from the Book of Jannes Antonio
+Magino, translated by John Collins, 1646'; G&CC MS 613/686, ff. 5r, 12r; gc686-5r.jpg, gc686-12r.jpg
+<p>
+28. 'The contents and value of my lordes armorie, Anno ix Elizabethe'; G&CC MS 53/30, f. 22r; gc30-22r.jpg
+<p>
+29. 'A note of men, horses, and armer, and the prices of maintayninge them, sente forthe by my lorde of Ely havinge his directions from the Queen's Maiestye, 22nd March, 1569'; G&CC MS 53/30, ff. 23r, 23v; gc30-23r.jpg, gc30-23v.jpg
+<p>
+30. Letters to and from the Privy Council (concerning scarcity of grain, church
+attendance, etc.); G&CC MS 53/30, ff. 24r, 25v, 27r, 27v; gc30-24r.jpg, gc30-25v.jpg, gc30-27r.jpg, gc30-27v.jpg.
+</font></td>
+<td width=50% valign=top>
+<font size=-1>
+31. Inventory of the estate of Richard Cox, Bishop of Ely; G&CC MS 53/30, ff. 30r, 30v, 31r; gc30-30r.jpg, gc30-30v.jpg, gc30-31r.jpg
+<p>
+32. Inventory of the goods of John Chapman, Gonville and Caius MS 53/30, ff. 46v, 47r; gc30-46v.jpg, gc30-47r.jpg
+<p>
+33. Oath of the Gentlemen of Gray's Inn; Gonville and Caius MS 53/30, f. 51r; gc30-51r.jpg
+<p>
+34. An Indenture between Robert Martche and Robert Hall; Gonville and Caius MS 53/30, ff. 75v, 76r; gc30-75v.jpg, gc30-76v.jpg
+<p>
+35. 'A note on Royston'(extract from Rastell's Abridgement); G&CC MS 170/91, p. 157; gc91-157.jpg
+<p>
+36. Ecclesiastical Memoranda concerning the diocese of Ely and the county of Essex, etc.; G&CC MS 170/91; gc91-153.jpg, gc91-153.jpg, gc91-205.jpg, gc91-235.jpg, gc91-245.jpg
+<P>
+37. Whitgift School Charters; G&CC MS 694/354, ff. 2r, 7r; gc354-2r.jpg, gc354-7r.jpg
+<p>&nbsp;<p>
+<i>The Provost and Fellows of King's College</i><p>
+38. Summary of petition to Henry VI for the erecting of hostels in Cambridge; KC CAM/123, p. 1; kcam123-1.jpg, kcam123-2.jpg
+<p>
+39. Bills of expenses, Great Bricett, 1483-85; KC GBR/481, ff. 1r, 1v, 2r; kgbr481-1r.jpg, kgbr481-1v.jpg, kgbr481-1v.x.jpg, kgbr481-2r.jpg, kgbr481-2r.x.jpg 
+<p>
+40. Notes on the agreement between John Langton, Bishop of St David's, and King's College, concerning furnishing of the Chapel (after 1450); KC KCA/343, p. 1; kkca343-1.jpg, kkca343-2.jpg, kkca343.jpg 
+<p>
+41. Purveyance made by John Langton by the king's commandment for furnishing of the Chapel.; KC KCA/345, p. 1; kkca345-1.jpg, kkca345-2.jpg, kkca345-3.jpg 
+<p>
+42. Inventory of King's College Chapel, ca. 1500; KC KCA/346, f. 7v; kkca346-7v.jpg 
+<p>
+43. Estimate of costs for detailed works on King's College Chapel, ca. 1510; KC KCD/98, p. 1; kkcd98-1.jpg, kkcd98-2.jpg 
+<p>
+44. Agreement with John Wastell for building three towers, 4 March 1513; KC KCD/97, p. 1; kkcd97-1.jpg, kkcd97-2.jpg, kkcd97.jpg 
+<p>
+45. Agreement with John Wastell, master mason, for building finials of 21 buttresses and 1 tower, 4 April 1513; KC KCD/95, p. 1; kkcd95-1.jpg, kkcd95-2.jpg, kkcd95.jpg 
+<p>
+46. Agreement with John Wastell, master mason, for building stone roofs of porches and 16 chapels, with battlements of chapels and porches, 4 August 1513; KC KCD/94, p. 1; kkcd94-1.jpg, kkcd94-2.jpg, kkcd94.jpg 
+<p>
+47. Indenture between Thomas Locke surveyor of the King's works and John Wastell for payment, with note of periodic payments by Locke, 1513-14; KC KCD/96, p. 1; kkcd96-1.jpg, kkcd96-2.jpg, kkcd96-3.jpg, kkcd96-4.jpg 
+<p>
+48. Receipts for wages between William Dussyng, Bursar and George Wylson, servant, 1521-22; KC KCA/302, p. 1, KCA/303, p. 1, KCA/304, p. 1; kkca302.jpg, kkca303.jpg, kkca304.jpg 
+<p>
+49. Inventory of bagged money in the College Treasury, ca. 1544-1556; KC KCA/11, p. 1; kkca11.jpg 
+<p>&nbsp;<p>
+<i>The Master and Fellows of Trinity College</i><p>
+50. John Foxe, Apocalypse in English; TC MS B. 2. 7, ff. 49v, 50r, 50v; tb27-49v.jpg, tb27-50r.jpg, tb27-50v.jpg
+<p>
+51. John Rastell, Dialogues; TC MS O. 3. 26, ff. 31v, 32r, 32v; to326-31v.jpg, to326-32r.jpg, to326-32v.jpg
+<p>
+52. John Dryden, The Indian Emperour; TC MS R. 3. 10, ff. 34r, 34v, 35r; tr310-34r.jpg, tr310-34v.jpg, tr310-35r.jpg
+<p>
+53. John Donne, Poems ('Extasie', 'La Corona', 'Divine Sonnets'); TC MS R. 3. 12, pp. 51, 52, 53, 224, 232, 233; tr312-51.jpg, tr312-52.jpg, tr312-53.jpg, tr312-224.jpg, tr312-232.jpg, tr312-233.jpg
+<p>
+54. Sidney Psalms; TC MS R. 3. 16, pp. 78, 79, 80; tr316-78.jpg, tr316-79.jpg, tr316-80.jpg
+<p>
+55. John Milton, notebook ('Lycidas', 'A maske'); TC MS R. 3. 4, pp. 6, 31; tr34-6.jpg, tr34-31.jpg
+<p>&nbsp;<p>
+<i>The Master and Fellows of Christ's College</i><p>
+56. Letter from Sir John Finch to Sir Henry Goodricke concerning Sir Thomas Baines; CC MS 206, pp. 1, 2, 3, 4; chr206-1.jpg, chr206-2.jpg, chr206-3.jpg, chr206-4.jpg
+<p>
+57. Ann Mallett to Henry More; CC MS 21, no. 10, p. 1; chr21-10.jpg
+<p>
+58. Henry Hallywell to Dr Henry More; CC MS 21, no. 37, pp. 1, 2; chr21-37a.jpg, chr21-37b.jpg
+</font>
+</td></tr></table>
+</td></tr></table>
+
+<p>&nbsp;<p>&nbsp;<p>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+
+
+
+neiksbL

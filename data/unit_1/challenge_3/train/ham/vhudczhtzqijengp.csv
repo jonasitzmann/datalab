@@ -1,0 +1,27 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Front Cover of the Current Bulletin</TITLE>
+
+<BODY>
+
+<IMG src="Cover.gif"> ALT="[Front Cover of Current Bulletin]">
+
+<H1>Contents</H1>
+
+<UL>
+<LI> first item
+<LI>second item
+<LI>third item
+</UL>
+
+<P>
+<A href="BVWS.html">Return</A> to previous page
+
+</BODY>
+
+</HTML>
+
+
+ boo 

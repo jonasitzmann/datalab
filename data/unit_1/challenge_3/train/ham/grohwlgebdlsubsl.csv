@@ -1,0 +1,33 @@
+<HTML>
+<HEAD>
+<TITLE>Raphael Hauser's abstract</TITLE>
+</HEAD>
+<BODY BGCOLOR="white"> 
+
+<HR><H2 ALIGN=CENTER><font color="#000099">
+Computing the Leading Part of a SVD
+</font></H2>
+<H3 ALIGN=CENTER>Dr Raphael Hauser, Mr. Daniel Goodman</H3>
+<p ALIGN=CENTER>Oxford University Computing Lab,
+University of Oxford 
+</p>
+<BR>
+<H4 ALIGN=CENTER>
+Abstract:
+</H4>
+
+<p>
+We discuss several methods for the
+computation of the leading part of a singular
+value decomposition of a large matrix and
+compare their advantages and disadvantages from
+the perspective of the achievable relative
+accuracy and the possibilities for parallelisation.
+</p>
+
+<br><a href="index.html">Back to main GNFD seminars page</a>
+
+</HTML>
+
+
+w/aybcoa

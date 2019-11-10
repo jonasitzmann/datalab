@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+var url="";
+var winname="";
+
+function bigWin(url,winname)
+{
+window.open(url,winname,'width=1000,height=720,scrollbars=yes');
+}
+
+function smallWin(url,winname)
+{
+window.open(url,winname,'width=500,height=400,scrollbars=yes');
+}
+
+
+//-->
+
+</script>
+</head>
+
+<body>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+&nbsp;<p>
+<table width=95%>
+<tr>
+<td>
+<h2 align=center>Course Lessons</h2>
+<p>
+<blockquote><i><font size=-1>The slate of course lessons offered below has been carefully structured around a selection of resources. Each lesson includes a central manuscript, for which the student is invited to supply a semi-diplomatic transcription in a workspace provided within the course. Alphabets of minuscule and majuscule letter-forms and of brevigraphs and other abbreviations are available, as are a zooming function. Students may also consult supplementary information on dating and describing the hand(s) of the manuscript. Each lesson concludes with a short test, usually of about ten questions, that examines students' abilities to transcribe short selections from the manuscript, afterwards supplying the 'correct' answer along with commentary and suggestions for further consideration. Students may at any time consult an exemplary transcription of each course manuscript, and are especially urged to do so once the lesson is otherwise complete; a PDF version of this file may be downloaded (and printed) to take away as a model. A student who has experienced particular trouble with a given lesson, or who would like further practice of a similar kind, may like to pursue the 'follow-up' suggestions available in the toolbar in the bottom frame.
+<p>
+The efficacy of these course lessons depends on the application and resourcefulness of the student. Suggestions for good use of the materials, and help (both palaeographical and technical) is available at all times; simply click on the question-mark icon at the bottom right of the lesson.</font></i></blockquote>
+<p>&nbsp;<p>
+<table width=90%>
+<tr>
+<td width=45% valign=middle>
+<a href="javascript:bigWin('lessons/lesson1/index.html','lesson1')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 1</a>: Verses vpon the duke of Buckinghams returne from the Ile of Rees<br>
+<font size=-1>Gonville and Caius College MS 143/193, p. 149<br>
+<i>Difficulty rating: 1/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson2/index.html','lesson2')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 2</a>: John Donne, 'Extasie' and 'La Corona'<br>
+<font size=-1>Trinity College Library MS R. 3. 12, pp. 51, 224<br>
+<i>Difficulty rating: 1/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson3/index.html','lesson3')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 3</a>: Whitgift School Charters<br>
+<font size=-1>Gonville and Caius College MS 694/354, f. 7r<br>
+<i>Difficulty rating: 1/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson4/index.html','lesson4')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 4</a>: The Discouerie and Recouerie of
+Irelande and the Aucthors Apologie<br>
+<font size=-1>Gonville and Caius College MS 150/200, p. 81<br>
+<i>Difficulty rating: 1/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson5/index.html','lesson5')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 5</a>: A Note on Royston (extract from Rastell's Abridgement)<br>
+<font size=-1>Gonville and Caius College MS 170/91, p. 157<br>
+<i>Difficulty rating: 1/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson6/index.html','lesson6')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 6</a>: The Copie or Summe of a Sermon, preached in London, in October. 1638<br>
+<font size=-1>Gonville and Caius College MS 389/609, p. 313<br>
+<i>Difficulty rating: 1/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson7/index.html','lesson7')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 7</a>: Henry Halywell to Dr More<br>
+<font size=-1>Christ's College MS 21, no. 37<br>
+<i>Difficulty rating: 2/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson8/index.html','lesson8')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 8</a>: John Foxe, <i>Apocalypse</i> in English<br>
+<font size=-1>Trinity College Library MS B. 2. 7, f. 49v<br>
+<i>Difficulty rating: 2/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson9/index.html','lesson9')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 9</a>: Mermelate of Quinces<br>
+<font size=-1>Gonville and Caius College MS 206/112, p. 177<br>
+<i>Difficulty rating: 2/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson10/index.html','lesson10')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 10</a>: The Earle of Essex his instructions to his Sonne<br>
+<font size=-1>Gonville and Caius College MS 150/200, p. 21<br>
+<i>Difficulty rating: 2/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson11/index.html','lesson11')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 11</a>: 'A note of men, horses, and armer, and the prices of maintayninge them, sente forthe by my lorde of Ely...22nd March, 1569'<br>
+<font size=-1>Gonville and Caius College MS 53/30, f. 23v<br>
+<i>Difficulty rating: 2/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson12/index.html','lesson12')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 12</a>: John Dryden, <i>The Indian Emperour</i><br>
+<font size=-1>Trinity College Library MS R. 3. 10, f. 34r<br>
+<i>Difficulty rating: 2/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson13/index.html','lesson13')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 13</a>: The copy of the sermon preached before the kinges Maiestie...Iune 1604<br>
+<font size=-1>Gonville and Caius College MS 389/609, p. 343<br>
+<i>Difficulty rating: 2/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson14/index.html','lesson14')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 14</a>: The words of Ptolem&aelig;us<br>
+<font size=-1>Gonville and Caius College MS 197/103, p. 402<br>
+<i>Difficulty rating: 3/5</i></font></blockquote>
+&nbsp;<p>
+
+</td>
+<td width=10%></td>
+<td width=45% valign=middle>
+
+<a href="javascript:bigWin('lessons/lesson15/index.html','lesson15')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 15</a>: Ann Mallett to Henry More<br>
+<font size=-1>Christ's College Library MS 21, no. 10<br>
+<i>Difficulty rating: 3/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson16/index.html','lesson16')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 16</a>: The Queene of Scotts to Babington<br>
+<font size=-1>Gonville and Caius College MS 197/103, p. 526<br>
+<i>Difficulty rating: 3/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson17/index.html','lesson17')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 17</a>: The distance of a Planett or fixed starre or Comet from 2 knowne Starres<br>
+<font size=-1>Gonville and Caius College MS 613/686, f. 5r<br>
+<i>Difficulty rating: 3/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson18/index.html','lesson18')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 18</a>: Sidney Psalms<br>
+<font size=-1>Trinity College Library MS R. 3. 16, p. 78<br>
+<i>Difficulty rating: 3/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson19/index.html','lesson19')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 19</a>: Sir John Finch to Sir Henry Goodricke, concerning Sir Thomas Baines<br>
+<font size=-1>Christ's College Library MS 206, p. 1<br>
+<i>Difficulty rating: 3/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson20/index.html','lesson20')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 20</a>: John Rastell, <i>Dialogues</i><br>
+<font size=-1>Trinity College Library MS O. 3. 26, f. 31v<br>
+<i>Difficulty rating: 3/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson21/index.html','lesson21')"><img src=images/ornament.gif border=none align=left><blockquote>Lesson 21</a>: My Muse not I<br>
+<font size=-1>Gonville and Caius College MS 197/103, pp. 384-5<br>
+<i>Difficulty rating: 4/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson22/index.html','lesson22')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 22</a>: Privy Council letter, concerning church attendance<br>
+<font size=-1>Gonville and Caius College MS 53/30, f. 24r (i)<br>
+<i>Difficulty rating: 4/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson23/index.html','lesson23')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 23</a>:  Macclesfeilde Gentlemen etc. 1581.<br>
+<font size=-1>Gonville and Caius College MS 197/103, p. 37<br>
+<i>Difficulty rating: 4/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson24/index.html','lesson24')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 24</a>: John Milton, 'Lycidas'<br>
+<font size=-1>Trinity College Library MS R. 3. 4, p. 6<br>
+<i>Difficulty rating: 4/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson25/index.html','lesson25')"><img src=images/ornament.gif border=none align=left><blockquote>Lesson 25</a>: The waye to preserve Quinses<br>
+<font size=-1>Gonville and Caius College MS 197/103, p. 356<br>
+<i>Difficulty rating: 4/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson26/index.html','lesson26')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 26</a>: The Inventory of the estate of Richard Cox, Bishop of Ely<br>
+<font size=-1>Gonville and Caius College MS 53/30, f. 30 (ii)<br>
+<i>Difficulty rating: 5/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson27/index.html','lesson27')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 27</a>: The Oath of the Gentlemen of Gray's Inn<br>
+<font size=-1>Gonville and Caius College MS 53/30, f. 51r (ii)<br>
+<i>Difficulty rating: 5/5</i></font></blockquote>
+&nbsp;<p>
+
+<a href="javascript:bigWin('lessons/lesson28/index.html','lesson28')"><img src=images/ornament.gif align=left border=none><blockquote>Lesson 28</a>: 'Even such is time'<br>
+<font size=-1>Gonville and Caius College MS 73/40, f. 215v<br>
+<i>Difficulty rating: 5/5</i></font></blockquote>
+&nbsp;<p>
+
+
+</td>
+</tr></table>
+</td></tr></table>
+<p>
+<img src=images/30v.gif><br>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+
+
+
+
+
+< ad:u""
+l

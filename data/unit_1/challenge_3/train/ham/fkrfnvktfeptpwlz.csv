@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<link href="css/buffet%20text.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#halfDay {
+	position:absolute;
+	left:853px;
+	top:794px;
+	width:94px;
+	height:188px;
+	z-index:113;
+	visibility: visible;
+}
+#Layer5 {
+	position:absolute;
+	left:882px;
+	top:795px;
+	width:88px;
+	height:187px;
+	z-index:113;
+}
+#Layer6 {
+	position:absolute;
+	left:739px;
+	top:311px;
+	width:447px;
+	height:197px;
+	z-index:117;
+	visibility: visible;
+}
+#Layer2 {
+	position:absolute;
+	left:239px;
+	top:756px;
+	width:560px;
+	height:56px;
+	z-index:116;
+	visibility: visible;
+}
+#Layer7 {
+	position:absolute;
+	left:354px;
+	top:721px;
+	width:478px;
+	height:234px;
+	z-index:115;
+}
+#Layer8 {
+	position:absolute;
+	left:402px;
+	top:307px;
+	width:484px;
+	height:207px;
+	z-index:117;
+	visibility: visible;
+}
+#Layer9 {
+	position:absolute;
+	left:356px;
+	top:408px;
+	width:523px;
+	height:57px;
+	z-index:114;
+	visibility: visible;
+}
+#Layer10 {
+	position:absolute;
+	left:72px;
+	top:498px;
+	width:218px;
+	height:356px;
+	z-index:118;
+	visibility: visible;
+}
+.style39 {font-size: 9px}
+.style40 {
+	color: #F3ECDD;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style42 {font-size: 12px}
+.style43 {color: #980E33}
+.style44 {color: #F0F2C8}
+body {
+	background-color: #EEEFC7;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+<body>
+<div id="LeftBackground" style="position:absolute; left:52px; top:0px; width:263px; height:897px; z-index:105; background-color: #980E33; layer-background-color: #980E33; border: 1px none #000000; visibility: visible;"></div>
+<div id="RMLlogoBrown" style="position:absolute; left:193px; top:7px; width:87px; height:72px; z-index:107; visibility: visible;"><a href="index.htm"><img src="images/logos/rml_logo_red.gif" alt="home" width="96" height="69" border="0" /></a></div>
+<div id="RothLogo" style="position:absolute; left:70px; top:4px; width:51px; height:62px; z-index:110; visibility: visible;"><a href="http://local-info.rothamsted.bbsrc.ac.uk/"><img src="images/logos/RRLogo50px.gif" alt="rothamsted intranet" width="50" height="64" border="0" /></a></div>
+<div id="Layer1" style="position:absolute; left:354px; top:6px; width:142px; height:66px; z-index:111; font-size: 50px; color: #980E33; visibility: visible;" class="main_heading">tariff</div>
+<div id="Layer3" style="position:absolute; left:51px; top:864px; width:261px; height:33px; z-index:112; visibility: visible;"><a href="#"><img src="images/gif/colour_dots_slice.gif" width="265" height="33" border="0" /></a></div>
+<div id="Layer9">
+  <div id="layer3">
+    <table width="523" height="54" border="0" bgcolor="#980E33">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="banner" id="Layer10">  
+  <p>Our half day/evening times are given in 4.5 hour blocks.<br />
+<br />
+All prices are exclusive of V.A.T.<br />
+<br />
+Weekday Monday to Thursday. Weekend Friday, Saturday, Sunday.<br />
+<br />
+For a comprehensive list of our <a href="terms_conditions.htm">terms and conditions please <br />
+click here.</a></p>
+</div>
+<div id="Layer2" style="position:absolute; left:356px; top:160px; width:523px; height:56px; z-index:115">
+  <table width="522" height="54" border="0" bgcolor="#980E33">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div id="halfDay" style="position:absolute; left:356px; top:363px; width:469px; height:198px; z-index:119">
+  <table width="523" border="0">
+    <tr class="buffet_text">
+      <td height="43" colspan="4" align="center" valign="top" class="sub_heading"><p>Half day hire<br />
+      </p>
+    </tr>
+    <tr class="buffet_text">
+      <td width="147" align="left" valign="top" class="main_text"><br /></td>
+      <td width="113" align="center" valign="top" class="main_text"><a href="great_drawing_room.htm"><strong>Great Drawing room </strong></a></td>
+      <td width="85" align="center" valign="top" class="main_text"><a href="piano_lounge.html"><strong>Piano Lounge </strong></a></td>
+      <td width="116" align="center" valign="top" class="main_text"><a href="spanish_leather_room.htm"><strong>Spanish Leather Room</strong></a> </td>
+    </tr>
+    <tr class="buffet_text">
+      <td class="main_text"><p><strong>Weekday</strong></p></td>
+      <td align="center" valign="middle" class="main_text">&pound;250.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;130.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;800.00</td>
+    </tr>
+    <tr class="buffet_text">
+      <td colspan="4" bgcolor="#980E33" class="main_text">&nbsp;</td>
+    </tr>
+    <tr class="buffet_text">
+      <td class="main_text"><strong>Evening/Weekend</strong></td>
+      <td align="center" valign="middle" class="main_text">&pound;350.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;150.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;800.00</td>
+    </tr>
+    <tr class="buffet_text">
+      <td colspan="4" bgcolor="#980E33" class="main_text">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+  <div id="home" style="position:absolute; left:52px; top:386px; width:263px; height:87px; z-index:112; visibility: visible;"><a href="index.htm"><img src="images/gif/colour_dots.gif" alt="home" width="263" height="90" border="0" /></a></div>
+  <div id="Layer4" style="position:absolute; left:96px; top:312px; width:187px; height:28px; z-index:125" class="banner"><a href="room_specifications.html">room specifications </a></div>
+</div>
+<div id="Layer14" style="position:absolute; left:356px; top:605px; width:547px; height:53px; z-index:124">
+  <p align="left" class="buffet_text style39"><span class="style40"><span class="style43">Reservations <span class="style44">2</span> RML <span class="style44">2</span> Rothamsted Manor <span class="style44">2</span> Rothamsted Research <span class="style44">2</span> Harpenden <span class="style44">2</span> Hertfordshire <span class="style44">2</span>AL5 2JQ<br />
+  Telephone +44 (0) 1582 763133 <span class="style44">2</span> Extension 2492 <span class="style44">2</span> Facsimile +44 (0) 1582 467820 <br />
+  E-mail</span> <a href="mailto:res.manor@bbsrc.ac.uk" class="style42">res.manor@bbsrc.ac.uk</a></span></p>
+</div>
+<div id="halfDay" style="position:absolute; left:358px; top:116px; width:525px; height:198px; z-index:119">
+  <table width="523" border="0">
+    <tr class="buffet_text">
+      <td height="43" colspan="5" align="center" valign="top" class="sub_heading"><p>Whole day hire<br />
+      </p></td>
+    </tr>
+    <tr class="buffet_text">
+      <td width="147" align="left" valign="top" class="main_text"><br /></td>
+      <td width="113" align="center" valign="top" class="main_text"><a href="great_drawing_room.htm"><strong>Great Drawing room </strong></a></td>
+      <td width="85" align="center" valign="top" class="main_text"><a href="piano_lounge.html"><strong>Piano Lounge </strong></a></td>
+      <td width="116" align="center" valign="top" class="main_text"><a href="spanish_leather_room.htm"><strong>Spanish Leather Room</strong></a> </td>
+      <td width="116" align="center" valign="top" class="main_text"><a href="to_the_gardens.html"><strong>Manor Gardens </strong></a> </td>
+    </tr>
+    <tr class="buffet_text">
+      <td class="main_text"><p><strong>Weekday</strong></p></td>
+      <td align="center" valign="middle" class="main_text">&pound;400.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;170.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;800.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;500.00</td>
+    </tr>
+    <tr class="buffet_text">
+      <td colspan="5" bgcolor="#980E33" class="main_text">&nbsp;</td>
+    </tr>
+    <tr class="buffet_text">
+      <td class="main_text"><strong>Evening/Weekend</strong></td>
+      <td align="center" valign="middle" class="main_text">&pound;400.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;170.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;800.00</td>
+      <td align="center" valign="middle" class="main_text">&pound;500.00</td>
+    </tr>
+    <tr class="buffet_text">
+      <td colspan="5" bgcolor="#980E33" class="main_text">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
+
+
+Ea k	2g,

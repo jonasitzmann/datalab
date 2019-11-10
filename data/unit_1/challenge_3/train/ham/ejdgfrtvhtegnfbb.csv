@@ -1,0 +1,234 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: adriex: index:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+        A.LeftMenu {font-weight: normal; font-size: 10pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.5;}
+        A.LeftMenu:link { color: #ffffff;}
+        A.LeftMenu:visited { color: #ffffff;}
+        A.LeftMenu:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuInsert {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuInsert:link { color: #ffffff;}
+        A.LeftMenuInsert:visited { color: #ffffff;}
+        A.LeftMenuInsert:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuReplace {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #0000c4; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuReplace:link { color: #e7e7ff;}
+        A.LeftMenuReplace:visited { color: #e7e7ff;}
+
+        A.TopMenu {font-weight: normal; font-size: 7pt;
+        text-decoration : none; color: #000079; font-weight: bold;
+        font-family: Arial, Helvetica, San-Serif;}
+        A.TopMenu:link { color: #000079; text-decoration:none;}
+        A.TopMenu:visited { color: #000079; text-decoration:none;}
+        A.TopMenu:hover { color: #000000; text-decoration:underline;}
+
+-->
+</STYLE></HEAD><BODY>
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 BGCOLOR="#FFFFFF">
+<TR><TD WIDTH=142 ROWSPAN=2 CLASS="Bottomright">
+<A HREF="http://www.physics.ox.ac.uk">
+<IMG BORDER=0 ALT="Oxford Physics" SRC="../../main/images/OxPhysics.gif"></A></TD>
+<TD WIDTH=16 HEIGHT=60></TD><TD WIDTH=560 CLASS="Middle">
+<TABLE WIDTH=560 BORDER=0 CELLPADDING=5 CELLSPACING=1 BGCOLOR="#0000C4"><TR>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/default/index.html">HOME</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.physics.ox.ac.uk">Oxford Physics</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.ox.ac.uk">Oxford University</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../weather">Live Weather</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/dept/gettinghere.html">Getting here</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/dept/contact.html">Contact</A></TD>
+</TR></TABLE></TD></TR>
+<TR><TD COLSPAN=2><IMG SRC="../../main/images/physics_banner.gif"></TD></TR><TR>
+<TD COLSPAN=2><IMG SRC="../../main/images/physics_top.gif"></TD><TD></TD></TR><TR>
+<TD COLSPAN=2 BGCOLOR="#000099">
+<TABLE  CELLPADDING=0 CELLSPACING=0 BORDER=0 >
+<TR><TD WIDTH=32></TD><TD WIDTH=126 CLASS="Top">
+<BR><A HREF="index.html" CLASS="LeftMenu">Home</A>
+<BR><A HREF="AATSR_overpasses/overpasses.html" CLASS="LeftMenu">&nbsp; AATSR tracks</A>
+<BR><A HREF="comparison.html" CLASS="LeftMenu">&nbsp; Comparison</A>
+<BR><A HREF="http://metresearch.net/adriex/" CLASS="LeftMenu">ADRIEX home</A>
+<BR><A HREF="http://envisat.esa.int/instruments/aatsr/" CLASS="LeftMenu">AATSR home</A>
+<BR><A HREF="http://www.atm.ox.ac.uk/hirdls/" CLASS="LeftMenu">HIRDLS home</A>
+<BR><A HREF="http://www.atm.ox.ac.uk" CLASS="LeftMenu">AOPP home</A>
+<BR><A HREF="mailto:gthomas@atm.ox.ac.uk" CLASS="LeftMenu">Contact</A>
+<BR><BR></TD></TR><TR><TD COLSPAN=2><CENTER>
+<A HREF="http://www.ox.ac.uk"><IMG SRC="../../main/images/webshield.gif" BORDER=0 ALT="UNIVERSITY HOME"></A></CENTER></TD></TR><TR><TD></TD><TD>
+</TD></TR></TABLE></TD><TD>
+<TABLE CELLSPACING=5 CELLPADDING=0 BGCOLOR="#FFFFFF" BORDER=0 WIDTH=560>
+<TR><TD>
+<TABLE CELLSPACING=1 CELLPADDING=5 BGCOLOR="#C4C4C4" BORDER=0 WIDTH=550>
+<TR><TD HEIGHT=300 BGCOLOR="#FFFFFF">
+<SCRIPT>
+<!--
+function changePage(form) {
+  var choice=form.dataday.selectedIndex;
+  parent.location.href=form.dataday[choice].value;
+}
+// -->
+</SCRIPT>
+<a name="top"></a>
+<center>
+<H1>ADRIEX</H1><br>
+<H2>AATSR/HIRDLS near real time aerosol maps for the Adriatic region</H2>
+<hr></center>
+
+<UL>
+<LI><a href="#intro"><font color="#000099">Introduction and data description</font></a>
+<LI><a href="#news"><font color="#000099">News and developments</font></a>
+<LI><a href="#data"><font color="#000099">Data</font></a>
+</UL>
+
+<a name="intro"><h3>Introduction</h3></a>
+
+<p>These pages provide near real time images of aerosol loading in the
+Adriatic Sea region, derived from the AATSR (on board ENVISAT) and
+HIRDLS (on board AURA) instruments.</p>
+
+<p>AATSR provides column aerosol optical depth and effective radius
+(derived from the ORAC retrieval scheme) at a horizontal resolution
+approximately 1 x 1 km. This data is measured between 8:30 and 10 am
+local time over the ADRIEX area each day, with a repeat cycle of 3
+days. The AATSR nadir tracks for each day of the ADRIEX campaign are
+shown <a href="http:AATSR_overpasses/overpasses.html">here</a>.</p>
+
+<p>HIRDLS provides height resolved (at approximately 1 km resolution)
+maps of aerosol extinction, with a lower altitude of 6 km. The standard
+horizontal resolution is nominally 450 x 450 km, or when operating in
+the narrow swath mode (matched to the width of the Adriatic) 50 x 450
+km.</p>
+
+<p>Both data sets cover the area between 5 degrees and 30 degrees
+east in longitude, and 35 degrees and 45 degrees north in latitude,<br>
+i.e.<br>
+<center>
+<IMG src="adriex_region.png" border=1 alt="The ADRIEX region">
+</center>
+</p>
+
+
+<a name="news"><H3>News and developments</H3></a>
+<p>15/7/2004<br>
+Aura spacecraft launched.</p>
+<p>19/7/2004<br>
+Access to NRT AATSR data via the ESA rolling archive started.</p>
+<p>23/7/2004<br>
+ADRIEX web-page prototype put on line.</p>
+<p>20/8/2004<br>
+HiRDLS data will not be available for the ADRIEX campaign due to an
+unidentified problem with the instrument which has delayed data
+collection.</p>
+<p>24/8/2004<br>
+AATSR processing is now working and data should begin to appear on
+this site within the next 24 hours.</p>
+<p>26/8/2004<br>
+Daily updates of AATSR images begun.</p>
+<p>26/8/2004<br>
+ESA rolling NRT archive of AATSR data is not being updated. Updates will not be possible until the 
+archive is active again.</p>
+<p>27/8/2004<br>
+ESA rolling archive is fixed.</p>
+<p>29/8/2004<br>
+ESA (Kiruna) rolling archive is down again.</p>
+<p>30/8/2004<br>
+The Kiruna archive is operational again. New maps will be placed on
+the web site overnight.<br>
+The data display page has been reordered with raw radiance maps
+for both visible and infra red channels appearing first, followed by
+the particle type, optical depth and radius estimates. This has been
+done as the retrieval of optical depth and particle radius is untested
+on AATSR data and the results show some dubious features.</p>
+<p>2/9/2004<br>
+Two important improvements have been made to the retrieval over the
+past day.<br>
+Firstly, the sunglint area on the right hand side of the images (which
+cause anomolously high optical depths) have been removed.<br>
+Secondly, MODIS surface albedo values are now being used to perscribe
+the land surface albedo, resulting in much better retrievals over
+land.<br>
+There should be a noticable improvement in the quality of the images
+from the today onwards.</p>
+<p>6/9/2004<br>
+A quick comparison between the optical depth at 0.55 microns seen by
+the Venise AERONET station and the AATSR retrieval has been
+done. Click <a href="comparison.html">here</a> for details</p>
+<a name="data"><H3>Data</H3></a>
+
+Simply sellect the date for which you wish to see data (YYYYMMDD):
+<FORM name="datalist" action="20040906/20040906.html">
+<SELECT name="dataday" onchange="changePage(this.form)">
+<OPTION value="20040906/20040906.html">Latest
+<OPTION value="20040906/20040906.html">20040906
+<OPTION value="20040905/20040905.html">20040905
+<OPTION value="20040904/20040904.html">20040904
+<OPTION value="20040903/20040903.html">20040903
+<OPTION value="20040902/20040902.html">20040902
+<OPTION value="20040901/20040901.html">20040901
+<OPTION value="20040831/20040831.html">20040831
+<OPTION value="20040830/20040830.html">20040830
+<OPTION value="20040828/20040828.html">20040828
+<OPTION value="20040827/20040827.html">20040827
+<OPTION value="20040825/20040825.html">20040825
+<OPTION value="19980201/19980201.html">19980201
+</SELECT>
+<INPUT onClick="changePage(this.form)" type="SUBMIT" name="submit" value="Go"> 
+</FORM>
+
+
+<p>Maintained by <a href="mailto:gthomas@atm.ox.ac.uk">Gareth Thomas</a></p>
+
+</body>
+</TD></TR></TABLE></TD></TR></TABLE>
+<TABLE WIDTH="98%" ALIGN=CENTER BORDER=0 CELLSPACING = 0 CELLPADDING=0>
+<TR><TD CLASS="Left">
+<FONT SIZE=-4 COLOR="#E7E7FF">last updated @19:37 GMT 06-Sep-2004</FONT></TD>
+<TD CLASS="Right"><A HREF="index_nocol.html"><FONT SIZE=-4>printable version</FONT></A></TD></TR></TABLE></TD></TR><TR><TD COLSPAN=2>
+<IMG SRC="../../main/images/physics_bottom.gif"></TD></TR></TABLE></BODY></HTML>
+
+
+8h 1adti h>sy 

@@ -1,0 +1,252 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+   <HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+	<TITLE>Welcome to the Gazetteer Community Member's Area</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide script
+
+function verify(){
+return emailCheck(document.forms[0].username.value)
+function emailCheck (emailStr) {
+
+var checkTLD=1;
+var
+knownDomsPat=/^(com|net|org|edu|int|mil|gov|arpa|biz|aero|name|coop|info|pro|museum)$/;
+var emailPat=/^(.+)@(.+)$/;
+var specialChars="\\(\\)><@,;:\\\\\\\"\\.\\[\\]";
+var validChars="\[^\\s" + specialChars + "\]";
+var quotedUser="(\"[^\"]*\")";
+var ipDomainPat=/^\[(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})\]$/;
+var atom=validChars + '+';
+var word="(" + atom + "|" + quotedUser + ")";
+var userPat=new RegExp("^" + word + "(\\." + word + ")*$");
+var domainPat=new RegExp("^" + atom + "(\\." + atom +")*$");
+var matchArray=emailStr.match(emailPat);
+if (matchArray==null) {
+alert("Email address seems incorrect (check @ and .'s)");
+return false;
+}
+var user=matchArray[1];
+var domain=matchArray[2];
+for (i=0; i<user.length; i++) {
+if (user.charCodeAt(i)>127) {
+alert("Ths username contains invalid characters.");
+return false;
+   }
+}
+for (i=0; i<domain.length; i++) {
+if (domain.charCodeAt(i)>127) {
+alert("Ths domain name contains invalid characters.");
+return false;
+   }
+}
+if (user.match(userPat)==null) {
+alert("The username doesn't seem to be valid.");
+return false;
+}
+var IPArray=domain.match(ipDomainPat);
+if (IPArray!=null) {
+for (var i=1;i<=4;i++) {
+if (IPArray[i]>255) {
+alert("Destination IP address is invalid!");
+return false;
+   }
+}
+return true;
+}
+var atomPat=new RegExp("^" + atom + "$");
+var domArr=domain.split(".");
+var len=domArr.length;
+for (i=0;i<len;i++) {
+if (domArr[i].search(atomPat)==-1) {
+alert("The domain name does not seem to be valid.");
+return false;
+   }
+}
+if (checkTLD && domArr[domArr.length-1].length!=2 &&
+domArr[domArr.length-1].search(knownDomsPat)==-1) {
+alert("The address must end in a well-known domain or two letter " +
+"country.");
+return false;
+}
+if (len<2) {
+alert("This address is missing a hostname!");
+return false;
+}
+return true;
+}
+}
+
+if (document.cookie) { // there is a cookie
+   var firstChar, lastChar;
+   var name = "ScotGaz";
+   var sgCookie = document.cookie;
+   firstChar = sgCookie.indexOf(name);	// find the start of 'name'
+   var eq = firstChar + name.length;
+
+   if((firstChar != -1) && (sgCookie.charAt(eq) == '=')) { //if found cookie
+//        location = "/scotgaz/members_on.html";
+      if (document.images)
+         location.replace('http://www.geo.ed.ac.uk/scotgaz/members_on.html');
+      else
+          location.href = '/scotgaz/members_on.html';
+   }
+}
+
+// End script hiding -->
+</SCRIPT>
+   </HEAD>
+
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+<TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html"><B> Help </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><a href="#" onClick="window.open('/scotgaz/glossw.html','GlossaryWin','width=600,height=400,scrollbars=1,top=150,screenY=150')"><B> Glossary </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/People.html"><B> People </B></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Places.html"><B> Places </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Statistics.html"><B> Statistics </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B> Member's Area </B></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><A HREF="bookshop.html"><img src="images/new.gif" border="0"></A></TD></TR>
+</TABLE>
+</TD>
+<TD BGCOLOR="#FFFFCC" VALIGN="TOP" ALIGN="left">
+<BLOCKQUOTE><BR>
+
+<table width="90%" border=0 cellpadding=0 cellspacing=0>
+
+<tr><td>
+<p align="left"><FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif" size=+1>
+<b>Welcome to the Gazetteer Community Member's Area!</b>
+<p align="justify">
+<font size="-1">
+Our Member's Area allows you to gain benefits from being part of our
+community.  Membership, which is entirely free, gives you three main 
+features; namely the ability to
+be able to <b>leave your comments</b> and impressions about individual entries, 
+<b>send e-postcards</b> and get access to a <b>fantastic range of mapping 
+facilities</b>
+which let you produce your own customised maps.  Our new 'family maps',
+which let you <b>easily display all the places in Scotland associated with
+your family</b>,  are easy-to-use and have been highly praised.
+<p align="justify">
+Remember that all of the content, including the maps, in the Member's Area
+is dynamic, so what you see today may be different next week or next month.
+Therefore it is worth checking back regularly.
+<p>
+You don't have to be a member to give us general 
+<a href="feedback.html">feedback</a>.
+</font>
+<p>
+</td></tr>
+
+<tr><td><hr></td></tr>
+
+<tr><td>
+  <FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif"><b>New members</b>
+</td></tr>
+
+<tr><td>
+<table width="100%" border=0 cellpadding=0 cellspacing=25>
+<tr><td>
+<FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+Join the Gazetteer for Scotland!  
+<br><a href="/scotgaz/whyjoin2.html">Click here</a> to find out why you should join.
+</td></tr>
+
+<tr><td>
+<FONT color="#000080"  size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+ To create an account now, please enter your email address here:<br>
+ 
+<form action="http://www.geo.ed.ac.uk/sgzexe/create_account.pl" method="post" onSubmit="return verify()">
+
+<table width="80%" border="0" cellpadding="0" cellspacing="0"><tr>
+<td width="120">
+<FONT color="#000080"  size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+E-mail address:
+</font></td>
+<td width="200"><FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+<INPUT TYPE="text" NAME="username" SIZE=25>
+</font></td>
+<td><FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+<INPUT TYPE="submit" value="Create Account">
+</font></td>
+</tr></table>
+</form>
+</td></tr>
+
+</table>
+<tr><td><hr></td></tr>       
+</td></tr>
+
+
+<tr><td>
+   <FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif"><b>Existing members</b>
+</td></tr>
+
+<tr><td>
+<table width="100%" border="0" cellpadding="0" cellspacing="25">
+  <FORM ACTION="http://www.geo.ed.ac.uk/sgzexe/login.pl" METHOD="POST">
+  <tr>
+  <td>
+  <FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+        Enter your username and password below:<p>
+
+  <table width="80%" border="0" cellpadding="0" cellspacing="0">
+
+  <tr><td width="120">
+  <FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+        E-mail address:</font></td>
+  <td width="200">
+  <FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+  <INPUT TYPE="TEXT" NAME="username" SIZE="25"></font></td>
+  <td>&nbsp;</td></tr>
+  <tr><td>
+  <FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+        Password:</font></td>
+  <td>
+  <FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+  <INPUT TYPE="PASSWORD" NAME="password" SIZE="25"></font></td>
+  <td>
+  <FONT color="#000080" size="-1" face="Verdana,Arial,Helvetica,sans-serif">
+  <INPUT TYPE="SUBMIT" VALUE="Login"></td></tr>
+  </table>
+
+  </td></tr>
+  </form>
+
+</table>
+
+</td></tr>
+
+<tr><td><hr></td></tr>
+</table>
+
+</BLOCKQUOTE>
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFCC33">&nbsp;</TD>
+<TD BGCOLOR="#FFFFCC" ALIGN="CENTER">
+  <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+  <A HREF="/scotgaz/copyright.html">&#169;1995-2004  The Gazetteer for Scotland</A><br> 
+    Sponsored by:
+   <A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,&nbsp;
+   <A HREF="http://www.geo.ed.ac.uk/carnegie/carnegie.html">The Carnegie Trust for the Universities of Scotland</A>,<BR>
+   <A HREF="http://www.geo.ed.ac.uk/~rsgs/menu.html">The Royal Scottish Geographical Society</A>,&nbsp;
+   <A HREF="http://www.geo.ed.ac.uk/">The Department of Geography, University of Edinburgh</A>.<BR><BR>
+  </FONT>
+</TD></TR></TABLE></BODY></HTML>
+
+
+" fi]ispa"is/	

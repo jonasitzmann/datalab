@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Weekly Wind Direction and Speed (m/s)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+
+<script>   
+function changeScreenSize(w,h)     
+{       window.resizeTo( w,h )     }
+</script>
+</head>
+
+<body onload="changeScreenSize(750,900)">
+
+<IMG SRC="images/SpeedDir_WK.png">
+<p>The most recent and penultimate wind speed and direction records are indicated in purple and blue, respectively. Earlier records are displayed using open circles. Data points are the average wind speed for a given direction (averaged) over a one-hour period. The x- and y- axes represent wind direction and the distance of each point from the origin represents wind speed (circles denote the wind speed intervals, m/s).</p>
+<p><b> To convert m/s to mph multiply by 2.237 </b></p>
+<p align="center">
+<INPUT TYPE='BUTTON' VALUE='Close' onClick='window.close()'>
+</p>
+</body>
+</html>
+
+
+ohud/ >/

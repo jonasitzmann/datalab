@@ -1,0 +1,345 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<img src=images/40v.gif><br>
+<table width=95%>
+<tr>
+<td>
+<h2 align=center>Manuscript Images</h2>
+<center>
+<i><font size=-1>[For copyright in these manuscript images, please see the <a href=acknowledgements.html>Acknowledgments</a> page.]</font></i></center>
+<p>&nbsp;<p>
+<blockquote><i><font size=-1>The manuscript images presented below are ordered roughly chronologically, allowing easy reference to particular sub-periods and styles of hand (note, however, that no attempt has been made to distinguish manuscripts on the basis of secretary (set, facile) or italic hands). Where possible, a number of images from a given manuscript or hand have been grouped together, allowing for more concentrated work on difficult or particularly relevant materials.
+<p>
+Each manuscript image will appear alongside a workspace where the student may attempt a transcription or take notes. If it seems preferable for any reason to take a transcription by hand, the frame containing the manuscript image may be easily resized by dragging the frame's bottom bar to the bottom of the window. No supplementary information is available for these manuscript images; they are intended as occasions for further practice. Anyone wishing more supportive and intensive explanation/exploration of such manuscripts is advised to refer to the <a href=lessons.html>course lessons</a> section of the site.</font></i></blockquote>
+<p>&nbsp;<p>
+<table width=98%>
+<tr>
+<td width=50% valign=top>
+<ol type=1>
+<li> Summary of petition to Henry VI for the erecting of hostels in Cambridge<br>
+King's College Archive CAM/123<br>
+[<a href=manuscripts/kcam123-1/>Pt 1</a>] [<a href=manuscripts/kcam123-2/>Pt 2</a>]
+<p>
+<li> Bills of expenses, Great Bricett (College estate)<br>
+King's College Archive GBR/481<br>
+[<a href=manuscripts/kgbr481-1r/>f. 1r</a>] [<a href=manuscripts/kgbr481-1v/>f. 1v</a>] [<a href=manuscripts/kgbr481-2r/>f. 2r</a>] 
+<p>
+<li> Notes on the agreement between John Langton, Bishop of St David's, and King's College, concerning furnishing of the Chapel<br>
+King's College Archive KCA/343<br>
+[<a href=manuscripts/kkca343/>p. 1</a>]
+<p>
+<li> Purveyance made by John Langton, Bishop of St David's, by the king's commandment for the furnishing of King's College Chapel (selections)<br>
+King's College Archive KCA/345<br>
+[<a href=manuscripts/kkca345-1/>Pt 1</a>] [<a href=manuscripts/kkca345-2/>Pt 2</a>] [<a href=manuscripts/kkca345-3/>Pt 3</a>]
+<p>
+<li> Inventory of the King's College Chapel<br>
+King's College Archive KCA/346<br>
+[<a href=manuscripts/kkca346-7v/>f. 7v</a>]
+<p>
+<li> Estimate of costs for detailed work on King's College Chapel<br>
+King's College Archive KCD/98<br>
+[<a href=manuscripts/kkcd98-1/>Pt 1</a>] [<a href=manuscripts/kkcd98-2/>Pt 2</a>]
+<p>
+<li> Agreement with John Wastell, master mason, for building three towers of the King's College Chapel<br>
+King's College Archive KCD/97<br>
+[<a href=manuscripts/kkcd97/>f. 1r</a>]
+<p>
+<li> Agreement with John Wastell, master mason, for buildings finials of 21 buttresses and 1 tower of the King's College Chapel<br>
+King's College Archive KCD/95<br>
+[<a href=manuscripts/kkcd95/>f. 1r</a>]
+<p>
+<li> Agreement with John Wastell, master mason, for building stone roofs of porches and 16 chapels, with battlements of chapels and porches, for the King's College Chapel<br>
+King's College Archive KCD/94<br>
+[<a href=manuscripts/kkcd94/>f. 1r</a>]
+<p>
+<li> Indenture between Thomas Locke surveyor of the king's works and John Wastell for payment, with note of periodic payments by Locke, for work completed on the King's College Chapel<br>
+King's College Archive, KCD/96<br>
+[<a href=manuscripts/kkcd96-1/>Pt 1</a>] [<a href=manuscripts/kkcd96-2/>Pt 2</a>] [<a href=manuscripts/kkcd96-3/>Pt 3</a>] [<a href=manuscripts/kkcd96-4/>Pt 4</a>]
+<p>
+<li> Receipts for wages between William dussyng, Bursar of King's College, and George Wylson, servant, 1521-1522<br>
+King's College Archive KCA/302, /303, and /304<br>
+[<a href=manuscripts/kkca302/>KCA/302</a>] [<a href=manuscripts/kkca303/>KCA/303</a>] [<a href=manuscripts/kkca304/>KCA/304</a>]
+<p>
+<li> John Rastell, <i>Dialogues</i><br>
+Trinity College Library, MS O. 3. 26<br>
+[<a href=manuscripts/to326-31v/>31v</a>] [<a href=manuscripts/to326-32r/>32r</a>] [<a href=manuscripts/to326-32v/>32v</a>]
+<p>
+<li><i>Apocalypse</i> in English<br>
+Trinity College Library MS B. 2. 7<br>
+[<a href=manuscripts/tb27-49v/>49v</a>] [<a href=manuscripts/tb27-50r/>50r</a>] [<a href=manuscripts/tb27-50v/>50v</a>]
+<p>
+<li> Inventory of bagged money in the King's College Treasury, ca. 1550<br>
+King's College Archive KCA/11<br>
+[<a href=manuscripts/kkca11/>f. 1r</a>]
+<p>
+<li> 'The contents and value of my lordes armorie, Anno ix Elizabethe'<br>
+Gonville and Caius College MS 53/30<br>
+[<a href=manuscripts/gc30-22r/>f. 22r (i)</a>] 
+<p>
+<li> 'A note of men, horses, and armer, and the prices of maintayninge them, sente forthe by my lorde of Ely havinge his directions from the Queen's Maiestye, 22nd March, 1569'<br>
+Gonville and Caius College 53/30<br>
+[<a href=manuscripts/gc30-23r/>f. 23r (i)</a>] [<a href=manuscripts/gc30-23v/>f. 23v (i)</a>]
+<p>
+<li> Letters to and from the Privy Council (concerning scarcity of grain, church attendance, etc.)<br>
+Gonville and Caius College MS 53/30<br>
+[<a href=manuscripts/gc30-24r/>f. 24r (i)</a>] [<a href=manuscripts/gc30-25v/>f. 25v (i)</a>] [<a href=manuscripts/gc30-27r/>f. 27r (i)</a>]
+<p>
+<li> 'The boke wherein ys conteined the most secret treasure called Alchamy, maide by Mr George Riplay'<br>
+Gonville and Caius College MS 399/618<br>
+[<a href=manuscripts/gc618-8v/>f. 8v</a>] [<a href=manuscripts/gc618-9r/>f. 9r</a>] [<a href=manuscripts/gc618-9v/>f. 9v</a>]
+<p>
+<li> Mr Briggs his visitation<br>
+Gonville and Caius College MS 220/235<br>
+[<a href=manuscripts/gc235-1/>p. 1</a>] [<a href=manuscripts/gc235-2/>p. 2</a>] [<a href=manuscripts/gc235-3/>p. 3</a>]
+<p>
+<li> 'The names of all the Gentlemen and Freeholders in several towns' (Macclesfield)<br>
+Gonville and Caius College MS 197/103<br>
+[<a href=manuscripts/gc103-10/>p. 10</a>] [<a href=manuscripts/gc103-37/>p. 37</a>] [<a href=manuscripts/gc103-38/>p. 38</a>] [<a href=manuscripts/gc103-39/>p. 39</a>] 
+<p>
+<li> 'Nomina villarum in Sex Hundred infra Com. Cester'<br>
+Gonville and Caius College MS 197/103<br>
+[<a href=manuscripts/gc103-48/>p. 48</a>] [<a href=manuscripts/gc103-49/>p. 49</a>]
+<p>
+<li> 'Arraignments in the Star-Chamber' (Duke of Norfolk)<br>
+Gonville and Caius College MS 197/103<br>
+[<a href=manuscripts/gc103-259/>p. 259</a>] [<a href=manuscripts/gc103-260/>p. 260</a>]
+<p>
+<li> 'To preserve quinses'<br>
+Gonville and Caius College MS 197/103<br>
+[<a href=manuscripts/gc103-356/>p. 356</a>]
+<p>
+<li> 'My Muse not I'<br>
+Gonville and Caius College MS 197/103<br>
+[<a href=manuscripts/gc103-384/>p. 384</a>] [<a href=manuscripts/gc103-385/>p. 385</a>]
+<p>
+<li> 'The words of Ptolem&aelig;us'<br>
+Gonville and Caius College MS 197/103<br>
+[<a href=manuscripts/gc103-402/>p. 402</a>]
+<p>
+<li> 'An answeare of the Queen of Scotts to Mr Babington's letter'<br>
+Gonville and Caius College MS 197/103<br>
+[<a href=manuscripts/gc103-518/>p. 518</a>] [<a href=manuscripts/gc103-519/>p. 519</a>] [<a href=<a href=manuscripts/gc103-520/>p. 520</a>] [<a href=manuscripts/gc103-521/>p. 521</a>] [<a href=manuscripts/gc103-526/>p. 526</a>]
+<p>
+<li> Prescriptions for various disorders<br>
+Gonville and Caius College MS 206/112<br>
+[<a href=manuscripts/gc112-177/>p. 177</a>] [<a href=manuscripts/gc112-179/>p. 179</a>] [<a href=manuscripts/gc112-211/>p. 211</a>] [<a href=manuscripts/gc112-212/>p. 212</a>]
+<p>
+<li> Oath of the Gentlemen of Gray's Inn<br>
+Gonville and Caius MS 53/30<br>
+[<a href=manuscripts/gc30-51r/>f. 51r (ii)</a>]
+<p>
+<li> An Indenture between Robert Martche and Robert Hall et al.<br>
+Gonville and Caius MS 53/30<br>
+[<a href=manuscripts/gc30-75v/>f. 75v (ii)</a>] [<a href=manuscripts/gc30-76r/>f. 76r (ii)</a>]
+
+
+</ol>
+</td>
+<td width=50% valign=top>
+<ol type=1 start=30>
+
+
+<li> 'A note on Royston'(extract from Rastell's <i>Abridgement</i>)<br>
+Gonville and Caius College MS 170/91<br>
+[<a href=manuscripts/gc91-157/>p. 157</a>]
+<p>
+<li> Ecclesiastical Memoranda concerning the diocese of Ely and the county of Essex, etc.<br>
+Gonville and Caius College MS 170/91<br>
+[<a href=manuscripts/gc91-153/>p. 153</a>] [<a href=manuscripts/gc91-205/>p. 205</a>] [<a href=manuscripts/gc91-235/>p. 235</a>] [<a href=manuscripts/gc91-244/>p. 244</a>] [<a href=manuscripts/gc91-245/>p. 245</a>]
+<p>
+<li> Inventory of the estate of Richard Cox, Bishop of Ely<br>
+Gonville and Caius College MS 53/30<br>
+[<a href=manuscripts/gc30-30r/>f. 30r (ii)</a>] [<a href=manuscripts/gc30-30v/>f. 30v (ii)</a>] [<a href=manuscripts/gc30-31r/>f. 31r (ii)</a>]
+<p>
+<li> Inventory of the estate of Richard Cox: goods in John Chapman's Chamber<br>
+Gonville and Caius MS 53/30<br>
+[<a href=manuscripts/gc30-46v/>f. 46v (ii)</a>] [<a href=manuscripts/gc30-47r/>f. 47r (ii)</a>]
+<p>
+<li> Three sonnets of commendation preceding 'A pamphlett', perhaps by R. Southwell<br>
+Gonville and Caius College MS 218/233<br>
+[<a href=manuscripts/gc233-115/>p. 115</a>]
+<p>
+<li>Sidney Psalms<br>
+Trinity College Library, MS R. 3. 16<br>
+[<a href=manuscripts/tr316-78/>p. 78</a>] [<a href=manuscripts/tr316-79/>p. 79</a>] [<a href=manuscripts/tr316-80/>p. 80</a>]
+<p>
+<li> Statutes, Constitutions, and Ordinances devised by John Whitgift, Founder of the Hospitall of the Holie Trinitie, in Croydon<br>
+Gonville and Caius College MS 694/354<br>
+[<a href=manuscripts/gc354-2r/>f. 2r</a>] [<a href=manuscripts/gc354-7r/>f. 7r</a>]
+<p>
+<li> 'The arraignment of Robert Earle of Essex and Henrye Earl of Southampton, 8 February, 1600'<br>
+Gonville and Caius College MS 150/200<br>
+[<a href=manuscripts/gc200-1/>p. 1</a>] [<a href=manuscripts/gc200-5/>p. 5</a>] [<a href=manuscripts/gc200-6/>p. 6</a>] [<a href=manuscripts/gc200-7/>p. 7</a>]
+<p>
+<li> 'The Earle of Essex his instructions to his sonne'<br>
+Gonville and Caius College MS 150/200<br>
+[<a href=manuscripts/gc200-21/>p. 21</a>] [<a href=manuscripts/gc200-22/>p. 22</a>] [<a href=manuscripts/gc200-23/>p. 23</a>] [<a href=manuscripts/gc200-24/>p. 24</a>] [<a href=manuscripts/gc200-25/>p. 25</a>] 
+<p>
+<li> 'The Earle of Essex his complaint, in verse'<br>
+Gonville and Caius College MS 73/40<br>
+[<a href=manuscripts/gc40-157r/>f. 157r</a>] [<a href=manuscripts/gc40-157v/>f. 157v</a>] [<a href=manuscripts/gc40-158r/>f. 158r</a>]
+<p>
+<li> 'The Articles in Libell laid down by the Ladye Frances Howard against the Earle of Essex, ... 1615'<br>
+Gonville and Caius College MS 73/40<br>
+[<a href=manuscripts/gc40-217r/>f. 217r</a>]
+<p>
+<li> 'A briefe and profound or groundlie Treatise of Explication of the secreate or misterie of the Love'<br>
+Gonville and Caius College MS 389/609<br>
+[<a href=manuscripts/gc609-247/>p. 247</a>] [<a href=manuscripts/gc609-249/>p. 249</a>]
+<p>
+<li> 'Sir Walter Rawleigh his apologie'<br>
+Gonville and Caius College MS 73/40<br>
+[<a href=manuscripts/gc40-204r/>f. 204r</a>] [<a href=manuscripts/gc40-204v/>f. 204v</a>] [<a href=manuscripts/gc40-205r/>f. 205r</a>]
+<p>
+<li> 'Sir Walter Rawleigh his letter to the King at his return from Guiana', with 'Even such is time that takes in trust'<br>
+Gonville and Caius College MS 73/40<br>
+[<a href=manuscripts/gc40-215r/>f. 215r</a>] [<a href=manuscripts/gc40-215v/>f. 215v</a>]
+<p>
+<li> 'Verses on the return of the Duke [of Buckingham] from Ree'<br>
+Gonville and Caius College MS 143/193<br>
+[<a href=manuscripts/gc193-149/>p. 149</a>] [<a href=manuscripts/gc193-150/>p. 150</a>] [<a href=manuscripts/gc193-151/>p. 151</a>]
+<p>
+<li> 'Rhodomontadoes'<br>
+Gonville and Caius College MS 143/193<br>
+[<a href=manuscripts/gc193-152/>p. 152</a>] [<a href=manuscripts/gc193-153/>p. 153</a>]
+<p>
+<li> 'Verses upon Lord Cooke (Sir Edward Coke and Lord Bacon), Sheriffe of Buckingham'<br>
+Gonville and Caius College MS 143/193<br>
+[<a href=manuscripts/gc193-160/>p. 160</a>] [<a href=manuscripts/gc193-161/>p. 161</a>] [<a href=manuscripts/gc193-162/>p. 162</a>]
+<p>
+<li> The Duke of Buckingham's Letter to the University (of Cambridge), 'Haveing chosen him their Chancellour: from Whitehall, June 5, 1626'<br>
+Gonville and Caius College MS 143/193<br>
+[<a href=manuscripts/gc193-167/>p. 167</a>]
+<p>
+<li> The discovery and recovery of Ireland, with The Author's Apology<br>
+Gonville and Caius College MS 150/200<br>
+[<a href=manuscripts/gc200-81/>p. 81</a>] [<a href=manuscripts/gc200-105/>p. 105</a>] [<a href=manuscripts/gc200-109/>p. 109</a>] [<a href=manuscripts/caius9/>p. 127</a>] [<a href=manuscripts/caius10/>p. 155</a>]
+<p>
+<li> 'Of Robert Devereux Earle of Essex, and George Villiers Duke of Buckingham, some observations by way of Parallel', by Sir Henry Wotton<br>
+Gonville and Caius College MS 389/609<br>
+[<a href=manuscripts/gc609-423/>p. 423</a>] [<a href=manuscripts/gc609-424/>p. 424</a>] [<a href=manuscripts/gc609-425/>p. 425</a>]
+<p>
+<li> John Milton, notebook ('Lycidas', 'A maske'; autograph)<br>
+Trinity College Library, MS R. 3. 4<br>
+[<a href=manuscripts/tr34-6/>p. 6</a>] [<a href=manuscripts/tr34-31/>p. 31</a>] 
+<p>
+<li> 'The Summe of a Sermon', on Genesis 3:17<br>
+Gonville and Caius College MS 389/609<br>
+[<a href=manuscripts/gc609-313/>p. 313</a>] [<a href=manuscripts/gc609-314/>p. 314</a>] [<a href=manuscripts/gc609-315/>p. 315</a>]
+<p>
+<li> 'A sermon preached before the kinge's Maiestie at Greenwich by John Burgess, 19th of June, 1604', on Ps. 122: 8, 9<br>
+Gonville and Caius College MS 389/609<br>
+[<a href=manuscripts/gc609-343/>p. 343</a>] [<a href=manuscripts/gc609-344/>p. 344</a>] [<a href=manuscripts/gc609-345/>p. 345</a>]
+<p>
+<li> John Dryden, <i>The Indian Emperour</i><br>
+Trinity College Library, MS R. 3. 10<br>
+[<a href=manuscripts/tr310-34r/>34r</a>] [<a href=manuscripts/tr310-34v/>34v</a>] [<a href=manuscripts/tr310-35r/>35r</a>]
+<p>
+<li> John Donne, Poems ('Extasie', 'La Corona', 'Divine Sonnets')<br>
+Trinity College Library, MS R. 3. 12<br>
+[<a href=manuscripts/tr312-51/>p. 51</a>] [<a href=manuscripts/tr312-52/>p. 52</a>] [<a href=manuscripts/tr312-53/>p. 53</a>] [<a href=manuscripts/tr312-224/>p. 224</a>] [<a href=manuscripts/tr312-232/>p. 232</a>] [<a href=manuscripts/tr312-233/>p. 233</a>]
+<p>
+<li> Ann Mallett to Henry More<br>
+Christ's College Library, MS 21, no. 10<br>
+[<a href=manuscripts/chr21-10/>p. 1</a>]
+<p>
+<li> Letter from John Finch concerning Sir Thomas Baines<br>
+Christ's College Library, MS 206<br>
+[<a href=manuscripts/chr206-1/>p. 1</a>] [<a href=manuscripts/chr206-2/>p. 2</a>] [<a href=manuscripts/chr206-3/>p. 3</a>] [<a href=manuscripts/chr206-4/>p. 4</a>]
+<p>
+<li> Henry Hallywell to Dr Henry More<br>
+Christ's College Library, MS 21, no. 37<br>
+[<a href=manuscripts/chr21-37a/>p. 1</a>] [<a href=manuscripts/chr21-37b/>Endorsement</a>]
+<p>
+<li> 'Select propositions in Spherical Trigonometry from the Book of Jannes Antonio Magino, translated by John Collins, 1646'<br>
+Gonville and Caius College MS 613/686<br>
+[<a href=manuscripts/gc686-5r/>f. 5r</a>] [<a href=manuscripts/gc686-12r/>f. 12r</a>]
+</ol>
+<p>
+</td></tr></table>
+<img src=images/30v.gif><br>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+
+
+
+
+ca/  ih/

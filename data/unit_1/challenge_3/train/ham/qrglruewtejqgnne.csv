@@ -1,0 +1,298 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+<title>DeBug - The Insect Zone</title>
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+<link rel='stylesheet' type='text/css' href='DeBugStyle.css'>
+
+<script language="JavaScript" type="text/JavaScript">
+
+function disable(){
+	if (event.button == 2){
+		alert("Permission must be sought to use images or text.\nThank you")
+	}
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+
+</head>
+
+<body>
+<p align="center">
+	<br />
+	<a class="MenuLink" href="index.html">&nbsp;Home&nbsp;</a>
+	<a class="MenuLink" href="Quiz.html">&nbsp;Quiz&nbsp;</a>
+	<a class="MenuLink" href="WhatAmI.html">&nbsp;Guess&nbsp;the&nbsp;insect&nbsp;</a>
+	<a class="MenuLink" href="Anatomy.html">&nbsp;Insect&nbsp;anatomy&nbsp;</a>
+	<a class="MenuLink" href="Wallpapers.html">&nbsp;Wallpapers&nbsp;</a>
+	<a class="MenuLink" href="AskAQuestion.html">&nbsp;Ask&nbsp;a&nbsp;question&nbsp;</a>
+</p>
+
+<SCRIPT type=text/javascript>
+
+var arrDescriptions = new Array();
+arrDescriptions[0]="<b>Antenna</b><br />Insects use their antennae to learn about their environment. They detect smells, tastes and air movement";
+arrDescriptions[1]="<b>Brain</b><br />Although it is small it allows the bee to navigate large areas and to communicate through dance";
+arrDescriptions[2]="<b>Mandible</b><br />These 'jaws' are used to manipulate pollen and to defend the honeybee colony from invaders";
+//arrDescriptions[3]="<b>Head</b><br />The front section of an insect";
+arrDescriptions[4]="<b>Hypopharyngeal glands</b><br />These produce secretions which can feed larval bees and convert nectar into honey";
+arrDescriptions[5]="<b>Salivary glands</b><br />The saliva is mixed with bees wax to make it sticky";
+arrDescriptions[6]="<b>Flight muscle</b><br />They can contract several times with one single nerve impulse, allowing the wings to beat faster";
+arrDescriptions[7]="<b>Crop (honey stomach)</b><br />The bee stores nectar here which it can pass on to other bees in the colony";
+arrDescriptions[8]="<b>Malpighian tubules:</b><br />These are the honeybee's kidneys. They remove waste from the bees food";
+arrDescriptions[9]="<b>Mid gut</b><br />This is bee's true stomach";
+arrDescriptions[10]="<b>Rectum</b><br />This is very expandable meaning the bee can go the whole winter without going to the toilet";
+//arrDescriptions[11]="<b>Thorax</b><br />The middle section of an insect";
+//arrDescriptions[12]="<b>Abdomen:</b><br />The rear section of an insect";
+arrDescriptions[13]="<b>Hind leg</b><br />This leg has a special 'pollen basket' which the bee packs pollen into to take home to the colony";
+arrDescriptions[14]="<b>Mid leg</b>";
+arrDescriptions[15]="<b>Fore leg</b><br />This leg has a special structure which the bee uses to clean its antennae if they get clogged with pollen";
+arrDescriptions[16]="<b>Tongue</b><br />Honeybee tongues have to be long and flexible to allow them to drink nectar from flowers";
+arrDescriptions[17]="<b>Venom sac and sting</b><br />The venom sac contains a cocktail of chemicals which the bee injects using a modified egg-laying tube";
+arrDescriptions[18]="<b>Wax glands</b><br />Honeycombs are made from a special wax which the bee produces from several glands along its underbelly";
+
+
+//head = 1 to 4
+//thorax = 5 to 6
+//abdomen = 7 to 15
+
+function DescriptionOn(n){
+	document.getElementById('Description').className = 'ImageMap';
+	document.getElementById('Description').innerHTML = arrDescriptions[n];
+	/*
+	if (n == 3){
+		document.getElementById('MainImage').src = "images/BeeAnatomyHead.jpg";
+	}
+	if (n == 11){
+		document.getElementById('MainImage').src = "images/BeeAnatomyThorax.jpg";
+	}	
+	if (n == 12){
+		document.getElementById('MainImage').src = "images/BeeAnatomyAbdomen.jpg";
+	}
+	*/
+//	document.getElementById('Description').style.display = 'inline';
+//	document.getElementById('Description').style.left = 100//event.clientX - 120;
+//	document.getElementById('Description').style.top = 200//event.clientY - 60;
+}
+
+function DescriptionOff(){
+	document.getElementById('MainImage').src = "images/BeeAnatomy.jpg";
+	//document.getElementById('Description').className = 'ImageMapHidden';
+}
+
+</SCRIPT>
+
+<table align="center" style="border: 4px solid #4678B4; " width="90%" bgcolor="#FFFFFF" cellpadding="10">
+
+<tr><td align="center">
+
+<h1>Inside a honeybee (<i>Apis mellifera</i>)</h1>
+
+<img id="MainImage" height="292" width="500" 
+src="images/BeeAnatomy.jpg" useMap="#beeanatomy" 
+border="0" name="MainImage" style="border: 0px; " align="left"> 
+
+<p id="Description" style="text-align:center ">
+Move the cursor around to reveal what each part of the bee does
+</p>
+
+</td></tr>
+</table>
+
+<MAP name=beeanatomy>
+
+<AREA onmousemove=DescriptionOn(0) 
+  onmouseover=DescriptionOn(0) onmouseout=DescriptionOff() shape=POLY 
+  coords=52,84,37,60,22,61,1,127,1,160,15,149,35,75,52,98 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(1) onmouseover=DescriptionOn(1) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=87,52,86,52,90,66,86,78,73,83,67,71,74,57 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(2) onmouseover=DescriptionOn(2) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=71,130,82,162,82,180,66,165,60,145 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <!--HEAD
+  <AREA 
+  onmousemove=DescriptionOn(3) onmouseover=DescriptionOn(3) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=105,67,97,46,82,36,63,50,51,76,35,51,20,56,0,116,0,0,109,1 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(3) onmouseover=DescriptionOn(3) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=0,289,1,163,19,151,37,84,47,101,52,132,62,171,79,190,79,226,84,254,63,288 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  -->
+  
+  <AREA 
+  onmousemove=DescriptionOn(4) onmouseover=DescriptionOn(4) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=69,56,58,65,53,119,60,122,68,56,58,64 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(4) onmouseover=DescriptionOn(4) 
+  onmouseout=DescriptionOff() shape=POLY coords=81,86,77,112,73,124,68,125,78,85 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(5) onmouseover=DescriptionOn(4) 
+  onmouseout=DescriptionOff() shape=POLY coords=92,47,102,83,96,85,89,48 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(5) onmouseover=DescriptionOn(5) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=127,77,150,73,166,82,150,85,137,85,122,83 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(6) onmouseover=DescriptionOn(6) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=120,48,130,24,161,11,192,7,255,62,258,85,263,89,247,95,236,111,123,62 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <area 
+  onmousemove=DescriptionOn(6) onmouseover=DescriptionOn(6) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords="158,81,172,76,205,93,204,101,157,88"
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <area
+  onmousemove=DescriptionOn(6) onmouseover=DescriptionOn(6) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords="159,95,201,107,200,139,179,139,161,131"
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+
+  
+  <AREA 
+  onmousemove=DescriptionOn(7) onmouseover=DescriptionOn(7) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=274,109,283,77,299,63,319,67,330,86,324,102,303,113 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(8) onmouseover=DescriptionOn(8) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=293,52,287,32,303,19,331,17,355,25,382,36,394,52,390,65,375,47,352,59,331,52,331,66 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(9) onmouseover=DescriptionOn(9) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=331,103,332,116,388,134,407,128,411,117,405,102,364,69,350,60,335,66,346,89,332,97 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(10) onmouseover=DescriptionOn(10) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=375,55,365,66,402,91,429,130,441,138,448,132,443,110,433,94,393,59 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <!--THORAX
+  <AREA 
+  onmousemove=DescriptionOn(11) onmouseover=DescriptionOn(11) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=106,71,117,44,130,16,159,5,194,5,210,12,222,6,242,16,245,31,253,50,269,94,267,1,111,1 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(11) onmouseover=DescriptionOn(11) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=97,289,104,186,148,207,154,194,112,170,144,171,163,161,164,142,202,146,218,156,222,176,242,180,263,222,263,287 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  -->
+  
+  <!--ABDOMEN
+  <AREA 
+  onmousemove=DescriptionOn(12) onmouseover=DescriptionOn(12) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=271,87,270,0,495,2,496,244,462,244,417,211,361,152,418,159,460,159,467,139,460,99,426,52,393,27,349,12,299,5,277,27 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(12) onmouseover=DescriptionOn(12) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=269,166,268,166,273,181,287,209,322,250,349,261,364,270,356,291,496,291,498,274,485,268,411,266,381,235,339,171,300,171 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(12) onmouseover=DescriptionOn(12) 
+  onmouseout=DescriptionOff() shape=POLY coords=266,226,268,286,339,286,293,255 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  -->
+  
+  <AREA 
+  onmousemove=DescriptionOn(13) onmouseover=DescriptionOn(13) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=236,133,265,126,277,141,331,145,347,153,411,208,451,242,481,248,497,257,469,260,412,251,381,220,356,179,337,160,294,163,267,157,237,133 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(14) onmouseover=DescriptionOn(14) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=208,136,229,133,232,155,256,163,280,215,315,252,335,265,354,269,352,280,343,281,308,260,273,223,256,194,248,169,231,169,227,158,213,141 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(15) onmouseover=DescriptionOn(15) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=127,111,158,139,152,155,132,162,110,154,129,143,143,138 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+  
+  <AREA 
+  onmousemove=DescriptionOn(15) onmouseover=DescriptionOn(15) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords=92,175,103,187,91,215,96,247,88,281,68,287,87,257,83,220,83,192 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+
+  <area 
+  onmousemove=DescriptionOn(16) onmouseover=DescriptionOn(16) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords="107,106,109,126,99,148,97,154,107,178,122,186,150,201,119,193,102,182,93,167,87,156,94,137,98,110" 
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+
+  <area 
+  onmousemove=DescriptionOn(17) onmouseover=DescriptionOn(17) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords="413,113,421,116,421,128,428,137,439,147,455,151,435,151,419,138,418,125,410,114"
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+
+
+  <area
+  onmousemove=DescriptionOn(18) onmouseover=DescriptionOn(18) 
+  onmouseout=DescriptionOff() shape=POLY 
+  coords="295,120,308,122,318,122,336,124,341,128,363,134,371,134,386,138,393,139,402,137,413,140,420,145,417,147,396,143,391,145,373,141,360,138,345,134,325,129,313,127,296,124"
+  href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/Anatomy.html#">
+
+</MAP>
+
+
+
+<p align="center">
+	<a class="MenuLink" href="index.html">&nbsp;Home&nbsp;</a>
+	<a class="MenuLink" href="Quiz.html">&nbsp;Quiz&nbsp;</a>
+	<a class="MenuLink" href="WhatAmI.html">&nbsp;Guess&nbsp;the&nbsp;insect&nbsp;</a>
+	<a class="MenuLink" href="Anatomy.html">&nbsp;Insect&nbsp;anatomy&nbsp;</a>
+	<a class="MenuLink" href="Wallpapers.html">&nbsp;Wallpapers&nbsp;</a>
+	<!--<a class="MenuLink" href="AskAQuestion.html">&nbsp;Ask&nbsp;a&nbsp;question&nbsp;</a>-->
+</p>
+</body>
+</html>
+
+
+rert:	

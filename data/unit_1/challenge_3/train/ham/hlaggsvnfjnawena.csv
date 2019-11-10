@@ -1,0 +1,315 @@
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	// moock fpi [f.lash p.layer i.nspector]
+	// version: 1.3.5
+	// written by colin moock
+	// code maintained at: http://www.moock.org/webdesign/flash/detection/moockfpi/
+	// terms of use posted at: http://www.moock.org/terms/
+	
+	
+	
+	// =============================================================================
+	// These are the user defined globals.
+	// Modify the following variables to customize the inspection behaviour.
+	
+	var requiredVersion = 8;   // Version the user needs to view site (max 6, min 2)
+	var useRedirect = true;    // Flag indicating whether or not to load a separate
+	                           // page based on detection results. Set to true to
+	                           // load a separate page. Set to false to embed the
+	                           // movie or alternate html directly into this page.
+	                           
+	// Only set next three vars if useRedirect is true...
+	var flashPage = "gsa.cfm?pid=1569&version=flash&detect=done"      // The location of the flash movie page
+	var noFlashPage = "gsa.cfm?pid=1569&version=html"  // Page displayed if the user doesn't have the
+	                                  // plugin or we can't detect it.
+	var upgradePage = "update_flash.html"  // Page displayed if we detect an old plugin
+	// =============================================================================
+	
+	
+	
+	// *************
+	// Everything below this point is internal until after the BODY tag.
+	// Do not modify! Proceed to the BODY tag for further instructions.
+	// *************
+	
+	// System globals
+	var flash2Installed = false;    // boolean. true if flash 2 is installed
+	var flash3Installed = false;    // boolean. true if flash 3 is installed
+	var flash4Installed = false;    // boolean. true if flash 4 is installed
+	var flash5Installed = false;    // boolean. true if flash 5 is installed
+	var flash6Installed = false;    // boolean. true if flash 6 is installed
+	var flash7Installed = false;    // boolean. true if flash 6 is installed
+	var flash8Installed = false;    // boolean. true if flash 6 is installed
+	var maxVersion = 8;             // highest version we can actually detect
+	var actualVersion = 0;          // version the user really has
+	var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+	var jsVersion = 1.0;            // the version of javascript supported
+	
+	// -->
+	</script>
+
+	<script language="JavaScript1.1" type="text/javascript">
+	<!--
+	
+	// Check the browser...we're looking for ie/win
+	var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+	var isWin = (navigator.appVersion.indexOf("Windows") != -1) ? true : false; // true if we're on windows
+	
+	// This is a js1.1 code block, so make note that js1.1 is supported.
+	jsVersion = 1.1;
+	
+	// Write vbscript detection on ie win. IE on Windows doesn't support regular
+	// JavaScript plugins array detection.
+	if(isIE && isWin){
+	  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+	  document.write('on error resume next \n');
+	  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+	  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+	  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+	  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+	  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+	  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');  
+	  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');  
+	  document.write('</SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+	}
+	// -->
+	</script>
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	
+	// Next comes the standard javascript detection that uses the 
+	// navigator.plugins array. We pack the detector into a function so it loads
+	// before we run it.
+	
+	function detectFlash() {  
+	  // If navigator.plugins exists...
+	  if (navigator.plugins) {
+	    // ...then check for flash 2 or flash 3+.
+	    if (navigator.plugins["Shockwave Flash 2.0"]
+	        || navigator.plugins["Shockwave Flash"]) {
+	
+	      // Some version of Flash was found. Time to figure out which.
+	      
+	      // Set convenient references to flash 2 and the plugin description.
+	      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+	      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+	
+	      // DEBUGGING: uncomment next line to see the actual description.
+	      // alert("Flash plugin description: " + flashDescription);
+	      
+	      // A flash plugin-description looks like this: Shockwave Flash 4.0 r5
+	      // We can get the major version by grabbing the character before the period
+	      // note that we don't bother with minor version detection. 
+	      // Do that in your movie with $version or getVersion().
+	      var flashVersion = parseInt(flashDescription.charAt(flashDescription.indexOf(".") - 1));
+	     
+	      // We found the version, now set appropriate version flags. Make sure
+	      // to use >= on the highest version so we don't prevent future version
+	      // users from entering the site.
+	      flash2Installed = flashVersion == 2;    
+	      flash3Installed = flashVersion == 3;
+	      flash4Installed = flashVersion == 4;
+	      flash5Installed = flashVersion == 5;
+	      flash6Installed = flashVersion == 6;
+	      flash7Installed = flashVersion == 7;
+	      flash8Installed = flashVersion >= 8;
+	    }
+	  }
+	  
+	  // Loop through all versions we're checking, and
+	  // set actualVersion to highest detected version.
+	  for (var i = 2; i <= maxVersion; i++) {  
+	    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+	  }
+	  
+	  // If we're on webtv, the version supported is 2 (pre-summer2000, 
+	  // or 3, post-summer2000). Note that we don't bother sniffing varieties
+	  // of webtv. You could if you were sadistic...
+	  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 3;  
+	  
+	  // DEBUGGING: uncomment next line to display flash version
+	  // alert("version detected: " + actualVersion);
+	
+	
+	  // We're finished getting the version on all browsers that support detection.
+	  // Time to take the appropriate action.
+	
+	  // If the user has a new enough version...
+	  if (actualVersion >= requiredVersion) {
+	    // ...then we'll redirect them to the flash page, unless we've
+	    // been told not to redirect.
+	    if (useRedirect) {
+	      // Need javascript1.1 to do location.replace
+	      if(jsVersion > 1.0) {
+	        // It's safe to use replace(). Good...we won't break the back button.
+	        window.location.replace(flashPage);  
+	      } else {
+	        // JavaScript version is too old, so use .location to load
+	        // the flash page.
+	        window.location = flashPage;
+	      }
+	    }
+	    
+	    // If we got here, we didn't redirect. So we make a note that we should
+	    // write out the object/embed tags later.
+	    hasRightVersion = true;                
+	  } else {  
+	    // The user doesn't have a new enough version.
+	    // If the redirection option is on, load the appropriate alternate page.
+	    if (useRedirect) {
+	      // Do the same .replace() call only if js1.1+ is available.
+	      if(jsVersion > 1.0) {
+	        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+	      } else {
+	        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+	      }
+	    }
+	  }
+	}
+	
+	detectFlash();  // call our detector now that it's safely loaded.  
+	  
+	// -->
+	</script>
+
+	
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="En">
+<head>
+	
+<title>:: The Glasgow School of Art :: - Fine Art</title>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+	
+<meta name="keywords" content="gsa, glasgow school of art, glasgow, art school, fine art, photography, graphic design, charles rennie mackintosh, c r mackintosh, architecture, architect, digital design studio, dds, ceramics, art, design, interior design, product design, product design engineering, silversmithing, jewellery, textiles, visual communications, research, enterprise, centre for advanced textiles, cat, c.a.t., idri, i.d.r.i, mearu, m.e.a.r.u., mackintosh shop, drawing institute, mphil, phd, ma, 2d, 3d, motion graphics, m.des, mdes, textiles as fashion, fashion, fashion design, ">
+
+	
+<script language="JavaScript">
+	<!--
+	function openPage(theURL) {
+	  window.open(theURL,'printPane','status,width=525,height=330,scrollbars=yes');
+	}
+	function openWindow(theURL) {
+	  window.open(theURL,'infoPane','width=400,height=500,scrollbars=yes');
+	}
+	// -->
+	</script>
+	
+<style>
+	td,a {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: none;
+	}
+	a:hover {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: underline;
+	}
+	</style>
+</head>
+
+
+
+
+<!--
+flash8template.swf
+-->
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" height="95%" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td valign="middle" align="center">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="420">
+            <tr> 
+  <td style="background-image: url(/images/flashbg/c6a00c-left.gif); background-repeat: no-repeat; background-position: right top;">&nbsp;</td>
+              <td valign="middle" width="760" align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="420">
+                        <param name="movie" value="flash8template.swf" />
+                        <param name="menu" value="false" />
+						<param name="FLASHVARS" value="pid=1569&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=" /> 
+                      <param name="quality" value="high" />
+                      <embed src="flash8template.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="420" flashvars="pid=1569&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=&preview="></embed></object></td>
+  <td style="background-image: url(/images/flashbg/c6a00c-right.gif); background-repeat: no-repeat; background-position: left top;">&nbsp;</td>
+            </tr>
+  <tr>
+		<td></td>
+  	<td><div style="padding-left: 666px; padding-top: 4px;"><a href="/gsa.cfm?pid=1569&amp;nid=0&amp;sid=0&amp;criteria=&amp;version=html" style="font-size: 9px; font-family:Arial, Helvetica, sans-serif;">HTML VERSION</a></div></td>
+		<td></td>
+  </tr>
+          </table>
+		</td>
+  </tr>
+
+</table>
+
+
+
+<div style="display: none; height: 1px; width: 1px; overflow: hidden;">
+
+
+
+
+	
+
+	
+		
+
+		
+		
+		
+			
+		
+
+		<h2>UNDERGRADUATE STUDY AT THE GSA</h2><p>At the GSA we give you freedom <br />and independence within an intellectually challenging and stimulating environment, to explore ideas and realise your potential.</p><p>We offer a practice-led, project driven, studio-based learning experience that will challenge your creative powers, develop your talents, and ultimately give your work a professional edge - a highly charged creative environment which will impact on your work.</p><p>Join us for a journey that will take you on a learning experience that will last you a lifetime. </p><h2>SCHOOL OF FINE ART</h2><p>Curiosity lies at the heart of all good art. And all good artists. Are you ready to question what you see - in yourself and in the world around you? Are you ready to explore new ideas and to find new ways of expressing them?</p><p>At The Glasgow School of Art, we challenge as much as we answer. Here, you make the decisions. You seek the truth. We simply provide the context. And context plays a central role in our teaching. An artist has important things to say about the world, and helps others to interpret what they see. That's why graduates of the GSA are equally at home running an organisation, making important decisions as they are as a practising artist. </p><p>If I am made to think about a piece of work, I am activated. I participate. And participation is the only way that life can progress. That's why I feel it essential that everyone teaching at the GSA is a practising artist. We live not in isolation but in collaboration. As an artist, my imagination is fired by the talent and the enthusiasm of our students. I am as much inspired by you as, I hope, you will be inspired by life at the GSA.</p><p>Art is a community experience here - exactly because art can be an isolating process. As a student, you will have your own studio space and access to a rich array of workshop facilities. You will mix with people from many backgrounds, many cultures. You will become immersed in <br />the artistic life of this wonderfully artistic city. Your curiosity will be rewarded.</p><p>Professor Klaus Jung <br />Head of the School of Fine Art</p><h2>HONORARY PROFESSOR </h2><p>Professor Ken Currie <br />Practising Artist </p><h2>HONORARY PROFESSOR -HISTORICAL + CRITICAL STUDIES</h2><p>Professor Guy Julier <br />Professor of Design, Leeds School of Architecture, Landscape and Design</p><h2>SENIOR RESEARCH FELLOW</h2><p>Professor Thomas Joshua Cooper </p><ul><li>Professor Thomas Joshua Cooper was described by the Observer newspaper in 2005 as 'undoubtedly one of the greatest landscape artists of our time'. The Tate Gallery purchased a piece of Professor Cooper's work in 2002, bringing their collection of work by him to five pieces. The Tate now has the work of nine GSA staff.</li></ul><h2>TEACHING + LEARNING + ASSESSMENT</h2><p>The School of Fine Art believes the studio to be central to the learning and teaching of our practice-based subject. It functions as both a space for making and displaying artwork and as a contemplative and critical space where decisions are made and ideas tested and discussed. </p><p>Technical and artistic learning takes place in the studios and technical workshops of SoFA, which include; which include wood, metal, casting, photography (including two multi-unit colour darkrooms, ten enlargers - printing any format from 35mm to 5" x 4" and the largest colour printing facilities, conventional and digital, in any Scottish art institution), printmaking (including a range of presses, Zinc-plat stone and photographic litho and a purpose-designed acid room) and electronic media based in the Rootstein Hopkins Electronic Media Suite with computers, digital sound, video and editing facilities.  The technical workshops are staffed by trained technical staff who can provide students with a range of high quality support and assistance. </p><p>We also place emphasis on exhibition practice, helping students to develop the skills needed to find success as an artist. Students learn the conventions of display, publication and exhibition with students and staff working together to provide feedback on both the art and its context. </p><p>During the first two years of study in the Studio component of the BA (Hons) Fine Art programme, all four specific subject areas or courses are supported by projects that develop core skills and approaches to both specific and generic subject areas. In the third and fourth years students undertake a self-directed programme of study leading to the creation of a self-initiated body of work for assessment and exhibition.</p><p>The Historical and Critical Studies component of the BA (Hons) Fine Art programme is central to developing a student's ability to contextualise their studio practice within a wider cultural context. In the first three years, assessment is normally by essay, literature review and/or student presentation; in the fourth year students undertake an individually supervised dissertation.</p><p>Learning, teaching and assessment of this practice-based course is integrated into the structure of the programme. The ongoing evaluation of a student's work is undertaken through both peer and staff participation in group critique, tutorials and group discussions/presentations. Staff-led assessments are undertaken at key points throughout the programme, with grades attributed to the attainment of learning outcomes and fulfilment of assessment criteria. At the successful conclusion of four years of study, an honours classification is awarded to each student, formed from the amalgamation of both Studio and Historical and Critical Studies components of the programme.</p><p>The GSA's School of Fine Art offers one of the few practice-based educations with dedicated individual studio spaces located in a growing and creatively dynamic city, and is staffed by some of the UK's best artists and teachers. The BA (Hons) Fine Art programme opens doors to a wide range of vocations and opportunities that call for creative, skilled and independent thinkers and doers.</p><ul><li>The School of Fine Art organises regular lectures and events during term time, attracting a range of speakers and visiting lecturers from the UK and internationally. Previous speakers have included Robert Fisk, Marina Abramovic Chantal Ackerman, Okwui Enwezor, Russell Ferguson, Hal Foster, Hou Hanru, Irit Rogoff, Gayatri Spivak, and Krzysztof Wodizcko.</li></ul><h2>CAREERS + ALUMNI</h2><p>The ambition of many art graduates is to enjoy a long and fulfilling career as a practising artist. And a quite remarkable number of them do exactly that - as our destination list bears witness to. However, many others go into equally rewarding careers in associated disciplines and in the wider business sphere, adding  creativity to the commercial sector.</p><ul><li>43% of GSA Fine Art graduates are self employed </li><li>80% off all self-employed GSA Fine Art graduates live and work in Scotland</li><li>80% of GSA Fine Art  graduates who are teachers teach in the subject they specialised in </li><li>GSA Graduate Destination Survey 1999-2004, November 2005</li></ul><p>Fine art graduates go on to successful careers as: <br />artists, novelists, teachers, lecturers, actors, musicians, interior designers, sculptors, website designers, politicians, set designers, gallery owners, artists' agents, entrepreneurs.</p><p>Here are some of our successful graduates:</p><ul><li>Kirsty Anderson Fine Art Photography, 1999 Winner of both UK Best Magazine and Best Business Photographer awards 2003</li><li>Claire Barclay Master of Fine Art, 1993 Artist</li><li>Christine Borland Environmental Art, 1987 Artist; Researcher GSA </li><li>School of Fine Art Roddy Buchanan Environmental Art, 1988 Artist, winner Beck's Futures Prize 2000</li><li>John Byrne Drawing &amp; Painting, 1964   Artist, writer</li><li>Robbie Coltrane Drawing &amp; Painting, 1972 Actor</li><li>Ken Currie Drawing &amp; Painting, 1982 Artist</li><li>Sorcha Dallas Drawing &amp; Painting, 1998 Gallery owner/agent</li><li>Alasdair Gray Mural Design, 1957 Novelist, artist</li><li>Douglas Gordon Environmental Art, 1988 Artist, winner Turner Prize 1996, winner Hugo Boss Prize 1998</li><li>Dene Happell Sculpture, 1994 Founder, Happell Interiors</li><li>Bob Hardy Drawing &amp; Painting, 2003 Musician, Franz Ferdinand</li><li>Fran Healy  Drawing &amp; Painting Musician, Travis  </li><li>Peter Howson Drawing &amp; Painting, 1981 Artist</li><li>Kenny Hunter Sculpture, 1987 Sculptor</li><li>Cathy Jamieson Sculpture, 1979 Minister for Justice,  Scottish Executive</li><li>Kate Jo, Celine McIllmunn, Betty Meyer, John O'Connell, Kate Robertson, Barbara Wilson Fine Art Photography, 2003 Founders 'Volume' artists' collective.  Russell McGovern who graduated in 2004 was invited to join the collective in August 2005 </li><li>Jim Lambie Environmental Art, 1994 Artist Shortlisted for Turner Prize 2005</li><li>Andrew Lee Fine Art Photography, 1996 Architectural photographer Andrew Lee Photographer</li><li>Liz Lochhead Drawing &amp; Painting, 1970 Poet, playwright</li><li>Toby Paterson Drawing &amp; Painting, 1995 Artist, winner Beck's Future Prize 2002 </li><li>Dougie Payne Sculpture, 1995 Musician, Travis </li><li>Julie Roberts Master of Fine Art, 1994 Artist </li><li>Jenny Saville Drawing &amp; Painting, 1992 Artist</li><li>Andy Scott Sculpture, 1987 Sculptor</li><li>Simon Starling Master of Fine Art, 1992 Artist Winner Turner Prize 2005, shortlisted for Hugo Boss Prize 2005 </li><li>David Shrigley Environmental Art, 1991 Artist </li><li>Alison Watt Drawing &amp; Painting, 1998 Artist, first woman to have a solo exhibition at Scottish National Gallery, exhibiting at The National Gallery, London in 2008</li><li>David Watt Printmaking Director, Edinburgh Printmakers' Workshop</li></ul><p><b>Sorcha Dallas Drawing &amp; Painting, 1998</b><br />After her degree Sorcha practised as a professional visual artist controlling all aspects of her business - initiating the ideas, producing work and taking the work to market. This model was successful but her interest in working with other visual artists, developing their profile and curating exhibitions led her to work in collaboration with other artists to create SwitchSpace and, now, the Sorcha Dallas Gallery.</p><h2>STUDYING FINE ART</h2><h2>BA (HONS) FINE ART</h2><p><b>Head of First </b><br /><b>Year Studies</b><br />Ken Mitchell  <br />DipAD (Fine Art)</p><p>The BA (Hons) Fine Art is a four-year, full-time degree programme. All students choose their route of studies by applying to one of three specialist departments: Painting and Printmaking, Fine Art Photography, Sculpture and Environmental Art. Study in the Studio component comprises 80% of the programme, and 20% by the Historical and Critical Studies component.  </p><p>In the first year of study, students are introduced to the key generic creative processes of Fine Art practice: researching, developing, resolving and presenting a work of art. Students engage with a balance of generic and subject specific projects, assignments and workshops, designed to develop students' skills and confidence in the manipulation of media and the development of ideas from both observation and concept. </p><p>Group projects are organised for students from across the subject areas and at times, across the various study-years. Seminars, artist talks and group critiques (critical feedback sessions) enable students to develop a language to talk about their own work and that of others, and to position their work in relation to the wider world of contemporary art practice. One to one tutorials support students to manage their progress in relation to their course, and their professional and personal development as artists and individuals.</p><p>The programme is delivered both by staff from the four specific subject areas and by a specialised team with outstanding experience in working with students in the early development of their studies of fine art.</p><h2>FINE ART PHOTOGRAPHY</h2><h2>BA (HONS) FINE ART</h2><p>UCAS INFORMATION<br />Institution Name: <br />GSA<br />Institution Code: <br />G43<br />UCAS Code: <br />E640<br />Route: <br />B</p><p><b>Head of Department</b><br />Vaughan Judge <br />MA Med</p><p>The power of photography - seen everywhere, used by everyone - is sometimes easy to take for granted, yet it would be hard to imagine a world without it. <br />From the time of the industrial and post-industrial revolutions, photography evolved rapidly from its low-tech photomechanical beginnings to its current state-of-the-art, digital technologies.  The historical, conceptual, aesthetic and technological scope of photography makes it one of the most relevant artistic mediums of this age. </p><p>The Fine Art Photography programme has an international reputation for excellence. Established in 1982 by Professor Thomas Joshua Cooper, it was the first course of its kind in Europe to award a BA (Hons) Fine Art Degree in Fine Art Photography. Its aim is to enable and nurture artists whose interests are based upon and developed through lens-based media and technology, the materials of photography and other related disciplines in fine art. </p><p>Three full-time technicians, whose expertise ranges from 19th century photographic processes to the latest in digital technology, support students' programme of study. Excellent facilities include two multi-unit colour darkrooms, ten enlargers that can print any format from 35mm to 5" x 4", and the largest colour printing facilities, conventional and digital, in any Scottish art institution.</p><p>YEAR 1<br />The First Year is a project-based programme dedicated to studies in both a Fine Art generic context, and to those that introduce the processes and conventions of Fine Art Photography. Project-based work undertaken in Year 1 introduces students to the staff and facilities of the chosen subject or course through specialist projects, tutorials and group critiques (critical feedback sessions).</p><p>YEAR 2<br />Special emphasis on core photographic skills: stills practice; colour; black/white and digital. Projects and workshops include Making a Catalogue, Artist Books, Photoshop and Desk Top Publishing. Students mount an exhibition of their work in the School's Newbery Gallery.</p><p>YEAR 3<br />Special emphasis on core lens-based media skills through projects and a self directed Programme of Study. Projects, seminars and workshops include: time-based media (video, sound and installation); photography and the expanded field of practice (large prints, drawing, text, and digital technologies). Students can elect to undertake a single term international exchange option and/or mount a public exhibition. Professional practice seminars and opportunities to engage with cross-school projects are provided in the third term.</p><p>YEAR 4<br />Self directed Programme of Study: students work in consultation with tutors to produce a body of work for exhibition and examination at Degree Show. This is supported by student led seminars based upon the dissertation or extended essay, practical workshops and weekly critical reviews.</p><h2>FINE ART PAINTING + PRINTMAKING</h2><h2>BA (HONS) FINE ART</h2><p>UCAS INFORMATION<br />Institution Name: <br />GSA<br />Institution Code: <br />G43<br />UCAS Code: <br />E120<br />Route: <br />B</p><p><b>Acting Head of Department</b><br />Jim Birrell (Acting)<br />MA Med</p><p>Painting and Printmaking together form a specialist course with a programme of study that equips students with the skills and expertise, through a wide range of media and processes, to help students realise their full creative potential and pursue a career in the visual arts or other related professions. The course is studio based and offers an inspiring environment where students learn the language of painting and printmaking in the context of both contemporary and historical Fine Art practice.</p><p>Painting is a time-honoured form of art practice, valued as a means of representation that continues to both enrich and draw from contemporary experience. An awareness of the history and conventions of painting is fundamental to our course, as is an engagement with and understanding of Printmaking, which is based on an exploration of visual representation allied to the materials, processes and formats of established and developing reproductive technologies. The exploration of image making and pictorial space also extends opportunities for students to explore mediums such as photography, video and installation. </p><p>YEAR 1<br />The First Year is a project-based programme dedicated to studies in both a Fine Art generic context, and to those that introduce the processes and conventions of both painting and printmaking. Project-based work undertaken in Year 1 introduces students to the staff and facilities of the chosen subject area or course through specialist projects, tutorials and group critiques (critical feedback sessions).</p><p>YEAR 2<br />The course builds on first year work and the development of core skills and processes in relation to the specialist subject area. Students are supported through workshops and set activities to explore some of the fundamental theoretical and practical aspects of painting, drawing and printmaking in relation to each students' developing interests and abilities.</p><p>YEAR 3<br />Self-directed programme of study where students work with tutors to realise an independent body of work through the development of both practical and critical skills. Group critiques and discussions, tutorials, seminars, visiting artists and lectures support this development. Students can elect to undertake a single term international exchange option and/or mount a student group exhibition in the School's Newbery Gallery. Professional practice seminars and opportunities to engage with cross-school projects are provided in the third term.</p><p>YEAR 4<br />Self directed programme of study: students work in consultation with tutors to produce a body of work for exhibition and examination at Degree Show. Students are supported by tutorials, group critiques, visiting artists and lectures, seminars and exhibition work.</p><h2>SCULPTURE + ENVIRONMENTAL ART</h2><h2>BA (HONS) FINE ART</h2><p>UCAS INFORMATION<br />Institution Name: <br />GSA<br />Institution Code: <br />G43<br />UCAS Code: <br />E130<br />Route: <br />B</p><p><b>Head of Department</b><br />Tanya Eccleston  <br />BA MA</p><p>There are two programmes offered by the department: Sculpture, and Environmental Art. Each has its own distinct focus with some aspects shared across both courses, grounding students experience in a range of work and philosophies of common interest  through seminars, visiting artists and lectures. Studio and exhibition practice are taught alongside contextual art making for sites and audiences outside the gallery.</p><p>The scope of the Sculpture programme extends beyond the conventional boundaries of object making to encompass a wide range of both traditional and contemporary materials and media. Students acquire the practical and philosophical understanding of the subject of sculpture through the development of practical and conceptual skills with which to mediate ideas through materials and process. </p><p>The Environmental Art programme is non-media specific, preparing students for working as artists in the contemporary world, not only in galleries and museums, but to make work in and for other contexts and places outside of the museum. This contextual approach to art is explored primarily through the Public Art Project, which each student carries out in each year of the course. </p><p>Together the two programmes and their staff offer skills and expertise in drawing, object making, installation, performance and performance to camera and video, for a wide range of contexts including the gallery.</p><p>Each student has dedicated space in our spacious studio accommodation and has full access to workshops for casting, metal and wood. Extensive use is also made of the Rootstein Hopkins Electronic Media Suite with its computer, digital sound, video and editing facilities.</p><p>YEAR 1: SCULPTURE + ENVIRONMENTAL ART<br />The First Year is a project-based programme dedicated to studies in both a Fine Art generic context, and to those that introduce the processes and conventions of both sculpture and environmental art. Project-based work undertaken in Year 1 introduces students to the staff and facilities of the chosen subject or course through specialist projects, tutorials and group critiques (critical feedback sessions).</p><p>YEAR 2: SCULPTURE<br />Students develop core and Fine Art generic skills in relation <br />to the course, focusing in particular on developing sculptural ideas through the material and conceptual processes of performance, object making and installation. Students are introduced to casting and construction (metal and wood), performance, and the (video and still) camera, focusing on developing an understanding of the spatial and temporal conditions of contemporary sculpture. Seminars, critical feedback sessions, lectures, artist talks and exhibitions support students to develop critical skills in analysis and research of artwork.</p><p>YEAR 2: ENVIRONMENTAL ART<br />Students develop core and generic Fine Art skills in relation to ideas and processes that extend students understanding of artistic practice in relation to context. The Mapping Project and Public Art Project introduce to a range of skills that include: installation, drawing, object making, video, photography and performance, with workshops in drawing, casting, video and photography, documentation/digital imaging and book making. Seminars, critical feedback sessions, lectures, artist talks and exhibitions support students to develop critical skills in analysis and research. </p><p>YEAR 3: SCULPTURE<br />Self-directed programme of study where students work with tutors to realise an independent body of work through the development of both practical and critical skills. Critical feedback sessions (group critiques) and discussions, tutorials, seminars, visiting artists and lectures support this development. Students can elect to undertake a single term international exchange option and/or mount a student group exhibition in the School's Newbery Gallery. Professional practice seminars and opportunities to engage with cross-school projects are provided in the third term.</p><p>YEAR 3: ENVIRONMENTAL ART<br />Self-directed programme of study where students work with tutors to realise an independent body of work through the development of both practical and critical skills. Critical feedback sessions (group critiques) and discussions, tutorials, seminars, visiting artists and lectures support this development. The Public Art Project is undertaken in the second term and/or students can elect to undertake a single term international exchange option. Students mount a public group exhibition of their Public Art Projects in the third term. Professional practice seminars and opportunities to engage with cross-school projects are also provided in the third term.</p><p>YEAR 4: SCULPTURE<br />Self directed programme of study: students work in consultation with tutors to produce a body of work for exhibition and examination at Degree Show. Students are supported by tutorials, critical feedback sessions, visiting artists and lectures, seminars and exhibition work. Specific teaching focus is given to students' developing a career as a professional artist on graduation. Students participate in the Dissertation Conference, Professional Practice Conference, and Destinations Conference.</p><p>YEAR 4: ENVIRONMENTAL ART<br />Self directed programme of study: students work in consultation with tutors to produce a body of work for exhibition and examination at Degree Show. Students also produce a Public Art Project in relation to their developing studio and exhibition practice. Students are supported by tutorials, critical feedback sessions, visiting artists and lectures, seminars and exhibition work. Specific <br />teaching focus is given to students' developing a career as a professional artist on graduation. Students participate in the Dissertation Conference, Professional Practice Conference, and Destinations Conference.</p>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+	
+
+
+
+e->o <ns

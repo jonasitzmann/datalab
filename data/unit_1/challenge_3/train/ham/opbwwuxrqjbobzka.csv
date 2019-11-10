@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : Free Resources</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center">
+  <form>
+    <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"> <div align="center"> 
+          <table width="660" border="0" cellspacing="1" cellpadding="0">
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr> 
+                    <td width="50%" rowspan="3"><img src="../images/new-logo.gif" alt="Comenius Yorkshire and the Humber" width="217" height="86"></td>
+                    <td width="50%" height="54" valign="top"> <div align="right" class="topbar"><font color="#666666"><img src="../index_clip_image002_0002.jpg" width="192" height="41"><br><a href="../contact-us/index.htm"></a><a href="../about-us/index.htm"></a><a href="../find-us/index.htm"></a><a href="../index.htm"></a></font></div></td>
+                  </tr>
+                  <tr>
+                    <td height="28" valign="middle"><div align="right"><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"></font></div></td>
+                  </tr>
+                  <tr>
+                    <td valign="bottom"><div align="right"><font color="#666666"><a href="../contact-us/index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="../about-us/index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+                  </tr>
+                </table></td>
+            </tr>
+            <tr>
+              <td colspan="6">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="maintext style44"><div align="center"><strong><a href="../events-courses/index.htm">Courses &amp; Conferences</a> </strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/links/index.htm">Links</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training1','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../events-courses/index.htm" onMouseOver="MM_swapImage('events1','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks31','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news1','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../links/index.htm" onMouseOver="MM_swapImage('links1','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+            </tr>
+            <tr> 
+              <td height="161" colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="354" height="174"><div align="center"><span class="style1">Preparing Interactive 
+                      Whiteboard Lessons</span></div></td>
+                      <td><img src="../images/image-bar/free-resources-2.jpg"  width="269" height="138"></td>
+                    </tr>
+                    
+                </table></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                    <tr valign="middle" class="maintext"> 
+                      <td height="45"> <div align="center"> 
+                          <table width="100%" height="50" border="0" cellpadding="1" cellspacing="1" bgcolor="#666666">
+                            <tr> 
+                              <td bgcolor="#999999"><table width="100%" height="48" border="0" cellpadding="0" cellspacing="0" bgcolor="#E2E2E2">
+                                  <tr> 
+                                    <td height="19"><div align="center"><span class="maintext"><a href="resources.htm">Resources 
+                                        at the Centre</a> / <a href="quia_excercises.htm">Quia 
+                                        software resources</a> / <a href="activ.htm"><br>
+                                        </a><a href="preparing-interactive.htm">Preparing 
+                                        interactive whiteboard lessons</a> /<a href="word.htm">Interactive 
+                                        worksheets</a><br>
+                                        <a href="powerpoint.htm">Powerpoint presentations                                        </a> / <a href="index.htm">Top 
+                                        Resources</a></span></div></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                          </table>
+                        </div></td>
+                    </tr>
+                    <tr valign="top" class="maintext"> 
+                      <td><p><br>
+                        <span class="headlines">1. Powerpoint Presentations</span><br>
+                          <br>
+                        Why Use Powerpoint?</p>
+                        <ul>
+                          <li>Teacher can create a presentation exactly tailored 
+                            to the needs of his/her students</li>
+                          <li> Once Powerpoint is mastered, one can create a simple 
+                            presentation very quickly</li>
+                          <li> Presentations can be printed out with several slides 
+                            on one page for pupils who have missed the lesson 
+                            or special needs pupils</li>
+                          <li> Teacher controls appearance of items on screen</li>
+                          <li> A visual tool &#8211; there is the opportunity 
+                            to include pictures and text in different colours, 
+                            which help students to pick out patterns in language</li>
+                          <li> Sound exerts support listening in the TL</li>
+                          <li> Pictures and phrases in speech bubbles are a stimulus 
+                            for speaking</li>
+                        </ul>
+                        <p>Tips for Creating Powerpoint Presentations</p>
+                        <ul>
+                          <li>Keep them short and slick</li>
+                          <li> Use pictures as much as possible. Pictures can 
+                            be obtained from http://images.google.com. You can 
+                            search in the target language to make them culturally 
+                            specific</li>
+                          <li> Movement: the &#8220;slide show&#8221; animation 
+                            tool allows words and pictures to move around the 
+                            screen, and keeps students&#8217; interest</li>
+                          <li>Hidden answers: show a question, then click for 
+                            the answer</li>
+                        </ul>
+                        <p class="headlines"><br>
+                          2. Whiteboard Software</p>
+                        <ul>
+                          <li>Create ready-made flipcharts to guide you through 
+                            a lesson</li>
+                          <li> Include pictures that have been shaded in with 
+                            the white pen, then use the rubber to gradually reveal 
+                            the image (see link to Blockbusters game where pictures 
+                            have been shaded in white, to be revealed. You will 
+                            need Activstudio software to download this)</li>
+                          <li> Drag and drop exercises &#8211; use these to match 
+                            with text and pictures</li>
+                          <li> Use text manipulation exercises, for example with 
+                            the endings of verbs highlighted in one colour, which 
+                            must be changed appropriately</li>
+                          <li> Use hyperlinking, where possible, to move to different 
+                            flipchart pages or Office Applications such as Word 
+                            and Powerpoint</li>
+                          <li> Use the &#8220;annotate over&#8221; tool to annotate 
+                            over Windows applications, such as Word or Powerpoint, 
+                            for example to highlight words in a particular tense</li>
+                          <li> Use the reveal tool and spotlight (slow reveal 
+                            an image for an oral predictive discussion)</li>
+                        </ul>
+                        <p></p>
+                        <p class="headlines">3. CDs/ Ready-made software</p>
+                        <ul>
+                          <li>Quick and simple to use</li>
+                          <li> Can tie in well to textbooks</li>
+                          <li> Some boards have templates for games, e.g. Blockbusters 
+                            (see link to a Blockbusters template with letters. 
+                            You will need Activstudio software to download this) 
+                            or maps for giving weather forecasts</li>
+                          <li> CD Roms often have sound and video built in (e.g. 
+                            En Route)</li>
+                          <li> Get free software with elearning credits! See www.curriculumonline.gov.uk</li>
+                          <li> To find the right CD-ROM for your teaching needs, 
+                            look at the curriculum online search engine (link), 
+                            Becta Educational software database, TEEM website, 
+                            the Teacher Resource Exchange or contact publishers 
+                            direct</li>
+                        </ul>
+                        <p class="headlines">4. The Internet</p>
+                        <ul>
+                          <li>Bring in real web pages from the target language 
+                            culture </li>
+                          <li>(tip: in case you do not have an Internet connection 
+                            in your classroom or in case the connection fails 
+                            when you want it, save pages as html files BUT the 
+                            links will not be active from these pages unless all 
+                            the pages have been saved)</li>
+                          <li> Use these pages in conjunction with other tools, 
+                            such as snapshot or the highlighter</li>
+                          <li> Bookmark or hyperlink to weblinks before the lesson</li>
+                          <li> Use Quia (very cheap webware) at <a href="http://www.quia.com/">www.quia.com</a> to 
+                            create interactive exercises for use on the whiteboard, 
+                            such as Cloze exercises, Hangman, Drag and Drop matching 
+                            exercises, Rags to Riches (like &#8220;Who wants to 
+                            be a Millionaire). </li>
+                        </ul>
+                        <p><br>
+                          Modelling Good Practice in Language Learning</p>
+                        <ul>
+                          <li>Using reference works (e.g. a dictionary www.intense.co.uk)</li>
+                          <li> Bring up scanned in examples of students&#8217; 
+                            work to improve/ correct</li>
+                          <li> Model tasks first. For example worksheets in Word 
+                            can be annotated over</li>
+                        </ul>
+                        <p>Interactivity for the Students</p>
+                        <ul>
+                          <li>Invite the students to the board, but not too often 
+                            &#8211; only when there is a real purpose</li>
+                          <li> Teach them how to use the pen properly, so it is 
+                            not damaged</li>
+                          <li> Make sure they can reach!</li>
+                          <li> Get students to present at the board themselves 
+                            &#8211; a good communication technique, for example 
+                            to feedback from a project, present a piece of creative 
+                            work or re-teach a grammar point</li>
+                          <li> ActivVote allows all students to participate (like 
+                            &#8220;ask the audience&#8221; on &#8220;Who wants 
+                            to be a millionaire&#8221;)</li>
+                          <li> ActivSlate allows students with the slate to interact 
+                            with the board</li>
+                        </ul></td>
+                    </tr>
+                  </table></td>
+            </tr>
+          </table>
+        </div></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD <br>
+        Telephone 0113 
+            283 7226<br>
+            <font color="#999999">Page last updated: 
+            <!-- #BeginDate format:fcAm1 -->Monday, March 5, 2007<!-- #EndDate -->
+            </font> </div></td>
+    </tr>
+  </table></form>
+  
+</div>
+</body>
+</html>
+
+
+Sit# 'mD=

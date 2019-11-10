@@ -1,0 +1,128 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>start</title>
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="1">
+
+<p align="left"><font size="6" color="#800000"><img border="0" src="images/Head.jpg" align="left" width="511" height="89"></font></p>
+
+<p align="left"><img border="0" src="images/Word.jpg" width="153" height="45"></p>
+
+
+
+<p align="left">&nbsp;</p>
+
+
+
+<p align="left">&nbsp;</p>
+
+
+
+<p align="left"><font face="Times New Roman" size="5" color="#500028">THE HIRDLS
+PROJECT</font></p>
+
+<p>The High Resolution Dynamics Limb Sounder was launched on the Earth
+Observing System Polar Chemistry satellite, known as 
+<a href="mission/Aura_Brochure.pdf">EOS-Aura </a>
+ on the 15th July 2004. HIRDLS
+is an infrared limb scanning radiometer designed to sound the upper troposphere,
+stratosphere, and mesosphere in order to measure temperature, geopotential
+height gradients and concentrations of O<sub> 3</sub>, H<sub>2</sub>O, CH<sub>4</sub>,
+N<sub>2</sub>O, NO<sub>2</sub>, HNO<sub>3</sub>, N<sub>2</sub>O<sub> 5</sub>,
+ClONO<sub>2</sub>, CFCl<sub>2</sub>, CF<sub>2</sub>C<sub>2</sub>, aerosol
+amounts, locations of polar stratospheric clouds and cloud top heights. The
+goals are to make observations with horizontal and vertical resolution superior
+to that previously obtained, to observe the lower stratosphere with improved
+sensitivity and accuracy, and to use the data to improve understanding of
+atmospheric processes through data analysis, diagnostics and the use of two- and
+three-dimensional models.</p>
+<p>The 
+<a href="mission/Aura_Brochure.pdf">Aura </a>
+satellite, which carries three other sounding instruments (TES, 
+MLS and OMI) orbits the Earth in a sun-synchronous polar orbit at an alititude 
+of about 705 km, which means one complete revolution of the Earth takes about 
+105 minutes. The Earth rotates 'underneath' the spacecraft, so that full Earth 
+coverage is obtained in about 12 hours.
+<p><img border="0" src="images/trop.jpg" align="left" width="336" height="129"><img border="0" src="images/dtrop.jpg" align="left" width="268" height="121"></p>
+<p align="left">&nbsp;</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">HIRDLS was designed to obtain limb scans in the vertical at multiple azimuth angles
+measuring infrared emissions in 21 channels ranging from 6.12 to 17.6µm and
+defined by multilayer interference filters. Four channels measure the emission
+by CO<sub>2</sub>. Utilising the known mixing ratio of CO<sub>2</sub>, the
+transmission is calculated, and the equation of radiative transfer is inverted
+to determine the vertical distribution of the Planck black body function, from
+which the temperature is derived as a function of pressure. Once the temperature
+profile has been established, it is used to determine the Planck function
+profile for the trace gas channels. The measured radiances are then used to
+determine the transmittance of each species, thence its mixing ratio
+distribution. High vertical resolution will be obtained by using a 1 km vertical
+field of view with multiple over sampling.</p>
+<p>The measurement objectives are to observe the global distributions of
+temperature and several trace species in the stratosphere and upper troposphere
+at high vertical and horizontal resolution. The science goals using these data
+include the determination of:</p>
+<ul type="square">
+  <li>Fluxes of mass and chemical constituents between the troposphere and
+    stratosphere.
+  <li>Chemical processing, transport and mixing, particularly in the lower
+    stratosphere.
+  <li>Momentum, energy and potential vorticity balances of the middle
+    atmosphere.
+  <li>Geographically and seasonally unbiased long-term climatologies and
+    interannual variability of middle atmosphere temperature, constituents,
+    dynamical fields and gravity waves.
+  <li>Tropospheric cloud heights.
+  <li>Tropospheric temperature and water vapour retrievals, possibly in
+    conjunction with other EOS sounders.
+  <li>Diagnostic studies of atmospheric dynamics, chemistry, and transport
+    processes to test and improve models of these processes, especially at those
+    smaller scales for which there are now no data to check the models' chemical
+    or dynamical behaviour.
+</ul>
+
+<p align="left"><img border="0" src="images/vapour.jpg" width="256" height="266" align="left"></p>
+<p align="left">This graph shows that stratospheric water vapour amounts are increasing at 1%
+    per year which is more than is explained by CH<sub>4 </sub>increase. (Trends
+    in water vapour observed above Colorado by balloon-borne frost point
+    hygrometers from 1981-1997. Blue area is 95% confidence limit in trend.)<img border="0" src="images/dwater.jpg" align="left" width="166" height="19"></p>
+   
+    <p>&nbsp;</p>
+&nbsp;
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul type="square">
+  <li>HIRDLS is expected to advance our knowledge of the dynamics and
+    circulation of the stratosphere, and its links with the troposphere, very
+    significantly. It will elucidate processes which are a key part of the
+    Earth's climate system.</li>
+</ul>
+    <p align="left">The instrument uses mechanical coolers of the Sitrling cycle type to 
+    cool the detectors to 60 K.
+    The total mass is about 170 Kg and the data rate 65 Kbits/sec. The
+    optical entrance aperture is approximately 160 mm in diameter. Power
+    consumption is approximately 200 W.</p>
+    <p>The Project is joint between the U.S.A. and U.K. with the primary funding
+    being provided by NASA and NERC in the two countries. The lead
+    scientific/technical institutions are Colorado University and Oxford
+    University where the joint Principal Investigators are located.</p>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>
+
+
+rc=n3/>le os:n"

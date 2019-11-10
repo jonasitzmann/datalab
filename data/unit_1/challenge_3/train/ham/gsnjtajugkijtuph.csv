@@ -1,0 +1,266 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: aircraft: index:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+        A.LeftMenu {font-weight: normal; font-size: 10pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.5;}
+        A.LeftMenu:link { color: #ffffff;}
+        A.LeftMenu:visited { color: #ffffff;}
+        A.LeftMenu:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuInsert {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #ffffff; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuInsert:link { color: #ffffff;}
+        A.LeftMenuInsert:visited { color: #ffffff;}
+        A.LeftMenuInsert:hover { color: #000099; background: #FFFFFF;}
+
+        A.LeftMenuReplace {font-weight: normal; font-size: 8pt;
+        text-decoration : none; color: #0000c4; font-weight: bold;
+        font-family: Verdana, Arial, Helvetica, San-Serif;
+        line-height: 1.1;}
+        A.LeftMenuReplace:link { color: #e7e7ff;}
+        A.LeftMenuReplace:visited { color: #e7e7ff;}
+
+        A.TopMenu {font-weight: normal; font-size: 7pt;
+        text-decoration : none; color: #000079; font-weight: bold;
+        font-family: Arial, Helvetica, San-Serif;}
+        A.TopMenu:link { color: #000079; text-decoration:none;}
+        A.TopMenu:visited { color: #000079; text-decoration:none;}
+        A.TopMenu:hover { color: #000000; text-decoration:underline;}
+
+-->
+</STYLE></HEAD><BODY>
+<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 BGCOLOR="#FFFFFF">
+<TR><TD WIDTH=142 ROWSPAN=2 CLASS="Bottomright">
+<A HREF="http://www.physics.ox.ac.uk">
+<IMG BORDER=0 ALT="Oxford Physics" SRC="../../main/images/OxPhysics.gif"></A></TD>
+<TD WIDTH=16 HEIGHT=60></TD><TD WIDTH=560 CLASS="Middle">
+<TABLE WIDTH=560 BORDER=0 CELLPADDING=5 CELLSPACING=1 BGCOLOR="#0000C4"><TR>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/default/index.html">HOME</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.physics.ox.ac.uk">Oxford Physics</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="http://www.ox.ac.uk">Oxford University</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../weather">Live Weather</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/dept/gettinghere.html">Getting here</A></TD>
+<TD CLASS="TopMenu">
+<A CLASS="TopMenu" HREF="../../main/dept/contact.html">Contact</A></TD>
+</TR></TABLE></TD></TR>
+<TR><TD COLSPAN=2><IMG SRC="../../main/images/physics_banner.gif"></TD></TR><TR>
+<TD COLSPAN=2><IMG SRC="../../main/images/physics_top.gif"></TD><TD></TD></TR><TR>
+<TD COLSPAN=2 BGCOLOR="#000099">
+<TABLE  CELLPADDING=0 CELLSPACING=0 BORDER=0 >
+<TR><TD WIDTH=32></TD><TD WIDTH=126 CLASS="Top">
+<BR><A HREF="../../main/dept/index.html" CLASS="LeftMenu">About AOPP</A>
+<BR><A HREF="../../main/meetings/index.html" CLASS="LeftMenu">Meetings</A>
+<BR><A HREF="../../main/undergraduates/index.html" CLASS="LeftMenu">Undergrads</A>
+<BR><A HREF="../../main/graduates/index.html" CLASS="LeftMenu">Graduate<BR>Admissions</A>
+<BR><A HREF="../../main/postdocs/index.html" CLASS="LeftMenu">Post-Docs</A>
+<BR><A HREF="../../main/visitors/index.html" CLASS="LeftMenu">Visitors</A>
+<BR><A HREF="../../main/research/index.html" CLASS="LeftMenu">Research</A>
+<TABLE WIDTH ="100%" CELLSPACING=0 CELLPADDING=0>
+<TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../main/research/instrumentation.html" CLASS="LeftMenuInsert">Instrumentation</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../main/research/dataanalysis.html" CLASS="LeftMenuInsert">Data Analysis</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../main/research/modelling.html" CLASS="LeftMenuInsert">Modelling </A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../../../group/climd/cd.html" CLASS="LeftMenuInsert">CD</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../../../group/eodg/index.html" CLASS="LeftMenuInsert">EODG</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../eodg/eodg_people.html" CLASS="LeftMenuInsert">..People</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../eodg/eodg_research.html" CLASS="LeftMenuInsert">..Research Overview</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10></TD><TD ALIGN=RIGHT>
+<A HREF="index.html" CLASS="LeftMenuReplace">..Aircraft Emissions</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="aircraft_fammus.html" CLASS="LeftMenuInsert">....FAMMUS</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="aircraft_slimcat.html" CLASS="LeftMenuInsert">....SLIMCAT</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../mipas/index.html" CLASS="LeftMenuInsert">..MIPAS</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../mie/index.html" CLASS="LeftMenuInsert">..Mie</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../rfm/index.html" CLASS="LeftMenuInsert">..The RFM</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../eodg/eodg_publications.html" CLASS="LeftMenuInsert">..Publications</A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../../../group/gpfd/index.html" CLASS="LeftMenuInsert">GPFD </A></TD></TR><TR><TD HEIGHT=3></TD></TR><TR><TD WIDTH=10 ALIGN=RIGHT></TD><TD ALIGN=RIGHT>
+<A HREF="../../main/research/poster.html" CLASS="LeftMenuInsert">Poster Gallery</A></TD></TR><TR><TD HEIGHT=3></TD></TR></TABLE>
+<A HREF="../../main/faq/index.html" CLASS="LeftMenu">FAQs</A>
+<BR><A HREF="../../main/facilities/index.html" CLASS="LeftMenu">Facilities</A>
+<BR><A HREF="../../main/capabilities/index.html" CLASS="LeftMenu">Capabilities</A>
+<BR><A HREF="../../main/local/index.html" CLASS="LeftMenu">Local<BR>Information</A>
+<BR><A HREF="../../main/links/index.html" CLASS="LeftMenu">Links</A>
+<BR><A HREF="http://climateprediction.net/index.php" CLASS="LeftMenu"><SMALL>Climate<I>prediction</I>.net</SMALL></A>
+<BR><BR></TD></TR><TR><TD COLSPAN=2><CENTER>
+<A HREF="http://www.ox.ac.uk"><IMG SRC="../../main/images/webshield.gif" BORDER=0 ALT="UNIVERSITY HOME"></A></CENTER></TD></TR><TR><TD></TD><TD>
+</TD></TR></TABLE></TD><TD>
+<TABLE CELLSPACING=5 CELLPADDING=0 BGCOLOR="#FFFFFF" BORDER=0 WIDTH=560>
+<TR><TD>
+<TABLE CELLSPACING=1 CELLPADDING=5 BGCOLOR="#C4C4C4" BORDER=0 WIDTH=550>
+<TR><TD HEIGHT=300 BGCOLOR="#FFFFFF">
+
+<center> <h1> Satellite Observation of Aviation Impacts on the UTLS</h1>
+   <p><hr>
+
+ 
+<p>
+<center>X. Vancassel<br></center>
+<center>R.G. Grainger</A></center>
+
+<p> The well being of humanity relies on the environment in which we
+live, for example the atmosphere sustains the eco-system providing
+thermal insulation and protection from shortwave radiation. The region
+of the atmosphere from about 8-26 km comprising the upper troposphere
+and lower stratosphere (UTLS) plays a major role in the atmosphere's
+climate and on the surface environment, for example, changes in ozone
+in the lower startosphere have a large impact on the surface UV
+flux. Hence safeguarding the atmosphere from degradation is required
+for our continued existence.
+
+<p> Aerosols are particles ranging in size from 10^-3 to 30 micron and
+are produced by natural processes (e.g. volcanic dust, smoke from
+natural forest fires, condensation of atmopsheric gases) as well as by
+human activities. The primary anthropogenic aerosols include particles
+directly emitted during the combustion processes and indirectly formed
+from gases emitted during combustion.
+
+<p> In the 1970s, plans to build a large fleet of high-flying
+supersonic aircraft led to concerns that their exhaust emissions could
+cause a reduction in stratospheric ozone (Crutzen, 1971). In the end,
+only a small number of supersonic passenger aircraft were built, and
+attention switched to other possible causes of ozone
+depletion. However, in recent years, the growth in the number of
+long-haul subsonic passenger aircarft, and the projection for further
+expansion in the future, has reawakened a general concern for the
+effects of aircraft on the atmosphere. Specific concerns are the
+significance of emissions of H2O (an important greenhouse gas whose
+budget is poorly understood), NOx and aerosols on the radiative and
+chemical properties of the UTLS.
+
+<p> Present generation of aircraft passenger fleet spends a significant
+part of its time at cruise altitude within the lower stratosphere
+(WMO, 1992). As a result, the injection of chemically active compounds
+(NOx and H2O) and aerosol precursors (SO2 and Hydrocarbons) directly
+into the stratosphere could lead to ozone depletion (Brasseur,
+1998). The forecast average growth rate of aricraft movement is about
+5% per year (Schumann, 19994) so that even larger anthropogenic
+perturbations of the UTLS might be expected in the future.
+
+
+<p> Some of the most poorly understood processes associated with
+aircraft emissions are the heterogeneous reactions. The rate of these
+reactions is determined by the type and size distribution of aerosol
+particles which in turn are determined by the aerosols chemical and
+thermal history.
+
+<p> This study will focus on emissions at cruise altitude (i.e. in the
+lower atmosphere) as this is where aircraft spent significant part of
+their time and because the aircraft enhancement of the aerosol loading
+in the stratosphere will be typically 100 times greater than in the
+troposphere. The project will include the formulation of a detailed
+aerosol microphysical model in a chemical transport model of the
+stratopshere. The resulting model will be used to simulate the
+evolution of startospheric aerosol properties including aircraft
+emission.
+
+ 
+
+
+<h1>Scientific objectives of the project</h1>
+The two major science aims of the project are:
+<p>
+
+<li> To predict changes in the stratospheric composition caused by the
+release of aerosols and gases by aircraft, and
+
+<li> to observe these changes using satellite data<br>
+
+<h1>These can be divided into five objectives:</h1>
+<li> Parameterisation of the local effects of aircraft emission<br> 
+<p>
+
+The local change in atmospheric state (trace gas composition, aerosol type and size distribution) caused by an aircraft must be estimated as a function of fule type and amoun burnt and then rescaledto the size of an atmospheric model grid box.
+<p>
+<li> To develop a Fast Aerosol Microphysical Model for UTLS (FAMMUS)<br>
+
+<p> The evolution of aerosols will be decribed by FAMMUS which will be
+size and composition resolved computer model that will include
+aerosols microphysical processes (nucleation, condensation,
+evaporation, coalescence and sedimentation).
+
+<p>
+<li> To insert FAMMUS into SLIMCAT <br>
+
+<p> The FAMMUS model will be coupled with SLIMCAT so that local
+changes in aircraft emission, humidty and temperature (as prescribed
+in the SLIMCAT model) will give rise to related changes in aerosol
+heterogeneous chemistry.
+
+<p> <li> To use SLIMCAT to identify chemical changes in a 2000
+atmosphere that may be attributed to pollution from aircraft<br>
+
+<p> SLIMCAT will be run for a 2000 atmosphere both including and
+excluding emissions. The differences in the model output will be used
+to identify the regions of the atmosphere that displays the strongest
+response to aircraft emissions.
+
+<p>
+<li> To investigate satellite data for the predicted changes due to aircraft pollution
+
+<p> SAGEII, MIPAS and HIRDLES data will be used to examine those
+regions of the atmosphere which display the strongest response to the
+aircraft emissions.
+
+ 
+
+
+<hr>
+<h2>Colloborator in the project</h2>
+
+<ul>
+   <li><A HREF="http://www.atm.ch.cam.ac.uk/~trop-mod/">Dr. Helen
+Rogers, Centre for Atmospheric Science,Department of chemistry,
+University of Cambridge - Coordinator</A></li>
+
+   
+
+</ul>
+
+</TD></TR></TABLE></TD></TR></TABLE>
+<TABLE WIDTH="98%" ALIGN=CENTER BORDER=0 CELLSPACING = 0 CELLPADDING=0>
+<TR><TD CLASS="Left">
+<FONT SIZE=-4 COLOR="#E7E7FF">last updated @14:21 GMT 13-Feb-2004</FONT></TD>
+<TD CLASS="Right"><A HREF="index_nocol.html"><FONT SIZE=-4>printable version</FONT></A></TD></TR></TABLE></TD></TR><TR><TD COLSPAN=2>
+<IMG SRC="../../main/images/physics_bottom.gif"></TD></TR></TABLE></BODY></HTML>
+
+
+na	lce/o

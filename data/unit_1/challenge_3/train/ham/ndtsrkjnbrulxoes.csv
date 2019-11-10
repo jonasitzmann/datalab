@@ -1,0 +1,999 @@
+
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+
+<HTML>
+  <HEAD>
+       <META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+       <LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+       <TITLE> Famous people map </TITLE>
+       		<style>
+		  .fixedfont { font-size : 14px }
+		  .title {font-size : 24px }
+		</style>
+
+
+
+		<script language = "JavaScript">
+		<!-- hide
+
+		//brower check for non-ie browsers
+		//initialize the value of "browser"
+		var bName = navigator.appName;
+		var bVersion = parseInt(navigator.appVersion);
+
+if ( (bName != "Microsoft Internet Explorer") || (bVersion < 4) ) {
+	location = "http://www.geo.ed.ac.uk/scotgaz/mapredirect.html";
+	if (document.images)
+	location.replace("http://www.geo.ed.ac.uk/scotgaz/mapredirect.html");
+		      else
+	location.href = "http://www.geo.ed.ac.uk/scotgaz/mapredirect.html";
+		  }
+		// -->
+</script>
+
+  <script language="Javascript1.2"><!--
+    //functions for mouseover switching of map dots and table cell colour
+
+
+          function on1() {
+            if (document.images) {
+	      document.images.pic1.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg1.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off1() {
+            if (document.images) {
+               document.images.pic1.src = "/scotgaz/images/reddk.gif";
+               document.all.leg1.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on2() {
+            if (document.images) {
+	      document.images.pic2.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg2.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off2() {
+            if (document.images) {
+               document.images.pic2.src = "/scotgaz/images/reddk.gif";
+               document.all.leg2.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on3() {
+            if (document.images) {
+	      document.images.pic3.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg3.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off3() {
+            if (document.images) {
+               document.images.pic3.src = "/scotgaz/images/reddk.gif";
+               document.all.leg3.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on4() {
+            if (document.images) {
+	      document.images.pic4.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg4.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off4() {
+            if (document.images) {
+               document.images.pic4.src = "/scotgaz/images/reddk.gif";
+               document.all.leg4.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on5() {
+            if (document.images) {
+	      document.images.pic5.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg5.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off5() {
+            if (document.images) {
+               document.images.pic5.src = "/scotgaz/images/reddk.gif";
+               document.all.leg5.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on6() {
+            if (document.images) {
+	      document.images.pic6.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg6.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off6() {
+            if (document.images) {
+               document.images.pic6.src = "/scotgaz/images/reddk.gif";
+               document.all.leg6.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on7() {
+            if (document.images) {
+	      document.images.pic7.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg7.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off7() {
+            if (document.images) {
+               document.images.pic7.src = "/scotgaz/images/reddk.gif";
+               document.all.leg7.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on8() {
+            if (document.images) {
+	      document.images.pic8.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg8.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off8() {
+            if (document.images) {
+               document.images.pic8.src = "/scotgaz/images/reddk.gif";
+               document.all.leg8.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on9() {
+            if (document.images) {
+	      document.images.pic9.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg9.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off9() {
+            if (document.images) {
+               document.images.pic9.src = "/scotgaz/images/reddk.gif";
+               document.all.leg9.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on10() {
+            if (document.images) {
+	      document.images.pic10.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg10.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off10() {
+            if (document.images) {
+               document.images.pic10.src = "/scotgaz/images/reddk.gif";
+               document.all.leg10.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on11() {
+            if (document.images) {
+	      document.images.pic11.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg11.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off11() {
+            if (document.images) {
+               document.images.pic11.src = "/scotgaz/images/reddk.gif";
+               document.all.leg11.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on12() {
+            if (document.images) {
+	      document.images.pic12.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg12.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off12() {
+            if (document.images) {
+               document.images.pic12.src = "/scotgaz/images/reddk.gif";
+               document.all.leg12.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on13() {
+            if (document.images) {
+	      document.images.pic13.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg13.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off13() {
+            if (document.images) {
+               document.images.pic13.src = "/scotgaz/images/reddk.gif";
+               document.all.leg13.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on14() {
+            if (document.images) {
+	      document.images.pic14.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg14.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off14() {
+            if (document.images) {
+               document.images.pic14.src = "/scotgaz/images/reddk.gif";
+               document.all.leg14.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on15() {
+            if (document.images) {
+	      document.images.pic15.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg15.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off15() {
+            if (document.images) {
+               document.images.pic15.src = "/scotgaz/images/reddk.gif";
+               document.all.leg15.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on16() {
+            if (document.images) {
+	      document.images.pic16.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg16.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off16() {
+            if (document.images) {
+               document.images.pic16.src = "/scotgaz/images/reddk.gif";
+               document.all.leg16.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on17() {
+            if (document.images) {
+	      document.images.pic17.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg17.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off17() {
+            if (document.images) {
+               document.images.pic17.src = "/scotgaz/images/reddk.gif";
+               document.all.leg17.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on18() {
+            if (document.images) {
+	      document.images.pic18.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg18.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off18() {
+            if (document.images) {
+               document.images.pic18.src = "/scotgaz/images/reddk.gif";
+               document.all.leg18.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on19() {
+            if (document.images) {
+	      document.images.pic19.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg19.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off19() {
+            if (document.images) {
+               document.images.pic19.src = "/scotgaz/images/reddk.gif";
+               document.all.leg19.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on20() {
+            if (document.images) {
+	      document.images.pic20.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg20.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off20() {
+            if (document.images) {
+               document.images.pic20.src = "/scotgaz/images/reddk.gif";
+               document.all.leg20.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on21() {
+            if (document.images) {
+	      document.images.pic21.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg21.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off21() {
+            if (document.images) {
+               document.images.pic21.src = "/scotgaz/images/reddk.gif";
+               document.all.leg21.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on22() {
+            if (document.images) {
+	      document.images.pic22.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg22.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off22() {
+            if (document.images) {
+               document.images.pic22.src = "/scotgaz/images/reddk.gif";
+               document.all.leg22.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+          function on23() {
+            if (document.images) {
+	      document.images.pic23.src = "/scotgaz/images/redlt.gif";
+	      document.all.leg23.style.backgroundColor='#ffffaa';
+            			}
+          				     }
+
+          function off23() {
+            if (document.images) {
+               document.images.pic23.src = "/scotgaz/images/reddk.gif";
+               document.all.leg23.style.backgroundColor='#ffcc33';
+            			}
+     					      }
+
+
+
+
+
+	// --></script>
+
+
+
+
+
+</HEAD>
+
+	<BODY BGCOLOR="#FFFFCC">
+
+	<TABLE>
+
+        <TD VALIGN="TOP" ALIGN="JUSTIFY"><font color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+		<div class="title">
+		   <p align="center"><b> Settlements associated with  Robert Burns</b></p></font>
+                </div>
+
+<FONT FACE="Verdana, Arial, Helvetica, sans serif" COLOR="#000080">
+<div class="fixedfont">
+<UL>
+<LI>Hold the mouse over the red dots to see the Settlement name associated with
+ <A
+HREF="http://www.geo.ed.ac.uk/scotgaz/people/famousfirst22.html"TARGET="new">
+Robert Burns</a>.
+This will highlight an entry in the place-name list. You can click on the red
+dots or the name in the place-name list to display the entry of the place of
+interest. The <img src ="/scotgaz/images/magni.gif" align="center" border="1">
+can be clicked to go to a detailed map, courtesy of <A HREF ="http://www.streetmap.co.uk/" TARGET="new">Streetmap.co.uk</a>.
+
+
+</font>
+</UL>
+</div>
+		  
+<p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p><p>&nbsp</p>
+
+</TABLE>
+        <div class="fixedfont">
+	<TABLE bgcolor="#ffcc33" cellspacing="1" border="1" width="150"
+style="position:absolute; left:135px; top:200px; z-index:1">
+
+
+
+ <tr><TD id="leg1" backgroundColor="#ffcc33" onMouseover="on1();"
+onMouseout="off1();"><A HREF ="/scotgaz/towns/townfirst140.html"
+TARGET="new">Aberfeldy</a></td>
+
+<TD align="center"><A HREF ="http://www.streetmap.co.uk/streetmap.dll?g2m?x=285500&y=749200&A=Y&Z=3"
+TARGET="new"><img src="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg2" backgroundColor="#ffcc33" onMouseover="on2();"
+onMouseout="off2();"><A HREF ="/scotgaz/towns/townfirst167.html"
+TARGET="new">Aboyne</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=352800&y=798400&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg3" backgroundColor="#ffcc33" onMouseover="on3();"
+onMouseout="off3();"><A HREF ="/scotgaz/towns/townfirst479.html"
+TARGET="new">Alloway</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=233200&y=618200&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg4" backgroundColor="#ffcc33" onMouseover="on4();"
+onMouseout="off4();"><A HREF ="/scotgaz/towns/townfirst346.html"
+TARGET="new">Annan</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=319400&y=566600&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg5" backgroundColor="#ffcc33" onMouseover="on5();"
+onMouseout="off5();"><A HREF ="/scotgaz/towns/townfirst478.html"
+TARGET="new">Ayr</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=233600&y=621800&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg6" backgroundColor="#ffcc33" onMouseover="on6();"
+onMouseout="off6();"><A HREF ="/scotgaz/towns/townfirst2818.html"
+TARGET="new">Bolton</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=350600&y=670000&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg7" backgroundColor="#ffcc33" onMouseover="on7();"
+onMouseout="off7();"><A HREF ="/scotgaz/towns/townfirst1350.html"
+TARGET="new">Bruar</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=282100&y=766000&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg8" backgroundColor="#ffcc33" onMouseover="on8();"
+onMouseout="off8();"><A HREF ="/scotgaz/towns/townfirst189.html"
+TARGET="new">Clackmannan</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=291300&y=691900&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg9" backgroundColor="#ffcc33" onMouseover="on9();"
+onMouseout="off9();"><A HREF ="/scotgaz/towns/townfirst1365.html"
+TARGET="new">Cleish</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=309500&y=698000&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg10" backgroundColor="#ffcc33" onMouseover="on10();"
+onMouseout="off10();"><A HREF ="/scotgaz/towns/townfirst3290.html"
+TARGET="new">Dalswinton</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=293700&y=585400&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg11" backgroundColor="#ffcc33" onMouseover="on11();"
+onMouseout="off11();"><A HREF ="/scotgaz/towns/townfirst349.html"
+TARGET="new">Dumfries</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=297400&y=576200&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg12" backgroundColor="#ffcc33" onMouseover="on12();"
+onMouseout="off12();"><A HREF ="/scotgaz/towns/townfirst337.html"
+TARGET="new">Edinburgh</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=326000&y=674000&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg13" backgroundColor="#ffcc33" onMouseover="on13();"
+onMouseout="off13();"><A HREF ="/scotgaz/towns/townfirst367.html"
+TARGET="new">Gatehouse of Fleet</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=260200&y=556500&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg14" backgroundColor="#ffcc33" onMouseover="on14();"
+onMouseout="off14();"><A HREF ="/scotgaz/towns/townfirst4150.html"
+TARGET="new">Glenbervie</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=376700&y=780600&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg15" backgroundColor="#ffcc33" onMouseover="on15();"
+onMouseout="off15();"><A HREF ="/scotgaz/towns/townfirst465.html"
+TARGET="new">Irvine</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=232000&y=638800&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg16" backgroundColor="#ffcc33" onMouseover="on16();"
+onMouseout="off16();"><A HREF ="/scotgaz/towns/townfirst234.html"
+TARGET="new">Jedburgh</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=365100&y=620200&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg17" backgroundColor="#ffcc33" onMouseover="on17();"
+onMouseout="off17();"><A HREF ="/scotgaz/towns/townfirst467.html"
+TARGET="new">Kilmarnock</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=242900&y=638000&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg18" backgroundColor="#ffcc33" onMouseover="on18();"
+onMouseout="off18();"><A HREF ="/scotgaz/towns/townfirst481.html"
+TARGET="new">Kirkoswald</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=224100&y=607500&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg19" backgroundColor="#ffcc33" onMouseover="on19();"
+onMouseout="off19();"><A HREF ="/scotgaz/towns/townfirst471.html"
+TARGET="new">Mauchline</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=249800&y=627200&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg20" backgroundColor="#ffcc33" onMouseover="on20();"
+onMouseout="off20();"><A HREF ="/scotgaz/towns/townfirst4338.html"
+TARGET="new">Maxwelton</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=281200&y=589300&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg21" backgroundColor="#ffcc33" onMouseover="on21();"
+onMouseout="off21();"><A HREF ="/scotgaz/towns/townfirst480.html"
+TARGET="new">Maybole</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=229800&y=610000&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg22" backgroundColor="#ffcc33" onMouseover="on22();"
+onMouseout="off22();"><A HREF ="/scotgaz/towns/townfirst358.html"
+TARGET="new">Moffat</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=308500&y=605200&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+ <tr><TD id="leg23" backgroundColor="#ffcc33" onMouseover="on23();"
+onMouseout="off23();"><A HREF ="/scotgaz/towns/townfirst1197.html"
+TARGET="new">Path of Condie</a></td>
+
+<TD align="center"><A HREF
+="http://www.streetmap.co.uk/streetmap.dll?g2m?x=307300&y=711700&A=Y&Z=3"
+TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0"
+align="center"></a></td></tr>
+
+
+	</div>
+	</TABLE>
+
+<!-- Position of the picture -->
+
+<div id="Map Layer" style="position:absolute; left:335px; top:200px;
+width:500px; height:500px; z-index:1"><IMG SRC="/scotgaz/images/terrain.jpg"
+height="500" width="500">
+      </div>
+
+
+
+      <div id="img1" style="position:absolute; left:626px; top:479px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst140.html"
+onMouseover='on1();' onMouseout='off1();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic1" border="0"
+usemap="#Aberfeldy"></a>
+
+	<map name="Aberfeldy">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst140.html" target="_info"
+alt="Aberfeldy" title="Aberfeldy">
+	</map>
+     </div>
+
+
+      <div id="img2" style="position:absolute; left:686px; top:435px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst167.html"
+onMouseover='on2();' onMouseout='off2();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic2" border="0"
+usemap="#Aboyne"></a>
+
+	<map name="Aboyne">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst167.html" target="_info"
+alt="Aboyne" title="Aboyne">
+	</map>
+     </div>
+
+
+      <div id="img3" style="position:absolute; left:579px; top:596px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst479.html"
+onMouseover='on3();' onMouseout='off3();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic3" border="0"
+usemap="#Alloway"></a>
+
+	<map name="Alloway">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst479.html" target="_info"
+alt="Alloway" title="Alloway">
+	</map>
+     </div>
+
+
+      <div id="img4" style="position:absolute; left:656px; top:642px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst346.html"
+onMouseover='on4();' onMouseout='off4();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic4" border="0"
+usemap="#Annan"></a>
+
+	<map name="Annan">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst346.html" target="_info"
+alt="Annan" title="Annan">
+	</map>
+     </div>
+
+
+      <div id="img5" style="position:absolute; left:580px; top:592px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst478.html"
+onMouseover='on5();' onMouseout='off5();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic5" border="0"
+usemap="#Ayr"></a>
+
+	<map name="Ayr">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst478.html" target="_info"
+alt="Ayr" title="Ayr">
+	</map>
+     </div>
+
+
+      <div id="img6" style="position:absolute; left:684px; top:550px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst2818.html"
+onMouseover='on6();' onMouseout='off6();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic6" border="0"
+usemap="#Bolton"></a>
+
+	<map name="Bolton">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst2818.html" target="_info"
+alt="Bolton" title="Bolton">
+	</map>
+     </div>
+
+
+      <div id="img7" style="position:absolute; left:623px; top:464px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst1350.html"
+onMouseover='on7();' onMouseout='off7();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic7" border="0"
+usemap="#Bruar"></a>
+
+	<map name="Bruar">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst1350.html" target="_info"
+alt="Bruar" title="Bruar">
+	</map>
+     </div>
+
+
+      <div id="img8" style="position:absolute; left:631px; top:530px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst189.html"
+onMouseover='on8();' onMouseout='off8();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic8" border="0"
+usemap="#Clackmannan"></a>
+
+	<map name="Clackmannan">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst189.html" target="_info"
+alt="Clackmannan" title="Clackmannan">
+	</map>
+     </div>
+
+
+      <div id="img9" style="position:absolute; left:647px; top:525px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst1365.html"
+onMouseover='on9();' onMouseout='off9();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic9" border="0"
+usemap="#Cleish"></a>
+
+	<map name="Cleish">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst1365.html" target="_info"
+alt="Cleish" title="Cleish">
+	</map>
+     </div>
+
+
+      <div id="img10" style="position:absolute; left:633px; top:625px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst3290.html"
+onMouseover='on10();' onMouseout='off10();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic10" border="0"
+usemap="#Dalswinton"></a>
+
+	<map name="Dalswinton">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst3290.html" target="_info"
+alt="Dalswinton" title="Dalswinton">
+	</map>
+     </div>
+
+
+      <div id="img11" style="position:absolute; left:637px; top:633px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst349.html"
+onMouseover='on11();' onMouseout='off11();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic11" border="0"
+usemap="#Dumfries"></a>
+
+	<map name="Dumfries">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst349.html" target="_info"
+alt="Dumfries" title="Dumfries">
+	</map>
+     </div>
+
+
+      <div id="img12" style="position:absolute; left:662px; top:546px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst337.html"
+onMouseover='on12();' onMouseout='off12();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic12" border="0"
+usemap="#Edinburgh"></a>
+
+	<map name="Edinburgh">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst337.html" target="_info"
+alt="Edinburgh" title="Edinburgh">
+	</map>
+     </div>
+
+
+      <div id="img13" style="position:absolute; left:603px; top:650px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst367.html"
+onMouseover='on13();' onMouseout='off13();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic13" border="0"
+usemap="#Gatehouse of Fleet"></a>
+
+	<map name="Gatehouse of Fleet">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst367.html" target="_info"
+alt="Gatehouse of Fleet" title="Gatehouse of Fleet">
+	</map>
+     </div>
+
+
+      <div id="img14" style="position:absolute; left:707px; top:451px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst4150.html"
+onMouseover='on14();' onMouseout='off14();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic14" border="0"
+usemap="#Glenbervie"></a>
+
+	<map name="Glenbervie">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst4150.html" target="_info"
+alt="Glenbervie" title="Glenbervie">
+	</map>
+     </div>
+
+
+      <div id="img15" style="position:absolute; left:578px; top:577px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst465.html"
+onMouseover='on15();' onMouseout='off15();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic15" border="0"
+usemap="#Irvine"></a>
+
+	<map name="Irvine">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst465.html" target="_info"
+alt="Irvine" title="Irvine">
+	</map>
+     </div>
+
+
+      <div id="img16" style="position:absolute; left:697px; top:594px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst234.html"
+onMouseover='on16();' onMouseout='off16();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic16" border="0"
+usemap="#Jedburgh"></a>
+
+	<map name="Jedburgh">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst234.html" target="_info"
+alt="Jedburgh" title="Jedburgh">
+	</map>
+     </div>
+
+
+      <div id="img17" style="position:absolute; left:588px; top:578px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst467.html"
+onMouseover='on17();' onMouseout='off17();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic17" border="0"
+usemap="#Kilmarnock"></a>
+
+	<map name="Kilmarnock">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst467.html" target="_info"
+alt="Kilmarnock" title="Kilmarnock">
+	</map>
+     </div>
+
+
+      <div id="img18" style="position:absolute; left:571px; top:605px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst481.html"
+onMouseover='on18();' onMouseout='off18();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic18" border="0"
+usemap="#Kirkoswald"></a>
+
+	<map name="Kirkoswald">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst481.html" target="_info"
+alt="Kirkoswald" title="Kirkoswald">
+	</map>
+     </div>
+
+
+      <div id="img19" style="position:absolute; left:594px; top:588px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst471.html"
+onMouseover='on19();' onMouseout='off19();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic19" border="0"
+usemap="#Mauchline"></a>
+
+	<map name="Mauchline">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst471.html" target="_info"
+alt="Mauchline" title="Mauchline">
+	</map>
+     </div>
+
+
+      <div id="img20" style="position:absolute; left:622px; top:621px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst4338.html"
+onMouseover='on20();' onMouseout='off20();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic20" border="0"
+usemap="#Maxwelton"></a>
+
+	<map name="Maxwelton">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst4338.html" target="_info"
+alt="Maxwelton" title="Maxwelton">
+	</map>
+     </div>
+
+
+      <div id="img21" style="position:absolute; left:576px; top:603px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst480.html"
+onMouseover='on21();' onMouseout='off21();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic21" border="0"
+usemap="#Maybole"></a>
+
+	<map name="Maybole">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst480.html" target="_info"
+alt="Maybole" title="Maybole">
+	</map>
+     </div>
+
+
+      <div id="img22" style="position:absolute; left:646px; top:607px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst358.html"
+onMouseover='on22();' onMouseout='off22();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic22" border="0"
+usemap="#Moffat"></a>
+
+	<map name="Moffat">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst358.html" target="_info"
+alt="Moffat" title="Moffat">
+	</map>
+     </div>
+
+
+      <div id="img23" style="position:absolute; left:645px; top:512px;
+z-index:3">
+         <a href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst1197.html"
+onMouseover='on23();' onMouseout='off23();'>
+         <IMG SRC="/scotgaz/images/reddk.gif" name="pic23" border="0"
+usemap="#Path of Condie"></a>
+
+	<map name="Path of Condie">
+	<area shape="rect" coords="0,0,15,15"
+href="http://www.geo.ed.ac.uk/scotgaz/towns/townfirst1197.html" target="_info"
+alt="Path of Condie" title="Path of Condie">
+	</map>
+     </div>
+
+
+</BODY>
+</HTML>
+
+
+
+BNue' g eiH

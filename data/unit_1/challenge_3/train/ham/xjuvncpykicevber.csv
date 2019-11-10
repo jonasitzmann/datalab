@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="/Templates/vclass.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<META NAME="ROBOTS" CONTENT="NOARCHIVE"> 
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Faculty of English: The Virtual Classroom</title>
+<!-- InstanceEndEditable --><link rel="stylesheet" type="text/css" href="/style/camstylenew.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/style/print2.css" media="print" />
+<link rel="stylesheet" type="text/css" href="../glossary-style.css" media="screen" />
+<script type="text/javascript" src="../nicetitle.js"></script>
+<!--
+<meta name="description" content="insert text here" />
+<meta name="keywords" content="" />
+-->
+<script type="text/javascript">
+<!-- BEGIN last modified script 
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+// End -->
+</script>
+<!-- InstanceBeginEditable name="head" -->
+
+<meta name="Generator" content="Microsoft Word 97" />
+
+<meta name="Version" content="8.0.3410" />
+<meta name="Date" content="10/11/96" />
+<meta name="Template" content="C:\Program Files\Microsoft Office\Templates\FACULTY OF ENGLISH.dot" />
+<script language="JavaScript" type="text/javascript">
+<!-- Hide from JavaScript-Impaired Browsers
+ctr=0;
+ttl="";
+psco=100;
+
+/* Deduction for each wrong answer. May
+   be the perfect score divided by the
+   number of questions.  But if you "weight"
+   wrong answers, as we have done in this
+   little demo script, it may be higher,
+   but must be a whole number.  */
+wrans=10;
+
+/* Deduction for each "no answer". Usually
+   this will be the simple arithmetical
+   perfect score divided by number of
+   questions. (A whole number) However,
+   again, you are in charge. */
+noans=10;
+
+/* Change "nr" below to be equal to the
+   number of questions you have on this
+   test. (Our demo has 5 questions) */
+nr=10;
+
+/* Simply replace the "questions" below with
+   the ones you wish to use for this test. If
+   you wish more than 5 questions, simply add
+   ques[5], ques[6], etc. But be sure that the
+   "nr" just above is changed to reflect the
+   actual number of questions you have
+   prepared.  NOTE: do not use any double
+   quote signs in your questions.  If you
+   need them, use the HTML &quot; instead.
+   Or, single quote signs may be safely used. */
+ques=new Array();
+ques[0]="What is the rhyme-scheme of Shakespearean sonnet?";
+ques[1]="What is an iambic pentameter?";
+ques[2]="Which of the following brought a bear into Trinity College when he was an undergraduate?";
+ques[3]="What is a heroic couplet?";
+ques[4]="When was Edmund Spenser's Faerie Queene printed?";
+ques[5]="Which of the following did not attend the University of Cambridge?";
+ques[6]="What is a feminine rhyme?";
+ques[7]="What is a trochee?";
+ques[8]="Who ended his Cambridge career when he enlisted in the dragoons under the name of Silas Tompkyn Comberback?";
+ques[9]="What is practical criticism?";
+
+// add as many questions as you wish here
+
+/* Now the tedious part.  You must put the
+   letter equivalent for each correct answer
+   (a, b, c, d, or e) in order in a row for
+   your particular test.  As you can see
+   below, I've done so for the demo test. */
+cor="bcacbbabca";
+
+/* When entering your own answers, do not
+   use any double quote signs in your 
+   answers.  Instead, use the HTML &quot;
+   so the JS will not get confused. */
+ans=new Array();
+ans[0]="abcbcbcabcbcdd";
+ans[1]="ababcdcdefefgg";
+ans[2]="abbaabbcdecde";
+ans[3]="aabbccddaabbdd";
+ans[4]="abcdabcdabcdee";
+
+ans[5]="An eight syllable line rhyming aabb";
+ans[6]="A twelve syllable line of alternating stresses in which the first syllable in each foot is stressed";
+ans[7]="A line of five feet in which the dominant accent usually falls on the second syllable of each foot (di dúm), a pattern known as an iamb";
+ans[8]="An emblem of truth worn by the hero of Sir Gawain and the Green Knight";
+ans[9]="A rhyming couplet of seven syllables";
+
+ans[10]="George Gordon, Lord Byron (1788-1824)";
+ans[11]="William Wordsworth (1770-1850)";
+ans[12]="Percy Bysshe Shelley (1792-1822)";
+ans[13]="Roger Waters";
+ans[14]="John Milton (1608-74)";
+
+ans[15]="A pair of heroes in an epic poem united by solemn ties of friendship";
+ans[16]="A double epithet such as 'horse-taming Hector'";
+ans[17]="A pair of rhyming iambic pentameters";
+ans[18]="A pair of rhyming iambic lines of twelve syllables";
+ans[19]="A couplet consisting of six iambic feet";
+
+ans[20]="In three instalments: 1453, 1465, 1483";
+ans[21]="In three instalments: 1590, 1596, 1609";
+ans[22]="In 1603";
+ans[23]="In 1873";
+ans[24]="1302";
+
+ans[25]="Rupert Brooke (1887-1915)";
+ans[26]="William Shakespeare (1564-1616)";
+ans[27]="Christopher Marlowe (1564-93)";
+ans[28]="Alfred Lord Tennyson (1809-92)";
+ans[29]="Ted Hughes (1930-1998)";
+
+ans[30]="A rhyme on two syllables in which the last syllable is unstressed.";
+ans[31]="A rhyme on two syllables.";
+ans[32]="A rhyme on three syllables.";
+ans[33]="A poem composed by a woman.";
+ans[34]="A poem in which every third syllable rhymes.";
+
+ans[35]="A two syllable foot of verse with two heavy stresses";
+ans[36]="A two syllable foot of verse in which the stress falls on the first syllable.";
+ans[37]="A six line stanza in which the rhyme sounds are all identical.";
+ans[38]="A tool used by medieval poets to erase their mistakes";
+ans[39]="Three successive heavy stresses";
+
+ans[40]="Silas Marner (1832-75)";
+ans[41]="Thomas Gray (1716-71)";
+ans[42]="Samuel Taylor Coleridge (1772-1834";
+ans[43]="Samuel Butler (1825-1902)";
+ans[44]="William Makepeace Thackeray (1811-63)";
+
+ans[45]="The close analysis of poems without taking account of any external information";
+ans[46]="A movement which wished to make literary criticism more relevant";
+ans[47]="The close analysis of literary texts in such a way as to bring out their political meaning";
+ans[48]="The study of ambiguity";
+ans[49]="Criticism of a poem by a living poet with a view to making him or her rewrite it";
+// Continue adding answers here
+
+ns="0123456789"
+ls="abcde";
+astr="";
+ack=new Array();
+for (var i=0;i<nr;i++){
+ ack[i]=(nr*5)+1;
+ }
+
+function lightIt(){
+ document.images[flg+ad].src="nr/rbl.gif";
+ }
+function dimIt(){
+ if (ack[Math.floor(flg/5)]!=flg){
+  document.images[flg+ad].src="nr/rbd.gif";
+  }
+ }
+function dumpIt(){
+ if (ack[Math.floor(flg/5)]==flg){
+  document.images[ack[Math.floor(flg/5)]+ad].src="nr/rbd.gif";
+  ack[Math.floor(flg/5)]=(nr*5)+1;
+  }
+ else{
+  if (ack[Math.floor(flg/5)]!=flg&&ack[Math.floor(flg/5)]!=(nr*5)+1){
+   document.images[ack[Math.floor(flg/5)]+ad].src="nr/rbd.gif";
+   }
+  document.images[flg+ad].src="nr/rbl.gif";
+  ack[Math.floor(flg/5)]=flg;
+  }
+ }
+function ckSco(){
+ document.images[ad+(nr*5)].src="nr/cwf2.gif";
+ setTimeout('document.images[ad+(nr*5)].src="nr/cwf0.gif"',1000);
+
+ for (var i=0;i<nr;i++){
+  u=cor.charAt(i);
+  v=ls.indexOf(u)+(i*5);
+  document.images[ad+v].src="nr/gbl.gif";
+  }
+ sco=psco;
+ for (var i=0;i<nr;i++){
+  if (ack[i]==(nr*5)+1){
+   sco-=noans;
+   }
+  else{
+   u=cor.charAt(i);
+   v=ls.indexOf(u)+(i*5);
+   sco=(v==ack[i]?sco:sco-wrans);
+   }
+  }
+ sco=(sco<0?0:sco); // prevent minus score
+ scos=""+sco;
+ while (scos.length<3){
+  scos="0"+scos;
+  }
+ document.images[ad+(nr*5)+1].src="nr/yts.gif";
+ ctr=ad+(nr*5)+2;
+ for (var i=0;i<3;i++){
+  nj=ns.indexOf(scos.charAt(i));
+  document.images[ctr].src="nr/"+nj+".gif";
+  ctr++;
+  }
+ }
+function litbut(){
+ document.images[ad+(nr*5)].src="nr/cwf1.gif";
+ }
+function dimbut(){
+ document.images[ad+(nr*5)].src="nr/cwf0.gif";
+ }
+/* This little routine is simply used to count the
+   number of images you may place on your web page
+   prior to the radio buttons.  Just makes the routine
+   independent of how you lay your page out. */
+var ad = 0;
+function getImgAdd(){
+ for (var i=0;i<20;i++){
+  if (document.images[i].src.indexOf("rbd.gif")>-1){
+   ad=i;
+   i=20;
+   }
+  }
+ }
+// End Hiding -->
+</script>
+
+
+<style>
+<!-
+a:hover{color:8F8FBD}
+//->
+</style>
+<link rel="stylesheet" href="../style/camstyle.css" />
+<!-- InstanceEndEditable -->
+</head>
+<body><div id="page">
+<!-- header -->
+<div id="navigation">
+<div class="skiplink"><a href="#startcontent" accesskey="2">Skip over navigation</a>&nbsp;|&nbsp;<a href="http://www.cam.ac.uk/computing/accesskeys.html" accesskey="0">Access key help</a></div> 
+<div id="insert"><span class="noshow">|</span><a href="../../localsearch.htm" accesskey="4"><img src="/images/search.gif" alt="[Search]" width="53" height="18" border="0" /></a><span class="noshow">|</span><a href="../../az.htm"><img src="/images/az.gif" alt="[A-Z Index]" width="53" height="18" border="0" /></a><span class="noshow">|</span><a href="../../help.htm"><img src="/images/help.gif" alt="[Help]" width="53" height="18" border="0" /></a></div>
+</div>
+
+<table id="header" summary="page header">
+<tr>
+<td class="identifier"><a href="http://www.cam.ac.uk/"><img src="/images/identifier2.gif" width="192" height="46" alt="[University of Cambridge]" /></a></td>
+<td class="deptitle">Faculty of English</td>
+</tr>
+</table>
+<div id="topbgline">&nbsp;</div>
+<!-- end header -->
+
+<!-- breadcrumbs -->
+
+<div id="bread">
+<p><a href="http://www.cam.ac.uk/">University of Cambridge</a>&nbsp;&gt; <a href="http://www.english.cam.ac.uk/">Faculty of English</a> &gt; <a href="../index.htm">The Virtual Classroom </a> </p>
+</div>
+<!-- end breadcrumbs -->
+<div id="content"><a name="startcontent" id="startcontent"></a><br />
+  <!-- this is the anchor for the skiplink -->
+  <!-- InstanceBeginEditable name="Body" -->
+ 
+  <h1 align="center">A Literary Quiz 
+  </h1>
+  <p>Retaining facts and information is only a small part of a literary training. The main aim of the Faculty's work is to encourage imaginative and critical habits of mind, rather than to provide students with factual information. Computers, however, are not very good at testing imagination, since they have none themselves. The following quiz is meant to be fun, and to help test whether or not you have grasped some of the concepts which the virtual classroom may have passed on to you. Almost all of the answers to the questions can be found on the Faculty Website. </p>	 
+  <table border="0" width="500" align="center">
+    <tr>
+      <td><b>Instructions:</b>
+          <ol>
+            <li> Click the red button next to each answer you think is correct.</li>
+            <li>You can have a guess, but the machine will penalise wrong answers. </li>
+            <li>If you check the wrong red button, simply click the correct one to change it. </li>
+            <li>You can 'pass' on questions which you do not know. If you make a guess and then decide to pass, just click the lit red button. </li>
+            <li>When you have finished, click the "Mark Quiz" button at the end of the test. Your score will appear below it, and all correct answers will be lit with a green button. You get ten marks for each correct answer, so 100 is perfect. </li>
+        </ol></td>
+    </tr>
+  </table>
+<script language="JavaScript" type="text/javascript">
+<!-- Hide from JavaScript-Impaired Browsers
+document.write('<TABLE BORDER=0 CELLPADDING=2'
++' CELLSPACING=0 WIDTH=486><TR><TD COLSPAN=2 '
++'ALIGN=CENTER><FONT COLOR=BLUE><B>'+ttl+'</B></FON'
++'T></TD></TR><TR>');
+for (var i=0;i<nr;i++){
+ document.write('<TD COLSPAN=2 VALIGN=TOP>&nbsp;</P><P ALIGN="CENTER"><HR></P>'+ques[i]+'</TD></TR><P>')
+ for (var j=0;j<5;j++){
+  document.write('<TR><TD><A HREF="demo.html'
+  +'" onMouseOver="flg='+((i*5)+j)+';lightIt('
+  +');return true" onMouseOut="flg='+((i*5)+j)
+  +';dimIt();return true;" onClick="flg='
+  +((i*5)+j)+';dumpIt();return false;"><IMG S'
+  +'RC="nr/rbd.gif" WIDTH=15 HEIGHT=15 BORDER'
+  +'=0></TD><TD ALIGN=LEFT><FONT SIZE=2>'+ans[(i*5)+j]
+  +'</TD></TR>');
+  }
+ }
+document.write('<TR><TD COLSPAN=3 ALIGN=CE'
++'NTER><HR><A HREF="demo.html" onClick="ckSco'
++'();return false;" onMouseOver="litbut();'
++'return true;" onMouseOut="dimbut();retur'
++'n true;"><IMG SRC="nr/cwf0.gif"'
++' WIDTH=69 HEIGHT=45 BORDER=0 NAME="but">'
++'<P><IMG SRC="nr/10.gif" WIDTH=130 HEIGHT'
++'=15 BORDER=0><IMG SRC="nr/10.gif" WIDTH='
++'10 HEIGHT=15 BORDER=0><IMG SRC="nr/10.gif'
++'" WIDTH=10 HEIGHT=15 BORDER=0><IMG SRC="n'
++'r/10.gif" WIDTH=10 HEIGHT=15 BORDER=0></T'
++'D></TR></TABLE>');
+getImgAdd();
+// End Hiding -->
+</script>
+
+<!-- You may put any other instructions or
+     next lesson assignments here. -->
+<p><a href="../index.htm">Back to Virtual Classroom</a></p>
+<p align="center"><font size="-2"> This page was created by Colin Burrow. </font>
+</p><!-- InstanceEndEditable -->
+  <!-- footer -->
+</div>
+
+<div id="bottombgline">&nbsp;</div>
+<p class="footer">&copy; 2006 Faculty of English, University of Cambridge<br />
+Information provided by <a href="mailto:webmaster@english.cam.ac.uk">webmaster@english.cam.ac.uk</a><br />
+Last Update on: 
+		<script type="text/javascript"> 
+		  document.write(date + " " + lmonth + " " + fyear)
+		</script>
+		<!--If you wish to give level of conformance after testing, edit this and uncomment it-->
+<!--
+<br />
+<a href="http://www.w3.org/WAI/WCAG1AAA-Conformance">WAI AAA conformant</a>
+--></p>
+<!--  end footer -->
+</div></body>
+<!-- InstanceEnd --></html>
+
+
+
+ A,r "F ana

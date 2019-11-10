@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : Events &amp; Courses</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #666666}
+.style3 {font-size: 8pt}
+.style14 {color: #000000}
+.style21 {font-family: Arial, Helvetica, sans-serif}
+.style24 {
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+p.MsoNormal {
+margin:0in;
+margin-bottom:.0001pt;
+font-size:12.0pt;
+font-family:Arial;
+}
+.style28 {font-size: 9pt}
+.style30 {font-size: 10pt}
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/primary-languages_f2.gif','../images/free-resources_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center"> 
+  <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"><table width="660" border="0" cellspacing="1" cellpadding="0">
+        <tr>
+          <td height="136" colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="50%" rowspan="3"><a href="../archive/index.htm"></a><span class="style8"><a href="index.htm"><span class="pageTitle style21"><a href="../links/index.htm" onMouseOver="MM_swapImage('links','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../images/new-logo.gif" width="217" height="86" border="0"></a></span></a></span></td>
+              <td width="50%" height="64" align="right" valign="top"><div align="right"><img src="../index_clip_image002_0002.jpg" width="192" height="41"></div></td>
+            </tr>
+            <tr>
+              <td height="27" valign="bottom"><div align="right" class="topbar"><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"><br>
+                    <a href="../contact-us/index.htm"></a><a href="../about-us/index.htm"></a><a href="../find-us/index.htm"></a><a href="../indexold.htm"></a></font></div></td>
+            </tr>
+            <tr>
+              <td valign="bottom"><div align="right"><font color="#666666"><a href="../contact-us/index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="../about-us/index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height="23" colspan="6">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="maintext style44"><div align="center"><strong>Courses &amp; Conferences </strong></div></td>
+          <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+          <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+          <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/links/index.htm">Links</a></strong></div></td>
+          <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+          <td class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+        </tr>
+        <tr>
+          <td height="22" colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/index.htm" onMouseOver="MM_swapImage('events','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks3','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../primary-languages/index.htm" onMouseOver="MM_swapImage('languages','','../images/primary-languages_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../free-resources/index.htm" onMouseOver="MM_swapImage('free','','../images/free-resources_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+        </tr>
+        <tr>
+          <td height="176" colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="354"><img src="../images/image-bar/free-resources-2.jpg" alt="Events &amp; Courses"  width="331" height="165" border="0"></td>
+                <td><div align="center"><span class="pageTitle style21">Events 
+                  &amp; Courses</span><br>
+                  <span class="style24">2007</span></div>                  
+                  <div align="center"></div>                  <div align="center" class="style14"></div></td>
+              </tr>
+              
+          </table></td>
+        </tr>
+        <tr>
+          <td height="718" colspan="6"><table width="100%" height="632" border="0" cellpadding="0" cellspacing="0">
+              
+              <tr valign="top">
+                <td height="32" colspan="3" class="maintext"><p>                  Please download the booking form <a href="../downloads/word/Booking Form 2006-7.doc">here</a>. Please return this either by fax to 0113 283 7226 or post to Comenius, c/o. Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds LS18 5HD. <br>
+                </p></td>
+              </tr>
+              <tr valign="top">
+                <td height="19" colspan="3" class="maintext">&nbsp;</td>
+              </tr>
+              
+
+              
+              <tr valign="top">
+                <td width="16%" height="80" class="smallText style1">14 June    2007 </td>
+                <td width="84%" colspan="2" class="headlines"><a href="../downloads/word/ELL RSG Programme 2006-07.doc">Regional Support Group Session 5 </a><br>
+                    <span class="maintext style3"><span class="maintext">Session will include Focus on Interactive Whiteboard Materials by Promethean; Good Practice in School Presentation by Rawdon St Peter's Primary School; Resource Presentation by Early Start Resources; and resource display by Harcourt Education. </span><br>
+                    Leeds Trinity &amp; All Saints </span></td>
+              </tr>
+              <tr valign="top">
+                <td height="19" class="maintext">&nbsp;</td>
+                <td colspan="2" class="maintext style3">&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td height="87" class="smallText style1"> 19 June 2007 </td>
+                <td colspan="2" class="maintext"><strong class="headlines"><a href="../downloads/2006-07/Authentic German Resources 190607.doc">Using Authentic German Resources in Key Stage 2 </a></strong><br>
+                      <strong class="maintext">Presented by Simon Green </strong><br>
+                      <strong><span class="style3">Leeds Trinity &amp; All Saints <br>
+                      <span class="style28"><br>
+                      </span></span></strong><span class="style3"><span class="style28">To read what previous attendees thought of this course, please <a href="../training/Authentic German Resources 030406.html">click</a> here. </span></span></td>
+              </tr>
+              <tr valign="top">
+                <td height="19" class="maintext">&nbsp;</td>
+                <td colspan="2" class="maintext style3">&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td height="51" class="smallText style1"> 20 June 2007 </td>
+                <td colspan="2" class="headlines"><span class="maintext"><strong class="headlines"><a href="../downloads/2006-07/Interactive Whiteboard & Primary Langs 200607.doc">Interactive Whiteboard for Primary Languages </a></strong><br>
+                      <strong class="maintext">Presented by Wendy Adeniji </strong><br>
+                      <strong><span class="style3">The Minerva Centre, Bradford </span></strong></span></td>
+              </tr>
+              <tr valign="top">
+                <td height="19" class="smallText style1">&nbsp;</td>
+                <td colspan="2" class="headlines">&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td height="84" class="smallText style1"> 4 July 2007 </td>
+                <td colspan="2" class="maintext"><strong class="headlines"><a href="../downloads/2006-07/Effective Topic Delivery in French at AS & A2 040707.doc">Effective Topic Delivery in French at A/S and A2 </a></strong><br>
+                      <strong class="maintext">Presented by Martine Pillette </strong><br>
+                      <strong><span class="style3">Leeds Trinity &amp; All Saints <br>
+                      </span></strong><span class="style3"><span class="style28"><br>
+                      To read what previous attendees thought of this course, please <a href="../training/Effective Topic Delivery June 2006.html">click</a> here. </span></span></td>
+              </tr>
+              <tr valign="top">
+                <td height="19" class="smallText style1">&nbsp;</td>
+                <td colspan="2" class="headlines">&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td height="50" class="smallText style1"> 5 July 2007 </td>
+                <td colspan="2" class="headlines"><span class="maintext"><strong class="headlines"><a href="../downloads/2006-07/French and the Rugby World Cup 050707.doc">French and the Rugby World Cup</a></strong><br>
+                      <strong class="maintext">Presented by Simon Green &amp; Steve Haworth </strong><br>
+                      <strong><span class="style3">Leeds Trinity &amp; All Saints </span></strong></span></td>
+              </tr>
+              <tr valign="top">
+                <td height="19" class="smallText style1">&nbsp;</td>
+                <td colspan="2" class="headlines">&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td height="52" class="smallText style1"> 6 July 2007 </td>
+                <td colspan="2" class="headlines"><a href="../downloads/2006-07/Helping Boys Achieve 060707.doc">Helping Boys Achieve Conference </a><span class="maintext"><br>
+                      <strong class="maintext">Presented by Gary Wilson, National Expert on Boys' Achievement </strong><br>
+                      <strong><span class="style3">Leeds Trinity &amp; All Saints </span></strong></span></td>
+              </tr>
+              <tr valign="top">
+                <td height="19" class="smallText style1">&nbsp;</td>
+                <td colspan="2" class="headlines">&nbsp;</td>
+              </tr>
+              <tr valign="top">
+                <td class="smallText style1">12 July 2007 </td>
+                <td colspan="2" class="headlines"><a href="../downloads/2006-07/Flyer120707.doc">CILT 14-19 Seminar - Day 3</a> <br>
+                  <span class="style3 style1">Leeds Trinity &amp; All Saints <br>
+                  <span class="style30">This session will focus on Interactive Whiteboards  followed by a networking session.&nbsp; </span></span></td>
+              </tr>
+              
+              
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD <br>
+        Telephone 0113 
+          283 7226<br>
+          <font color="#999999">Page last updated: 
+          <!-- #BeginDate format:fcAm1 -->Friday, April 27, 2007<!-- #EndDate -->
+          </font> </div></td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>
+
+
+/a"h">

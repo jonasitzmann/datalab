@@ -1,0 +1,315 @@
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	// moock fpi [f.lash p.layer i.nspector]
+	// version: 1.3.5
+	// written by colin moock
+	// code maintained at: http://www.moock.org/webdesign/flash/detection/moockfpi/
+	// terms of use posted at: http://www.moock.org/terms/
+	
+	
+	
+	// =============================================================================
+	// These are the user defined globals.
+	// Modify the following variables to customize the inspection behaviour.
+	
+	var requiredVersion = 8;   // Version the user needs to view site (max 6, min 2)
+	var useRedirect = true;    // Flag indicating whether or not to load a separate
+	                           // page based on detection results. Set to true to
+	                           // load a separate page. Set to false to embed the
+	                           // movie or alternate html directly into this page.
+	                           
+	// Only set next three vars if useRedirect is true...
+	var flashPage = "gsa.cfm?pid=721&version=flash&detect=done"      // The location of the flash movie page
+	var noFlashPage = "gsa.cfm?pid=721&version=html"  // Page displayed if the user doesn't have the
+	                                  // plugin or we can't detect it.
+	var upgradePage = "update_flash.html"  // Page displayed if we detect an old plugin
+	// =============================================================================
+	
+	
+	
+	// *************
+	// Everything below this point is internal until after the BODY tag.
+	// Do not modify! Proceed to the BODY tag for further instructions.
+	// *************
+	
+	// System globals
+	var flash2Installed = false;    // boolean. true if flash 2 is installed
+	var flash3Installed = false;    // boolean. true if flash 3 is installed
+	var flash4Installed = false;    // boolean. true if flash 4 is installed
+	var flash5Installed = false;    // boolean. true if flash 5 is installed
+	var flash6Installed = false;    // boolean. true if flash 6 is installed
+	var flash7Installed = false;    // boolean. true if flash 6 is installed
+	var flash8Installed = false;    // boolean. true if flash 6 is installed
+	var maxVersion = 8;             // highest version we can actually detect
+	var actualVersion = 0;          // version the user really has
+	var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+	var jsVersion = 1.0;            // the version of javascript supported
+	
+	// -->
+	</script>
+
+	<script language="JavaScript1.1" type="text/javascript">
+	<!--
+	
+	// Check the browser...we're looking for ie/win
+	var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+	var isWin = (navigator.appVersion.indexOf("Windows") != -1) ? true : false; // true if we're on windows
+	
+	// This is a js1.1 code block, so make note that js1.1 is supported.
+	jsVersion = 1.1;
+	
+	// Write vbscript detection on ie win. IE on Windows doesn't support regular
+	// JavaScript plugins array detection.
+	if(isIE && isWin){
+	  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+	  document.write('on error resume next \n');
+	  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+	  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+	  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+	  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+	  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+	  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');  
+	  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');  
+	  document.write('</SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+	}
+	// -->
+	</script>
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	
+	// Next comes the standard javascript detection that uses the 
+	// navigator.plugins array. We pack the detector into a function so it loads
+	// before we run it.
+	
+	function detectFlash() {  
+	  // If navigator.plugins exists...
+	  if (navigator.plugins) {
+	    // ...then check for flash 2 or flash 3+.
+	    if (navigator.plugins["Shockwave Flash 2.0"]
+	        || navigator.plugins["Shockwave Flash"]) {
+	
+	      // Some version of Flash was found. Time to figure out which.
+	      
+	      // Set convenient references to flash 2 and the plugin description.
+	      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+	      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+	
+	      // DEBUGGING: uncomment next line to see the actual description.
+	      // alert("Flash plugin description: " + flashDescription);
+	      
+	      // A flash plugin-description looks like this: Shockwave Flash 4.0 r5
+	      // We can get the major version by grabbing the character before the period
+	      // note that we don't bother with minor version detection. 
+	      // Do that in your movie with $version or getVersion().
+	      var flashVersion = parseInt(flashDescription.charAt(flashDescription.indexOf(".") - 1));
+	     
+	      // We found the version, now set appropriate version flags. Make sure
+	      // to use >= on the highest version so we don't prevent future version
+	      // users from entering the site.
+	      flash2Installed = flashVersion == 2;    
+	      flash3Installed = flashVersion == 3;
+	      flash4Installed = flashVersion == 4;
+	      flash5Installed = flashVersion == 5;
+	      flash6Installed = flashVersion == 6;
+	      flash7Installed = flashVersion == 7;
+	      flash8Installed = flashVersion >= 8;
+	    }
+	  }
+	  
+	  // Loop through all versions we're checking, and
+	  // set actualVersion to highest detected version.
+	  for (var i = 2; i <= maxVersion; i++) {  
+	    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+	  }
+	  
+	  // If we're on webtv, the version supported is 2 (pre-summer2000, 
+	  // or 3, post-summer2000). Note that we don't bother sniffing varieties
+	  // of webtv. You could if you were sadistic...
+	  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 3;  
+	  
+	  // DEBUGGING: uncomment next line to display flash version
+	  // alert("version detected: " + actualVersion);
+	
+	
+	  // We're finished getting the version on all browsers that support detection.
+	  // Time to take the appropriate action.
+	
+	  // If the user has a new enough version...
+	  if (actualVersion >= requiredVersion) {
+	    // ...then we'll redirect them to the flash page, unless we've
+	    // been told not to redirect.
+	    if (useRedirect) {
+	      // Need javascript1.1 to do location.replace
+	      if(jsVersion > 1.0) {
+	        // It's safe to use replace(). Good...we won't break the back button.
+	        window.location.replace(flashPage);  
+	      } else {
+	        // JavaScript version is too old, so use .location to load
+	        // the flash page.
+	        window.location = flashPage;
+	      }
+	    }
+	    
+	    // If we got here, we didn't redirect. So we make a note that we should
+	    // write out the object/embed tags later.
+	    hasRightVersion = true;                
+	  } else {  
+	    // The user doesn't have a new enough version.
+	    // If the redirection option is on, load the appropriate alternate page.
+	    if (useRedirect) {
+	      // Do the same .replace() call only if js1.1+ is available.
+	      if(jsVersion > 1.0) {
+	        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+	      } else {
+	        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+	      }
+	    }
+	  }
+	}
+	
+	detectFlash();  // call our detector now that it's safely loaded.  
+	  
+	// -->
+	</script>
+
+	
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="En">
+<head>
+	
+<title>:: The Glasgow School of Art :: - Media Releases</title>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+	
+<meta name="keywords" content="gsa, glasgow school of art, glasgow, art school, fine art, photography, graphic design, charles rennie mackintosh, c r mackintosh, architecture, architect, digital design studio, dds, ceramics, art, design, interior design, product design, product design engineering, silversmithing, jewellery, textiles, visual communications, research, enterprise, centre for advanced textiles, cat, c.a.t., idri, i.d.r.i, mearu, m.e.a.r.u., mackintosh shop, drawing institute, mphil, phd, ma, 2d, 3d, motion graphics, m.des, mdes, textiles as fashion, fashion, fashion design, ">
+
+	
+<script language="JavaScript">
+	<!--
+	function openPage(theURL) {
+	  window.open(theURL,'printPane','status,width=525,height=330,scrollbars=yes');
+	}
+	function openWindow(theURL) {
+	  window.open(theURL,'infoPane','width=400,height=500,scrollbars=yes');
+	}
+	// -->
+	</script>
+	
+<style>
+	td,a {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: none;
+	}
+	a:hover {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: underline;
+	}
+	</style>
+</head>
+
+
+
+
+<!--
+flash8template.swf
+-->
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" height="95%" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td valign="middle" align="center">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="420">
+            <tr> 
+  <td style="background-image: url(/images/flashbg/c6a00c-left.gif); background-repeat: no-repeat; background-position: right top;">&nbsp;</td>
+              <td valign="middle" width="760" align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="420">
+                        <param name="movie" value="flash8template.swf" />
+                        <param name="menu" value="false" />
+						<param name="FLASHVARS" value="pid=721&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=" /> 
+                      <param name="quality" value="high" />
+                      <embed src="flash8template.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="420" flashvars="pid=721&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=&preview="></embed></object></td>
+  <td style="background-image: url(/images/flashbg/c6a00c-right.gif); background-repeat: no-repeat; background-position: left top;">&nbsp;</td>
+            </tr>
+  <tr>
+		<td></td>
+  	<td><div style="padding-left: 666px; padding-top: 4px;"><a href="/gsa.cfm?pid=721&amp;nid=0&amp;sid=0&amp;criteria=&amp;version=html" style="font-size: 9px; font-family:Arial, Helvetica, sans-serif;">HTML VERSION</a></div></td>
+		<td></td>
+  </tr>
+          </table>
+		</td>
+  </tr>
+
+</table>
+
+
+
+<div style="display: none; height: 1px; width: 1px; overflow: hidden;">
+
+
+
+
+	
+
+	
+		
+
+		
+		
+		
+			
+		
+
+		<h2>MEDIA RELEASES</h2><p>Our media releases are a key resource about events and activities at The Glasgow School of Art.  All media releases are available in PDF format.  For further information please contact the <a href="mailto:press@gsa.ac.uk" target="">Press Officer</a>, Rosy Matheson on 0141 353 4443.</p><p><b>May 07</b><br /><a href="\downloads\press_releases\current\likethatonlypress.doc" target=""><u>Like That Only Press Release</u></a><br /><a href="\downloads\press_releases\current\like_that MEENA KADRI.jpg" target="new window"><u>lmage</u></a><a href="\downloads\press_releases\current\like_that MEENA KADRI.jpg" target=""><u> - </u></a><a href="\downloads\press_releases\current\like_that MEENA KADRI.jpg" target="_blank"><u>M</u></a><a href="\downloads\press_releases\current\like_that MEENA KADRI.jpg" target=""><u>EENA KADRI</u></a><br /><a href="\downloads\press_releases\current\Tamil Portrait STEVE RIGLEY.pdf" target="_blank"><u>T</u></a><a href="\downloads\press_releases\current\Tamil Portrait STEVE RIGLEY.pdf" target="new window"><u>amil Portrait STEVE RIGLEY</u></a><br /><a href="\downloads\press_releases\current\english of india MEENA KADRI.jpg" target="new window"><u>En</u></a><a href="\downloads\press_releases\current\english of india MEENA KADRI.jpg" target=""><u>glish of India MEENA KADRI</u></a><br /><a href="\downloads\press_releases\current\raj kumar poster MEENA KADRI.jpg" target="new window"><u>raj kumar poster MEENA KADRI</u></a><br /><a href="\downloads\press_releases\current\Republic of Place press.doc" target=""><u>Republic of Place Press Release</u></a><br /><a href="\downloads\press_releases\current\republic 1.jpg" target=""><u>Republic of Place 1</u></a><br /><a href="\downloads\press_releases\current\republic 2.jpg" target=""><u>Republic of Place 2</u></a><br /><a href="\downloads\press_releases\current\republic 3.jpg" target=""><u>Republic of Place 3</u></a><br /><a href="\downloads\press_releases\current\republic 4.jpg" target=""><u>Republic of Place 4</u></a><br /><a href="\downloads\press_releases\current\republic 5.jpg" target=""><u>Republic of Place 5</u></a><br /><a href="\downloads\press_releases\current\republic 6.jpg" target=""><u>Republic of Place 6</u></a><br /><b>April 07</b><br /><a href="\downloads\press_releases\current\PRESS RELEASE - VIRTUAL FINAL 2.PDF" target=""><u>Press Conference - 27.04.07   </u></a><br /><a href="\downloads\press_releases\current\chroma press document.doc" target="_blank"><u>C</u></a><a href="\downloads\press_releases\current\chroma press document.doc" target=""><u>hroma</u></a><br /><a href="\downloads\press_releases\current\PILAR AGUECI.jpg" target="_blank"><u>P</u></a><a href="\downloads\press_releases\current\PILAR AGUECI.jpg" target="new window"><u>ILAR AGUECI</u></a><br /><a href="\downloads\press_releases\current\Jacqui Toher.jpg" target="_blank"><u>J</u></a><a href="\downloads\press_releases\current\Jacqui Toher.jpg" target=""><u>acqui Toher</u></a><br /><a href="\downloads\press_releases\current\Suzanne Smith.jpg" target=""><u>Suzanne Smith</u></a></p><p><b>March 07</b><br /><a href="\downloads\press_releases\current\Fleeting Arcadias press release.pdf" target=""><u>Fleeting Arcadias Exhibition</u></a><br /><a href="\downloads\press_releases\current\PRESS RELEASE - FASHION 07 - FINAL.pdf" target=""><u>Fashion Show</u></a><br /><a href="\downloads\press_releases\current\RIBA.pdf" target=""><u>Visualisations of the 21st Century City - RIBA</u></a></p><p><b>February 07</b><br /><a href="\downloads\press_releases\current\filling the mud with twilight press document.pdf" target=""><u>Filling The Mud With Twilight Ceramics Exhibition</u></a><br /><a href="\downloads\press_releases\current\benben jpg.jpg" target=""><u>"Benben has only one pair of chopsticks 2006" image</u></a><br /><a href="\downloads\press_releases\current\Wendy Kershaw 2.jpg" target=""><u>Wendy Kershaw 2.jpg</u></a><br /><a href="\downloads\press_releases\current\Wendy Kershaw 3.jpg" target=""><u>Wendy Kershaw 3.jpg</u></a><br /><a href="\downloads\press_releases\current\Wendy Kershaw 4.jpg" target=""><u>Wendy Kershaw 4.jpg</u></a><br /><a href="\downloads\press_releases\current\Wendy Kershaw 5.jpg" target=""><u>Wendy Kershaw 5.jpg</u></a><br /><a href="\downloads\press_releases\current\Wendy Kershaw 6.jpg" target=""><u>Wendy Kershaw 6.jpg</u></a></p><p><b>January 07</b><br /><a href="\downloads\press_releases\current\The mystery of how.pdf" target="_blank"><u>The Mystery of How Exhibition</u></a><br /><a href="\downloads\press_releases\current\Natalie McLeod 2006.jpg" target=""><u>The Mystery of How Image</u></a><br /><a href="\downloads\press_releases\current\Mystery of how 2.jpg" target=""><u>The Mystery of How Image</u></a><br /><a href="\downloads\press_releases\current\Mystery of how 3.jpg" target=""><u>The Mystery of How Image 3.jpg</u></a><br /><a href="\downloads\press_releases\current\Mystery of how 4.jpg" target=""><u>The Mystery of How Image 4.jpg</u></a><br /><a href="\downloads\press_releases\current\Mystery of how 5.jpg" target=""><u>The Mystery of How Image 5.jpg</u></a><br /><a href="\downloads\press_releases\current\Mystery of how 6.jpg" target=""><u>The Mystery of How Image 6.jpg</u></a><br /><a href="\downloads\press_releases\current\Mystery of how 9.jpg" target=""><u>The Mystery of How Image 7.jpg</u></a><br /><a href="\downloads\press_releases\current\Mystery of how 8.jpg" target=""><u>The Mystery of How Image 8.jpg</u></a></p><p><a href="\downloads\press_releases\current\Erich Mendelsohn Press Release.pdf" target=""><u>Erich Mendelsohn</u></a><br /><a href="\downloads\press_releases\current\Mendelsohn_Einstein Tower Potsdam.jpg" target=""><u>Erich Mendelsohn Image</u></a><br /><a href="\downloads\press_releases\current\PRESS RELEASE - MILLION - FINAL.pdf" target=""><u>Charitable Trusts Donate More Than &pound;1m </u></a></p><p><b>December 06</b><br /><a href="\downloads\press_releases\current\PR - F - PROMENADE.pdf" target=""><u>Fashion Masters</u></a><br /><a href="\downloads\press_releases\current\Christmas Sale.pdf" target=""><u>Christmas Sale</u></a></p><p><b>November 06</b><br /><a href="\downloads\press_releases\current\clark fyfe.pdf" target=""><u>Bequest</u></a><br /><a href="\downloads\press_releases\current\GSA-Briggait (3).pdf" target=""><u>Heritage Lottery Funding</u></a></p><p><b>October 06</b><br /><a href="\downloads\press_releases\current\PRESS RELEASE - F - Simon Starling.pdf" target=""><u>Simon Starling to lecture at the GSA's Friday Event</u></a><br /><a href="\downloads\press_releases\current\back to the drawing board press.pdf" target=""><u>Back to the drawing board</u></a></p><p><b>September 06</b><br /><a href="\downloads\press_releases\current\NRAnnouncement.pdf" target=""><u>Gillespie, Kidd and Coia Funding Announcement</u></a><br /><a href="\downloads\press_releases\current\Out of the Blue Press.pdf" target=""><u>Out of the Blue Exhibition</u></a></p><p><b>August 06</b><br /><a href="\downloads\press_releases\current\MR Mackintosh Drawings.pdf" target=""><u>Mackintosh Drawings </u></a></p><p><b>July 06</b><br /><a href="\downloads\press_releases\current\MRRoskilde.pdf" target="new window"><u>MFA exhibits at Roskilde</u></a></p><p><b>May 06</b><br /><a href="\downloads\press_releases\current\DEGREE SHOW 2006.PDF" target=""><u>Degree Show 2006</u></a><br /><a href="\downloads\press_releases\current\NRShottenkirk.pdf" target="new window"><u>New Head of MFA appointed</u></a><br /><a href="\downloads\press_releases\Dena Shottenkirk.jpg" target="new window"><u>Image of Dena Shottenkirk</u></a><br /><a href="\downloads\press_releases\current\MRINTERIM.pdf" target=""><u>Interim MFA</u></a><br /><a href="\downloads\press_releases\current\Kaleidoscope press.pdf" target=""><u>Kaleidoscope </u></a><br /><a href="\downloads\press_releases\current\mette sondergaard.pdf" target=""><u>Mette Juul Sondergaard</u></a></p><p><b>April 06</b><br /><a href="\downloads\press_releases\current\William Kentridge PR.pdf" target=""><u>William Kentridge</u></a></p><p><b>March 06</b><br /><a href="\downloads\press_releases\current\JOSEPH'S PRESS RELEASE.PDF" target=""><u>The Bakery  </u></a><br /><a href="downloads\press_releases\current\shortcut to _Users _Caitgould\me.gif" target=""><u>Bakery Photo</u></a><br /><a href="http://www.sie.ac.uk/pages/news_article.php?newsID=39" target="new page"><u>GSA Students win SIE National Business Plan Competition</u></a> (please note this link takes you to the SIE website)<br /><a href="\downloads\press_releases\current\PRESS RELEASE - PDF - FASHION MEETS FILM.pdf" target=""><u>Fashion Meets Film</u></a><br /><a href="\downloads\press_releases\current\HELENSBURGH.pdf" target=""><u>Designs on Helensburgh</u></a></p><p><b>February 06</b><br /><a href="/downloads/press_releases/current/hiscox workshop.pdf" target="new window"><u>The Art of a Good Workshop</u></a><br /><a href="/downloads/press_releases/current/art in the land.pdf" target="new window"><u>Art in the Land</u></a><br /><a href="\downloads\press_releases\current\jerwood 2006.pdf" target="new window"><u>Jerwood Prize 2006</u></a><br /><a href="\downloads\press_releases\J Losq Jerwood Prize.jpg" target="new window"><u>Jerwood Prize 2006 - First Prize Winner: Juliette Losq 'We are the fiction of the vanished lives and buildings' </u></a></p><p><b>January 06</b><br /><a href="\downloads\press_releases\current\Glenfiddich.pdf" target="new window"><u>Glenfiddich Artist in Residence</u></a> (please note this press release is issued by Glenfiddich/New Century PR)<br /><a href="\downloads\press_releases\current\DDS AHRC.pdf" target="new window"><u>Bringing the British Empire Exhibition to life </u></a><br /><a href="\downloads\press_releases\current\GP Award 2006.pdf" target="new window"><u>Gillian Purvis Trust Award</u></a> (please note this press release is issued by the Gillian Purvis Trust)<br /><a href="\downloads\press_releases\current\Interactive.pdf" target="new window"><u>Interactive Architecture Exhibition</u></a></p><p><b>December 05</b><br /><a href="http://www.tate.org.uk/home/press/2005/turner_prize_winner_05-12-05.htm" target="new window"><u>Simon Starling wins the Turner Prize 2005</u></a> (please note this press release is issued by the Tate)<br /><a href="\downloads\press_releases\current\historic scotland 2.pdf" target="new window"><u>Historic Scotland Award GSA &pound;250,000 for Mackintosh Project</u></a> (please note this press release is issued by Historical Scotland)<br /><a href="http://www.gla.ac.uk:443/newsdesk/stories.cfm?PRID=3729" target="new window"><u>Glasgow's Poet Laureate to take up writer-in-residence post</u></a> (please note this link takes you to the Glasgow University website)</p><p><b>November 05</b><br /><a href="\downloads\press_releases\current\students with style.pdf" target="new window"><u>Students with Style</u></a><br /><a href="\downloads\press_releases\current\3motion.pdf" target="new window"><u>3Motion</u></a><br /><a href="\downloads\press_releases\current\Ross Birrell.pdf" target="new window"><u>Artist Honours Boxing Legend</u></a> (issued by The Art Works Programme)<br /><a href="\downloads\press_releases\current\Games.pdf" target="new window"><u>Abram Games</u></a><br /><a href="\downloads\press_releases\Games.jpg" target="new window"><u>Abram Games Image</u></a><br /><a href="\downloads\press_releases\current\1999Medal.pdf" target="new window"><u>6 GSA graduates on 1999 Medal short list</u></a> (please note this press release has been issued by The Lighthouse)</p><p><b>October 05</b><br /><a href="\downloads\press_releases\current\Natural Produce.pdf" target="new window"><u>Natural Produce</u></a></p><p><b>September 05</b><br /><a href="\downloads\press_releases\current\heeps_press_release.pdf" target="new window"><u>Ronnie Heeps Mount Orgueil Castle Paintings</u></a><br /><a href="\downloads\press_releases\current\China Programme.pdf" target="new window"><u>GSA Welcomes first students on China Programme</u></a><br /><a href="\downloads\press_releases\current\Clydesdale Bank 2005.pdf" target="new window"><u>Clydesdale Bank Art for All</u></a></p><p><b>August 05</b><br /><a href="\downloads\press_releases\current\mexico.pdf" target="new window"><u>Sensacional! Mexican Street Graphics</u></a></p><p><b>July 05</b><br /><a href="\downloads\press_releases\current\Things Unhappen.pdf" target="new window"><u>Things Uphappen</u></a></p><p><b>June 05</b><br /><a href="\downloads\press_releases\current\HLF.pdf" target="new window"><u>GSA Secures major HLF grant for Mackintosh Building</u></a><br /><a href="\downloads\press_releases\current\Under Wraps.pdf" target="new window"><u>Under Wraps</u></a><br /><a href="\downloads\press_releases\current\Design School.pdf" target="new window"><u>Design Leader Appointed new Head of School of Design</u></a><br /><a href="\downloads\press_releases\current\MFA2005.pdf" target="new window"><u>Hiscox MFA Degree Show 2005</u></a><br />A selection of images for the Hiscox MFA Degree Show 2005 can be found in the Image Bank located <a href="http://www.gsa.ac.uk/imagebank" target="new window">here</a></p><p><b>May 05</b><br /><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u>New Talent - Degree Show 2005</u></a><br /><a href="\downloads\press_releases\current\Interim MFA 2005.pdf" target="new window"><u>Interim MFA 2005</u></a></p><p><b>April 05</b><br /><a href="\downloads\press_releases\current\santa.pdf" target="new window"><u>Anti-Santa Billboard Launched</u></a><br /><a href="\downloads\press_releases\santa poster.gif" target="new window"><u>Anti-Santa - image (gif file)</u></a><br /><a href="\downloads\press_releases\current\Wallace Award.pdf" target="new window"><u>Wallace Award for GSA Hon. Vice President</u></a><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u> (please note this is issued by Rubenstein Associates New York)</u></a><br /><a href="/downloads/press_releases/current/Fine Art Auction.pdf" target="new window"><u>Miniature Masterpieces</u></a><br /><a href="/downloads/press_releases/howson.psd" target="new window"><u>Miniature Masterpieces - image</u></a><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u> (psd file)</u></a></p><p><b>March 05</b><br /><a href="/downloads/press_releases/current/campbell soup.pdf" target="new window"><u>Campbell's Soup</u></a><br /><a href="\downloads\press_releases\Steven Campbell.jpg" target="new window"><u>Image for Campbell's Soup Exhibition</u></a><br /><a href="\downloads\press_releases\current\Maker Wearer Viewer.pdf" target="new window"><u>Maker Wearer Viewer</u></a></p><p><b>February 05</b><br /><a href="\downloads\press_releases\current\Fashion Show 2005.pdf" target="new window"><u>Rip it up and start again - Fashion Show 2005</u></a><br /><a href="\downloads\press_releases\Fashion Show 2005 Image 1.jpg" target="new window"><u>Image 1 - Fashion Show 2005</u></a><br /><a href="\downloads\press_releases\Fashion Show 2005 Image 2.jpg" target="new window"><u>Image 2 - Fashion Show 2005</u></a><br /><a href="\downloads\press_releases\current\One Scotland.pdf" target="new window"><u>One Scotland Campaign</u></a><br /><a href="\downloads\press_releases\one scotland image.jpg" target="new window"><u>Image - One Scotland</u></a><br /><a href="/downloads/press_releases/current/campbell soup.pdf" target="new window"><u>Campbell's Soup</u></a><br /><a href="/downloads/press_releases/current/artist in residency.pdf" target="new window"><u>GSA Graduates becomes Artist in Residence</u></a><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u> (please note this Press Release is issued by New Century PR)</u></a></p><p><b>January 05</b><br /><a href="\downloads\press_releases\current\GSA CAFA.pdf" target="new window"><u>GSA Plans Unique International Collaboration</u></a><br /><a href="\downloads\press_releases\Professor Seona Reid with Chinese student at the GSA.jpg" target="new window"><u>Image 1 - Prof. Seona Reid with current GSA student from China</u></a><br /><a href="\downloads\press_releases\Professor Seona Reid with two current GSA students from China.jpg" target=""><u>Image2 - Prof. Seona Reid with two current GSA students from China</u></a><br /><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u>Please credit all images Alan McAteer, McAteer Photograph and The Glasgow School of Art</u></a></p><p><b>December 04</b><br /><a href="\downloads\press_releases\current\NRSIE.pdf" target="new window"><u>GSA Students Scoop SIE Big Ideas Award</u></a><br /><a href="\downloads\press_releases\current\Textiles as Fashion Show.pdf" target="new window"><u>Textiles as Fashion Show</u></a><br /><a href="\downloads\press_releases\current\Mary Campbell1.jpg" target="new window"><u>Textiles as Fashion - Image - Mary Campbell</u></a><br /><a href="\downloads\press_releases\current\Mary Campbell2.jpg" target="new window"><u>Textiles as Fashion - Image - Mary Campbell</u></a></p><p><b>November 04</b><br /><a href="\downloads\press_releases\current\Beagles and Ramsay.pdf" target="new window"><u>Bealges and Ramsay: Unrealised Dreams </u></a></p><p><b>October 04</b><br /><a href="/downloads\press_releases\current\Silversmith Award.pdf" target="new window"><u>GSA student is UK Young Silversmith of the Year 2004</u></a><br /><a href="/downloads\press_releases\current\Open Day 2004.pdf" target="new window"><u>Open Day 2004</u></a><br /><a href="/downloads\press_releases\current\Art for All Project.pdf" target="new window"><u>Clydesdale Bank Art for All Exhibition </u></a><br /><a href="\downloads\press_releases\current\MFA in NY.pdf" target="New window"><u>Master of Fine Art exhibits in New York</u></a><br /><a href="\downloads\press_releases\current\Artists.pdf" target="new window"><u>Artists also working in the medium of education and management</u></a></p><p><b>September 04</b><br /><a href="\downloads\press_releases\current\Kathleen Mann.pdf" target="new window"><u>Kathleen Mann: embroiderer, artist, teacher and author - an exhibition of work</u></a></p><p><b>August 04</b><br /><a href="\downloads\press_releases\current\Insight Out.pdf" target=""><u>Designing new creative businesses for Glasgow</u></a><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u> (please note this press release is issued by NESTA)</u></a><br /><a href="\downloads\press_releases\GSA Achievements 04.pdf" target="new window"><u>GSA Successes 2003/4</u></a><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u> - a list of our student, alumni and staff successes from the past year</u></a></p><p><b>July 04</b><br /><a href="\downloads\press_releases\current\terranova2.pdf" target="new window"><u>Terra Nova II</u></a><br /><a href="\downloads\press_releases\current\trotter exhibition.pdf" target="new window"><u>New York, Glasgow: From the Crowd</u></a><br /><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u>Images for Press Release New York, Glasgow: From the Crowd</u></a><br /><a href="\downloads\press_releases\R.Trotter -Images 005.jpg" target="new window"><u>Image 1</u></a><br /><a href="\downloads\press_releases\R.Trotter -Images 013.jpg" target="new window"><u>Image 2</u></a></p><p><b>May 04</b><br /><a href="\downloads\press_releases\current\Degree Show 04 pr.pdf" target="_blank"><u>Annual Degree Shows Approach</u></a></p><p><b>April 04</b><br /><a href="\downloads\press_releases\current\Allan Walker.pdf" target="_blank"><u>GSA welcomes new Deputy Director</u></a><br /><a href="\downloads\press_releases\current\Port Vendres2.pdf" target="_blank"><u>GSA takes Mackintosh abroad</u></a><br /><a href="\downloads\press_releases\current\ABSA nomination for Art for All.pdf" target="_blank"><u>Art for All gets ABSA nomination</u></a><br /><a href="\downloads\press_releases\current\Fashion Show2.pdf" target="_blank"><u>Fashion comes home to the GSA</u></a></p><p><b>March 04</b><br /><a href="\downloads\press_releases\current\Response to Times Article.pdf" target="_blank"><u>GSA Response to Sunday Times article</u></a><br /><a href="\\www1\GSAWebAdmin$\downloads\press_releases\current\Press ReleaseHiscox.pdf" target="new window"><u>Three year support for MFA from leading insurance underwriters</u></a><br /><a href="\downloads\press_releases\current\Jack Cunningham.pdf" target="_blank"><u>GSA lecturer has prestigious Paris exhibition</u></a><br /><a href="\downloads\press_releases\current\MFA Mexico.pdf" target="_blank"><u>MFA Glasgow fly to Mexico to exhibit at premier venue</u></a><br /><a href="\downloads\press_releases\current\Godollo tapestries.pdf" target="_blank"><u>Work from groundbreaking artists' colony on show at the GSA</u></a></p><p><b>February 04</b><br /><a href="\downloads\press_releases\current\Brian Cairns Feb 04.pdf" target="new window"><u>Good as gold for GSA staff member</u></a><br /><a href="\downloads\press_releases\current\CAFA- GSA project press1.pdf" target="_blank"><u>GSA has new partnership with premier Chinese art school</u></a><br /><a href="\downloads\press_releases\current\Ken Garland.pdf" target="new window"><u>Atrium Gallery hosts exhibition of work by design legend</u></a><br /><a href="\downloads\press_releases\current\Art for All workshops.pdf" target="new window"><u>Clydesdale Bank and The Glasgow School of Art take Art to All</u></a></p><p><b>January 04</b><br /><a href="downloads\press_releases\current\Jerwood Prize 2003.pdf" target="new window"><u>Jerwood Prize 2003 comes to The Glasgow School of Art</u></a><br /><a href="/downloads/press_releases/current/GSA Response to Herald Article.pdf" target="new window"><u>GSA Response to Herald Article "Fears for school of art by Mackintosh"</u></a><br /><a href="/downloads/press_releases/current/100% Cotton.pdf" target="_blank"><u>Latest exhibition at GSA is 100% design</u></a></p><p><b>December 03</b><br /><a href="/downloads/press_releases/current/AKA event.pdf" target="new window"><u>GSA hosts one off event for 4/4 Exhibition</u></a></p><p><b>November 03</b><br /><a href="/downloads/press_releases/current/USFuture of HESpeech Nov2003.pdf" target="new window"><u>Speech by Professor Seona Reid at Universities Scotland Conference</u></a><br /><a href="/downloads/press_releases/current/Clydesdale Bank.pdf" target="_blank"><u>Art for All at The Glasgow School of Art</u></a><br /><a href="\downloads\press_releases\current\Cove Park.pdf" target="_blank"><u>Art and Science collide at Cove Park</u></a></p><p><b>October 03</b><br /><a href="http://www.gsa.ac.uk/downloads/press_releases/current/auction.pdf" target="new window"><u>The GSA Speaks UP for Future Students with Silent Auction</u></a><br /><a href="http://www.gsa.ac.uk/downloads/press_releases/current/davies.pdf" target="new window"><u>New Board Member for the GSA</u></a></p><p><b>September 03</b><br /><a href="\downloads\press_releases\current\Jeanne Tan pr.pdf" target="_blank"><u>Fashion first PhD at the GSA</u></a></p><p><b>August 03</b><br /><a href="/downloads/press_releases/current/Dickon Robinson pr.pdf" target="new window"><u>Architectural Leading Light made Visiting Professor at the GSA</u></a><br /><a href="/downloads/press_releases/current/Bruce Hamilton pr.pdf" target="new window"><u>GSA commissions replica Mackintosh chairs</u></a><br /><a href="/downloads/press_releases/current/Glasgow and Israel.pdf" target="new window"><u>Art students from Glasgow and Jerusalem involved in pilot summer school project</u></a></p><p><b>July 03</b><br /><a href="/downloads/press_releases/current/Summer School 2003.pdf" target="new window"><u>GSA Summer School Starts Up</u></a></p><p><b>June 03</b><br /><a href="/downloads/press_releases/current/Robert Stewart Design 1946 - 95.pdf" target="new window"><u>Robert Stewart Retrospective: A Pioneering Influence at The Glasgow School of Art</u></a><br /><a href="\downloads\press_releases\current\Degree Show 05.pdf" target="new window"><u>GSA Degree Show 03</u></a></p><p><b>May 03</b><br /><a href="/downloads/press_releases/current/MFA Exhibition and Auction.pdf" target="new window"><u>MFA Interim exhibition open for on-line auction</u></a></p><p><b>April 03</b><br /><a href="/downloads/press_releases/current/Lucienne Day.pdf" target="new window"><u>The Glasgow School of Art hosts exhibition of Design Pioneer</u></a></p><p><b>March 03</b><br /><a href="http://194.81.29.195/downloads/press_releases/current/Fashion Show 2003.pdf" target="_blank"><u>G</u></a><a href="/downloads/press_releases/current/Fashion Show 2003.pdf" target="_blank"><u>SA</u></a><a href="http://194.81.29.195/downloads/press_releases/current/Fashion Show 2003.pdf" target="_blank"><u> Students Fashion the Futu</u></a><a href="/downloads/press_releases/current/Fashion Show 2003.pdf" target="_blank"><u>re</u></a></p><p><b>February 03</b><br /><a href="http://194.81.29.195/downloads/press_releases/current/Dickon Robinson.pdf" target="_blank"><u>Architectural Leading Light made Visiting Professor at the GSA</u></a></p><p><b>January 03</b><br /><a href="/downloads/press_releases/archive/16.01.03.doc" target="_blank"><u>Pioneering Glasgow School of Art programmes pivotal in leading international arts scene</u></a><br /><a href="/downloads/press_releases/archive/14.01.03.doc" target="_blank"><u>Jerwood Drawing Prize Exhibition </u></a><br /><a href="/downloads/press_releases/archive/13.01.03.doc" target="_blank"><u>Cutting Edge Future at The Glasgow School of Art </u></a><br /><a href="/downloads/press_releases/archive/07.01.03.doc" target="_blank"><u>GSA graduate only European winner of place on prestigious design programme</u></a></p><p><b>November 02</b><br /><a href="/downloads/press_releases/archive/13.11.02.doc" target="_blank"><u>Friends come together at The Glasgow School of Art</u></a><br /><a href="/downloads/press_releases/archive/12.11.02.doc" target="_blank"><u>Clydesdale Bank and The Glasgow School of Art make it Art for All</u></a></p><p><b>October 02</b><br /><a href="/downloads/press_releases/archive/17.10.02.doc" target="_blank"><u>Open Doors at The Glasgow School of Art</u></a><br /><a href="/downloads/press_releases/archive/15.10.02.doc" target="_blank"><u>Glasgow School of Art lead at launch of new science and industry network</u></a><br /><a href="/downloads/press_releases/archive/08.10.02.doc" target="_blank"><u>Speak English: Lubaina Himid &amp; Maud Sulter</u></a><br /><a href="/downloads/press_releases/archive/03.10.02.new.doc" target="_blank"><u>New Head of Fine Art for The Glasgow School of Art</u></a><br /><a href="/downloads/press_releases/archive/03.10.02.memory.doc" target="_blank"><u>Memory Language: Contemporary and Historical Language made Visible</u></a></p><p><b>September 02</b><br /><a href="/downloads/press_releases/archive/27.09.02.doc" target="_blank"><u>Talacchanda exhibition opens at Tramway</u></a><br /><a href="/downloads/press_releases/archive/03.09.02.doc" target="_blank"><u>Ken Currie - Recent Work</u></a><br /><a href="/downloads/press_releases/archive/31.05.02.doc" target="_blank"><u>Glasgow Art School have it all wrapped up</u></a><br /><a href="/downloads/press_releases/archive/09.05.02.doc" target="_blank"><u>Unique Design Competition Brings Fans to Glasgow</u></a><br /><a href="/downloads/press_releases/archive/08.04.02.doc" target="_blank"><u>Life-Lines:  a celebration of drawing from Life</u></a><br /><a href="/downloads/press_releases/archive/07.03.02.doc" target="_blank"><u>Glasgow School of Art MFA course attracts top artists' support</u></a></p>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+	
+
+
+
+wbot.

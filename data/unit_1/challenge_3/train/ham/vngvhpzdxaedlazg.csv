@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+
+// -->
+
+</script>
+<center>
+<a name=top></a><p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<img src=images/40v.gif><br>
+<table width=90%>
+<tr>
+<td>
+<h2 align=center>Basic Conventions for Transcription</h2>
+<p>
+<img src=images/10v.gif><br>
+Conventions of presentation are required to enable you accurately to represent a manuscript text, either for your own record, or when you quote from a manuscript source in scholarly work.  Unless you never work without a computer you should develop a set of conventions which work both within a word processor and in your own handwriting.  <strong>A transcription is not an edition</strong>; its aim is to record the appearance of the text in the manuscript.  The conventions given here are guidelines; in many cases there is a choice.
+<p>
+Our discussion below is in parts necessarily fairly technical, and will likely require application and regular resort before it can be properly digested. It is divided into a number of sections: (i) <a href=#contractions>Contraction and Abbreviation</a>, (ii) <a href=#scripts>Different Scripts</a>, (iii) <a href=#letterforms>Letter Forms to Look Out For</a>, (iv) <a href=#punctuation>Punctuation Marks to Look Out For</a>, (v) <a href=#advice>Advice on Conventions</a>, and (vi) <a href=#suggestions>Suggested Conventions</a>. The beginner will want to take in as much as possible at a first reading, and then return to this guide again after some experience with manuscripts. The <a href=#suggestions>Suggested Conventions</a>, in particular, should prove abidingly useful.
+<p>
+<center><font size=-1>[<a href=pdf/conventions.pdf target="_new">Download this document</a> as a PDF file]</font></center>
+<p>&nbsp;<p>
+<img src=images/20v.gif><br>
+<a name=contractions></a>
+<strong>CONTRACTION AND ABBREVIATION</strong><p>
+The two standard methods of abbreviation are <i>contraction</i>, the omission of medial letters (e.g. <i>can't</i> for 'cannot' or <i>Dr</i> for 'Doctor'); and <i>suspension</i>, the omission of terminal letters (e.g. <i>etc.</i> for 'et cetera', L. 'and the rest'). In addition to these ancient methods, early modern scribes used a host of special marks to make writing more efficient, and as tools facilitating right-justification of text. The most important of these common practices are discussed below.
+<p>
+<blockquote>
+<strong>superscript</strong> characters, often a form of contraction which may imply preceding omitted characters, as in <i>w<sup>ch</sup></i> for 'which'. Other common contractions of this type include <i>y<sup>r</sup></i> for 'your' or 'yowr'; <i>S<sup>r</sup></i> for 'Sir' and <i>M<sup>r</sup></i> for 'Master'; <i>w<sup>t</sup></i> or <i>w<sup>th</sup></i> for 'with' (and <i>w<sup>th</sup>out</i> for 'without'); <i>ma<sup>ty</sup></i> for 'maiesty' or <i>ma<sup>ties</sup></i> for 'maiesties'; and words ending in <i>-m<sup>t</sup></i> for '-ment', such as <i>gouernem<sup>t</sup></i> for 'gouernement' or <i>parliam<sup>t</sup></i> for 'parliament'. There are many others, which to some degree may depend on the idiosyncrasies of the scribe; make sure that, wherever possible, your expansions are consistent with the scribe's own orthographical habits (such as expanding <i>yo<sup>r</sup></i> as 'yowr' when the scribe prefers vocalic <i>w</i> to <i>u</i>).
+<p>
+<strong>brevigraphs</strong>, such as '&' (or other characters meaning the same) for <i>and</i> or Latin <i>et</i> (as in '&c.' for <i>etc.</i>). The most important of such forms is the terminal <i>-es</i> graph, which generally indicates the plural ending 'es', but which can also, depending on the scribe's orthographical preferences, call for 'is', 'ys', or even just 's' (in later usage, for example, you may see an <i>-es</i> graph attached to a word already ending in <i>e</i>,  such as 'house'; in this case, it would of course be ridiculous to transcribe the word as 'housees'). Another fairly common graph is the 'sur' abbreviation, which resembles German <i>scharfes s</i>, &#223;; this usually appears in initial position and can represent 'sur', 'ser', 'sir', 'sar', or even 'sor'. A common graph in theological manuscripts is majuscule <i>X</i> (really Greek <i>chi</i>) for 'Christ-' in such words as 'Christian' or 'Christianity' (this is, of course, the ancestor of modern ad-speak, 'Xmas'). 
+<p>
+<strong>tildes</strong>, generally implying omitted letters, as in the suspended form <i>occasi&#245;</i> for 'occasion'. Most often tildes stand in for missing (particularly a doubled) <i>m</i> or <i>n</i>, as in <i>m&#227;ne</i>, <i>s&#251;me</i>, or <i>beg&#238;n(e)</i>; in this usage, it is important to remember, too, that many scribes continued to use tildes in such instances through force of habit, and the supplying of a letter may often not make sense in a local context, or will turn out to be inconsistent with the way the same scribe spells the same word in other contexts (a tilde over the word <i>c&#245;me</i>, for example, often will not require expansion). A tilde can also indicate the need to supply a <i>vowel-t-vowel</i> combination in words with Latin roots, such as <i>r&#245;ne</i> for 'ratione' or 'lr&#227;' for 'litera' (a common derivative of which, in Elizabethan secretary hands, is <i>lr&#234;</i> for 'lettre'); in contexts where the writer prefers a <i>-c-</i> spelling to a <i>-t-</i> spelling, you will of course need to transcribe 'racione', etc. An important offshoot of this very formal type of tilde usage, which is much more commmon in the Elizabethan and Jacobean secretary/mixed hands, is the habit of using a tilde to replace the <i>i</i> after <i>t</i> or <i>c</i> in <i>-tion</i> or <i>-cion</i> endings; you will often see, for example, <i>reuocac&#245;n</i> or <i>instrucc&#245;n</i>, for which you should transcribe 'reuocacion' and 'instruccion'.
+<p>
+<strong><i>p</i> abbreviations</strong>:  a variety of ornamented <i>p</i> forms implying such syllables as <i>per, par, pre, prae, pro,</i> etc. In strict usage, there are important if subtle distinctions in the type of ornament applied to the <i>p</i>, each of which calls for a different syllabic expansion. The usual distinctions, imported into English usage from the Latin, depend on the nature of the crossbar applied to the descender of the <i>p</i>: if the bar is straight or convex, you are (probably) dealing with 'par' or 'per', whereas if the bar is concave, you are more likely to be looking at 'pro' or possibly 'pr(a)e'. 'Pre' in the Elizabethan secretary hand was most often rendered by <i>p</i> joined to a supralineal <i>r</i> loop (see below).
+<p>
+<strong>the <i>r</i> loop</strong>: a very common form of abbreviation appropriated from medieval Latin usage, often used in combination with <i>p</i> for the 'pre' syllable, and for 'er' in such contracted or suspended forms as 'uniuersitie', 'gouernement', and 'man(n)er'. Hector (<i>The Handwriting of English Documents</i>, p. 31) describes this supralineal mark of abbreviation as 'a backward curve terminating in a bold pendent comma', the form of which may often (especially in a rapid hand) be difficult to distinguish from superscript <i>r</i> in such abbreviations as <i>hono<sup>r</sup></i> or <i>colo<sup>r</sup></i>; in such instances, how you represent the expanded form in a semi-diplomatic transcription may boil down to a question of personal judgment, but you should strive, at the least, to be consistent in your practice.
+<p>
+<strong>other abbreviations</strong>:  e.g. superscript <i>li</i>, <i>s</i>, <i>d</i> for pounds, shillings, and pence (Latin <i>librae, solidi, denarii</i>); the <i>li</i> sign, sometimes crossed, was later formalised as the pound sign, £. It is fairly common, in words ending in <i>-aunt</i> or <i>-aunce</i>, to find that the 'a' or possibly the 'au' has been rendered above the line with a mark looking something like a <i>u</i> topped by a cross-stroke (really a fourteenth-century form of minuscule <i>a</i>, though sometimes reduced to nothing more than a serrated line); you may thus encounter examples such as <i>ten<sup>a</sup>nt</i> or <i>ten<sup>a</sup>unt</i>, which may be all the more difficult to recognize because the lineal forms of <i>u</i> and <i>n</i> are identical (i.e. a mass of minims). Other words commonly contracted in this way include 'graunt', 'gouernaunce', and 'maintenaunce'. There are a range of comparatively rare graphs, imported from medieval Latin, that stand in for syllables such as 'com'/'con', 'rum', 'ter', and 'us'; for the forms of these, see Petti (<i>English Literary Hands</i>), pp. 23-24. 
+
+</blockquote>
+<p>
+<center><font size=-1>[<a href=#top>Back to top.</a>]</font></center>
+<p>
+<img src=images/20v.gif><br>
+<a name=scripts></a>
+<strong>DIFFERENT SCRIPTS</strong><p>
+Scribes will often write in one script, with titles, headings, proper nouns, etc. emphasised by another script.  Typically, the text will be in secretary hand, with occasional use of italic.  In many cases, a third script, some sort of engrossing book hand, will be used for titles and headings.  It is important to distinguish these different scripts in your transcription.
+<p><center><font size=-1>[<a href=#top>Back to top.</a>]</font></center>
+<p>
+<img src=images/20v.gif><br>
+<a name=letterforms></a>
+<strong>LETTER FORMS TO LOOK OUT FOR</strong><p>
+<table width=100% cellspacing=10>
+<tr>
+<td width=10% valign=top>
+u/v, U/V	
+</td>
+<td width=90% valign=top>
+From the 1630s onwards, printers started to use the u letter-form (or 'graph') to denote the vowel, and the v graph to denote the consonant.  Before this time there was only one recognised letter of the alphabet, which could be written or printed in two ways.  This is why the letter w is not called 'double-v'.  Printers before the 1630s used v initially (at the start of a word) and u medially.  So <i>unto</i> was spelled 'vnto' and <i>even</i> was spelled 'euen'.  If you encountered 'uery' you might surmise that an initial e was missing from the word <i>every</i> since <i>very</i> would be spelled 'very'.  Practice in manuscript was never this consistent, with u and v graphs being used for both consonant and vowel, both initially and medially.  Ambiguities caused by this system can make life difficult for the student of early modern documents, though they could also be exploited, as with Shakespeare's use of the word 'proud' in sonnet 129 as printed in 1609, which is in the system then current both <i>proud</i> and <i>prov'd</i>.  It is important that you don't lose information by deciding too soon whether a u or v graph encountered is the vowel or consonant.  Your job in transcribing is to report exactly what is there in the manuscript, so u and v forms must be distinguished from each other and not silently or unconsciously brought into line with modern practice.
+</td>
+</tr><tr><td width=10% valign=top>
+i/j, I	
+</td><td width=90% valign=top>
+A different case is the letter j.  As late as the nineteenth century, some still insisted that it was just a variant form of the letter i, which could represent both a vowel and a consonant.  But many in our period tried to use the j form for a consonant and the i for a vowel.  Again, your job is to record what you see, which will in most cases be a letter i. In the first half of the period the only common occurrence of the j will be in sequences of roman numerals, where it was used terminally:  'xiij' for <i>xiii</i>.  As the period goes on, j-consonant (e.g. justice, rejoyce) becomes increasingly common.  Where upper-case (or 'majuscule') letters are concerned, there is only one letter form in manuscripts of this period, a capital I.  Though it will often look like a J, it should always be transcribed as 'I'.
+</td></tr><tr><td width=10% valign=top>
+y, <img src=images/thorn.gif align=top>	
+</td><td width=90% valign=top>
+The now obsolete letter <img src=images/thorn.gif align=top> (known as 'thorn') was still used in this period to represent a 'th' sound.  Most often it looks exactly like a y, and it is in this form that it is to this day misunderstood in countless establishments with names like 'ye olde tea shoppe'.  When you see 'yat' you are looking at '<img src=images/thorn.gif align=top>at' and should transcribe it as 'that', on the understanding that <img src=images/thorn.gif align=top> consistently represents 'th'.
+</td>
+</tr><tr>
+<td width=10% valign=top>
+-es	
+</td>
+<td width=90% valign=top>
+As described above, the terminal <i>-es</i> graph is very common; it looks like an outsize italic e, often descending well below the line.  It represents terminal 'es' (or, less commonly, 'is', 'ys', or simply 's') and should be transcribed as such.
+</td>
+</tr></table>
+<p><center><font size=-1>[<a href=#top>Back to top.</a>]</font></center>
+<p>
+
+<img src=images/20v.gif><br>
+<a name=punctuation></a>
+<strong>PUNCTUATION MARKS TO LOOK OUT FOR</strong><p>
+<table width=100% cellspacing=10>
+<tr>
+<td width=10% valign=top>
+/</td>
+<td width=90% valign=top>
+Known as a 'virgule' and used as we use a full-stop; it became largely obsolete in print in our period but was still used in manuscripts and should be recorded using the 'forward slash' character
+</td></tr><tr><td width=10% valign=top>
+"
+</td><td width=90% valign=top>
+You will not see inverted commas used as we use them, though you may see them used to mark memorable <i>sententia</i>.  You may occasionally see marks such as lunulae, ( ), used as we would use quotation marks
+</td></tr><tr><td width=10% valign=top>
+'	
+</td><td width=10% valign=top>
+The possessive apostrophe is not consistently used in this period.  Apostrophes begin to be used consistently to mark elision in poetry (monosyllabic <i>rais'd</i> versus disyllabic <i>raised</i>, more often in modern editions converted to <i>raised</i> and <i>rais&egrave;d</i> respectively), but in the earlier part of the period it is more usual simply to omit letters without marking them (<i>raisd</i> versus <i>raised</i>).  You will on occasion see apostrophes used (to our eyes incorrectly) for plurals.  Transcribe what is there and do not attempt to correct or regularise.
+</td></tr><tr><td width=10% valign=top>
+, : ; .	
+</td>
+<td width=90% valign=top>
+The rules for syntax were based on the classical period, a long sentence built on a hierarchy of three:  a single <strong>period</strong> divided into a number of large units called <strong>cola</strong> (<i>sing.</i> <strong>colon</strong>), themselves divided into <strong>commata</strong> (<i>sing.</i> <strong>comma</strong>).  The punctuation marks which we now name after these three syntactical units are often used to mark their divisions (what is called <strong>rhetorical punctuation</strong>), though most often rather unsystematically.  The semi-colon will also be seen, though much less often, and many manuscript writers punctuate very sparsely.  (As a rule, professional scribes and printers were more systematic than others.)  Again, you must transcribe what you see, with the understanding that not only is the system of punctuation different to that now in use, but also the system will be understood and applied differently, and indeed misunderstood and ignored, by different writers.
+</td>
+</tr><tr>
+<td width=10% valign=top>
+=	
+</td>
+<td width=90% valign=top>
+Often used as a hyphen; the simplest practice is to state that it has been replaced by '-'
+</td>
+</tr><tr>
+<td width=10% valign=top>
+ -
+</td><td width=90% valign=top>
+Various marks known as <strong>line-fillers</strong> will often be seen at the end of a line of prose in order to fill up blank space and give an illusion of right-justification.  These may be ignored.
+</td></tr></table>
+<p><center><font size=-1>[<a href=#top>Back to top.</a>]</font></center>
+<p>
+
+<img src=images/20v.gif><br>
+<a name=advice></a>
+<strong>ADVICE ON CONVENTIONS</strong><p>
+We teach <strong>semi-diplomatic transcription</strong>.  A <strong>diplomatic transcription</strong> copies everything it sees as it is, giving 'w<sup>ch</sup>' for 'w<sup>ch</sup>'.  A semi-diplomatic transcription makes a number of changes in the interests of clarity and readability, including, in this example, expanding 'w<sup>ch</sup>' to 'w<i>hi</i>ch'.  There follow a number of conventional methods of indicating what the transcriber has done, and some advice on good practice.
+<p>
+<table width=100% cellspacing=10>
+<tr><td width=10% valign=top><i>xxx</i></td>	
+<td width=90% valign=top>scribal contractions expanded and supplied letters italicised [strictly speaking a contraction is distinguished from a suspension in the larger family of abbreviations - contractions:  superscript, e.g. 'w<i>ith</i>' for 'w<sup>th</sup>' / tilde, e.g. 'in<i>n</i>ocent' for 'i&ntilde;ocent'; suspensions, e.g. 'occasio<i>n</i>' for 'occasi&#245;']</td></tr>
+
+<tr><td width=10% valign=top>[xxx]  <i>or</i>  &#139;xxx&#155;</td>	
+<td width=90% valign=top>supplied by editor [letters omitted without mark of contraction, e.g. '-con' for -cion; also letters omitted by mistake, and punctuation supplied by transcriber if absolutely necessary]</td></tr>
+
+<tr><td width=10% valign=top>{...}</td>	
+<td width=90% valign=top>letters lost through blot, or cropped page, or illegible [supply text, or number of dots = number of lost letters]</td></tr>
+
+<tr><td width=10% valign=top>&#139;xxx&#155;  <i>or</i>  [xxx]</td>	
+<td width=90% valign=top>text deleted in MS [again, supply the text if possible, or dots for letters]</td></tr>
+
+<tr><td width=10% valign=top><img src=images/openb.gif align=top>xxx<img src=images/closeb.gif align=top>  <i>or</i>  \xxx/</td>
+<td width=90% valign=top>text inserted by the scribe either between the lines, or in the margins</td></tr>
+
+<tr><td width=10% valign=top>///xxx/// <i>or</i>  <i>xxx</i></td>
+<td width=90% valign=top>text in italics or other script [how to indicate this clearly will depend upon the extent of use of contractions and virgules; another convention may be needed]</td></tr>
+
+<tr><td width=10% valign=top><b>xxx</b></td>
+<td width=90% valign=top>text in engrossing hand [where, for example, ///xxx/// is already in use to distinguish text in italic]</td></tr>
+
+</table>
+<p>
+<ul type=circle>
+<li>State that raised (superscript) letters are lowered, contractions are expanded and supplied letters italicised/underlined, and that 'thorn' (<img src=images/thorn.gif align=top> or <strong>y</strong>) is replaced by 'th' and terminal -es graph with '-es'.
+<li>Either preserve special signs (or 'brevigraphs'), e.g. '&' for 'and', or state that they have been silently expanded.
+<li>Do not regularise capitals or the letters i/j and u/v.  These are decisions to make at a later stage.
+<li>A statement about punctuation may be required; if the virgule (/) is used it makes sense to preserve it at this stage.
+<li>Layout:  preserve lineation and indentation of verse; either preserve lineation of prose, or indicate line ends with a vertical line:  |.  Again, decisions to alter layout should not be made at the initial stage but once the evidence has been considered carefully.  If spacing between particular words is unclear, record this in a note.  Where what we expect to be two words appear as one, keep them as they are if they are clearly joined
+<li>In supplying letters, accord with the scribe's spelling, so if he spells <i>your</i> as 'yowr', expand yo<sup>r</sup> to yo<i>w</i>r
+<li>Explain any other features that are not made clear, e.g. treatment of clearly unnecessary ('otiose') tildes.
+<li>Sometimes a combination of parentheses may be needed, e.g. &#139;xxx{..}x  xx  {....}  xxxx&#155; where deleted text is only partly legible.  
+<li>Different systems of use of parentheses abound; feel free to use a different system, but state what it is and be consistent.  Because of the typographical convention that <u>underlining</u> = <i>italicisation</i>, the two should not be used together.  Underline when writing by hand; italicise when using a computer.
+</ul>
+<p><center><font size=-1>[<a href=#top>Back to top.</a>]</font></center>
+<p>
+
+<img src=images/20v.gif><br>
+<a name=suggestions></a>
+<strong>SUGGESTED CONVENTIONS</strong><p>
+There follows a sample statement of conventions.  It describes the conventions we use in the transcriptions in this course.
+<p>
+<i>Conventions</i><br>
+<ul type=circle>
+<li>semi-diplomatic transcription
+<li>lineation retained
+<li>raised letters lowered, contractions expanded, and supplied letters italicised
+<li>ampersand silently replaced by 'and' or 'et'; terminal -es graph by 'es'; fossil thorn by 'th'
+<li>///...///  = text in italic script
+<li><b>xxx</b> = text in engrossing hand
+<li>&#139;xxx&#155; = deleted text
+<li><img src=images/openb.gif align=top>xxx<img src=images/closeb.gif align=top> = text inserted by the scribe either between the lines, or in the margins
+<li>{...} = lost or illegible material
+</ul>
+
+<p><center><font size=-1>[<a href=#top>Back to top.</a>]</font></center>
+<p>
+
+<img src=images/30v.gif><br>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+
+
+iOs<>a	n	i=ii

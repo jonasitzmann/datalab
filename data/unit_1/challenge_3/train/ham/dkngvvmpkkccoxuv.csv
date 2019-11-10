@@ -1,0 +1,160 @@
+<html>
+<head><title>The Edmund Spenser Home Page: Spenser Studies</title>
+<link rel="stylesheet" href="spenser.css">
+</head>
+<body>
+<script language="JavaScript">
+
+<!--
+
+    eshp2off = new Image(273,62);
+    eshp2off.src = "images/eshp2off.gif";
+    eshp2on = new Image(273,62);
+    eshp2on.src = "images/eshp2on.gif";
+
+    eshp3off = new Image(292,21);
+    eshp3off.src = "images/eshp3off.gif";
+    eshp3on = new Image(292,21);
+    eshp3on.src = "images/eshp3on.gif";
+
+    descriptionoff = new Image(78,17);
+    descriptionoff.src = "images/descriptionoff.gif";
+    descriptionon = new Image(78,17);
+    descriptionon.src = "images/descriptionon.gif";
+
+    edboardoff = new Image(103, 17);
+    edboardoff.src = "images/edboardoff.gif";
+    edboardon = new Image(103,17);
+    edboardon.src = "images/edboardon.gif";
+
+    submitoff = new Image(153,17);
+    submitoff.src = "images/submitoff.gif";
+    submiton = new Image(153,17);
+    submiton.src = "images/submiton.gif";
+
+    subscribeoff = new Image(172,17);
+    subscribeoff.src = "images/subscribeoff.gif";
+    subscribeon = new Image(172,17);
+    subscribeon.src = "images/subscribeon.gif";
+
+    contentsoff = new Image(201,17);
+    contentsoff.src = "images/contentsoff.gif";
+    contentson = new Image(201,17);
+    contentson.src = "images/contentson.gif";
+
+    pastcontentsoff = new Image(159,17);
+    pastcontentsoff.src = "images/pastcontentsoff.gif";
+    pastcontentson = new Image(159,17);
+    pastcontentson.src = "images/pastcontentson.gif";
+
+    tocomeoff = new Image(110,17);
+    tocomeoff.src = "images/tocomeoff.gif";
+    tocomeon = new Image(110,17);
+    tocomeon.src = "images/tocomeon.gif";
+
+
+// -->
+
+</script>
+<center>
+<img src=images/20v.gif><br>
+<table width=100%>
+<tr>
+<td width=50% align=center valign=middle>
+<img src=images/cover2.gif></td>
+
+<td width=50% valign=middle>
+<center><h1>Spenser Studies</h1>
+<h3>A RENAISSANCE POETRY ANNUAL</h3>
+<i>Edited by Thomas P. Roche, Jr., Anne Lake Prescott,<br>and William A. Oram</i><p>
+<img src=images/40v.gif><br>
+<a href="studiesabout.htm"
+        onmouseover="description.src = descriptionon.src"
+        onclick="description.src = descriptionon.src"
+        onmouseout="description.src = descriptionoff.src"><img
+        alt="Journal Description"
+        src="images/descriptionoff.gif"
+        border="0" width="78"
+        height="17" name="description"></a><br>
+<img src=images/10v.gif><br>
+<a href="studiesabout.htm#edboard"
+        onmouseover="edboard.src = edboardon.src"
+        onclick="edboard.src = edboardon.src"
+        onmouseout="edboard.src = edboardoff.src"><img
+        alt="Editorial Board"
+        src="images/edboardoff.gif"
+        border="0" width="103"
+        height="17" name="edboard"></a><br>
+<img src=images/10v.gif><br>
+<a href="studiesabout.htm#submit"
+        onmouseover="submit.src = submiton.src"
+        onclick="submit.src = submiton.src"
+        onmouseout="submit.src = submitoff.src"><img
+        alt="Submission Guidelines"
+        src="images/submitoff.gif"
+        border="0" width="153"
+        height="17" name="submit"></a><br>
+<img src=images/10v.gif><br>
+<a href="studiesabout.htm#subscribe"
+        onmouseover="subscribe.src = subscribeon.src"
+        onclick="subscribe.src = subscribeon.src"
+        onmouseout="subscribe.src = subscribeoff.src"><img
+        alt="Subscription Information"
+        src="images/subscribeoff.gif"
+        border="0" width="172"
+        height="17" name="subscribe"></a><br>
+<img src=images/30v.gif><br>
+<a href="studiescontents.htm"
+        onmouseover="contents.src = contentson.src"
+        onclick="contents.src = contentson.src"
+        onmouseout="contents.src = contentsoff.src"><img
+        alt="Contents"
+        src="images/contentsoff.gif"
+        border="0" width="201"
+        height="17" name="contents"></a><br>
+<img src=images/10v.gif><br>
+<a href="studiescontents.htm#pastcontents"
+        onmouseover="pastcontents.src = pastcontentson.src"
+        onclick="pastcontents.src = pastcontentson.src"
+        onmouseout="pastcontents.src = pastcontentsoff.src"><img
+        alt="Past Contents"
+        src="images/pastcontentsoff.gif"
+        border="0" width="159"
+        height="17" name="pastcontents"></a><br>
+<img src=images/10v.gif><br>
+<a href="studiescontents.htm#tocome"
+        onmouseover="tocome.src = tocomeon.src"
+        onclick="tocome.src = tocomeon.src"
+        onmouseout="tocome.src = tocomeoff.src"><img
+        alt="What's to come"
+        src="images/tocomeoff.gif"
+        border="0" width="110"
+        height="17" name="tocome"></a><br>
+</td>
+</tr></table>
+<img src=images/10v.gif><br>
+<hr>
+<center>
+<a href="main.htm"
+        onmouseover="eshp3.src = eshp3on.src"
+        onclick="eshp3.src = eshp3on.src"
+        onmouseout="eshp3.src = eshp3off.src"><img
+        alt="Main Page"
+        src="images/eshp3off.gif"
+        border="0" width="292"
+        height="21" name="eshp3" valign=middle></a>
+<p>
+<font size=-1>This page was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</font>
+</center>
+</body>
+</html>
+
+
+
+&lun 

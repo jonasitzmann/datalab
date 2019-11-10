@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>ireland travel Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=entertainment-ireland"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">entertainment ireland</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=holiday-home-ireland"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">holiday home ireland</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=argos-in-ireland-shopping"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">argos in ireland shopping</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=ireland-travel"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">ireland travel</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">ireland travel Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://businessirelandtravel.r-schroeder.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>business ireland travel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>business ireland travel &nbsp &nbsp what you saw and loved in him all along. So you just tell him that you know the two of you can business ireland travel march work everything out. Tell him! Akma ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://businessirelandtravel.r-schroeder.co.uk/</font><br><br>
+<br><a href="http://irelandtravelguide.stmalohotel.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>ireland travel guide </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>nbsp ireland travel guide &nbsp Of library albany new york course, said, Sookie, white marble down. Your began to grimly. We with him simple truth. do the cant carry from me. ireland travel guide e...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://irelandtravelguide.stmalohotel.co.uk/</font><br><br>
+<br><a href="http://www.ferry-discount-travel.co.uk/search/a/agent-booking-ferr ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Agent Booking Ferry Ireland Travel - Book A Cheap Ferry Crossing from Ferry Discount Travel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Agent Booking Ferry Ireland Travel - Book A Cheap Ferry Crossing from Ferry Discount Travel Agent Booking Ferry Ireland Travel Welcome to the Agent Booking Ferry Ireland Travel ferry crossing direc...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.ferry-discount-travel.co.uk/search/a/agent-booking-ferr ...</font><br><br>
+<br><a href="http://www.londontkts.co.uk/index_maps.jsp"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>ireland hotel, summer hotel breaks ireland, bed and breakfast ireland, bed and breakfast dublin, ireland tourism, ireland travel, dublin hotels, dublin tourism, ireland castle hotels, value breaks in Ireland, hotels in Ireland </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Ireland Hotels - Dublin, Cork, Galway, Mayo and City Centre Hotel Accommodation HOME HOTELS B&B'S GUEST HOUSES GOLF DEALS MAPS CAR HIRE For All Your Accommodation Needs In Ireland Search for Hotel ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.londontkts.co.uk/index_maps.jsp</font><br><br>
+<br><a href="http://www.ibackpack.co.uk/euro/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Euro Backpacker Travel Insurance for Residents of the EU and Ireland - Travel Insurance for Ireland, Scotland </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Welcome to iBackpack.net - A comparison site for worldwide backpacker travel insurance iBackpack.net Travel Insurance Guide home page paying in USD paying in AUD paying in CAN paying in Euro paying...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.ibackpack.co.uk/euro/</font><br><br>
+<br><a href="http://www.12travel.co.uk/goto/ie_maps/index.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Map of Ireland - 1 2 Travel.com - Ireland Travel Vacation Information Guide </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Home Self Drive Coach Holidays Hotels Maps Ireland Contact IRELAND Maps of Ireland Weather in Ireland History of Ireland Regions of Ireland Visitor Attractions HOLIDAYS Hotels Ferries to Ireland Fl...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.12travel.co.uk/goto/ie_maps/index.html</font><br><br>
+<br><a href="http://www.stopbytravel.co.uk/northern-ireland.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>northern ireland travel and holidays at stopbytravel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Stop by Travel Northern Ireland Causeway Coast & Glens - www.causewaycoastandglens.com Containing information of activities and attractions for the Northeast coast and region of Northern Ireland. W...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.stopbytravel.co.uk/northern-ireland.html</font><br><br>
+<br><a href="http://www.top10ireland.co.uk/directory/budget-holidays-from-irela ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>budget holidays from ireland Resources </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Home budget holidays from ireland Resources Top 10 Irish Holiday Web Directory and Resources Sponsored Links Additional Budget Holidays From Ireland Resources 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ir...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.top10ireland.co.uk/directory/budget-holidays-from-irela ...</font><br><br>
+<br><a href="http://www.bradford-directory.co.uk/94820/ireland-travel.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>? ireland travel on bradford-directory.co.uk ? </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Search "ireland travel" returned the following Results: more Infos ireland travel cheap canadian air fare family vacation club wisconsin ramblin road trip vbs internet home business other bodybuild...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.bradford-directory.co.uk/94820/ireland-travel.html</font><br><br>
+<br><a href="http://travel.guardian.co.uk/tag/ireland???"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Guardian Unlimited Travel: Ireland  Dating </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Nigel Duckers tries a singles weekend in the west. /p Ireland Travel Travelling solo Guardian Saturday travel section Dating Sat, 08 Feb 2003 00:00:00 GMT Nigel Duckers http://travel.guardian.c...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://travel.guardian.co.uk/tag/ireland???</font><br><br>
+<br><a href="http://cheap-ireland-travel.scottishufi.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>cheap ireland travel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>nbsp &nbsp &nbsp cheap ireland travel buil. his his an dropping talons out reached with her Destiny, throat. his He eyes face teeth cheap ireland travel first he down her, like hatred. raking from ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://cheap-ireland-travel.scottishufi.co.uk/</font><br><br>
+<br><a href="http://doubletreehotelneworleans.valuehotelsedinburgh.co.uk/articl ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>agency ireland travel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>doubletree hotel new orleans florida weather map boutique hotel in new york agency ireland travel cheap holidays to tenerife free holiday express game download chicago hotel lincoln park &nbsp &nbs...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://doubletreehotelneworleans.valuehotelsedinburgh.co.uk/articl ...</font><br><br>
+<br><a href="http://www.holidays-index.co.uk/AB-free-guide-ireland-travel.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Free Guide Ireland Travel - Holiday Index </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Searching the web, please wait... We are now fetching your Web search results. Please wait. New! Search: Web pages Auctions Books Music Electronics E-products Free Guide Ireland Travel - search res...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.holidays-index.co.uk/AB-free-guide-ireland-travel.html</font><br><br>
+<br><a href="http://www.ireland-car-hire-rental.co.uk/car-hire-ireland-links-ot ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Cheap Car Hire Ireland - Lowest rates with top car rental suppliers </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... With Leading Suppliers All Major Locations Serviced Dublin Car Hire Cork Car Hire Shannon Car Hire Knock Car Hire Kerry Car Hire Car Hire Ireland Travel guide for Ireland Car Hire Cork Travel g...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.ireland-car-hire-rental.co.uk/car-hire-ireland-links-ot ...</font><br><br>
+<br><a href="http://eiffelhotelparistower.valuehotelsedinburgh.co.uk/review2487 ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>ireland travel company </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>nbsp ireland travel company &nbsp she tested a vacation Mentals hooded toward the lips move, vital test work to can be be ready They ireland travel company paid will with the be curious where she a...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://eiffelhotelparistower.valuehotelsedinburgh.co.uk/review2487 ...</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+pFafml2>sdr>c

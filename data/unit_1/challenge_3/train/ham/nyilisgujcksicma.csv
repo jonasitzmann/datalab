@@ -1,0 +1,315 @@
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	// moock fpi [f.lash p.layer i.nspector]
+	// version: 1.3.5
+	// written by colin moock
+	// code maintained at: http://www.moock.org/webdesign/flash/detection/moockfpi/
+	// terms of use posted at: http://www.moock.org/terms/
+	
+	
+	
+	// =============================================================================
+	// These are the user defined globals.
+	// Modify the following variables to customize the inspection behaviour.
+	
+	var requiredVersion = 8;   // Version the user needs to view site (max 6, min 2)
+	var useRedirect = true;    // Flag indicating whether or not to load a separate
+	                           // page based on detection results. Set to true to
+	                           // load a separate page. Set to false to embed the
+	                           // movie or alternate html directly into this page.
+	                           
+	// Only set next three vars if useRedirect is true...
+	var flashPage = "gsa.cfm?pid=1932&version=flash&detect=done"      // The location of the flash movie page
+	var noFlashPage = "gsa.cfm?pid=1932&version=html"  // Page displayed if the user doesn't have the
+	                                  // plugin or we can't detect it.
+	var upgradePage = "update_flash.html"  // Page displayed if we detect an old plugin
+	// =============================================================================
+	
+	
+	
+	// *************
+	// Everything below this point is internal until after the BODY tag.
+	// Do not modify! Proceed to the BODY tag for further instructions.
+	// *************
+	
+	// System globals
+	var flash2Installed = false;    // boolean. true if flash 2 is installed
+	var flash3Installed = false;    // boolean. true if flash 3 is installed
+	var flash4Installed = false;    // boolean. true if flash 4 is installed
+	var flash5Installed = false;    // boolean. true if flash 5 is installed
+	var flash6Installed = false;    // boolean. true if flash 6 is installed
+	var flash7Installed = false;    // boolean. true if flash 6 is installed
+	var flash8Installed = false;    // boolean. true if flash 6 is installed
+	var maxVersion = 8;             // highest version we can actually detect
+	var actualVersion = 0;          // version the user really has
+	var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+	var jsVersion = 1.0;            // the version of javascript supported
+	
+	// -->
+	</script>
+
+	<script language="JavaScript1.1" type="text/javascript">
+	<!--
+	
+	// Check the browser...we're looking for ie/win
+	var isIE = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+	var isWin = (navigator.appVersion.indexOf("Windows") != -1) ? true : false; // true if we're on windows
+	
+	// This is a js1.1 code block, so make note that js1.1 is supported.
+	jsVersion = 1.1;
+	
+	// Write vbscript detection on ie win. IE on Windows doesn't support regular
+	// JavaScript plugins array detection.
+	if(isIE && isWin){
+	  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+	  document.write('on error resume next \n');
+	  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+	  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+	  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+	  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+	  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+	  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');  
+	  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');  
+	  document.write('</SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+	}
+	// -->
+	</script>
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	
+	// Next comes the standard javascript detection that uses the 
+	// navigator.plugins array. We pack the detector into a function so it loads
+	// before we run it.
+	
+	function detectFlash() {  
+	  // If navigator.plugins exists...
+	  if (navigator.plugins) {
+	    // ...then check for flash 2 or flash 3+.
+	    if (navigator.plugins["Shockwave Flash 2.0"]
+	        || navigator.plugins["Shockwave Flash"]) {
+	
+	      // Some version of Flash was found. Time to figure out which.
+	      
+	      // Set convenient references to flash 2 and the plugin description.
+	      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+	      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+	
+	      // DEBUGGING: uncomment next line to see the actual description.
+	      // alert("Flash plugin description: " + flashDescription);
+	      
+	      // A flash plugin-description looks like this: Shockwave Flash 4.0 r5
+	      // We can get the major version by grabbing the character before the period
+	      // note that we don't bother with minor version detection. 
+	      // Do that in your movie with $version or getVersion().
+	      var flashVersion = parseInt(flashDescription.charAt(flashDescription.indexOf(".") - 1));
+	     
+	      // We found the version, now set appropriate version flags. Make sure
+	      // to use >= on the highest version so we don't prevent future version
+	      // users from entering the site.
+	      flash2Installed = flashVersion == 2;    
+	      flash3Installed = flashVersion == 3;
+	      flash4Installed = flashVersion == 4;
+	      flash5Installed = flashVersion == 5;
+	      flash6Installed = flashVersion == 6;
+	      flash7Installed = flashVersion == 7;
+	      flash8Installed = flashVersion >= 8;
+	    }
+	  }
+	  
+	  // Loop through all versions we're checking, and
+	  // set actualVersion to highest detected version.
+	  for (var i = 2; i <= maxVersion; i++) {  
+	    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+	  }
+	  
+	  // If we're on webtv, the version supported is 2 (pre-summer2000, 
+	  // or 3, post-summer2000). Note that we don't bother sniffing varieties
+	  // of webtv. You could if you were sadistic...
+	  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 3;  
+	  
+	  // DEBUGGING: uncomment next line to display flash version
+	  // alert("version detected: " + actualVersion);
+	
+	
+	  // We're finished getting the version on all browsers that support detection.
+	  // Time to take the appropriate action.
+	
+	  // If the user has a new enough version...
+	  if (actualVersion >= requiredVersion) {
+	    // ...then we'll redirect them to the flash page, unless we've
+	    // been told not to redirect.
+	    if (useRedirect) {
+	      // Need javascript1.1 to do location.replace
+	      if(jsVersion > 1.0) {
+	        // It's safe to use replace(). Good...we won't break the back button.
+	        window.location.replace(flashPage);  
+	      } else {
+	        // JavaScript version is too old, so use .location to load
+	        // the flash page.
+	        window.location = flashPage;
+	      }
+	    }
+	    
+	    // If we got here, we didn't redirect. So we make a note that we should
+	    // write out the object/embed tags later.
+	    hasRightVersion = true;                
+	  } else {  
+	    // The user doesn't have a new enough version.
+	    // If the redirection option is on, load the appropriate alternate page.
+	    if (useRedirect) {
+	      // Do the same .replace() call only if js1.1+ is available.
+	      if(jsVersion > 1.0) {
+	        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+	      } else {
+	        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+	      }
+	    }
+	  }
+	}
+	
+	detectFlash();  // call our detector now that it's safely loaded.  
+	  
+	// -->
+	</script>
+
+	
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="En">
+<head>
+	
+<title>:: The Glasgow School of Art :: - How to Apply</title>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+	
+<meta name="keywords" content="gsa, glasgow school of art, glasgow, art school, fine art, photography, graphic design, charles rennie mackintosh, c r mackintosh, architecture, architect, digital design studio, dds, ceramics, art, design, interior design, product design, product design engineering, silversmithing, jewellery, textiles, visual communications, research, enterprise, centre for advanced textiles, cat, c.a.t., idri, i.d.r.i, mearu, m.e.a.r.u., mackintosh shop, drawing institute, mphil, phd, ma, 2d, 3d, motion graphics, m.des, mdes, textiles as fashion, fashion, fashion design, ">
+
+	
+<script language="JavaScript">
+	<!--
+	function openPage(theURL) {
+	  window.open(theURL,'printPane','status,width=525,height=330,scrollbars=yes');
+	}
+	function openWindow(theURL) {
+	  window.open(theURL,'infoPane','width=400,height=500,scrollbars=yes');
+	}
+	// -->
+	</script>
+	
+<style>
+	td,a {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: none;
+	}
+	a:hover {
+		font-family: Verdana, Arial, Helvetica, sans;
+		font-size: 10px;
+		color: #999999;
+		text-decoration: underline;
+	}
+	</style>
+</head>
+
+
+
+
+<!--
+flash8template.swf
+-->
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="100%" height="95%" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td valign="middle" align="center">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="420">
+            <tr> 
+  <td style="background-image: url(/images/flashbg/c6a00c-left.gif); background-repeat: no-repeat; background-position: right top;">&nbsp;</td>
+              <td valign="middle" width="760" align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="760" height="420">
+                        <param name="movie" value="flash8template.swf" />
+                        <param name="menu" value="false" />
+						<param name="FLASHVARS" value="pid=1932&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=" /> 
+                      <param name="quality" value="high" />
+                      <embed src="flash8template.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="760" height="420" flashvars="pid=1932&nid=0&sid=0&server=http://www.gsa.ac.uk&searchid=739&criteria=&preview="></embed></object></td>
+  <td style="background-image: url(/images/flashbg/c6a00c-right.gif); background-repeat: no-repeat; background-position: left top;">&nbsp;</td>
+            </tr>
+  <tr>
+		<td></td>
+  	<td><div style="padding-left: 666px; padding-top: 4px;"><a href="/gsa.cfm?pid=1932&amp;nid=0&amp;sid=0&amp;criteria=&amp;version=html" style="font-size: 9px; font-family:Arial, Helvetica, sans-serif;">HTML VERSION</a></div></td>
+		<td></td>
+  </tr>
+          </table>
+		</td>
+  </tr>
+
+</table>
+
+
+
+<div style="display: none; height: 1px; width: 1px; overflow: hidden;">
+
+
+
+
+	
+
+	
+		
+
+		
+		
+		
+			
+		
+
+		<h2>HOW TO APPLY</h2><p>The GSA welcomes applications from and provides equal opportunity for talented students with artistic ambitions from all over the UK, Europe and the rest of the world. Put simply, if you have the creative talent and the determination to fulfil it, we want to hear from you.</p><p>Each programme has its own application procedure, but in practice, however, nearly all applications for full-time undergraduate study are made through UCAS (Universities Colleges Admissions Service). Information on how to apply is available from schools, colleges and careers offices or directly from UCAS: </p><p>UCAS <br />Rosehill<br />New Barn Lane <br />Cheltenham<br />Gloucestershire GL52 3LZ<br />+44 (0) 870 112 2211<br />enquiries@ucas.ac.uk<br />www.ucas.com</p><p>Applications can only be made online via the UCAS website.</p><p>For all postgraduate taught and research programmes, as well as part-time undergraduate programmes, applications should be made directly to the School. </p><p>The application procedure is essentially the same for international students although, if English is not your first language, you will be required to provide evidence of proficiency.</p><p>Of course, we would also like to see evidence of your creativity, so you will for most programmes be expected to submit a portfolio for consideration. Guidance notes on portfolio requirements, content and presentation are available on our website or from the Registry. </p><p>Selected applicants will be invited for interview as part of the application procedure (international students do not need to attend in person but must be available for telephone interviews). </p><p>Please note, at the time of publication the application procedures for the <br />BA (Hons) Design, BA (Hons) Fine Art and BArch (Hons) programmes are being reviewed. Please contact the Registry for current information on +44 (0) 141 353 4512 or registry@gsa.ac.uk</p><p>Key information for Applicants</p><h2>INTERVIEWS</h2><p>The interview provides you with the opportunity to demonstrate your commitment to your chosen area of study and to let us get an idea for your capacity for self motivation and independent study. It's very much a dialogue, so you'll have plenty of opportunity to ask questions. </p><p>Most, but not all, programmes require an interview before acceptance. International students however, will not be required to attend in person and may instead be interviewed by telephone.</p><p>Where an interview is not required, you will be given the opportunity to visit the school and to meet staff and students before you accept any offer of a place to join us.</p><h2>PORTFOLIOS</h2><p>Your portfolio of unaided work gives us a real insight into the creative potential you have. That's why it forms a crucial part of your application for most undergraduate and postgraduate programmes. The school's admissions guidelines will provide you with a general outline of portfolio requirements. You can get a copy from Registry or on our website www.gsa.ac.uk</p><h2>POSTGRADUATE PROGRAMMES </h2><p>You should apply directly to The Glasgow School of Art. For selected programmes you will be asked to submit a portfolio of recent work for assessment by an admissions panel. As with the undergraduate programmes, your portfolio is an integral part of your admissions procedure and should reveal a wide range of sustained visual interest and investigations.</p><h2>RESEARCH DEGREES</h2><p>To study for a research degree, you should have a Taught Masters as well as a First class or Upper Second class Honours degree in a field relevant to the proposed area of study. You will also be asked to submit an outline research proposal of between 500 and 1,000 words.</p><h2>PORTFOLIO COURSES</h2><p>Not everyone has the portfolio they believe they are capable of producing. <br />So if you would like to develop yours, you'll find our portfolio preparation courses invaluable. Offered under the School's Continuing Education Programme, our portfolio courses are designed to assist students in developing a portfolio for submission to art school or similar programme of study. They also help you develop your own working processes, centred on visual creativity. Attendance on a portfolio class does not guarantee acceptance to any art school or university degree programme or further education course. For more information, please contact the Continuing Education Department on +44 (0) 141 353 4596 or con-ed@gsa.ac.uk</p><h2>WIDENING ACCESS</h2><p>The Glasgow School of Art is committed to widening access to higher education and seeks to ensure equality of opportunity for all applicants. We believe access to a world-class education in art, design and architecture should be open to all based on talent, ability and potential.</p><h2>SCQF</h2><p>All Scottish qualifications have been collected into a single framework, known as the Scottish Credit and Qualifications Framework (SCQF). In line with this, all the GSA's undergraduate programmes have been allocated SCOTCAT Credits (120 per year) and European Credit and Transfer Scheme Credits (60 ECTS per year). Each undergraduate programme now has a range of exit awards:</p><p>year 1 (SCQF Level 7/SHE Level 1)<br />Certificate of Higher Education<br />year 2 (SCQF Level 8/SHE Level 2)<br />Diploma of Higher Education<br />year 3 (SCQF Level 9/SHE Level 3)<br />Ordinary Degree<br />year 4 (SCQF Level 10/SHE Level H)<br />Honours Degree<br />year 5 (SCQF Level 11/SHE Level M)<br />Integrated Masters Degree (First Degree)<br />Masters Degree (Postgraduate)</p><p>Postgraduate programmes have been assigned a total of 180 SCOTCAT credits, with a range of exit awards: <br />Postgraduate Certificate (PGCert)  <br />SCQF Level 11 (60 Credits)<br />Postgraduate Diploma (PGDip) <br />SCQF Level 11 (60 Credits)<br />Masters Degree  <br />SCQF Level 11 (60 Credits)<br />The MFA and MPhil 2D/3D Motion Graphics have been assigned a total of 240 SCOTCAT credits, with the following exit awards:<br />Postgraduate Certificate (PGCert)  <br />SCQF Level 11 (60 Credits)<br />Postgraduate Diploma (PGDip)  <br />SCQF Level 11 (60 Credits)<br />Masters Degree<br />SCQF Level 11 (120 Credits)<br />At the GSA, one Level is equal to one academic year (September to June) and our programmes within this prospectus are described in terms of academic years.</p><p>It is important to note that although the SCQF places qualifications and programmes of learning at the same level, this only indicates that they are broadly comparable in terms of the general level of outcomes. This does not mean that programmes offered at other institutions have the same purpose, content, or outcomes and equivalency of those offered at The Glasgow School of Art. General SCOTCAT credits can be used to assist student transfer between programmes. The Glasgow School of Art will decide on an individual basis the extent to which these credits are relevant to your programme of study and to the level of entry to your programme.</p><p>KEY CONTACTS<br />:GSA Registry <br />+44 (0) 141 353 4512<br />registry@gsa.ac.uk<br />:UCAS Enquiries <br />+44 (0) 870 112 2211<br />Minicom <br />+44 (0) 1242 544942<br />enquiries@ucas.ac.uk<br />www.ucas.com<br />:SCQF<br />www.scqf.org.uk</p><h2>POLICY TERMS + CONDITIONS</h2><p>The GSA has a range of publicly available policies covering: admissions, complaints procedure, widening access, quality assurance and enhancement, equal opportunities which are available <br />on our website www.gsa.ac.uk</p><h2>KEY INFORMATION FOR </h2><h2>INTERNATIONAL STUDENTS</h2><h2>PORTFOLIO</h2><p>For most programmes international students are required to submit a portfolio to the School; this may be in slide format. Full-time applicants should submit a minimum of 20 slides and include at least one sketchbook. Portfolios should be forwarded to the School at the earliest opportunity.</p><h2>VISAS</h2><p>All international students will need 'entry clearance' before being allowed to enter the United Kingdom. If you would like to study at the GSA, it is your responsibility to determine exactly what you will need once you have received an official offer letter from the School and well before your proposed departure date. </p><h2>FRESH TALENT</h2><p>The Fresh Talent Initiative offers undergraduate and postgraduate graduates from GSA the opportunity to remain and work in Scotland for a further two years following their studies. The Relocation Advisory Service based in Glasgow comprises a specialist team of advisors who offer comprehensive help and advice on this initiative. You can contact them at: info@scotlandistheplace or at: +44 (0) 141 248 2808. For more information about coming to Scotland to study and work, visit www.scotlandistheplace.com</p><h2>FINANCE</h2><p>Details of our tuition fees can be found on page 196. Students with citizenship of the United States of America should note that the GSA is registered with the Department of Education in Washington and students can apply for Federal Loans while studying full-time. The GSA's OPEID number is 02545700.</p><p>Study Abroad students may be eligible to have their financial aid transferred from their home college. Exchange students do not pay tuition fees to study at the GSA but continue to pay tuition fees to their home institution. EU students may be eligible for a Socrates grant from their home institution. You will need to finance your own travel, accommodation and living expenses while studying at the School and budget for field trips and materials. Information on materials costs can be found on page 197.</p><h2>EMPLOYMENT</h2><p>The UK has eased restrictions on international students taking paid employment and students are no longer required to obtain consent to take vacation work and part-time work while studying. This is also the same for work placements which are part of a 'sandwich course' and internship placements with an employer.</p><h2>HEALTH</h2><p>All full-time students from overseas have access to the National Health Service while studying at the School.</p><h2>STUDENTS FROM THE PEOPLE'S REPUBLIC OF CHINA </h2><p>Prospective undergraduate students wishing to study at the GSA can apply via CAFA, for the joint China Programme see page 131 (www.cafa.com.cn) or for any undergraduate programme via UCAS. Postgraduates should apply to The Glasgow School of Art.</p><h2>SCHOLARSHIPS </h2><p>The School offers many scholarship opportunities. Some of these are exclusively for full-time international students and include the GSA Governors Overseas Student Scholarship and the Tetsuya Mukai Scholarship. For more information about these scholarships please visit our website at: www.gsa.ac.uk/scholarships</p><h2>MORE INFORMATION</h2><p>Specific information can be obtained from:<br />www.ukvisas.gov.uk<br />www.ind.homeoffice.gov.uk <br />www.educationukscotland.org</p><h2>KEY CONTACTS</h2><p>:International Student Adviser <br />+44 (0) 141 353 4487 <br />international@gsa.ac.uk<br />:Student Welfare <br />+44 (0) 141 353 4509 <br />welfare@gsa.ac.uk</p><h2>ENTRY QUALIFICATIONS:</h2><h2>UNDERGRADUATE</h2><p>BA (Hons) Design <br />BA (Hons) Fine Art<br />UCAS INFORMATION<br />GSAInstitution Name<br />G43Institution Code</p><p><b>UCAS application is via Route B.</b></p><p>Programme codes BA (Hons) Design<br />E270Ceramics <br />E250 Interior Design <br />E721 Silversmithing &amp; Jewellery<br />E231Textiles<br />E213 Visual Communication</p><p>Programme codes BA (Hons) Fine Art<br />E130  Environmental Art and Sculpture<br />E120  Painting and Printmaking<br />E640  Photography</p><p>Entry requirements to the BA (Hons) Design and the BA (Hons) Fine Art are the same. </p><h2>YEAR 1 </h2><p>Highers at BBC or above, including Higher Art &amp; Design and Higher English, plus two other subjects at Standard or 'O' Grade at Grade 2 or above. Alternatively, A Levels at CC or above, including Art and Design, or related subjects, and English. If no A Level English, then GCSE English Language and Literature should be offered instead.</p><h2>ENTRY TO YEAR 2 OR 3</h2><p>In addition to the qualifications required for Year 1 entry, you must be able to satisfy the School that you have undertaken a period of study equivalent to the first year or the first and second years of the degree programme. This may include an art foundation or HNC/D qualification. </p><p>A portfolio of work must be submitted for entry to all years. Selected applicants will be invited for interview. In exceptional circumstances, the School may admit applicants who have fewer than the stated academic qualifications, but <br />whose portfolio of work demonstrates outstanding potential. </p><p>Applicants for the BA (Hons) Design Ceramics part-time distance learning programme should apply directly to the School.</p><p>BDes/MEDes in Product Design <br />UCAS INFORMATION<br />GSAInstitution Name<br />G43Institution Code</p><p><b>UCAS application is via Route A.</b></p><p>Programme code  <br />HW72Product Design</p><p>Highers at AAB or BBBB (one sitting) or ABBB (more than one sitting), or A Levels at BBC. Normally, one of the Highers or<br />A Level passes should include a modern language other than English. Evidence of visual abilities and sensibilities is sought by the programme and Higher or A Level passes in Art &amp; Design, Product Design or Graphic Design would be an advantage. </p><p>Shortlisted candidates will be called for interview, and invited to complete a short design exercise. Candidates unable to attend an interview will be asked to forward the design exercise and be available for interview, by telephone.</p><p>BEng/MEng in Product Design Engineering  <br />UCAS INFORMATION<br />GLASGInstitution Name<br />G28Institution Code</p><p><b>UCAS application is via Route A.</b></p><p>Programme codes   <br />H3W2BEng in Product Design Engineering<br />H3WGMEng in Product Design Engineering<br />H3WFMEng in Product Design Engineering - Accelerated Route</p><p>BEng (4 year programme)<br />Highers at ABBB including Maths and Physics or Engineering or Technological Studies, or A Levels at CCC including Maths and Physics. </p><p>MEng Accelerated Route <br />(4 year programme)<br />BB in Advanced Higher Maths and Physics plus AB in two other Highers including Art or Design. ABB in A Level Maths, Physics and Art or Design. If applicants can demonstrate that they have attained the normal Year 1 studio standard through a body of work or equivalent merit, this may be accepted in lieu of the Art or Design Higher or A Level.</p><p>MEng (5 year programme) Highers at AABB including Maths and Physics or Technological Studies, or A Levels at BCC including Maths and Physics.</p><p>Entry Qualifications:<br />Undergraduate</p><p>Bachelor of Architectural Studies <br />UCAS INFORMATION<br />GSAInstitution Name<br />G43Institution Code</p><p><b>UCAS application is via Route A.</b></p><p>Programme code <br />K100 Architectural Studies</p><p>Highers at BBBB (min.) at one sitting, to include English and Maths or A Levels at BBC (min.) at one sitting, to include English and Maths. These subjects are required at GCSE Level at Grade B or above. Selected applicants are invited for interview. </p><p>Bachelor of Architectural studies part-time <br />Applicants for the BArch part-time should apply direct to the School.</p><p>Entry Qualifications are the same as those stated for full-time programmes.</p><h2>ENTRY QUALIFICATIONS:</h2><h2>TAUGHT POSTGRADUATE + </h2><h2>RESEARCH</h2><p>Postgraduate Taught programmes<br />All students should apply direct to the School. Selected applicants are normally invited to interview.</p><p>Master of Fine Art <br />Normally a good honours degree in <br />Fine Art, plus a portfolio of work. </p><p>Masters in Design Practice (Textiles as Fashion) <br />First class or Upper Second class Honours degree in a field relevant to the proposed area of study, together with evidence of fashion orientation evidenced in a portfolio/presentation of design work.</p><p>Masters in Art, Design and Architecture in Education A good first degree in Art, Design or Architecture. Alternatively, evidence of a commitment to art, design or architecture education and a relevant professional qualification at HE level, such as a BEd or a Museum Studies degree. </p><p>MPhil in 2D/3D Motion Graphics <br />A good undergraduate degree in Art, <br />Design or Architecture; other applicants will be considered on merit. A portfolio may be required. </p><p>Masters in research<br />First Class or Upper Second Class Honours Degree in a relevant field to the proposed area of study. A portfolio of work and a statement identifying area of research is normally required.</p><p>Diploma in Architecture <br />A first degree in Architecture or exemption from Part 1 of the Examination in Architecture (RIBA). </p><p>Master of Architecture <br />First class or Upper Second class Honours degree in a field relevant to the proposed area of study, together with a submission of a written research proposal, normally between 500 and 1,000 words.</p><p>Postgraduate Research programmes<br />Prospective students should apply directly to the School. Submission of a written research proposal is required, normally between 500 and 1,000 words.</p><p>Master of Architecture <br />(by conversion) <br />First class or Upper Second class Honours degree in a field relevant to the proposed area of study. </p><p>MPhil by Research <br />First class or Upper Second class Honours degree in a field relevant to the proposed area of study. </p><p>PhD <br />A Taught masters as well as a First class or Upper Second class Honours degree in a field relevant to the proposed area of study or other postgraduate qualification.</p><h2>FINANCING YOUR STUDIES</h2><p>Details of fees for all of our programmes are available from the Registry. You must also remember to budget for materials for both programme and project work for each year; an indication of these costs is given opposite. Equally important, and irrespective of whether you are a Home/EU student or an international student, you will need to allow a realistic sum to cover your accommodation, food, transport and social life. </p><p>programme COSTS<br />Fees for 2007/08 are still to be set but they are unlikely to be less than <br />the annual fees for 2006/07 (tbc), shown here:</p><p>UNDERGRADUATE (ANNUAL FEE)<br />Home/EU<br />&pound;1,700 All undergraduate except<br />&pound;570 Part-time Ceramics <br />&pound;525 Part-time Architecture <br />(please contact Finance for costs <br />for advanced entry)</p><p>Overseas<br />&pound;9,075All undergraduate except<br />&pound;10,080 BEng/MEng Product Design Engineering<br />&pound;4,095Part-time Ceramics </p><p>POSTGRADUATE (ANNUAL FEE)<br />Home/EU<br />&pound;3,085 All postgraduate except<br />&pound;3,630 Masters in Design Practice (Textiles as Fashion) <br />&pound;3,900 MPhil in 2D/3D Motion Graphics <br />&pound;525 Part-time Architecture <br />(please contact Finance for costs <br />for advanced entry)</p><p>Overseas<br />&pound;9,075All postgraduate except <br />&pound;9,549 MFA <br />&pound;8,136 MPhil in 2D/3D Motion Graphics <br />&pound;10,600 Masters in Design Practice <br />(Textiles as Fashion)</p><p>A Studio Fee applies to all Architecture students. This is currently &pound;100.</p><p>Students receiving an award from the University, who wish to attend the GSA graduation ceremony, will also be required to pay a fee of &pound;20.</p><h2>LIVING + MATERIAL COSTS</h2><p>In additional to your tuition fees, material costs and accommodation costs, you will need to budget for your cost of living including food, transport and social life. <br />As a rough guide, many students budget <br />for between &pound;250 and &pound;400 per month excluding the costs of accommodation and travelling home during vacations. Your annual expenditure might look like this:</p><p>&pound;1,000Food and meals<br />&pound;170Books and stationery<br />&pound;250 Clothes <br />&pound;100Laundry/cleaning<br />&pound;150 Telephone<br />&pound;50Postage<br />&pound;100 Travel to art school<br />&pound;340 Sport/leisure<br />&pound;500 Other costs<br />&pound;2,660 TOTAL (Estimate)</p><p>Material costs (Estimate) <br />SubjectYEAR 1YEAR 2YEAR 3YEAR 4<br />Ceramic Design&pound;200&pound;300&pound;300&pound;500<br />Interior Design&pound;200*&pound;100&pound;300*&pound;150<br />Silversmithing and Jewellery&pound;200&pound;515*&pound;555*&pound;455*<br />Textiles&pound;200&pound;540*&pound;690*&pound;790*<br />Visual Communication&pound;200&pound;100&pound;600*&pound;600<br />Product Design&pound;235*&pound;300*&pound;850*&pound;820*<br />Fine Art Photography&pound;200&pound;515*&pound;615*&pound;916*<br />Painting and Printmaking&pound;200&pound;300&pound;300&pound;500<br />Sculpture and Environmental Art&pound;200&pound;425*&pound;600*&pound;625*<br />Architecture (BArch)&pound;1,000*&pound;1,000*&pound;1,100*&pound;1,100*<br />Architecture (Diploma)&pound;1,100&pound;1,500--<br /> includes costs for field trips</p><h2>FINANCIAL SUPPORT</h2><p>Full details of the financial support systems of grants, loans and bursaries available to students wishing to study  at the GSA are available on our website at: www.gsa.ac.uk/finances</p><p>Before you apply for one of our programmes, you should ensure that you receive any support to which you are entitled. You should also be aware of any conditions attached to such support. Our website also contains details of mature student bursaries, disabled student allowances, hardship funds and access loans.</p><h2>SCHOLARSHIPS</h2><p>The Glasgow School of Art welcomes applications for its many scholarships <br />from eligible new undergraduate and postgraduate students.</p><p>The criteria for each scholarship varies but full details and an application form are available on our website at: www.gsa.ac.uk/scholarships</p>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+	
+
+
+
+nt/ireN	e

@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<TITLE>David Arrowsmith's abstract</TITLE>
+</HEAD>
+<BODY BGCOLOR="white"> 
+
+<HR><H2 ALIGN=CENTER><font color="#000099">
+Modelling of packet traffic in networks using nonlinear maps
+</font></H2>
+<H3 ALIGN=CENTER> Prof. David Arrowsmith</H3>
+<p ALIGN=CENTER>School of Mathematical Sciences,
+Queen Mary, University of London,
+London E1 4NS
+</p>
+<BR>
+<H4 ALIGN=CENTER>
+Abstract:
+</H4>
+
+<p>
+In recent years various models for packet traffic in networks have
+been developed.  The models used Poisson-like traffic sources
+which replicate traffic that is typically <I>voice</I> type. Such
+sources are said to be  <I>short-range-dependent</I> (SRD). In this
+paper we describe nonlinear methods for producing packet traffic
+models which can replicate both SRD streams and Internet/video
+traffic which is said to be  <I>long range dependent</I>. Various
+statistical properties of the output of these maps will be
+considered and their use will be illustrated in network modelling
+to show up some of the problems of  congestion onset.
+</p>
+
+<br><a href="http://www.atm.ox.ac.uk/main/gnfdseminars/semlist.html">Back to main GNFD seminars page</a>
+
+</HTML>
+
+
+">u/Tnp E

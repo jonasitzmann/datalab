@@ -1,0 +1,117 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+   <HEAD>
+	<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+	<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+	<TITLE>Welcome to Scotland Maps and Routes</TITLE>
+
+
+<script language = "JavaScript">
+<!-- hide
+
+//browser check to redirect non-ie users
+//initialize the value of "browser"
+var bName = navigator.appName;
+var bVersion = parseInt(navigator.appVersion);
+
+if ( (bName != "Microsoft Internet Explorer") || (bVersion < 4) ) {
+     location = "mapredirect.html";
+      if (document.images)
+         location.replace('http://www.geo.ed.ac.uk/scotgaz/mapredirect.html');
+      else
+          location.href = '/scotgaz/mapredirect.html';
+  }
+// -->
+</script>
+         
+   </HEAD>
+
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+<TABLE BGCOLOR="#FFCC33" BORDER=0 CELLPADDING=5 CELLSPACING=0>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland</B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Places"><B> Help </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Anyword.html"><B> Any Word </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/People.html"><B> People </B></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Places.html"><B> Places </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Statistics.html"><B> Statistics </B></A></FONT></TD></TR>
+<TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+<TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/members.html"><B> Member's Area</B></A></FONT></TD></TR>
+</TABLE>
+</TD>
+<TD BGCOLOR="#FFFFCC" VALIGN="TOP" ALIGN="left">
+<BLOCKQUOTE><BR>
+
+<table width="90%" border=0 cellpadding=0 cellspacing=0>
+
+<tr><td>
+	  <p align="center"><FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif" size=+1>
+	  <b>Welcome to Customised Maps and Routes!</b></font>
+	  <p>
+</td></tr>
+
+<tr><td><hr></td></tr>
+
+<tr><td>
+  <FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+<p><br>To get an idea of the types of maps and routes you can create, click on the links below:<br></td></tr>
+
+               
+<tr><td>
+<table width="100%" border=0 cellpadding=0 cellspacing=25>
+               
+<tr><td>
+<FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+Maps<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" onClick="window.open('/scotgaz/historyfigure.html','window1','width=750,height=650')">Historical Figure Map</a><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" onClick="window.open('/scotgaz/familyhistory.html','window2','width=750,height=650')">Family History Map</a>
+</td>
+<td>
+<FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+Routes<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" onClick="window.open('/scotgaz/tourist.html','window3','width=750, height=650')">Tourist Route</a><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" onClick="window.open('/scotgaz/historical.html','window4','width=750, height=650')">Historical Route</a>                                                
+</td></tr>
+                                    
+</table>
+       
+</td></tr>
+
+<tr><td><hr></td></tr>
+
+<tr><td>
+<FONT color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+<p><br>To <b>create your own maps</b>, you must be logged in as a Gazetteer member.<br>
+<a href="/scotgaz/members.html">Click here</a> to create a new account or to
+login to an existing one.
+<p>
+</td></tr>
+                            
+<tr><td><hr></td></tr>
+</table>
+
+</BLOCKQUOTE>
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR="#FFCC33">&nbsp;</TD>
+<TD BGCOLOR="#FFFFCC" ALIGN="CENTER">
+<FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+
+<A HREF="/scotgaz/copyright.html">&#169;1995-2002
+Gazetteer for Scotland</A>, Sponsored by:<BR>
+
+The Robertson Trust,&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/carnegie/carnegie.html">The Carnegie Trust for the Universities of Scotland,<BR></A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/~rsgs/menu.html">The Royal Scottish Geographical Society,</A>&nbsp;
+<A HREF="http://www.geo.ed.ac.uk/">The Department of Geography, University of Edinburgh.</A>&nbsp;
+<BR><BR></FONT>
+</TD></TR></TABLE></BODY></HTML>
+
+
+
+di%La

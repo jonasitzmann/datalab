@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>best gambling web site Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=best-laptop-computer"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">best laptop computer</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=best-computer-notebook"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">best computer notebook</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=best-buy-electronics"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">best buy electronics</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=best-gambling-web-site"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">best gambling web site</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=best-online-casino-gambling"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">best online casino gambling</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=best-casino-gambling"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">best casino gambling</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=best-birthday-friend-gift-idea"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">best birthday friend gift idea</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">best gambling web site Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://www.paddypowercasino.com"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Paddy Power Casino - 100% Sign-Up Bonus</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>No downloads, play casino-style poker online now with paddy power.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.paddypowercasino.com</font><br><br>
+<br><a href="http://shopshrewd.co.uk"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Shopshrewd UK directory</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Compare the leading offers in our UK focused directory.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://shopshrewd.co.uk</font><br><br>
+<br><a href="http://ecasinosdirectory.co.uk/best-gambling-web-sites.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>best gambling web sites - UK directory of casinos and gambling related resources - </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Add Your Business Home Contact Us Gambling Topics online casinos internet casinos casinos casino games free casino games best online casinos online casino bonus casino gambling net casinos casino b...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://ecasinosdirectory.co.uk/best-gambling-web-sites.php</font><br><br>
+<br><a href="http://best-gambling-web.lg2.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Let's Go To :: Best Gambling Web </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Let's Go To - Best Gambling Web Search Site: Computers & Internet Finance Gambling Gifts Health & Fitness Lifestyle Shopping Sport Travel News Similar Searches - Silversea Cruise - Low Mortgage Rat...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://best-gambling-web.lg2.co.uk/</font><br><br>
+<br><a href="http://www.baccaratonline.org.uk/baccarat_strategy_betting_free/be ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Baccarat Online, best gambling web </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Play baccarat, roulette, and all gambling games online with big prizes! Many free games just for fun. strip black jack free download, littlewoods roulette, black jack baccarat, poker supply, llandr...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.baccaratonline.org.uk/baccarat_strategy_betting_free/be ...</font><br><br>
+<br><a href="http://www.ecasinosdirectory.co.uk/best-online-gambling.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>best online gambling - UK directory of casinos and gambling related resources - </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... online internet gambling casino gambling gambling on black jack roulette gambling gambling games best online gambling slot gambling best gambling web sites gambling sites gambling machines gamb...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.ecasinosdirectory.co.uk/best-online-gambling.php</font><br><br>
+<br><a href="http://www.playfaire.co.uk/address_bookie_comment_email_inurl_mt/c ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Playfaire Internet Gambling, casino web </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... unsecured credit cards forno deposit william hill online betting best gambling web casino uk learn online craps national lottery co.uk national lottery co uk holdem poker baccarat strategy bett...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.playfaire.co.uk/address_bookie_comment_email_inurl_mt/c ...</font><br><br>
+<br><a href="http://www.fayreplay.org.uk/american_baccarat_betting_book_sport/b ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Playfaire best gambling web </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Welcome to playfaire, the site for REAL gamblers with links to just about every form of betting known to man! Whether you are looking for betting tips, Bingo sites or the best Poker rooms in the wo...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.fayreplay.org.uk/american_baccarat_betting_book_sport/b ...</font><br><br>
+<br><a href="http://frontpage-hosting.lg2.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Let's Go To :: Frontpage Hosting </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Insurance - Cartridge Hp Kit Refill - Home Owner Insurance Company - Printer Inkjet Cartridge - Isps Nigeria - Card Credit - Cahoot Flexible Loan - Web Video Poker - Best Gambling Web Great Dea...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://frontpage-hosting.lg2.co.uk/</font><br><br>
+<br><a href="http://www.havingaflutter.co.uk/online_casinos.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Having a Flutter Online At The Casino </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... caisnos black jack strategy card caainos gambling forum best rated online casino casino roulette chat irish lottery result casino craps best gambling web casnios poker roulette black jack craps...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.havingaflutter.co.uk/online_casinos.html</font><br><br>
+<br><a href="http://www.bettingsystems.org.uk/affiliate_bookie/craps_line.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Betting systems UK, craps line </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... prized, fun poker, statist9cs, casinos gambling game, baccarat layout, bedale, ivrtual, bezting, melton, nationaal, pprizes, best gambling web, southend-on-sea, polegate, foofball, footbsll, ga...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.bettingsystems.org.uk/affiliate_bookie/craps_line.html</font><br><br>
+<br><a href="http://www.brightonspeeddating.co.uk/1-online-poker-site.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>1 Online Poker Site, Super Gambling at www.brightonspeeddating.co.uk - poker game - £25 Bonus World Poker Tour Official Site casino game, poker game </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Casino Site Casino Game Strategy Online Casino Sport ... Slot For Fun Office 2003 Pro Casino Casino Gambli... Best Gambling Web Site Play Roulette Online... Free Game Online Poker Office Furnit...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.brightonspeeddating.co.uk/1-online-poker-site.html</font><br><br>
+<br><a href="http://www.prizebingo.org.uk/beacon_bingo/casino_ladbrokes.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Prize bingo! casino ladbrokes </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... pprizes, sp0rt, wilmslow, toyrnament, blokies, best gambling web, game magic roulette, ebating, inte4net, great, antional, banned bookie from, littlewood, bettibg, ardgay, littewoods, gamijg, b...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.prizebingo.org.uk/beacon_bingo/casino_ladbrokes.html</font><br><br>
+<br><a href="http://uk-life-insurance-quotes.lg2.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Let's Go To :: Uk Life Insurance Quotes </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Sport Travel News Similar Searches - Colorado Skiing Vail - Affordable Life Assurance - Secured Unsecured Loan Uk - Car Loans Rate - Best Gambling Web - Instant Home Insurance - Mortgage People...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://uk-life-insurance-quotes.lg2.co.uk/</font><br><br>
+<br><a href="http://uk-unsecured-loans-company.lg2.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Let's Go To :: Uk Unsecured Loans Company </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... News Similar Searches - Car Loan Payment Calculator - Bingo - Advice Debt Uk - Isp Italy - Assurance Cover Insurances Life Quote - Best Gambling Web - Best Home Owner Loan - Paintball Kent - Uk...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://uk-unsecured-loans-company.lg2.co.uk/</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+7"a<J ."e'	e

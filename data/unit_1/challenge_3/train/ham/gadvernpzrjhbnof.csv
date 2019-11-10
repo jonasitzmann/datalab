@@ -1,0 +1,207 @@
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+<TITLE>RRes - SS Department - sundial</TITLE>
+<style>
+<!--
+A { text-decoration: none;  }  
+A:visited, A:hover, A:active { text-decoration: none; } 
+// -->
+</STYLE>
+</HEAD>
+
+<body background="/aen/NewIACRBackground.gif">
+
+<table border="0" cellpadding="6">
+<tr>
+<td colspan="3" valign="top">
+<font face="arial" size="+3"><b>Soil Science&nbsp;</b></font>
+</td>
+</tr>
+
+<tr>
+<td HEIGHT="10"><!--blank cell--></td>
+</tr>
+
+<tr>
+
+<td width="165" valign="top" align="left">
+
+<!-- side menu Start -->
+
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><img border="0" src="/iacr/iacrimages/template3.gif" width="100" height="129"></a>
+<br />
+<p align="left">
+<font face="arial" size="2">
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><b>RRes home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/htdig/search.html"><b>Search</b></a><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html"><b>Research</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/aenindex.htm"><b>SS Department home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+
+<a href="/aen/nut_dyn/nutdyn.htm"><b>Nutrient Dynamics</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/soil_prot/soilprot.htm"><b>Soil Protection and Remediation</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/c_cycling/index.htm"><b>Carbon Cycling</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+<br />
+
+<a href="/aen/project.htm"><b>AEN project pages</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/software.htm"><b>Software</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/meetings.htm"><b>Meetings</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/links.htm"><b>Useful links</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+<B>Soil Science Department<br />
+Rothamsted Research<br />
+Harpenden, Herts<br />
+AL5 2JQ  England<br />
+<br />
+Tel: +44 (0) 1582 763133<br />
+Fax: +44 (0) 1582 469036<br /> 
+E-mail: <A HREF="MAILTO:christine.jaggard@bbsrc.ac.uk">Secretary</A></B><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+</font>
+
+
+<!-- side menu End -->
+
+
+</td>
+
+<td Width="10"><!--blank cell--></td>
+
+<td valign="top">
+<HEAD>
+  <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win95; I) [Netscape]">
+  <TITLE>Background information and introduction to Sundial</TITLE>
+</HEAD>
+<H1 ALIGN=Center>
+  <BIG><FONT COLOR=#1111ff>SUNDIAL</font></BIG>
+</H1>
+<H2>
+  <B><BIG>General Information</BIG></B>
+</H2>
+<hr />
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<BIG><B>Introduction</B></BIG>
+</H3>
+<P>
+The results of simple experiments and systems studies have been used to develop
+process-based models of nitrogen turnover in the soil/crop system.
+<A HREF="sci.htm">SUNDIAL</A> is one such model (Bradbury et al, 1993;
+Smith et al, 1996). It as a dynamic model with a weekly description of the
+effects of different weather patterns, soil and crop types on nitrogen turnover.
+<A HREF="sci.htm">SUNDIAL</A> is designed to be used in a
+&#145;carry-forward&#146; mode, with information from one years run providing
+inputs for the next. This allows it to investigate more complex systems involving
+rotations of crops and planning timescales of several years
+(<A HREF="wholefarm.htm">modelling whole farm systems</A>).
+<A HREF="sci.htm">SUNDIAL</A> is also used in modelling
+<A HREF="#Nitrate">nitrate leaching</A> from whole catchments
+(<A HREF="catchment.htm">catchment modelling</A>).
+<P>
+Concentrations of nitrate in natural waters (rivers, lakes and underground
+aquifers) have increased substantially over the last 30 years, and agricultural
+land is recognised as a major source of nitrate in drinking water in the
+United Kingdom (Archer and Thompson, 1993). Throughout the world there is
+political and legislative pressure to reduce nitrate leaching from agricultural
+land to meet maximum permitted concentrations of nitrate in drinking water.
+The maximum concentration permitted by the 1980 EC Directive on the Quality
+of Water Intended for Human Consumption is 50 mg nitrate l<SUP>-1</SUP> (Council of European Communities, 1980).
+There is also concern over the amount of nitrate reaching rivers, lakes and
+seas, which can cause algal blooms and eutrophication. &nbsp; The implementation
+of the EC Drinking Water Directive requires nitrate losses associated with
+agricultural management to be predicted. The
+<A HREF="sci.htm">SUNDIAL</A> model can be used to predict nitrate
+losses by simulating the dynamics of nitrogen turnover in the soil/crop system.
+<A HREF="sunfrs.htm">SUNDIAL-FRS</A> can be used by farmers and advisors
+to devise a management strategy to minimise nitrate losses for individual
+farms.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  <B><A NAME="Nitrate"><BIG>The Nitrate issue</BIG></A></B></FONT>
+</H3>
+<P>
+Nitrogen fertiliser usually contains nitrogen in one of three forms - ammonium,
+nitrate or urea. Once added to the soil, soil enzymes and microbes rapidly
+convert any urea and ammonium to nitrate, particularly when the soil is moist
+and reasonably warm. Nitrate is also produced from the breakdown of soil
+organic matter and from any manure or plant residues.The nitrate ion (NO<SUB>3</SUB><SUP>-</SUP>)
+is very soluble in water, and so is readily leached out of the soil by water
+draining through it. Nitrate is lost to surface waters by run-off, or through
+land drains and to groundwater by deep percolation. In the United Kingdom,
+nitrate leaching occurs mainly in the autumn and winter, starting when soils
+reach field capacity in the autumn and ending as they begin to dry in the
+spring.
+<P>
+Plants absorb the nitrogen they need as ammonium or nitrate, so much of the
+nitrogen in the soil that is available for crop uptake is therefore vulnerable
+to leaching. This is the root of the &#145;nitrate problem&#146;. The key
+to minimising nitrate leaching is to ensure that the supply of nitrogen to
+the growing crop closely matches its demand, so that once the crop has ceased
+to grow and absorb nitrate from the soil, little remains at risk of leaching.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14><B><BIG>The
+  development of SUNDIAL</BIG></B></FONT>
+</H3>
+<P>
+<A HREF="sci.htm">SUNDIAL</A> started life as the Rothamsted Nitrogen
+Turnover Model, intended to help scientists interpret nitrogen measurements
+in field experiments (Bradbury et al, 1993). In particular it aimed to predict
+how much nitrogen was released from the soil, and when this nitrogen release
+occurred (Bradbury et al, 1991). This work was primarily funded by the Home-Grown
+Cereals Authority (<A HREF="http://www.hgca.com/">HGCA</A>).
+<A HREF="sci.htm">SUNDIAL</A> was developed as a user-friendly PC-based
+version of the original model (Smith et al, 1996). It is designed to be used
+both in retrospect, for example to compute nitrate losses from actual fertiliser
+applications and weather data, and in predictive mode, using long-term weather
+records or specified weather scenarios.
+<P>
+The development of <A HREF="sci.htm">SUNDIAL</A> into a nitrogen Fertiliser
+Recommendation System (<A HREF="sunfrs.htm">SUNDIAL-FRS</A> ) was funded
+primarily by <A HREF="http://www.maff.gov.uk/">MAFF</A>, in consultation
+with members of the Association of Independent Crop Consultants (AICC) and
+horticultural input from
+<A HREF="http://www.imperial.ac.uk/wyecampus/">The Wye Campus of Imperial College London
+</A>.
+<P>
+For details of the reference given above, and for other relevant references
+go to <A HREF="refs.htm">References and further reading</A>.
+<P>
+  <hr />
+<P>
+<A HREF="sundial.htm">Back to Sundial
+home page</A>
+
+</td>
+
+</tr>
+</table>
+
+
+
+; dC /

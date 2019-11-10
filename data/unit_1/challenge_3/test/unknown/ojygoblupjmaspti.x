@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>sky sport Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=sky-diving-gift-uk"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">sky diving gift uk</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=skydive-jump-gift"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">skydive jump gift</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=skydive-gift"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">skydive gift</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=skydive-gift-uk"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">skydive gift uk</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=sky-sport"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">sky sport</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=news-sky-sport"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">news sky sport</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=football-sky-sport"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">football sky sport</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=cricket-sky-sport"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">cricket sky sport</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=sky-travel"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">sky travel</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=sky-travel-shop"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">sky travel shop</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">sky sport Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://shopshrewd.co.uk"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Shopshrewd UK directory</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Compare the leading offers in our UK focused directory.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://shopshrewd.co.uk</font><br><br>
+<br><a href="http://www.snowdoniaskysports.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Snowdonia Sky Sports </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>HOME NEWS & EVENTS SSS NEWSLIST SITES GUIDE JOIN CLUB CONTACTS LINKS WEATHER WEB CAMS Home : Welcome to the Snowdonia Sky Sports web site. This site contains news & information for hang gliding & p...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.snowdoniaskysports.co.uk/</font><br><br>
+<br><a href="http://msnsport.skysports.com/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Sky Sports - The Best Sport Coverage From Around The World </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000></font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://msnsport.skysports.com/</font><br><br>
+<br><a href="http://www.gloucesterrugbyclub.com/variants/print/2541_1928.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Gloucester Rugby Club : Sky Sports - Rugby Club </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Sky Sports - Rugby Club 23 September 2004, 3:42 pm By Howard Lush Gloucester's Phil Vickery will be at the forefront of a new feature on Sky Sports' Rugby Club this week. The tight-head prop, who i...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.gloucesterrugbyclub.com/variants/print/2541_1928.php</font><br><br>
+<br><a href="http://www.bristolrugby.co.uk/25_3164.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Bristol Rugby : Manu Contepomi helps Sky Sports publicise their weekend schedule </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Home All News Match Reports Player News Injury News Tickets & Travel News Coach Column Club Events Club News RSS Feeds News Archive News 1st XV Fixtures European Challenge Cup United Fixtures Live ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.bristolrugby.co.uk/25_3164.php</font><br><br>
+<br><a href="http://www.hunslethawksrl.co.uk/skysports.htm"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Hunslet Hawks 2007 </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Zone Shop Stadium Sponsors Links t 0113 2712730 e hunslethawks@btconnect.com South Leeds Stadium Middleton Grove, LS11 5DJ National League on Sky Sports The RFL is delighted to confirm that it ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.hunslethawksrl.co.uk/skysports.htm</font><br><br>
+<br><a href="http://www.sportengland.org/text/index/get_resources/clubs/clubmar ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>A Clubmark award to the World Club Champions Leeds Rhinos </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Clubmark award to the World Club Champions Leeds Rhinos CHAMPIONS HELP CLUB CELEBRATE ACHIEVEMENT A full-house of 22000 rugby league fans, a live Sky Sports TV broadcast and a 70-nil scoreline ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.sportengland.org/text/index/get_resources/clubs/clubmar ...</font><br><br>
+<br><a href="http://www.bluesox.co.uk/revamp/CGI_Built/news/2002/07/020710-0002 ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Saints Clash To Be Shown On Sky </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>SAINTS CLASH TO BE SHOWN ON SKY 10/07/2002 Back to Previous Page Halifax Blue Sox's home clash with St Helens on Friday 26th July will now be shown live on Sky Sports (KO 8.00pm). It will be the Bl...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.bluesox.co.uk/revamp/CGI_Built/news/2002/07/020710-0002 ...</font><br><br>
+<br><a href="http://www.channel4.com/culture/microsites/T/thinktv/comments/spor ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>channel4.com - ThinkTV </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... comments here . You will need Realplayer . Have your say on this J Bennett 28th Feb 02 We pay for Sky Sports, then we pay for the Premiership and then they go and put the Liverpool game on ITV ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.channel4.com/culture/microsites/T/thinktv/comments/spor ...</font><br><br>
+<br><a href="http://www.mirror.co.uk/sport/football/tm_method=full&objectid=190 ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Mirror.co.uk - Sport - Football - SCHOLES A TARGET </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... change game. "I'd pick Paul as my player of the year, ahead of Cristiano Ronaldo. Scholes brings absolute class to the United game." RAY WILKINS will be at the San Siro for Milan v Manchester U...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.mirror.co.uk/sport/football/tm_method=full&objectid=190 ...</font><br><br>
+<br><a href="http://www.channel4news.co.uk/news/38283721815ce77f61f672ffb270aa9 ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>ITN - Virgin demands Sky arbitration move </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... in value to our customer base" - Chief executive Steve Burch The pair have until midnight to agree on a new contract or customers of Virgin Media - formed from the merger of NTL , Telewest and ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.channel4news.co.uk/news/38283721815ce77f61f672ffb270aa9 ...</font><br><br>
+<br><a href="http://news.bbc.co.uk/1/hi/entertainment/tv_and_radio/2773237.stm"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>BBC NEWS Entertainment TV and Radio Sky plans new channel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... But the spokesman said this was not part of the plan for the new channel. "We have three channels on Freeview already, Sky News, Sky Sports News and Sky Travel, and we're happy with those at th...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://news.bbc.co.uk/1/hi/entertainment/tv_and_radio/2773237.stm</font><br><br>
+<br><a href="http://www.wrfc.co.uk/variants/print/196_1268.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Worcester Rugby Club Website : Sky cameras roll into Sixways </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... the season at Sixways Sky cameras roll into Sixways 27 April 2007, 12:19 pm By Candice Pearson All rugby fans know that there's nothing more relaxing than an afternoon watching Sky Sports - but...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.wrfc.co.uk/variants/print/196_1268.php</font><br><br>
+<br><a href="http://www.wakefieldwildcats.co.uk/sky-sports-i133.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Sky Sports - Principle Partners in Wakefield </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Email Address Password Friday, 27 April 2007 Home News Register Login Basket Checkout Order Status Categories About The Wildcats Club Records & Honours Coaching Register Contact Details Stadium Sta...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.wakefieldwildcats.co.uk/sky-sports-i133.html</font><br><br>
+<br><a href="http://www.guardian.co.uk/TV/sky_news.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Guardian Unlimited TV listings </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... 4 Sky Movies 5 Sky Movies 6 Sky Movies 7 Sky Movies 8 Sky Movies 9 Sky Movies Cinema (Digital) Sky Movies Cinema 2 Sky News Sky One Sky Sports Sky Sports 2 Sky Sports 3 Sky Sports Extra Sky Spo...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.guardian.co.uk/TV/sky_news.html</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+dts awds4t

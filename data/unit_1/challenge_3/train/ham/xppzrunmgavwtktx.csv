@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+var url="";
+var winname="";
+
+function bigWin(url,winname)
+{
+window.open(url,winname,'width=1000,height=700,scrollbars=yes');
+}
+
+function smallWin(url,winname)
+{
+window.open(url,winname,'width=600,height=700,scrollbars=yes');
+}
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<img src=images/40v.gif><br>
+<h2 align=center>Early Modern Handwriting: Alphabets</h2>
+<p>&nbsp;<p>
+<table width=90%>
+<tr></td>
+<blockquote><i><font size=-1>The traditional method of learning the calligraphic hands described and illustrated on this site, dating from the earliest manuscript and print copy-books, has been emulation and replication of alphabets. In this section of the course, we offer a number of different alphabets designed to meet the reference and copying needs of the student. Careful practice in reproducing the letter forms illustrated here will not only impress them more firmly on the mind, but will expose the method used in forming the letters--stroke by stroke--which, as any experienced palaeographer will attest, is crucial to a thorough grasp of the origin, evolution, and interpretation of scripts. 
+<p>
+Please choose from the links below. The links to individual letter-forms contain illustrations drawn from the manuscripts collected on this site, and present roughly chronological accounts of the letters as they appear in English documents between 1500 and 1700. The links to complete alphabets, which will appear in a larger window, contain illustrations developed after models in early modern writing manuals. Close the pop-up windows to return to this page, and through it to other parts of the site.</font></i></blockquote>
+<p>&nbsp;<p>
+<table width=100%>
+<tr>
+<td width=33% valign=top>
+<table width=90% border><tr><td>
+<table width=100% cellspacing=20>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/A.html', 'alphabet')">A</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/B.html', 'alphabet')">B</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/C.html', 'alphabet')">C</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/D.html', 'alphabet')">D</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/E.html', 'alphabet')">E</a></font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/F.html', 'alphabet')">F</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/G.html', 'alphabet')">G</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/H.html', 'alphabet')">H</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/I.html', 'alphabet')">I</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/K.html', 'alphabet')">K</a></font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/L.html', 'alphabet')">L</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/M.html', 'alphabet')">M</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/N.html', 'alphabet')">N</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/O.html', 'alphabet')">O</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/P.html', 'alphabet')">P</a></font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/Q.html', 'alphabet')">Q</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/R.html', 'alphabet')">R</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/S.html', 'alphabet')">S</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/T.html', 'alphabet')">T</a></font></td>
+<td width=16% valign=top><center><font size=+2>U</font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/V.html', 'alphabet')">V</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/majuscules/W.html', 'alphabet')">W</a></font></td>
+<td width=16% valign=top><center><font size=+2>X</font></td>
+<td width=16% valign=top><center><font size=+2>Y</font></td>
+<td width=16% valign=top><center><font size=+2>Z</font></td>
+</tr></table></td></tr></table>
+</td>
+
+<td width=34% valign=middle><center>
+<a href="javascript:smallWin('images/alphabets/minuscules/brevs.jpg', 'alphabet')">Brevigraphs and Other<br>
+Common Abbreviations</a>
+<p>&nbsp;<p>
+<a href="javascript:bigWin('alphabets/minuscules/secretarie.html','alphabet')">The Secretarie Alphabete</a><br>
+<font size=-1>[An image after Jean de Beauchesne]</font></a>
+<p>&nbsp;<p>
+<a href="javascript:bigWin('alphabets/minuscules/italic.html','alphabet')">The Italic Hand</a><br>
+<font size=-1>[An image after Martin Billingsley, 1618]</font>
+<p>&nbsp;<p>
+<a href="javascript:bigWin('alphabets/minuscules/courthand.html','alphabet')">Jacobean Court Hand</a><br>
+<font size=-1>[An image after Martin Billingsley, 1618]</font></center></td>
+
+<td width=33% valign=top>
+<table width=90% border><tr><td>
+<table width=100% cellspacing=20>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/a.html', 'alphabet')">a</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/b.html', 'alphabet')">b</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/c.html', 'alphabet')">c</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/d.html', 'alphabet')">d</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/e.html', 'alphabet')">e</a></font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/f.html', 'alphabet')">f</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/g.html', 'alphabet')">g</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/h.html', 'alphabet')">h</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/i.html', 'alphabet')">i</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/k.html', 'alphabet')">k</a></font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/l.html', 'alphabet')">l</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/m.html', 'alphabet')">m</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/n.html', 'alphabet')">n</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/o.html', 'alphabet')">o</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/p.html', 'alphabet')">p</a></font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/q.html', 'alphabet')">q</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/r.html', 'alphabet')">r</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/s.html', 'alphabet')">s</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/t.html', 'alphabet')">t</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/u.html', 'alphabet')">u</a></font></td>
+</tr>
+<tr>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/v.html', 'alphabet')">v</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/w.html', 'alphabet')">w</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/x.html', 'alphabet')">x</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/y.html', 'alphabet')">y</a></font></td>
+<td width=16% valign=top><center><font size=+2><a href="javascript:smallWin('alphabets/minuscules/z.html', 'alphabet')">z</a></font></td>
+</tr></table></td></tr></table>
+</td></tr></table>
+
+
+<p>
+<img src=images/30v.gif><br>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+
+
+
+
+
+o:n.e[h_a'c

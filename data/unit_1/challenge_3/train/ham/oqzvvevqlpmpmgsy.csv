@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    welcomeoff = new Image(70,13);
+    welcomeoff.src = "images/welcomeoff.gif";
+    welcomeon= new Image(70,13);
+    welcomeon.src = "images/welcomeon.gif";
+
+    overviewoff = new Image(134,17);
+    overviewoff.src = "images/overviewoff.gif";
+    overviewon= new Image(134,17);
+    overviewon.src = "images/overviewon.gif";
+
+    introoff = new Image(175,13);
+    introoff.src = "images/introoff.gif";
+    introon= new Image(175,13);
+    introon.src = "images/introon.gif";
+
+    manualoff = new Image(212,17);
+    manualoff.src = "images/manualoff.gif";
+    manualon= new Image(212,17);
+    manualon.src = "images/manualon.gif";
+
+    conventionsoff = new Image(203,17);
+    conventionsoff.src = "images/conventionsoff.gif";
+    conventionson= new Image(203,17);
+    conventionson.src = "images/conventionson.gif";
+
+    acknowledgementsoff = new Image(151,17);
+    acknowledgementsoff.src = "images/acknowledgementsoff.gif";
+    acknowledgementson= new Image(151,17);
+    acknowledgementson.src = "images/acknowledgementson.gif";
+
+    datdescroff = new Image(205,17);
+    datdescroff.src = "images/datdescroff.gif";
+    datdescron= new Image(205,17);
+    datdescron.src = "images/datdescron.gif";
+
+    alphabetsoff = new Image(75,17);
+    alphabetsoff.src = "images/alphabetsoff.gif";
+    alphabetson= new Image(75,17);
+    alphabetson.src = "images/alphabetson.gif";
+
+    manuscriptsoff = new Image(148,35);
+    manuscriptsoff.src = "images/manuscriptsoff.gif";
+    manuscriptson= new Image(148,35);
+    manuscriptson.src = "images/manuscriptson.gif";
+
+    samplesoff = new Image(169,17);
+    samplesoff.src = "images/samplesoff.gif";
+    sampleson= new Image(169,17);
+    sampleson.src = "images/sampleson.gif";
+
+    lessonsoff = new Image(110,13);
+    lessonsoff.src = "images/lessonsoff.gif";
+    lessonson= new Image(110,13);
+    lessonson.src = "images/lessonson.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+    bibliographyoff = new Image(143,31);
+    bibliographyoff.src = "images/bibliographyoff.gif";
+    bibliographyon = new Image(143,31);
+    bibliographyon.src = "images/bibliographyon.gif";
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<img src=images/title.gif>
+<p>
+<img src=images/70v.gif><br>
+<table width=95%>
+<tr>
+<td width=33%>
+<a href="welcome.html"
+        onmouseover="welcome.src = welcomeon.src"
+        onclick="welcome.src = welcomeon.src"
+        onmouseout="welcome.src = welcomeoff.src"><img
+        alt="Welcome"
+        src="images/welcomeoff.gif"
+        border="0" width="70"
+        height="13" name="welcome"></a><br><img src=images/30v.gif><br>
+<a href="overview.html"
+        onmouseover="overview.src = overviewon.src"
+        onclick="overview.src = overviewon.src"
+        onmouseout="overview.src = overviewoff.src"><img
+        alt="Project Overview"
+        src="images/overviewoff.gif"
+        border="0" width="134"
+        height="17" name="overview"></a><br><img src=images/30v.gif><br>
+<a href="acknowledgements.html"
+        onmouseover="acknowledgements.src = acknowledgementson.src"
+        onclick="acknowledgements.src = acknowledgementson.src"
+        onmouseout="acknowledgements.src = acknowledgementsoff.src"><img
+        alt="Acknowledgements"
+        src="images/acknowledgementsoff.gif"
+        border="0" width="151"
+        height="17" name="acknowledgements"></a><br><img src=images/30v.gif><br>
+</td>
+<td width=34%><center>
+<a href="lessons.html"
+        onmouseover="lessons.src = lessonson.src"
+        onclick="lessons.src = lessonson.src"
+        onmouseout="lessons.src = lessonsoff.src"><img
+        alt="Course Lessons"
+        src="images/lessonsoff.gif"
+        border="0" width="110"
+        height="13" name="lessons"></a><br><img src=images/30v.gif><br>
+<a href="intro.html"
+        onmouseover="intro.src = introon.src"
+        onclick="intro.src = introon.src"
+        onmouseout="intro.src = introoff.src"><img
+        alt="Historical Introduction"
+        src="images/introoff.gif"
+        border="0" width="175"
+        height="13" name="intro"></a><br><img src=images/30v.gif><br>
+<a href="billingsley/"
+        onmouseover="manual.src = manualon.src"
+        onclick="manual.src = manualon.src"
+        onmouseout="manual.src = manualoff.src"><img
+        alt="The Pens Excellencie"
+        src="images/manualoff.gif"
+        border="0" width="212"
+        height="17" name="manual"></a><br><img src=images/30v.gif><br>
+<a href="conventions.html"
+        onmouseover="conventions.src = conventionson.src"
+        onclick="conventions.src = conventionson.src"
+        onmouseout="conventions.src = conventionsoff.src"><img
+        alt="Transcription Conventions"
+        src="images/conventionsoff.gif"
+        border="0" width="203"
+        height="17" name="conventions"></a><br><img src=images/30v.gif><br>
+<a href="datdescr.html"
+        onmouseover="datdescr.src = datdescron.src"
+        onclick="datdescr.src = datdescron.src"
+        onmouseout="datdescr.src = datdescroff.src"><img
+        alt="Dating and Describing Hands"
+        src="images/datdescroff.gif"
+        border="0" width="205"
+        height="17" name="datdescr"></a><br><img src=images/30v.gif><br>
+<a href="bibliography.html"
+        onmouseover="bibliography.src = bibliographyon.src"
+        onclick="bibliography.src = bibliographyon.src"
+        onmouseout="bibliography.src = bibliographyoff.src"><img
+        alt="Bibliography"
+        src="images/bibliographyoff.gif"
+        border="0" width="143"
+        height="31" name="bibliography"></a><br><img src=images/30v.gif><br>
+</td>
+<td width=33% align=right>
+
+<a href="alphabets.html"
+        onmouseover="alphabets.src = alphabetson.src"
+        onclick="alphabets.src = alphabetson.src"
+        onmouseout="alphabets.src = alphabetsoff.src"><img
+        alt="Sample Alphabets etc."
+        src="images/alphabetsoff.gif"
+        border="0" width="75"
+        height="17" name="alphabets"></a><br><img src=images/30v.gif><br>
+<a href="manuscripts.html"
+        onmouseover="manuscripts.src = manuscriptson.src"
+        onclick="manuscripts.src = manuscriptson.src"
+        onmouseout="manuscripts.src = manuscriptsoff.src"><img
+        alt="Manuscript Images"
+        src="images/manuscriptsoff.gif"
+        border="0" width="148"
+        height="35" name="manuscripts"></a><br><img src=images/30v.gif><br>
+<a href="samples.html"
+        onmouseover="samples.src = sampleson.src"
+        onclick="samples.src = sampleson.src"
+        onmouseout="samples.src = samplesoff.src"><img
+        alt="Sample Transcriptions"
+        src="images/samplesoff.gif"
+        border="0" width="169"
+        height="17" name="samples"></a><br><img src=images/30v.gif><br>
+</td>
+</tr>
+</table>
+<p>
+<img src=images/30v.gif><br>
+<hr>
+<p>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+1c :r="e

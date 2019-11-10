@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad//DTD HTML 3.2 + extensions for HoTMetaL PRO 3.0(U) 19961211//EN"
+ "hmpro3.dtd">
+
+<HTML>
+
+  <HEAD>
+    <TITLE>SPA Database: Home Page</TITLE>
+    <META NAME="keywords"
+    CONTENT="Scotland, palaeoenvironment, paleoenvironment, database, research, pollen, Edinburgh, Geography, Historic Scotland, Archaeology, pollen, radiocarbon">
+    <META NAME="description"
+    CONTENT="The Scottish Palaeoecological Archive Database provides information on sites in Scotland where the natural archives of peat bogs, mires and lochs preserve evidence of past environments and environmental change. The University of Edinburgh and Historic Scotland are jointly involved in the development of the SPA database as a national resource, available through the medium of the World-Wide Web.">
+  </HEAD>
+
+  <FRAMESET FRAMEBORDER="0" BORDER="0">
+  <FRAMESET COLS="17%,83%" FRAMEBORDER="0" BORDER="0">
+  <FRAME SRC="side.html" NAME="side" NORESIZE="NORESIZE">
+  <FRAME SRC="main.html" NAME="main" MARGINWIDTH="20" MARGINHEIGHT="10"
+  NORESIZE="NORESIZE"></FRAMESET>
+  <NOFRAMES>
+  <BODY BGCOLOR="#FFFFFF" TEXT="#004080" LINK="#000000" VLINK="#000000">
+      <DIV ALIGN="CENTER"><IMG SRC="spa_logo.gif" ALT="SPA Database" WIDTH="164" HEIGHT="72"></DIV>
+
+      <P><BR>
+         </P>
+      <DIV ALIGN="CENTER">
+      <TABLE ALIGN="CENTER" WIDTH="100%">
+        <TR>
+          <TH ALIGN="CENTER" WIDTH="33%"><FONT COLOR="#800040" FACE="arial,helvetica" SIZE="4"><B>Introduction</B></FONT></TH>
+          <TH ALIGN="CENTER" WIDTH="33%"><FONT COLOR="#800040" FACE="arial,helvetica" SIZE="4"><B>Data
+          Search</B></FONT></TH>
+          <TH ALIGN="CENTER" WIDTH="33%"><FONT COLOR="#800040" FACE="arial,helvetica" SIZE="4"><B>Data
+          Entry</B></FONT></TH>
+        </TR>
+        <TR>
+          <TD ALIGN="CENTER" WIDTH="33%"><A HREF="back.html" TARGET="main"><FONT FACE="arial,helvetica" SIZE="2"><B>Background</B></FONT></A></TD>
+          <TD ALIGN="CENTER" WIDTH="33%"><A HREF="sites.html" TARGET="main"><FONT FACE="arial,helvetica" SIZE="2"><B>Sites
+            </B></FONT></A></TD>
+          <TD ALIGN="CENTER" WIDTH="33%"><FONT FACE="arial,helvetica" SIZE="2"><B><A HREF="data_entry.html" TARGET="main">Introduction</A></B></FONT></TD>
+        </TR>
+        <TR>
+          <TD ALIGN="CENTER" WIDTH="33%"><B><FONT FACE="arial,helvetica" SIZE="2"><A HREF="contrib.html">Contributors</A></FONT></B></TD>
+          <TD ALIGN="CENTER" WIDTH="33%"><A HREF="publication.html" TARGET="main"><FONT FACE="arial,helvetica" SIZE="2"><B>Publications</B></FONT></A></TD>
+          <TD ALIGN="CENTER" WIDTH="33%"><FONT FACE="arial,helvetica" SIZE="2"><B><A HREF="telnet.html" TARGET="main">Date
+            Entry Form</A></B></FONT></TD>
+        </TR>
+        <TR>
+          <TD ALIGN="CENTER" WIDTH="33%"><B><FONT FACE="arial,helvetica" SIZE="2"><A HREF="copyright.html">Copyright</A></FONT></B></TD>
+          <TD ALIGN="CENTER" WIDTH="33%"><A HREF="researcher.html" TARGET="main"><FONT FACE="arial,helvetica" SIZE="2"><B>Researchers</B></FONT></A></TD>
+          <TD ALIGN="CENTER" WIDTH="33%"><FONT FACE="arial,helvetica" SIZE="2"><B><A HREF="form_guide.html" TARGET="main">User
+            Guide</A></B></FONT></TD>
+        </TR>
+      </TABLE></DIV>
+
+      <P><BR>
+         </P>
+
+
+  <P ALIGN="LEFT"><FONT FACE="arial,helvetica" SIZE="2">The Scottish Palaeoecological
+    Archive Database provides information on sites in Scotland where the natural
+    archives of peat bogs, mires and lochs preserve evidence of past environments
+    and environmental change. The University of Edinburgh and Historic Scotland
+    are jointly involved in the development of the SPA database as a national resource,
+    available through the medium of the World-Wide Web. </FONT></P>
+  <P><FONT FACE="arial,helvetica" SIZE="2"><strong>Details about the NEW ArcMap and ArcView compatibility of the SWAD
+    are <a href="/swad/arcdetails.html">available here</a>.</strong></FONT></P>
+
+      <P ALIGN="LEFT"><FONT FACE="arial,helvetica" SIZE="2">Palaeoecology is the
+        study of ancient life. It aims to reconstruct how past ecosystems worked
+        and how the environment has changed through time. By gaining an
+        understanding of how the environment has changed over time we may gain a
+        better explanation for the environment of today. </FONT></P>
+
+      <P><FONT FACE="arial,helvetica" SIZE="2">Palaeoecologists use many
+        different forms of evidence ranging from fossil plants to animal bones to
+        the sediments in which they are found; in Scotland the majority of our
+        evidence for past environments comes from the study of peats and lake
+        sediments and the fossil pollen and spores which they contain. This
+        database therefore concentrates upon those sites where pollen evidence has
+        been recovered although the addition of other classes of palaeoecological
+        data will be possible in the future.</FONT></P>
+
+      <P><FONT FACE="arial,helvetica" SIZE="2">It is important you are aware of
+        the <A HREF="copyright.html">Copyright Restrictions</A> on the use of the
+        SPA Database, before trying to access it.</FONT></P>
+
+      <P><FONT FACE="arial,helvetica" SIZE="2">We greatly value your comments,
+        both on the utility and functionality of the system and on the data
+        records held. Please email feedback to the address below. Please include
+        as much detail as you can, particularly if you encounter any problems. For
+        example, please describe the series of operations you have undertaken, or
+        specify which site, worker or other data record was in error. </FONT></P>
+
+      <P>&nbsp;</P>
+          <DIV ALIGN="CENTER">
+  <TABLE WIDTH="75%">
+        <TR>
+          <TD ROWSPAN="11" VALIGN="TOP" ALIGN="LEFT" WIDTH="70"><A HREF="http://www.historic-scotland.gov.uk/" TARGET="_top"><IMG SRC="histscotlogo.gif" ALT="Historic Scotland" WIDTH="64" HEIGHT="118" BORDER="0"></A></TD>
+          <TD ROWSPAN="11" VALIGN="TOP" ALIGN="LEFT" WIDTH="125"><A HREF="http://www.ed.ac.uk/" TARGET="_top"><IMG SRC="crest.gif" ALT="E.U. Crest" WIDTH="116" HEIGHT="125" BORDER="0"></A></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica"><B>Queries should be directed to:</B></FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica">Bruce
+          Gittings/Anthony Newton</FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica">Institute
+          of Geography</FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica">The
+          University of Edinburgh</FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica">Drummond
+          Street</FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica">Edinburgh
+          EH8 9XP</FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica">Scotland,
+          UK</FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT"></TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica">Fax:
+          + 44 (0)131 650 2558/2561</FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD VALIGN="TOP" ALIGN="RIGHT"><FONT SIZE="2" FACE="arial,helvetica"><A HREF="mailto:spad@geo.ed.ac.uk">spad@geo.ed.ac.uk</A></FONT></TD>
+          <TD VALIGN="TOP" ALIGN="RIGHT">&nbsp;</TD>
+        </TR>
+      </TABLE>
+
+      <P><FONT FACE="arial,helvetica" SIZE="2">Page last updated: 16 February 2004</FONT></P>
+
+      <P><FONT FACE="arial,helvetica" SIZE="-1">| <A HREF="main.html">Home</A>
+        | <A HREF="back.html">Background</A> | <A HREF="contrib.html">Contributors</A>
+        | <A HREF="copyright.html">Copyright</A> | <BR> | <A HREF="sites.html">Site Search</A> | <A HREF="publication.html">Publication
+          Search</A> | <A HREF="Researcher.html">Researcher Search</A> | <BR>| <A HREF="data_entry.html">Data Entry Introduction</A> |
+        <A HREF="telnet.html">Data Entry Form</A> | <A HREF="form_guide.html">Data
+        Entry User Guide</A> |</FONT></P></DIV>
+  </BODY></NOFRAMES></FRAMESET>
+</HTML>
+
+
+ritosm

@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<TITLE> MORSE Error Messages </TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="morse.css">
+</HEAD>
+<BODY>
+<H1 CLASS=PAGE>MORSE Error Messages</h1>
+</center>
+<h6>29NOV05</H6>
+<HR>
+<B>MORSE</B> <i>should</i> intercept any error condition arising from
+user-input and print a helpful message to the terminal and the
+<a href=outputs.html#log><b>morse.log</b> file</a>.
+<P>
+If, when <a href=run.html>running <B>MORSE</b></a>, 
+instead of the standard set of messages to the terminal
+beginning <B>'R-...'</b> or
+<b>'I-...'</b> you get a message beginning <b>'F-...'</b> a fatal
+error has been detected and the program stops at that point.
+The same error message will have been 
+printed as the last record in the <b>morse.log</b> file so
+you don't need to remember it (unless, of course, the error occurred
+while writing a different message to the log file itself).
+<P>
+These messages always start with
+<B>F-ABCDEF:...</b> where <B>ABCDEF</B> (usually 6 characters)
+is the subroutine module <b>abcdef.for</b> 
+where the error was detected. 
+<P>
+Almost always fatal errors will occur while
+the driver table is being read or the calculations are being set up,
+ie <i>before</i> the first message <B>I-MORSE: Processing ...</b>
+gets printed to the screen. 
+
+<P> 
+Most errors will either be due to 
+<DL>
+<DT> <B>F-DRVKEY: Error reading driver table: ...</b>
+<DD> Incorrectly structured driver table.
+<DT> <B>F-DRVXYZ: ...</b>
+<DD> Error attempting to read the <b>*XYZ</b> section of driver table
+<DT> <b>F-OPNFIL: I/O failure on file. IOSTAT=         29</b> (or some
+other number than <b>29</b>, depending on machine and problem).
+<DD> Error finding/reading file, check <b><a
+href=outputs.html#log>morse.log</a></b> for the file that
+    it was attempting to open
+<DT> <b>F-ABCDEF: ... <b>MAXXYZ</b> too small ...</b> (or some other message
+involving a parameter <B>MAX...</b>)
+<DD> Parameters beginning <B>MAX...</B> are array sizes, stored in 
+    module <b>rfmsiz.inc</B>
+</dl>
+If the message isn't self-evident,
+it is usually useful to read the file 
+<b><a href=outputs.html#log>morse.log</a></b> to check
+the most recently attempted operation, eg which section of the driver
+table was being read or file was being opened. If it still isn't clear,
+check that the last record of the driver table (<B>*END</B>) has
+a carriage return <B><CR></b> at the end of it!
+<P>
+There are a further class of error messages of the form
+<DL>
+<DT> <B>F-ABCDEF: Logical Error</b>
+<DD> Which refer to unexpected conditions which have arisen 
+(eg falling off the end of a DO loop) due to an internal coding
+error rather than any user-input. In these cases, please
+<a href=mailto:dudhia@atm.ox.ac.uk>inform me</a>.
+</dl>
+
+<HR>
+<UL>
+<LI><a href=index.html>Back to MORSE Index</a>
+</UL>
+</BODY>
+</HTML>
+
+
+ou>A.io "eV t/

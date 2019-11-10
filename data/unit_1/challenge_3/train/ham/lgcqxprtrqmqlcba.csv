@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<link href="css/buffet%20text.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-color: #EEEFC7;
+}
+-->
+</style></head>
+<body>
+<div id="facilities" style="position:absolute; left:350px; top:28px; width:154px; height:31px; z-index:94; font-size: 36px; font-family: Verdana, Arial, Helvetica, sans-serif; visibility: visible;" class="main_heading">facilities </div>
+<div id="RMLlogoBrown" style="position:absolute; left:193px; top:7px; width:87px; height:61px; z-index:107; visibility: visible;"><a href="index.htm"><img src="images/logos/rml_logo_red.gif" alt="home" width="96" height="69" border="0" /></a></div>
+<div id="LeftBackground" style="position:absolute; left:52px; top:0px; width:263px; height:625px; z-index:105; background-color: #980E33; layer-background-color: #980E33; border: 1px none #000000; visibility: visible;"></div>
+
+<div id="RothLogo" style="position:absolute; left:70px; top:4px; width:51px; height:62px; z-index:110; visibility: visible;"><a href="http://local-info.rothamsted.bbsrc.ac.uk/"><img src="images/logos/RRLogo50px.gif" alt="Rothamsted home page" width="50" height="64" border="0" /></a></div>
+<div id="home" style="position:absolute; left:52px; top:386px; width:263px; height:87px; z-index:112; visibility: visible;"><a href="index.htm"><img src="images/gif/colour_dots.gif" alt="home" width="263" height="90" border="0" /></a></div>
+<div id="roomSpec" style="position:absolute; left:100px; top:500px; width:194px; height:109px; z-index:120; visibility: visible;">
+  <p class="banner"><a href="room_specifications.html">room specifications </a></p>
+  <p class="banner"><a href="room_plan.htm"> room plan</a></p>
+  <p class="banner"><a href="ground_dimensions.htm">ground dimensions </a></p>
+</div>
+<div id="theManor" style="position:absolute; left:385px; top:145px; width:354px; height:194px; z-index:121; visibility: visible;">
+  <p class="main_text">The Manor comprises of 2 main rooms, <a href="great_drawing_room.htm">The Great Drawing Room</a> and <a href="piano_lounge.html">The Piano Lounge.</a> Our <a href="reception.htm">reception</a> area over looks the front lawn, where a marquee can be erected for larger events. We also have a rather exclusive room called <a href="spanish_leather_room.htm">The Spanish Leather Room.</a></p>
+  <p class="main_text">Our <a href="fine_dining.htm">catering</a> team can provide a wide range of  meals from a simple <a href="sandwich_menu.htm">sandwich buffet</a> to a lavish <a href="starters.htm">banquet.</a></p>
+  <p class="main_text">We offer free car parking which is exclusive to your event. Our Manor house has been updated with the latest wireless network system. Our digital projector and  technical assistance are also inclusive. <br />
+      <br />
+  Flipcharts and pads, photocopying, transparencies, phone and fax are also available. </p>
+  <p class="main_text"><a href="tariff.htm">Click here to see our tariff.</a></p>
+</div>
+<div id="Layer5"> 
+  <p class="main_text">&nbsp;</p>
+</div>
+<div id="reception" style="position:absolute; left:100px; top:152px; width:200px; height:203px; z-index:119; visibility: visible;" class="banner"><a href="reception.htm">reception</a><br />
+  <a href="great_drawing_room.htm"><br />
+  great drawing room</a><br />
+  <br />
+  <a href="piano_lounge.html">piano lounge</a><br />
+  <br />
+  <a href="spanish_leather_room.htm">spanish leather room</a><br />
+  <br />
+<a href="to_the_gardens.html">to the gardens</a></div>
+</body>
+</html>
+
+
+cs bnrswa fb gg

@@ -1,0 +1,330 @@
+<html>
+<head>
+
+<title>
+
+CERES Harvest IV.i</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h2 align=center>CERES Harvest IV.i<br>
+20.4.99</h2>
+<center><table><tr><td><h4>
+He, that but saw you weare the wheaten hat,<br>
+Would call you more than Ceres, if not that.</h4>
+</td></tr></table></center>
+<p>
+<hr>
+<strong>INTRODUCTION</strong><br>
+With now unwonted alacrity we follow up last month's Harvest with another
+modest but well-winnowed crop, the first of our fourth series. Included are
+some plants with all the appearance of being CERES clones - though
+genetically modified for higher productivity and ease-resistance. Nothing
+revolutionary or ground-breaking this time, but confirmation that good use
+is being made of the internet to deliver substantial and well-organised
+services to the scholarly community.
+<p>
+Talking of which, CERES is pleased to announce the second of its online
+projects under our COPIA banner. 'Sidneiana' is a set of pages offering
+documents and materials relating to the Sidney family. At present these
+include:
+<ul>
+<li>Songs and Sonnets - musical reconstructions of Philip Sidney's Certain
+Sonnets 6 ('To the tune of Basciami vita mia') and Robert Sidney's Song 12
+('To a French tune') 
+<li>A Very Godly Letter - Sir Henry Sidney's letter of advice to the young
+Philip Sidney 
+<li>Nevitt's Memorial - Sir Robert Sidney's wardrobe keeper offers an account
+of his master's income and expenditure from c.1590 to 1626: a history of
+Robert Sidney and the Jacobean court through clothes and lands 
+<li>The Triumph of Death - a modernised and emended edition of the Countess
+of Pembroke's translation of Petrarch
+<li>Philarchos' Tale - a narrative from the manuscript continuation of Mary
+Wroth's 'Urania'
+</ul>
+The pages are at: <a href=http://www.english.cam.ac.uk/ceres/sidneiana>http://www.english.cam.ac.uk/ceres/sidneiana</a>.
+<p>
+We hope that you may wish to contribute suggestions or even whole pages to
+this framework. As with our other COPIA projects, we are very keen to have
+your input. Head for <a href=http://www.english.cam.ac.uk/ceres/copia.htm>http://www.english.cam.ac.uk/ceres/copia.htm</a>.
+<p>
+<hr>
+<p>
+<h2 align=center>ELECTRONIC RESOURCES</h2>
+<strong>ARDEN SHAKESPEARE ONLINE</strong><br>
+In a remarkable follow-up to its release of the Arden Shakespeare CD-ROM,
+based on Arden II, Arden have developed an online version using all current
+editions in the new Arden III series. The numbers are made up by Arden II
+editions, but these will be replaced as the print editions of Arden III
+appear. Ardenonline can be previewed for the next few weeks prior to its
+release in May (at which point your institution will need to pay up,
+although the service does look to be extremely competitively priced).
+<p>
+Ardenonline provides the complete works of Shakespeare on the World Wide
+Web, plus introductions (some exclusively written for the resource),
+commentary and variant notes, performance illustrations and reviews, and
+more. Full details are available on the website at: <a href=http://www.ardenshakespeare.com/ardenonline/>http://www.ardenshakespeare.com/ardenonline/</a>.
+<p>
+Access to the preview version itself is by username and password (this is
+the same for everyone). The details are as follows:
+<p>
+username: preview<br>
+password: 4april99
+<p>
+What is there does not in any major respects differ from the printed books,
+although there are some front-end introductions written specially. The
+major gain will be evident to anyone who is used to using electronic texts
+and resources to save time - the texts and the site are fully searchable
+and everything is linked together hypertextually. Superb use of frames
+means that the basic page always has text, notes, and contents visible,
+along with a toolbar at the top. Any frame can be resized or expanded,
+though the toolbar needs a button to restore the default frames as it is
+easy to lose access to the table of contents. Most images from the books
+are included (though some are withheld through copyright problems,
+including, inexplicably, some facsimiles of quarto pages). The texts are
+beautifully presented with textual variants flagged up in the margin with a
+blue 'v' and notes in the commentary with a red 'c'. This gets round a
+persistent problem in critical editions.
+<p>
+There is a very thorough help page to enable you to make the most of what
+is, though complex, an elegant and intuitive interface. Each text will have
+a set of 'resource links', though these only exist for Lear as yet. These
+offer thematised links to bits of the text and apparatus and a host of
+images from past performances.
+<p>
+There are doubtless flaws and shortcomings in what is a very ambitious use
+of hypertext to enhance the reader's use of the excellent Arden editions.
+Which is why the service is previewing. So have a look, and make your
+criticisms known.
+<p>
+<strong>JSTOR</strong><br>
+With parallel sites in the US and UK to which libraries and other
+institutions can subscribe JSTOR seems to represent the way forward for
+online journal access.
+<ul>
+<li><a href=http://www.jstor.org/>http://www.jstor.org/</a>
+<li><a href=http://www.jstor.ac.uk/>http://www.jstor.ac.uk/</a>
+</ul>
+If your institution subscribes you will be allowed to enter one or the
+other site. If not, there are links for information at least. The service
+archives such journals as the <cite>Journal of the History of Ideas</cite>, <cite>Studies in
+the Renaissance</cite>, <cite>Renaissance News</cite>, <cite>Renaissance Quarterly</cite> (the amalgam of
+the previous two), and <cite>Shakespeare Quarterly</cite>. On their way are the likes of
+<cite>ELH</cite>, <cite>MLN</cite>, <cite>Representations</cite>, and <cite>Yale French Studies</cite>. So it offers online
+access to some really great scholarship from the last 7 decades and not
+just the latest ejournal rubbish. Pages are digitised, so you can read,
+quote, and refer to a journal article without concessions.  But the
+database is also powerfully searchable, though not viewable, as plain text,
+so you can do author/title/keyword searches, view an article, paste its
+pages into a wordprocessor (an easier way to print off than via the browser
+in this case), and you have an offprint.
+<p>
+This is digital journal heaven. Part of what is so depressing about BIDS,
+MLA, etc., is that you can generate hundreds of useful sounding references
+in a minute, but this just creates more work going to a Library to look at
+them. JSTOR genuinely saves time and improves the use that can be made of
+journals.
+<p>
+<strong>OUP JOURNALS</strong><br>
+OUP have organised a very fine site offering tables and contents for all
+their journals, along with abstracts and other information where possible.
+Each journal has its homepage, with tables of contents and the option of
+subscription to receive new tocs by email. These are listed at: <a href=http://www.oup.co.uk/jnls/fields/>http://www.oup.co.uk/jnls/fields/</a>.  Also, there is a single toc subscription page at: <a href=http://www.oup.co.uk/jnls/tocmail/>http://www.oup.co.uk/jnls/tocmail/</a>.  The journals include <cite>RES</cite>, <cite>NQ</cite>, <cite>Renaissance Studies</cite>, <cite>Past and Present</cite>, and <cite>The Library</cite>.
+<p>
+<strong>EARLY MODERN ENGLAND SOURCE</strong><br>
+<a href=http://www.quelle.org/emes/emes.html>http://www.quelle.org/emes/emes.html</a><br>
+A site aimed primarily at historians, which some of us dare think ourselves
+on good days, I know. Seems alarmingly like CERES done in English by
+Germans with expensive software. That is, it offers a fine and
+comprehensive site detailing seminars and conferences in the UK, North
+America, and the Rest of the World; listing online journals and other links
+of interest; and even offering a direct link to Blackwells online bookshop.
+The site is searchable and information can be submitted to it direct. Part
+of a presumably expanding site run by 'QuelleNet' (a mysterious cooperative
+which manages not to identify whence or by whom it is run). The site has a
+tendency to play early modern harpsichord music at you without warning. We
+promise never to do this at CERES.
+<p>
+<strong>INTERNETOGRAPHY ON RENAISSANCE INTELLECTUAL HISTORY</strong><br>
+<a href=http://www.phil-hum-ren.uni-muenchen.de/GGRENirDB/>http://www.phil-hum-ren.uni-muenchen.de/GGRENirDB/</a><br>
+On the subject of sites like CERES, here is one for intellectual
+historians. Which, I know, some of us like to think of ourselves as also,
+on extremely good days. GGRENir is run by Heinrich Kuhn of the Munich
+Institute for Renaissance Intellectual History. Their homepage is also
+worth a look: <a href=http://www.phil-hum-ren.uni-muenchen.de/default.htm>http://www.phil-hum-ren.uni-muenchen.de/default.htm</a>.
+The internetography contains links to several hundred internet resources of
+relevance to Renaissance intellectual history. The database is browsable
+and searchable, and is tightly constructed with separate pages for every
+item a search might conjure up. Whilst the main focus is on history of
+philosophy, history of science, history of art, history of literature,
+history of theology, political history, are covered as well.
+<p>
+<strong>THE CLASSICS PAGE</strong><br>
+A very useful site, this, from the Ad Fontes Academy in Virginia. Based on
+a  thorough and up to date links page and its own Latin Library of primary
+texts: <a href=http://patriot.net/~lillard/cp/>http://patriot.net/~lillard/cp/</a>
+<p>
+<strong>ENGLISH CALENDAR</strong><br>
+This site, run by Ian MacInnes of Albion College, will translate between
+old and new style dates, or work out on what day of the week a certain date
+fell. It can also calculate the major dates of the ecclesiastical calendar
+for a given year, and regnal years: <a href=http://www.albion.edu/fac/engl/calendar/>http://www.albion.edu/fac/engl/calendar/</a>.
+<p>
+<strong>THE INTERNET RENAISSANCE BAND</strong><br>
+In essence, a vast library of Renaissance music in compact midi format
+(that is, not a recording, but the instructions to your sound card
+synthesiser, if you have one, to play the notes - the exact modern
+equivalent of the paper roll for a pianola).
+<a href=http://www.csupomona.edu/~jcclark/emusic/renaissa.html>http://www.csupomona.edu/~jcclark/emusic/renaissa.html</a>
+<p>
+<strong>VALENTINE ARMOURIES</strong><br>
+Corny but fascinating site, at which one can view and buy reproduction
+armour from 500 BC to about 1800. A full suit of Greenwich style armour
+will set you back $5000 or so. Also features information and links on
+heraldry, and a fair selection of reasonably priced casual wear for your
+days off: <a href=http://www.varmouries.com>http://www.varmouries.com</a>.
+<p>
+<strong>ESOTERICA: THE JOURNAL OF ESOTERIC STUDIES</strong><br>
+<a href=http://www.esoteric.msu.edu/>http://www.esoteric.msu.edu/</a><br>
+Esoterica is a new electronic journal devoted to the study of Western
+esotericism. Areas of study includes such disparate movements and
+traditions as alchemy, Freemasonry, the Kabbala, magic, mysticism, and
+secret or semi-secret orders, as well as these movements' or traditions'
+impact on artistic, literary, political and social figures.
+<p>
+Esoterica, as an electronic journal and academic resource, has two main
+goals: providing, on the one hand, illustrated original articles on aspects
+of esotericism by specialists in the field, and on the other hand, primary
+research materials of use to scholars and teachers, including links to
+special collections and archives as well as lists of recent dissertations
+in the field.  The journal also features book reviews and announcements.
+<p>
+<small><a href=#top>Back to top.</a><br>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+sT>nuF"shr

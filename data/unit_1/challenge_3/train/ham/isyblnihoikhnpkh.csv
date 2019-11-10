@@ -1,0 +1,1569 @@
+<html>
+
+<head>
+
+<title>
+
+CERES Harvest II.iii
+
+</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p><h2 align=center>CERES Harvest II.iii<br>
+
+3.9.97</h2>
+<p>
+
+<h4 align=center><cite>Merry, merry, merry, cheary, cheary, cheary,<br>
+
+Trowle the blacke bowle to me:<br>
+
+Hey derry, derry, with a poupe and a lerrie,<br>
+
+Ile trowle it againe to thee:<br>
+
+Hookie, bookie, we haue shorne and we haue bound,<br>
+
+And we haue brought haruest home to towne.</cite></h4>
+
+<p>
+
+<hr>
+
+<strong>CONTENTS</strong>
+
+<p>
+
+Please select from the index or scroll through below.
+
+<ul>
+
+<li><a href=#intro>Introduction</a>
+
+<li><a href=#electrosources>Electronic Resources</a>
+
+<li><a href=#nftn>News From the Net</a>
+
+<li><a href=#chadheal>Review of Chadwyck-Healey</a>
+
+</ul>
+
+<hr>
+
+<a name=intro></a>
+
+<h2 align=center>INTRODUCTION</h2>
+
+In this issue of Harvest, besides the usual ample sheaf of new web resources
+
+and conference announcements, we offer our response to Chadwyck-Healey's
+
+Literature Online. This is by far the most significant electronic resource
+
+we have encountered, and the one of most certain relevance to CERES members.
+
+So this is a moment at which stock should be taken with care. Will LION
+
+change the way research is carried out, its aims, methods, and usefulness,
+
+or will it go the way of other ambitious monsters from Typhon to Titanic? We
+
+aim to assess its strengths and weaknesses, and to give a few navigational
+
+hints to help you get the most from it. 
+
+<p>
+
+<hr>
+
+<a name=electrosources>
+
+<h2 align=center>ELECTRONIC RESOURCES</h2>
+
+<p>
+
+<strong>CAMBRIDGE ENGLISH FACULTY WEBSITE</strong><br>
+
+Well, we could hardly fail to mention this could we? All Colin Burrow's own
+
+work, it will soon include all course reading lists online - accessible only
+
+from within cam.ac.uk - and already contains information on the Faculty's
+
+teaching staff, under- and post-graduate courses, and a cute 'House of Fame'
+
+history of Cambridge critics, all of which is accessible to anyone who wants
+
+to know. Long overdue.  Find it at <a href=http://www.english.cam.ac.uk/> http://www.english.cam.ac.uk/</a>.
+
+<p>
+
+<strong>INTERNET LIBRARY OF EARLY JOURNALS</strong><br>
+
+The ULs of Birmingham, Leeds, Manchester and Oxford are engaged in the ILEJ
+
+project, which aims to provide Internet access to pages and indexes of the
+
+following: Notes and Queries 1849-69, Blackwood's Magazine 1843- 63, The
+
+Builder 1843-63, Philosophical Transactions of the Royal Society 1758-78,
+
+Gentleman's Magazine 1731-1831, The Annual Register 1758-78. Full-text
+
+searching will be possible for some titles, although most pages will be
+
+available as scanned images. Notes and Queries is the first journal
+
+available: twelve volumes 1849-55 are already up and running, with the rest
+
+to follow soon. For information and participation details, e-mail <a href=mailto:tsl@bodley.ox.ac.uk>Thaddeus
+
+Lapinski</a> at <a href=mailto:tsl@bodley.ox.ac.uk> tsl@bodley.ox.ac.uk</a> or visit the project website: <a href=http://www.bodley.ox.ac.uk/ilej/> http://www.bodley.ox.ac.uk/ilej/</a>.
+
+<p>
+
+<strong>HOBY'S CASTIGLIONE HTML TEXT</strong><br>
+
+Richard Bear at the University of Oregon has produced a neat but
+
+unspectacular HTML edition of Hoby's 1561 translation of <cite>The Courtier</cite>. Only
+
+the title page is there in facsimile but the rest (taken from Raleigh's 1900
+
+edition) is all present and (apparently) correct. Links help you navigate
+
+from section to section, but this is not a multi-media project by any means.
+
+URL:  <a href=http://darkwing.uoregon.edu/~rbear/courtier/courtier.html>http://darkwing.uoregon.edu/~rbear/courtier/courtier.html</a>.
+
+<p>
+
+<strong>GLOBE WEBSITES</strong><br>
+
+Not surprisingly the Globe Project has spawned a good website based at
+
+Reading. It includes a Virtual Reality tour of the Globe (which means some
+
+Quicktime movie clips), and an archive of material on staging, with
+
+information on performance at the Globe in both its incarnations. URL:
+
+<a href=http://www.rdg.ac.uk/globe/>http://www.rdg.ac.uk/globe/</a>.
+
+<p>
+
+There's an American Globe website which offers less specifically Globe- ish
+
+content and links to lots of acting and teaching on-line resources. Its URL
+
+is <a href=http://www.shakespeare.uiuc.edu> http://www.shakespeare.uiuc.edu</a>. This will take you to the low-graphics version. If you have a good Internet connection (i.e. not a modem) and an up-to-date browser (Netscape or Explorer version 3) then you could go for the 'High Bandwith' option which has more graphics and frames etc. The URL for going straight there is <a href=http://www.shakespeare.uiuc.edu/frametop.html> http://www.shakespeare.uiuc.edu/frametop.html</a>.
+
+<p>
+
+<strong>ARDEN WEBSITE</strong><br>
+
+Details about the Arden CD-ROM and a brief history of the Arden Shakespeare
+
+from its website at <a href=http://www.ardenshakespeare.com/> http://www.ardenshakespeare.com/</a>.
+
+<p>
+
+<strong>VIRTUAL DREAM</strong><br>
+
+A very ambitious project indeed to produce a VR performance of MSND live on
+
+the Internet, using spanking new VRML techniques (whatever they might be).
+
+The project is looking for participants to help in the performance. There's
+
+a website with details and the working script at <a href=http://www.shoc.com/vrmldream/> http://www.shoc.com/vrmldream/</a>.
+
+<p>
+
+<strong>PRINCETON UNIVERSITY LIBRARY AND FELLOWSHIPS</strong><br>
+
+The Library is currently advertising its fellowships for the period May 1998
+
+to April 1999. They have a value of up to $2,000 each and are meant to help
+
+defray expenses in travelling to and residing in Princeton during the tenure
+
+of the Fellowship. The length of the Fellowship will depend on the
+
+applicant's research proposal, but is normally one month. For application
+
+forms and info contact <a href=mailto:mgruscil@princeton.edu> mgruscil@princeton.edu</a>. The PUL's homepage with
+
+catalogues, etc. is at <a href=http://infoshare1.princeton.edu:2003/> http://infoshare1.princeton.edu:2003/</a>.
+
+<p>
+
+<strong>DANTE RESOURCES</strong><br>
+
+Otfried Lieberknecht has a Homepage for Dante Studies:
+
+<a href=http://members.aol.com/lieberk/welcome.html> http://members.aol.com/lieberk/welcome.html</a>. And let's not forget about Dante Alighieri - A Guide to Online Resources: <a href=http://orb.rhodes.edu/encyclop/culture/lit/Italian/Danindex.html> http://orb.rhodes.edu/encyclop/culture/lit/Italian/Danindex.html</a>.
+
+<p>
+
+<strong>LATIN PLACE NAMES</strong><br>
+
+If you want to be the kind of person who knows that Books printed in
+
+Bratislava may tell you they are printed in Bosania, Bosonium, Bozanum,
+
+Bozonium, or indeed Brecislaburgum there are two websites providing handy
+
+quick-reference guides: <a href=http://www.lib.byu.edu/~catalog/people/rlm/latin/names.htm> http://www.lib.byu.edu/~catalog/people/rlm/latin/names.htm</a> and <a href=http://crane.ukc.ac.uk/semls/cathlibs/towns.htm> http://crane.ukc.ac.uk/semls/cathlibs/towns.htm</a>.
+
+<p>
+
+<strong>EARLY MODERN ENGLISH SOURCES</strong><br>
+
+This site provides links for mainly historical resources. It has, amongst
+
+other things, e-texts and bibliographies on various topics. URL:
+
+<a href=http://www.quelle.org/emes/research.html> http://www.quelle.org/emes/research.html</a>.
+
+<p>
+
+<strong>SIDNEY-L</strong><br>
+
+The SIDNEY-L e-mail discussion list is intended to serve as an online forum
+
+for scholars and students of Sir Philip Sidney, the Countess of Pembroke,
+
+Lady Mary Wroth, and other members of the Sidney family and Sidney Circle.
+
+To subscribe to the list, send email to: <a href=mailto:listserv@listserv.uoguelph.ca> listserv@listserv.uoguelph.ca</a>.  In the body of the mail message, type: subscribe sidney-l Your Full Name.  To post to the list, send email to: <a href=mailto:sidney-l@listserv.uoguelph.ca> sidney-l@listserv.uoguelph.ca</a>.  For more information contact the owner of the list, Gerald J. Rubio, at <a href=mailto:grubio@uoguelph.ca> grubio@uoguelph.ca</a> or visit the Sidney Newsletter and Journal homepage at
+
+<a href=http://www.uoguelph.ca/englit/sidney> http://www.uoguelph.ca/englit/sidney</a>.
+
+<p>
+
+<small><a href=#top>Back to top.</a></small><hr>
+
+<a name=nftn></a>
+
+<h2 align=center>NEWS FROM THE NET</h2>
+
+<p>
+
+<strong>DISCOVERING AND RECOVERING THE RELIGIOUS LYRIC</strong><br>
+
+Submissions of essays invited for a 'Discovering and Recovering the
+
+Seventeenth-Century Religious Lyric' volume, intended to explore voices that
+
+are frequently neglected, such as recusant poets and women writers. Essays
+
+are invited on Southwell, Alabaster, and Crashaw, and on less studied poets
+
+in the Anglo-Catholic tradition such as Sir John Beaumont, Henry Constable,
+
+Richard Verstegan, John Brereley [Lawrence Anderton], Patrick Cary, Henry
+
+Hawkins, and Thomas Ken; also on lesser known Anglican poets such as Henry
+
+King, Francis Quarles and others; also on the women writers of religious
+
+verse such as Aemilia Lanyer, An Collins, and Anne Wentworth; and on more
+
+familiar poets and poems of the period as long as they lead to unique
+
+critical discoveries and recoveries. Essays should be no longer than 25
+
+double-spaced pages and should conform to the MLA Style Manual. Deadline:
+
+May 1, 1998. All submissions and inquiries may be directed to Eugene R.
+
+Cunnar (<a href=mailto:ecunnar@nmsu.edu> ecunnar@nmsu.edu</a>)or Jeffrey Johnson (<a href=mailto:jjohnson@miseri.edu> jjohnson@miseri.edu</a>).
+
+<p>
+
+<small>[Editor's Note: many CFP notices removed from original CERES mailing due to obsolescence]</small>
+
+<p>
+
+<small><a href=#top>Back to top.</a></small><hr>
+
+<a name=chadheal></a>
+
+<h2 align=center>REVIEW OF CHADWYCK-HEALY'S<br>LITERATURE ONLINE (LION)</h2>
+<cite>Reviewed Summer 1997</cite>
+
+<p>
+
+The following review is divided into several sections; please choose from the index or scroll through below.
+
+<ul>
+
+<li><a href=#introduction>Introduction</a>
+
+<li><a href=#refworks>Reference Works</a>
+
+<li><a href=#websources>Web Resources</a>
+
+<li><a href=#help>Help</a>
+
+<li><a href=#litdbases>Literary Databases</a>
+
+<li><a href=#master>Master index</a>
+
+<li><a href=#searching>Searching Literary Databases</a>
+
+<li><a href=#summary>Caveat, Summary</a>
+
+</ul>
+
+<p>
+
+<hr width=75% align=center>
+
+<a name=introduction></a>
+
+<h3 align=center>INTRODUCTION</h3>
+
+For a number of years Chadwyck-Healey have been quietly knocking up
+
+electronic texts of most of English Literature. Some of these have been
+
+scanned in electronically; others have been typed in (for digital character
+
+recognition software has still not worked its way back to an adequate
+
+recognition of Renaissance typefaces). And apparently they have all been
+
+checked. Generations of Cambridge undergraduates have been seen in summer
+
+vacations at the University Library padding hollow-eyed from reading room to
+
+tea room and back again contemplating the Augean labour of checking the
+
+complete works of Thomas Shadwell or William Shenstone not for sense (for
+
+that would be too much to ask) but for spelling. The results of this ongoing
+
+project will be familiar to many already. For several years now CD-ROMS of
+
+C-H's English Poetry and English Verse Drama databases have been in use in
+
+academic libraries, and more recently has appeared the eminently useful if
+
+flaccidly softwared 'Editions and Adaptations of Shakespeare' (See Digest I). Literature Online aims to unite all of C-H's databases under one
+
+aegis. The benefits are 4-fold: (i) the databases can be searched
+
+individually or together, as is not possible with a collection of CD-ROMS;
+
+(ii) online access means that the customer will always be using the most
+
+up-to-date versions both of the databases and of the searching software;
+
+(iii) because the searching is done by the powerful C-H mainframes, and not
+
+by a library PC, results are accessible more quickly, even when web download
+
+times are allowed for; and (iv) the service is accessible from anywhere in
+
+the world, so whole texts or search results can be downloaded direct to the
+
+user's own computer.
+
+<p>
+
+LION (and we do love a good acronym) is wondrous, and we are already finding
+
+it indispensable. However, it is important to know its limitations, and to
+
+realise that for all its comprehensiveness and speed, it is still a very
+
+blunt instrument where research is concerned. But it is clearly the most
+
+significant online literary resource to date, and with its clear intent of
+
+housing a comprehensive and ever-expanding range of services under one roof,
+
+it looks like it will keep the lead it already has on any rivals; it is here
+
+to stay. If your academic institution is not already thinking of
+
+subscribing, put that thought in its mind. Even if LION's usefulness to you
+
+is restricted to the most mundane of its capabilities - tracking down
+
+quotations and phrases you cannot place - it is likely to save you time, and
+
+it has not always been possible to say that about the infliction of
+
+technological developments on our working lives in the last decades. First
+
+of all, though, a guided tour.
+
+<p>
+
+LION has distinct URLs for the UK (<a href=http://lion.chadwyck.co.uk/>http://lion.chadwyck.co.uk/</a>) and the States (<a href=http://lion.chadwyck.com/>http://lion.chadwyck.com/</a>); obviously,
+
+as ever, use the one closest to you. The home page looks the same whether
+
+or not you have subscribed to the database. If you haven't, some links will
+
+be turned off, and others will take you to information about the service
+
+rather than to the service itself. If you have been granted access
+
+temporarily you may have been given a special URL and password (e.g., for
+
+reviewing purposes). But in most cases, LION lets subscribers straight in by
+
+recognising the IP (Internet Protocol) address of the computer accessing it.
+
+This may be a library computer; in the event of large-scale licenses being
+
+granted, it may be any
+
+computer within a certain domain (e.g. cam.ac.uk). [If you need to know your
+
+IP address, you can get LION to tell you what your computer is telling it by
+
+going to http://lion.chadwyck.co.uk/envtest.cgi]. Multiple-user licenses
+
+will allow a limited number of concurrent users to access each database;
+
+these tend to allow more users for the more popular databases (verse) than
+
+for the less (Early English Prose Fiction), so it is just possible that
+
+access will be denied because 5 other people are also trying to get to grips
+
+with Nashe and Greene. Information about arranging trials is of course
+
+available at the home page.
+
+<p>
+
+As well as recognising your computer, LION will recognise your browser
+
+software; sort of. There are two versions of Literature Online. One uses
+
+'frames', which means that some areas of the page remain intact when you
+
+download some new stuff. This protocol has speed advantages, but it is also
+
+governed by a more complicated logic. Where traditionally each page you saw
+
+had a separate URL, so that your browser knew what it was showing you, with
+
+frames this is not the case. So if you try to use the back/forward buttons
+
+on your browser, you may find that things get rather muddling (see below).
+
+The frames version of LION is optimised to run with Netscape Navigator
+
+version 3.0 or higher, which uses Java scripts to reinstate an intuitive
+
+back/forward option presented within the page rather than via your browser's
+
+toolbar. Internet Explorer 3 also has frames capability, so if you access
+
+LION with this software you will get the frames version, but the
+
+back/forward option may not work. As usual, you are most likely to have
+
+problems with older browsers and non-Windows 95 machines. We have not
+
+experimented with every configuration of hardware and software, but in many
+
+cases problems arising from the frames version of LION can be avoided by
+
+going to the non-frames version, whither you will be sent automatically if
+
+LION recognises that you have a non-frames-aware browser such as Netscape
+
+Navigator 1.2. Follow the links, or go straight to
+
+<a href=http://lion.chadwyck.co.uk/noframes/home/home> http://lion.chadwyck.co.uk/noframes/home/home</a>.  In essence this is exactly the same as the frames version, except that LION's own buttons are on the left instead of the right, and the whole is painted a more lurid orange. Some procedures have more stages to them, but the non-frames version is in no way less powerful or flexible. You may also find it faster, for complicated reasons involving caches which you don't
+
+want to know about.
+
+<p>
+<hr align=center width=75%>
+
+<a name=refworks></a>
+
+<h3 align=center>REFERENCE WORKS</h3>
+
+Literature Online contains the following reference works:
+
+<ul>
+
+<li><strong>Annual Bibliography of English Language and Literature</strong>:
+
+ABELL aims to list monographs, periodical articles, critical editions of
+
+literary works, book reviews, collections of essays and doctoral
+
+dissertations published anywhere in the world. The bibliography consists of
+
+69 volumes beginning in 1920 and issued annually in printed volumes. It is
+
+not in practice as up to date as BIDS/First Search, but it is very full.
+
+<li><strong>Bibliography of American Literature</strong>: BAL contains nearly 40,000 records of the literary works of approximately 300 American
+
+writers from the period of the Revolution to 1930.
+
+<li><strong>The King James Bible - 'Authorized' Version</strong>:  
+
+The King James - 'Authorized' Version is included to provide a single Bible
+
+for reference purposes. Boxes on the search form (fill in any or all) allow
+
+searching by keyword, testament, and book, and a 'Go to' option can take you
+
+direct to any specified point. The full text is hypertexted with, e.g.,
+
+concordance notes. Perhaps an accident, but certainly a blessing; the choice
+
+of the AV means that this will be very useful for tracing allusions and
+
+quotations direct, without getting sent to other people's allusions and
+
+quotations.
+
+<li><strong>Periodicals Contents Index--Literature</strong>:  
+
+An index to over 800,000 periodical articles in the field of literature from
+
+1857 to present day. The focus is upon journals produced in the twentieth
+
+century, but those beginning in the nineteenth century and continuing into
+
+the twentieth are published from their inception. Perhaps that might be
+
+extended one day to include major C19 journals which didn't outlive their
+
+queen. Nevertheless, very nice, this, as it makes far more likely the
+
+noticing (and less likely the duplicating) of all that fantastic Victorian
+
+scholarship so often buried in the Proceedings of the Bognor Philological
+
+Society and Antiquaries Club. Very good also for reviews of things literary
+
+from past decades. Past scholarship becomes as noisy as present, almost, and
+
+the balance of accessibility and retrieval is redressed somewhat.
+
+<li><strong>Webster's Third New International Dictionary, Unabridged</strong>:  
+
+America's premier lexicographical work; the 1993 edition is published here
+
+in electronic form for the first time. A dictionary of the English language
+
+containing 450,000 vocabulary entries. Searching is done by filling in any
+
+or all of boxes Headword, Keyword, Etymology Keyword, Author/Quotation
+
+Keyword, Part of Speech. This would be even more useful if it were the UK's
+
+premier lexicographical work. But we don't wave flags.
+
+</ul>
+
+<p>
+<hr align=center width=75%>
+
+<a name=websources></a>
+
+<h3 align=center>WEB RESOURCES</h3>
+
+Rather surprisingly, LION is fully aware of the wider world's web of
+
+complementary services, and so provides sample lists of, and links to, web
+
+resources indexed under categories (Discussion Lists and Groups, Author
+
+Pages, Research Resources, Journals) and periods. These are all right,
+
+though neither very up to date nor all that comprehensive. But the awareness
+
+of the WWW is also integrated into the searching facilities to some extent,
+
+as we shall see below.
+
+<p>
+<hr align=center width=75%>
+
+<a name=help>
+
+<h3 align=center>HELP</h3>
+
+There is help available for each database, and at each point of entry to a
+
+search. At the home page Help these are listed. It's probably worth looking
+
+at 'Navigating Literature Online' here, and at the index of help topics for
+
+searching the literary databases in order to get to a useful summary of the
+
+different search options, including boolean operators (x and/or/not y),
+
+proximity searching (x near y), and truncation (truncat*).
+
+<p>
+<hr align=center width=75%>
+
+<a name=litdbases>
+
+<h3 align=center>LITERARY DATABASES</h3>
+
+Literature Online contains the following literary databases:
+
+<ul>
+
+<li><cite>All</cite><br>
+
+Allows searching of all the literary databases together.
+
+<li><cite>African-American Poetry (1750-1900)</cite><br>
+
+Nearly 3,000 poems written by African-American poets in the late eighteenth
+
+and nineteenth centuries.
+
+<li><cite>American Poetry (1600-1900)</cite><br>
+
+Over 40,000 poems by more than 200 American poets from the Colonial Period
+
+to the early twentieth century.
+
+<li><cite>The Bible in English (990-1970)</cite><br>
+
+20 different versions of the English Bible from the tenth to the twentieth
+
+century, including 12 full Bibles, 5 New Testament texts, 2 versions of the
+
+Gospels only, and William Tyndale's translations of the Pentateuch, Jonah
+
+and the New Testament.
+
+<li><cite>Early English Prose Fiction (1500-1700)</cite><br>
+
+Over 200 complete works in fictional prose from the period 1500-1700. The
+
+most recent addition; lots of lovely old-spelling editions and some
+
+facsimile title pages...
+
+<li><cite>Eighteenth-Century Fiction (1700-1780)</cite><br>
+
+77 complete works in English prose from the period 1700-1780, by writers
+
+from the British Isles. Includes a scanned version of Sterne's Tristram
+
+Shandy, and two different editions of Richardson's Clarissa and Pamela and
+
+of Swift's Gulliver's Travels.
+
+<li><cite>English Drama (1250-1900)</cite><br>
+
+A combination of Chadwyck-Healey's English Verse Drama and English Prose
+
+Drama full-text databases. 4,000 plays by 1,200 authors from the late
+
+thirteenth century to the early twentieth century.
+
+<li><cite>English Poetry (1100-1900)</cite><br>
+
+Essentially the complete English poetic canon from 1100 to 1900. Over
+
+165,000 poems by more than 1,250 poets drawn from nearly 4,500 printed
+
+sources. This is the largest database, and seems to have the largest gaps.
+
+</ul>
+
+<p>
+<hr align=center width=75%>
+
+<a name=master></a>
+
+<h3 align=center>MASTER INDEX</h3>
+
+The Master Index allows searching of the entire database, including its
+
+records of e-texts available elsewhere on the WWW, by author or title. It
+
+does not search full texts. Type a surname and go, or browse to get a box to
+
+look for the exact form of a name. [Remember with all such web- forms to
+
+click on the box you want to enter text in, and that tab/shift+tab will take
+
+you back and forward between boxes.] A search on an author will return all
+
+his or her works, with separate poems indexed individually; so this is not
+
+perhaps the quickest way to see what's there. The title keyword search is
+
+good. For instance, one could search for everything with 'English' in its
+
+title, or mentioning someone's name; at this point the separate indexing of
+
+titles of poems is useful, as name searches will return good stocks of
+
+dedicatory epistles and epigrams. Boolean and truncation searches work here;
+
+these are very good in our period at finding variant forms of names. The
+
+truncation can only be made at the end of a phrase so search 'Lucy Countess*
+
+or Lucie Countess* or Lucye Countess*' but 'Countess of Bedford* or
+
+Countesse of Bedford*' to allow for all likely variants. Punctuation marks
+
+are ignored in searches so the first will not fail to find 'Lucy,
+
+Countess...'. Truncations are also good for names adjectivised. Remember
+
+with all searches that if your search term contains any of the logical
+
+operators (and, or, not, near) you must put it in inverted commas.  For example, <cite>trouble and strife</cite> will find all documents containing both words, whereas
+
+<cite>'trouble and strife'</cite> will find only instances of the whole phrase.
+
+<p>
+
+The browse option will give you a list of every word which occurs in a
+
+title/author field in the whole database, with the number of occurences, so
+
+you can browse the entire lexicon if you have the patience. By using ctrl
+
+and then clicking you can select any number of these, to arrange a multiple
+
+author search, or a title search like:<br>
+
+"arcades" OR "arcadi" OR "arcadia" OR "arcadian" OR "arcadians" OR
+
+"arcadias" OR "arcadie" OR "arcady" OR "arcadye"<br>
+
+This is how LION displays an ideal search by the way, for clarity's sake,
+
+though of course you would get the same results from:
+
+<br>arcades or arcadi or arcadia or arcadian or arcadians or arcadias or arcadie
+
+or arcady or arcadye<br>
+
+The software will show you 50 entries at a time unless you tell it to show
+
+more (up to 99). This is worth adjusting on some occasions, so as to avoid
+
+multiple pages of search results which can get in the way of a quick browse
+
+back and forth.
+
+<p>
+
+Having specified your search criteria and got some results you may wish to
+
+get back to your search box (to make some alterations) by using your
+
+browser's 'back' button. Do not be surprised if on going back to the search
+
+page you find that it is now blank again. This may not always happen, and it
+
+will happen less if you use the non-frames version of LION, or the Java
+
+back/forward facility incorporated in the frames version. But to avoid it,
+
+notice that clicking the search icon in the results page allows you to
+
+'refine search'. This will take you straight back to the search page, with
+
+your search criteria preserved. Usually.
+
+<p>
+
+A summary of the stages of searching the master index...
+
+<ol type=1>
+
+<li>Search
+
+<li>Summary of matches and the databases in which they occur. Click (i)
+
+highlighted text for the record OR (ii) piece of paper icon to its right for
+
+a contextual table of contents (most commonly the contents of the complete
+
+poems or plays or prose fiction of the author concerned). Also displayed on
+
+this page are the titles and URLs of any e-texts at other websites of which
+
+LION is aware.
+
+<li><ol type=i>
+
+<li>Full text record within particular database with the option now of
+
+going to the text or to the contextual table of contents
+
+<li>Contextual table of contents, every item of which is highlighted.
+
+These are tabulated in a hierarchical way, the more indented entries being
+
+subsets of the less indented ones above them. There are some funny icons to
+
+the left of each item; the lozenge shaped one will display the same table of
+
+contents with more 'context' for that item; the other one will do it with
+
+less. This is all rather complicated and vexatious, but you'll work it out
+
+if you want to. The point of it is to enable you to select exactly the form
+
+in which you finally get your text, either, for instance, the single sonnet,
+
+or the whole sequence, or the whole volume.
+
+</ol>
+
+<cite>NB If at this stage (3) you click on 'refine search' it will take you not to
+
+the search you were conducting but to a page enabling you to search the
+
+particular database you are now in. Not a bug; but a pest.</cite>
+
+<li>4.  Text at last (refine search works as above)
+
+</ol>
+
+<p>
+
+You might want at this point to save or print your text. There are various
+
+options. You could cover some with the mouse, and copy and paste it
+
+somewhere else. You could select all the text via 'edit' on the menu bar,
+
+though with older, smaller RAMed machines there may be a limit to the amount
+
+of text the computer can paste in one go. You could do clever things with
+
+the right mouse button if you know how to do that. Note that this is another
+
+stage at which the frames version of LION may upset you. If you have a page
+
+of text in front of you and try to save it as a file, your computer may save
+
+the upper frame of icons because that was the last thing it downloaded and
+
+that is where it is. So you may need first to click on the text itself;
+
+there will be no visible effect, but your computer will now be where you
+
+are. Another question is in what form to save the text. If you save it as a
+
+file, you will have to save it as html (.html or .htm). This includes all
+
+the codes around the text telling your machine how to display it. If you try
+
+to save it as text (.txt) you will still get all the html codes. Only by
+
+copying and pasting will the text and only the text be translated into .txt.
+
+BUT, saving as html has advantages, such as preserving italics, which are
+
+lost when text becomes txt. And if you have swanky Word 97 for Windows 95,
+
+you word processor will be able to display html files anyway. Bear in mind
+
+that in some situations you will want to print off the text but will not be
+
+that fussed about keeping an electronic copy. In which case consider
+
+printing direct from your web browser, a much underused option. In the
+
+non-frames version you will get all the supporting icons and pictures, but
+
+not in the frames version, which will give you only the text part of the
+
+page (but remember to click on the text first...!)
+
+<p>
+
+Using Master Index you can also retrieve a number of hits by sampling (you
+
+specify the number). There is not much point to this, except for journalists
+
+and students wanting to stick a pin in the complete poems of X (in which
+
+case, better surely to browse the contents page of a real live book), or to
+
+get a representative selection of poetic sentiments on the theme of meadows
+
+or lust.
+
+<p>
+
+A word about LION's texts. A number of factors have the potential to
+
+vitiate the texts available on LION. For copyright reasons many of the
+
+texts on LION are less than up to date. Where possible, particularly in
+
+their earlier databases (poetry and drama) C-H have taken texts from
+
+modern editions out of copyright. This tends to mean that they are by
+
+Grosart. If this does not worry you, read Sprague's tactful remarks on
+
+the good reverend's shortcomings in his edition of Daniel's poems. Where
+
+this has not been possible, they have gone back to the original printed
+
+text. In some cases (like the excellent new Early English Prose Fiction
+
+database) they seem to have done this as a first option, so,
+
+delightfully, we get not Feuillerat's Sidney's Arcadia, but an edition
+
+of the 1593 text. Minor authors, represented sometimes in their entirety
+
+from the original texts, complete with preliminaries, are often better
+
+represented than very major ones, available only via a poor and
+
+incomplete 'collected' edition. Also, the electronic versions of
+
+original texts are usually more satisfying, and easier to navigate, than
+
+the e-texts of modern collected editions. It is much simpler to survey
+
+and sample the complete works of a writer if, say, his 20 publications
+
+are listed on screen as such - and are then available complete with
+
+publication details from the title page and preliminaries - rather than
+
+splattered across a single collected edition which doesn't give their
+
+dates and hasn't included dedications. In this medium 20 small virtual
+
+volumes are easier to work with than one big one. In general, then,
+
+expect a mish-mash of both old and modern spelling editions, and adjust
+
+your searches to allow for this. But be aware that some of the texts are
+
+riddled with errors, either because of poor typing or checking, or
+
+because scanning is rather haphazard (a poorly printed e will often be
+
+read by the character recognition software as a c, for example). In many
+
+cases, a text (and in some cases an author) is simply not there at all.
+
+Recent changes in copyright law (i.e. the extension of the copyright
+
+period) mean that while Hebel's Drayton was on the verse CD-ROM, it is
+
+not on LION. So if you are using LION for cross-sectional lexical
+
+searches of the whole of English Literature, you will need to acquire a
+
+sense of what is missing. There are pleasant surprises, however. It
+
+looks like where a text was first printed only in recent times (and a
+
+great many women's manuscript works fall under this category) C-H have
+
+in some cases been able to get hold of e-texts of (portions of)
+
+copyright editions. So some texts are well-edited, and accurately
+
+digitised. LION is in many ways most useful not for providing access to
+
+electronic versions of texts we all possess, but in allowing ready and
+
+alternative access to the sorts of texts which one can most often only
+
+read on UMI microfilms, the sort of 2 copies in the world texts like
+
+Markham's English Arcadia [imagine your reviewer's excitement!] or
+
+Gamage's Linsi-Woolsie. It is also great for containing vast amounts of
+
+lousy C18-C19 poetry and drama - and, indeed, for searching through it
+
+with no nose for quality -, and so is particularly well adapted to
+
+reception history sorts of projects (I found a frightening number of
+
+poems about Sidney at Zutphen).
+
+<p>
+
+The division of portions of text means that any lump of data with a
+
+title can be accessed separately. So one can go direct to a single
+
+sonnet, which will appear on a page of its own. One can then back up to
+
+its context, and display the whole run of sonnets, or whatever. At first
+
+this is really annoying. But once you start using LION not just to
+
+browse texts, but to conduct tightly specified searches, your annoyance
+
+transfers to the texts which are not so generously pieced up. Machines
+
+with less than 16MB RAM have problems displaying large files, and where
+
+the smallest portion of a novel or play is 50 or 300K, the computer will
+
+freeze up and think a lot before it finishes processing it. Not to
+
+mention the more familiar slow downloading problems. So if you are not
+
+downloading such a text to keep but just to glance at the occurrence of
+
+a word or phrase, time can be consumed. But LION is very well organised
+
+in telling you the size of every file it offers you, and in giving a
+
+reasonable amount of text surrounding each 'hit', so you can decide when
+
+to bother, and when to use LION to direct you to a place in a paper
+
+book.
+
+<p>
+
+Annotations are a problem. Texts, like Jonson's editions of his own
+
+works, which come already annotated have had their notes included in the
+
+databases, but these are always in separate files, one file per note.
+
+This is the most irritating feature of LION. It is simply not possible
+
+to see all the notes at once, to know what is in a note before
+
+downloading it (although its size is displayed), or, if one wishes to
+
+download a text for keeps, to include the notes in the text's file.
+
+Sometimes such annotations are essential to a text, but the software
+
+discourages one from bothering either to read them, or to download each
+
+and every one if one is compiling one's own library of e-texts (which,
+
+by the way, is fully allowed by C-H who accept that they cannot hope to
+
+keep hold of every bit of text, but know that they will remain unique in
+
+providing the facility to search them all). Why oh why cannot the
+
+software find a way of sticking the relevant notes at the bottom of the
+
+page?
+
+<p>
+
+So much for the digression, and for the master index. Now for ways of
+
+searching the meat of the databases...
+
+<p>
+<hr align=center width=75%>
+
+<h3 align=center>SEARCHING LITERARY DATABASES</h3>
+
+<p>
+
+Each of the databases can be searched in one of three ways
+
+<ol type=1>
+
+<li>via the master index (dealt with above)
+
+<li>via the search all literary databases option
+
+<li>individually, for the most sophisticated search options
+
+</ol>
+
+<p>
+
+<strong>SEARCH ALL</strong><br>
+
+1.  This option allows searching of the full texts (including dedicatory
+
+matter, etc.) by keyword or author; once again, fill either or both boxes
+
+either directly or by browsing and selecting; then press the search button.
+
+This is the best way to search all the literary texts in LION for
+
+occurrences of words; as noted above truncations are essential for old
+
+spelling, as are boolean operators; remember to allow for some needlessly
+
+preserved old-spelling oddities like vv for w; truncations are also good for
+
+getting a variety of word-forms from a common stem. For instance, 'Sidne* or
+
+Sydne*' will find most references to Sidneys, Sidneians, Sidneides, and the
+
+Sidneyesque.
+
+<p>
+
+2.  Having submitted your search, you will have returned to you a 'Summary
+
+of Matches'; these are listed by database, and each entry tells you how many
+
+hits are in each database, and under how many separate entries (e.g. there
+
+may be only three hits in only one text so you will be told 3 matches and 1
+
+entry). Click on the highlighted database names and you will enter the
+
+particular database (e.g. early prose fiction)...
+
+<p>
+
+3.  Summary of matches within database. This page lists each entry (not each
+
+match) separately by author and title of work; it tells you how many matches
+
+are in each entry, and offers the table of contents icon; scroll down this
+
+page, and if necessary any following pages for 50+ entries (though you can
+
+again circumvent this by specifying that the search display up to 99 entries
+
+per page). Click on an interesting looking one, either the highlighted title
+
+(i), or the TOC icon (ii)...
+
+<p>
+
+4.  (i) Context of matches. This page tells you more precisely what the hit
+
+is, and gives you a good few words of context, usually enough to determine
+
+whether or not to go further. This page will also offer a number of ways
+
+into the text: for instance, just the text, or the text plus prefatory
+
+matter, or the whole edition from which it is taken...<br>
+
+    (ii) Contextual table of contents, which works as described above when
+
+we got there via the Master Index
+
+<p>
+
+5.  Text. This will be flagged with icons (called 'first hit' or 'next hit')
+
+which will jump you to the point in the text at which the match(es)
+
+occur(s). It will also offer you the contextual TOC, which you may want to
+
+look at if you came direct via 4 (i).
+
+<p>
+
+At each of the above stages you can start a new search or refine your
+
+search. As noted in the master index section, once you have started to look
+
+at information specific to one database (stage 3 above), clicking on the
+
+search icon (the magnifying glass) may take you to a search box for that one
+
+database only. We are slightly confused by this, as it appears to work
+
+inconsistently by database, and by frames/non-frames interface. Clearly C-H
+
+should allow access to both sorts of search page from every point in such a
+
+search.
+
+<p>
+<hr align=center width=75%>
+
+<a name=searching></a>
+
+<h3 align=center>SEARCHING INDIVIDUAL DATABASES</h3>
+
+Searching a single database is an option all along of course. From the home
+
+page go to the literary databases, and select not 'search all' but the
+
+particular database you need. The search pages for individual databases are
+
+much more complex and flexible. For the verse database, for instance, you
+
+can search for key words or phrases in the text or in the titles or first
+
+lines only; you can restrict the search to authors of one or other gender;
+
+you can search only rhymed, or only unrhymed, poems; you can exclude or
+
+include apparatus, dedicatory material, arguments, and epigraphs; and you
+
+can limit the period. In all cases click on the arrows to the right of the
+
+boxes for the list of options. The list of periods here is interesting,
+
+because it is not really or only that, but a quite helpful series of
+
+categories under which texts have been grouped, such as 'Emblems, Epigrams,
+
+Formal Satires, 1500- 1700' and 'Songbooks, 1500-1700'. Again, in the drama
+
+database you can search by keyword, play, title, speaker, playwright, genre,
+
+period, gender, date first performed, and date first published. You can
+
+always tell which database you are in because there will be a representative
+
+mugshot above the toolbar, so verse has Tennyson, Early English Prose
+
+Fiction has Bunyan, and Drama has some rouge-cheeked bloke in a wig. If you
+
+get lost, however, use the LION toolbar to take you back to the Master Index
+
+or Literary Databases start points.
+
+<p>
+
+Going back and forth is the whole problem with frames, and the reason why
+
+you may need to consider using the non-frames version - except perhaps for
+
+printing things off - even if your browser displays frames. Typically you
+
+will search all the databases at once, you will get a summary of matches,
+
+you will view the summary for a particular database, and perhaps you will
+
+look at the context of a particular entry. Very often you will not download
+
+the text, because you are really only browsing. You will then press the
+
+'back' button on your browser to go back up to the summary of matches in
+
+order to view the entries in another database. In frames, you will probably
+
+get a blank screen; pressing 'back' again will take you back to the search
+
+page, which will be empty or will perhaps contain a search you conducted
+
+previously; to get your search results, you will have to resubmit your
+
+search. If this happens, and LION's own back/forward buttons don't work, use
+
+the non- frames version of LION, which ought to work more logically. It took
+
+us a while to work this out, because C-H don't like to trumpet their
+
+shortcomings too loudly. Even without frames you may still find your search
+
+criteria have been lost when you back up to the search page; the best way
+
+round this is to use 'refine search' to get back to this page, though, as
+
+noted above, sometimes this will give you the wrong sort of search page.
+
+Clearly, C-H need to think about making it possible to jump straight from
+
+any point in a search back to a previous one; for example (most obviously)
+
+from a full text within a particular database to the summary of matches
+
+across all the databases. The safest thing to do if you are worried about
+
+losing your search criteria is to use a clever clipboard like 'Clipmate'
+
+(available from HENSA) to keep the criteria safe, or to copy them once
+
+entered (using the browser's edit menu, which, as we are constantly
+
+observing, you must get into the habit of using to copy URLs from Harvest to
+
+your browser's address box; we worry about you...) into a dummy word
+
+processor document. It is very vexing to come up with a beautiful search
+
+term like <cite>fresh field* or freshe field* or fresh feeld* or freshe feeld*</cite> only to find it lost.
+
+<p>
+
+While we're on the subject of search criteria, we very much like the 'near'
+
+option. This finds two words within 10 words of each other (it doesn't
+
+matter which order you give them in). If you add a full stop and a number
+
+you can alter the range to, say, within 5 words, or 20: <cite>hand near.15 foot</cite>.  
+
+By the way, LION does not allow, as does AltaVista's advanced searching,
+
+parentheses like the following, and it ought to: <cite>(fresh field* or freshe field* or fresh feeld* or freshe feeld*) near pastures new*</cite>.  Because <cite>fresh field* or freshe field* or fresh feeld* or freshe feeld* near pastures new*</cite> will only match the last variant to 'pastures new*'.
+
+<p>
+<hr align=center width=75%>
+
+<a name=summary>
+
+<h3 align=center>CAVEAT, SUMMARY</h3>
+
+<p>
+
+<strong>HAVE WE COVERED EVERYTHING?</strong><br>
+
+No. There are many features we have scarcely touched on, such as quick
+
+referencing links from the full text page to the dictionary, and other
+
+pieces of padding. We are aware that some of the information above is
+
+confusing, and that in some cases this is because we are confused. But this
+
+confusion is heuristic. Be confused by our confusion, and you will be half
+
+way to acquiring the instincts necessary to cope with LION's eccentricities.
+
+We hope that you will be encouraged to explore LION, or to arrange a trial
+
+at your institution. It is certainly a way forward. But they must improve
+
+their software. In particular, navigation is poor, and their grasp of the
+
+point and function of hypertextual layers to texts is not good, though they
+
+are hampered by the rather impossible constraints of the ways they chose to
+
+input and demarcate the zillions of bytes of information they possess when
+
+they first began to input them many years ago. Chadwyck-Healey are certainly
+
+to be congratulated on what they have come up with so far. LION's databases
+
+are awesome; their computers search it and return results to you with
+
+exemplary speed; and the appearance of LION is attractive and user-friendly.
+
+Searches are flexible, though do not quite allow the complexity sometimes
+
+needed. It is to be hoped that they will respond to criticism, that they
+
+will improve texts when they can, that they will replace Grosart editions
+
+with better texts as these come out of copyright, and that they will find a
+
+way of filling some of the big name gaps like Spenser. As an indication of
+
+their momentum, just look at what is coming soon to LION:
+
+<ul>
+
+<li>Carcanet poets (Sept. 97): all Carcanet's contemporary poets, in toto
+
+<li>Cambridge Encyclopedia and Cambridge Biographical Encyclopedia (Sept. 97):
+
+not a leap into more general territories but, ostensibly, a resource to help
+
+LION users identify references in the texts
+
+<li>Master Index upgrade taking responses into account, and software
+
+enhancements. (Enhancements to the LION software will be released every
+
+three months.)
+
+</ul>
+
+<p>
+
+AND, the next upload of Literature Online will include further literary
+
+databases including Editions and Adaptations of Shakespeare, English Prose
+
+Drama, and a collection of contemporary English Poetry. There will also be
+
+an update to ABELL.
+
+<p>
+
+<strong>SUMMARY</strong><br>
+
+LION is a very fine thing. But, for the very expensive service that it is,
+
+it is also a very flawed thing. Its software will improve, and like all
+
+online services you will always find it easier to use with a powerful PC/Mac
+
+and the most up to date browser. But it will never get rid of all its typos,
+
+or the omissions and emissions of the poorer of the editions it has had to
+
+use, and I for one am not about to start e- mailing C-H every time I detect
+
+an error. So it will find you a great many things you would never have known
+
+about without it, though it will not find all the things it might if it were
+
+100 percent accurate, or if it contained absolutely every English literary
+
+text, as one day it will. And if you use it not to find new stuff but to
+
+search texts you have read or at least heard of for occurrences of words and
+
+phrases, know that it may miss a few. It will usually find you what you
+
+need, but sometimes it won't, because that poem is set in Ardadia, and this
+
+is addressed to VVatson. Use it with a wariness of its weaknesses as well as
+
+an understanding of its strengths.
+
+<p>
+
+<small><a href=#top>Back to top.</a><br>
+<a href=archive.htm>Return to CERES Archive</small></a>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center></body>
+
+</html>
+
+
+t ye0aeiciI yl<

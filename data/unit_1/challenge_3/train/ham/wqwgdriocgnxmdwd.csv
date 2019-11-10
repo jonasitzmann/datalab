@@ -1,0 +1,550 @@
+<HEAD>
+
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+
+<TITLE>Rothamsted Research - SS Department - GCTE SOMNET</TITLE>
+
+<style>
+
+<!--
+
+A { text-decoration: none;  }  
+
+A:visited, A:hover, A:active { text-decoration: none; } 
+
+// -->
+
+</STYLE>
+
+</HEAD>
+
+
+
+<body background="/aen/NewIACRBackground.gif">
+
+
+
+<table border="0" >
+
+
+
+<! ----------------- 1st row ----------- start>
+
+<tr>
+
+<td colspan="3" valign="top">
+
+<font face="arial" size="+3"><b>GCTE Soil Organic Matter Network&nbsp;</b></font>
+
+</td>
+
+</tr>
+
+<! ----------------- 1st row ----------- end>
+
+
+
+
+
+<! ----------------- 2nd row ----------- start>
+
+<tr>
+
+<! -----------------2nd row side menu----------- start>
+
+
+<SCRIPT>
+<!--
+// Array function
+function makeArray(len) {    
+for (var i = 0; i < len; i++) this[i] = null;
+this.length = len;
+}
+
+// Array of day names
+var dayNames = new makeArray(7);
+dayNames[0] = "Sun";
+dayNames[1] = "Mon";
+dayNames[2] = "Tue";
+dayNames[3] = "Wed";
+dayNames[4] = "Thu";
+dayNames[5] = "Fri";
+dayNames[6] = "Sat";
+
+// Array of month Names
+var monthNames = new makeArray(12);
+monthNames[0] = "Jan";
+monthNames[1] = "Feb";
+monthNames[2] = "Mar";
+monthNames[3] = "Apr";
+monthNames[4] = "May";
+monthNames[5] = "June";
+monthNames[6] = "July";
+monthNames[7] = "Aug";
+monthNames[8] = "Sept";
+monthNames[9] = "Oct";
+monthNames[10] = "Nov";
+monthNames[11] = "Dec";
+var now = new Date();
+var day = now.getDay();
+var month = now.getMonth();
+var year = (now.getYear());
+var date = now.getDate();
+
+gcteon = new Image();
+gcteon.src = "image1lit.gif";
+gcteoff = new Image();
+gcteoff.src = "image1.gif";
+
+igbpon = new Image();
+igbpon.src = "image3lit.gif";
+igbpoff = new Image();
+igbpoff.src = "image3.gif";
+
+iacron = new Image();
+iacron.src = "image2lit.gif";
+iacroff = new Image();
+iacroff.src = "image2.gif";
+
+somneton = new Image();
+somneton.src = "image4lit.gif";
+somnetoff = new Image();
+somnetoff.src = "image4.gif";
+
+
+
+//-->
+
+
+</SCRIPT>
+
+<td width="165" valign="top" align="center">
+
+
+<!-- side menu Start -->
+
+
+<p align="left">
+
+<a href="http://www.rothamsted.bbsrc.ac.uk">
+
+<img border="0" src="/aen/iacrlogo.gif" width="100" height="129">
+
+</a>
+
+
+<p align="left">
+
+<font face="arial" size="2">
+
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/"><b>RRes home</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/htdig/search.html"><b>Search</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html"><b>Research</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/aenindex.htm"><b>SS Department</b><br /></a>
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+<br />
+<FONT size=2>
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/index.htm"><B>SOMNET Home</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/intro.html"><B>Introduction</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://saffron.rothamsted.bbsrc.ac.uk/cgi-bin/somnet"><B>Metadatabase</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/members/index.html"><B>Membership</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/news/index.html"><B>Newsletter</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/datashare/index.html"><B>Datasharing</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/events/index.html"><B>Events</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/intro.html#refs"><B>References</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/eusomnet/index.htm"><B>EuroSOMNET</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<A HREF="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/collab.htm"><B>Collaboration</B><br /></A> 
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+</FONT>
+</font>
+
+<br />
+
+
+<FONT SIZE="1" face="arial" >
+<I>Coordinator</I><br />
+Pete Smith<br />
+Plant & Soil Science Dept.<br />
+Cruickshank Building<br />
+University of Aberdeen<br />
+Aberdeen AB24 3UU. UK<br />
+Tel: +44 (0)1224 272702<br />
+Fax: +44 (0)1224 272703 <br />
+<A HREF="MAILTO:pete.smith@abdn.ac.uk">pete.smith@abdn.ac.uk</A><br />
+
+<br />
+<I>Administrator/WWW</I><br />
+Pete Falloon<br />
+SS Department<br />
+Rothamsted Research<br />
+Harpenden, Herts<br />
+AL5 2JQ. UK<br />
+
+Tel: +44 (0)1582 763133<br />
+Fax: +44 (0)1582 769222<br />
+Fax: +44 (0)1582 760981<br /> 
+
+<A HREF="MAILTO:pete.falloon@bbsrc.ac.uk">pete.falloon@bbsrc.ac.uk</A><br />
+
+
+
+
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+</font>
+
+<!-- side menu End -->
+
+
+
+
+</td>
+
+<! ----------------- 2nd row side menu----------- end>
+
+
+
+<! ----------------- 2nd row body ------------------ start>
+
+<td valign="top">
+
+
+
+<font face="arial">
+
+<!------------------------------ put stuff in here: start ---------------------------------------------->
+
+<CENTER><FONT SIZE=+2 color=green>SOMNET. A Global Network and Database of Soil Organic Matter Models and Long-Term Experimental Datasets. </FONT>
+<P>
+
+<P><FONT SIZE=0>Pete Smith (SOMNET Coordinator) & Jo Smith
+<P> Department of Plant and Soil Science, University of Aberdeen, Cruikshank Building, Aberdeen, AB24 3UU, UK
+<br />
+<P>Pete Falloon (SOMNET Administrator) & David S. Powlson
+<P>Soil Science Department, Rothamsted Research, Harpenden, U.K. AL5 2BE</CENTER>
+<br />
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/somnet/index.htm" target="_blank" onMouseOver = "document.somnet.src=somneton.src" 
+onMouseOut = "document.somnet.src=somnetoff.src">
+<CENTER>
+<img src="image4.gif" name="somnet" alt="GCTE SOMNET Homepage" border=0 ></a>&nbsp;&nbsp;<br clear=right>
+</CENTER>
+<hr />
+<!put code here>
+
+
+<br />&nbsp;
+Soil organic matter (SOM) plays a central role in nutrient (N, P, S,
+K) availability, soil stability and the flux of trace greenhouse gases
+between land surface and the atmosphere. It represents a major pool of
+carbon within the biosphere, estimated at about 1400-1500 x 1015 g globally,
+roughly two to three times that in atmospheric CO2 and acts as both a source
+and a sink for carbon and nutrients. To facilitate scientific progress
+in predicting the effects on SOM of changes in land-use, agricultural practice
+and climate, the need for a network of SOM modellers and long-term dataholders
+was recognised. To fulfil this scientific need, the global Soil Organic
+Matter Network (SOMNET) was established during 1995 under one-year's funding
+as a Special Topic of NERC's TIGER rogramme. SOMNET has since attracted
+contributions from 31 leading SOM modellers and over 120 long-term experimentalists
+from all around the world (Smith et al., 1996a; Powlson et al., 1998; Smith
+et al., 1996b, 1997c).
+
+<P>
+<CENTER>
+<img src="somnetmap.jpg"  alt="Models and Experiments in SOMNET" border=0 width=400 height=300>
+</CENTER>
+
+
+<P>SOMNET has rapidly become internationally recognised as an important
+scientific initiative inthe following ways: a) SOMNET has been adopted
+by the IGBP's GCTE programme as a Core Project of its focus on Soil Organic
+Matter, b) SOMNET has been invited to participate in the IPCC's Joint Working
+Group (with OECD) on Methodologies for Establishing National CO2 Inventories,
+c) long- term datasets and models selected from SOMNET have been used to
+complete the most comprehensive evaluation of soil organic matter models
+undertaken to date (Smith et al., 1997d), in a process begun at a NATO-funded
+Advanced Research Workshop held at Rothamsted (Powlson et al., 1996).
+In this exercise, nine leading SOM models were compared for performance
+in simulating twelve datasets representing different land-uses (arable,
+grassland, forestry), climatic zones and management practices. Only four
+models were able to simulate all land-uses (RothC, NCSOIL, CENTURY and
+SOMM) and a group of six models (RothC, CENTURY, DAISY, CANDY, NCSOIL and
+DNDC) performed significantly better than did three others (Smith et al.,
+1997 d &amp; e). SOMNET data is now being used to improve the Rothamsted
+Carbon Model (Falloon et al, 1998 a &amp; b).
+<P>In addition to the model comparison excercise we have also used European
+datasets from SOMNET (see Smith et al., 1996c) to estimate the potential for carbon sequestration in agricultural soils in 
+the UK (Smith 2000 a, b, c ) the European Union (Smith et al., 1997a) and 
+the wider Europe (Smith et al.,1997b, 1998b, 2000 d, e, 2001). 
+
+We have shown in these studies that agronomically realistic scenarios could sequester
+upto 10% of the anthropogenic CO2 produced in Europe each year or upto
+2% of that produced globally. We have also used data to estimate the potential
+consequences of land-use change following the British BSE crisis (Smith
+et al, 1996d). Falloon et al. (2000) also used SOMNET data to review the role of inert and
+refractory OM in SOM models.
+
+<P>The SOMNET project has yielded over 60 peer-reviewed scientific papers.
+These have appeared in a book of proceedings (of the NATO ARW; Powlson
+et al., 1996), a Geoderma Journal Special Issue (of the SOM model evaluation
+and comparison; Smith et al., 1997e) and in other peer- reviewed journals
+(e.g. Molina &amp; Smith, 1997, Smith et al., 1998 a &amp; c). The project
+has also yielded a book of model and experimental metadata (Smith et al.,
+1996b) and a metadata database containing detailed information on all long-term
+experiments and SOM models mounted for free global access on the World-Wide-Web
+(Smith et al., 1996a) at URL
+<A HREF="http://saffron.rothamsted.bbsrc.ac.uk/cgi-bin/somnet">http://saffron.res.bbsrc.ac.uk/cgi-bin/somnet</A>.
+<P>
+<hr />
+<br />&nbsp;
+<CENTER>
+For further information please contact:
+<P>
+<FONT SIZE="1">
+<I>Coordinator</I><br />
+Pete Smith<br />
+Plant & Soil Science Dept.<br />
+Cruickshank Building<br />
+
+University of Aberdeen<br />
+
+Aberdeen AB24 3UU<br />
+UK<br />
+
+Tel: +44 (0)1224 272702<br />
+
+Fax: +44 (0)1224 272703 <br />
+<A HREF="MAILTO:pete.smith@abdn.ac.uk">pete.smith@abdn.ac.uk</A><br />
+
+<br />
+<br />
+<I>Administrator/WWW</I><br />
+Pete Falloon<br />
+SS Department<br />
+Rothamsted Research<br />
+Harpenden, Herts<br />
+AL5 2JQ  England<br />
+
+Tel: +44 1582 763133<br />
+
+Fax: +44 1582 769222 <br /> 
+Fax: +44 1582 760981 <br />
+
+<A HREF="MAILTO:pete.falloon@bbsrc.ac.uk">pete.falloon@bbsrc.ac.uk</A><br />
+
+</center>
+</FONT>
+
+<hr />
+
+
+<br />&nbsp;
+
+<A NAME="refs"></A><B><FONT SIZE=+1>References / Further reading</FONT></B>
+
+<FONT SIZE=0>
+<P>Falloon, P., Smith, P., Coleman, K. &amp; Marshall, S. 1998a. Estimating
+the size of the&nbsp;&nbsp; inert organic matter pool from total soil organic
+carbon content for use in the&nbsp;&nbsp; Rothamsted Carbon Model. Soil
+Biology and Biochemistry 30, p1207-1211.
+
+<P>Falloon,P., Smith, P., Smith, J.U., Szab&cent;, J., Coleman, K. &amp; Marshall,
+S. 1998b. Regional estimates of carbon sequestration potential: linking
+the Rothamsted carbon model to GIS databases. Biology and Fertility of
+Soils 27, p236-241.
+
+<P>Molina, J.A.E. &amp; Smith, P. 1997. Modeling carbon and nitrogen processes
+in soil. Advances in Agronomy 62: 253-298.
+
+<P>Powlson, D.S., Smith, P., Coleman, K., Smith, J.U., Glendining, M.J.,
+Korschens, M. &amp; Franko, U., 1998. A European network of long-term sites
+for studies on soil organic matter. Soil and Tillage Research Soil and Tillage Research 47: 263-274.
+
+<P>Powlson, D.S., Smith, P. &amp; Smith, J.U. (Eds.), 1996. In: Evaluation
+of Soil Organic Matter Models using Existing, Long-Term Datasets. NATO
+ASI Series I Vol. 38. Springer-Verlag. Berlin. 429pp.
+
+<P>Smith, P., Powlson, D.S., Smith, J.U. &amp; Glendining, M.J., 1996a.
+The GCTE SOMNET. A global network and database of soil organic matter models
+and long-term datasets. Soil Use and Management, 12, 104.
+
+<P>Smith, P., Smith, J.U. &amp; Powlson, D.S., 1996b. Soil Organic Matter
+Network (SOMNET): 1996 Model and Experimental Metadata. GCTE Report 7,
+GCTE Focus 3,Wallingford, Oxon, 259pp.
+
+<P>Smith, P., Powlson, D.S. &amp; Glendining, M.J., 1996c. Establishing
+a European soil organic matter network (SOMNET). In: Evaluation of Soil
+Organic Matter Models using Existing, Long-Term Datasets, (Eds. D.S. Powlson,
+P. Smith &amp; J.U. Smith), NATO ASI Series I, Vol. 38. Springer-Verlag,
+Berlin: 81-98.
+
+<P>Smith, P., Smith, J.U. &amp; Powlson, D.S., 1996d. Moving the British
+cattle herd. Nature, 381: 15.
+
+<P>Smith, P., Powlson, D.S., Glendining, M.J. &amp; Smith, J.U. 1997a.
+Potential for carbon sequestration in European soils: preliminary estimates
+for five scenarios using results from long-term experiments. Global Change
+Biology 3: 67-80.
+
+<P>Smith, P., Powlson, D.S., Glendining, M.J. &amp; Smith, J.U. 1997b.
+Opportunities and limitations for C sequestration in European agricultural
+soils through changes in management. In: Management of carbon sequestration
+in soil. (ed R. Lal, J.M. Kimble, R.F. Follett, &amp; B.A. Stewart) Advances
+in Soil Science: 143-152.
+
+<P>Smith, P., Powlson, D.S., Smith, J.U., and Falloon, P. 1997c. SOMNET.
+A Global Network and Database of Soil Organic Matter Models and Long-Term
+Experimental Datasets. The Globe 38: 4-5.
+
+<P>Smith, P., Smith, J.U., Powlson, D.S., McGill, W.B., Arah, J.R.M., Chertov
+O.G., Coleman, K., Franko, U., Frolking, S, Jenkinson, D.S., Jensen, L.S.,
+Kelly, R.H., Klein-Gunnewiek, H., Komarov, A., Li, C., Molina, J.A.E.,
+Mueller, T., Parton, W.J., Thornley, J.H.M. &amp; Whitmore, A.P. 1997d.
+A comparison of the performance of nine soil organic matter models using
+seven long-term experimental datasets. In: Evaluation and comparison of
+soil organic matter models using datasets from seven long-term experiments.
+(Eds: P. Smith, D.S. Powlson, J.U. Smith &amp; E.T. Elliott) Geoderma 81:
+153- 225.
+
+<P>Smith, P, Powlson, D.S., Smith, J.U. &amp; Elliott, E.T., 1997e. Evaluation
+and comparison of soil organic matter models using datasets from seven
+long-term experiments. Geoderma 81: 1-225.
+
+<P>Smith, P., Andr&AElig;n, O., Brussaard, L., Dangerfield, M., Ekschmitt,
+K., Lavelle, P. &amp; Tate, K. 1998a. Soil biota and global change at the
+ecosystem level: describing soil biota in mathematical models. Global Change
+Biology 4: 773-784.
+
+<P>Smith, P., Powlson, D.S., Glendining, M.J. &amp; Smith, J.U. 1998b.
+Preliminary estimates of the potential for carbon mitigation in European
+soils through no-till farming. Global Change Biology 4: 679-685.
+
+<P>Smith, P., Falloon, P., Coleman, K., Smith, J.U., Piccolo, M., Cerri, C.C., Bernoux, M, Jenkinson, D.S., Ingram, J.S.I., Szabó, 
+J. & Pásztor, L. 1999. Modelling soil carbon dynamics in tropical ecosystems. 
+In: Global Climate Change and Tropical Soils. (ed R. Lal, J.M. Kimble, R.F. Follett, 
+& B.A. Stewart) Advances in Soil Science: 341-364.
+
+<P>
+Falloon, P. & Smith, P. 2000. Modelling refractory organic matter - a 
+review. Biology and Fertility of Soils 30: 388-398.
+
+<P>
+Smith, P., Powlson, D.S., Smith, J.U., Falloon, P.D. & Coleman, K. 2000a. 
+Meeting the UK's Climate Change Commitments: Options for carbon mitigation 
+on agricultural land.  Soil Use and Management 16: 1-11.
+
+<P>
+Smith, P., Goulding, K.W., Smith, K.A., Powlson, D.S., Smith J.U., Falloon, 
+P.D. & Coleman, K. 2000b. Including trace gas fluxes in estimates of the 
+carbon mitigation potential of UK agricultural land. Soil Use and 
+Management 16: 251-259.
+
+<P>
+Smith, P., Milne, R., Powlson, D.S., Smith, J.U., Falloon, P.D. & Coleman, 
+K. 2000c. Revised estimates of the carbon mitigation potential of UK 
+agricultural land. Soil Use and Management 16: 293-295.
+
+<P>
+Smith, P., Powlson, D.S., Smith, J.U., Falloon, P.D. & Coleman, K. 2000d. 
+Meeting Europe's Climate Change Commitments: Quantitative Estimates of the 
+Potential for Carbon Mitigation by agriculture.  Global Change Biology 6: 
+525-539.
+
+<P>
+Smith, P., Powlson, D.S., Smith, J.U., Falloon, P.D., Coleman K. & 
+Goulding, K.W. 2000e. Agricultural carbon mitigation options in Europe: 
+improved estimates and the global perspective. Acta Agronomica Hungarica 
+48: 209-216.
+
+<P>
+Smith, P., Goulding, K.W., Smith, K.A., Powlson, D.S., Smith J.U., Falloon, 
+P.D. & Coleman, K. 2001. Enhancing the carbon sink in European agricultural 
+soils: Including trace gas fluxes in estimates of carbon mitigation 
+potential. Nutrient Cycling in Agroecosystems (in press).
+<P>
+</FONT>
+<br />&nbsp;
+
+
+<hr />
+<CENTER><FONT SIZE=0>Pages created by <A HREF="mailto:pete.falloon@bbsrc.ac.uk">Pete.Falloon@bbsrc.ac.uk</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+<!------------------------------ put stuff in here: End ---------------------------------------------->
+
+</font>
+
+
+
+<br />
+
+
+
+<hr />
+
+<p><DIV align="center">
+
+<font FACE="arial" FONT SIZE="1" align = "center" ><a HREF="http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html">Comments
+
+and suggestions</a> about this WEB site are always welcome</font></DIV></p>
+
+
+
+</td>
+
+<! ----------------- 2nd row body ------------------ end>
+
+
+
+</tr>
+
+<! ----------------- 2nd row ----------- end>
+
+
+
+</table>
+
+
+
+
+
+< ae
+hat

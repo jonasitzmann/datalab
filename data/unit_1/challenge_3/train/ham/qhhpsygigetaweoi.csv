@@ -1,0 +1,2410 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="EN" xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/SubPages.dwt.cfm" codeOutsideHTMLIsLocked="false" -->
+<head>
+<title>University of Abertay Dundee</title>
+<meta name="robots" content="index" />
+<meta http-equiv="Content-Language" content="en-gb" />
+<meta name="title" content="University of Abertay Dundee" />
+<meta name="description" content="Welcome to the Homepage of The University of Abertay, Dundee, Scotland, UK. Abertay offers world-leading courses in computer arts and computer games technology is home to the International Centre for Computer Games & Virtual Entertainment (IC-CAVE) - unique in Europe. Abertay is based in Scotlandâs 4th largest City and is the sunniest city in Scotland with over 1400 hours of sunshine per year." />
+<meta name="keywords" content="Abertay, university, Dundee, courses, Scotland, course, management, student, computer, application,
+Games, college, postgraduate, business, forensic, library, international, school, jobs, science, nursing, mba, studies, engineering, degree, crime, graduation, technology, research, undergraduate, prospectus, education, teaching, UK, union, law, Scottish, MSc, BA, languages, management, learning, city, clearing, UCAS, alumni, graduate, support, welcome, programme, Britain, H.E., HE, FE, F.E., higher, college" />
+<meta name="author" content="webservices" />
+<link href="http://www.abertay.ac.uk/Images/fav.ico" rel="icon" type="image"/>
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+	
+		
+	
+
+	
+		
+	
+
+	
+		
+			<link href="http://www.abertay.ac.uk/Styles/uadlayout-ie.css" rel="stylesheet" type="text/css" />
+		
+	
+
+
+
+ 
+<script src="http://www.abertay.ac.uk/_js/front_popup.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.abertay.ac.uk/_js/external.js"></script>
+<link href="http://www.abertay.ac.uk/Styles/corporate.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	ul.Menu {padding-left:1.5em}
+	li.Menu {list-style-image:url(../Images/Front/menuarrow.gif)}
+</style>
+
+<!-- InstanceBeginEditable name="Scripts" -->
+ 
+<script language="JavaScript" type="text/javascript">
+function SGender() {
+	with(document.Update) {
+		var i = Title.selectedIndex;
+		if(i == 2 || i == 6 || i == 8 || i == 10 || i == 11) {
+			Gender(0).checked = true;
+			Gender(1).checked = false;
+		}
+		else {
+			if(i == 1 || i == 7 || i == 9 || i == 13 || i == 15 || i == 16) {
+				Gender(0).checked = false;
+				Gender(1).checked = true;
+			}
+			else {
+				Gender(0).checked = false;
+				Gender(1).checked = false;
+			} 
+		}
+	}
+}
+
+function VH(n) {
+	vTab.style.position = "absolute";
+	vTab.style.visibility = "hidden";
+	if(CT !=  8) {
+		var v = "MB" + CT;
+		document.getElementById(v).style.color = "#000000";
+	}
+
+	CT = n;
+	document.getElementById("0").focus();
+	vTab = document.getElementById(CT);
+	vTab.style.position = "relative";
+	vTab.style.visibility = "visible";
+	if(n != 8) {
+		v = "MB" + n;
+		document.getElementById(v).style.color = "#FF0000";
+	}
+}
+
+function CheckData() {
+	var PN = 0, SN = 0;
+	var Msg = "", vN = "";
+	var p,q;
+	with(document.Update) {
+		p = Title;
+		if(p.selectedIndex == 0) {
+			Msg = "Title";
+			PN = 1;
+		}
+		q = Surname;
+		if(q.value == "") {
+			if(Msg == "") { p = q; PN = 1;}
+			Msg = Msg + "\nSurname";
+		}
+		q = Forename;
+		if(q.value == "") {
+			if(Msg == "") { p = q; PN = 1;}
+			Msg = Msg + "\nForename(s)";
+		}
+		q = Gender[0];	
+		if(!q.checked && !Gender[1].checked) {
+			if(Msg == "") { p = q; PN = 1;}
+			Msg = Msg + "\nGender";
+		}
+		q = DOB.value;
+		if(!IsDate(q)) {
+			if(Msg == "") { p = q; PN = 1;}
+			Msg = Msg + "\nDate of Birth - please use the following format to enter date: dd/mm/yyyy";
+		}
+
+		q = Address;
+		if(q.value != "" || Town.value != "" || Country.selectedIndex > 0 || Postcode.value != "" || Phone.value != "" || Mobile.value != "" || Fax.value != "" || Email.value != "") {
+			SN = 2;
+			if(q.value == "") {
+				if(Msg == "") { p = q; PN = 2;}
+				Msg = Msg + "\nStreet address";
+			}
+			q = Town;
+			if(q.value == "") {
+				if(Msg == "") { p = q; PN = 2;}
+				Msg = Msg + "\nTown";
+			}
+			q = Country;
+			if(q.selectedIndex == 0) {
+				if(Msg == "") { p = q; PN = 2;}
+				Msg = Msg + "\nCountry";
+			}
+			q = Postcode;
+			if(q.value == "") {
+				if(Msg == "") { p = q; PN = 2;}
+				Msg = Msg + "\nPost/Zip Code";
+			}
+			q = Phone;
+			if(q.value == "" && Mobile.value == "" && Fax.value == "" && Email.value == "") {
+				if(Msg == "") { p = q; PN = 2;}
+				Msg = Msg + "\none of Telephone, Mobile, Fax, E-mail";
+			}
+		}
+
+		if(JTitle.value != "" || JAddress.value != "" || Employer.value != "" || JTown.value != "" || JCountry.selectedIndex > 0 || JPostcode.value != "" || JPhone.value != "" || JFax.value != "" || JEMail.value != "" || JCounty.value != "") { SN = 3; }
+
+		q = Degree1;
+		if((q.value != "" && q.value != "(e.g.BSc, BA, HND)") || Subject1.value != "" || EYear1.value != "" || GYear1.value != "" || DR[0].checked || DR[1].checked) {
+			SN = 4;
+			if(q.value == "" || q.value == "(e.g.BSc, BA, HND)") {
+				if(Msg == "") { p = q; PN = 4;}
+				Msg = Msg + "\nDegree/Qualification";
+			}
+			q = Subject1;
+			if(q.value == "") {
+				if(Msg == "") { p = q; PN = 4;}
+				Msg = Msg + "\nSubject";
+			}
+			q = EYear1;
+			if(q.value == "") {
+				if(Msg == "") { p = q; PN = 4;}
+				Msg = Msg + "\nYear of Entry";
+			}
+			q = GYear1;
+			if(q.value == "") {
+				if(Msg == "") { p = q; PN = 4;}
+				Msg = Msg + "\nYear of Graduation";
+			}
+			q = DR[0];
+			if(!q.checked && !DR[1].checked) {
+				if(Msg == "") { p = q; PN = 4;}
+				Msg = Msg + "\nAnswer the question: Is your degree/award relevant to your current job?";
+			}
+			var qv;
+			for(i = 1; i <=5; i++) {
+				vN = "EYear" + i;
+				q = document.getElementById(vN);
+				qv = q.value;
+				if(qv != "") {
+					if(!IsInt(qv)) {
+						if(Msg == "") { p = q; PN = 4;}
+						Msg = Msg + "\nPlease enter valid Year of Entry using the format yyyy";
+					}
+				}
+			}
+			for(i = 1; i <=5; i++) {
+				vN = "GYear" + i;
+				q = document.getElementById(vN);
+				qv = q.value;
+				if(qv != "") {
+					if(!IsInt(qv)) {
+						if(Msg == "") { p = q; PN = 4;}
+						Msg = Msg + "\nPlease enter valid Year of Graduation using the format yyyy";
+					}
+				}
+			}
+		}
+
+		if(BS.selectedIndex > 0 || OBusiness.value != "") { SN = 5; }
+
+		for(i = 0; i < 9; i++) {
+			if(IR(i).checked) {
+				SN = 6;
+				break;
+			}
+		}
+		for(i = 0; i < 2; i++) {
+			if(ISrc(i).checked) {
+				SN = 6;
+				break;
+			}
+		}
+		
+		for(i = 0; i < 7; i++) {
+			if(AA(i).checked) {
+				SN = 7;
+				break;
+			}
+		}
+		if(OtherAA.value != "" || News.value != "") { SN = 7; }
+		
+		
+		
+		//q = DP[0];
+		//if(!q.checked && !DP[1].checked) {
+			//if(Msg == "") { p = q; PN = 8;}
+				//Msg = Msg + "\n\nPlease tick YES or NO for the Data Protection Act";
+		//}
+
+		
+		if(Msg == "") {
+			if(SN == 0) {
+				Msg = "Please complete at least one of the sections.";
+				PN = 2;
+				p = Address;
+			}
+		}
+		else {
+			if(SN == 0) {
+				Msg = Msg + "\n\nPlease complete at least one of the sections."
+			}
+		}
+		if(Msg != "") {
+			if(Msg != "Please complete at least one of the sections.") { Msg = "Please enter your\n" + Msg; }
+			alert(Msg);
+			vTab.style.position = "absolute";
+			vTab.style.visibility = "hidden";
+			q = "MB" + CT;
+			document.getElementById(v).style.color = "#000000";
+			CT = PN;
+			vTab = document.getElementById(CT);
+			vTab.style.position = "relative";
+			vTab.style.visibility = "visible";
+			q = "MB" + CT;
+			document.getElementById(q).style.color = "#FF0000";
+			p.focus();
+			return false;
+		}	
+
+		if(Distinctions.value == "(e.g.OBE, FRICS)") { Distinctions.value = ""; }
+		if(Degree1.value == "(e.g.BSc, BA, HND)") { Degree1.value = ""; }
+		if(Degree2.value == "(e.g.BSc, BA, HND)") { Degree2.value = ""; }
+		if(Degree3.value == "(e.g.BSc, BA, HND)") { Degree3.value = ""; }
+		if(Degree4.value == "(e.g.BSc, BA, HND)") { Degree4.value = ""; }
+	}
+	return true;
+}
+
+function IsInt(vStr) {
+	var n,v;
+	var L = vStr.length;
+	for (n = 0; n < L; n++) {                        
+  	v = vStr.charCodeAt(n);
+		if(v < 48 || v > 57) { return false; }
+	}
+	return true;
+}
+function IsDate(DStr) {
+	var L = DStr.length;
+	if(L > 0) {
+		var L1, CC;
+		for(L1=0; L1<L; L1++) {
+			CC = DStr.charCodeAt(L1);
+			if(CC > 48 && CC < 58) { break; }
+		}
+		if(L1 == L) { return false; }
+		var L2;
+		for(L2=L1+1; L2<L; L2++) {
+			CC = DStr.charCodeAt(L2);
+			if(CC < 48 || CC > 57) { break; }
+		}
+		if(L2 == L) { return false; }
+		var D = parseInt(DStr.substring(L1,L2));
+		if(D < 1 || D > 31) { return false; }
+
+		for(L1=L2+1; L1<L; L1++) {
+			CC = DStr.charCodeAt(L1);
+			if(CC > 48 && CC < 58) { break; }
+		}
+		if(L1 == L) { return false; }
+		var L2;
+		for(L2=L1+1; L2<L; L2++) {
+			CC = DStr.charCodeAt(L2);
+			if(CC < 48 || CC > 57) { break; }
+		}
+		if(L2 == L) { return false; }
+		var M = parseInt(DStr.substring(L1,L2));
+		if(M < 1 || M > 12) { return false; }
+
+		for(L1=L2+1; L1<L; L1++) {
+			CC = DStr.charCodeAt(L1);
+			if(CC > 48 && CC < 58) { break; }
+		}
+		if(L1 == L) { return false; }
+		var L2;
+		for(L2=L1+1; L2<L; L2++) {
+			CC = DStr.charCodeAt(L2);
+			if(CC < 48 || CC > 57) { break; }
+		}
+		var Y = parseInt(DStr.substring(L1,L2));
+
+		if(D > 28) {
+			if(M == 2) {
+				if(D > 29) { return false; }
+				if(4 * Math.floor(0.25*Y) != Y) { return false; }
+			}
+			if((M == 4 || M == 6 || M==9 || M==11) && (D > 30)) { return false; }
+		}
+		if(D < 10) { CC = '0' + D; }
+		else { CC = D; }
+		if(M < 10) { CC = CC + '/0' + M; }
+		else { CC = CC + '/' + M; }
+		if(Y < 10) { CC = CC + '/0' + Y; }
+		else { CC = CC + '/' + Y; }
+		var L = new Array(CC,D,M,Y);
+		return L;
+	}
+	else { return false; }
+}
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #000000}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!-- Access Keys -->
+
+<a href="http://www.abertay.ac.uk//help/AccessKeys.cfm?Key=997" accesskey="0" title="Access Keys (access key: 0)"></a>
+<a href="http://www.abertay.ac.uk/index.cfm?Key=000" accesskey="1" title="Home Page (access key: 1)"></a>
+<a href="http://www.abertay.ac.uk/Search/index.cfm?Key=011.001" accesskey="2" title="Search (access key: 2)"></a>
+<a href="/Alumni/Update.cfm?printer=TRUE&amp;" target="_blank" accesskey="3" title="Print version (text only) (access key: 3)"></a>
+<a href="#skip" accesskey="4" title="Skip to main content (access key: 4)"></a>
+<a href="http://www.abertay.ac.uk//A-Z.cfm?Key=011" accesskey="5" title="A-Z index (access key: 5)"></a>
+<a href="http://www.abertay.ac.uk//Help/ContactUs.cfm?Key=999" accesskey="6" title="Contact Us (access key: 6)"></a>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	
+	<tr height="80">
+		<td width="181" align="center" bgcolor="#62458A"><a href="../Index.cfm"><img src="../Images/Front/Logo.jpg" alt="UAD Logo" border="0" width="137" height="64" /></a></td>
+		<td bgcolor="#000000" align="right" style="padding-right:4px; border-left:2px solid #FFFFFF">
+<form action="http://www.google.com/u/abertay" method="get" style="margin-bottom: 0">
+	<input type="hidden" name="domains" value="www.abertay.ac.uk" />
+	<input type="hidden" name="sitesearch" value="www.abertay.ac.uk" />
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="389" rowspan="2"><img src="../Images/Front/BB.gif" alt="Breaking Barriers" border="0" width="369" height="20" align="left" hspace="20" /></td>
+					<td></td>
+					<td width="168" align="center" height="20" style="font-size:1.15em"><a href="http://portal.abertay.ac.uk/" title="Portal (access key: 7)" class="intranet_button" accesskey="7">&nbsp;Portal&nbsp;</a></td>
+					<td width="26"></td>
+				</tr>
+				<tr>
+					<td align="right" style="padding-right:4px; padding-top:10px; color:#FFFFFF; font-size:10px; font-weight:bold;">SEARCH</td>
+					<td><input type="text" id="search" name="q" size="10" maxlength="255" class="Search_Text" style="width:100%" /></td>
+					<td style="padding-top:12px; padding-left:8px; text-align:left"><input type="image" src="http://www.abertay.ac.uk/Images/Front/go.gif" name="sa" alt="search submit" style="width:18px; height:19px" /></td>
+				</tr>
+			</table>
+</form>
+		</td>
+	</tr>
+	
+	<tr valign="top">
+		<td bgcolor="#62458A" style="padding-top:1.5em; padding-right:0.2em; padding-bottom:2em">
+<ul class="Menu">
+		
+	<li class="Menu"><a href="http://www.abertay.ac.uk/index.cfm?Key=000" class="nav_link" title="Home">Home</a></li>
+
+
+
+		
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Schools/index.cfm?Key=001" class="nav_link" title="Schools & Divisions">Schools & Divisions</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Courses/index.cfm?Key=002" class="nav_link" title="Courses">Courses</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Applicants/index.cfm?Key=003" class="nav_link" title="New Applicants">New Applicants</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/About/index.cfm?Key=004" class="nav_link" title="About Abertay">About Abertay</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/About/Support/Index.cfm?Key=005" class="nav_link" title="Support Services">Support Services</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/News/index.cfm?Key=006" class="nav_link" title="News &amp; Events">News &amp; Events</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Business/index.cfm?Key=007" class="nav_link" title="Building Business">Building Business</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Research/index.cfm?Key=008" class="nav_link" title="Research">Research</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+		
+	
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Careers/Index.cfm?CKey=002&amp;Key=009" class="nav_link" title="Careers">Careers</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+		
+<li class="Menu"><a href="http://www.abertay.ac.uk/Alumni/index.cfm?Key=010" class="nav_link" title="Alumni">Alumni</a></li>
+			
+			
+			
+			
+				
+			 
+		
+	
+
+	
+		<ul class="SubPageMenu">	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Contact.cfm?Key=010.001" class="nav_link" title="Graduate Contacts">Graduate Contacts</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Association.cfm?Key=010.002" class="nav_link" title="Association Benefits">Association Benefits</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Merchandise.cfm?Key=010.003" class="nav_link" title="UAD Merchandise">UAD Merchandise</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/ClassNotes.cfm?Key=010.004" class="nav_link" title="Class Notes">Class Notes</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Events.cfm?Key=010.005" class="nav_link" title="Events">Events</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Honours.cfm?Key=010.006" class="nav_link" title="Honours">Honours</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Reunions.cfm?Key=010.007" class="nav_link" title="Alumni Stories">Alumni Stories</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Opportunities.cfm?Key=010.008" class="nav_link" title="Opportunities">Opportunities</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/HideSeek.cfm?Key=010.010" class="nav_link" title="Hide 'n Seek">Hide 'n Seek</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+		
+			
+<li class="Menu"><a href="http://www.abertay.ac.uk/Alumni/Update.cfm?Key=010.011" class="nav_link_active" title="Update Form">Update Form</a></li>
+				
+				
+			
+			
+			
+		
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Links.cfm?Key=010.012" class="nav_link" title="Links">Links</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/Alumni/Feedback.cfm?Key=010.013" class="nav_link" title="Feedback">Feedback</a>
+		
+</li>
+	
+
+	
+	
+	
+		</ul>
+		
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/A-Z.cfm?Key=011" class="nav_link" title="A-Z">A-Z</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://www.abertay.ac.uk/fundraising/index.cfm?Key=012" class="nav_link" title="Fundraising">Fundraising</a>
+		
+</li>
+	
+
+	
+	
+	
+	
+	
+	
+
+	
+			
+
+	
+<li class="Menu">
+
+		
+<a href="http://wwwlearn1.tay.ac.uk/" class="nav_link" title="The Portal - opens in a new window" rel="external">The Portal</a>
+		
+</li>
+	
+
+
+
+
+
+<br /><br />
+		
+	<li class="Menu"><a href="http://www.abertay.ac.uk/Help/ContactUs.cfm?Key=999" class="nav_link" title="Contact Us">Contact Us</a></li>
+		
+	<li class="Menu"><a href="http://www.abertay.ac.uk/Help/sitemap.cfm?Key=998" class="nav_link" title="Site Map">Site Map</a></li>
+	<li class="Menu"><a href="http://iserv.abertay.ac.uk/foi/" class="nav_link" title="Freedom of Information" target="_blank">Freedom of Information</a></li>
+		
+	<li class="Menu"><a href="http://www.abertay.ac.uk/Help/index.cfm?Key=997" class="nav_link" title="HELP">HELP</a></li>
+		
+	<li class="Menu"><a href="http://www.abertay.ac.uk/Help/feedback.cfm?Key=995" class="nav_link" title="Feedback">Web Feedback</a></li><br /><br />
+		
+	<li class="Menu"><a href="http://www.abertay.ac.uk/About/Jobs/Jobs.cfm?Key=996" class="nav_link" title="Jobs @ Abertay">Jobs @ Abertay</a></li>
+</ul>
+<!-- InstanceBeginEditable name="Nav_Content" -->
+	
+<!-- InstanceEndEditable -->
+<br/>
+<img src="http://www.abertay.ac.uk/Images/question_icon.gif" alt="Question Icon" width="20" height="13" /> <a href="http://www.abertay.ac.uk/questions" target="_blank" class="nav_link" title="Got a Question">Got a Question?</a><br />
+<img src="http://www.abertay.ac.uk/Images/print_icon.gif" alt="Print Icon" width="20" height="13" /> <a href="/Alumni/Update.cfm?printer=TRUE&amp;" target="_blank" class="nav_link" title="Printable Version">Printable Version</a><br />
+<img src="http://www.abertay.ac.uk/Images/email_icon.gif" alt="Email Icon" width="20" height="13" /> <a href="javascript:poptastic('http://www.abertay.ac.uk/Help/sendtofriend.cfm', 300, 330);" class="nav_link" title="Email a friend - opens in popup window">Email to a friend</a>
+		</td>
+		
+		<td style="padding-left:4px; padding-right:4px">
+<!-- InstanceBeginEditable name="MainBody" -->
+<h3>Alumni Update Form</h3>
+
+
+
+<style type="text/css">
+	.ParaH {font-size:1em; font-weight:bold;}
+	.Lbl {font-weight:bold;}
+	.RP {padding-right:0.4em; text-align:right;}
+	
+	input, select {width:100%}
+	textarea {width:98%}
+	input.CBox {width:16px}
+	input.Btn {padding:0px}
+	input.Text {width:100%}
+	textarea.R2 {height:3em}
+	
+	table.MNorm {margin:0px; padding:0px; font-size:0.9em}
+	th.TH {font-size:1.2em;}
+	
+	div.MFNote {padding-top:0.5em; padding-bottom:0.5em; color:#C00000}
+	span.MF {font-size:1em; color:#C00000}
+ </style>		
+	<span class="style1">
+Please use the buttons to open the different parts of the form. When you have finished please double-check your information and press the <b>[Submit]</b> button located at the very end of the form.<br />
+<br />
+If you would like to change part of your details please complete the fields marked with an asterisk (*) in the Personal section, and then open and complete the rest.<br />
+<br /> 
+    </span>
+	<div class="MFNote style1">Please note that fields marked with an asterisk (*) must be filled in.</div>
+
+<table id="0" width="100%" border="1" cellspacing="0" cellpadding="0" summary="Alumni details update buttons - open up the different parts of the form">
+	<tr>
+		<td width="14%"><input type="button" id="MB1" class="Btn" value="Personal" onclick="VH(1)" tabindex="1" /></td>
+		<td width="14%"><input type="button" id="MB2" class="Btn" value="Contact" onclick="VH(2)" tabindex="2" /></td>
+		<td width="15%"><input type="button" id="MB3" class="Btn" value="Employment" onclick="VH(3)" tabindex="3" /></td>
+		<td width="15%"><input type="button" id="MB4" class="Btn" value="Qualifications" onclick="VH(4)" tabindex="4" /></td>
+		<td width="14%"><input type="button" id="MB5" class="Btn" value="Business" onclick="VH(5)" tabindex="5" /></td>
+		<td width="14%"><input type="button" id="MB6" class="Btn" value="Income" onclick="VH(6)" tabindex="6" /></td>
+		<td width="14%"><input type="button" id="MB7" class="Btn" value="News" onclick="VH(7)" tabindex="7" /></td>
+	</tr>
+</table><br />
+
+	
+	
+<form action="Update.cfm?Key=010.011" method="post" name="Update" onsubmit="return CheckData();">
+
+																										
+
+<table id="1" width="100%" border="0" cellspacing="0" cellpadding="0" class="MNorm" summary="Alumni update form">
+	<tr><th colspan="5" class="TH">Personal Details</th></tr>
+	<tr height="10">
+		<td width="17%"></td>
+		<td width="30%"></td>
+		<td width="4%"></td>
+		<td width="19%"></td>
+		<td width="30%"></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td class="Lbl">Title:<span class="MF">*</span></td>
+		<td><select name="Title" onchange="SGender()" tabindex="101">
+			<option value="0" selected="selected">Please select</option>
+	
+			<option value="15">Baron</option>
+	
+			<option value="16">Baroness</option>
+	
+			<option value="10">Cllr</option>
+	
+			<option value="12">Dato' Professor</option>
+	
+			<option value="5">Dr</option>
+	
+			<option value="17">Lady</option>
+	
+			<option value="13">Lord</option>
+	
+			<option value="3">Miss</option>
+	
+			<option value="1">Mr</option>
+	
+			<option value="2">Mrs</option>
+	
+			<option value="4">Ms</option>
+	
+			<option value="6">Professor</option>
+	
+			<option value="11">Professor Sir</option>
+	
+			<option value="8">Reverend</option>
+	
+			<option value="14">Sheikh</option>
+	
+			<option value="9">Sir</option>
+	
+			<option value="18">The Honourable</option>
+	
+			<option value="20">The Rt Honourable</option>
+	
+		</select></td>
+		<td></td>
+		<td class="Lbl">Date of Birth:</td>
+		<td><input type="text" name="DOB" value="" tabindex="108" title="Please use the date format: dd/mm/yyyy" /></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td class="Lbl">Gender:<span class="MF">*</span></td>
+		<td><input type="radio" name="Gender" value="1" class="CBox" tabindex="102" /> Female &nbsp; <input type="radio" name="Gender" value="0" class="CBox" tabindex="103" /> Male</td>
+		<td></td>
+		<td class="Lbl">Nationality:</td>
+		<td><select name="Nationality" tabindex="109">
+			<option value="0" selected="selected">Please select</option>
+	
+			<option value="82">Afghan</option>
+	
+			<option value="77">American</option>
+	
+			<option value="1">Argentinian</option>
+	
+			<option value="2">Australian</option>
+	
+			<option value="3">Austrian</option>
+	
+			<option value="4">Bahamian</option>
+	
+			<option value="5">Bahraini</option>
+	
+			<option value="6">Balearic Islands</option>
+	
+			<option value="7">Bangladeshi</option>
+	
+			<option value="8">Belgian</option>
+	
+			<option value="9">Bermudan</option>
+	
+			<option value="10">Botswanan</option>
+	
+			<option value="11">Brazilian</option>
+	
+			<option value="76">British</option>
+	
+			<option value="12">Bulgarian</option>
+	
+			<option value="13">BWI</option>
+	
+			<option value="14">Canadian</option>
+	
+			<option value="15">Channel Islands</option>
+	
+			<option value="16">Chilean</option>
+	
+			<option value="17">Chinese</option>
+	
+			<option value="18">Columbian</option>
+	
+			<option value="19">Cypriot</option>
+	
+			<option value="20">Danish</option>
+	
+			<option value="50">Dutch</option>
+	
+			<option value="21">Egyptian</option>
+	
+			<option value="23">English</option>
+	
+			<option value="24">Fijian</option>
+	
+			<option value="25">Finnish</option>
+	
+			<option value="26">French</option>
+	
+			<option value="27">German</option>
+	
+			<option value="28">Ghanaian</option>
+	
+			<option value="29">Gibraltarian</option>
+	
+			<option value="30">Greek</option>
+	
+			<option value="31">Hong Kong</option>
+	
+			<option value="32">Hungarian</option>
+	
+			<option value="33">Indian</option>
+	
+			<option value="34">Indonesian</option>
+	
+			<option value="22">Irish</option>
+	
+			<option value="35">Irish</option>
+	
+			<option value="36">Italian</option>
+	
+			<option value="37">Jamaican</option>
+	
+			<option value="38">Japanese</option>
+	
+			<option value="39">Jordanian</option>
+	
+			<option value="40">Korean</option>
+	
+			<option value="41">Kuwaiti</option>
+	
+			<option value="42">Lebanese</option>
+	
+			<option value="44">Lithuanian</option>
+	
+			<option value="45">Luxemburg</option>
+	
+			<option value="46">Malawian</option>
+	
+			<option value="47">Malaysian</option>
+	
+			<option value="48">Mauritius</option>
+	
+			<option value="87">Mexican</option>
+	
+			<option value="49">Nepalese</option>
+	
+			<option value="51">New Zealand</option>
+	
+			<option value="52">Nigerian</option>
+	
+			<option value="53">Northern Irish</option>
+	
+			<option value="54">Norwegian</option>
+	
+			<option value="55">Omani</option>
+	
+			<option value="56">Pakistani</option>
+	
+			<option value="57">Peruvian</option>
+	
+			<option value="58">Polish</option>
+	
+			<option value="83">Portuguese</option>
+	
+			<option value="59">Saudi Arabian</option>
+	
+			<option value="60">Scottish</option>
+	
+			<option value="61">Selangor</option>
+	
+			<option value="62">Senegal</option>
+	
+			<option value="63">Sierra Leonean</option>
+	
+			<option value="64">Singaporean</option>
+	
+			<option value="43">Sotho</option>
+	
+			<option value="65">South African</option>
+	
+			<option value="66">Spanish</option>
+	
+			<option value="67">Sri Lankan</option>
+	
+			<option value="68">Sudanese</option>
+	
+			<option value="69">Swedish</option>
+	
+			<option value="70">Swiss</option>
+	
+			<option value="84">Syrian</option>
+	
+			<option value="71">Taiwanese</option>
+	
+			<option value="72">Tanzanian</option>
+	
+			<option value="73">Thai</option>
+	
+			<option value="85">Turkish</option>
+	
+			<option value="74">United Arab Emirates</option>
+	
+			<option value="75">Ugandan</option>
+	
+			<option value="78">Venezuelan</option>
+	
+			<option value="79">Welsh</option>
+	
+			<option value="86">Yugoslavian</option>
+	
+			<option value="80">Zambian</option>
+	
+			<option value="81">Zimbabwean</option>
+	
+		</select></td>
+	</tr>
+	
+	<tr>
+		<td class="Lbl">Surname:<span class="MF">*</span></td>
+		<td><input type="text" name="Surname" tabindex="104" /></td>
+		<td></td>
+		<td class="Lbl">Country of Residence:</td>
+		<td><select name="RCountry" tabindex="110">
+			<option value="0" selected="selected">Please select</option>
+	
+			<option value="82">Afghanistan</option>
+	
+			<option value="1">Argentina</option>
+	
+			<option value="2">Australia</option>
+	
+			<option value="3">Austria</option>
+	
+			<option value="4">Bahamas</option>
+	
+			<option value="5">Bahrain</option>
+	
+			<option value="6">Balearic Islands</option>
+	
+			<option value="7">Bangladesh</option>
+	
+			<option value="8">Belgium</option>
+	
+			<option value="9">Bermuda</option>
+	
+			<option value="10">Botswana</option>
+	
+			<option value="11">Brazil</option>
+	
+			<option value="12">Bulgaria</option>
+	
+			<option value="13">BWI</option>
+	
+			<option value="14">Canada</option>
+	
+			<option value="15">Channel Islands</option>
+	
+			<option value="16">Chile</option>
+	
+			<option value="17">China</option>
+	
+			<option value="18">Colombia</option>
+	
+			<option value="19">Cyprus</option>
+	
+			<option value="20">Denmark</option>
+	
+			<option value="21">Egypt</option>
+	
+			<option value="22">Eire</option>
+	
+			<option value="23">England</option>
+	
+			<option value="24">Fiji</option>
+	
+			<option value="25">Finland</option>
+	
+			<option value="26">France</option>
+	
+			<option value="27">Germany</option>
+	
+			<option value="28">Ghana</option>
+	
+			<option value="29">Gibraltar</option>
+	
+			<option value="30">Greece</option>
+	
+			<option value="31">Hong Kong</option>
+	
+			<option value="32">Hungary</option>
+	
+			<option value="33">India</option>
+	
+			<option value="34">Indonesia</option>
+	
+			<option value="35">Ireland</option>
+	
+			<option value="36">Italy</option>
+	
+			<option value="37">Jamaica</option>
+	
+			<option value="38">Japan</option>
+	
+			<option value="39">Jordan</option>
+	
+			<option value="40">Korea</option>
+	
+			<option value="41">Kuwait</option>
+	
+			<option value="42">Lebanon</option>
+	
+			<option value="43">Lesotho</option>
+	
+			<option value="44">Lithuania</option>
+	
+			<option value="45">Luxemburg</option>
+	
+			<option value="46">Malawi</option>
+	
+			<option value="47">Malaysia</option>
+	
+			<option value="48">Mauritius</option>
+	
+			<option value="87">Mexico</option>
+	
+			<option value="49">Nepal</option>
+	
+			<option value="50">Netherlands</option>
+	
+			<option value="51">New Zealand</option>
+	
+			<option value="52">Nigeria</option>
+	
+			<option value="53">Northern Ireland</option>
+	
+			<option value="54">Norway</option>
+	
+			<option value="55">Oman</option>
+	
+			<option value="56">Pakistan</option>
+	
+			<option value="57">Peru</option>
+	
+			<option value="58">Poland</option>
+	
+			<option value="83">Portugal</option>
+	
+			<option value="59">Saudi Arabia</option>
+	
+			<option value="60">Scotland</option>
+	
+			<option value="61">Selangor</option>
+	
+			<option value="62">Senegal</option>
+	
+			<option value="63">Sierra Leone</option>
+	
+			<option value="64">Singapore</option>
+	
+			<option value="65">South Africa</option>
+	
+			<option value="66">Spain</option>
+	
+			<option value="67">Sri Lanka</option>
+	
+			<option value="68">Sudan</option>
+	
+			<option value="69">Sweden</option>
+	
+			<option value="70">Switzerland</option>
+	
+			<option value="84">Syria</option>
+	
+			<option value="71">Taiwan</option>
+	
+			<option value="72">Tanzania</option>
+	
+			<option value="73">Thailand</option>
+	
+			<option value="85">Turkey</option>
+	
+			<option value="74">United Arab Emirates</option>
+	
+			<option value="75">Uganda</option>
+	
+			<option value="76">United Kingdom</option>
+	
+			<option value="77">USA</option>
+	
+			<option value="78">Venezuela</option>
+	
+			<option value="79">Wales</option>
+	
+			<option value="86">Yugoslavia</option>
+	
+			<option value="80">Zambia</option>
+	
+			<option value="81">Zimbabwe</option>
+	
+		</select></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td class="Lbl">Forename(s):<span class="MF">*</span></td>
+		<td><input type="text" name="Forename" tabindex="105" /></td>
+		<td></td>
+		<td class="Lbl">Marital Status:</td>
+		<td><select name="MStatus" tabindex="111">
+			<option value="0">Please select</option>
+	
+			<option value="1">Married</option>
+	
+			<option value="2">Single</option>
+	
+			<option value="9">Engaged</option>
+	
+			<option value="5">Divorced</option>
+	
+			<option value="7">Widow</option>
+	
+			<option value="8">Widower</option>
+	
+		</select></td>
+	</tr>
+	
+	<tr>
+		<td class="Lbl">Preferred First Name:</td>
+		<td><input type="text" name="PForename" tabindex="106" /></td>
+		<td></td>
+		<td class="Lbl"><span class="Lbl">Previous/Maiden Name:</span></td>
+		<td><input type="text" name="MName" tabindex="112" /></td>
+	</tr>
+	
+	<tr>
+		<td class="Lbl">Distinctions:</td>
+		<td><input type="text" name="Distinctions" value="(e.g.OBE, FRICS)" tabindex="107" onfocus="if(this.value == '(e.g.OBE, FRICS)') { this.value = ''; }" /></td>
+		<td></td>
+		<td class="Lbl"><span class="Lbl">Name of Partner:</span></td>
+		<td><input type="text" name="PName" tabindex="113" /></td>
+	</tr>
+	
+	<tr>
+		<td colspan="4" class="RP"><span class="Lbl">Is your partner also a former Abertay student:</span></td>
+		<td><input type="radio" name="PTo" value="1" class="CBox" tabindex="114" /> Yes &nbsp; <input type="radio" name="PTo" value="0" class="CBox" tabindex="115" /> No</td>
+	</tr>
+	
+	<tr height="10"><td colspan="5"></td></tr>
+	<tr>
+		<td colspan="4"></td>
+		<td>
+			<table width="100%" border="1" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="50%"><input type="button" class="Btn" value="Next" onclick="VH(2)" / tabindex="198"></td>
+					<td width="50%"><input type="button" class="Btn" value="Submit" onclick="VH(8)" / tabindex="199"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	
+</table>
+						
+																				
+																				
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="2" class="MNorm">		
+	<tr><th colspan="5" class="TH">Contact Details</th></tr>
+	<tr height="10">
+		<td width="20%"></td>
+		<td width="30%"></td>
+		<td width="4%"></td>
+		<td width="16%"></td>
+		<td width="30%"></td>
+	</tr>
+	<tr>
+		<td rowspan="2" valign="top" class="Lbl">Street Address:<span class="MF">*</span></td>
+		<td rowspan="2"><textarea name="Address" rows="2" class="R2" tabindex="201"></textarea></td>
+		<td rowspan="2"></td>
+		<td class="Lbl">Telephone:<span class="MF">*</span></td>
+		<td><input type="text" name="Phone" tabindex="206" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Mobile:</td>
+		<td><input type="text" name="Mobile" tabindex="207" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Town:<span class="MF">*</span></td>
+		<td><input type="text" name="Town" tabindex="202" /></td>
+		<td></td>
+		<td class="Lbl">Fax:</td>
+		<td><input type="text" name="Fax" tabindex="208" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">County:</td>
+		<td><input type="text" name="County" tabindex="203" /></td>
+		<td></td>
+		<td class="Lbl">E-mail:</td>
+		<td><input type="text" name="Email" tabindex="209" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Country:<span class="MF">*</span></td>
+		<td><select name="Country" size="1" tabindex="204">
+			<option value="0" selected="selected">Please select</option>
+	
+			<option value="82">Afghanistan</option>
+	
+			<option value="1">Argentina</option>
+	
+			<option value="2">Australia</option>
+	
+			<option value="3">Austria</option>
+	
+			<option value="4">Bahamas</option>
+	
+			<option value="5">Bahrain</option>
+	
+			<option value="6">Balearic Islands</option>
+	
+			<option value="7">Bangladesh</option>
+	
+			<option value="8">Belgium</option>
+	
+			<option value="9">Bermuda</option>
+	
+			<option value="10">Botswana</option>
+	
+			<option value="11">Brazil</option>
+	
+			<option value="12">Bulgaria</option>
+	
+			<option value="13">BWI</option>
+	
+			<option value="14">Canada</option>
+	
+			<option value="15">Channel Islands</option>
+	
+			<option value="16">Chile</option>
+	
+			<option value="17">China</option>
+	
+			<option value="18">Colombia</option>
+	
+			<option value="19">Cyprus</option>
+	
+			<option value="20">Denmark</option>
+	
+			<option value="21">Egypt</option>
+	
+			<option value="22">Eire</option>
+	
+			<option value="23">England</option>
+	
+			<option value="24">Fiji</option>
+	
+			<option value="25">Finland</option>
+	
+			<option value="26">France</option>
+	
+			<option value="27">Germany</option>
+	
+			<option value="28">Ghana</option>
+	
+			<option value="29">Gibraltar</option>
+	
+			<option value="30">Greece</option>
+	
+			<option value="31">Hong Kong</option>
+	
+			<option value="32">Hungary</option>
+	
+			<option value="33">India</option>
+	
+			<option value="34">Indonesia</option>
+	
+			<option value="35">Ireland</option>
+	
+			<option value="36">Italy</option>
+	
+			<option value="37">Jamaica</option>
+	
+			<option value="38">Japan</option>
+	
+			<option value="39">Jordan</option>
+	
+			<option value="40">Korea</option>
+	
+			<option value="41">Kuwait</option>
+	
+			<option value="42">Lebanon</option>
+	
+			<option value="43">Lesotho</option>
+	
+			<option value="44">Lithuania</option>
+	
+			<option value="45">Luxemburg</option>
+	
+			<option value="46">Malawi</option>
+	
+			<option value="47">Malaysia</option>
+	
+			<option value="48">Mauritius</option>
+	
+			<option value="87">Mexico</option>
+	
+			<option value="49">Nepal</option>
+	
+			<option value="50">Netherlands</option>
+	
+			<option value="51">New Zealand</option>
+	
+			<option value="52">Nigeria</option>
+	
+			<option value="53">Northern Ireland</option>
+	
+			<option value="54">Norway</option>
+	
+			<option value="55">Oman</option>
+	
+			<option value="56">Pakistan</option>
+	
+			<option value="57">Peru</option>
+	
+			<option value="58">Poland</option>
+	
+			<option value="83">Portugal</option>
+	
+			<option value="59">Saudi Arabia</option>
+	
+			<option value="60">Scotland</option>
+	
+			<option value="61">Selangor</option>
+	
+			<option value="62">Senegal</option>
+	
+			<option value="63">Sierra Leone</option>
+	
+			<option value="64">Singapore</option>
+	
+			<option value="65">South Africa</option>
+	
+			<option value="66">Spain</option>
+	
+			<option value="67">Sri Lanka</option>
+	
+			<option value="68">Sudan</option>
+	
+			<option value="69">Sweden</option>
+	
+			<option value="70">Switzerland</option>
+	
+			<option value="84">Syria</option>
+	
+			<option value="71">Taiwan</option>
+	
+			<option value="72">Tanzania</option>
+	
+			<option value="73">Thailand</option>
+	
+			<option value="85">Turkey</option>
+	
+			<option value="74">United Arab Emirates</option>
+	
+			<option value="75">Uganda</option>
+	
+			<option value="76">United Kingdom</option>
+	
+			<option value="77">USA</option>
+	
+			<option value="78">Venezuela</option>
+	
+			<option value="79">Wales</option>
+	
+			<option value="86">Yugoslavia</option>
+	
+			<option value="80">Zambia</option>
+	
+			<option value="81">Zimbabwe</option>
+	
+		</select></td>
+		<td colspan="3"></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Post/Zip Code:<span class="MF">*</span></td>
+		<td><input type="text" name="Postcode" tabindex="205" /></td>
+		<td></td>
+		<td></td>
+		<td>
+			<table width="100%" border="1" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="33%"><input type="button" class="Btn" value="Previous" onclick="VH(1)" / tabindex="297"></td>
+					<td width="33%"><input type="button" class="Btn" value="Next" onclick="VH(3)" / tabindex="298"></td>
+					<td width="34%"><input type="button" class="Btn" value="Submit" onclick="VH(8)" / tabindex="299"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+			
+																				
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="3" class="MNorm">		
+	<tr><th colspan="5" class="TH">Employment Details</th></tr>
+	<tr height="10">
+		<td width="13%"></td>
+		<td width="35%"></td>
+		<td width="4%"></td>
+		<td width="13%"></td>
+		<td width="35%"></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Job Title:</td>
+		<td><input type="text" name="JTitle" tabindex="301" /></td>
+		<td rowspan="2"></td>
+		<td rowspan="2" valign="top" class="Lbl">Address:</td>
+		<td rowspan="2"><textarea name="JAddress" rows="2" class="R2" tabindex="306" ></textarea></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Employer:</td>
+		<td><input type="text" name="Employer" tabindex="302" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Telephone:</td>
+		<td><input type="text" name="JPhone" tabindex="303" /></td>
+		<td></td>
+		<td class="Lbl">Town:</td>
+		<td><input type="text" name="JTown" tabindex="307" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Fax:</td>
+		<td><input type="text" name="JFax" tabindex="304" /></td>
+		<td></td>
+		<td class="Lbl">Postcode:</td>
+		<td><input type="text" name="JPostcode" tabindex="308" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">E-mail:</td>
+		<td><input type="text" name="JEMail" tabindex="305" /></td>
+		<td></td>
+		<td class="Lbl">County:</td>
+		<td><input type="text" name="JCounty" tabindex="309" /></td>
+	</tr>
+	<tr>
+		<td colspan="3"></td>
+		<td class="Lbl">Country:</td>
+		<td><select name="JCountry" size="1" tabindex="310">
+			<option value="0" selected="selected">Please select</option>
+	
+			<option value="82">Afghanistan</option>
+	
+			<option value="1">Argentina</option>
+	
+			<option value="2">Australia</option>
+	
+			<option value="3">Austria</option>
+	
+			<option value="4">Bahamas</option>
+	
+			<option value="5">Bahrain</option>
+	
+			<option value="6">Balearic Islands</option>
+	
+			<option value="7">Bangladesh</option>
+	
+			<option value="8">Belgium</option>
+	
+			<option value="9">Bermuda</option>
+	
+			<option value="10">Botswana</option>
+	
+			<option value="11">Brazil</option>
+	
+			<option value="12">Bulgaria</option>
+	
+			<option value="13">BWI</option>
+	
+			<option value="14">Canada</option>
+	
+			<option value="15">Channel Islands</option>
+	
+			<option value="16">Chile</option>
+	
+			<option value="17">China</option>
+	
+			<option value="18">Colombia</option>
+	
+			<option value="19">Cyprus</option>
+	
+			<option value="20">Denmark</option>
+	
+			<option value="21">Egypt</option>
+	
+			<option value="22">Eire</option>
+	
+			<option value="23">England</option>
+	
+			<option value="24">Fiji</option>
+	
+			<option value="25">Finland</option>
+	
+			<option value="26">France</option>
+	
+			<option value="27">Germany</option>
+	
+			<option value="28">Ghana</option>
+	
+			<option value="29">Gibraltar</option>
+	
+			<option value="30">Greece</option>
+	
+			<option value="31">Hong Kong</option>
+	
+			<option value="32">Hungary</option>
+	
+			<option value="33">India</option>
+	
+			<option value="34">Indonesia</option>
+	
+			<option value="35">Ireland</option>
+	
+			<option value="36">Italy</option>
+	
+			<option value="37">Jamaica</option>
+	
+			<option value="38">Japan</option>
+	
+			<option value="39">Jordan</option>
+	
+			<option value="40">Korea</option>
+	
+			<option value="41">Kuwait</option>
+	
+			<option value="42">Lebanon</option>
+	
+			<option value="43">Lesotho</option>
+	
+			<option value="44">Lithuania</option>
+	
+			<option value="45">Luxemburg</option>
+	
+			<option value="46">Malawi</option>
+	
+			<option value="47">Malaysia</option>
+	
+			<option value="48">Mauritius</option>
+	
+			<option value="87">Mexico</option>
+	
+			<option value="49">Nepal</option>
+	
+			<option value="50">Netherlands</option>
+	
+			<option value="51">New Zealand</option>
+	
+			<option value="52">Nigeria</option>
+	
+			<option value="53">Northern Ireland</option>
+	
+			<option value="54">Norway</option>
+	
+			<option value="55">Oman</option>
+	
+			<option value="56">Pakistan</option>
+	
+			<option value="57">Peru</option>
+	
+			<option value="58">Poland</option>
+	
+			<option value="83">Portugal</option>
+	
+			<option value="59">Saudi Arabia</option>
+	
+			<option value="60">Scotland</option>
+	
+			<option value="61">Selangor</option>
+	
+			<option value="62">Senegal</option>
+	
+			<option value="63">Sierra Leone</option>
+	
+			<option value="64">Singapore</option>
+	
+			<option value="65">South Africa</option>
+	
+			<option value="66">Spain</option>
+	
+			<option value="67">Sri Lanka</option>
+	
+			<option value="68">Sudan</option>
+	
+			<option value="69">Sweden</option>
+	
+			<option value="70">Switzerland</option>
+	
+			<option value="84">Syria</option>
+	
+			<option value="71">Taiwan</option>
+	
+			<option value="72">Tanzania</option>
+	
+			<option value="73">Thailand</option>
+	
+			<option value="85">Turkey</option>
+	
+			<option value="74">United Arab Emirates</option>
+	
+			<option value="75">Uganda</option>
+	
+			<option value="76">United Kingdom</option>
+	
+			<option value="77">USA</option>
+	
+			<option value="78">Venezuela</option>
+	
+			<option value="79">Wales</option>
+	
+			<option value="86">Yugoslavia</option>
+	
+			<option value="80">Zambia</option>
+	
+			<option value="81">Zimbabwe</option>
+	
+		</select></td>
+	</tr>
+	<tr height="10"><td colspan="5"></td></tr>
+	<tr>
+		<td colspan="4"></td>
+		<td>
+			<table width="100%" border="1" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="33%"><input type="button" class="Btn" value="Previous" onclick="VH(2)" / tabindex="397"></td>
+					<td width="33%"><input type="button" class="Btn" value="Next" onclick="VH(4)" / tabindex="398"></td>
+					<td width="34%"><input type="button" class="Btn" value="Submit" onclick="VH(8)" / tabindex="399"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+			
+																				
+																				
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="4" class="MNorm">		
+	<tr><th colspan="5" class="TH">University of Abertay Dundee Qualifications</th></tr>
+	<tr height="10">
+		<td width="25%"></td>
+		<td width="40%"></td>
+		<td width="4%"></td>
+		<td width="22%"></td>
+		<td width="9%"></td>
+	</tr>
+	<tr><td colspan="5">(Including awards from predecessor Institutuions i.e. Dundee Institute of Technology; Dundee College of Technology and Dundee Institute of Art & Design)</td></tr>
+	<tr><td colspan="5" class="ParaH">1.</td></tr>
+	<tr>
+		<td class="Lbl">Degree/Qualification:<span class="MF">*</span></td>
+		<td><input type="text" name="Degree1" value="(e.g.BSc, BA, HND)" onfocus="if(this.value == '(e.g.BSc, BA, HND)') { this.value = ''; }" tabindex="401" /></td>
+		<td></td>
+		<td class="Lbl">Year of Entry:<span class="MF">*</span></td>
+		<td><input type="text" name="EYear1" tabindex="403" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Subject:<span class="MF">*</span></td>
+		<td><input type="text" name="Subject1" tabindex="402" /></td>
+		<td></td>
+		<td class="Lbl">Year of Graduation:<span class="MF">*</span></td>
+		<td><input type="text" name="GYear1" tabindex="404" /></td>
+	</tr>
+	<tr><td colspan="5" class="ParaH">2.</td></tr>
+	<tr>
+		<td class="Lbl">Degree/Qualification:</td>
+		<td><input type="text" name="Degree2" value="(e.g.BSc, BA, HND)" onfocus="if(this.value == '(e.g.BSc, BA, HND)') { this.value = ''; }" tabindex="405" /></td>
+		<td></td>
+		<td class="Lbl">Year of Entry:</td>
+		<td><input type="text" name="EYear2" tabindex="407" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Subject:</td>
+		<td><input type="text" name="Subject2" tabindex="406" /></td>
+		<td></td>
+		<td class="Lbl">Year of Graduation:</td>
+		<td><input type="text" name="GYear2" tabindex="408" /></td>
+	</tr>
+	<tr><td colspan="5" class="ParaH">3.</td></tr>
+	<tr>
+		<td class="Lbl">Degree/Qualification:</td>
+		<td><input type="text" name="Degree3" value="(e.g.BSc, BA, HND)" onfocus="if(this.value == '(e.g.BSc, BA, HND)') { this.value = ''; }" tabindex="409" /></td>
+		<td></td>
+		<td class="Lbl">Year of Entry:</td>
+		<td><input type="text" name="EYear3" tabindex="411" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Subject:</td>
+		<td><input type="text" name="Subject3" tabindex="410" /></td>
+		<td></td>
+		<td class="Lbl">Year of Graduation:</td>
+		<td><input type="text" name="GYear3" tabindex="412" /></td>
+	</tr>
+	<tr><td colspan="5" height="10"></td></tr>
+	<tr>
+		<td class="Lbl">Prizes Awarded:</td>
+		<td colspan="4"><input type="text" name="Prizes" tabindex="413" style="width:100%" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" class="Lbl">Is your degree/award relevant to your current job?<span class="MF">*</span></td>
+		<td colspan="3"><input type="radio" name="DR" value="1" class="CBox" tabindex="414" /> Yes &nbsp; <input type="radio" name="DR" value="0" class="CBox" tabindex="415" /> No</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="Lbl">Were you a member of any clubs/societies?</td>
+		<td colspan="3"><input type="radio" name="CM" value="1" class="CBox" tabindex="416" /> Yes &nbsp; <input type="radio" name="CM" value="0" class="CBox" tabindex="417" /> No</td>
+	</tr>
+	<tr>
+		<td valign="top">If so, please give details:</td>
+		<td colspan="4"><textarea name="QDetails" rows="2" tabindex="418"></textarea></td>
+	</tr>
+	<tr><td colspan="5" height="10"></td></tr>
+	<tr><th colspan="5" class="TH">Qualifications From Other Institutions</th></tr>
+	<tr><td colspan="5" class="ParaH">1.</td></tr>
+	<tr>
+		<td class="Lbl">Institution:</td>
+		<td><input type="text" name="Institution1" tabindex="419" /></td>
+		<td></td>
+		<td class="Lbl">Year of Entry:</td>
+		<td><input type="text" name="EYear4" tabindex="422" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Degree/Qualification:</td>
+		<td><input type="text" name="Degree4" value="(e.g.BSc, BA, HND)" onfocus="if(this.value == '(e.g.BSc, BA, HND)') { this.value = ''; }" tabindex="420" /></td>
+		<td></td>
+		<td class="Lbl">Year of Graduation:</td>
+		<td><input type="text" name="GYear4" tabindex="423" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Subject:</td>
+		<td><input type="text" name="Subject4" tabindex="421" /></td>
+		<td colspan="3"></td>
+	</tr>
+	<tr><td colspan="5" class="ParaH">2.</td></tr>
+	<tr>
+		<td class="Lbl">Institution:</td>
+		<td><input type="text" name="Institution2" tabindex="424" /></td>
+		<td></td>
+		<td class="Lbl">Year of Entry:</td>
+		<td><input type="text" name="EYear5" tabindex="427" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Degree/Qualification:</td>
+		<td><input type="text" name="Degree5" value="(e.g.BSc, BA, HND)" onfocus="if(this.value == '(e.g.BSc, BA, HND)') { this.value = ''; }" tabindex="425" /></td>
+		<td></td>
+		<td class="Lbl">Year of Graduation:</td>
+		<td><input type="text" name="GYear5" tabindex="428" /></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Subject:</td>
+		<td><input type="text" name="Subject5" tabindex="426" style="width:100%" /></td>
+		<td colspan="3"></td>
+	</tr>
+	<tr height="10"><td colspan="5"></td></tr>
+	<tr>
+		<td colspan="3"></td>
+		<td colspan="2">
+			<table width="100%" border="1" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="33%"><input type="button" class="Btn" value="Previous" onclick="VH(3)" / tabindex="497"></td>
+					<td width="33%"><input type="button" class="Btn" value="Next" onclick="VH(5)" / tabindex="498"></td>
+					<td width="34%"><input type="button" class="Btn" value="Submit" onclick="VH(8)" / tabindex="499"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+		
+																				
+																				
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="5" class="MNorm">		
+	<tr><th colspan="3" class="TH">Business Sector</th></tr>
+	<tr height="10">
+		<td width="27%"></td>
+		<td width="73%"></td>
+	</tr>
+	<tr><td colspan="3">Information in this section assists the University in student recruitment, marketing, providing careers information and feedback on the value of our courses. Please select any category relative to your current or previous business.</td></tr>
+	<tr><td colspan="3" height="6"></td></tr>
+	
+	
+	<tr valign="top" >
+		<td style="font-size:0.9em"><br /><br />To make multiple selections hold the [Ctrl] key down as you select the appropriate business sector.</td>
+		<td><select name="BS" multiple="multiple" size="10" tabindex="501">
+			<option value="0">Please select</option>
+	
+			<option value="29">Accountancy/Actuarial</option>
+	
+			<option value="30">Administration</option>
+	
+			<option value="31">Agriculture/Horticulture/Fishing/Forestry</option>
+	
+			<option value="32">Armed Forces</option>
+	
+			<option value="33">Banking/Financial Services</option>
+	
+			<option value="34">Civil Engineering</option>
+	
+			<option value="35">Clerical/Secretarial</option>
+	
+			<option value="36">Computing/Software Engineering</option>
+	
+			<option value="37">Construction/Building</option>
+	
+			<option value="38">Education (Further or Higher)</option>
+	
+			<option value="39">Education (Primary)</option>
+	
+			<option value="40">Education (Secondary)</option>
+	
+			<option value="41">Electronic/Electrical Engineering</option>
+	
+			<option value="42">Environmental</option>
+	
+			<option value="43">Film/Theatre/Music/Arts</option>
+	
+			<option value="44">Government/Local Government</option>
+	
+			<option value="45">Health Service</option>
+	
+			<option value="68">Hospitality</option>
+	
+			<option value="46">Information Technology</option>
+	
+			<option value="48">Law</option>
+	
+			<option value="49">Leisure/Recreation</option>
+	
+			<option value="51">Management Services/Consultancy</option>
+	
+			<option value="50">Manufacturing Industry</option>
+	
+			<option value="52">Marketing/Sales/Advertising/PR</option>
+	
+			<option value="54">Mechanical Engineering</option>
+	
+			<option value="53">Media/Journalism</option>
+	
+			<option value="55">Oil & Petroleum Industry</option>
+	
+			<option value="56">Personnel/Industrial Relations</option>
+	
+			<option value="57">Police/Fire etc.</option>
+	
+			<option value="58">Property/Estate Agents</option>
+	
+			<option value="59">Publishing</option>
+	
+			<option value="60">Research Science/R & D</option>
+	
+			<option value="61">Retail/Distribution</option>
+	
+			<option value="62">Social Services/Welfare</option>
+	
+			<option value="66">Technology</option>
+	
+			<option value="63">Telecommunications</option>
+	
+			<option value="47">Textiles</option>
+	
+			<option value="64">Travel/Tourism</option>
+	
+			<option value="65">Utilities</option>
+	
+			<option value="67">Other</option>
+	
+		</select></td>
+	</tr>
+	<tr>
+		<td class="Lbl">Other (Please specify):</td>
+		<td><input type="text" name="OBusiness" tabindex="502" /></td>
+	</tr>
+	<tr height="10"><td colspan="5"></td></tr>
+	<tr>
+		<td></td>
+		<td>
+			<table width="45%" align="right" border="1" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="33%"><input type="button" class="Btn" value="Previous" onclick="VH(4)" / tabindex="597"></td>
+					<td width="33%"><input type="button" class="Btn" value="Next" onclick="VH(6)" / tabindex="598"></td>
+					<td width="34%"><input type="button" class="Btn" value="Submit" onclick="VH(8)" / tabindex="599"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+			
+																				
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="6" class="MNorm">		
+	<tr><th colspan="8" class="TH">Income Range</th></tr>
+	<tr height="10">
+		<td width="3%"></td>
+		<td width="27%"></td>
+		<td width="4%"></td>
+		<td width="3%"></td>
+		<td width="27%"></td>
+		<td width="4%"></td>
+		<td width="3%"></td>
+		<td width="26%"></td>
+	</tr>
+	<tr><td colspan="8">Please indicate your annual gross salary/earnings band. This information is confidential and will not be disclosed.</td></tr>
+	<tr><td colspan="8" height="6"></td></tr>
+	<tr>
+		<td><input type="radio" name="IR" value="1" tabindex="601" /></td>
+		<td><b>A</b> Under 15,000</td>
+		<td></td>
+		<td><input type="radio" name="IR" value="4" tabindex="604" /></td>
+		<td><b>D</b> 30,001 - 40,000</td>
+		<td></td>
+		<td><input type="radio" name="IR" value="7" tabindex="607" /></td>
+		<td><b>G</b> 80,001 - 100,000</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="IR" value="2" tabindex="602" /></td>
+		<td><b>B</b> 15,001 - 20,000</td>
+		<td></td>
+		<td><input type="radio" name="IR" value="5" tabindex="605" /></td>
+		<td><b>E</b> 40,001 - 60,000</td>
+		<td></td>
+		<td><input type="radio" name="IR" value="8" tabindex="608" /></td>
+		<td><b>H</b> Over 100,000</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="IR" value="3" tabindex="603" /></td>
+		<td><b>C</b> 20,001 - 30,000</td>
+		<td></td>
+		<td><input type="radio" name="IR" value="6" tabindex="606" /></td>
+		<td><b>F</b> 60,001 - 80,000</td>
+		<td></td>
+		<td><input type="radio" name="IR" value="9" tabindex="609" /></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;Retired</td>
+	</tr>
+	<tr><td colspan="8" height="10"></td></tr>
+	<tr>
+		<td><input type="checkbox" name="ISrc" value="1" tabindex="610" /></td>
+		<td>Student</td>
+		<td></td>
+		<td><input type="checkbox" name="ISrc" value="2" tabindex="611" /></td>
+		<td>Own Company</td>
+		<td></td>
+		<td><input type="checkbox" name="ISrc" value="3" tabindex="612" /></td>
+		<td>Self-employed</td>
+	</tr>
+	<tr height="10"><td colspan="8"></td></tr>
+	<tr>
+		<td colspan="6"></td>
+		<td colspan="2">
+			<table width="100%" border="1" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="33%"><input type="button" class="Btn" value="Previous" onclick="VH(5)" / tabindex="697"></td>
+					<td width="33%"><input type="button" class="Btn" value="Next" onclick="VH(7)" / tabindex="698"></td>
+					<td width="34%"><input type="button" class="Btn" value="Submit" onclick="VH(8)" / tabindex="699"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+			
+																				
+																				
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="7" class="MNorm">		
+ <tr><th colspan="2" class="TH">Alumni Activities</th></tr>
+	<tr height="10">
+		<td width="3%"></td>
+		<td width="97%"></td>
+	</tr>
+	<tr><td colspan="2">Would you be interested in:</td></tr>
+	<tr><td colspan="2" height="6"></td></tr>
+	<tr><td><input type="checkbox" name="AA" value="1" tabindex="701" /></td><td>Class reunions or other events for alumni</td></tr>
+	<tr><td><input type="checkbox" name="AA" value="2" tabindex="702" /></td><td>Assisting/Organising events in your area</td></tr>
+	<tr><td><input type="checkbox" name="AA" value="3" tabindex="703" /></td><td>Purchase of University merchandise</td></tr>
+	<tr><td><input type="checkbox" name="AA" value="4" tabindex="704" /></td><td>University Prospectus</td></tr>
+	<tr><td><input type="checkbox" name="AA" value="5" tabindex="705" /></td><td>Information on the Graduate Enterprise Programme</td></tr>
+	<tr><td><input type="checkbox" name="AA" value="6" tabindex="706" /></td><td>Assisting current or future student with career choices</td></tr>
+	<tr><td><input type="checkbox" name="AA" value="7" tabindex="707" /></td><td>Providing student placement opportunities</td></tr>
+	<tr><td><input type="checkbox" name="AA" value="8" tabindex="708" /></td><td>Are there any other services you may wish to undertake with the University?</td></tr>
+	<tr><td></td><td><textarea name="OtherAA" rows="2" tabindex="709" style="width:100%"></textarea></td></tr>
+	<tr><td colspan="2" height="10"></td></tr>
+	<tr><th colspan="2" class="TH">Alumni News</th></tr>
+	<tr><td colspan="2" height="10"></td></tr>
+	<tr><td colspan="2">In order to publish the alumni magazine we need your news! Tell us what youâre doing - please enter below anything which you feel may be of interest to the University and fellow alumni:</td></tr>
+	<tr><td colspan="2" height="6"></td></tr>
+	<tr><td></td><td><textarea name="News" rows="4" tabindex="710" style="width:100%"></textarea></td></tr>
+	<tr height="10"><td colspan="2"></td></tr>
+	<tr>
+		<td></td>
+		<td><table width="20%" align="right" border="1" cellpadding="0" cellspacing="0"><tr><td width="50%"><input type="button" class="Btn" value="Previous" onclick="VH(6)" / tabindex="798"></td><td width="50%"><input type="button" class="Btn" value="Submit" onclick="VH(8)" / tabindex="799"></td></tr></table></td>
+	</tr>
+</table>
+			
+			
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="8" class="MNorm">		
+	<tr><th class="TH">Data Protection</th></tr>
+	<tr><td height="10"></td></tr>
+	<tr><td>
+Under the terms of the 1998 Data Protection Act, your data is securely held in the Communications Centre and is treated confidentially. The data is available to our faculties, academic Schools and administrative departments, and is used for a full range of alumni activities, including alumni relations mailings, the promotion of benefits and services available to alumni, notification of alumni events, networking and development and for feedback on the value of our courses. In addition, we are obliged to pass contact details to the Higher Education Statistics Agency and its sub-contractor for the purposes of the Destination of Leavers from Higher Education survey. If you object to the use of your data for any of the above purposes, please contact the Alumni Relations Office.
+
+	</td></tr>
+	<tr><td height="10"></td></tr>
+	<tr><td><table width="50%" align="center" border="1" cellspacing="0" cellpadding="0"><tr>
+			<td width="50%"><input type="reset" value="Reset" tabindex="625"  /></td>
+			<td width="50%"><input type="submit" name="SB" value="Send" tabindex="626" /></td>
+	</tr></table></td></tr>
+</table>
+
+</form>
+
+
+
+<script language="JavaScript" type="text/javascript">
+	var CT = 1, vTab;
+	for(var i = 2; i <= 8; i++) {
+		vTab = document.getElementById(i);
+		vTab.style.visibility = "hidden";
+		vTab.style.position = "absolute";
+	}
+	vTab = document.getElementById(CT);
+	var v = "MB" + CT;
+	document.getElementById(v).style.color = "#FF0000";
+</script>
+
+
+<!-- InstanceEndEditable -->
+		</td>
+	</tr>
+</table>
+
+<!-- Begin SitestatIX code -->
+<script type='text/javascript'>
+<!--
+function sitestat(ns_l){ns_l+='&amp;ns__t='+(new Date()).getTime();ns_pixelUrl=ns_l;
+ns_0=document.referrer;
+ns_0=(ns_0.lastIndexOf('/')==ns_0.length-1)?ns_0.substring(ns_0.lastIndexOf('/'),0):ns_0;
+if(ns_0.length>0)ns_l+='&amp;ns_referrer='+escape(ns_0);
+if(document.images){ns_1=new Image();ns_1.src=ns_l;}else
+document.write('<img src="'+ns_l+'" width="1" height="1" alt="">');}
+
+//remove http://xxx.xxx.xxx.xx/
+counter_name=document.URL.replace(/https?:\/\/([a-zA-Z0-9]+(\.)?){1,4}\//g, "");
+//remove [?|&]Key=000.000.00
+counter_name=counter_name.replace(/[\?|\&]Key\=([0-9]{1,4}\.?){1,4}/g, "");
+//remove .cfm .htm .html extension
+counter_name=counter_name.replace(/(\/index)?(\.htm|\.html|\.cfm)/g, "");
+//remove jsessionid, CFTOKEN, CFID
+counter_name=counter_name.replace(/[\?|\&]CFID\=[0-9]+/g,"");
+counter_name=counter_name.replace(/[\?|\&]CFTOKEN\=[0-9]+/g,"");
+counter_name=counter_name.replace(/[\?|\&]jsessionid\=[a-f0-9]+\$..\$...\$/g,"");
+// remove printer attribute
+counter_name=counter_name.replace(/[\?|\&]printer\=TRUE/g,"");
+
+
+
+//global find / and change to .
+    counter_name = counter_name.replace(/\//g, ".");
+//global find + and change to _
+ counter_name = counter_name.replace(/\+/g, "_");
+//global find ? and change to _
+ counter_name = counter_name.replace(/\?/g, "_");
+//global find & and change to _
+    counter_name = counter_name.replace(/\&/g, "_");
+//global find = and change to _
+    counter_name = counter_name.replace(/\=/g, "_");
+//global find %20 and change to _
+ counter_name = counter_name.replace(/%20/g, "_");
+//global find # and change to _
+ counter_name = counter_name.replace(/\#/g, "_");
+
+sitestat("http://uk.sitestat.com/abertay/abertay-ext/s?Home." + counter_name);
+
+
+//-->
+</script>
+<noscript>
+<div>
+<img src='https://uk.sitestat.com/abertay/abertay-ext/s?javascriptoff' width='1' height='1' alt='' />
+</div>
+</noscript>
+
+
+
+</body>
+<!-- InstanceEnd -->
+</html>
+
+
+
+ua ; rtB" i6ucrI

@@ -1,0 +1,437 @@
+<html>
+
+<head>
+
+<title>
+
+CERES Harvest II.vi
+
+</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h2 align=center>CERES Harvest II.vi<br>
+
+17.12.97</h2>
+<p>
+
+<h4 align=center><cite>Christmas, thou art a snudge,<br>
+
+And wert not that we love thy father well,<br>
+
+Thou should'st have felt what 'longs to avarice.<br>
+
+It is the honour of nobility<br>
+
+To keep high days and festivals,<br>
+
+Then, to set their magnificence to view,<br>
+
+To frolic open with their favourites,<br>
+
+And use their neighbours with all courtesy.<br>
+
+When thou in hugger-mugger spend'st thy wealth.<br>
+
+Amend thy manners, breathe thy rusty gold:<br>
+
+Bounty will win thee love when thou art old.</cite></h4>
+
+<p>
+
+<hr>
+
+<strong>CONTENTS</strong><br>
+
+Please select from the index or scroll through below.
+
+<ul>
+
+<li><a href=#netsources>Internet Resources</a>
+
+<li><a href=#nftn>News From the Net</a>
+
+</ul>
+
+<p>
+
+<hr>
+
+<a name=netsources></a>
+
+<h2 align=center>INTERNET RESOURCES</h2>
+
+<p>
+
+<strong>ONLINE TRANSLATOR</strong><br>
+
+It's hard not to be excited by the thought of a web page which
+
+can turn stilted English sentences into dazzling French, Italian,
+
+Spanish, German, or Portuguese. Well, Altavista have exactly that
+
+on their web site - a beta (trial) version of translation
+
+software produced by the boffins at Systran.
+
+<p>
+
+There's a Press Release at <a href=http://altavista.digital.com/av/content/pr120997.htm> http://altavista.digital.com/av/content/pr120997.htm</a>. The Direct Translation Page is <a href=http://babelfish.altavista.digital.com/> http://babelfish.altavista.digital.com/</a>.
+
+<p>
+
+It doesn't yet seem to be available at any of Altavista's mirror
+
+sites.
+
+<p>
+
+The service is cutely named after a creation of Douglas Adams's
+
+Hitchhiker's Guide to the Galaxy series.  The babelfish was a small
+
+red fish which when placed in the outer ear would cause any speech
+
+that passed through it to be translated into the language of the
+
+ear's owner.  Altavista's service can deliver prose which looks a
+
+bit like it's been swallowed by a red herring and has turned up on
+
+your dinner plate, but it is a lot less ticklish than a fish in the
+
+ear.
+
+<p>
+
+The facility is almost frighteningly good at humdrum epistolary
+
+prose, such as you might want to send to French, German, Italian,
+
+Portuguese, or Spanish libraries or academic institutions.  It
+
+obviously can't cope with old spelling, so you will need to help it
+
+out if you don't want some highly amusing creole to emerge:
+
+<p>
+
+Las! ne reverray-je plus ceste beaute parfaite,<br>
+
+Donc me faudra il mourir sans esperer aucun secours?<br>
+
+<cite>Mow! reverray I more ceste perfect beauty,<br>
+
+Therefore will be necessary for me it to die without expecting any
+
+help?</cite>
+
+<p>
+
+Like anything else working on one of today's mainframes, the
+
+service operates at a speed you will not believe.  We have seen the
+
+future and it employments.
+
+<p>
+
+<strong>VITTORIA COLONNA WEBSITE</strong><br>
+
+So far there are translations of about 60 sonnets, and more to
+
+come, along with other Colonna materials, at <a href=http://mason.gmu.edu/~emoody> http://mason.gmu.edu/~emoody</a>.
+
+<p>
+
+<strong>HELEN VENDLER'S SONNETS ONLINE</strong><br>
+
+The first chapter of Helen Vendler's <cite>The Art of Shakespeare's
+
+Sonnets</cite> can be found in the on-line Books pages of <cite>The
+
+New York Times</cite>. The address is
+
+<a href=http://search.nytimes.com/books/first/v/vendler-sonnets.html> http://search.nytimes.com/books/first/v/vendler-sonnets.html</a>.  You need to subscribe to get in; those in the US can do so for free.
+
+<p>
+
+<small><a href=#top>Back to top.</a></small>
+
+<hr>
+
+<a name=nftn></a>
+
+<h2 align=center>NEWS FROM THE NET</h2>
+
+<p>
+
+<strong>FEMINIST APPROACHES TO MILTON</strong><br>
+
+Milton Session, 1998 CNYCLL, State University of New York, Cortland
+
+October 18-20, 1998, Abstracts due: June 1, 1998. Seeking
+
+contributions (500 word abstract or complete 20 minute presentation
+
+and brief description of research interests or CV) on the
+
+revolution and Thermidorian reaction in gender studies of Milton.
+
+Contact A. S. Weber, Department of English, The Pennsylvania
+
+State University, Wilkes-Barre Campus, Lehman, PA  18627; email  <a href=mailto:aweber@binghamton.edu>aweber@binghamton.edu</a>.
+
+<p>
+
+<strong>THE SPACE OF THE STAGE</strong><br>
+
+For an issue to be guest co-edited by Jeffrey Masten and Wendy
+
+Wall, <cite>Renaissance Drama</cite> solicits essays that take up the question
+
+of 'space' and the early modern stage. This topic could include:
+
+the representation of space on stage; the representation of
+
+particular kinds of spaces or locations, or geographic imaginaries
+
+(domestic, urban, national, pastoral, undifferentiated space); the
+
+space of acting/playing (e.g., locus/platea); the use of transit,
+
+movement, exile, exit, entrance, procession; space as a created
+
+effect or stage property; the space of the audience; the spaces of
+
+staging outside theaters (the house, the court, etc.); the body
+
+in/as theatrical space; the politics or ideologies of space and
+
+particular spaces.  Deadline for submissions is March 15, 1998. Please send a
+
+self-addressed stamped envelope (if you wish to have the essay
+
+returned to you) and three copies of your essay to either of the
+
+following addresses:<br>
+
+Professor Jeffrey Masten, c/o Folger Shakespeare Library, 201 E.
+
+Capitol Street, S.E., Washington, DC  20003, USA.<br>
+
+Professor Wendy Wall, Department of English, University Hall,
+
+Northwestern University, Evanston, IL 60208, USA
+
+<p>
+
+<strong>WOMEN WRITERS 1500-1700</strong><br>
+
+'Disrupting the Discourses: Women Writers 1500-1700', a one-day
+
+conference at South Bank University, London, England, Friday 31st
+
+July 1998.  This conference will explore women's writing across the genres,
+
+1500-1700, taking as a starting point recent theoretical work on
+
+the emergence of the woman author and the nature of the
+
+relationship between women and texts.  We are particularly
+
+interested in focusing on the manner in which women authors, having
+
+constructed a voice for themselves, negotiated through their
+
+writing such dominant discourses as religion, the family, marriage,
+
+creativity, education, language, gender, sexuality, authority,
+
+politics.  One-page proposals from both established scholars and those at the
+
+beginning of their academic careers to be sent by 28th February
+
+1998 to either M.J. Kidnie, School of Education, Politics, and
+
+Social Science, South Bank University, 103 Borough Road, London,
+
+England, SE1 0AA (e-mail: <a href=mailto:kidniem@sbu.ac.uk>kidniem@sbu.ac.uk</a>), or Rebecca D'Monte,
+
+Department of Literature and Writing, University of Southampton New
+
+College, The Avenue, Southampton, England, SO17 1BG.
+
+<p>
+
+<strong>RENAISSANCE ANTI-ARISTOTELIANISM</strong><br>
+
+MLA Special Session, 1998 Modern Language Association Conference,
+
+San Francisco, CA, December 27-30, 1998, Abstracts were due March 1,
+
+1998. Contributions exploring European Anti-Aristotelianism in
+
+natural philosophy, logic, ethics, and scholastic theology circa
+
+1400-1650 were welcome; particularly interested in work on the
+
+following topics: 1) the Neo-Stoic revival and the work of Justus
+
+Lipsius; 2) pre-Gassendi Epicureanism and atomic and corpuscular
+
+theories (particularly Nicholas Hill and Daniel Sennert); 3)
+
+Ramism; 4) cosmological Anti-Aristotelianism - Copernicus, Tycho,
+
+Galileo, Kepler; 5) Ancients versus Moderns; 6) Hermetic,
+
+Neoplatonic, and occult challenges to De caelo, Physica,
+
+Metaphysica-Agrippa, Bruno, Tyard, Telesio, Campanella, etc.
+
+Further information can be obtained from A.S.
+
+Weber, Department of English, The Pennsylvania State University,
+
+Wilkes-Barre Campus, Lehman, PA  18627, <a href=mailto:aweber@binghamton.edu>aweber@binghamton.edu</a>.
+
+<p>
+
+<small><a href=#top>Back to top.</a><br>
+
+<a href=archive.htm>Return to CERES Archive</a></small>
+
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+
+tt:d9e7t
+a hir
+d

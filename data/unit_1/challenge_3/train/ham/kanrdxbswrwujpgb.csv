@@ -1,0 +1,200 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="eng">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keyword" content="medieval, literature, image, Cambridge, university, visual, culture, mystery, play, CARET, caret, english, faculty, clifford, windeatt, wells, gant, danson">
+
+<link href="mi.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" >
+
+<table align="center" width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td><table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+            
+          <td width="363"><a href="../home.asp"><img src="images/top_title.gif" alt="medieval imaginations logo - literature and visual culture in the middle ages" width="310" height="34" border="0"></a><a href="../help.htm"> 
+            </a><br>
+          </td>
+            <td width="48" align="right"><a href="../help.htm"> </a></td>
+            
+          <td colspan="2"><p class="body-text">sampler site</p></td>  
+			</tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="107"><table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/logo.gif" width="59" height="64" alt="Medieval Imaginations acanthus logo"></td>
+          <td><img src="images/bar_image1.gif" width="132" height="64" alt="sample image"></td>
+          <td><img src="images/bar_image2.gif" width="131" height="64" alt="sample image"></td>
+          <td><img src="images/bar_image3.gif" width="131" height="64" alt="sample image"></td>
+          <td><img src="images/bar_image4.gif" width="130" height="64" alt="sample image"></td>
+        </tr>
+      </table>
+      <p class="body-text">'Medieval Imaginations' provides a database of images 
+        to enable you to explore the interface between the literature and visual 
+        culture of medieval England. It has been compiled to provide images corresponding 
+        to the main episodes dramatized in the English Mystery Plays, because
+        these present the medieval view of human history from the Creation to 
+        the Last Judgement. These biblical stories, and images related to them, 
+        would have been instantly recognisable to a medieval audience. <br>
+        <a href="about.htm" class="hyperlink">more...</a></p>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td>
+      <table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr align="left"> 
+          <td><a href="index.htm"><img src="images/home.gif" alt="home page" border="0" width="68" height="27"></a></td>
+          <td><a href="advanced_search.htm"><img src="images/advanced_search.gif" alt="advanced search" border="0" width="145" height="27"></a></td>
+          <td><a href="collection_highlights.htm"><img src="images/collection_highlights.gif" alt="collection highlights" border="0" width="165" height="27"></a></td>
+          <td><a href="latest_images.htm"><img src="images/latest_images.gif" alt="latest additions" border="0" width="139" height="27"></a></td>
+          <td><a href="timeline.htm"><img src="images/timeline.gif" width="83" height="27" border="0"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top">
+      <p>&nbsp;</p>
+	  
+	  <script language="JavaScript">
+<!-- Begin
+function leapto(form) {
+var myindex=form.dest.selectedIndex
+window.location=(form.dest.options[myindex].value);
+}
+// End -->
+</script>
+      <form name="DropDown_1">
+        <p><span class="red-title-bold">search for images::</span> <span class="red-title">via 
+          mystery play episodes</span> 
+          <select name="dest" size="1">
+            <option selected value="...">::select a mystery play episode:::::::::::::::::::::::::::::::::::::::::::::</option>
+            <option value="abraham.htm">Abraham and Isaac</option>
+            <option value="agony.htm">Agony in the Garden, Betrayal and Capture
+            of Christ, The</option>
+            <option value="annunciation.htm">Annunciation to Mary, The</option>
+            <option value="shepherds.htm">Annunciation the the Shepherds</option>
+            <option value="ascension.htm">Ascension</option>
+            <option value="baptism.htm">Baptism of Christ</option>
+            <option value="borders.htm">Borders and Margins</option>
+            <option value="cain.htm">Cain's Murder of Abel</option>
+            <option value="doctors.htm">Christ among the Doctors</option>
+            <option value="jerusalem.htm">Christ's Entry into Jerusalem</option>
+            <option value="lazarus.htm">Christ's Raising of Lazarus from the Dead</option>
+            <option value="annas.htm">Christ's Trials before Annas and Caiaphas,Herod
+            and Pilate</option>
+            <option value="creation.htm">Creation of the World, and of Adam and
+            Eve</option>
+            <option value="crucifixion.htm">Crucifixion and Death</option>
+            <option value="death.htm">Death, Assumption into Heaven, and Coronation
+            of Mary</option>
+            <option value="deposition.htm">Deposition from the Cross and Burial</option>
+            <option value="thomas.htm">Doubting Thomas</option>
+            <option value="fall.htm">Fall of the Angels</option>
+            <option value="flagellation.htm">Flagellation of Christ</option>
+            <option value="flight.htm">Flight into Egypt</option>
+            <option value="genealogy.htm">Genealogy of Christ</option>
+            <option value="hell.htm">Harrowing of Hell</option>
+            <option value="herod.htm">Herod/The Adoration of the Magi</option>
+            <option value="judgement.htm">Judgement Day</option>
+            <option value="supper.htm">Last Supper, The</option>
+            <option value="christ.htm">Life of Christ: Scenes</option>
+            <option value="mary.htm">Life of Virgin Mary: Scenes</option>
+            <option value="cana.htm">Marriage at Cana</option>
+            <option value="massacre.htm">Massacre of the Innocents - Death of
+            Herod</option>
+            <option value="moses.htm">Moses and the Pharoah (The Burning Bush,
+            Crossing of the Red Sea</option>
+            <option value="nativity.htm">Nativity, The</option>
+            <!-- <option value="flood.htm">Noah's Flood (and Building of the Ark)</option> -->
+            <option value="pentecost.htm">Pentecost</option>
+            <option value="temple.htm">Presentation in the Temple</option>
+            <option value="resurrection.htm">Resurrection</option>
+            <option value="calvary.htm">Road to Calvary</option>
+            <option value="saints.htm">Saints</option>
+            <option value="sacraments.htm">Seven Sacraments</option>
+            <option value="temptation.htm">Temptation and Fall of Man; Expulsion
+            from Paradise</option>
+            <option value="temptationchrist.htm">Temptation of Christ</option>
+            <option value="transfiguration.htm">Transfiguration, The</option>
+            <option value="visitation.htm">Visitation</option>
+          </select>
+          <input name="BUTTON" type="BUTTON" onClick="leapto(this.form)" value="Go">
+</p><br />
+      </form>
+
+      <table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="30" colspan="2"><span class="red-title-bold">latest addition::</span> 
+            <span class="red-title">to the image collection</span> </td>
+        </tr>
+        <tr> 
+          <td width="66"><a href="thomas_applet.htm"><img src="images/stthomas.gif" width="50" height="50" border="0"></a></td>
+          <td width="534" valign="bottom"><span class="red-title">Doubting Thomas :</span> 
+            <span class="body-text"><br>
+            Doubting Thomas, manuscript, Glasgow, 12th Century.<br>
+            keywords: gestures St Peter apostles</span><br>
+            <span class="body-text">view image:</span> <a href="thomas_applet.htm" class="hyperlink">with 
+            applet</a> <span class="body-text">|</span> <a href="thomas_noapplet.htm" class="hyperlink">without 
+          applet</a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td valign="bottom"> <p>&nbsp;</p>
+      <a href="relevant_reading.htm" class="hyperlink">further reading list </a><br>
+      <br>
+      <table width="600" border="0" cellspacing="0" cellpadding="0" description="navigation: bottom">
+          <tr> 
+            <td height="27"><a href="sitemap.htm"><img src="images/sitemap.gif" alt="sitemap" border="0" height="27" width="79"></a></td>
+            <td><a href="mystery_plays.htm"><img src="images/mystery_plays.gif" alt="mystery plays" border="0" height="27" width="127"></a></td>
+            <td><a href="medieval_england.htm"><img src="images/medieval_england.gif" alt="medieval england" border="0" height="27" width="156"></a></td>
+            <td><a href="scholars_resources.htm"><img src="images/scholars_resources.gif" alt="References" border="0" height="27" width="113"></a></td>
+            <td><a href="project_history.htm"><img src="images/project_history.gif" alt="project history" border="0"height="27" width="125"></a></td>
+          </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td>
+      <table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td width="354" height="19" class="footer">&nbsp;</td>
+          <td width="60" height="19">&nbsp;</td>
+          <td width="86" height="19">&nbsp;</td>
+          <td height="19">&nbsp;</td>
+        </tr>
+        <tr valign="top"> 
+          <td height="58" colspan="3"><span class="footer">&copy; 2002</span> 
+            <a href="http://www.caret.cam.ac.uk" target="_blank" class="footerhyperlink">CARET</a> 
+            <span class="footer">&amp;</span> <a href="http://www.english.cam.ac.uk" target="_blank" class="footerhyperlink">University 
+            of Cambridge Faculty of English</a> <span class="footer"><br>
+            |</span> <a href="contact.htm" class="footerhyperlink">contact</a> 
+            <span class="footer">|</span> <a href="credits.htm" class="footerhyperlink">credits</a> 
+            <span class="footer">|</span> <a href="acknowledgements.htm" class="footerhyperlink">acknowledgements 
+            </a><span class="footer">|</span> </td>
+          <td width="100"><a href="http://www.caret.cam.ac.uk" target="_blank"><img src="images/a_CARET_project.gif" alt="CARET logo and link to CARET website" width="100" height="42" border="0"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p class="body-text">&nbsp;</p>
+
+ 
+</body>
+</html>
+
+
+
+
+"od =I0"/	tdc,	

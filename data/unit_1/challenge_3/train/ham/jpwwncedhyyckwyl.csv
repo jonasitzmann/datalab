@@ -1,0 +1,105 @@
+
+<html>
+<head>
+<title>English Handwriting 1500-1700: An Online Course</title>
+<link rel="STYLESHEET" href="ehoc2.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+<!--
+
+    smalltitleoff = new Image(330,66);
+    smalltitleoff.src = "images/smalltitleoff.gif";
+    smalltitleon= new Image(330,66);
+    smalltitleon.src = "images/smalltitleon.gif";
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+
+// -->
+
+</script>
+
+<center>
+<p>
+<img src=images/20v.gif><br>
+<a href="index.html" 
+        onmouseover="smalltitle.src = smalltitleon.src"
+        onclick="smalltitle.src = smalltitleon.src"
+        onmouseout="smalltitle.src = smalltitleoff.src"><img
+        alt="EHOC Main Page"
+        src="images/smalltitleoff.gif"
+        border="0" width="330"
+        height="66" name="smalltitle"></a><p>
+<p>&nbsp;<p>
+<h2 align=center>Welcome</h2>
+<p>&nbsp;<p>
+<center><table width=95% cellpadding=30><tr><td width=50% valign=middle>
+<font size=+2>palaeography, <i>n.</i>  [ad. mod.L. <i>pal&aelig;ographia,</i> f. Gr. <i>pal&aelig;o-</i>, <i>paleo-</i>, 'ancient' + <i>-graphy</i>, 'writing'] 
+<blockquote>
+1. Ancient writing, or an ancient style or method of writing.
+<p>
+2. The study of ancient writing and inscriptions; the science or art of deciphering and determining the date of ancient writings or systems of writing.</font>
+</blockquote></td>
+<td width=50% valign=middle>
+<img src=images/winit.gif align=left>ELCOME to <i>English Handwriting 1500-1700: An online course</i>. This resource has been designed for students and scholars of early modern English letters, history, theology, and philosophy--for anyone whose research will embrace original English manuscript sources in this period. Drawing on the rich manuscript holdings of some of the older Cambridge colleges, it presents an extensive archive of manuscript images unparalleled in printed guides and introductions. Joined to this you will find a range of pedagogical materials--transcription conventions, tips on dating, a bibliography and list of links--suitable for beginners, but convenient also for continuing reference. For a guide to the provisions of this course, see the <a href=overview.html> Project Overview</a>.
+<p>
+The materials gathered and presented here have been collected and prepared very carefully, and reflect the generosity of a wide array of students, scholars, and technicians. Without the participation of several Cambridge college libraries and archives, we would be unable to offer any of the illustrations on this site; without the hours of dedicated transcribing undertaken by our team of students and researchers, we would be unable to offer any of the model transcriptions or other lesson materials. <b>Please respect this generosity by using this site only for its intended purpose, and by not copying or circulating the images or text presented here.</b> For a full list of acknowledgements and intellectual property statements, please see our <a href=acknowledgements.html>Acknowledgements</a> page.
+<p>
+As with all CERES COPIA projects, we welcome input of any kind, at any time: please feel free to report faults, offer criticisms and suggestions, or deliver glowing accolades by writing to the site editor, <a href=mailto:aez20@cam.ac.uk>Andrew Zurcher</a>.
+<p>
+Whether you are coming to the study of palaeography for the first time, or just refreshing your skills, we hope you will enjoy using this course. Welcome.
+</td></tr></table>
+</center>
+<p>
+<img src=images/30v.gif><br>
+<hr>
+<p>
+<center>
+<small>This page is edited by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+
+nd, kare		r >/so

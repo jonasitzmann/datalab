@@ -1,0 +1,113 @@
+<HTML><title> HIRDLS SCIENCE </title>
+<body><center><h2>OXFORD-RAL HIRDLS SCIENCE GROUP</h2>
+
+<h4><i>This group is a collaborative forum to promote the validation and achievement of science results from the HIRDLS
+instrument on AURA.</i> </h4> </center>
+<p>
+<center><h3> Science Highlights </h3></center>
+<center><table><td>Thin Cirrus</td><td>Gravity Waves</td><tr>
+<td><a href="top10_cirrus.html"><img src="figure8-tn.gif"></a></td>
+<td><a href="top10_gravitywaves.html"><img src="figure16-tn.gif"></a></td>
+<tr>
+</table></center>
+</p>
+<p>
+HIRDLS is an extremely capable and versatile instrument, with the ability to make accurate and precise measurements of the
+temperature and trace species from the mid-troposphere (under clear conditions) to the mesopause, that is, (8 to 80) km. It
+will provide data that are relevant to a large number of scientific questions and investigations, some of which have not
+yet been identified.
+</p>
+<p>
+At this time, eight primary objectives have been identified as representative of important areas in which HIRDLS can make
+critical contributions to the study of global change. They are related to the priorities of the US National Plan for the
+Study of Global Change as stated in the Committee on Earth Sciences (CES) Report of May 1989. Here they are briefly stated;
+they are discussed in greater detail in the HIRDLS Science Requirements Document.
+</p>
+<ol>
+   <li> To understand the fluxes of mass and chemical constituents (including greenhouse gases and aerosols) that affect the
+dynamics and composition of the troposphere, stratosphere, mesosphere, and thermosphere and link these regions together.
+These fluxes must be determined down to smaller scales than previously observed.
+   </li>
+   <li> To understand the chemical processing, transport, and small-scale irreversible mixing of trace constituents in the
+middle atmosphere, including the chemical and dynamical processes responsible for creating the Antarctic (and perhaps
+Arctic) ozone holes.
+   </li>
+   <li> To understand the momentum, energy, and potential vorticity balances of the middle atmosphere, by extending
+observations to smaller horizontal and vertical scales than has previously been possible. These small-scale processes are
+believed to be fundamentally important to the determination of some large-scale characteristics and are thought to cause
+irreversible chemical mixing.
+   </li>
+   <li> To obtain climatologies of upper tropospheric, stratospheric, and mesospheric quantities, in particular, profiles of
+temperature, ozone, several radiatively active gases, aerosol, gravity wave activity, and cloud top heights. Seasonal,
+interannual, and long-term trends will be obtainable because of the five-year measurement sequence that will be provided by
+each EOS instrument, combined with pre-EOS measurements and future EOS observations.
+   </li>
+   <li> To provide data to validate and improve numerical models of the atmosphere, in order to gain confidence in their
+ability to predict climate change. These simulations are critically dependent on the treatment of horizontal and vertical
+scales that are much finer than those currently observed.
+   </li>
+   <li> To improve tropospheric temperature and water vapor profiles and cloud top height data that are used for climate and
+weather forecasting, by combining high vertical resolution limb data with data from operational nadir sounders such as AIRS
+and AMSU.  This will yield valuable data from the tropopause region and the lower stratosphere, information that would not
+otherwise be available.
+   </li>
+   <li> To improve the understanding of tropospheric chemistry through the use of temperature and constituent retrievals that
+extend in to the upper troposphere, under favorable conditions. The combination of these observations with observations from
+other EOS instruments, and with chemical models, will yield information about the oxidation capacity of the atmosphere.
+   </li>
+   <li> To improve the understanding of stratospheric and tropospheric aerosols and clouds by acquiring long-term
+high-resolution observations of their nature and distribution. Aerosols and polar stratospheric clouds are now known to
+play essential roles in the depletion of ozone in the lower stratosphere, and subvisible cirrus clouds in the upper
+troposphere significantly impact the radiative heating and cooling of the atmosphere.
+
+   </li>
+</ol>
+<p>
+HIRDLS is an infrared limb-scanning radiometer designed to sound the upper troposphere, stratosphere, and mesosphere to
+determine temperature; the concentrations of O3, H2O, CH4, N2O, NO2, HNO3, N2O5, CFC11, CFC12, and aerosols; and the
+locations of polar stratospheric clouds and cloud tops. The goals are to provide sounding observations with horizontal and
+vertical resolution superior to that previously obtained; to observe the lower stratosphere with improved sensitivity and
+accuracy; and to improve understanding of atmospheric processes through data analysis, diagnostics, and use of two- and
+three-dimensional models.
+</p>
+<p>
+HIRDLS performs limb scans in the vertical at multiple azimuth angles, measuring infrared emissions in 21 channels ranging
+from 6.12 to 17.76 mm. Four channels measure the emission by CO2. Taking advantage of the known mixing ratio of CO2, the
+transmittance is calculated, and the equation of radiative transfer is inverted to determine the vertical distribution of
+the Planck black body function, from which the temperature is derived as a function of pressure. Once the temperature
+profile has been established, it is used to determine the Planck function profile for the trace gas channels. The measured
+radiance and the Planck function profile are then used to determine the transmittance of each trace species and its mixing
+ratio distribution.
+</p>
+<p>
+Winds and potential vorticity are determined from spatial variations of the height of geopotential surfaces. These are
+determined at upper levels by integrating the temperature profiles vertically from a known reference base. HIRDLS will
+improve knowledge of data-sp arse regions by measuring the height variations of the reference surface provided by
+conventional sources with the aid of a gyro pack age. This level (near the base of the stratosphere) can also be integrated
+downward using nadir temperature soundings to improve trop ospheric analyses.
+</p>
+<p>
+Overall science goals of HIRDLS are to observe the global distributions of temperature and several trace species in the
+stratosphere and upper troposphere at high vertical and horizontal resolution. Specific issues to be investigated include:
+<ul>
+  <li>   Fluxes of mass and chemical constituents between the troposphere and stratosphere</li>
+  <li>   Chemical processes, transport, and mixing by day and night(particularly in the lower stratosphere)</li>
+  <li>   Momentum, energy, heat, and potential vorticity balances of the upper troposphere and middle atmosphere</li>
+  <li>   Geographically and seasonally unbiased long-term climatologies and interannual variability of middle atmosphere 
+temperature, constituents, dynamical fields, and gravity waves</li>
+  <li>   Tropospheric cloud-top heights</li>
+  <li>   Tropospheric temperature and water vapor retrievals (by providing high-resolution limb data for joint retrieval 
+with 
+EOS nadir sounders)</li>
+   <li>  Diagnostic studies of atmospheric dynamics, chemistry, and transport processes to test and improve models of these 
+processes.</li>
+
+
+
+</body></html>
+
+
+
+
+eO=Aa.Wu =d"
+l

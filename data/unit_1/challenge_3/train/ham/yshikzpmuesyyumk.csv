@@ -1,0 +1,47 @@
+
+<rss version='2.0'>
+	<channel>
+		<title>University of Abertay Dundee - Main News</title>
+		<link>http://www.abertay.ac.uk/News/News.cfm</link>
+		<description>University of Abertay News</description>
+			<image>
+				<title>News</title>
+				<width>116</width>
+				<height>74</height>
+				<link>http://www.abertay.ac.uk/News/News.cfm</link>
+				<url>http://www.abertay.ac.uk/Images/Logo.gif</url>
+			</image>
+
+
+		<item>
+			<title>The British Academy joins with Dare to recognise the ones to watch</title>
+			<guid isPermaLink="false">http://www.abertay.ac.uk/News/NewsDetails.cfm?NewsID=1141</guid>
+			<link>http://www.abertay.ac.uk/News/NewsDetails.cfm?NewsID=1141</link>
+			<pubDate>Tue, 01 May 2007 06:00:00 GMT</pubDate>
+			<description>The top young video games talent in the UK is to be recognised with a new BAFTA- endorsed award announced today</description>
+		</item>
+
+
+		<item>
+			<title>The Emergence of Artificial Culture in Robot Societies</title>
+			<guid isPermaLink="false">http://www.abertay.ac.uk/News/NewsDetails.cfm?NewsID=1139</guid>
+			<link>http://www.abertay.ac.uk/News/NewsDetails.cfm?NewsID=1139</link>
+			<pubDate>Wed, 25 Apr 2007 06:00:00 GMT</pubDate>
+			<description>Scientists at Abertay University are part of a UK consortium looking at how &apos;artificial culture&apos; emerges within a group of robots</description>
+		</item>
+
+
+		<item>
+			<title>Kids show the scientists their discoveries</title>
+			<guid isPermaLink="false">http://www.abertay.ac.uk/News/NewsDetails.cfm?NewsID=1137</guid>
+			<link>http://www.abertay.ac.uk/News/NewsDetails.cfm?NewsID=1137</link>
+			<pubDate>Wed, 18 Apr 2007 06:00:00 GMT</pubDate>
+			<description>Around 90 pupils from across Scotland will assemble at the University of Abertay Dundee on Friday 20th April to take part in the Scottish Final of the CREST awards</description>
+		</item>
+
+</channel>
+</rss>
+
+
+
+<I	imcm

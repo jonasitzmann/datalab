@@ -1,0 +1,150 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML>
+	<HEAD>
+		<META HTTP-EQUIV="imagetoolbar" CONTENT="no">
+		<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+       		<TITLE>Famous People Map</TITLE>
+       		<style>
+	  	.fixedfont { font-size : 14px }
+	  	.title {font-size : 21px }
+	  	.scroll {
+	  		text-align : left;
+          		padding : 5px;
+          		width : 100%;
+          		height : 31em;
+          		overflow: auto;
+        	}
+		</style>
+  		<script language="Javascript1.2"><!--
+    		//functions for mouseover switching of map dots and table cell colour
+    		
+function on1() {
+if (document.images) {
+document.images.pic1.src="/scotgaz/images/yellowlt.gif";
+document.all.leg1.style.backgroundColor='#ffffaa'; } }
+function off1() {
+if (document.images) {
+document.images.pic1.src="/scotgaz/images/yellowdk.gif";
+document.all.leg1.style.backgroundColor='#ffcc33'; } }
+function on2() {
+if (document.images) {
+document.images.pic2.src="/scotgaz/images/redlt.gif";
+document.all.leg2.style.backgroundColor='#ffffaa'; } }
+function off2() {
+if (document.images) {
+document.images.pic2.src="/scotgaz/images/reddk.gif";
+document.all.leg2.style.backgroundColor='#ffcc33'; } }
+function on3() {
+if (document.images) {
+document.images.pic3.src="/scotgaz/images/bluelt.gif";
+document.all.leg3.style.backgroundColor='#ffffaa'; } }
+function off3() {
+if (document.images) {
+document.images.pic3.src="/scotgaz/images/bluedk.gif";
+document.all.leg3.style.backgroundColor='#ffcc33'; } }
+function on4() {
+if (document.images) {
+document.images.pic4.src="/scotgaz/images/yellowlt.gif";
+document.all.leg4.style.backgroundColor='#ffffaa'; } }
+function off4() {
+if (document.images) {
+document.images.pic4.src="/scotgaz/images/yellowdk.gif";
+document.all.leg4.style.backgroundColor='#ffcc33'; } }
+function on5() {
+if (document.images) {
+document.images.pic5.src="/scotgaz/images/redlt.gif";
+document.all.leg5.style.backgroundColor='#ffffaa'; } }
+function off5() {
+if (document.images) {
+document.images.pic5.src="/scotgaz/images/reddk.gif";
+document.all.leg5.style.backgroundColor='#ffcc33'; } }
+function on6() {
+if (document.images) {
+document.images.pic6.src="/scotgaz/images/bluelt.gif";
+document.all.leg6.style.backgroundColor='#ffffaa'; } }
+function off6() {
+if (document.images) {
+document.images.pic6.src="/scotgaz/images/bluedk.gif";
+document.all.leg6.style.backgroundColor='#ffcc33'; } }
+// --></script>
+	</HEAD>
+	<BODY BGCOLOR="#FFFFCC">
+        <!-- Puts the name on the map -->
+        <font color="#000080" face="Verdana,Arial,Helvetica,sans-serif">
+	<div class="title"> 
+	<p align="center"><b>Places associated with  Crichton</b></p></font></div>
+	<div class="fixedfont">
+	<FONT FACE="Verdana, Arial, Helvetica, sans serif" COLOR="#000080">
+	
+	<UL>
+	<LI>Hold the mouse over the dots to see the places associated with 
+        <A HREF="/scotgaz/families/familyfirst300.html"TARGET="new"><b> Crichton</b></a>.
+	This will highlight an entry in the place-name list. You can click on the dots or the name in the 
+	place-name list to display the entry of the place of interest. The <img src ="/scotgaz/images/magni.gif" align="center" border="1">
+	can be clicked to go to a detailed map, courtesy of <A HREF ="http://www.streetmap.co.uk/" TARGET="new">Streetmap.co.uk</a>.
+	<P><b>Key:</b> &nbsp; Geofeatures <img align="middle" src="/scotgaz/images/reddk.gif"> &nbsp; &nbsp; &nbsp;  Tourist Attractions <img align="middle" src="/scotgaz/images/yellowdk.gif">  &nbsp; &nbsp; &nbsp;  Settlements <img align="middle" src="/scotgaz/images/bluedk.gif"> &nbsp; &nbsp; &nbsp; 
+	<BR>
+
+
+<TABLE bgcolor="#ffffcc" cellspacing="0"  border="0" width="165" style="position:absolute; left:135px; top:200px; z-index:1">
+<TR><TD><div class="scroll">
+        <TABLE bgcolor="ffcc33" cellspacing="1" border="1">
+	<!-- Placing infomation into the legend -->
+
+<tr><TD id="leg1" backgroundColor="#ffcc33" onMouseover="on1();" onMouseout="off1();"><A HREF ="/scotgaz/features/featurefirst6445.html" TARGET="new">Blackness Castle</a></td>
+<TD align="center"><A HREF="http://www.streetmap.co.uk/newmap.srf?x=305600&y=680200&A=Y&Z=3" TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0" align="center"></a></td></tr><tr><TD id="leg2" backgroundColor="#ffcc33" onMouseover="on2();" onMouseout="off2();"><A HREF ="/scotgaz/features/featurefirst7866.html" TARGET="new">Brunstane House</a></td>
+<TD align="center"><A HREF="http://www.streetmap.co.uk/newmap.srf?x=331700&y=672400&A=Y&Z=3" TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0" align="center"></a></td></tr><tr><TD id="leg3" backgroundColor="#ffcc33" onMouseover="on3();" onMouseout="off3();"><A HREF ="/scotgaz/towns/townfirst1569.html" TARGET="new">Crichton</a></td>
+<TD align="center"><A HREF="http://www.streetmap.co.uk/newmap.srf?x=338600&y=662000&A=Y&Z=3" TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0" align="center"></a></td></tr><tr><TD id="leg4" backgroundColor="#ffcc33" onMouseover="on4();" onMouseout="off4();"><A HREF ="/scotgaz/features/featurefirst1217.html" TARGET="new">Crichton Castle</a></td>
+<TD align="center"><A HREF="http://www.streetmap.co.uk/newmap.srf?x=338000&y=661200&A=Y&Z=3" TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0" align="center"></a></td></tr><tr><TD id="leg5" backgroundColor="#ffcc33" onMouseover="on5();" onMouseout="off5();"><A HREF ="/scotgaz/features/featurefirst5184.html" TARGET="new">Monzie Castle</a></td>
+<TD align="center"><A HREF="http://www.streetmap.co.uk/newmap.srf?x=287500&y=724500&A=Y&Z=3" TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0" align="center"></a></td></tr><tr><TD id="leg6" backgroundColor="#ffcc33" onMouseover="on6();" onMouseout="off6();"><A HREF ="/scotgaz/towns/townfirst360.html" TARGET="new">Sanquhar</a></td>
+<TD align="center"><A HREF="http://www.streetmap.co.uk/newmap.srf?x=278100&y=609900&A=Y&Z=3" TARGET="new"><img src ="/scotgaz/images/magni.gif" border="0" align="center"></a></td></tr>
+</TABLE>
+</div></TD></TR>
+</TABLE>
+
+<!-- Position of the picture -->
+
+<div id="Map Layer" style="position:absolute; left:335px; top:200px; width:500px; height:500px; z-index:1"><IMG SRC="/scotgaz/images/terrain.jpg" height="500" width="500"></div>
+
+<div id="img1" style="position:absolute; left:640px; top:545px; z-index:3">
+<a href="/scotgaz/features/featurefirst6445.html" onMouseover='on1();' onMouseout='off1();'>
+<IMG SRC="/scotgaz/images/yellowdk.gif" name="pic1" border="0" usemap="#Blackness Castle"></a>
+<map name="Blackness Castle">
+<area shape="rect" coords="0,0,15,15" href="/scotgaz/features/featurefirst6445.html" target="_info" alt="Blackness Castle" title="Blackness Castle">
+</map></div>
+<div id="img2" style="position:absolute; left:663px; top:552px; z-index:3">
+<a href="/scotgaz/features/featurefirst7866.html" onMouseover='on2();' onMouseout='off2();'>
+<IMG SRC="/scotgaz/images/reddk.gif" name="pic2" border="0" usemap="#Brunstane House"></a>
+<map name="Brunstane House">
+<area shape="rect" coords="0,0,15,15" href="/scotgaz/features/featurefirst7866.html" target="_info" alt="Brunstane House" title="Brunstane House">
+</map></div>
+<div id="img3" style="position:absolute; left:669px; top:562px; z-index:3">
+<a href="/scotgaz/towns/townfirst1569.html" onMouseover='on3();' onMouseout='off3();'>
+<IMG SRC="/scotgaz/images/bluedk.gif" name="pic3" border="0" usemap="#Crichton"></a>
+<map name="Crichton">
+<area shape="rect" coords="0,0,15,15" href="/scotgaz/towns/townfirst1569.html" target="_info" alt="Crichton" title="Crichton">
+</map></div>
+<div id="img4" style="position:absolute; left:669px; top:562px; z-index:3">
+<a href="/scotgaz/features/featurefirst1217.html" onMouseover='on4();' onMouseout='off4();'>
+<IMG SRC="/scotgaz/images/yellowdk.gif" name="pic4" border="0" usemap="#Crichton Castle"></a>
+<map name="Crichton Castle">
+<area shape="rect" coords="0,0,15,15" href="/scotgaz/features/featurefirst1217.html" target="_info" alt="Crichton Castle" title="Crichton Castle">
+</map></div>
+<div id="img5" style="position:absolute; left:624px; top:506px; z-index:3">
+<a href="/scotgaz/features/featurefirst5184.html" onMouseover='on5();' onMouseout='off5();'>
+<IMG SRC="/scotgaz/images/reddk.gif" name="pic5" border="0" usemap="#Monzie Castle"></a>
+<map name="Monzie Castle">
+<area shape="rect" coords="0,0,15,15" href="/scotgaz/features/featurefirst5184.html" target="_info" alt="Monzie Castle" title="Monzie Castle">
+</map></div>
+<div id="img6" style="position:absolute; left:615px; top:608px; z-index:3">
+<a href="/scotgaz/towns/townfirst360.html" onMouseover='on6();' onMouseout='off6();'>
+<IMG SRC="/scotgaz/images/bluedk.gif" name="pic6" border="0" usemap="#Sanquhar"></a>
+<map name="Sanquhar">
+<area shape="rect" coords="0,0,15,15" href="/scotgaz/towns/townfirst360.html" target="_info" alt="Sanquhar" title="Sanquhar">
+</map></div>
+
+</BODY>
+</HTML>
+
+
+eniao  a.C

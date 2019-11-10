@@ -1,0 +1,64 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: Quantify: index:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+
+
+<h2><big><big><center> QUANTIFY </center></big></big> </h2>
+<br>
+<hr>
+<br>
+<br>
+<p>QUANTIFY is an Integrated Project coordinated by the DLR-Institute of Atmospheric Physics. It deals with the climate impact of transport and is funded until 2010 by the European Commission within the 6th research framework programme. In total, 35 participants and 4 associated members from 16 European countries and the U.S.A. are cooperating in QUANTIFY. </p>
+ 
+
+<p>The main goal of QUANTIFY is to quantify the climate impact of global and European transport systems for the present situation and for several scenarios of future development. The climate impact of various transport modes (land surface, shipping, aviation) will be assessed, including those of long-lived greenhouse gases like CO2 and N2O, and in particular the effects of emissions of ozone precursors and particles, as well as of contrails and ship tracks.</p>
+<br>
+<br>
+Fig 1. MODIS image showing evidence of ship tracks
+<center>
+<img alt="modis" src="../../group/grape/research/modisimage.jpg"
+ style="width: 400px; height: 300px;"><br>
+</center><br><br>
+
+The Quantify team within the Earth Observation Data Group is responsible for developing an effective <b>ship track detection</b> algorithm which can be applied to ATSR-2 and AATSR images. This research will complement the <a
+ href="http://www.atm.ox.ac.uk/group/grape">GRAPE</a> project and the algorithm will be applied to the existing ATSR-2 dataset to develop a climatology of ship track data which will in turn allow the total radiative effects of shiptracks to be estimated.
+
+
+</BODY></HTML>
+
+
+Tcuo

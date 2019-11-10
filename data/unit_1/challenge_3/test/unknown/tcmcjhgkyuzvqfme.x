@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>ace gambling Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=ace-gambling"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">ace gambling</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=ace-cash-gambling"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">ace cash gambling</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=ace-card-catalog-gift"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">ace card catalog gift</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=serviced-retail-space-for-health-and-beauty"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">serviced retail space for health and beauty</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=retail-space-for-health-and-beauty"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">retail space for health and beauty</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=going-place-travel-agent"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">going place travel agent</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">ace gambling Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://www.paddypowercasino.com"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Paddy Power Casino - 100% Sign-Up Bonus</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>No downloads, play casino-style poker online now with paddy power.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.paddypowercasino.com</font><br><br>
+<br><a href="http://shopshrewd.co.uk"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Shopshrewd UK directory</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Compare the leading offers in our UK focused directory.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://shopshrewd.co.uk</font><br><br>
+<br><a href="http://www.mirror.co.uk/sport"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Mirror.co.uk - Sport </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... team's defiant fightback. more cricket RUGBY ASHTON'S IRISH GAMBLE ENGLAND to bring forward naming its team to face Ireland. more rugby TENNIS ... in the run-up. more racing DARTS DARTS ACE VIK...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.mirror.co.uk/sport</font><br><br>
+<br><a href="http://www.celebactive.com/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>CELEB active.com - The Definitive Online Gambling Guide </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Celebpoker.com Playing the online gambling game like a stock market pro&hellip; If you&rsquo;re a regular online casino player, an avid sportsbettor or even an internet poker ace the next conce...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.celebactive.com/</font><br><br>
+<br><a href="http://www.casino-free-gambling.com/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Casino Free Gambling - Free Casino - Online Gambling </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Web Casino $75 Miami Paradise $75 Vegas Country $70 Royal Plaza Casino $70 Vegas Joker Casino $60 River Nile Casino $55 Spin Room Casino $50 Aces High Casino $50 All Poker Casino $50 Captain Co...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.casino-free-gambling.com/</font><br><br>
+<br><a href="http://www.theregister.co.uk/2004/10/18/gambling_block/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Amex prevents punters gambling online The Register </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... the internet and on fruit machines. Related stories UK Lotto goes mobile Online poker ace scores £4,500 - per week Racing scandal hinges on Betfair records 11 year-old-kids free to gamble onlin...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.theregister.co.uk/2004/10/18/gambling_block/</font><br><br>
+<br><a href="http://www.gamble-seek.co.uk/baseball_gambling/ecash_gamble_fantas ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>ecash gamble fantasy baseball @ Gamble Seek </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Legal gambling online u.s ... craps , ecash winning craps , eft gambling craps , wire www.get4me.co.uk/hotlinks/book-eft-gamble-sport.html book eft sport fantasy sport eft fantasy sports eft ga...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.gamble-seek.co.uk/baseball_gambling/ecash_gamble_fantas ...</font><br><br>
+<br><a href="http://www.backtrackin.co.uk/vinyl/ace_of_spades_2.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Ace Of Spades 2 - Backtrackin.co.uk </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... by Motorhead ... 1. Ace Of Spades. 2. Love Me Like A ... outlaw chic. On Ace Of Spades their speed-metal attack ... SmartSleeves - Ace of Spades Cufflinks Gambling. Card shaped cufflinks, featu...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.backtrackin.co.uk/vinyl/ace_of_spades_2.html</font><br><br>
+<br><a href="http://www.your-online-poker.co.uk/baccarat/baccarat-cash-gambling ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>UK Baccarat Cash Gambling Resources </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... secure betting with ... ... You searched the DB for Gambling. Also Try The Following Searches ... 839. football gambling. 798. ace cash gambling. 797. baccarat cash gambling ... mini baccarat w...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.your-online-poker.co.uk/baccarat/baccarat-cash-gambling ...</font><br><br>
+<br><a href="http://www.acesearch.co.uk/gambling.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>:: ACE SEARCH :: Find all you need to know about Gambling Here! </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>CARS CREDIT CARDS FINANCE GAMBLING INSURANCE JOBS LOANS MORTGAGE MOBILE PHONES MONEY SHOPPING TRAVEL River Belle Casino Claim up to £900 Visit River Belle Online Casino and enjoy that winning feeli...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.acesearch.co.uk/gambling.php</font><br><br>
+<br><a href="http://www.online-gambling-sites.co.uk/sidelink/powerpoker.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Play Free Power Poker Games at Online Gambling Sites.co.uk </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Will Pop Up To Play - You Will Not Leave This Site Joker Poker Power Poker Double Joker Power Poker Deuces Wild Power Poker Deuces & Joker Aces and Faces Power Poker Tens or Better Power Poker ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.online-gambling-sites.co.uk/sidelink/powerpoker.php</font><br><br>
+<br><a href="http://www.best-online-casino-guide.co.uk/gambling_sources/casinos ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>www.best-online-casino-guide.co.uk - Best-Online-Casino-Guide - best online casino guide - Win247 - www.win247.co.uk - poker - casino - gala - win247 - pokerroom - grosvenor </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Craps .- Online Stud Poker .- 3 Card Poker .- Internet Roulette .. Gambling Sources .. Land Based Casinos .. Contact us Links to Casinos  Casino ... Rules, dangers, tips 21ace.com 21 Ace The Po...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.best-online-casino-guide.co.uk/gambling_sources/casinos ...</font><br><br>
+<br><a href="http://www.online-gambling-guide.co.uk/gambling_sources/casinos__c ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>www.online-gambling-guide.co.uk - Online-Gambling-Guide - Online Gambling Guide - bet365 - casino - gala - win247 - 888.com - interpoker - Win247 - www.win247.co.uk - </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Rules, dangers, tips 21ace.com 21 Ace The Poker and Blackjack Center with Chip Tricks and Card Flourishes absoluteaccents.com Online Casinos, Real Poker and Live Sports Betting american-gamblin...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.online-gambling-guide.co.uk/gambling_sources/casinos__c ...</font><br><br>
+<br><a href="http://www.expletia.co.uk/gambling.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Free Online Gambling Games Free online Games. </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Gambling Games Expletia - Free online Games Expletia Home Free Tools Free Games Back Up Free Cheats Free EBooks Free Cartoons Computer Backup Mobile phones Important Information Aerial Map Expl...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.expletia.co.uk/gambling.html</font><br><br>
+<br><a href="http://www.gamblinginformation.co.uk/aces-high/index.shtml"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Aces High - reviewed, comprehensive listings </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>HOME GAMBLING MACHINES GAMBLING GAMES GAMBLING SITES SITE MAP Comprehensive information relating to Aces High Find links to save you time and money when searching for Aces High . Web sites that pro...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.gamblinginformation.co.uk/aces-high/index.shtml</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+I/M

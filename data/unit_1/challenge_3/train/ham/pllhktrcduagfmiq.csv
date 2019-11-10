@@ -1,0 +1,81 @@
+<HTML>
+<HEAD>
+<TITLE> MORSE Bugs</TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="morse.css">
+</HEAD>
+<BODY>
+<H1 CLASS=PAGE>MORSE Bugs</h1>
+Bugs recorded for MORSE v3 (12SEP05 onwards) -
+Bugs#1:20 for earlier versions are <a href=./v2/bugs.html>here</a>
+<HR>
+
+<dl>
+
+<P>
+<a name=bug25>
+<DT><B> Bug#25</B> 
+<DD> <b>Reported:</b> 22 Feb 07 by Chiara Piccolo
+<DD> <b>Symptom:</b> Program stops with error message 
+<BLOCKQUOTE>F-NXTREC: Extra characters in input file beyond C*80: ...
+</BLOCKQUOTE>
+when reading .lst file (for which records up to C*120 are allowed)
+<DD> <b>Cause:</b> Generic subroutine <b>opnfil.for</B>, which opens
+the .lst file, calls generic
+subroutine <b>nxtrec.for</b> which performs a check on records being LE
+C*80. Now changed so that <b>opnfil.for</b> ignores this particular error
+message from <b>nxtrec.for</b>
+<DD> <b>Fixed:</b> <a href=updates.html#v22FEB07>v22FEB07</a>
+
+<P>
+<a name=bug24>
+<DT><B> Bug#24</B> 
+<DD> <b>Reported:</b> 26 Apr 06 by Chiara Piccolo
+<DD> <b>Symptom:</b> Top profile level in *CLI section
+not overwritten when remainder of profile is replaced by subsequent file.
+<DD> <b>Cause:</b> Error in subroutine <b>drvcli.for</B> in determining
+no. of profile levels that should be replaced.
+<DD> <b>Fixed:</b> <a href=updates.html#v26apr06>v26APR06</a>
+
+<P>
+<a name=bug23>
+<DT><B> Bug#23</B> 
+<DD> <b>Reported:</b> 24 Feb 06 by Chiara Piccolo
+<DD> <b>Symptom:</b> Isotopic profiles incorrectly set up if not explicilty
+specified in .atm files (eg *O3 doesn't give correct isotope profiles, but
+*O3(1), *O3(2) etc do)
+<DD> <b>Cause:</b> When setting default isotopic profiles each successive
+profile was being reduced by factor 1E-6 (repeated ppmv to ppv conversion)
+<DD> <b>Fixed:</b> <a href=updates.html#v10mar06>v01MAR06</a>
+
+<P>
+<a name=bug22>
+<DT><B> Bug#22</B> 
+<DD> <b>Reported:</b> 17 Jan 06 by Joanne Walker
+<DD> <b>Symptom:</b> Array bound error or other unpredictable behaviour
+if microwindow with large number of irregular grid points used 
+(eg N2O50101)
+<DD> <b>Cause:</b> No check if no. irregular grid points (NGRD) for microwindow
+exceeds available array space (MAXGRD) in rfmsiz.inc (normally set to 5000).
+<DD> <b>Fixed:</b> <a href=updates.html#v17jan06>v01JAN06</a>
+
+<P>
+<a name=bug21>
+<DT><B> Bug#21</B> 
+<DD> <b>Reported:</b> 31 Oct 05 by Chiara Piccolo
+<DD> <b>Symptom:</b> A Priori output represents a priori at start of
+last microwindow rather than first
+<DD> <b>Cause:</b> When subroutine <b>mseout</b> overwriting a priori 
+output each microwindow rather than only on the first microwindow.
+<DD> <b>Fixed:</b> <a href=updates.html#v01nov05>v01NOV05</a>
+
+</dl>
+<HR>
+<UL>
+<LI><a href=./v2/bugs.html>v2 Bugs</a>
+<LI><a href=index.html>Back to MORSE Index</a>
+</UL>
+</BODY>
+</HTML>
+
+
+om   ralies9

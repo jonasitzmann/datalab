@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Volcanic SO2 retrieval from TOVS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+
+<table width="639" border="0" height="144" style="border-collapse: collapse" bordercolor="#111111" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="147" height="154" colspan="2">
+    <span style="position: absolute; left: 10; top: 20">
+    <img src="images/newcrest.gif" width="117" height="143"></span></td>
+    <td width="492" height="154" colspan="2">
+    <p align="left"><strong><font size="6" face="Arial">Volcanic SO</font><font size="5" face="Arial"><font size="4">2</font> </font>
+    <font size="6" face="Arial">retrieval</font><font size="5" face="Arial"> </font>
+    <font size="6" face="Arial">from TOVS</font></strong></td>
+  </tr>
+  <tr> 
+    <td width="134" rowspan="4" height="319">
+    <img src="images/g4.jpg" width="111" height="151" align="top"> <p><a href="images/rocket.swf">My Flash Rocket</a></p></td>
+    <td width="505" height="29" colspan="3"><font face="Arial"><a href="mailto:gmiles@atm.ox.ac.uk">
+    G. Miles</a>, R. Grainger, E. Highwood, F. Prata</font></td>
+  </tr>
+  <tr> 
+    <td width="25" rowspan="3" height="263" colspan="2">&nbsp;</td>
+    <td height="36" width="480"><font face="Arial">Atmospheric, Oceanic and Planetary Physics, Clarendon 
+      Laboratory.</font></td>
+  </tr>
+  <tr> 
+    <td height="18" width="480"><font face="Arial">Project:</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" height="201" width="480"><font face="Arial">This project is concerned with the atmospheric effects of volcanic eruptions, primarily the formation of stratospheric aerosols and their precursors.  The main body of the work entails establishing a full retrieval of SO<font size="1">2</font> 
+      from HIRS2 Channels, to provide a further data set of large volcanic SO<font size="1">2</font> 
+      emissions into the stratosphere.  Further work will involve chemical transport modeling of the emissions from specific eruptions.  The significance of historical volcanism for the atmosphere is heavily dependant upon the emission history both in latitude and strength of individual eruptions.  Work to model global average changes in stratospheric optical depth and quantitively relate this to global average temperature change forms the basis of a paper submitted to QJRMS.</font></td>
+  </tr>
+</table>
+<table width="639" border="0">
+  <tr> 
+    <td><font face="Arial">HIRS 2 was originally designed 
+      to monitor column concentrations of water vapour and the atmospheric temperature 
+      profile. It has been shown, that a sufficiently strong SO2 perturbation 
+      in the stratosphere after an explosive volcanic eruption can be detected 
+      above the water vapour signal in some regions of the spectrum.</font></td>
+  </tr>
+  <tr> 
+    <td ><div align="center"><img src="images/fwdmod13.gif" width="480" height="343"></div></td>
+  </tr>
+  <tr> 
+    <td><font face="Arial">This plot demonstrates how the a pertubed spectral radiance 
+      which could be observed by a HIRS channel for an SO<font size="1">2 </font>contaminated 
+      atmosphere is synthesised using a forward model. The filter function (also plotted) shows the channels response 
+      in this spectral region.</font></td>
+  </tr>
+  </tr>
+  <tr> 
+    <td><div align="center">
+      <img src="images/tomsweek.jpg" width="310" height="221"></div></td>
+  </tr>
+ 
+<tr> 
+    <td><font face="Arial">This plot shows daily observations from TOMS of SO<font size="1">2 </font> emitted from Cerro Hudson in 1991.  TOMS is a UV instrument and can operate only in daylight.  An advantage of using an IR instrument like HIRS 2 is that it can operate in both day and nightime conditions.  Furthermore, it is a polar orbiting satellite with excellent spatial coverage at the poles.</font></td>
+  </tr>
+  </tr></table>
+<table width="640" border="0">
+ <tr> 
+<td width="1" rowspan="5">
+<img border="0" src="images/sp3dm21.jpg" width="268" height="192"></td>
+<td width="293" rowspan="5"><font face="Arial">The plot on the left shows some 
+chemical tracer modeling of a continuous zonal emission between the 380 and 400K 
+isentropes at 70 S, advected for 60 days.&nbsp; Future work will involve a full 
+simulation of the evolution of volcanic material in the stratosphere.</font></td>
+</tr></table>
+
+<tr> 
+    <td><p><font size="2" face="Arial"><em>This page is currently under development.</em></font></p></td>
+  </tr>
+
+
+<p>&nbsp;</p><p>&nbsp;</p>
+</body>
+</html>
+
+tmei >sLp;

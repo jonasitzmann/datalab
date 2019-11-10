@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>About Hap Hazard</title>
+</head>
+<body bgcolor=FFFFBB>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(187,47);
+    ceresoff.src = "images/ceresoff.gif";
+    cereson = new Image(187,47);
+    cereson.src = "images/cereson.gif";
+
+    copia2off = new Image(205,38);
+    copia2off.src = "images/copia2off.gif";
+    copia2on = new Image(205,38);
+    copia2on.src = "images/copia2on.gif";
+
+// -->
+
+</script>
+
+
+<p>
+<center>
+<table width=70%>
+<tr>
+<td width=50% valign=middle><a href=haphazard.html><img src=images/halfcrest.gif border=none></a></td>
+<td width=50% valign=middle><img src=images/abouthh.gif></td></tr></table></center>
+<p>
+<img src=images/20v.gif><br>
+<blockquote>
+Hap Hazard is an online resource dedicated to the study of Edmund Spenser, and more particularly to the study of manuscript materials relating to his writings.  This broad category includes manuscripts of his own poetic and political works, but also encompasses manuscript materials that help to establish his literary, social, and political context, especially as relating to Elizabethan Ireland.  
+<p>
+Hap Hazard at present comprises four main areas:
+<ul><li><b>Spenser Letters</b>: a complete collection of transcriptions of Spenser-authored, -copied, or -endorsed materials from the State Paper Office.
+<li><b><i>A vewe of the present state of Irelande</i></b>: a scholarly edition of Gonville & Caius College Library MS 188/221, an early and important manuscript of Spenser's longest prose work.
+<li><b>Supplementary Materials</b>: a growing collection of manuscript materials relating to Spenser's literary, social, and political context.
+<li><b>Collection Box</b>: a forum for the exchange of opinions, criticisms, thoughts, and research contributions relating to the material presented on this site.  This section comprises both an archive of reviewed contributions and a facility for sending in your own thoughts.  These contributions are also, where appropriate, incorporated into the notes and other apparatus of the materials themselves.</ul>
+<p>
+The goals of this project are threefold. First, we aim to make available to the general public and to the academic community of Spenser scholars and students important, though specialist, materials that would otherwise prove very difficult to access.  Some of the manuscripts transcribed and presented on this site are not available anywhere but in the original archives themselves; while others have been microfilmed or otherwise copied and made available, the prohibitive difficulties of secretary hand render these materials as practically remote as the former.  We hope that this resource will help to bring this important literary and historical material more presently to the hand of anyone interested in Spenser.
+<p>
+Second, this project takes full advantage of the capacious flexibility of the internet in offering as much supplementary material as possible.  Illustrations, maps, music, and supplementary texts have been included wherever (even remotely) desirable, to provide as rich and fertile a ground as possible for the sowing of new thoughts in Spenser study.  In this way, the Hap Hazard editors hope to expand the bases of Spenser research into areas historically limited by the practicalities of paper publishing.  
+<p>
+Finally, this project follows the lead of its parent, the <a href=../copia.html>COPIA</a> project, in encouraging the development of collaborative research in renaissance studies.  All of the materials presented on this site have been chosen with an eye to enlarging our understanding of Spenser's work, both as a civil servant and as a poet. We hope these materials will challenge and provoke students and scholars to offer their opinions, their criticisms, their thoughts, their own research contributions, and perhaps even their own editorial projects.  Online publication is particularly suited to such collaborative study, as archives can mutate and grow with great practical ease, not to mention with astonishing speed and vigor.  To this end, the Hap Hazard project includes a section where students and scholars can <a href=contribute.html>contribute</a> to the ongoing growth of this resource.
+<p>
+'Hap Hazard' was the name Spenser chose for the Munster estate granted him and his heirs by royal patent in 1593.  Leaving aside for a moment the complex issues raised by the colonial plantation in Munster and Spenser's role in this undertaking, we can recognize in his choice of title a characteristic piece of complicated Spenserian onomastics: at once light and funny, but also dark and foreboding, this name echoes across four hundred years with a resonance implicating virtually all of his literary production, and even the troubled political tracts and notes of his final years.  The uncertainty that Spenser foresaw in his Munster undertaking is nowhere paralleled more evenly than in the happenstance survival of the manuscripts presented in this resource, all of which have survived the ignominious depredations of four centuries.  These documents, much more than the estate at Kilcolman, are Spenser's heritage in fee, and we are, in a sense, his heirs.  In the constantly changing virtual world of the internet, this project may face a more tempestuous Fortune than any Spenser publication in memory; and yet, if even for a brief time, perhaps it can provide another suitable home for Spenser's thought, and for those of us who care to visit.
+<p>
+<img src=images/10v.gif><br>
+Andrew Zurcher<br>
+King's College, Cambridge
+</blockquote>
+<p>
+<center><hr>
+<p>
+<small>This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+</small>
+<p>
+<table width=90%>
+<tr>
+<td width=50% valign=middle><center>
+<a href="../copia.htm" 
+        onmouseover="copia2.src = copia2on.src"
+        onclick="copia2.src = copia2on.src"
+        onmouseout="copia2.src = copia2off.src"><img
+        alt="Copia"
+        src="images/copia2off.gif"
+        border="0" width="205"
+        height="38" name="copia2"></a></center>
+</td>
+<td width=50% valign=middle><center>
+<a href="../main.htm" 
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="Ceres"
+        src="images/ceresoff.gif"
+        border="0" width="187"
+        height="47" name="ceres"></a></center>
+</td></tr></table>
+<p>
+</body></html>
+
+
+
+sy	
+/[t=et4rco

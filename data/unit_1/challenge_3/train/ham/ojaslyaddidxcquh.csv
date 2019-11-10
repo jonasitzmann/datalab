@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+tas_dec05
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="gif_1.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+	if(parent.isUpLevel)
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+
+<script type="text/jscript" language="jscript">
+
+var pageID = 8;
+
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = -0.000000;
+	viewMgr.visBBoxRight = 11.692913;
+	viewMgr.visBBoxBottom = 0.000000;
+	viewMgr.visBBoxTop = 8.267717;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Shows the location of the selected shape" src="arrow.gif"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF">
+
+<div id=arrowdiv style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+<DIV id=RasterDiv>
+
+
+<center>
+  <IMG id="ConvertedImage" SRC="gif_4.gif" ALT="Finance and Personnel" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="Finance Office" origTitle="Finance Office" TITLE="Finance Office"  target="_top" COORDS=" 429,275 494,275 494,243 429,243 429,275" onmouseover="UpdateTooltip(this,8,49)" onfocus="UpdateTooltip(this,8,49)" onclick="return OnShapeClick(8,49);" onkeyup="OnShapeKey(8,49);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Personnel Office" origTitle="Personnel Office" TITLE="Personnel Office"  target="_top" COORDS=" 316,275 380,275 380,243 316,243 316,275" onmouseover="UpdateTooltip(this,8,43)" onfocus="UpdateTooltip(this,8,43)" onclick="return OnShapeClick(8,43);" onkeyup="OnShapeKey(8,43);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Health and Safety" origTitle="Health and Safety" TITLE="Health and Safety"  target="_top" COORDS=" 170,275 235,275 235,243 170,243 170,275" onmouseover="UpdateTooltip(this,8,37)" onfocus="UpdateTooltip(this,8,37)" onclick="return OnShapeClick(8,37);" onkeyup="OnShapeKey(8,37);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Finance Officer" origTitle="Finance Officer" TITLE="Finance Officer"  target="_top" COORDS=" 430,225 492,225 492,196 430,196 430,225" onmouseover="UpdateTooltip(this,8,31)" onfocus="UpdateTooltip(this,8,31)" onclick="return OnShapeClick(8,31);" onkeyup="OnShapeKey(8,31);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Director of Personnel" origTitle="Director of Personnel" TITLE="Director of Personnel"  target="_top" COORDS=" 249,196 236,196 236,225 298,225 298,196 287,196 287,195 249,195 249,196" onmouseover="UpdateTooltip(this,8,25)" onfocus="UpdateTooltip(this,8,25)" onclick="return OnShapeClick(8,25);" onkeyup="OnShapeKey(8,25);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Assistant Principal (Finance and Personnel)" origTitle="Assistant Principal (Finance and Personnel)" TITLE="Assistant Principal (Finance and Personnel)" HREF="gif_1.htm" target="frmDrawing" COORDS=" 333,176 427,176 427,131 333,131 333,176" onmouseover="UpdateTooltip(this,8,20)" onfocus="UpdateTooltip(this,8,20)" onclick="return OnShapeClick(8,20);" onkeyup="OnShapeKey(8,20);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="http://www.tasc.ac.uk/" target="_top" COORDS=" 721,47 724,47 724,44 724,44 724,44 724,43 724,43 724,43 724,43 725,43 725,43 725,42 725,42 725,42 725,42 725,42 726,42 726,42 726,42 726,42 726,42 727,42 727,42 727,42 727,42 727,42 728,42 728,42 728,42 728,42 728,43 728,43 728,43 729,43 729,43 729,43 729,44 729,44 729,44 729,47 732,47 732,36 735,38 735,38 727,30 726,29 726,30 718,38 718,38 721,36 721,47" onmouseover="UpdateTooltip(this,8,5)" onfocus="UpdateTooltip(this,8,5)" onclick="return OnShapeClick(8,5);" onkeyup="OnShapeKey(8,5);">
+</MAP>
+
+
+
+</DIV>
+
+</body>
+</html>
+
+
+
+.t1aew
+aocuf

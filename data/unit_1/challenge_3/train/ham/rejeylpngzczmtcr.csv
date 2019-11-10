@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style3 {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style5 {	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/primary-languages_f2.gif','../images/free-resources_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center">
+  <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"> 
+        <div align="center">
+          <table width="660" border="0" cellspacing="1" cellpadding="0">
+            <tr>
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="50%" rowspan="3"><span class="style3"><a href="../links/index.htm" onMouseOver="MM_swapImage('links','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../images/new-logo.gif" alt="Comenius Yorkshire and the Humber" width="217" height="86" border="0"></a></span></td>
+                    <td width="50%" height="55" valign="top"><div align="right" class="topbar"><font color="#666666"><img src="../index_clip_image002_0002.jpg" width="192" height="41"><br>
+                          <a href="../contact-us/index.htm"></a><a href="../about-us/index.htm"></a><a href="../find-us/index.htm"></a><a href="../indexold.htm"></a></font></div></td>
+                  </tr>
+                  <tr>
+                    <td height="26" valign="middle"><div align="right"><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"></font></div></td>
+                  </tr>
+                  <tr>
+                    <td valign="bottom"><div align="right"><font color="#666666"><a href="../contact-us/index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="../about-us/index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td colspan="6">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="maintext style44"><div align="center"><strong><a href="../events-courses/index.htm">Courses &amp; Conferences</a> </strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/links/index.htm">Links</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+              <td class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+            </tr>
+            <tr>
+              <td colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/index.htm" onMouseOver="MM_swapImage('events','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks3','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../primary-languages/index.htm" onMouseOver="MM_swapImage('languages','','../images/primary-languages_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../free-resources/index.htm" onMouseOver="MM_swapImage('free','','../images/free-resources_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+            </tr>
+            <tr>
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="460"><div align="center" class="style3">Latest News and Information </div></td>
+                    <td width="410"><img src="../images/image-bar/ks33.jpg" width="354" height="180"></td>
+                  </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="190"><p class="maintext"><strong><br>
+                      </strong></p>
+                        <div dir="ltr"><br>
+                        </div>
+                      <div class="maintext"> 
+                        <p><strong>Subject Centre CD and  poster 'WHY STUDY LANGUAGES?'</strong><strong></strong><br>
+                          The Subject Centre  has a new CD designed to excite, educate and encourage young people to continue  with their language learning in KS4 and beyond. The CD is divided into two  parts: 'The Language Lab' is aimed at pupils in KS3 and KS4 and 'Why study  languages' is aimed at pupils in KS4 and post-16.<br>
+                          There are quizzes,  powerpoint presentations and much much more AND it comes with its own poster!<br>
+                          Further information  about the CD and ordering procedure can be found on the Subject Centre website  - <a href="http://www.llas.ac.uk/whystudylanguages/index.aspx" title="http://www.llas.ac.uk/whystudylanguages/index.aspx">http://www.llas.ac.uk/whystudylanguages/index.aspx</a><br>
+                          <br>
+                          <br>
+                          <strong>Primary Teacher Training Day at  the Goethe-Institut London - Saturday 30 June 2007 <br>
+                          </strong>The  Goethe-Institut London and the TDA are offering a Teacher Training Day for  primary German teachers on 30 June, a lovely event with various speakers,  interesting workshops and plenary sessions. &nbsp;Details, application form and a brief  programme can be found on our website: <a href="http://www.goethe.de/ins/gb/lon/lhr/sem/de2258088.htm" title="http://www.goethe.de/ins/gb/lon/lhr/sem/de2258088.htm">http://www.goethe.de/ins/gb/lon/lhr/sem/de2258088.htm</a> <br>
+The  training day is free of charge and includes lunch. 
+We hope  you will be able to join us at the end of the training day for an informal  Garden Party. Closing date is <strong>15 May 2007</strong>. <br>
+                          <strong><br>
+                          <br>
+                          FAO: German A Level Students!</strong><br>
+The  Hermann-Lietz-Schule, Haubinda,   Germany is  looking for young native English speakers (aged 18-24) to work for an academic  year as English Language Assistants, starting end of August 2007.<br>
+Haubinda is a small,  rural boarding and day school for pupils aged from 7 to 18 with a special focus  on agriculture and practical work. More information about the school can be  found at <a href="http://www.lietz-schule.de/">www.haubinda.de</a> or <a href="http://www.haubinda.infobox4you.de/">www.haubinda.infobox4you.de</a><br>
+We are looking for  people who aren&rsquo;t afraid of hard work and who enjoy working with young people.  The ability to speak at least intermediate German is important, too, although  language skills improve greatly over the year.<br>
+This post would be  suitable for someone looking to take a year out before going to college/  university.<br>
+Responsibilities of  the job include helping out in class and giving one-on-one lessons to weaker  pupils. You will mostly be working with pupils aged 14 to 18.<br>
+Assistants play a  large role in the life of the school and are actively encouraged to take part  in extra-curricular activities, which range from sport to baking to metal-work  to choir. You should also be able and willing to offer at least one weekly  activity yourself.<br>
+An allowance of 250  Euro a month is provided, which isn't too bad when you consider that  accommodation, all meals and extra-curricular activities including trips are  provided for free. Free onsite internet access is also available.<br>
+Applications should  be sent by email to Kirsten Ehinger: <a href="mailto:haubinda@lietz-schule.de">haubinda@lietz-schule.de</a> (subject: Bewerbung als Fremdsprachenassistent)<br>
+In this you should  describe your previous schooling, language skills, achievements, interests,  previous visits to Germany  (if relevant) and you should attach a recent photo (common practice in Germany). <br>
+<strong>Closing date for  applications is 30 May 2007</strong>.<strong><br>
+<br>
+<br>
+Teacher 500 Project - TDA/British Council Sponsored Primary School Teacher Visits to Germany &amp; Spain October 2007<br>
+</strong>Are you interested in  taking part in a two week all expenses paid trip to help promote and establish  the teaching of MFL in your school?<br>
+The TDA/British Council are sponsoring teachers or other  school staff to take part in this scheme to encourage the establishment of  Modern Foreign Language teaching in Primary Schools. <br>
+For further details, please <a href="../downloads/2006-07/500TeacherProjectOctGer&Spn2007.doc">click</a> here. Application forms are available by emailing  <a href="mailto:c.thornton@leedstrinity.ac.uk">c.thornton@leedstrinity.ac.uk</a> or calling 0113 2837122. 
+Closing date for applications is <strong>30 May 2007</strong>.<strong><br>
+<br>
+<br>
+Make IT happen</strong> <br>
+Does your school have an innovative languages  ICT project? If so, you could enter the Made IT happen competition and be in  with a chance of winning a cash prize for your school. The competition is for  pupils aged 9 to 11 in all primary schools across the UK and is organised by the Parliamentary  Information Technology Committee (PITCOM) in partnership with e-skills UK. They are  looking for pupil-led innovative ICT projects that have made a positive impact  on your school. Your entry should show the best use of Information and  Communication Technology (ICT) resources to the benefit of the school, local  community, in the UK  or across the world. Prizes: &pound;1,000 available for the winning school from each  of the English Regions and Northern Ireland,  Wales and Scotland. In  addition, &pound;3,000, &pound;2,000 and &pound;1,000 will be awarded to the schools placed 1st,  2nd and 3rd overall. The closing date is <strong>Friday 13 July 2007</strong>. To find out more and to  enter visit: <a href="http://www.e-skills.com/cgi-bin/go.pl/madeithappen/index.html" title="blocked::http://www.e-skills.com/cgi-bin/go.pl/madeithappen/index.html"><span title="blocked::http://www.e-skills.com/cgi-bin/go.pl/madeithappen/index.html">http://www.e-skills.com/cgi-</span> bin/go.pl/madeithappen/index.html</a><br>
+                          <br>
+                          <br>
+                          <strong>Foreign Language Theatre</strong> <br>
+                          Onatti Theatre Company is now in its fifth year  of providing Foreign Language Productions for Secondary Schools. We have three  separate tours covering the whole of the UK; one in French, one in Spanish  and one in German. These are performed by native speakers and all our plays are  written for modern teenagers studying languages. We are immensely proud of the  productions we tour and we are extremely delighted with the overwhelmingly  positive feedback we receive from both teachers and pupils. Knowing how  involved you are with modern foreign language teaching I would like to invite  you to come and watch one of our performances at a school near you. Please  click on our website <a href="http://www.onatti.co.uk/" title="blocked::file://www.onatti.co.uk/"><span title="blocked::file://www.onatti.co.uk/">www.onatti.co.uk</span></a> for lots of pictures, comments and information  detailing our work. Contact Andrew Bardwell on 01926 495220 for more  information.<strong><br>  
+                          <br>
+                          <br>
+                          </strong><strong>DfES Primary Languages Frequently Asked Questions sheet</strong><br>
+                          The  DfES has recently produced a Frequently Asked Questions (FAQs) sheet on primary  languages which&nbsp;provides information and advice for schools&nbsp;and Local  Authorities&nbsp;on the following key topics:</p>
+                        <ul>
+                          <li><strong>Funding  issues</strong> </li>
+                          <li><strong>Implementation </strong></li>
+                          <li><strong>Evaluation,  inspection and research</strong>&nbsp; </li>
+                          <li><strong>Transition </strong> </li>
+                        </ul>
+                        <p>The  FAQs sheet is available to download from the NACELL website at: <u><a href="http://www.nacell.org.uk/official/dfes.htm">http://www.nacell.org.uk/official/dfes.htm</a></u>. </p>
+                            <p><strong>Funding  issues:</strong>&nbsp;<br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Through which  Standards Fund Grant Code will the Local Authority funding be available? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Will there be  funding for Key Stage 2 Languages beyond 2008? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Is the funding  that Local Authorities receive ring-fenced? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Is the higher  cost of inner-city/rural LAs taken into account? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Is extra  funding available for primary languages through the Specialist Schools and Academies  Trust <br>
+  (SSAT)? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  What is the  accountability of Specialist Language Colleges (SLCs) compared to LAs? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Do second/combined  SLCs get the same amount of funding? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  What is the  relationship between the funding LAs and SLCs receive? <br>
+&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Does an LA  without any SLCs get extra funding? </p>
+                            <p><strong>Advice  on implementation:</strong>&nbsp;<br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  What  suggestions are there on distributing the Local Authority funding effectively? <br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  What  activities could the funding be used to support? <br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  What Models of  Implementation might be considered? <br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Should one  language be taught throughout Key Stage 2? <br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Could the  Languages Ladder be used to recognise achievement in Key Stage 2? </p>
+                            <p><strong>Evaluation,  inspection &amp; research: </strong>&nbsp;<br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  When will  OfSTED begin to evaluate Primary Languages? <br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  What research  has been/will be done into the impact of primary languages? </p>
+                            <p><strong>Transition</strong>:&nbsp;<br>
+  &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Why we should  we be more successful in dealing with transition this time round? </p>
+                        <p><br>
+                          <strong>
+                          S</strong><SPAN lang="EN-GB"><STRONG>panish   comes to life in language careers website<br>
+                          </STRONG>A new language-specific area has been developed   for the dedicated careers website, Languages Work and is launched today to   celebrate Spain's National Day (D&iacute;a de la Hispanidad).<br>
+                          Spanish is a major world language with an   estimated 429,293,261 speakers and this number is rapidly growing, particularly   in the US and Latin America. The new suite of resources makes the case to   teachers, advisers, parents and learners (particularly teenagers) that Spanish   skills can make you more employable.<br>
+                          The new Languages Work Spanish materials include   a factsheet, posters and webpages to provide advice, facts and real examples of   people using languages in their work to place language learning in context.   Materials are available to order free of charge via the Languages Work website <strong><A href="http://www.languageswork.org.uk/" target="_blank">www.languageswork.org.uk</A></strong>, which has also been updated to   coincide with the launch.<br>
+                          Languages Work Spanish   has been developed in collaboration with the Spanish Embassy Consejer&iacute;a de   Educaci&oacute;n.</SPAN> <br>
+                          <br>
+                          <br>
+                          <span class="maintext"><strong><span class="headlines style97">
+Catherine Cheater Receives French Honour</span> - <span class="style5">Click <a href="Catherines French Honour.html">here</a> </span>to read more. <br>
+<br>
+<br>
+                            Community Languages Report for the Yorkshire &amp; the Humber Region<br>
+                            </strong>A report on the Provision of Community Languages in Yorkshire and the Humber region has been put together by Scottish CILT. To read this report, please <a href="../downloads/YorkshireHumberFinal.pdf">click</a> here. To input or update this report, please email <a href="mailto:j.m.mcpake@stir.ac.uk">j.m.mcpake@stir.ac.uk</a> <strong><br>
+                            <br>
+                            </strong></span><span class="maintext"><strong>                          <br>
+                            Goethe-Institut - Primary German Initiative </strong><br>
+                            As part of the Goethe-Institut&rsquo;s ongoing initiative to promote German   at 
+                          primary level, they are seeking to identify all schools which already have   or 
+                          will introduce German as the first foreign language.&nbsp; The Institut is keen to   support 
+                          this development in a practical way by sending these schools samples   of their publications and details of promotional materials.<br>
+                          If your school   falls 
+                          into this category, please  e-mail <a href="mailto:info@manchester.goethe.org">info@manchester.goethe.org</a>, giving the name &amp;   address 
+                          of your school along with the numbers of pupils per year. <br>
+                          Wolfgang Winkler, 
+                          Director at the Goethe-Institut says: <br>
+&quot;We look   forward 
+                          to hearing from you and hope that our combined efforts will help to   make 
+                          German a playful and attractive addition to your curriculum!"</span><strong><br>
+                          <br>
+                          </strong><span class="maintext"><strong><br>
+                          Launch of the Languages Ladder<br>
+                          </strong>This week sees the launch of the Languages Ladder, a new scheme which for the first time gives learners of all ages and all levels of ability a chance to measure their achievements in languages against a single grading system. The creation of the Languages Ladder takes forward a key recommendation of the Nuffield Inquiry - the establishment of a national standards framework for languages - and fulfils one of three overarching objectives of the Government's National Languages Strategy for England - to introduce a recognition system.The Languages Ladder uses 'can do' statements to measure learners' ability in the four main skills (reading, writing, speaking, listening) at three stages (Breakthrough, Preliminary and Intermediate). Within each stage are small steps leading to grades which can be awarded by a teacher in the classroom. For example, someone with Breakthrough Grade 1 speaking would state 'I can say/repeat a few words and short simple phrases'. Advanced, Proficiency and Mastery stages will be introduced in the future. The scheme encompasses primary, secondary and adult learners and is currently available in Chinese, French, German, Italian, Japanese, Punjabi, Spanish and Urdu, with an additional thirteen languages planned for 2006. Each skill area can be assessed separately, thus providing maximum flexibility as well as short-term motivational goals to encourage language learning.<br>
+                          Linked to the Ladder are qualifications provided through the Asset Languages assessment scheme. This offers a combination of teacher and external assessment and will count towards schools' performance table scores.<br>
+                          For more information on the Languages Ladder and on Asset Languages see the links below.<br>
+                          </span><span class="maintext">Asset Languages -<a href="http://www.assetlanguages.org.uk" target="_blank"> www.assetlanguages.org.uk</a>. 
+                      DfES -<a href="http://www.dfes.gov.uk/languages/"> www.dfes.gov.uk/languages<br>
+                      <br>
+                      </a></span><strong><br>
+                      700 Reasons for Studying Languages<br>
+                          </strong>The Subject Centre for Languages, Linguistics and Area Studies has recently conducted research into rationales for language learning, which has resulted in the production of a taxonomy of more than 700 reasons for studying languages. The collection of reasons are available as an online database which can be freely accessed from the Subject Centre website at <a href="http://www.llas.ac.uk/700reasons/orderform.aspx">www.llas.ac.uk/700reasons</a>. It is hoped that the 700 reasons will assist in the marketing of languages and in informing the design of future courses. For further information please contact <a href="mailto:smlinfo@soton.ac.uk">smlinfo.ac.uk</a>. <br>
+                          <br>
+                          <br>
+                        </p>
+                      </div>                    </td>
+                  </tr>
+              </table></td>
+            </tr>
+          </table>
+        </div></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD <br>
+        Telephone 0113 
+          283 7226<br>
+          <font color="#999999">Page last updated: 
+          <!-- #BeginDate format:fcAm1 -->Wednesday, May 2, 2007<!-- #EndDate -->
+          </font> </div></td>
+    </tr>
+  </table>
+  
+</div>
+</body>
+</html>
+
+
+Qapuo	p'	s< 

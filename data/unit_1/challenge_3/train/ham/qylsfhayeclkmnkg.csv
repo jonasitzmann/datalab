@@ -1,0 +1,3157 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 10">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>tony scott</o:Author>
+  <o:LastAuthor>tony scott</o:LastAuthor>
+  <o:LastPrinted>2007-02-08T14:51:33Z</o:LastPrinted>
+  <o:Created>2007-02-08T11:00:02Z</o:Created>
+  <o:LastSaved>2007-02-08T14:54:35Z</o:LastSaved>
+  <o:Company>Rothamsted</o:Company>
+  <o:Version>10.6817</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="/"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.98in .75in .98in .75in;
+	mso-header-margin:.51in;
+	mso-footer-margin:.51in;
+	mso-page-orientation:landscape;
+	mso-horizontal-page-align:center;
+	mso-vertical-page-align:center;}
+.font7
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+a:link
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+a:visited
+	{color:purple;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:24.0pt;
+	font-weight:700;}
+.xl25
+	{mso-style-parent:style0;
+	text-align:right;}
+.xl26
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl27
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl28
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl29
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl30
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl31
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl32
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl33
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl34
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl35
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	text-align:right;}
+.xl36
+	{mso-style-parent:style0;
+	mso-number-format:"\\\(\\+0\.0\\\)\;\[Red\]\\\(\\-0\.0\\\)";
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl37
+	{mso-style-parent:style0;
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl38
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl39
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl40
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	text-align:right;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl41
+	{mso-style-parent:style0;
+	mso-number-format:"\\\(\\+0\.0\\\)\;\[Red\]\\\(\\-0\.0\\\)";
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl42
+	{mso-style-parent:style0;
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl43
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl44
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl45
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl46
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\\\(\\+0\.0\\\)\;\[Red\]\\\(\\-0\.0\\\)";
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl47
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.0";
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl48
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl49
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.0";
+	text-align:right;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl50
+	{mso-style-parent:style21;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	text-align:right;}
+.xl51
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;}
+.xl52
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl53
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl54
+	{mso-style-parent:style0;
+	vertical-align:middle;}
+.xl55
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl56
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl57
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl58
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	vertical-align:middle;}
+.xl59
+	{mso-style-parent:style0;
+	mso-number-format:"\\\(\\+0\.0\\\)\;\[Red\]\\\(\\-0\.0\\\)";
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl60
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl61
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	vertical-align:middle;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl62
+	{mso-style-parent:style0;
+	mso-number-format:"\\\(\\+0\.0\\\)\;\[Red\]\\\(\\-0\.0\\\)";
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl63
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl64
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl65
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl66
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl67
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\\\(\\+0\.0\\\)\;\[Red\]\\\(\\-0\.0\\\)";
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl68
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.0";
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl69
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl70
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.0";
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl71
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";}
+.xl72
+	{mso-style-parent:style21;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;}
+.xl73
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl74
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;}
+.xl75
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;}
+.xl76
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid black;}
+.xl77
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl78
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid black;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid black;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
+	text-align:center;}
+.style23 {mso-style-parent: style0; mso-number-format: "\\\(\\+0\.0\\\)\;\[Red\]\\\(\\-0\.0\\\)"; text-align: right; border-top: none; border-right: 1.0pt solid windowtext; border-bottom: none; border-left: none; background: #FFFF99; mso-pattern: auto none; color: #FF0000; }
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:Scale>84</x:Scale>
+      <x:HorizontalResolution>-2</x:HorizontalResolution>
+      <x:VerticalResolution>0</x:VerticalResolution>
+     </x:Print>
+     <x:ShowPageBreakZoom/>
+     <x:PageBreakZoom>70</x:PageBreakZoom>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>204</x:ActiveRow>
+       <x:ActiveCol>13</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+    <x:PageBreaks>
+     <x:RowBreaks>
+      <x:RowBreak>
+       <x:Row>34</x:Row>
+      </x:RowBreak>
+      <x:RowBreak>
+       <x:Row>63</x:Row>
+      </x:RowBreak>
+      <x:RowBreak>
+       <x:Row>92</x:Row>
+      </x:RowBreak>
+      <x:RowBreak>
+       <x:Row>121</x:Row>
+      </x:RowBreak>
+      <x:RowBreak>
+       <x:Row>150</x:Row>
+      </x:RowBreak>
+      <x:RowBreak>
+       <x:Row>179</x:Row>
+      </x:RowBreak>
+     </x:RowBreaks>
+    </x:PageBreaks>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>6450</x:WindowHeight>
+  <x:WindowWidth>19170</x:WindowWidth>
+  <x:WindowTopX>-15</x:WindowTopX>
+  <x:WindowTopY>6390</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+ <x:ExcelName>
+  <x:Name>Home</x:Name>
+  <x:SheetIndex>1</x:SheetIndex>
+  <x:Formula>=Sheet1!$A$1</x:Formula>
+ </x:ExcelName>
+ <x:ExcelName>
+  <x:Name>Print_Area</x:Name>
+  <x:SheetIndex>1</x:SheetIndex>
+  <x:Formula>=Sheet1!$A$1:$M$208</x:Formula>
+ </x:ExcelName>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=969 style='border-collapse:
+ collapse;table-layout:fixed;width:733pt'>
+ <col width=86 style='mso-width-source:userset;mso-width-alt:3145;width:65pt'>
+ <col width=66 style='mso-width-source:userset;mso-width-alt:2413;width:50pt'>
+ <col width=78 style='mso-width-source:userset;mso-width-alt:2852;width:59pt'>
+ <col width=66 span=8 style='mso-width-source:userset;mso-width-alt:2413;
+ width:50pt'>
+ <col width=79 style='mso-width-source:userset;mso-width-alt:2889;width:59pt'>
+ <col width=66 span=244 style='mso-width-source:userset;mso-width-alt:2413;
+ width:50pt'>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl24 colspan=14 width=969 style='height:30.0pt;
+  mso-ignore:colspan;width:733pt'><a name=Home>Monthly
+  Weather Summaries for Rothamsted - 2001 onwards</a></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td ><a href="#2001"><h4><li>2001</li></h4></a></td>
+  <td ><a href="#2002"><h4><li>2002</li></h4></a></td>
+  <td ><a href="#2003"><h4><li>2003</li></h4></a></td>
+  <td ><a href="#2004"><h4><li>2004</li></h4></a></td>
+  <td ><a href="#2005"><h4><li>2005</li></h4></a></td>
+  <td ><a href="#2006"><h4><li>2006</li></h4></a></td>
+  <td ><a href="#2007"><h4><li>2007</li></h4></a></td>
+  <td ><a href="#2008"><h4>&nbsp;</h4></a></td>
+  <td ><a href="#2009"><h4>&nbsp;</h4></a></td>
+  <td ><a href="#2010"><h4>&nbsp;</h4></a></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=9 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'><span
+  style='mso-spacerun:yes'>        </span><font class=font7><a name="2007">Rothamsted Research</a></font></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>The weather :
+  Monthly Summary : 2007</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>(Departure from
+  the 30 year means (1971 - 2000) in brackets)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 style='height:13.5pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=2 class=xl74 style='border-right:1.0pt solid black;border-left:
+  none'>Sunshine</td>
+  <td colspan=7 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'><span style='mso-spacerun:yes'> </span>Mean temperatures °C</td>
+  <td colspan=3 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'>Rain</td>
+  <td></td>
+ </tr>
+ <tr height=35 style='height:26.25pt'>
+  <td height=35 class=xl27 width=86 style='height:26.25pt;width:65pt'>&nbsp;</td>
+  <td colspan=2 class=xl77 width=144 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>&nbsp;</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Maximum</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Minimum</td>
+  <td class=xl28 width=66 style='width:50pt'>Ground</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Bare Soil</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Grass</td>
+  <td colspan=2 class=xl81 width=145 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>Total</td>
+  <td class=xl29 width=66 style='width:50pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl30 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl31>Hours</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>frosts*</td>
+  <td class=xl31>10 cm</td>
+  <td class=xl31>30 cm</td>
+  <td class=xl31>mm</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>days**</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl33>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>January</td>
+  <td class=xl35 x:num>71.4</td>
+  <td class=xl36 x:num="16.35">(+16.40)</td>
+  <td class=xl35 x:num="9.4741935483870972">9.5</td>
+  <td class=xl36 x:num="3.1375268817204285">(+3.10)</td>
+  <td class=xl35 x:num="4.0419354838709678">4.0</td>
+  <td class=xl36 x:num="3.1819354838709679">(+3.20)</td>
+  <td class=xl37 x:num>9</td>
+  <td class=xl38 x:num="5.4806451612903233">5.5</td>
+  <td class=xl38 x:num="6.8741935483870966">6.9</td>
+  <td class=xl35 x:num>91.6</td>
+  <td class=xl36 x:num="21.943333333333342">(+21.90)</td>
+  <td class=xl37 x:num>26</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>February</td>
+  <td class=xl40>89.2</td>
+  <td class=xl41>(+18.51)</td>
+  <td class=xl40>8.6</td>
+  <td class=xl41>(+1.91)</td>
+  <td class=xl40>2.9</td>
+  <td class=xl41>(+2.13)</td>
+  <td class=xl42>11</td>
+  <td class=xl43>4.7</td>
+  <td class=xl43>5.9</td>
+  <td class=xl40>97.4</td>
+  <td class=xl41>(+48.64)</td>
+  <td class=xl42>23</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>March</td>
+  <td class=xl35>177.1</td>
+  <td class=xl36>(+69.91)</td>
+  <td class=xl35>11.1</td>
+  <td class=xl36>(+1.60)</td>
+  <td class=xl35>2.9</td>
+  <td class=xl36>(+0.60)</td>
+  <td class=xl37>15</td>
+  <td class=xl38>5.6</td>
+  <td class=xl38>7.3</td>
+  <td class=xl35>57.6</td>
+  <td class=xl36>(+3.71)</td>
+  <td class=xl37>20</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>April</td>
+  <td class=xl40>239.2</td>
+  <td class=xl41>(+92.42)</td>
+  <td class=xl40>16.6</td>
+  <td class=xl41>(+4.69)</td>
+  <td class=xl40>5.7</td>
+  <td class=xl41>(+2.12)</td>
+  <td class=xl42>9</td>
+  <td class=xl43>10.8</td>
+  <td class=xl43>10.4</td>
+  <td class=xl40>2.0</td>
+  <td class=style23>(-51.54)</td>
+  <td class=xl42>8</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>May</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>June</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>July</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>August</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>September</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>October</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>November</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>December</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl43>&nbsp;</td>
+  <td class=xl40>&nbsp;</td>
+  <td class=xl41>&nbsp;</td>
+  <td class=xl42>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl44 style='height:13.5pt'>Year</td>
+  <td class=xl45>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td class=xl49>&nbsp;</td>
+  <td class=xl49>&nbsp;</td>
+  <td class=xl47>&nbsp;</td>
+  <td class=xl46>&nbsp;</td>
+  <td class=xl48>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'>* Number of
+  nights grass minimum was below 0.0 °C</td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>** Number
+  of days rain was 0.2 mm or more</td>
+  <td colspan=9 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=3 style='height:12.75pt;mso-ignore:colspan'>&nbsp;</td>
+  <td></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl50><a href="#Home">Top of Page</a></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='page-break-before:always;height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'><span
+  style='mso-spacerun:yes'>        </span><font class=font7><a name="2006">Rothamsted Research</a></font></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>The weather :
+  Monthly Summary : 2006</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>(Departure from
+  the 30 year means (1971 - 2000) in brackets)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 style='height:13.5pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=2 class=xl74 style='border-right:1.0pt solid black;border-left:
+  none'>Sunshine</td>
+  <td colspan=7 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'><span style='mso-spacerun:yes'> </span>Mean temperatures °C</td>
+  <td colspan=3 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'>Rain</td>
+  <td></td>
+ </tr>
+ <tr height=35 style='height:26.25pt'>
+  <td height=35 class=xl27 width=86 style='height:26.25pt;width:65pt'>&nbsp;</td>
+  <td colspan=2 class=xl77 width=144 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>&nbsp;</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Maximum</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Minimum</td>
+  <td class=xl28 width=66 style='width:50pt'>Ground</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Bare Soil</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Grass</td>
+  <td colspan=2 class=xl81 width=145 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>Total</td>
+  <td class=xl29 width=66 style='width:50pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr class=xl51 height=18 style='height:13.5pt'>
+  <td height=18 class=xl52 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl31>Hours</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>frosts*</td>
+  <td class=xl31>10 cm</td>
+  <td class=xl31>30 cm</td>
+  <td class=xl31>mm</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>days**</td>
+  <td class=xl51></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl33>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>January</td>
+  <td class=xl35 x:num>58.0</td>
+  <td class=xl36 x:num="2.95">(+3.0)</td>
+  <td class=xl35 x:num="6.1677419354838721">6.2</td>
+  <td class=xl36 x:num="-0.16892473118279661"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.2)</font></td>
+  <td class=xl35 x:num="1.8258064516129031">1.8</td>
+  <td class=xl36 x:num="0.96580645161290313">(+1.0)</td>
+  <td class=xl37 x:num>15</td>
+  <td class=xl38 x:num="3.7774193548387105">3.8</td>
+  <td class=xl38 x:num="5.0838709677419365">5.1</td>
+  <td class=xl35 x:num>29.2</td>
+  <td class=xl36 x:num="-40.456666666666671"><font color="#FF0000"
+  style='mso-ignore:color'>(-40.5)</font></td>
+  <td class=xl37 x:num>19</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>February</td>
+  <td class=xl40 x:num>80.2</td>
+  <td class=xl41 x:num="9.513333333333307">(+9.5)</td>
+  <td class=xl40 x:num="5.7321428571428568">5.7</td>
+  <td class=xl41 x:num="-0.97452380952381024"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.0)</font></td>
+  <td class=xl40 x:num="0.56785714285714284">0.6</td>
+  <td class=xl41 x:num="-0.17214285714285715"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.2)</font></td>
+  <td class=xl42 x:num>18</td>
+  <td class=xl43 x:num="3.0071428571428576">3.0</td>
+  <td class=xl43 x:num="4.4428571428571448">4.4</td>
+  <td class=xl40 x:num>41.4</td>
+  <td class=xl41 x:num="-7.3599999999999923"><font color="#FF0000"
+  style='mso-ignore:color'>(-7.4)</font></td>
+  <td class=xl42 x:num>14</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>March</td>
+  <td class=xl35 x:num>115.2</td>
+  <td class=xl36 x:num="8.0133333333333212">(+8.0)</td>
+  <td class=xl35 x:num="7.9290322580645158">7.9</td>
+  <td class=xl36 x:num="-1.5643010752688182"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.6)</font></td>
+  <td class=xl35 x:num>1.5</td>
+  <td class=xl36 x:num="-0.83333333333333326"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.8)</font></td>
+  <td class=xl37 x:num>16</td>
+  <td class=xl38 x:num="3.6870967741935492">3.7</td>
+  <td class=xl38 x:num="4.564516129032258">4.6</td>
+  <td class=xl35 x:num>49.5</td>
+  <td class=xl36 x:num="-4.3900000000000077"><font color="#FF0000"
+  style='mso-ignore:color'>(-4.4)</font></td>
+  <td class=xl37 x:num>13</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>April</td>
+  <td class=xl40 x:num>141.8</td>
+  <td class=xl41 x:num="-4.9766666666666879"><font color="#FF0000"
+  style='mso-ignore:color'>(-5.0)</font></td>
+  <td class=xl40 x:num="12.47">12.5</td>
+  <td class=xl41 x:num="0.53333333333333499">(+0.5)</td>
+  <td class=xl40 x:num="4.5166666666666657">4.5</td>
+  <td class=xl41 x:num="0.89999999999999947">(+0.9)</td>
+  <td class=xl42 x:num>8</td>
+  <td class=xl43 x:num="8.16">8.2</td>
+  <td class=xl43 x:num="8.6466666666666683">8.6</td>
+  <td class=xl40 x:num>51.0</td>
+  <td class=xl41 x:num="-2.5366666666666617"><font color="#FF0000"
+  style='mso-ignore:color'>(-2.5)</font></td>
+  <td class=xl42 x:num>21</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>May</td>
+  <td class=xl35 x:num>161.6</td>
+  <td class=xl36 x:num="-33.265000000000001"><font color="#FF0000"
+  style='mso-ignore:color'>(-33.3)</font></td>
+  <td class=xl35 x:num="16.425806451612907">16.4</td>
+  <td class=xl36 x:num="0.67913978494624061">(+0.7)</td>
+  <td class=xl35 x:num="8.2935483870967754">8.3</td>
+  <td class=xl36 x:num="1.9702150537634404">(+2.0)</td>
+  <td class=xl37 x:num>1</td>
+  <td class=xl38 x:num="12.909677419354843">12.9</td>
+  <td class=xl38 x:num="13.129032258064511">13.1</td>
+  <td class=xl35 x:num>89.0</td>
+  <td class=xl36 x:num="39.266666666666659">(+39.3)</td>
+  <td class=xl37 x:num>22</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>June</td>
+  <td class=xl40 x:num>265.9</td>
+  <td class=xl41 x:num="75.616666666666703">(+75.6)</td>
+  <td class=xl40 x:num="21.553333333333335">21.6</td>
+  <td class=xl41 x:num="2.9533333333333331">(+3.0)</td>
+  <td class=xl40 x:num="10.656666666666668">10.7</td>
+  <td class=xl41 x:num="1.45">(+1.5)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="17.623333333333335">17.6</td>
+  <td class=xl43 x:num="16.483333333333334">16.5</td>
+  <td class=xl40 x:num>15.0</td>
+  <td class=xl41 x:num="-45.196666666666673"><font color="#FF0000"
+  style='mso-ignore:color'>(-45.2)</font></td>
+  <td class=xl42 x:num>9</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>July</td>
+  <td class=xl35 x:num>275.1</td>
+  <td class=xl36 x:num="71.756666666666661">(+71.8)</td>
+  <td class=xl35 x:num="26.148387096774197">26.1</td>
+  <td class=xl36 x:num="4.7317204301075257">(+4.7)</td>
+  <td class=xl35 x:num="14.477419354838707">14.5</td>
+  <td class=xl36 x:num="3.1140860215053738">(+3.1)</td>
+  <td class=xl37 x:num>0</td>
+  <td class=xl38 x:num="20.670967741935481">20.7</td>
+  <td class=xl38 x:num="18.935483870967737">18.9</td>
+  <td class=xl35 x:num>35.6</td>
+  <td class=xl36 x:num="-6.4566666666666848"><font color="#FF0000"
+  style='mso-ignore:color'>(-6.5)</font></td>
+  <td class=xl37 x:num>12</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>August</td>
+  <td class=xl40 x:num>154.2</td>
+  <td class=xl41 x:num="-42.616666666666674"><font color="#FF0000"
+  style='mso-ignore:color'>(-42.6)</font></td>
+  <td class=xl40 x:num="20.335483870967739">20.3</td>
+  <td class=xl41 x:num="-1.0978494623655983"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.1)</font></td>
+  <td class=xl40 x:num="12.393548387096775">12.4</td>
+  <td class=xl41 x:num="1.0435483870967754">(+1.0)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="16.625806451612902">16.6</td>
+  <td class=xl43 x:num="17.41935483870968">17.4</td>
+  <td class=xl40 x:num>110.0</td>
+  <td class=xl41 x:num="56.30333333333332">(+56.3)</td>
+  <td class=xl42 x:num>22</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>September</td>
+  <td class=xl35 x:num>154.2</td>
+  <td class=xl36 x:num="11.863333333333316">(+11.9)</td>
+  <td class=xl35 x:num="21.346666666666671">21.3</td>
+  <td class=xl36 x:num="3.36">(+3.4)</td>
+  <td class=xl35 x:num="13.403333333333334">13.4</td>
+  <td class=xl36 x:num="3.96">(+4.0)</td>
+  <td class=xl37 x:num>0</td>
+  <td class=xl38 x:num>16.6</td>
+  <td class=xl38 x:num="17.063333333333329">17.1</td>
+  <td class=xl35 x:num>54.2</td>
+  <td class=xl36 x:num="-6.796666666666674"><font color="#FF0000"
+  style='mso-ignore:color'>(-6.8)</font></td>
+  <td class=xl37 x:num>16</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>October</td>
+  <td class=xl40 x:num>105.1</td>
+  <td class=xl41 x:num="-7.043333333333365"><font color="#FF0000"
+  style='mso-ignore:color'>(-7.0)</font></td>
+  <td class=xl40 x:num="16.483870967741936">16.5</td>
+  <td class=xl41 x:num="2.7405376344086001">(+2.7)</td>
+  <td class=xl40 x:num="9.9354838709677438">9.9</td>
+  <td class=xl41 x:num="3.2888172043010773">(+3.3)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="12.725806451612904">12.7</td>
+  <td class=xl43 x:num>14.5</td>
+  <td class=xl40 x:num>105.0</td>
+  <td class=xl41 x:num="30.343333333333348">(+30.3)</td>
+  <td class=xl42 x:num>24</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>November</td>
+  <td class=xl35 x:num>113.0</td>
+  <td class=xl36 x:num="42.9">(+42.9)</td>
+  <td class=xl35 x:num="11.506666666666668">11.5</td>
+  <td class=xl36 x:num="2.1266666666666669">(+2.1)</td>
+  <td class=xl35 x:num="4.3466666666666658">4.3</td>
+  <td class=xl36 x:num="1.0166666666666657">(+1.0)</td>
+  <td class=xl37 x:num>12</td>
+  <td class=xl38 x:num="7.2366666666666655">7.2</td>
+  <td class=xl38 x:num="9.8533333333333335">9.9</td>
+  <td class=xl35 x:num>104.4</td>
+  <td class=xl36 x:num="38.2">(+38.2)</td>
+  <td class=xl37 x:num>22</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>December</td>
+  <td class=xl40 x:num>65.6</td>
+  <td class=xl41 x:num="17.5">(+17.5)</td>
+  <td class=xl40 x:num="8.7741935483870961">8.8</td>
+  <td class=xl41 x:num="1.5841935483870957">(+1.6)</td>
+  <td class=xl40 x:num="3.3580645161290321">3.4</td>
+  <td class=xl41 x:num="1.4380645161290322">(+1.4)</td>
+  <td class=xl42 x:num>9</td>
+  <td class=xl43 x:num="5.7258064516129021">5.7</td>
+  <td class=xl43 x:num="7.4903225806451621">7.5</td>
+  <td class=xl40 x:num>95.0</td>
+  <td class=xl41 x:num="24.9">(+24.9)</td>
+  <td class=xl42 x:num>22</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl44 style='height:13.5pt'>Year</td>
+  <td class=xl45 x:num>1689.9</td>
+  <td class=xl46 x:num="152.21166666666682">(+152.2)</td>
+  <td class=xl47 x:num="14.572777137736814">14.6</td>
+  <td class=xl46 x:num="1.2419438044034816">(+1.2)</td>
+  <td class=xl47 x:num="7.1062551203277016">7.1</td>
+  <td class=xl46 x:num="1.5118106758832566">(+1.5)</td>
+  <td class=xl48 x:num>79</td>
+  <td class=xl49 x:num="10.729143625192014">10.7</td>
+  <td class=xl49 x:num="11.467675371223757">11.5</td>
+  <td class=xl47 x:num>779.3</td>
+  <td class=xl46 x:num="75.800000000000068">(+75.8)</td>
+  <td class=xl48 x:num>216</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'>* Number of
+  nights grass minimum was below 0.0 °C</td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>** Number
+  of days rain was 0.2 mm or more</td>
+  <td colspan=9 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=3 style='height:12.75pt;mso-ignore:colspan'>&nbsp;</td>
+  <td></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl50><a href="#Home">Top of Page</a></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='page-break-before:always;height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'><span
+  style='mso-spacerun:yes'>        </span><font class=font7><a name="2005">Rothamsted Research</a></font></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>The weather :
+  Monthly Summary : 2005</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>(Departure from
+  the 30 year means (1971 - 2000) in brackets)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 style='height:13.5pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=2 class=xl74 style='border-right:1.0pt solid black;border-left:
+  none'>Sunshine</td>
+  <td colspan=7 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'><span style='mso-spacerun:yes'> </span>Mean temperatures °C</td>
+  <td colspan=3 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'>Rain</td>
+  <td></td>
+ </tr>
+ <tr height=35 style='height:26.25pt'>
+  <td height=35 class=xl27 width=86 style='height:26.25pt;width:65pt'>&nbsp;</td>
+  <td colspan=2 class=xl77 width=144 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>&nbsp;</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Maximum</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Minimum</td>
+  <td class=xl28 width=66 style='width:50pt'>Ground</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Bare Soil</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Grass</td>
+  <td colspan=2 class=xl81 width=145 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>Total</td>
+  <td class=xl29 width=66 style='width:50pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl30 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl31>Hours</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>frosts*</td>
+  <td class=xl31>10 cm</td>
+  <td class=xl31>30 cm</td>
+  <td class=xl31>mm</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>days**</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl33>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>January</td>
+  <td class=xl35 x:num>81.3</td>
+  <td class=xl36 x:num="26.25">(+26.3)</td>
+  <td class=xl35 x:num="8.3354838709677423">8.3</td>
+  <td class=xl36 x:num="1.9988172043010737">(+2.0)</td>
+  <td class=xl35 x:num="2.4580645161290318">2.5</td>
+  <td class=xl36 x:num="1.5980645161290319">(+1.6)</td>
+  <td class=xl37 x:num>20</td>
+  <td class=xl38 x:num="4.1225806451612899">4.1</td>
+  <td class=xl38 x:num="5.758064516129032">5.8</td>
+  <td class=xl35 x:num>33.8</td>
+  <td class=xl36 x:num="-35.856666666666669"><font color="#FF0000"
+  style='mso-ignore:color'>(-35.9)</font></td>
+  <td class=xl37 x:num>22</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>February</td>
+  <td class=xl40 x:num>66.3</td>
+  <td class=xl41 x:num="-4.3866666666666703"><font color="#FF0000"
+  style='mso-ignore:color'>(-4.4)</font></td>
+  <td class=xl40 x:num="6.1285714285714308">6.1</td>
+  <td class=xl41 x:num="-0.57809523809523622"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.6)</font></td>
+  <td class=xl40 x:num="1.2214285714285715">1.2</td>
+  <td class=xl41 x:num="0.48142857142857154">(+0.5)</td>
+  <td class=xl42 x:num>20</td>
+  <td class=xl43 x:num="3.5392857142857141">3.5</td>
+  <td class=xl43 x:num="5.1964285714285712">5.2</td>
+  <td class=xl40 x:num>36.2</td>
+  <td class=xl41 x:num="-12.56"><font color="#FF0000" style='mso-ignore:color'>(-12.6)</font></td>
+  <td class=xl42 x:num>23</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>March</td>
+  <td class=xl35 x:num>99.3</td>
+  <td class=xl36 x:num="-7.8866666666666703"><font color="#FF0000"
+  style='mso-ignore:color'>(-7.9)</font></td>
+  <td class=xl35 x:num="10.012903225806449">10.0</td>
+  <td class=xl36 x:num="0.51956989247311469">(+0.5)</td>
+  <td class=xl35 x:num="3.1967741935483875">3.2</td>
+  <td class=xl36 x:num="0.86344086021505406">(+0.9)</td>
+  <td class=xl37 x:num>14</td>
+  <td class=xl38 x:num="5.225806451612903">5.2</td>
+  <td class=xl38 x:num="5.9290322580645167">5.9</td>
+  <td class=xl35 x:num>43.2</td>
+  <td class=xl36 x:num="-10.69"><font color="#FF0000" style='mso-ignore:color'>(-10.7)</font></td>
+  <td class=xl37 x:num>17</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>April</td>
+  <td class=xl40 x:num>149.5</td>
+  <td class=xl41 x:num="2.7233333333333007">(+2.7)</td>
+  <td class=xl40 x:num="13.083333333333332">13.1</td>
+  <td class=xl41 x:num="1.1466666666666665">(+1.1)</td>
+  <td class=xl40 x:num="4.72">4.7</td>
+  <td class=xl41 x:num="1.1033333333333344">(+1.1)</td>
+  <td class=xl42 x:num>5</td>
+  <td class=xl43 x:num="8.42">8.4</td>
+  <td class=xl43 x:num="9.4266666666666659">9.4</td>
+  <td class=xl40 x:num>65.6</td>
+  <td class=xl41 x:num="12.063333333333333">(+12.1)</td>
+  <td class=xl42 x:num>21</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>May</td>
+  <td class=xl35 x:num>214.4</td>
+  <td class=xl36 x:num="19.535">(+19.5)</td>
+  <td class=xl35 x:num="15.754838709677426">15.8</td>
+  <td class=xl36 x:num="8.1720430107594666E-3">(+0.0)</td>
+  <td class=xl35 x:num="6.9451612903225799">6.9</td>
+  <td class=xl36 x:num="0.62182795698924487">(+0.6)</td>
+  <td class=xl37 x:num>8</td>
+  <td class=xl38 x:num="11.816129032258065">11.8</td>
+  <td class=xl38 x:num="12.112903225806454">12.1</td>
+  <td class=xl35 x:num>44.4</td>
+  <td class=xl36 x:num="-5.3333333333333428"><font color="#FF0000"
+  style='mso-ignore:color'>(-5.3)</font></td>
+  <td class=xl37 x:num>19</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>June</td>
+  <td class=xl40 x:num>219.4</td>
+  <td class=xl41 x:num="29.116666666666646">(+29.1)</td>
+  <td class=xl40 x:num="20.616666666666674">20.6</td>
+  <td class=xl41 x:num="2.0166666666666728">(+2.0)</td>
+  <td class=xl40 x:num="10.733333333333331">10.7</td>
+  <td class=xl41 x:num="1.5266666666666637">(+1.5)</td>
+  <td class=xl42 x:num>3</td>
+  <td class=xl43 x:num="16.183333333333334">16.2</td>
+  <td class=xl43 x:num="15.543333333333338">15.5</td>
+  <td class=xl40 x:num>44.0</td>
+  <td class=xl41 x:num="-16.196666666666665"><font color="#FF0000"
+  style='mso-ignore:color'>(-16.2)</font></td>
+  <td class=xl42 x:num>11</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>July</td>
+  <td class=xl35 x:num>176.5</td>
+  <td class=xl36 x:num="-26.843333333333277"><font color="#FF0000"
+  style='mso-ignore:color'>(-26.8)</font></td>
+  <td class=xl35 x:num>20.9</td>
+  <td class=xl36 x:num="-0.51666666666666572"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.5)</font></td>
+  <td class=xl35 x:num="12.567741935483872">12.6</td>
+  <td class=xl36 x:num="1.2044086021505382">(+1.2)</td>
+  <td class=xl37 x:num>0</td>
+  <td class=xl38 x:num="16.870967741935477">16.9</td>
+  <td class=xl38 x:num="16.980645161290326">17.0</td>
+  <td class=xl35 x:num>39.0</td>
+  <td class=xl36 x:num="-3.0566666666666791"><font color="#FF0000"
+  style='mso-ignore:color'>(-3.1)</font></td>
+  <td class=xl37 x:num>14</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>August</td>
+  <td class=xl40 x:num>205.3</td>
+  <td class=xl41 x:num="8.4833333333334053">(+8.5)</td>
+  <td class=xl40 x:num="21.309677419354838">21.3</td>
+  <td class=xl41 x:num="-0.1236559139784994"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.1)</font></td>
+  <td class=xl40 x:num="10.977419354838711">11.0</td>
+  <td class=xl41 x:num="-0.37258064516128897"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.4)</font></td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="15.493548387096773">15.5</td>
+  <td class=xl43 x:num="16.406451612903222">16.4</td>
+  <td class=xl40 x:num>58.6</td>
+  <td class=xl41 x:num="4.903333333333336">(+4.9)</td>
+  <td class=xl42 x:num>12</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>September</td>
+  <td class=xl35 x:num>149.4</td>
+  <td class=xl36 x:num="7.0633333333333326">(+7.1)</td>
+  <td class=xl35 x:num="19.703333333333333">19.7</td>
+  <td class=xl36 x:num="1.716666666666665">(+1.7)</td>
+  <td class=xl35 x:num="10.873333333333335">10.9</td>
+  <td class=xl36 x:num="1.43">(+1.4)</td>
+  <td class=xl37 x:num>1</td>
+  <td class=xl38 x:num="14.866666666666665">14.9</td>
+  <td class=xl38 x:num="16.16333333333333">16.2</td>
+  <td class=xl35 x:num>65.0</td>
+  <td class=xl36 x:num="4.0033333333333374">(+4.0)</td>
+  <td class=xl37 x:num>19</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>October</td>
+  <td class=xl40 x:num>94.2</td>
+  <td class=xl41 x:num="-17.943333333333371"><font color="#FF0000"
+  style='mso-ignore:color'>(-17.9)</font></td>
+  <td class=xl40 x:num="16.390322580645162">16.4</td>
+  <td class=xl41 x:num="2.6469892473118257">(+2.6)</td>
+  <td class=xl40 x:num="10.096774193548386">10.1</td>
+  <td class=xl41 x:num="3.4501075268817196">(+3.5)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="12.20967741935484">12.2</td>
+  <td class=xl43 x:num="13.632258064516133">13.6</td>
+  <td class=xl40 x:num>88.4</td>
+  <td class=xl41 x:num="13.743333333333339">(+13.7)</td>
+  <td class=xl42 x:num>19</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>November</td>
+  <td class=xl35 x:num>96.1</td>
+  <td class=xl36 x:num="26">(+26.0)</td>
+  <td class=xl35 x:num="9.34">9.3</td>
+  <td class=xl36 x:num="-3.9999999999999147E-2"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.0)</font></td>
+  <td class=xl35 x:num="2.2866666666666662">2.3</td>
+  <td class=xl36 x:num="-1.0433333333333339"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.0)</font></td>
+  <td class=xl37 x:num>18</td>
+  <td class=xl38 x:num="6.3033333333333337">6.3</td>
+  <td class=xl38 x:num="9.28">9.3</td>
+  <td class=xl35 x:num>53.2</td>
+  <td class=xl36 x:num="-13"><font color="#FF0000" style='mso-ignore:color'>(-13.0)</font></td>
+  <td class=xl37 x:num>24</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>December</td>
+  <td class=xl40 x:num>82.0</td>
+  <td class=xl41 x:num="33.9">(+33.9)</td>
+  <td class=xl40 x:num="6.8193548387096765">6.8</td>
+  <td class=xl41 x:num="-0.37064516129032388"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.4)</font></td>
+  <td class=xl40 x:num="1.0903225806451613">1.1</td>
+  <td class=xl41 x:num="-0.82967741935483863"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.8)</font></td>
+  <td class=xl42 x:num>20</td>
+  <td class=xl43 x:num="4.0870967741935473">4.1</td>
+  <td class=xl43 x:num="5.806451612903226">5.8</td>
+  <td class=xl40 x:num>53.0</td>
+  <td class=xl41 x:num="-17.1"><font color="#FF0000" style='mso-ignore:color'>(-17.1)</font></td>
+  <td class=xl42 x:num>20</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl44 style='height:13.5pt'>Year</td>
+  <td class=xl45 x:num>1633.7</td>
+  <td class=xl46 x:num="96.011666666666997">(+96.0)</td>
+  <td class=xl47 x:num="14.032873783922172">14.0</td>
+  <td class=xl46 x:num="0.70204045058883935">(+0.7)</td>
+  <td class=xl47 x:num="6.4305849974398361">6.4</td>
+  <td class=xl46 x:num="0.83614055299539114">(+0.8)</td>
+  <td class=xl48 x:num>109</td>
+  <td class=xl49 x:num="9.9282021249359929">9.9</td>
+  <td class=xl49 x:num="11.019630696364567">11.0</td>
+  <td class=xl47 x:num>624.4</td>
+  <td class=xl46 x:num="-79.099999999999909"><font color="#FF0000"
+  style='mso-ignore:color'>(-79.1)</font></td>
+  <td class=xl48 x:num>221</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'>* Number of
+  nights grass minimum was below 0.0 °C</td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>** Number
+  of days rain was 0.2 mm or more</td>
+  <td colspan=9 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=3 style='height:12.75pt;mso-ignore:colspan'>&nbsp;</td>
+  <td></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl50><a href="#Home">Top of Page</a></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='page-break-before:always;height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'><span
+  style='mso-spacerun:yes'>        </span><font class=font7><a name="2004">Rothamsted Research</a></font></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>The weather :
+  Monthly Summary : 2004</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>(Departure from
+  the 30 year means (1971 - 2000) in brackets)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 style='height:13.5pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=2 class=xl74 style='border-right:1.0pt solid black;border-left:
+  none'>Sunshine</td>
+  <td colspan=7 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'><span style='mso-spacerun:yes'> </span>Mean temperatures °C</td>
+  <td colspan=3 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'>Rain</td>
+  <td></td>
+ </tr>
+ <tr height=35 style='height:26.25pt'>
+  <td height=35 class=xl27 width=86 style='height:26.25pt;width:65pt'>&nbsp;</td>
+  <td colspan=2 class=xl77 width=144 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>&nbsp;</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Maximum</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Minimum</td>
+  <td class=xl28 width=66 style='width:50pt'>Ground</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Bare Soil</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Grass</td>
+  <td colspan=2 class=xl81 width=145 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>Total</td>
+  <td class=xl29 width=66 style='width:50pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl30 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl31>Hours</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>frosts*</td>
+  <td class=xl31>10 cm</td>
+  <td class=xl31>30 cm</td>
+  <td class=xl31> mm</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>days**</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl33>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>January</td>
+  <td class=xl35 x:num>56.5</td>
+  <td class=xl36 x:num="1.45">(+1.5)</td>
+  <td class=xl35 x:num="7.51">7.5</td>
+  <td class=xl36 x:num="1.1733333333333311">(+1.2)</td>
+  <td class=xl35 x:num="1.81">1.8</td>
+  <td class=xl36 x:num="0.95">(+1.0)</td>
+  <td class=xl37 x:num>14</td>
+  <td class=xl38 x:num="3.73">3.7</td>
+  <td class=xl38 x:num="5.07">5.1</td>
+  <td class=xl35 x:num>88.2</td>
+  <td class=xl36 x:num="18.543333333333337">(+18.5)</td>
+  <td class=xl37 x:num>23</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>February</td>
+  <td class=xl40 x:num>77.7</td>
+  <td class=xl41 x:num="7.0133333333333212">(+7.0)</td>
+  <td class=xl40 x:num="7.47">7.5</td>
+  <td class=xl41 x:num="0.76333333333333275">(+0.8)</td>
+  <td class=xl40 x:num="2.73">2.7</td>
+  <td class=xl41 x:num="1.99">(+2.0)</td>
+  <td class=xl42 x:num>13</td>
+  <td class=xl43 x:num="4.07">4.1</td>
+  <td class=xl43 x:num>5.7</td>
+  <td class=xl40 x:num>24.0</td>
+  <td class=xl41 x:num="-24.76"><font color="#FF0000" style='mso-ignore:color'>(-24.8)</font></td>
+  <td class=xl42 x:num>14</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>March</td>
+  <td class=xl35 x:num>103.2</td>
+  <td class=xl36 x:num="-3.9866666666666646"><font color="#FF0000"
+  style='mso-ignore:color'>(-4.0)</font></td>
+  <td class=xl35 x:num="9.56">9.6</td>
+  <td class=xl36 x:num="6.666666666666643E-2">(+0.1)</td>
+  <td class=xl35 x:num="2.75">2.8</td>
+  <td class=xl36 x:num="0.41666666666666652">(+0.4)</td>
+  <td class=xl37 x:num>14</td>
+  <td class=xl38 x:num="4.68">4.7</td>
+  <td class=xl38 x:num="5.61">5.6</td>
+  <td class=xl35 x:num>47.4</td>
+  <td class=xl36 x:num="-6.49"><font color="#FF0000" style='mso-ignore:color'>(-6.5)</font></td>
+  <td class=xl37 x:num>19</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>April</td>
+  <td class=xl40 x:num>152.9</td>
+  <td class=xl41 x:num="6.1233333333333064">(+6.1)</td>
+  <td class=xl40 x:num="13.46">13.5</td>
+  <td class=xl41 x:num="1.5233333333333352">(+1.5)</td>
+  <td class=xl40 x:num="4.67">4.7</td>
+  <td class=xl41 x:num="1.0533333333333337">(+1.1)</td>
+  <td class=xl42 x:num>5</td>
+  <td class=xl43 x:num="8.45">8.5</td>
+  <td class=xl43 x:num="9.18">9.2</td>
+  <td class=xl40 x:num>82.2</td>
+  <td class=xl41 x:num="28.663333333333341">(+28.7)</td>
+  <td class=xl42 x:num>18</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>May</td>
+  <td class=xl35 x:num>187.1</td>
+  <td class=xl36 x:num="-7.7650000000000148"><font color="#FF0000"
+  style='mso-ignore:color'>(-7.8)</font></td>
+  <td class=xl35 x:num="16.29">16.3</td>
+  <td class=xl36 x:num="0.543333333333333">(+0.5)</td>
+  <td class=xl35 x:num="7.68">7.7</td>
+  <td class=xl36 x:num="1.3566666666666647">(+1.4)</td>
+  <td class=xl37 x:num>0</td>
+  <td class=xl38 x:num="12.73">12.7</td>
+  <td class=xl38 x:num="12.82">12.8</td>
+  <td class=xl35 x:num>51.6</td>
+  <td class=xl36 x:num="1.86666666666666">(+1.9)</td>
+  <td class=xl37 x:num>12</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>June</td>
+  <td class=xl40 x:num>203.2</td>
+  <td class=xl41 x:num="12.916666666666657">(+12.9)</td>
+  <td class=xl40 x:num="20.32">20.3</td>
+  <td class=xl41 x:num="1.72">(+1.7)</td>
+  <td class=xl40 x:num="10.54">10.5</td>
+  <td class=xl41 x:num="1.3333333333333321">(+1.3)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="15.97">16.0</td>
+  <td class=xl43 x:num="15.72">15.7</td>
+  <td class=xl40 x:num>32.4</td>
+  <td class=xl41 x:num="-27.796666666666674"><font color="#FF0000"
+  style='mso-ignore:color'>(-27.8)</font></td>
+  <td class=xl42 x:num>12</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>July</td>
+  <td class=xl35 x:num>175.2</td>
+  <td class=xl36 x:num="-28.143333333333317"><font color="#FF0000"
+  style='mso-ignore:color'>(-28.1)</font></td>
+  <td class=xl35 x:num="21.36">21.4</td>
+  <td class=xl36 x:num="-5.6666666666671972E-2"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.1)</font></td>
+  <td class=xl35 x:num="11.31">11.3</td>
+  <td class=xl36 x:num="-5.3333333333332789E-2"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.1)</font></td>
+  <td class=xl37 x:num>0</td>
+  <td class=xl38 x:num="16.13">16.1</td>
+  <td class=xl38 x:num="16.07">16.1</td>
+  <td class=xl35 x:num>49.8</td>
+  <td class=xl36 x:num="7.7433333333333181">(+7.7)</td>
+  <td class=xl37 x:num>19</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>August</td>
+  <td class=xl40 x:num>165.0</td>
+  <td class=xl41 x:num="-31.816666666666663"><font color="#FF0000"
+  style='mso-ignore:color'>(-31.8)</font></td>
+  <td class=xl40 x:num="22.35">22.4</td>
+  <td class=xl41 x:num="0.9166666666666643">(+0.9)</td>
+  <td class=xl40 x:num="13.84">13.8</td>
+  <td class=xl41 x:num="2.49">(+2.5)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="17.45">17.5</td>
+  <td class=xl43 x:num>18.0</td>
+  <td class=xl40 x:num>113.4</td>
+  <td class=xl41 x:num="59.70333333333334">(+59.7)</td>
+  <td class=xl42 x:num>24</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>September</td>
+  <td class=xl35 x:num>166.9</td>
+  <td class=xl36 x:num="24.563333333333333">(+24.6)</td>
+  <td class=xl35 x:num="19.42">19.4</td>
+  <td class=xl36 x:num="1.4333333333333336">(+1.4)</td>
+  <td class=xl35 x:num="11.05">11.1</td>
+  <td class=xl36 x:num="1.6066666666666674">(+1.6)</td>
+  <td class=xl37 x:num>0</td>
+  <td class=xl38 x:num="14.42">14.4</td>
+  <td class=xl38 x:num="15.61">15.6</td>
+  <td class=xl35 x:num>24.4</td>
+  <td class=xl36 x:num="-36.596666666666678"><font color="#FF0000"
+  style='mso-ignore:color'>(-36.6)</font></td>
+  <td class=xl37 x:num>17</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>October</td>
+  <td class=xl40 x:num>85.6</td>
+  <td class=xl41 x:num="-26.543333333333365"><font color="#FF0000"
+  style='mso-ignore:color'>(-26.5)</font></td>
+  <td class=xl40 x:num="13.83">13.8</td>
+  <td class=xl41 x:num="8.6666666666664227E-2">(+0.1)</td>
+  <td class=xl40 x:num="7.48">7.5</td>
+  <td class=xl41 x:num="0.83333333333333393">(+0.8)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="10.09">10.1</td>
+  <td class=xl43 x:num="12.15">12.2</td>
+  <td class=xl40 x:num>126.4</td>
+  <td class=xl41 x:num="51.743333333333339">(+51.7)</td>
+  <td class=xl42 x:num>26</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>November</td>
+  <td class=xl35 x:num>70.3</td>
+  <td class=xl36 x:num="0.20000000000000284">(+0.2)</td>
+  <td class=xl35 x:num="9.83">9.8</td>
+  <td class=xl36 x:num="0.44999999999999929">(+0.4)</td>
+  <td class=xl35 x:num="4.93">4.9</td>
+  <td class=xl36 x:num="1.6">(+1.6)</td>
+  <td class=xl37 x:num>8</td>
+  <td class=xl38 x:num="7.62">7.6</td>
+  <td class=xl38 x:num="9.51">9.5</td>
+  <td class=xl35 x:num>73.6</td>
+  <td class=xl36 x:num="7.3999999999999915">(+7.4)</td>
+  <td class=xl37 x:num>21</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>December</td>
+  <td class=xl40 x:num>61.0</td>
+  <td class=xl41 x:num="12.9">(+12.9)</td>
+  <td class=xl40 x:num>7.7</td>
+  <td class=xl41 x:num="0.51">(+0.5)</td>
+  <td class=xl40 x:num="1.93">1.9</td>
+  <td class=xl41 x:num="0.01">(+0.0)</td>
+  <td class=xl42 x:num>17</td>
+  <td class=xl43 x:num="4.68">4.7</td>
+  <td class=xl43 x:num="6.53">6.5</td>
+  <td class=xl40 x:num>40.4</td>
+  <td class=xl41 x:num="-29.7"><font color="#FF0000" style='mso-ignore:color'>(-29.7)</font></td>
+  <td class=xl42 x:num>16</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl44 style='height:13.5pt'>Year</td>
+  <td class=xl45 x:num>1504.6</td>
+  <td class=xl46 x:num="-33.088333333333139"><font color="#FF0000"
+  style='mso-ignore:color'>(-33.1)</font></td>
+  <td class=xl47 x:num="14.091666666666669">14.1</td>
+  <td class=xl46 x:num="0.76083333333333591">(+0.8)</td>
+  <td class=xl47 x:num="6.7266666666666666">6.7</td>
+  <td class=xl46 x:num="1.1322222222222216">(+1.1)</td>
+  <td class=xl48 x:num>71</td>
+  <td class=xl49 x:num="10.996111111111112">11.0</td>
+  <td class=xl49 x:num="10.888888888888888">10.9</td>
+  <td class=xl47 x:num>753.8</td>
+  <td class=xl46 x:num="50.3">(+50.3)</td>
+  <td class=xl48 x:num>221</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=12 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'>* Number of
+  nights grass minimum was below 0.0 °C</td>
+  <td colspan=8 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>** Number
+  of days rain was 0.2 mm or more</td>
+  <td colspan=9 class=xl25 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=3 style='height:12.75pt;mso-ignore:colspan'>&nbsp;</td>
+  <td></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl50><a href="#Home">Top of Page</a></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='page-break-before:always;height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'><span
+  style='mso-spacerun:yes'>        </span><font class=font7><a name="2003">Rothamsted Research</a></font></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>The weather :
+  Monthly Summary : 2003</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>(Departure from
+  the 30 year means (1971 - 2000) in brackets)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=14 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=2 class=xl74 style='border-right:1.0pt solid black;border-left:
+  none'>Sunshine</td>
+  <td colspan=7 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'><span style='mso-spacerun:yes'> </span>Mean temperatures °C</td>
+  <td colspan=3 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'>Rain</td>
+  <td></td>
+ </tr>
+ <tr height=35 style='height:26.25pt'>
+  <td height=35 class=xl27 width=86 style='height:26.25pt;width:65pt'>&nbsp;</td>
+  <td colspan=2 class=xl77 width=144 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>&nbsp;</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Maximum</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Minimum</td>
+  <td class=xl28 width=66 style='width:50pt'>Ground</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Bare Soil</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Grass</td>
+  <td colspan=2 class=xl81 width=145 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>Total</td>
+  <td class=xl29 width=66 style='width:50pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl30 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl31>Hours</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>frosts*</td>
+  <td class=xl31>10 cm</td>
+  <td class=xl31>30 cm</td>
+  <td class=xl31>mm</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>days**</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl33>&nbsp;</td>
+  <td></td>
+  <td class=xl26>&nbsp;</td>
+  <td class=xl26>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>January</td>
+  <td class=xl35 x:num>67.8</td>
+  <td class=xl36 x:num="12.75">(+12.8)</td>
+  <td class=xl35 x:num="6.51">6.5</td>
+  <td class=xl36 x:num="0.17333333333333112">(+0.2)</td>
+  <td class=xl35 x:num="1.26">1.3</td>
+  <td class=xl36 x:num="0.4">(+0.4)</td>
+  <td class=xl37 x:num>14</td>
+  <td class=xl38 x:num="3.37">3.4</td>
+  <td class=xl38 x:num="5.22">5.2</td>
+  <td class=xl35 x:num>96.0</td>
+  <td class=xl36 x:num="26.343333333333334">(+26.3)</td>
+  <td class=xl37 x:num>21</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>February</td>
+  <td class=xl40 x:num>94.2</td>
+  <td class=xl41 x:num="23.513333333333321">(+23.5)</td>
+  <td class=xl40 x:num="6.91">6.9</td>
+  <td class=xl41 x:num="0.20333333333333314">(+0.2)</td>
+  <td class=xl40 x:num>0.4</td>
+  <td class=xl41 x:num="-0.34"><font color="#FF0000" style='mso-ignore:color'>(-0.3)</font></td>
+  <td class=xl42 x:num>20</td>
+  <td class=xl43 x:num="2.51">2.5</td>
+  <td class=xl43 x:num="4.05">4.1</td>
+  <td class=xl40 x:num>25.6</td>
+  <td class=xl41 x:num="-23.16"><font color="#FF0000" style='mso-ignore:color'>(-23.2)</font></td>
+  <td class=xl42 x:num>11</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>March</td>
+  <td class=xl35 x:num>168.0</td>
+  <td class=xl36 x:num="60.813333333333333">(+60.8)</td>
+  <td class=xl35 x:num="12.09">12.1</td>
+  <td class=xl36 x:num="2.5966666666666658">(+2.6)</td>
+  <td class=xl35 x:num="2.48">2.5</td>
+  <td class=xl36 x:num="0.1466666666666665">(+0.1)</td>
+  <td class=xl37 x:num>6</td>
+  <td class=xl38 x:num="5.57">5.6</td>
+  <td class=xl38 x:num="6.67">6.7</td>
+  <td class=xl35 x:num>23.5</td>
+  <td class=xl36 x:num="-30.39"><font color="#FF0000" style='mso-ignore:color'>(-30.4)</font></td>
+  <td class=xl37 x:num>8</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>April</td>
+  <td class=xl40 x:num>186.4</td>
+  <td class=xl41 x:num="39.623333333333306">(+39.6)</td>
+  <td class=xl40 x:num="14.18">14.2</td>
+  <td class=xl41 x:num="2.2433333333333341">(+2.2)</td>
+  <td class=xl40 x:num="4.24">4.2</td>
+  <td class=xl41 x:num="0.62333333333333396">(+0.6)</td>
+  <td class=xl42 x:num>13</td>
+  <td class=xl43 x:num>8.9</td>
+  <td class=xl43 x:num="8.92">8.9</td>
+  <td class=xl40 x:num>37.7</td>
+  <td class=xl41 x:num="-15.836666666666659"><font color="#FF0000"
+  style='mso-ignore:color'>(-15.8)</font></td>
+  <td class=xl42 x:num>8</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>May</td>
+  <td class=xl35 x:num>196.0</td>
+  <td class=xl36 x:num="1.1349999999999909">(+1.1)</td>
+  <td class=xl35 x:num="16.92">16.9</td>
+  <td class=xl36 x:num="1.1733333333333356">(+1.2)</td>
+  <td class=xl35 x:num>7.4</td>
+  <td class=xl36 x:num="1.0766666666666653">(+1.1)</td>
+  <td class=xl37 x:num>2</td>
+  <td class=xl38 x:num="12.81">12.8</td>
+  <td class=xl38 x:num="12.37">12.4</td>
+  <td class=xl35 x:num>43.2</td>
+  <td class=xl36 x:num="-6.5333333333333385"><font color="#FF0000"
+  style='mso-ignore:color'>(-6.5)</font></td>
+  <td class=xl37 x:num>14</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>June</td>
+  <td class=xl40 x:num>220.6</td>
+  <td class=xl41 x:num="30.316666666666663">(+30.3)</td>
+  <td class=xl40 x:num="21.35">21.4</td>
+  <td class=xl41 x:num="2.75">(+2.8)</td>
+  <td class=xl40 x:num="11.18">11.2</td>
+  <td class=xl41 x:num="1.9733333333333327">(+2.0)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="18.34">18.3</td>
+  <td class=xl43 x:num="16.44">16.4</td>
+  <td class=xl40 x:num>45.1</td>
+  <td class=xl41 x:num="-15.096666666666671"><font color="#FF0000"
+  style='mso-ignore:color'>(-15.1)</font></td>
+  <td class=xl42 x:num>12</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>July</td>
+  <td class=xl35 x:num>204.5</td>
+  <td class=xl36 x:num="1.1566666666666947">(+1.2)</td>
+  <td class=xl35 x:num>22.9</td>
+  <td class=xl36 x:num="1.4833333333333272">(+1.5)</td>
+  <td class=xl35 x:num="12.89">12.9</td>
+  <td class=xl36 x:num="1.5266666666666673">(+1.5)</td>
+  <td class=xl37 x:num>0</td>
+  <td class=xl38 x:num="19.41">19.4</td>
+  <td class=xl38 x:num>17.7</td>
+  <td class=xl35 x:num>39.6</td>
+  <td class=xl36 x:num="-2.4566666666666777"><font color="#FF0000"
+  style='mso-ignore:color'>(-2.5)</font></td>
+  <td class=xl37 x:num>14</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>August</td>
+  <td class=xl40 x:num>247.4</td>
+  <td class=xl41 x:num="50.583333333333343">(+50.6)</td>
+  <td class=xl40 x:num="24.95">25.0</td>
+  <td class=xl41 x:num="3.5166666666666622">(+3.5)</td>
+  <td class=xl40 x:num>13.4</td>
+  <td class=xl41 x:num="2.05">(+2.1)</td>
+  <td class=xl42 x:num>0</td>
+  <td class=xl43 x:num="20.45">20.5</td>
+  <td class=xl43 x:num="18.64">18.6</td>
+  <td class=xl40 x:num>2.3</td>
+  <td class=xl41 x:num="-51.396666666666668"><font color="#FF0000"
+  style='mso-ignore:color'>(-51.4)</font></td>
+  <td class=xl42 x:num>3</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>September</td>
+  <td class=xl35 x:num>188.5</td>
+  <td class=xl36 x:num="46.163333333333327">(+46.2)</td>
+  <td class=xl35 x:num="20.47">20.5</td>
+  <td class=xl36 x:num="2.4833333333333307">(+2.5)</td>
+  <td class=xl35 x:num="8.53">8.5</td>
+  <td class=xl36 x:num="-0.913333333333334"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.9)</font></td>
+  <td class=xl37 x:num>3</td>
+  <td class=xl38 x:num="14.74">14.7</td>
+  <td class=xl38 x:num="15.56">15.6</td>
+  <td class=xl35 x:num>15.1</td>
+  <td class=xl36 x:num="-45.896666666666675"><font color="#FF0000"
+  style='mso-ignore:color'>(-45.9)</font></td>
+  <td class=xl37 x:num>5</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>October</td>
+  <td class=xl40 x:num>145.8</td>
+  <td class=xl41 x:num="33.656666666666652">(+33.7)</td>
+  <td class=xl40 x:num="13.28">13.3</td>
+  <td class=xl41 x:num="-0.46333333333333648"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.5)</font></td>
+  <td class=xl40 x:num="5.06">5.1</td>
+  <td class=xl41 x:num="-1.5866666666666669"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.6)</font></td>
+  <td class=xl42 x:num>13</td>
+  <td class=xl43 x:num="8.64">8.6</td>
+  <td class=xl43 x:num="11.37">11.4</td>
+  <td class=xl40 x:num>37.9</td>
+  <td class=xl41 x:num="-36.756666666666668"><font color="#FF0000"
+  style='mso-ignore:color'>(-36.8)</font></td>
+  <td class=xl42 x:num>13</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl34 style='height:12.75pt'>November</td>
+  <td class=xl35 x:num>80.3</td>
+  <td class=xl36 x:num="10.2">(+10.2)</td>
+  <td class=xl35 x:num="11.17">11.2</td>
+  <td class=xl36 x:num="1.79">(+1.8)</td>
+  <td class=xl35 x:num="5.36">5.4</td>
+  <td class=xl36 x:num="2.03">(+2.0)</td>
+  <td class=xl37 x:num>7</td>
+  <td class=xl38 x:num="7.45">7.5</td>
+  <td class=xl38 x:num="9.35">9.4</td>
+  <td class=xl35 x:num>137.4</td>
+  <td class=xl36 x:num="71.2">(+71.2)</td>
+  <td class=xl37 x:num>19</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'>December</td>
+  <td class=xl40 x:num>63.4</td>
+  <td class=xl41 x:num="15.3">(+15.3)</td>
+  <td class=xl40 x:num="7.37">7.4</td>
+  <td class=xl41 x:num="0.18">(+0.2)</td>
+  <td class=xl40 x:num="1.85">1.9</td>
+  <td class=xl41 x:num="-6.999999999999984E-2"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.1)</font></td>
+  <td class=xl42 x:num>17</td>
+  <td class=xl43 x:num="3.93">3.9</td>
+  <td class=xl43 x:num="6.16">6.2</td>
+  <td class=xl40 x:num>90.6</td>
+  <td class=xl41 x:num="20.5">(+20.5)</td>
+  <td class=xl42 x:num>24</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl32 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl25></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl38>&nbsp;</td>
+  <td class=xl35></td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl37>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl44 style='height:13.5pt'>Year</td>
+  <td class=xl45 x:num>1862.9</td>
+  <td class=xl46 x:num="325.21166666666704">(+325.2)</td>
+  <td class=xl47 x:num="14.841666666666669">14.8</td>
+  <td class=xl46 x:num="1.5108333333333359">(+1.5)</td>
+  <td class=xl47 x:num="6.1708333333333334">6.2</td>
+  <td class=xl46 x:num="0.5763888888888884">(+0.6)</td>
+  <td class=xl48 x:num>95</td>
+  <td class=xl49 x:num="11.294166666666667">11.3</td>
+  <td class=xl49 x:num="11.245833333333335">11.2</td>
+  <td class=xl47 x:num>594.0</td>
+  <td class=xl46 x:num="-109.5"><font color="#FF0000" style='mso-ignore:color'>(-109.5)</font></td>
+  <td class=xl48 x:num>152</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'>* Number of
+  nights grass minimum was below 0.0 °C</td>
+  <td colspan=9 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>** Number
+  of days rain was 0.2 mm or more</td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=3 style='height:12.75pt;mso-ignore:colspan'>&nbsp;</td>
+  <td></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl50><a href="#Home">Top of Page</a></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='page-break-before:always;height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'><span
+  style='mso-spacerun:yes'>        </span><font class=font7><a name="2002">Rothamsted Research</a></font></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>The weather :
+  Monthly Summary : 2002</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>(Departure from
+  the 30 year means (1971 - 2000) in brackets)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=14 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=2 class=xl74 style='border-right:1.0pt solid black;border-left:
+  none'>Sunshine</td>
+  <td colspan=7 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'><span style='mso-spacerun:yes'> </span>Mean temperatures °C</td>
+  <td colspan=3 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'>Rain</td>
+  <td></td>
+ </tr>
+ <tr height=35 style='height:26.25pt'>
+  <td height=35 class=xl27 width=86 style='height:26.25pt;width:65pt'>&nbsp;</td>
+  <td colspan=2 class=xl77 width=144 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>&nbsp;</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Maximum</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Minimum</td>
+  <td class=xl28 width=66 style='width:50pt'>Ground</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Bare Soil</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Grass</td>
+  <td colspan=2 class=xl81 width=145 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>Total</td>
+  <td class=xl29 width=66 style='width:50pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl30 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl31>Hours</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>frosts*</td>
+  <td class=xl31>10 cm</td>
+  <td class=xl31>30 cm</td>
+  <td class=xl31>mm</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>days**</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl53 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>January</td>
+  <td class=xl58 align=right x:num>37.8</td>
+  <td class=xl59 align=right x:num="-17.25"><font color="#FF0000"
+  style='mso-ignore:color'>(-17.3)</font></td>
+  <td class=xl58 align=right x:num="8.35">8.4</td>
+  <td class=xl59 align=right x:num="2.013333333333331">(+2.0)</td>
+  <td class=xl58 align=right x:num="2.39">2.4</td>
+  <td class=xl59 align=right x:num="1.53">(+1.5)</td>
+  <td class=xl55 align=right x:num>11</td>
+  <td class=xl56 align=right x:num="3.88">3.9</td>
+  <td class=xl56 align=right x:num="4.89">4.9</td>
+  <td class=xl58 align=right x:num>69.4</td>
+  <td class=xl59 align=right x:num="-0.2566666666666606"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.3)</font></td>
+  <td class=xl55 align=right x:num>21</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>February</td>
+  <td class=xl61 align=right x:num>80.1</td>
+  <td class=xl62 align=right x:num="9.4133333333333127">(+9.4)</td>
+  <td class=xl61 align=right x:num="10.06">10.1</td>
+  <td class=xl62 align=right x:num="3.3533333333333335">(+3.4)</td>
+  <td class=xl61 align=right x:num="3.41">3.4</td>
+  <td class=xl62 align=right x:num="2.67">(+2.7)</td>
+  <td class=xl63 align=right x:num>8</td>
+  <td class=xl64 align=right x:num>5.3</td>
+  <td class=xl64 align=right x:num="6.78">6.8</td>
+  <td class=xl61 align=right x:num>84.0</td>
+  <td class=xl62 align=right x:num="35.24">(+35.2)</td>
+  <td class=xl63 align=right x:num>21</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>March</td>
+  <td class=xl58 align=right x:num>98.4</td>
+  <td class=xl59 align=right x:num="-8.7866666666666617"><font color="#FF0000"
+  style='mso-ignore:color'>(-8.8)</font></td>
+  <td class=xl58 align=right x:num="11.28">11.3</td>
+  <td class=xl59 align=right x:num="1.7866666666666653">(+1.8)</td>
+  <td class=xl58 align=right x:num="3.44">3.4</td>
+  <td class=xl59 align=right x:num="1.1066666666666665">(+1.1)</td>
+  <td class=xl55 align=right x:num>13</td>
+  <td class=xl56 align=right x:num="6.01">6.0</td>
+  <td class=xl56 align=right x:num="7.33">7.3</td>
+  <td class=xl58 align=right x:num>49.3</td>
+  <td class=xl59 align=right x:num="-4.59"><font color="#FF0000"
+  style='mso-ignore:color'>(-4.6)</font></td>
+  <td class=xl55 align=right x:num>10</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>April</td>
+  <td class=xl61 align=right x:num>200.9</td>
+  <td class=xl62 align=right x:num="54.123333333333306">(+54.1)</td>
+  <td class=xl61 align=right x:num="14.15">14.2</td>
+  <td class=xl62 align=right x:num="2.2133333333333347">(+2.2)</td>
+  <td class=xl61 align=right x:num="4.51">4.5</td>
+  <td class=xl62 align=right x:num="0.89333333333333353">(+0.9)</td>
+  <td class=xl63 align=right x:num>7</td>
+  <td class=xl64 align=right x:num="9.17">9.2</td>
+  <td class=xl64 align=right x:num="9.62">9.6</td>
+  <td class=xl61 align=right x:num>55.7</td>
+  <td class=xl62 align=right x:num="2.1633333333333411">(+2.2)</td>
+  <td class=xl63 align=right x:num>8</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>May</td>
+  <td class=xl58 align=right x:num>173.5</td>
+  <td class=xl59 align=right x:num="-21.364999999999998"><font color="#FF0000"
+  style='mso-ignore:color'>(-21.4)</font></td>
+  <td class=xl58 align=right x:num="15.73">15.7</td>
+  <td class=xl59 align=right x:num="-1.6666666666665719E-2"><font
+  color="#FF0000" style='mso-ignore:color'>(-0.0)</font></td>
+  <td class=xl58 align=right x:num="7.78">7.8</td>
+  <td class=xl59 align=right x:num="1.4566666666666652">(+1.5)</td>
+  <td class=xl55 align=right x:num>1</td>
+  <td class=xl56 align=right x:num="11.97">12.0</td>
+  <td class=xl56 align=right x:num="12.25">12.3</td>
+  <td class=xl58 align=right x:num>81.0</td>
+  <td class=xl59 align=right x:num="31.266666666666659">(+31.3)</td>
+  <td class=xl55 align=right x:num>16</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>June</td>
+  <td class=xl61 align=right x:num>189.8</td>
+  <td class=xl62 align=right x:num="-0.48333333333332007"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.5)</font></td>
+  <td class=xl61 align=right x:num="18.96">19.0</td>
+  <td class=xl62 align=right x:num="0.35999999999999943">(+0.4)</td>
+  <td class=xl61 align=right x:num="9.86">9.9</td>
+  <td class=xl62 align=right x:num="0.65333333333333243">(+0.7)</td>
+  <td class=xl63 align=right x:num>0</td>
+  <td class=xl64 align=right x:num="16.15">16.2</td>
+  <td class=xl64 align=right x:num="15.34">15.3</td>
+  <td class=xl61 align=right x:num>29.2</td>
+  <td class=xl62 align=right x:num="-30.996666666666673"><font color="#FF0000"
+  style='mso-ignore:color'>(-31.0)</font></td>
+  <td class=xl63 align=right x:num>15</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>July</td>
+  <td class=xl58 align=right x:num>179.5</td>
+  <td class=xl59 align=right x:num="-23.843333333333305"><font color="#FF0000"
+  style='mso-ignore:color'>(-23.8)</font></td>
+  <td class=xl58 align=right x:num>20.9</td>
+  <td class=xl59 align=right x:num="-0.51666666666667282"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.5)</font></td>
+  <td class=xl58 align=right x:num="11.84">11.8</td>
+  <td class=xl59 align=right x:num="0.47666666666666657">(+0.5)</td>
+  <td class=xl55 align=right x:num>0</td>
+  <td class=xl56 align=right x:num="17.78">17.8</td>
+  <td class=xl56 align=right x:num="17.09">17.1</td>
+  <td class=xl58 align=right x:num>93.5</td>
+  <td class=xl59 align=right x:num="51.443333333333321">(+51.4)</td>
+  <td class=xl55 align=right x:num>14</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>August</td>
+  <td class=xl61 align=right x:num>155.7</td>
+  <td class=xl62 align=right x:num="-41.116666666666674"><font color="#FF0000"
+  style='mso-ignore:color'>(-41.1)</font></td>
+  <td class=xl61 align=right x:num="21.62">21.6</td>
+  <td class=xl62 align=right x:num="0.18666666666666387">(+0.2)</td>
+  <td class=xl61 align=right x:num="13.21">13.2</td>
+  <td class=xl62 align=right x:num="1.86">(+1.9)</td>
+  <td class=xl63 align=right x:num>0</td>
+  <td class=xl64 align=right x:num="17.99">18.0</td>
+  <td class=xl64 align=right x:num="18.42">18.4</td>
+  <td class=xl61 align=right x:num>52.3</td>
+  <td class=xl62 align=right x:num="-1.3966666666666683"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.4)</font></td>
+  <td class=xl63 align=right x:num>10</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>September</td>
+  <td class=xl58 align=right x:num>163.7</td>
+  <td class=xl59 align=right x:num="21.363333333333316">(+21.4)</td>
+  <td class=xl58 align=right x:num="18.58">18.6</td>
+  <td class=xl59 align=right x:num="0.59333333333333016">(+0.6)</td>
+  <td class=xl58 align=right x:num>10.0</td>
+  <td class=xl59 align=right x:num="0.55666666666666664">(+0.6)</td>
+  <td class=xl55 align=right x:num>0</td>
+  <td class=xl56 align=right x:num>14.6</td>
+  <td class=xl56 align=right x:num="15.89">15.9</td>
+  <td class=xl58 align=right x:num>25.6</td>
+  <td class=xl59 align=right x:num="-35.396666666666675"><font color="#FF0000"
+  style='mso-ignore:color'>(-35.4)</font></td>
+  <td class=xl55 align=right x:num>5</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>October</td>
+  <td class=xl61 align=right x:num>95.4</td>
+  <td class=xl62 align=right x:num="-16.743333333333354"><font color="#FF0000"
+  style='mso-ignore:color'>(-16.7)</font></td>
+  <td class=xl61 align=right x:num="13.62">13.6</td>
+  <td class=xl62 align=right x:num="-0.12333333333333663"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.1)</font></td>
+  <td class=xl61 align=right x:num="6.58">6.6</td>
+  <td class=xl62 align=right x:num="-6.666666666666643E-2"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.1)</font></td>
+  <td class=xl63 align=right x:num>7</td>
+  <td class=xl64 align=right x:num="9.88">9.9</td>
+  <td class=xl64 align=right x:num>12.2</td>
+  <td class=xl61 align=right x:num>89.3</td>
+  <td class=xl62 align=right x:num="14.643333333333331">(+14.6)</td>
+  <td class=xl63 align=right x:num>15</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>November</td>
+  <td class=xl58 align=right x:num>48.6</td>
+  <td class=xl59 align=right x:num="-21.5"><font color="#FF0000"
+  style='mso-ignore:color'>(-21.5)</font></td>
+  <td class=xl58 align=right x:num>11.2</td>
+  <td class=xl59 align=right x:num="1.82">(+1.8)</td>
+  <td class=xl58 align=right x:num>5.6</td>
+  <td class=xl59 align=right x:num="2.27">(+2.3)</td>
+  <td class=xl55 align=right x:num>4</td>
+  <td class=xl56 align=right x:num="7.59">7.6</td>
+  <td class=xl56 align=right x:num="9.68">9.7</td>
+  <td class=xl58 align=right x:num>132.9</td>
+  <td class=xl59 align=right x:num="66.7">(+66.7)</td>
+  <td class=xl55 align=right x:num>24</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>December</td>
+  <td class=xl61 align=right x:num>30.9</td>
+  <td class=xl62 align=right x:num="-17.2"><font color="#FF0000"
+  style='mso-ignore:color'>(-17.2)</font></td>
+  <td class=xl61 align=right x:num="7.52">7.5</td>
+  <td class=xl62 align=right x:num="0.32999999999999918">(+0.3)</td>
+  <td class=xl61 align=right x:num="4.08">4.1</td>
+  <td class=xl62 align=right x:num="2.16">(+2.2)</td>
+  <td class=xl63 align=right x:num>6</td>
+  <td class=xl64 align=right x:num>5.6</td>
+  <td class=xl64 align=right x:num="7.08">7.1</td>
+  <td class=xl61 align=right x:num>112.6</td>
+  <td class=xl62 align=right x:num="42.5">(+42.5)</td>
+  <td class=xl63 align=right x:num>25</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl53 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl58></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl58></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 style='height:13.5pt'>Year</td>
+  <td class=xl66 align=right x:num>1454.3</td>
+  <td class=xl67 align=right x:num="-83.388333333332866"><font color="#FF0000"
+  style='mso-ignore:color'>(-83.4)</font></td>
+  <td class=xl68 align=right x:num="14.330833333333333">14.3</td>
+  <td class=xl67 align=right x:num="1">(+1.0)</td>
+  <td class=xl68 align=right x:num="6.8916666666666657">6.9</td>
+  <td class=xl67 align=right x:num="1.2972222222222207">(+1.3)</td>
+  <td class=xl69 align=right x:num>57</td>
+  <td class=xl70 align=right x:num="11.380833333333335">11.4</td>
+  <td class=xl70 align=right x:num="11.409166666666666">11.4</td>
+  <td class=xl68 align=right x:num>874.8</td>
+  <td class=xl67 align=right x:num="171.3">(+171.3)</td>
+  <td class=xl69 align=right x:num>184</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl54 colspan=5 style='height:12.75pt;mso-ignore:colspan'>*
+  Number of nights grass minimum was below 0.0 °C</td>
+  <td colspan=9 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl54 colspan=4 style='height:12.75pt;mso-ignore:colspan'>**
+  Number of days rain was 0.2 mm or more</td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl54 colspan=3 style='height:12.75pt;mso-ignore:colspan'>&nbsp;</td>
+  <td></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl50><a href="#Home">Top of Page</a></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='page-break-before:always;height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'><span
+  style='mso-spacerun:yes'>        </span><font class=font7><a name="2001">Rothamsted Research</a></font></td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>The weather :
+  Monthly Summary : 2001</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=13 height=17 class=xl82 style='height:12.75pt'>(Departure from
+  the 30 year means (1971 - 2000) in brackets)</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=12 style='height:12.75pt;mso-ignore:colspan'></td>
+  <td class=xl71></td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=14 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>&nbsp;</td>
+  <td colspan=2 class=xl74 style='border-right:1.0pt solid black;border-left:
+  none'>Sunshine</td>
+  <td colspan=7 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'><span style='mso-spacerun:yes'> </span>Mean temperatures °C</td>
+  <td colspan=3 class=xl76 style='border-right:1.0pt solid black;border-left:
+  none'>Rain</td>
+  <td></td>
+ </tr>
+ <tr height=35 style='height:26.25pt'>
+  <td height=35 class=xl27 width=86 style='height:26.25pt;width:65pt'>&nbsp;</td>
+  <td colspan=2 class=xl77 width=144 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>&nbsp;</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Maximum</td>
+  <td colspan=2 class=xl79 width=132 style='border-right:1.0pt solid black;
+  border-left:none;width:100pt'>Minimum</td>
+  <td class=xl28 width=66 style='width:50pt'>Ground</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Bare Soil</td>
+  <td class=xl28 width=66 style='width:50pt'>Under Grass</td>
+  <td colspan=2 class=xl81 width=145 style='border-right:1.0pt solid black;
+  border-left:none;width:109pt'>Total</td>
+  <td class=xl29 width=66 style='width:50pt'>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl30 style='height:13.5pt'>&nbsp;</td>
+  <td class=xl31>Hours</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl28 width=66 style='width:50pt'>°C</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>frosts*</td>
+  <td class=xl31>10 cm</td>
+  <td class=xl31>30 cm</td>
+  <td class=xl31>mm</td>
+  <td class=xl31>( )</td>
+  <td class=xl31>days**</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl53 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>January</td>
+  <td class=xl58 align=right x:num>84.2</td>
+  <td class=xl59 align=right x:num="29.15">(+29.2)</td>
+  <td class=xl58 align=right x:num="5.65">5.7</td>
+  <td class=xl59 align=right x:num="-0.68666666666666831"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.7)</font></td>
+  <td class=xl58 align=right x:num>0.4</td>
+  <td class=xl59 align=right x:num="-0.46"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.5)</font></td>
+  <td class=xl55 align=right x:num>27</td>
+  <td class=xl56 align=right x:num>2.1</td>
+  <td class=xl56 align=right x:num>3.7</td>
+  <td class=xl58 align=right x:num>76.1</td>
+  <td class=xl59 align=right x:num="6.443333333333328">(+6.4)</td>
+  <td class=xl55 align=right x:num>16</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>February</td>
+  <td class=xl61 align=right x:num>89.0</td>
+  <td class=xl62 align=right x:num="18.313333333333318">(+18.3)</td>
+  <td class=xl61 align=right x:num="7.78">7.8</td>
+  <td class=xl62 align=right x:num="1.0733333333333333">(+1.1)</td>
+  <td class=xl61 align=right x:num="1.49">1.5</td>
+  <td class=xl62 align=right x:num="0.75">(+0.8)</td>
+  <td class=xl63 align=right x:num>18</td>
+  <td class=xl64 align=right x:num>3.7</td>
+  <td class=xl64 align=right x:num>4.8</td>
+  <td class=xl61 align=right x:num>110.4</td>
+  <td class=xl62 align=right x:num="61.64">(+61.6)</td>
+  <td class=xl63 align=right x:num>16</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>March</td>
+  <td class=xl58 align=right x:num>68.4</td>
+  <td class=xl59 align=right x:num="-38.786666666666662"><font color="#FF0000"
+  style='mso-ignore:color'>(-38.8)</font></td>
+  <td class=xl58 align=right x:num="8.22">8.2</td>
+  <td class=xl59 align=right x:num="-1.2733333333333334"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.3)</font></td>
+  <td class=xl58 align=right x:num="2.57">2.6</td>
+  <td class=xl59 align=right x:num="0.23666666666666636">(+0.2)</td>
+  <td class=xl55 align=right x:num>10</td>
+  <td class=xl56 align=right x:num="4.65">4.7</td>
+  <td class=xl56 align=right x:num="5.51">5.5</td>
+  <td class=xl58 align=right x:num>91.4</td>
+  <td class=xl59 align=right x:num="37.51">(+37.5)</td>
+  <td class=xl55 align=right x:num>22</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>April</td>
+  <td class=xl61 align=right x:num>133.2</td>
+  <td class=xl62 align=right x:num="-13.576666666666711"><font color="#FF0000"
+  style='mso-ignore:color'>(-13.6)</font></td>
+  <td class=xl61 align=right x:num="11.36">11.4</td>
+  <td class=xl62 align=right x:num="-0.57666666666666622"><font color="#FF0000"
+  style='mso-ignore:color'>(-0.6)</font></td>
+  <td class=xl61 align=right x:num="4.14">4.1</td>
+  <td class=xl62 align=right x:num="0.52333333333333343">(+0.5)</td>
+  <td class=xl63 align=right x:num>11</td>
+  <td class=xl64 align=right x:num="7.43">7.4</td>
+  <td class=xl64 align=right x:num="8.42">8.4</td>
+  <td class=xl61 align=right x:num>83.7</td>
+  <td class=xl62 align=right x:num="30.163333333333341">(+30.2)</td>
+  <td class=xl63 align=right x:num>23</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>May</td>
+  <td class=xl58 align=right x:num>223.2</td>
+  <td class=xl59 align=right x:num="28.335000000000001">(+28.3)</td>
+  <td class=xl58 align=right x:num="17.37">17.4</td>
+  <td class=xl59 align=right x:num="1.6233333333333348">(+1.6)</td>
+  <td class=xl58 align=right x:num="7.84">7.8</td>
+  <td class=xl59 align=right x:num="1.5166666666666648">(+1.5)</td>
+  <td class=xl55 align=right x:num>2</td>
+  <td class=xl56 align=right x:num="12.86">12.9</td>
+  <td class=xl56 align=right x:num="12.53">12.5</td>
+  <td class=xl58 align=right x:num>50.1</td>
+  <td class=xl59 align=right x:num="0.36666666666666003">(+0.4)</td>
+  <td class=xl55 align=right x:num>7</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>June</td>
+  <td class=xl61 align=right x:num>230.4</td>
+  <td class=xl62 align=right x:num="40.116666666666674">(+40.1)</td>
+  <td class=xl61 align=right x:num="18.78">18.8</td>
+  <td class=xl62 align=right x:num="0.18">(+0.2)</td>
+  <td class=xl61 align=right x:num>9.7</td>
+  <td class=xl62 align=right x:num="0.49333333333333229">(+0.5)</td>
+  <td class=xl63 align=right x:num>0</td>
+  <td class=xl64 align=right x:num="16.85">16.9</td>
+  <td class=xl64 align=right x:num="15.41">15.4</td>
+  <td class=xl61 align=right x:num>27.9</td>
+  <td class=xl62 align=right x:num="-32.296666666666674"><font color="#FF0000"
+  style='mso-ignore:color'>(-32.3)</font></td>
+  <td class=xl63 align=right x:num>9</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>July</td>
+  <td class=xl58 align=right x:num>199.8</td>
+  <td class=xl59 align=right x:num="-3.5433333333332939"><font color="#FF0000"
+  style='mso-ignore:color'>(-3.5)</font></td>
+  <td class=xl58 align=right x:num="22.03">22.0</td>
+  <td class=xl59 align=right x:num="0.61333333333332973">(+0.6)</td>
+  <td class=xl58 align=right x:num="13.01">13.0</td>
+  <td class=xl59 align=right x:num="1.6466666666666665">(+1.6)</td>
+  <td class=xl55 align=right x:num>0</td>
+  <td class=xl56 align=right x:num="18.93">18.9</td>
+  <td class=xl56 align=right x:num="17.49">17.5</td>
+  <td class=xl58 align=right x:num>56.1</td>
+  <td class=xl59 align=right x:num="14.043333333333322">(+14.0)</td>
+  <td class=xl55 align=right x:num>10</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>August</td>
+  <td class=xl61 align=right x:num>199.2</td>
+  <td class=xl62 align=right x:num="2.3833333333333258">(+2.4)</td>
+  <td class=xl61 align=right x:num="21.68">21.7</td>
+  <td class=xl62 align=right x:num="0.24666666666666259">(+0.2)</td>
+  <td class=xl61 align=right x:num="12.87">12.9</td>
+  <td class=xl62 align=right x:num="1.52">(+1.5)</td>
+  <td class=xl63 align=right x:num>0</td>
+  <td class=xl64 align=right x:num>17.9</td>
+  <td class=xl64 align=right x:num="17.86">17.9</td>
+  <td class=xl61 align=right x:num>119.2</td>
+  <td class=xl62 align=right x:num="65.50333333333333">(+65.5)</td>
+  <td class=xl63 align=right x:num>17</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>September</td>
+  <td class=xl58 align=right x:num>127.6</td>
+  <td class=xl59 align=right x:num="-14.736666666666679"><font color="#FF0000"
+  style='mso-ignore:color'>(-14.7)</font></td>
+  <td class=xl58 align=right x:num="16.54">16.5</td>
+  <td class=xl59 align=right x:num="-1.446666666666669"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.4)</font></td>
+  <td class=xl58 align=right x:num>10.0</td>
+  <td class=xl59 align=right x:num="0.55666666666666664">(+0.6)</td>
+  <td class=xl55 align=right x:num>0</td>
+  <td class=xl56 align=right x:num="13.25">13.3</td>
+  <td class=xl56 align=right x:num="15.19">15.2</td>
+  <td class=xl58 align=right x:num>73.8</td>
+  <td class=xl59 align=right x:num="12.80333333333332">(+12.8)</td>
+  <td class=xl55 align=right x:num>16</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>October</td>
+  <td class=xl61 align=right x:num>100.7</td>
+  <td class=xl62 align=right x:num="-11.443333333333356"><font color="#FF0000"
+  style='mso-ignore:color'>(-11.4)</font></td>
+  <td class=xl61 align=right x:num>16.3</td>
+  <td class=xl62 align=right x:num="2.5566666666666649">(+2.6)</td>
+  <td class=xl61 align=right x:num="10.55">10.6</td>
+  <td class=xl62 align=right x:num="3.9033333333333342">(+3.9)</td>
+  <td class=xl63 align=right x:num>0</td>
+  <td class=xl64 align=right x:num>12.2</td>
+  <td class=xl64 align=right x:num="13.93">13.9</td>
+  <td class=xl61 align=right x:num>115.7</td>
+  <td class=xl62 align=right x:num="41.043333333333337">(+41.0)</td>
+  <td class=xl63 align=right x:num>20</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl57 style='height:12.75pt'>November</td>
+  <td class=xl58 align=right x:num>80.7</td>
+  <td class=xl59 align=right x:num="10.6">(+10.6)</td>
+  <td class=xl58 align=right x:num>10.1</td>
+  <td class=xl59 align=right x:num="0.71999999999999886">(+0.7)</td>
+  <td class=xl58 align=right x:num="3.67">3.7</td>
+  <td class=xl59 align=right x:num="0.34">(+0.3)</td>
+  <td class=xl55 align=right x:num>9</td>
+  <td class=xl56 align=right x:num>6.4</td>
+  <td class=xl56 align=right x:num="9.33">9.3</td>
+  <td class=xl58 align=right x:num>49.0</td>
+  <td class=xl59 align=right x:num="-17.2"><font color="#FF0000"
+  style='mso-ignore:color'>(-17.2)</font></td>
+  <td class=xl55 align=right x:num>17</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl60 style='height:12.75pt'>December</td>
+  <td class=xl61 align=right x:num>73.7</td>
+  <td class=xl62 align=right x:num="25.6">(+25.6)</td>
+  <td class=xl61 align=right x:num="5.85">5.9</td>
+  <td class=xl62 align=right x:num="-1.34"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.3)</font></td>
+  <td class=xl61 align=right x:num="0.67">0.7</td>
+  <td class=xl62 align=right x:num="-1.25"><font color="#FF0000"
+  style='mso-ignore:color'>(-1.3)</font></td>
+  <td class=xl63 align=right x:num>22</td>
+  <td class=xl64 align=right x:num="3.09">3.1</td>
+  <td class=xl64 align=right x:num="5.88">5.9</td>
+  <td class=xl61 align=right x:num>19.5</td>
+  <td class=xl62 align=right x:num="-50.6"><font color="#FF0000"
+  style='mso-ignore:color'>(-50.6)</font></td>
+  <td class=xl63 align=right x:num>12</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl53 style='height:12.75pt'>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl54></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl58></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl56>&nbsp;</td>
+  <td class=xl58></td>
+  <td class=xl59>&nbsp;</td>
+  <td class=xl55>&nbsp;</td>
+  <td></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl65 style='height:13.5pt'>Year</td>
+  <td class=xl66 align=right x:num>1610.1</td>
+  <td class=xl67 align=right x:num="72.411666666667088">(+72.4)</td>
+  <td class=xl68 align=right x:num="13.471666666666666">13.5</td>
+  <td class=xl67 align=right x:num="0.14083333333333314">(+0.1)</td>
+  <td class=xl68 align=right x:num="6.4091666666666667">6.4</td>
+  <td class=xl67 align=right x:num="0.81472222222222168">(+0.8)</td>
+  <td class=xl69 align=right x:num>99</td>
+  <td class=xl70 align=right x:num="10.834166666666667">10.8</td>
+  <td class=xl70 align=right x:num="10.768333333333333">10.8</td>
+  <td class=xl68 align=right x:num>872.9</td>
+  <td class=xl67 align=right x:num="169.4">(+169.4)</td>
+  <td class=xl69 align=right x:num>185</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=14 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'>* Number of
+  nights grass minimum was below 0.0 °C</td>
+  <td colspan=9 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=4 style='height:12.75pt;mso-ignore:colspan'>** Number
+  of days rain was 0.2 mm or more</td>
+  <td colspan=10 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=3 style='height:12.75pt;mso-ignore:colspan'>&nbsp;</td>
+  <td></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl50><a href="#Home">Top of Page</a></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=86 style='width:65pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=78 style='width:59pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=79 style='width:59pt'></td>
+  <td width=66 style='width:50pt'></td>
+  <td width=66 style='width:50pt'></td>
+ </tr>
+ <![endif]>
+</table>
+<p align="center">
+<INPUT TYPE='BUTTON' VALUE='Close' onClick='window.close()'>
+</p>
+</body>
+
+</html>
+
+
+lo
+fsSut

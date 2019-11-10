@@ -1,0 +1,20 @@
+
+Contents of tar file:
+
+      883 2001-04-05 09:52:05 README
+   556460 2001-03-19 14:51:14 aaaa.gif
+ 28880064 2001-03-19 14:57:15 tpc.fli
+   556460 2001-03-19 14:51:16 zzzz.gif
+   556460 2001-04-05 09:28:24 title.gif
+
+size: 30Mb  (16Mb compressed)
+
+"README" is a text file describing file formats and suggested
+viewing software. 
+"aaaa.gif" and "zzzz.gif" are the first and last frames
+of the animation.
+"tpc.fli" is the animation.
+"title.gif" is a title image.
+
+
+rsra5c/yO

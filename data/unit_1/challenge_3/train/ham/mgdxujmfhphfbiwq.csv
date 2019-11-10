@@ -1,0 +1,515 @@
+<html>
+<head>
+
+<title>
+
+CERES Harvest IV.v</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr>
+</center>
+<p>
+<h2 align=center>CERES Harvest IV.v<br>
+4.3.02</h2>
+<center><table><tr><td><h4>
+In ashes and sackcloth he did array<br>
+His daintie corse, proud humors to abate,<br>
+And dieted with fasting euery day,<br>
+The swelling of his wounds to mitigate,<br>
+And made him pray both earely and eke late:<br>
+And euer as superfluous flesh did rot<br>
+Amendment readie still at hand did wayt,<br>
+To pluck it out with pincers firie whot,<br>
+That soone in him was left no one corrupted iot.
+<p>
+And bitter <i>Penance</i> with an yron whip,<br>
+Was wont him once to disple euery day:<br>
+And sharpe <i>Remorse</i> his hart did pricke and nip,<br>
+That drops of bloud thence like a well did play;<br>
+And sad <i>Repentance</i> vsed to embay<br>
+His bodie in salt water smarting sore,<br>
+The filthy blots of sinne to wash away.<br>
+So in short space they did to health restore<br>
+The man that would not liue, but earst lay at deathes dore.
+<p>
+</td></tr></table></center>
+<p>
+<hr>
+<p>
+<strong>INTRODUCTION</strong><br>
+A long wait for most of you; those who have joined the list recently must
+have been wondering if the e-mailed newsletter was a mere legend (though
+what a legend!). However, the time since the last Harvest is trivial in
+geological terms, so it is not surprising how quickly it has passed. Here
+we are again, back like the dinosaurs, with the latest (some things more
+fresh than others) from the Internet. First, we have exciting news of the
+latest developments on the CERES website, where the home-grown resources
+go from strength to strength. There are also many resources from elsewhere
+in the web world that have tickled our collective fancy.
+<p>
+This Harvest has been brought to you by Christopher Burlinson and those
+mentioned in the colophon.
+<p>
+<hr>
+<p>
+<h2 align=center>NEW FROM CERES</h2>
+<p>
+In recent months the CERES website has evolved again. The links page has
+been upgraded and now carries brief factual and critical comments. The
+most significant developments, however, have been to the COPIA (CERES
+Online Publications Interactive) section. This now includes the following
+projects:
+<p>
+<a href=haphazard/>HAP HAZARD</a>: a collection of manuscript resources relating to Edmund
+Spenser. Current offerings include an edition of the textually important
+Gonville and Caius MS of <i>A View of the Present State of Ireland</i>, and an
+archive of the letters sand other documents penned or certified by Spenser
+during his service in the colonial administration of Elizabethan Ireland.
+This archive covers all the hundred or so letters listed by Petti, and
+will eventually include a large number that have been identified more
+recently. Future plans include editions of further historical documents
+relating to Spenser studies and an annotated edition of Cambridge UL MS
+Ee.3.53, Knevett's <i>A Supplement of The Faery Queen</i>.
+<p>
+<a href=sidneiana/>SIDNEIANA</a>: a collection of manuscript resources relating to Sir Philip
+Sidney and his circle. These are various and all fascinating: perhaps the
+most innovative are details of early modern musical settings, including
+audio, of Sidney sonnets.
+<p>
+<a href=AIhome.htm>AENEAS AND ISABELLA</a>: the first COPIA project still boasts its editions of
+two poems in the tradition of Ovid's Heroides, and an attribution of these
+poems to Isabella Whitney. This has recently undergone minor revisions.
+<p>
+New projects are on the way, and we are keen to hear about others. Over
+the next academic year we will be undertaking our most ambitious project
+yet, an online course in early-modern English palaeography. This will
+include sample transcriptions (from MSS in libraries around Cambridge),
+model alphabets, an introduction to dating and describing manuscript
+hands, and a variety of transcription conventions. Best of all, we hope to
+include a novel method of testing users of the course as they tackle the
+sample documents. We are in discussions with CARET, the Cambridge
+University's Centre for Advanced Research into Educational Technologies,
+and we are grateful to CARET for financial support.
+<p>
+<hr>
+<p>
+<h2 align=center>ELECTRONIC RESOURCES</h2>
+<p>
+<strong>THE DEMISE OF ARDEN ONLINE</strong><br>
+It is difficult to know whether this is a major event or not. The first
+release of the Arden Shakespeare's online jamboree was exciting: rarely
+had such high-quality material been made available on the web.
+Unfortunately, the publishers had to recoup their investment (and
+replenish their giant piles of money), and it appears the whole project
+foundered when people proved unwilling to pay for it. The presence on the
+web of good free Shakespeare sites was an issue, it seems, as was the
+widespread feeling that the Internet is not yet a format that tempts
+potential subscribers to put up serious money. So Thomson Learning, who
+suspended selling Arden Online last May, has pulled the plug. CERES can't
+help being worried about this development, as it suggests that the great
+expansion of quality resources onto the web might not happen as quickly as
+we'd have hoped. However, there are grand projects out there (EEBO, ESTC,
+LION, etc.) and we salute them! Also, we at CERES don't mind if large
+parts of the Internet can still be populated by cottage industries, as
+that's what we are. (With grateful thanks to the Judith E. Wilson Fund of
+the Cambridge English Faculty, of course.)
+<p>
+<strong>NEW BRITISH LIBRARY CATALOGUE</strong><br>
+The new British Library on-line catalogue is now available at
+<a href=http://blpc.bl.uk>http://blpc.bl.uk</a><br>
+This is a big step forward from OPAC 97, the previous version. Now we get
+more detail on the entries and a better interface, 24 hours a day, 7 days
+a week. The site is presented in an admirably efficient and uncluttered
+way: nice coding, we cry!
+<p>
+<strong>CATALOGUE COLLECTIF DE FRANCE (CCFR)</strong><br>
+Now this is something: an attempt at a union catalogue on a national
+scale. Yes, all the books de la belle France. Visitez-vous
+<a href=http://www.ccfr.bnf.fr/>http://www.ccfr.bnf.fr/</a> or, in English (anglais)
+<a href=http://www.ccfr.bnf.fr/rnbcd_visu/acc1_eng.htm>http://www.ccfr.bnf.fr/rnbcd_visu/acc1_eng.htm</a><br>
+At present this is an impressive resource covering holdings in a wide
+variety of libraries, some the obvious regional-municipal ones, others
+more obscure. There are good options for downloading and printing out the
+bibliographical records. Future plans include integrating the catalogue
+with that of the Bibliotheque Nationale. For anyone rooting around for
+copies of this or that in French libraries, this is an obvious port of
+call.
+<p>
+<strong>DE DOCTRINA CHRISTIANA (MILTON AT OTAGO)</strong><br>
+Neo-Latinists and Miltonists interested in new developments, head for
+'Milton at Otago' at <a href=http://www.otago.ac.nz/English/milton>http://www.otago.ac.nz/English/milton</a><br>
+As well as a section on the performing of Milton marathons (complete with
+photographs), and pages of largely local interest, on the Milton courses
+available at the University of Otago, the site contains a section
+discussing John K. Hale's part in the AHRB-funded team project of
+translating and discussing the manuscript of 'De Doctrina Christiana'
+(State Papers 9/61). He's hoping to use the site as a noticeboard for
+posting questions about the text, many of them on its language and on
+editorial issues, to which scholars can reply; although there isn't a
+great deal to see at present, the page will expand as his work proceeds.
+In the future a 'De Doctina' e-mail discussion group may appear, but in
+the meantime this should be an important point of scholarly contact.
+<p>
+<strong>ROBIN ALSTON</strong><br>
+Robin Alston, former Consultant to the Director General of the British
+Library (1975-1995), and editor of ESTC (1976-1992), is publishing a
+collection of his papers and essays online. There is material specifically
+on the British Library, and on the place of computers in bibliography and
+research. The site isn't complete yet, but it does promise that it is
+being updated, and is worth keeping an eye on.<br>
+<a href=http://www.r-alston.co.uk/essays.htm>http://www.r-alston.co.uk/essays.htm</a>
+<p>
+<strong>SCIENTIFIC INSTRUMENTS OF MEDIEVAL AND RENAISSANCE EUROPE</strong><br>
+EPACT (European Pact) is a catalogue of medieval and early modern
+scientific instruments, put together by the British Museum, the Museum of
+the History of Science in Oxford, the Museum Boerhaave, Leiden, and the
+Museo di Storia della Scienza in Florence. You can see some splendid
+photos of hundreds of instruments (and zoom in on them), and follow links
+to explanatory glossaries, articles, bibliographies, and so on. The
+various bibliographies, in particular, give this site a very encyclopaedic
+quality. It's also very pretty and well-designed, without lapsing into any
+kind of kitsch. <br>
+<a href=http://www.mhs.ox.ac.uk/epact/>http://www.mhs.ox.ac.uk/epact/</a>
+<p>
+<strong>ANALYTIC BIBLIOGRAPHY OF ON-LINE NEO-LATIN TEXTS</strong><br>
+Dana Sutton of the University of California, Irvine, has continued to
+update and enlarge this bibliography; it now boasts references and links
+to 2100 online texts. <a href=http://e3.uci.edu/~papyri/bibliography/>http://e3.uci.edu/~papyri/bibliography/</a><br>
+Many of these form part of his outstanding site The Philological Museum:<br>
+<a href=http://eee.uci.edu/~papyri/homepage/webpage.html>http://eee.uci.edu/~papyri/homepage/webpage.html</a>
+<p>
+<strong>PRINTERS' DEVICES</strong><br>
+The University of Florida is developing a searchable catalogue of
+printers' devices. As is often the case with such sites, the catalogue is
+small and incomplete, and so won't supplant other bibliographical
+reference works just yet, but it ought to grow as other universities
+contribute to it. It isn't immediately obvious how to search for devices
+by visual motifs (i.e. when you have a device in front of you and want to
+identify it): in order to do this, you need to enter the relevant term
+(e.g. castles, coats of arms, stars) in the 'Keyword' section of the
+'Search' form.<br>
+<a href=http://web.uflib.ufl.edu/spec/rarebook/devices/device.htm>http://web.uflib.ufl.edu/spec/rarebook/devices/device.htm</a>
+<p>
+<strong>UNCATALOGUED MANUSCRIPT CONTROL CENTER</strong><br>
+Melissa Conway and Lisa Fagin Davis are co-directors of this project,
+which has the aim of updating the existing catalogues of early manuscript
+holdings in the USA. In particular, they want to account for the libraries
+that have been broken up or have changed hands in the last fifty or so
+years. The project is still in the organizational stage, but the
+co-directors invite readers to suggest holdings of pre-1600 manuscripts in
+the US that they have overlooked. Any ideas?
+<br>
+<a href=http://members.aol.com/dericci/umcc/umcc.html>http://members.aol.com/dericci/umcc/umcc.html</a>
+<p>
+<strong>RESTORATION ATALANTIS</strong><br>
+At the heart of this new website will be the e-texts of a number of
+late-seventeenth century plays: at the moment only Catharine Trotter's The
+Fatal Friendship is available, but plays by Dryden, Aphra Behn, Mary Pix
+and Thomas Southerne are on their way. The texts don't as yet come with
+many notes or much bibliographical information, but they read very clearly
+and are searchable. There is also a page of links, criticism, and a
+bibliography. 
+<br>
+Go to <a href=http://www.restorationatalantis.com/>http://www.restorationatalantis.com/</a>
+<p>
+<strong>GUTENBERG BIBLE(S)</strong><br>
+A real treat for students of the Gutenberg Bible. It is
+possible to see five different copies of the book on different websites.
+First of all, the two copies (the paper King's Copy and vellum Grenville
+copy) from the British Library are on show at <a href=http://prodigi.bl.uk/gutenbg/default.asp>http://prodigi.bl.uk/gutenbg/default.asp</a>.
+The website is generally very good, with lashings of subsidiary material
+and information, but I found it difficult to go immediately to a
+particular page: the search facility directs you only to a particular book
+of the Bible. The image quality is excellent, as it is on all these sites.
+The third and fourth copies are to be found on the pages of Keio
+University in Tokyo: one copy from Keio University
+(<a href=http://www.humi.keio.ac.jp/treasures/incunabula/B42/keio/vol_1/contents.html>http://www.humi.keio.ac.jp/treasures/incunabula/B42/keio/vol_1/contents.html</a>)
+and the second from Cambridge University library
+(<a href=http://www.humi.keio.ac.jp/treasures/incunabula/B42/index.html>http://www.humi.keio.ac.jp/treasures/incunabula/B42/index.html</a>). Finally,
+the library of Goettingen University is showing its copy on
+<a href=http://www.gutenbergdigital.de/>http://www.gutenbergdigital.de/</a>. The German text might be forbidding at
+first, but it's very easy once you click on the 'Gutenberg Digital' logo.
+Yet again, the quality of the images seems exemplary, and like the page of
+the British Library, it is an attractive site with several links and
+connected pages -- sometimes too many, though, and the layout can seem a
+little cluttered.<br>
+    Bibliophiles (and bibliography-philes) will no doubt be licking their
+lips at the thought of this, and it would be interesting to see whether
+the technological means can be made easily available for comparing the
+images from the different sites on the same page, without having to flick
+from one site to another. And there's more to come, one suspects. The
+'Gutenberg Bibel' website (<a href=http://www.gutenberg.de/bibel.htm>http://www.gutenberg.de/bibel.htm</a>) gives a list
+of the other surviving copies of the book. And hardened groupies can
+purchase reprints at <a href=http://www.gutenberg-reprint.de/>http://www.gutenberg-reprint.de/</a>
+<p>
+<strong>SHAKSPER WEBSITE</strong><br>
+SHAKSPER ('The Global Electronic Shakespeare Conference') now has a
+website at <a href=http://ws.bowiestate.edu/>http://ws.bowiestate.edu/</a>  The opening page has something of a
+no-frills appearance, but the site is well-organized and worth exploring.
+As well as information on the SHAKSPER mailing list (which you can join
+from the website), and up-to-date, searchable and browsable files of
+previous postings, there are copies of conference papers and academic
+articles, many with a cultural materialist slant, and quite a few on the
+subject of electronic editing. There is also a well-tended list of links.
+<p>
+<strong>CONCORDANCE SOFTWARE</strong><br>
+'Concordance' is a programme for those who want to make concordances. It
+comes with all manner of flashy and swish features, and allows you to edit
+and make use of your concordance in ways that you probably never imagined.
+It is a commercial affair, and costs a commercial price: at $89 it isn't
+cheap, but it's not prohibitively expensive, either, and there is also a
+30-day trial version that you can download for free. Probably not
+something to buy out of casual interest, but it does come with the highest
+recommendations from those who have tried it. Go to
+<a href=http://www.rjcw.freeserve.co.uk/>http://www.rjcw.freeserve.co.uk/</a> to check it out.
+<p>
+<strong>TRADITIO CLASSICORUM</strong><br>
+This is a pretty large database of secondary literature on the reception
+of classical literature, listed by classical author. This method of
+organisation makes it a quick reference point, especially of you're
+chasing up Pacuvius rather than Ovid. For Anglophone scholars it may also
+be most useful for its coverage of articles in languages other than
+English. Zap to
+<a href=http://www.ruf.uni-freiburg.de/theologie/forsch/lohr/lohr-ch4.htm>http://www.ruf.uni-freiburg.de/theologie/forsch/lohr/lohr-ch4.htm</a>
+<p>
+<strong>BIOGRAPHICAL INDEX TO THE ELIZABETHAN THEATER</strong><br>
+Found at <a href=http://www.clark.net/pub/tross/ws/bd/kathman.htm>http://www.clark.net/pub/tross/ws/bd/kathman.htm</a><br>
+This is a draft list of all people known to have been involved with
+theatre in England between 1558 and 1642. The list includes playwrights
+(including authors of masques, royal entertainments, and academic plays in
+Latin and English), actors (including English actors in Europe and foreign
+actors/performers in England), songwriters known to have written songs for
+plays or masques, theatrical managers and entrepreneurs, carpenters
+(really contractors, in modern parlance) who built playhouses, patrons of
+acting troupes, all Lords Chamberlain and Masters of the Revels, ancillary
+employees of the theater (such as tiremen or gatherers), and miscellaneous
+other people who do not fall into any of the above categories, but who are
+important to Elizabethan theater history (e.g. Francis Meres). This
+resource provides sources and bibliography for each entry and makes up a
+substantial and unusual collection of information.
+<p>
+<strong>NEW AT LITERATURE ONLINE</strong><br>
+Golly gosh, cup runneth over. Now there is a collection of 61 full-text
+electronic journals. If you want to see if they have your favourites,
+there is a browsable list at <a href=http://lion.chadwyck.co.uk/toc/toc_first.htm>http://lion.chadwyck.co.uk/toc/toc_first.htm</a> Highlights include <i>Renaissance Quarterly</i>, <i>Shakespeare Quarterly</i>, and <i>SEL</i>.
+PDF format remains CERES' favourite method of digitizing journals (the
+appearance is preserved but you can still search the text), but any
+increase in online journal texts is good!
+<p>
+<strong>ROBIN HOOD SITE</strong><br>
+An ambitious and scholarly site with a good database of literary
+representations, as well as other collections relating to Mr Hood:<br>
+<a href=http://www.lib.rochester.edu/camelot/rh/rhhome.htm>http://www.lib.rochester.edu/camelot/rh/rhhome.htm</a>
+<p>
+<strong>DUCHESS OF MALFI ONLINE</strong><br>
+<a href=http://larryavisbrown.homestead.com/files/Malfi/malfi_home.htm>http://larryavisbrown.homestead.com/files/Malfi/malfi_home.htm</a><br>
+A marked-up online text, with notes informed by various modern editions, a
+commentary, and some pictures of a 1998 production: a resource especially
+useful to students, probably.
+<p>
+<strong>SIMPLE BOOK REPAIR MANUAL</strong><br>
+<a href=http://www.dartmouth.edu/~preserve/repair/repairindex.htm>http://www.dartmouth.edu/~preserve/repair/repairindex.htm</a><br>
+Perhaps a curiosity in CERES terms, but a fascinating resource produced by
+the Dartmouth College Library Preservation Services. This is the
+electronic version of the print version which includes a Quicktime movie,
+a wide-ranging manual, a glossary, and a bibliography.
+<p>
+<strong>ELIZABETHAN HERALDRY</strong><br>
+<a href=http://renaissance.dm.net/heraldry/index.html>http://renaissance.dm.net/heraldry/index.html</a><br>
+This is a really enjoyable site, with well-informed content and good
+illustrations. It manages to be both a genuine reference resource and an
+entertaining visit.
+<p>
+<strong>BIBLIOTHECA PRIVATA</strong><br>
+<a href=http://www.ub.uni-heidelberg.de/archiv/1591>http://www.ub.uni-heidelberg.de/archiv/1591</a><br>
+This is an edition, with introduction, of the two catalogues of the
+'bibliotheca privata' of Frederic IV, Count Palatine and Elector.
+Available as a pretty big PDF file (1.6MB), it offers fascinating insight
+into the content and the adminstration of a substantial renaissance
+princely library.
+<p>
+<strong>SIR PHILIP SIDNEY, ON LINE</strong><br>
+<a href=http://www.slu.edu/colleges/AS/ENG/sidney/>http://www.slu.edu/colleges/AS/ENG/sidney/</a><br>
+A major resource, based on - and updating - Donald Stump's <i>Sir Philip
+Sidney: an annotated bibliography of texts and criticism (1554-1984)</i>
+(1994). The site offers citations and extensive abstracts, though rather
+awkwardly filed under a few major headings and with a perplexing and
+inflexible search facility.  Quite a contrast to the wonderfully detailed
+indices to the printed volume.  Headings must be searched one at a time -
+it seems not to be possible to search directly for all articles by a
+particular scholar, for example.  If this improves (with a more
+conventional interface allowing searches by author or title keyword), the
+full potential of the content will be unleashed.
+<p>
+<strong>OXFORD BIBLIOGRAPHICAL SOCIETY</strong><br>
+The Oxford Bibliographical Society now has its own website, with
+information about the Society, its officers, its publications and its
+annual series of lectures: <a href=http://www.oxbibsoc.org.uk>http://www.oxbibsoc.org.uk</a>
+<p>
+<strong>BEN JONSON JOURNAL</strong><br>
+Now has its own website, with the rather apt URL of
+<a href=http://www.benjonsonjournal.com>http://www.benjonsonjournal.com</a>
+<p>
+<strong>MALONE SOCIETY HOMEPAGE</strong><br>
+<a href=http://www.sbu.ac.uk/malone/>http://www.sbu.ac.uk/malone/</a><br>
+This site includes details of membership and the history of the society,
+but best of all is its comprehensive backlist of publications: a
+substantial and interesting collection and the online list is a useful
+reference resource.
+<p>
+<strong>INDEX OF POETRY IN PRINTED MISCELLANIES, 1640-1682</strong><br>
+<a href=www.adamsmyth.clara.net>www.adamsmyth.clara.net</a><br>
+Dr Adam Smyth at Reading University has created this browseable list of
+poems (authors, first lines, last lines, sources, and details on printers
+and the miscellanies themselves) in first editions of printed miscellanies
+published between 1640 and 1682. There is a searchable version of the
+index, which is currently under construction but can be reached from the
+site.
+<p>
+<strong>GOLDEN AGE SPANISH STUDENTS</strong><br>
+<a href=http://sonnets.spanish.sbc.edu/>http://sonnets.spanish.sbc.edu/</a><br>
+Alix Ingber of Sweet Briar College is responsible for this elegant and
+developing resource, which currently boasts 107 Golden Age (sixteenth
+century) Spanish sonnets with English translations. There are links to
+related resources (mostly Spanish), bibliographies, and sensible ways of
+searching.
+<p>
+<strong>BOOKS OF COMMON PRAYER</strong><br>
+<a href=http://justus.anglican.org/resources/bcp/>http://justus.anglican.org/resources/bcp/</a><br>
+Last and not least! A remarkable collection of texts and images from all
+the editions of the Anglican Book of Common Prayer, with the potential to
+compare closely related editions. Wow and thrice wow. A nice note to end
+on... We'll be back soon!
+
+<p>
+<small><a href=#top>Back to top.</a><br>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+
+
+e 8gme/se	"a"Ot"

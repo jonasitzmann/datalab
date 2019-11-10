@@ -1,0 +1,456 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<HTML><!-- InstanceBegin template="/Templates/PostDWindex.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<TITLE>RRes - PPM Department - The Fungicide Resistance Research Group</TITLE>
+<!-- InstanceEndEditable --> 
+
+<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+
+<link rel='stylesheet' type='text/css' href='http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStyle.css' media="screen">
+<link rel="stylesheet" href="http://www.rothamsted.bbsrc.ac.uk/Includes/NewRResStylePrint.css" type="text/css" media="print" />
+
+<!-- InstanceBeginEditable name="head" -->
+<style>
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+-->
+</style>
+<!-- InstanceEndEditable --> 
+<script language="JavaScript" type="text/JavaScript" src="/Includes/TemplateScriptTop.js"></script>
+</HEAD>
+<BODY background='http://www.rothamsted.bbsrc.ac.uk/Graphics/InternetBackground.gif' 
+onLoad='ConfigurePage();' onResize='ConfigurePage();'>
+
+<div id="LeftSection" tabindex="1" onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')">
+<a href='http://www.rothamsted.bbsrc.ac.uk/index.html'>
+<img src='http://www.rothamsted.bbsrc.ac.uk/Graphics/LogoLarge.gif' alt='Click for RRes home page' width="148" height="195" border='0' style="position: absolute; top: 10px; left: 10px;"> 
+</a> 
+
+<form action='http://www.rothamsted.bbsrc.ac.uk/cgi-bin/htsearch' method='post' name='RResSearch' id='RResSearch'>
+    <input type='hidden' name='method' value='and'>
+    <input type='hidden' name='format' value='builtin-long'>
+    <input type='hidden' name='sort' value='score'>
+    <input type='hidden' name='restrict' value=''>
+    <input type='hidden' name='exclude' value=''>
+    <input type='hidden' name='config' value='rothamsted'>
+    <input class='SearchBox' type='text' name='words' id='words' value='Search website' 
+onClick='ClearSearchBox()' tabindex="2" title="Type a search term here and press enter">
+<input type="submit" value="Go!" class="GoButton" />
+</form>
+
+<div tabindex="4" id="ScienceLinks" style="position:absolute; left:10px; top:228px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Links.html');return document.MM_returnValue" 
+>Science 
+  Links</div>
+
+<div tabindex="5" id="PrinterFriendlyVersion" style="position:absolute; left:10px; top:247px; width:148px; height:18px;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="PrintVersion();" onKeyPress="PrintVersion();" >Printer 
+  friendly version</div>
+
+</div>
+
+<div tabindex="6" id="Disclaimer" style="position:absolute; left:10px; bottom:30px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Disclaimer.html');return document.MM_returnValue" 
+>Disclaimer</div>
+
+<div tabindex="7" id="MakeComments" style="position:absolute; left:10px; bottom:10px; width:148px; height:18px; visibility: hidden;" 
+class="Button" onMouseOver="className='ButtonHover'" onMouseOut="className='Button'" 
+onClick="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+onKeyPress="MM_goToURL('parent','http://www.rothamsted.bbsrc.ac.uk/corporate/Breedquack.html');return document.MM_returnValue"
+>Make comments</div>
+
+
+
+<div class='Category' style='left: 160px;' id="Category1" tabindex="8"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','show','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>About us</div>
+
+<div class='Category' style='left: 260px;' id="Category2" tabindex="19" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','show',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Resources</div>
+
+<div class='Category' style='left: 360px;' id="Category3" tabindex="30" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','show','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Research</div>
+
+<div class='Category' style='left: 460px;' id="Category4" tabindex="41"
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','show','MenuSection5','','hide',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>Into practice</div>
+
+<div class='Category' style='left: 560px;' id="Category5" tabindex="52" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','show',
+'MenuSection6','','hide'); this.className='CategoryHover'"
+>For the public</div>
+
+<div class='Category' style='left: 660px;' id="Category6" tabindex="62" 
+onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+onFocus="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide',
+'MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide',
+'MenuSection6','','show'); this.className='CategoryHover'"
+>Careers</div>
+
+<div id="MenuSection1" class="MenuDetails" style="z-index:1; visibility: hidden;"> 
+
+  <blockquote style="position:relative; left: -40px; "> <a class="MainMenuLink" tabindex="9" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Introduction.html">Mission of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Origins.html">Origins of Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="10" href="http://www.rothamsted.bbsrc.ac.uk/corporate/CompanyInformation.html">Company Information</a><br />	
+    <a class="MainMenuLink" tabindex="11" href="http://www.rothamsted.bbsrc.ac.uk/corporate/ContactUs.html">Contact Us</a><br />
+    <a class="MainMenuLink" tabindex="12" href="http://www.rothamsted.bbsrc.ac.uk/corporate/AnnualReports.html">Annual Reports</a><br />
+    <a class="MainMenuLink" tabindex="13" href="http://www.rothamsted.bbsrc.ac.uk/corporate/PressReleases/PressOffice.html">Press Office</a><br />
+    <a class="MainMenuLink" tabindex="14" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Location.html">Directions And Map of Campus</a><br />
+    <a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/OwnershipAndFunding.html">Ownership and Funding</a><br />
+	<a class="MainMenuLink" tabindex="15" href="http://www.rothamsted.bbsrc.ac.uk/corporate/LawesAgriculturalTrust.html">Lawes Agricultural Trust</a><br />
+    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/Strategy.html">The Next Decade</a><br />
+	    <a class="MainMenuLink" tabindex="16" href="http://www.rothamsted.bbsrc.ac.uk/corporate/StrategicPlan.html">Strategic Plan 2005-2010</a><br />
+    <a class="MainMenuLink" tabindex="17" href="http://www.rothamsted.bbsrc.ac.uk/corporate/SeniorManagement.html">Senior Management</a><br />
+    <a class="MainMenuLink" tabindex="18" href="http://www.rothamsted-international.org">Rothamsted International</a> </blockquote>
+</div>
+
+<div id="MenuSection2" class="MenuDetails" style="z-index:2; visibility: hidden;"> 
+  <!--<h4>Resources</h4>-->
+  <blockquote style="position:relative; left: 50px; "> <a class="MainMenuLink" tabindex="20" href="http://www.rothamsted.bbsrc.ac.uk/resources/ResourcesAtRRes.html">Resources 
+    at Rothamsted Research</a><br />
+    <a class="MainMenuLink" tabindex="21" href="http://www.rothamsted.bbsrc.ac.uk/resources/RResPromo.html">Rothamsted Research Promotional 
+    video (18Mb)</a><br />
+    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/LongTermExperiments.html">Long Term Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="22" href="http://www.rothamsted.bbsrc.ac.uk/resources/ClassicalExperiments.html">Classical Experiments</a><br />
+	    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/eRA/ ">Electronic Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="23" href="http://www.rothamsted.bbsrc.ac.uk/resources/TheRothamstedArchive.html">Rothamsted Archive </a><br />
+    <a class="MainMenuLink" tabindex="24" href="http://www.rothamsted.bbsrc.ac.uk/resources/library/">Rothamsted Library</a><br />
+    <a class="MainMenuLink" tabindex="25" href="http://www.rothamsted.bbsrc.ac.uk/resources/ConferenceFacilities.html">Conference Facilities</a><br />
+    <a class="MainMenuLink" tabindex="26" href="http://www.rothamsted.bbsrc.ac.uk/resources/rmlmanor/index.htm">Rothamsted Manor</a><br />
+    <a class="MainMenuLink" tabindex="27" href="http://www.rothamsted.bbsrc.ac.uk/resources/RothamstedFarms.html">Rothamsted Farms</a><br />
+    <a class="MainMenuLink" tabindex="28" href="http://www.rothamsted.bbsrc.ac.uk/resources/TimeLapse.html">Time-lapse Video of the Construction of the Centenary Building</a><br />
+    <a class="MainMenuLink" tabindex="29" href="http://www.rothamsted.bbsrc.ac.uk/resources/CentenaryOpening.html">Photo Gallery of the Opening of the Centenary Building</a> <br />
+    <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/aen/ecn/">Local Weather and the Environmental Change Network</a> 	
+	</blockquote>
+</div>
+
+<div id="MenuSection3" class="MenuDetails" style="z-index:3; visibility: hidden;"> 
+  <!--<h4>Research</h4>-->
+  <blockquote style="position:relative; left: 150px; "> 
+  <!--<a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres.php">Research Centres</a><br />-->
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/Centres/">Research Centres</a><br />  
+  <a class="MainMenuLink" tabindex="30" href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html">Research Overview</a><br />
+     <a class="MainMenuLink" tabindex="31" href="http://www.rothamsted.bbsrc.ac.uk/Research/RResQualityStatement.pdf">Rothamsted Research Quality Statement</a> (PDF)<br />
+    <a class="MainMenuLink" tabindex="32" href="http://www.rothamsted.bbsrc.ac.uk/Research/FeaturedProjects.html">Featured Projects</a><br />
+    <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Conferences.html">Conferences and Meetings</a> <br />
+	 <a class="MainMenuLink" tabindex="33" href="http://www.rothamsted.bbsrc.ac.uk/Research/Publications/">Publications</a> <br />
+	
+	<b>Research Departments:</b><br />
+    <a class="MainMenuLink" tabindex="34" href="http://www.rothamsted.bbsrc.ac.uk/broom/">Applied Crop Sciences</a> (Broom's Barn)<br />
+    <a class="MainMenuLink" tabindex="35" href="http://www.rothamsted.bbsrc.ac.uk/bch/">Biological Chemistry</a><br />
+	<a class="MainMenuLink" tabindex="36" href="http://www.rothamsted.bbsrc.ac.uk/bab/">Biomathematics and Bioinformatics</a><br />		
+    <a class="MainMenuLink" tabindex="37" href="http://www.rothamsted.bbsrc.ac.uk/pie/">Plant and Invertebrate Ecology</a><br />
+    <a class="MainMenuLink" tabindex="38" href="http://www.rothamsted.bbsrc.ac.uk/ppi/">Plant Pathology and Microbiology</a><br />
+    <a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/cpi/">Plant Science</a><br />
+	
+    <a class="MainMenuLink" tabindex="40" href="http://www.rothamsted.bbsrc.ac.uk/aen/">Soil Science</a><br />
+    <!--<a class="MainMenuLink" tabindex="39" href="http://www.rothamsted.bbsrc.ac.uk/Research/Posters.html">Scientific posters</a><br />-->
+  </blockquote>
+</div>
+
+<div id="MenuSection4" class="MenuDetails" style="z-index:4; visibility: hidden; text-align:right;"> 
+  <!--<h4>Into practice</h4>-->
+  <blockquote style="position:relative; right: 150px; "> <a class="MainMenuLink" tabindex="41" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Impact.html">Impact Over the Past 30 Years</a><br />
+	   <a class="MainMenuLink" tabindex="42" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/ClimateChange.html">Climate Change and Land Management</a><br />
+
+    <a class="MainMenuLink" tabindex="43" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/AssociatedCompanies.html">Associated Companies</a><br />
+    <a class="MainMenuLink" tabindex="44" href="http://www.rothamsted.bbsrc.ac.uk/broom/sbrindex.html">Sugar Beet Research at Broom's Barn</a><br />
+    <a class="MainMenuLink" tabindex="45" target="_blank" href="http://www.rothra.org/">Rothamsted 
+    Research Association (formerly ARIA)</a><br />
+    <a class="MainMenuLink" tabindex="46" href="http://www.rothamsted.ac.uk/insect-survey/STAphidBulletin.php">Rothamsted Insect Survey Aphid Bulletin</a><br />
+    <a class="MainMenuLink" tabindex="47" href="http://www.rothamsted.bbsrc.ac.uk/pie/wowp/">Weeds or Wild Plants?</a><br />
+    <a class="MainMenuLink" tabindex="48" href="http://www3.res.bbsrc.ac.uk/leafspot/">Light Leafspot Forecast</a><br />
+    <a class="MainMenuLink" tabindex="49" href="http://www.rothamsted.bbsrc.ac.uk/aen/sundial/sundial.htm">SUNDIAL (SimUlation of Nitrogen 
+    Dynamics In Arable Land)</a><br />
+    <a class="MainMenuLink" tabindex="50" href="http://www.rothamsted.bbsrc.ac.uk/aen/rothlime/">RothLime (Rothamsted Lime Requirement Model)</a><br /><a class="MainMenuLink" tabindex="51" href="http://www.rothamsted.bbsrc.ac.uk/intopractice/Biomarket.html">Biomarket</a><br />
+    <a class="MainMenuLink" tabindex="51" href="http://www.dessac.iacr.ac.uk">DESSAC - DEcision Support System for Arable Crops</a> 
+	</blockquote>
+</div>
+
+<div id="MenuSection5" class="MenuDetails" style="z-index:5; visibility: hidden; text-align:right;"> 
+  <!--<h4>For the public</h4>-->
+  <blockquote style="position:relative; right: 50px;"> 
+<!--  <a class="MainMenuLink" tabindex="52" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/MailingListForm.php">Join our mailing list</a><br />  -->
+  
+  <a class="MainMenuLink" tabindex="53" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/PublicEvents.html">Public 
+    Events</a><br />
+    <a class="MainMenuLink" tabindex="54" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/EventsForSchools.html">Resources for 
+    Schools</a><br />
+	
+	    <a class="MainMenuLink" tabindex="55" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/ScienceSnapshots.html">Science Snapshots</a><br />
+
+    <a class="MainMenuLink" tabindex="56" href="http://www.rothamsted.bbsrc.ac.uk/forthepublic/Exhibitions.html">Rothamsted Exhibitions</a><br />
+    <a class="MainMenuLink" tabindex="57" href="http://www.rothamsted.bbsrc.ac.uk/pie/DeBug/">DeBug - Interactive Insects</a><br />
+	
+
+    <a class="MainMenuLink" tabindex="58" href="http://www.rothamsted.bbsrc.ac.uk/notebook/index.html">Molecular Biology Notebook (teaching 
+    resource)</a><br />
+
+    <!--<a class="MainMenuLink" tabindex="59" href="http://www.rothamsted.bbsrc.ac.uk/sportsday/">BBSRC sports day 2004</a><br />-->
+
+
+    <strong>Links external to Rothamsted Research:</strong> <br />
+	
+    <a class="MainMenuLink" tabindex="59" target="_blank" href="http://www.bbsrc.ac.uk/life/buzz/Welcome.html">The 
+    Buzz of Science</a><br />
+    <a class="MainMenuLink" tabindex="60" target="_blank" href="http://www.bbsrc.ac.uk/life/comic/index.html">Science 
+    Stories Comic Book </a><br />
+    <a class="MainMenuLink" tabindex="61" target="_blank" href="http://www.bbsrc.ac.uk/life/zones/Welcome.html">Zones 
+    of Inhibition. Science, Art and Fungi</a> </blockquote>
+</div>
+
+<div id="MenuSection6" class="MenuDetails" style="z-index:6; visibility: hidden; hidden; text-align:right;"> 
+  <!--<h4>Careers</h4>-->
+  <blockquote style="position:relative; right: -40px;"> 
+  <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Vacancies.html">Vacancies</a><br />
+  
+ <a class="MainMenuLink" tabindex="63" href="http://www.rothamsted.bbsrc.ac.uk/careers/vacancies/Studentships.html">PhD Studentships</a><br />
+  
+    <a class="MainMenuLink" tabindex="64" href="http://www.rothamsted.bbsrc.ac.uk/careers/WhyChooseRRes.html">Why Choose Rothamsted?</a><br />
+    <a class="MainMenuLink" tabindex="65" href="http://www.rothamsted.bbsrc.ac.uk/careers/AboutRRes.html">About Rothamsted</a><br />
+    <a class="MainMenuLink" tabindex="66" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherSites.html">Other Sites</a><br />
+    <a class="MainMenuLink" tabindex="67" href="http://www.rothamsted.bbsrc.ac.uk/careers/OtherFacilities.html">Other Facilities Available</a><br />
+    <a class="MainMenuLink" tabindex="68" href="http://www.rothamsted.bbsrc.ac.uk/careers/LearningResources.html">Learning Resources</a><br />
+    <a class="MainMenuLink" tabindex="69" href="http://www.rothamsted.bbsrc.ac.uk/careers/StaffSupport.html">Staff Support and Sports 
+    and Social Activities</a><br />
+    <a class="MainMenuLink" tabindex="70" href="http://www.rothamsted.bbsrc.ac.uk/careers/Accommodation.html">Accommodation</a><br />
+    <a class="MainMenuLink" tabindex="71" href="http://www.rothamsted.bbsrc.ac.uk/careers/PostGraduateProspectus.html">Postgraduate Information</a><br />
+    <a class="MainMenuLink" tabindex="72" href="http://www.rothamsted.bbsrc.ac.uk/careers/PhDStudentPolicy.html">PhD policy</a> </blockquote>
+</div>
+
+
+
+<div class='RightImageSection' name='RightImageSection' id='RightImageSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+  <img src='' name='RandomImage' width='200' height='550' id='RandomImage' alt='Random image'> 
+</div>
+
+<div id="SubMenuSection" class="SubMenuSection"> 
+<!-- InstanceBeginEditable name="SubmenuRegion" -->
+  <img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/">PPM home page</a>
+<div align="center"><strong>Programmes</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppbtop.html">Pathogen Population Biology and Disease Management</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/wptop.html">Wheat pathogenesis</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/rhizo.html">Rhizosphere Biology</a>
+<div align="center"><strong>Departmental units</strong></div>
+<!--<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/bioimage.html">Centre for Bioimaging</a><br />-->
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/gpc/index.htm">Global Plant Clinic</a><br />
+<div align="center"><strong>Links</strong></div>
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/staff/ppistaff.html">Who's who in PPM</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppigin.htm">Genetic Improvement Networks</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/ppigallery.html">Pest and disease gallery</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/pplinks.html">Plant pathology links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/links/glinks.html">General links</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="http://local-info.rothamsted.bbsrc.ac.uk/divisions/ppi/">PPM Intranet (RRes only)</a><br />
+<img src='/Graphics/SmallDot.gif' border='0' alt='Bullet point'>
+<a class="SubMenuLink" href="/ppi/vacs.html">Vacancies within PPM Department</a>
+
+<!-- InstanceEndEditable --> 
+</div>
+
+<div class='MainSection' name='MainSection' id='MainSection' onMouseOver="UnHighlightAllCategories(); MM_showHideLayers('MenuSection1','','hide','MenuSection2','','hide','MenuSection3','','hide','MenuSection4','','hide','MenuSection5','','hide','MenuSection6','','hide')"> 
+
+  <!-- InstanceBeginEditable name="MainSectionRegion" --> 
+<h2>The Fungicide Resistance Research Group&nbsp;</h2>
+<h3>Introduction</h3>
+<p>The Fungicide Resistance Group was established at Rothamsted in August 2000. Currently, the group consists of three PhD students (James Fountaine, Sally Gilbert & Tim Bean), a senior research assistant (Juliet Motteram), a post-doc (Hans Cools) and a project leader (Bart Fraaije).
+</p>
+<div align="center"><img src="pics/fungres/Picturegroup.jpg" alt="Picture of the Fungicide Resistance Research Group"  width="500" border="0" usemap="#Map" />
+  <map name="Map">
+    <area shape="poly" coords="29,166" href="#">
+  </map>
+</div>
+<p align="center" class="style1">
+Fungicide Resistance Group 2005. From left to right: Tim Bean, Hans
+  Cools, Sally Gilbert, Cliodhna McCartney 
+  (visiting PhD student), Juliet Motteram
+  and Bart Fraaije.</p>
+<h3>Background</h3>
+<p>For the past 40 years, fungicides have played a key role in the management of disease caused by fungal pathogens in arable crops, especially cereals. This role is under threat due to the development of fungicide resistance, the lack of new active ingredients and the pressure to reduce chemical inputs in agriculture. Research in the Fungicide Resistance Group is detecting and characterising the mechanisms leading to fungicide resistance, as well as the way resistance develops in pathogen populations. The information gained from this work is helping to devise strategies to manage the problem of fungicide resistance in the field.</p>
+<h3>Current research aims</h3>
+
+<ul>
+  <li>To understand how control agents work and to identify potential mechanisms
+    employed by pathogens enabling them to cope with such agents. </li>
+  <li>To develop molecular tools to follow epidemics of fungal cereal diseases
+    and to monitor the evolution of specific traits in pathogen populations (e.g.
+    fungicide resistance and virulence factors). </li>
+  <li>To evaluate strategies for managing fungicide resistance in commercial
+    crops. </li>
+</ul>
+<p>The main fungicide groups of interest are the strobilurins (QoIs) and triazoles, which are the two main fungicide chemistries currently used for the control of fungal pathogens in cereal crops. Work on the evolution of resistance also includes the benzimidazoles (MBCs), which were widely used prior to the advent of triazoles and QoIs. Model diseases are Septoria leaf blotch (<em>Mycosphaerella graminicola</em> - anamorph <em>Septoria tritici</em>), powdery mildew (<em>Blumeria graminis</em>) and leaf scald of barley (<em>Rhynchosporium secalis</em>).</p>
+
+<h3>Research on strobilurins (QoIs)</h3>
+
+<p>Strobilurin fungicides or Quinone outside Inhibitors (QoIs), which act by inhibiting mitochondrial energy production, were first introduced in 1997 and quickly took a large share of the cereal fungicide market, due to their activity against several of the most important cereal pathogens and apparent physiological effects that can boost yield. The risk of resistance development was initially estimated to be moderate. However, resistance problems were first encountered within two years of introduction in wheat powdery mildew (<em>B. graminis</em> f. sp. <em>tritici</em>). Resistance in field isolates was found to be associated with a single mutation, known as G143A, in the mitochondrial cytochrome <em>b</em> target protein. This mutation quickly became common in UK wheat mildew populations. The same mutation was also detected in populations of barley powdery mildew in 2000 and, more worryingly, in <em>M. graminicola</em> populations sampled at Rothamsted in summer 2002. Figure 1 shows the result from a fungicide sensitivity test.</p>
+
+<div align="center"><img src="pics/fungres/fig1.JPG" alt="image of micro-titre assay" width="550" />
+</div>
+<p align="center" class="style1"><strong>Figure 1</strong>. Growth profiles of 12 different <em>M.
+  graminicola</em> isolates using liquid media amended with fungicides and Alamar Blue (growth indicator). Pink represents growth, blue no metabolic activity detected. Isolates in lanes 6, 7, 8 and 11 are resistant and carry only A143 cytochrome <em>b</em> alleles, isolates in the remaining lanes are sensitive and have G143 alleles.</p>
+  <p>Recent advances in DNA diagnostics make it possible to detect specific alleles based on single nucleotide polymorphisms (SNPs). By using different probes labelled with contrasting fluorescent dyes in the polymerase chain reaction (PCR), sensitive and resistant alleles can be quantified simultaneously in a single reaction. These real-time PCR assays can be used to analyse the resistance status of a given sample, and provide estimates of R-allele frequencies. As part of a Defra-funded Sustainable Arable LINK programme (LK0920), 'Providing a scientific basis for the avoidance of fungicide resistance in plant pathogens', both assays are being used to test the three factors likely to influence the evolution of resistance and be amendable to manipulation in an anti-resistance strategy - fungicide dose, number of sprays and alternating or mixing fungicides with different modes of action. This project involves collaboration with ADAS and Scottish Agricultural Colleges (SAC), with support from the Home Grown Cereals Authority (HGCA) and the agrochemical industry (BASF, Bayer Crop Science, Du Pont and Syngenta). </p>
+  <h3>Research on triazoles</h3>
+  <p>The sudden and unexpected emergence of resistance to QoIs has put renewed pressure on alternative fungicides, especially the triazoles which are important not only in crop protection but also in the clinical management of mycoses such as candidiasis and aspergillosis. Although complete failure of triazoles to control plant disease has not been reported, the efficacy of some triazoles has been eroded over the past decade, so that higher doses are needed to maintain the same degree of control.</p>
+  <p>Our research interests focus on the elucidation of the molecular mechanisms responsible for the recent erosion in efficacy of the triazoles. We have recently collected <em>M. graminicola</em> isolates with large reductions in triazole sensitivities, including some with resistance factors as high as 40 (Figure 2).</p>
+  <div align="center"><img src="pics/fungres/fig2.JPG" alt="Figure 2" />
+  </div>
+  <p align="center" class="style1"><strong>Figure 2</strong>. EC50 values of <em>M. graminicola</em> isolates to epoxiconazole.</p>
+  <p>Studies of both plant pathogens and opportunistic human fungal pathogens have associated four mechanisms, often working in combination, with changes in triazole sensitivity:</p>
+ <ul>
+  <li>Alteration of the target protein</li>
+<li>Up-regulation of the target protein</li>
+<li>Enhanced active efflux</li>
+<li>Alteration of the sterol biosynthetic pathway</li>
+</ul>
+<p>We have demonstrated that changes in triazole sensitivity in <em>M. graminicola</em> are associated with alteration of the target sterol 14 alpha-demethylase (CYP51), and up-regulation of efflux proteins (ABC transporters, see Figure 3).</p>
+<div align="center"><img src="pics/fungres/fig3.jpg" alt="Figure 3" /> </div>
+<p align="center" class="style1"><strong>Figure 3</strong>. Real-time RT-PCR analysis of the expression of ABC transporter gene MgATR3 
+in isolates of <em>M. graminicola</em> in response to different toxicants.</p>
+
+<p>We are currently using several approaches to determine the impact of individual genetic alterations on less sensitive phenotypes. These include homology modelling of the <em>M. graminicola</em> CYP51 protein (Figure 4), heterologous yeast expression systems, biochemical studies of altered CYP51 protein and real-time RT-PCR expression analysis.</p>
+<div align="center"><img src="pics/fungres/fig4.jpg" width="550" alt="Figure 4" />
+</div>
+<p align="center" class="style1"><strong>Figure 4</strong>. Homology modelling of the <em>M. graminicola</em> CYP51 (in collaboration with Frederic Beaudoin)</p>
+<p>
+For further information contact:  Bart Fraaije - <a href="mailto:bart.fraaije@bbsrc.ac.uk">bart.fraaije@bbsrc.ac.uk</a></p>
+<h3>Recent publications</h3>
+<p>
+<strong>Fraaije, B.A.</strong>, Lovell, D.J., Rohel, E.A. & Hollomon, D.W. (1999) Rapid detection and diagnosis of <em>Septoria tritici</em> epidemics in wheat using a polymerase chain reaction PicoGreen assay. <em>Journal of Applied Microbiology</em> 86, 701-708.
+<br />
+<a href="pubs/fungres/JAM1999.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of paper" border="0" /></a>
+</p>
+<strong>Fraaije, B.A.</strong>, Butters, J.A. & Hollomon, D.W. (2000) <em>In planta</em> genotyping of <em>Erysiphe graminis</em> f. sp. <em>tritici</em> isolates for strobilurin resistance using a fluorimetric allele specific PCR assay. <em>British Crop Protection Conference on Pest and Diseases</em> 2000, 401-406. 
+<p>
+<strong>Fraaije, B.A.</strong>, Lovell, D.J., Coelho, J.M., Baldwin, S. & Hollomon, D.W. (2001). PCR-based assays to assess wheat varietal resistance to blotch (<em>Septoria tritici</em> and <em>Staganospora nodorum</em>) and rust (<em>Puccinia striiformis</em> and <em>Puccinia recondita</em>) diseases. <em>European Journal of Plant Pathology</em> 107, 905-917. 
+</p>
+<p>
+Ishii, H., <strong>Fraaije, B.A.</strong>, Sugiyama, T. Noguchi, K., Nishimura, K., Takeda, T. Amano, T. & Hollomon, D.W. (2001). Occurrence and molecular characterization of strobilurin resistance in cucumber powdery mildew and downy mildew <em>Phytopathology</em> 91, 1166-1171.
+<br />
+<a href="pubs/fungres/PHYTO2001.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of paper" border="0" /></a>
+</p>
+<p>
+Rohel, E.A., Payne, A.C., <strong>Fraaije, B.A.</strong> & Hollomon, D.W. (2001). Exploring infection of wheat and carbohydrate metabolism in <em>Mycosphaerella graminicola</em> transformants with differentially regulated green fluorescent protein expression. <em>Molecular Plant-Microbe Interactions</em> 14, 156-163.
+<br />
+<a href="pubs/fungres/MPMI2001.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of paper" border="0" /></a>
+</p>
+<p>
+<strong>Cools, H.J.</strong>, Ishii, H., Butters, J.A. & Hollomon, D.W. (2002). Cloning and sequence analysis of the eburicol 14 alpha-demethylase encoding gene (CYP51) from the Japanese pear scab fungus <em>Venturia nashicola</em>. <em>Journal of Phytopathology</em> 150, 444 -450
+<br />
+<a href="pubs/fungres/jphy2002.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of paper" border="0" /></a>
+</p>
+<p>
+<strong>Fraaije, B.A.</strong>, Butters, J.A., Coelho, J.M., Jones, D.R. & Hollomon, D.W. (2002).
+Following the dynamics of strobilurin resistance in <em>Blumeria graminis</em> f.sp <em>tritici</em> using quantitative allele-specific real-time PCR measurements with the fluorescent dye SYBR Green. <em>Plant Pathology</em> 51, 45-54.
+<br />
+<a href="pubs/fungres/PPATH2002.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of paper" border="0" /></a>
+</p>
+<p>
+<strong>Fraaije, B.A.</strong>, Lovell, D.J. & Baldwin, S. (2002). Septoria epidemics on wheat: combined use of visual assessment and PCR-based diagnostics to identify mechanisms of disease escape. <em>Plant Protection Science</em> 38, 421-424.
+<br />
+<a href="pubs/fungres/ppsci2002.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of paper" border="0" /></a>
+</p>
+<p>
+Rohel, E.A., Laurent, P., <strong>Fraaije, B.A.</strong>, Cavelier, N. & Hollomon, D.W. (2002). Quantitative PCR monitoring of the effect of azoxystrobin treatments on <em>Mycosphaerella graminicola</em> epidemics in the field. <em>Pest Management Science</em> 58, 248-254. 
+</p>
+<p>
+<strong>Fraaije, B.A.</strong>, Lucas, J.A., Clark, W.S. & Burnett F.J. (2003). QoI resistance development in populations of cereal pathogens in the UK. In: <em>Proceedings of the BCPC Congress, Crop Science and Technology 2003.</em> Volume 2, 689-94.
+</p>
+<p>
+Lovell, D.J., Hunter, T., <strong>Fraaije, B.A.</strong> & Parker, S.R. (2003). Peduncle rot of dwarf wheats caused by <em>Rhizoctonia cerealis</em>. <em>Plant Health Progress</em>, 17 July 2003, on-line.
+</p>
+<p>
+McCartney, H.A., Foster, S.J., <strong>Fraaije, B.A.</strong> & Ward, E. (2003) Molecular diagnostics for fungal plant pathogens. <em>Pest Management Science</em> 59, 129-142.
+</p>
+<p>
+Ward, E., Foster, S.J., <strong>Fraaije, B.A.</strong> & McCartney, H.A. (2004). Plant pathogen diagnostics: immunological and nucleic acid-based approaches.  <em>Annals of Applied Biology</em> 145,  1-16.
+</p>
+<p>
+Bearchell, S.J., <strong>Fraaije, B.A.</strong>, Shaw, M.W. & Fitt, B.D.L. (2005). Wheat archive links long-term fungal pathogen population dynamics to air pollution. <em>Proceedings of the National Academy of Sciences of the United States of America</em> (<a href="http://www.pnas.org/" title="Link to the PNAS website" target="_blank">PNAS</a>) 102, 5438-5442.
+<br />
+<a href="pubs/bdlf/PNASApril2005.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of paper" border="0" /></a>
+</p>
+<p>
+<strong>Fraaije, B.A.</strong>, <strong>Cools, H.J.</strong>, <strong>Fountaine, J.</strong>, Lovell, D.J., <strong>Motteram, J.</strong>, West, J.S. & Lucas, J.A. (2005). The role of ascospores in further spread of QoI-resistant cytochrome <em>b</em> alleles (G143A) in field populations of <em>Mycosphaerella graminicola</em>. <em>Phytopathology</em> in press.
+</p>
+<p>
+<strong>Cools, H.J.</strong>, <strong>Fraaije, B.A.</strong> & Lucas, J.A. (2005). Molecular examination of <em>Septoria tritici</em> isolates with reduced sensitivities to triazoles. In: Dehne, H.W., Gisi, U., Kuck, K.H., Russell, P.E. and H. Lyr eds, <em>Modern Fungicides and Antifungal Compounds IV</em>, BCPC, Alton, UK. in press.
+</p>
+<p>
+<strong>Fraaije, B.A.</strong>, Burnett, F.J., Clark, W.S., <strong>Motteram, J.</strong> & Lucas, J.A. (2005). Resistance development to QoI inhibitors in populations of <em>Mycosphaerella graminicola</em> in the UK. In: Dehne, H.W., Gisi, U., Kuck, K.H., Russell, P.E. and H. Lyr eds, <em>Modern Fungicides and Antifungal Compounds IV</em>, BCPC, Alton, UK. in press.
+</p>
+<h3>Posters</h3>
+<p>
+<strong>Fountaine, J.</strong>, Cook, A., Napier, B., Shaw, M., Ward, E. & <strong>Fraaije, B.</strong> (2003). Following the epidemics of <em>Rhynchosporium secalis</em> in susceptible and resistant barley cultivars using quantitative real-time PCR assays. 8th International Congress of Plant Pathology, Christchurch, New Zealand.
+<br />
+<a href="pubs/fungres/fountaine.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of poster" width="32" height="32" border="0"></a>
+</p>
+<p>
+<strong>Fraaije, B.A.</strong>, Coelho, J.M., Elcock, S.J., Hollomon, D.W., Jones, D.R., Locke, T. & Turner, J.A. (2003). The dynamics of strobilurin-resistant alleles in field populations of <em>Blumeria graminis</em> f. sp. <em>tritici</em>.  8th International Congress of Plant Pathology, Christchurch, New Zealand.<br />
+<a href="pubs/fungres/bluposter.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of poster" width="32" height="32" border="0"></a></p>
+<p>
+<strong>Bean, T.</strong>, <strong>Cools, H.</strong>, <strong>Fraaije, B.</strong>, Shaw, M. & Lucas, J. (2005). Examining sensitivities to triazole fungicides in UK field populations of <strong>Mycosphaerella graminicola</strong>. Rothamsted Research PhD Symposium, Harpendem, UK.
+<br />
+<a href="pubs/fungres/mycoposter.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of poster" width="32" height="32" border="0"></a>
+</p>
+<p>
+<strong>Gilbert, S.</strong>, <strong>Cools, H.</strong>, <strong>Fraaije, B.</strong>, Bailey, A. & Lucas, J. (2005). Exploring appressorial formation in the biotrophic fungus powdery mildew. 23rd Fungal Genetics Conference, Asilomar, USA.
+<br />
+<a href="pubs/fungres/gilbert.pdf" target="_blank"><img src="pics/pdficon.gif" alt="Link to PDF of poster" width="32" height="32" border="0"></a>
+</p>
+  <!-- InstanceEndEditable --> 
+  
+  </div>
+
+<script type="text/javascript" language="JavaScript" src="/Includes/TemplateScriptBottom.js"></script>
+</BODY><!-- InstanceEnd --></HTML>
+
+
+eDt x 

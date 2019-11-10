@@ -1,0 +1,114 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<HTML><HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL="stylesheet" HREF="http://www.geo.ed.ac.uk/scotgaz/scotgaz.css">
+<TITLE>Gazetteer for Scotland: Feedback</TITLE>
+<script type="text/javascript" language="JavaScript" src="/scotgaz/scotgaz.js"></script>
+</HEAD>
+<BODY BGCOLOR="#000080" LINK="#990000" ALINK="#FF3300" VLINK="#990000">
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+ <TR>
+  <TD BGCOLOR="#FFCC33" VALIGN="TOP" ALIGN="center" WIDTH=100 HEIGHT=350>
+   <TABLE BGCOLOR="#FFCC33" BORDER="0" CELLPADDING="3" CELLSPACING="0">
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/gaztitle.html"><B> Gazetteer<BR>for<BR>Scotland </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Help.html#Feedback"><B> Help </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="#" onClick="popupGloss()"><B> Glossary </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE=1 NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Background.html"><B> Background </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/bookshop.html"><B> Bookshop </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Copyright.html"><B> Copyright </B></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Credits.html"><B> Credits </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Disclaimer.html"><B> Disclaimer </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><B> Feedback </B></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/sgzexe/Stats"><B> Gaz Stats </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Sources.html"><B> Sources </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-1><A HREF="/scotgaz/Sponsors.html"><B> Sponsors </B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/anyword.html"><B>Any Word Search</B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE="-1"><A HREF="/scotgaz/members.html"><B>Member's Area</B></A></FONT></TD></TR>
+    <TR><TD ALIGN="center"><HR SIZE="-1" NOSHADE="noshade"></TD></TR>
+    <TR><TD ALIGN="center"><A HREF="/scotgaz/bookshop.html"><img src="/scotgaz/images/new.gif" alt="Click for Bookshop" border="0"></A></TD></TR>
+   </TABLE>
+  </TD>
+  <TD BGCOLOR="#FFFFFF" VALIGN="TOP" ALIGN="left">
+   <BLOCKQUOTE><BR>
+   <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif">
+   <H3>Feedback</H3><FONT SIZE=-1>
+   <P>We very much welcome your feedback on our Gazetteer.  
+   We are grateful for positive comments, additional information,
+   suggestions and problem reports.</P>
+
+   <P><B>LEAVING YOUR MARK AND FEEDBACK ON ENTRIES</B></P>
+
+   <P>It is possible to add your own comment to any of our entries. This allows
+   you to add additional information or give your views on a particular 
+   place, person or family.  To do this, you need to become a 'member' and
+   then use the 'Add Comment' option on the golden left-hand menu bar.
+   In addition, it is possible to add general 
+   comments on the gazetteer as a whole.  All of these comments will be
+   publicly available for everyone to read. You must be a registered member
+   to add comments to entries.  <b>Please do not use this route
+   if you have found an error, technical problem or want to suggest an 
+   enhancement</b>, 
+   you will get a faster response if you contact us directly as described 
+   below.</p>
+
+   <ul>
+   <li> <a href="faq.html">Frequently Asked Questions (FAQ)</a>
+   <li> To add a general comment please use our 
+        <a href="/sgzexe/addcomment.pl">Comments Form</a>
+   <li> <a href="/sgzexe/comments.pl?at=1">General Comments submitted by
+        other users</a>
+   </ul>
+
+   <P><B>FOUND A PROBLEM?</B></P>
+
+   <P>If you have found an error, think we have missed something or somewhere, 
+   have a suggestion or have a problem with the system or one of our entries, 
+   please use the button below to bring this to our attention.</p>
+
+   <P>However, we do receive a very large number of comments, and to ensure we can
+   act on your feedback as effectively as possible, we would ask that you
+   read the following sections before contacting us and then use the
+   feedback button, specified below:</P>
+
+   <ul>
+   <li> <a href="faq.html">Frequently Asked Questions (FAQ)</a>
+   <li> <a href="problems.html">Known Problems</a>
+   <li> <a href="future.html">Intended Enhancements and Programme of
+        Data Collation</a>
+   </ul>
+
+   <P>If none of these sections answer your query, please do contact us:</P>
+
+   <form action="feedbackaddr.html">
+   <input type="submit" value="SEND  FEEDBACK">
+   </form>
+
+   <P>Please note that we <b>cannot</b> supply information on places or people
+   not yet included in the database.  We will undoubtedly include the place you
+   are interested in, but please give us time! However, please tell us if you
+   think we have missed something.</P>
+   </FONT></FONT>
+   <BR></BLOCKQUOTE>
+  </TD>
+ </TR>
+ <TR>
+  <TD BGCOLOR="#FFCC33">&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" ALIGN="CENTER">
+  <FONT COLOR="#000080" FACE="Verdana,Arial,Helvetica,sans-serif" SIZE=-2>
+  <A HREF="/scotgaz/copyright.html">&#169;1995-2006 The Gazetteer for Scotland</A> <BR>Sponsored by: 
+   <A HREF="http://www.therobertsontrust.org.uk/">The Robertson Trust,</A>&nbsp;
+   <A HREF="http://www.geo.ed.ac.uk/rsgs/menu.html">The Royal Scottish Geographical Society</A>,<br>
+<br>
+   <A HREF="http://www.geo.ed.ac.uk/">The Institute of Geography, University of Edinburgh</A><BR><BR>
+  </FONT>
+  </TD>
+ </TR>
+</TABLE>
+</BODY></HTML>
+
+
+rko	

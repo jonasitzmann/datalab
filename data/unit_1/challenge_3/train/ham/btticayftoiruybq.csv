@@ -1,0 +1,1023 @@
+<html>
+
+<head>
+
+<title>
+
+CERES Harvest II.iv
+
+</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h2 align=center>CERES Harvest II.iv<br>
+
+2.10.97</h2>
+<p>
+
+<h4 align=center><cite>
+
+Next plenteous Ceres in her Haruest weede,<br>
+
+Crown'd with th'increase of what she gaue to keepe:<br>
+
+To gratitude & faith: in whom we read,<br>
+
+Who sowes on Vertue shall with glory reape.</cite></h4>
+
+<p>
+
+<hr>
+
+<strong>CONTENTS</strong>
+
+<ul>
+
+<li><a href=#renbuildings>Special Feature: English Renaissance Buildings</a>
+
+<li><a href=#netsources>Internet Resources</a>
+
+<li><a href=#nftn>News From the Net</a>
+
+</ul>
+
+<p>
+
+<hr>
+
+<a name=renbuildings>
+
+<h2 align=center>ENGLISH RENAISSANCE BUILDINGS</h2>
+
+<p>
+
+CERES enters the world of virtual tourism!
+
+<p>
+
+One of the results of the Internet's world-shrinking capacity is the
+
+greater availability of information about, and pictures of, beautiful
+
+and interesting places. It happens that some of England's palaces and
+
+country houses are very well-served by web pages. So CERES decided it
+
+would be a good idea to undertake a characteristically obsessive
+
+search.
+
+<p>
+
+The pages below offer one or more of the following: 
+
+<ol type=i>
+
+<li>pictures - the idea being, that the Internet offers an effective way of
+
+accompanying reading with a visual image 
+
+<li>historical and architectural information - often this is at a low level, but
+
+sometimes the barest facts can be very useful
+
+<li>banal details like when the buildings are open, how much entry costs, etc. - CERES is not wholly against real life and actually visiting places.
+
+</ol>
+
+<p>
+
+The priority in what follows is not so much to cover every country
+
+house or palace, but rather to find Internet materials relating to
+
+them. If you have suggestions (either for websites not included, or
+
+names which could be searched), then do get in touch. Typing a name
+
+into an Altavista seach will often take you to the right place,
+
+although you could always find yourself on a photo-tour of a Bed and
+
+Breakfast.
+
+<p>
+
+One thing CERES should not mention is a site which invites you to
+
+enter your name and find out if you could be related to stately
+
+home-owners. They'll sell you a picture of 'your' house if you don't
+
+keep your wits about you: <a href=http://www.infokey.com/hon/caslist.htm> http://www.infokey.com/hon/caslist.htm</a>.  Actually there may in some bizarre way be an academic use for this, but...
+
+<p>
+
+This feature is organised under the following headings; choose from the index or scroll through below.
+
+<ul>
+
+<li><a href=#genarch>General Architectural</a>
+
+<li><a href=#places>Places</a>
+
+<li><a href=#people>People</a>
+
+</ul>
+
+<p>
+
+<hr width=75% align=center>
+
+<a name=genarch></a>
+
+<h3 align=center>GENERAL ARCHITECTURAL</h3>
+
+<p>
+
+<strong>AN UNSPEAKABLY EXCELLENT SITE</strong><br>
+
+Professor Hugh Lester of Tulane University, CERES salutes you!  His site 'Period and Style for Designers' is at <a href=http://www.tulane.edu/lester/text/lester.html> http://www.tulane.edu/lester/text/lester.html</a>.  It is a gem: carefully chosen, concisely described, clearly presented pictures of a remarkable diversity of materials. The 'English Renaissance' and 'English Baroque' areas are most directly within the
+
+remit of CERES, but all the sections are good. Check out building
+
+exteriors and interiors, and furniture and objects as well, from the
+
+Pyramids to Frank Lloyd Wright.
+
+<p>
+
+<strong>SCAFFOLD - WWW ARCHITECTURAL SITE</strong><br>
+
+Currently under construction (appropriately enough), with only some
+
+images and text in place: so far Indian architecture, Vitruvius, and
+
+Renaissance Italians are represented, plus some general architectural
+
+materials. Head for<a href=http://ccat.sas.upenn.edu/george/scaffold.html> http://ccat.sas.upenn.edu/george/scaffold.html</a>.
+
+<p>
+
+<strong>RUBENS PROJECT</strong><br>
+
+If you are interested in viewing and downloading architectural and
+
+artistic images on a large scale then this Australian project run
+
+from ANU will be of interest. Using secure servers, registration, and
+
+(to access its full glory) payment, it is a pretty major undertaking.
+
+Head for <a href=http://rubens.anu.edu.au/>http://rubens.anu.edu.au/</a> and find out more. CERES found
+
+that Netscape and Internet Explorer were not entirely happy with the
+
+secure server set-up and did not load some pages. From the outside it
+
+looked like perseverance would be worthwhile.
+
+<p>
+
+<strong>VOICE OF THE SHUTTLE ARCHITECTURE PAGE</strong><br>
+
+Links galore at <a href=http://humanitas.ucsb.edu/shuttle/archit.html> http://humanitas.ucsb.edu/shuttle/archit.html</a>.
+
+<p>
+
+<strong>WELCOME TO BRITAIN!</strong><br>
+
+A tourism site which will give useful information as well as cool
+
+maps showing where all the 'heritage attractions' (what a lovely
+
+phrase!) are: <a href=http://www.britain.co.uk/> http://www.britain.co.uk/</a>.
+
+<p>
+
+<strong>AND FINALLY</strong><br>
+
+A gentleman from Finland by the name of Risto Hurmalainen has created
+
+a list of, with links to, his 100 favourite old British buildings.
+
+Many a treasure hides therein: <a href=http://www.dlc.fi/~hurmari/castles.html> http://www.dlc.fi/~hurmari/castles.html</a>.
+
+<p>
+
+<hr width=75% align=center>
+
+<a name=places></a>
+
+<h3 align=center>PLACES</h3>
+
+<p>
+
+<strong>HURRAH!</strong><br>
+
+Naturally some of the best buildings and artworks are owned by our
+
+dear Royal family. Although Earl Spencer tells us they are
+
+old-fashioned, in fact they have a far better website than he does,
+
+with plenty of palace(s) information at <a href=http://www.royal.gov.uk/> http://www.royal.gov.uk/</a>.
+
+<p>
+
+<strong>BURGHLEY HOUSE, LINCS</strong><br>
+
+Thanks in part to Stamford's claim to be the 'finest Stone Town on
+
+the Internet' Burghley House has a healthy web presence. Lose no time
+
+in zapping to <a href=http://www.stamford.co.uk/burghley/index.html> http://www.stamford.co.uk/burghley/index.html</a>.  
+
+There is some historical information but not surprisingly the main
+
+pleasure of this site are the pictures of house, grounds, furniture,
+
+of the excellent art collection, and of the extraordinary Heaven Room
+
+and Hell Staircase painted by Antonio Verrio. Actually the
+
+reproduction of the latter is disappointing.
+
+<p>
+
+You can reach a slightly better Hell Staircase via the Burghley House page at <a href=http://www.demon.co.uk/citygate/> http://www.demon.co.uk/citygate/</a>.
+
+There's a little more detail about the building of Burghley here.
+
+<p>
+
+But it gets better! The Italian paintings from Burghley went on tour
+
+in 1996 and the result is a superb virtual art gallery with nice
+
+reproductions and interpretive notes under the auspices of the the
+
+Lakeview Museum in Peoria, Illinois. Don't miss
+
+<a href=http://www.giovanetto.com/burghley/burghley.html> http://www.giovanetto.com/burghley/burghley.html</a>.  Click on the picture-title for a bigger picture.
+
+<p>
+
+<strong>CASTLE HOWARD, YORKS</strong><br>
+
+Vanbrugh-tastic! And it has its own website which is informative and
+
+idiosyncratic: <a href=http://www.castlehoward.co.uk/> http://www.castlehoward.co.uk/</a>. The photos are arty and moody rather than actually worth looking at.  Ho hum. There are, though, some nice reproductions of architectural drawings.
+
+<p>
+
+The Castle Howard website people complain that the only portraits of
+
+Vanbrugh (and those of the Kit-Cat club) are in the National Portrait
+
+Gallery which has a policy not to allow Internet reproductions. Boo!
+
+Although Hurrah! for the NPG's own website which is useful as a guide
+
+to what's on show, with a few pictures: <a href=http://www.npg.org.uk/> http://www.npg.org.uk/</a>.
+
+<p>
+
+<strong>BLENHEIM PALACE, OXON</strong><br>
+
+Still on the Vanbrugh trail, but sadly less to ogle electronically.
+
+There's a small amount of information about the palace and Vanbrugh
+
+himself at <a href=http://ernie.bgsu.edu/~smorgan/publick/blenheim.html> http://ernie.bgsu.edu/~smorgan/publick/blenheim.html</a>.  
+
+A rare CERES mention of someone's holiday snaps - but there are
+
+several pictures at <a href=http://www.english.upenn.edu/~rstack/album.html> http://www.english.upenn.edu/~rstack/album.html</a>.
+
+<p>
+
+<strong>HARDWICK HALL, DERBYS</strong><br>
+
+Just visiting info:  <a href=http://www.openworld.co.uk/britain/pages/H/HAR45QJa.html> http://www.openworld.co.uk/britain/pages/H/HAR45QJa.html</a>.  
+
+And there's a tiny picture and some information (also about architect
+
+Robert Smythson) at <a href=http://dspace.dial.pipex.com/town/parade/taf24/hardwick.htm> http://dspace.dial.pipex.com/town/parade/taf24/hardwick.htm</a>.
+
+<p>
+
+<strong>CHATSWORTH, DERBYS</strong><br>
+
+Derbyshire tourist info gives the basics about Chatsworth, and also
+
+HADDON HALL, EYAM HALL, MELBOURNE HALL, etc. Find it at
+
+<a href=http://www.derbycity.com/derby2/stately.html> http://www.derbycity.com/derby2/stately.html</a>.
+
+<p>
+
+<strong>WOLLATON PARK, NOTTS</strong><br>
+
+Some historical information and pictures of this house at
+
+<a href=http://www.innotts.co.uk/~asperges/woll.html> http://www.innotts.co.uk/~asperges/woll.html</a>.  
+
+These pages have a style of design which is, let's say, not to
+
+everyone's taste. If it is (!) you can link to many others under the
+
+proprietor Jeremy Boot's auspices, many of which concern the
+
+activities of radio hams.
+
+<p>
+
+<strong>AUDLEY END, ESSEX</strong><br>
+
+Not a great deal to shout about except the bare essentials at
+
+<a href=http://www.locata.co.uk/info/audhse.htm> http://www.locata.co.uk/info/audhse.htm</a>.
+
+<p>
+
+<strong>HATFIELD HOUSE, HERTS</strong><br>
+
+The barest essentials are at <a href=http://www.kidsnet.co.uk/places/hatfield.html> http://www.kidsnet.co.uk/places/hatfield.html</a>.  Better is <a href=http://www.britain.co.uk/pages/H/HAT95NQbA.html> http://www.britain.co.uk/pages/H/HAT95NQbA.html</a> which has
+
+several pictures: don't forget to click on the left picture for
+
+larger version, and on the right-hand ones to swap them round. It'll
+
+make sense when you get there.
+
+<p>
+
+CERES did find one other picture, but it was a holiday snap linked to
+
+a 1995 holiday diary from a 16-year-old girl. Good taste intervened.
+
+<p>
+
+<strong>WILTON HOUSE, DORSET</strong><br>
+
+Again, nothing, except details so bare they make previous use of term
+
+'barest' seem unwise: morsels on Dorset's great houses (also
+
+ATHELHAMPTON HOUSE, BREAMORE HOUSE, etc.) at
+
+<a href=http://www.lds.co.uk/dt/houses.html> http://www.lds.co.uk/dt/houses.html</a>.  There's a tiny picture of ATHELHAMPTON at <a href=http://www.shogun.demon.co.uk/dorset/athelham.htm> http://www.shogun.demon.co.uk/dorset/athelham.htm</a>.
+
+<p>
+
+<strong>HAMPTON COURT PALACE</strong><br>
+
+The charming people at The Discerning Eye Internet Services have
+
+produced a virtual tour, with pictures, music, and historical
+
+information. Check it out if you will at
+
+<a href=http://www.the-eye.com/hcintro.htm>http://www.the-eye.com/hcintro.htm
+
+</a>.
+
+<p>
+
+There's information and a bit of illustration at
+
+<a href=http://www.realtennis.gbrit.com/> http://www.realtennis.gbrit.com/ </a> which, as its URL suggests, is most interested in the royal tennis courts. This site also has material on the history of tennis.
+
+<p>
+
+Grose Educational Media has thoughtfully but rather curiously decided
+
+to reproduce a 1919 article by Ernest Law which discusses
+
+Shakespearean performances at Hampton Court, which is the only
+
+surviving building in which Shakespeare's plays were performed. Head
+
+for <a href=http://www.entrenet.com/~groedmed/hampton.html> http://www.entrenet.com/~groedmed/hampton.html</a>.
+
+<p>
+
+<strong>LONGLEAT HOUSE, WILTS</strong><br>
+
+Basic info and two pictures (one of the house, one of giraffes) at
+
+<a href=http://www.wctb.co.uk/longleat.htm> http://www.wctb.co.uk/longleat.htm</a>.
+
+<p>
+
+No internet search would be truly complete without one consiracy
+
+theory. Sure enough (and not suprisingly since nearby Warminster is
+
+said to be Britain's UFO capital) Longleat is said to have been built
+
+on a UFO crash-site. Find out not much more at
+
+<a href=http://www.webentity.co.uk/sci-fi/news/19961020-ukufo.html> http://www.webentity.co.uk/sci-fi/news/19961020-ukufo.html</a>.
+
+<p>
+
+<strong>BOLSOVER CASTLE, DERBYS</strong><br>
+
+Tourist info at <a href=http://www.locata.co.uk/info/bolscas.htm> http://www.locata.co.uk/info/bolscas.htm </a> but the
+
+interesting thing about Bolsover is the geophysical survey undertaken
+
+by English Heritage in order to establish the layout of an earlier
+
+formal garden. This is pretty interesting and there are various
+
+pictures of the castle as well as 3-D underground image things. Go to
+
+<a href=http://www.eng-h.gov.uk/reports/bolsover/> http://www.eng-h.gov.uk/reports/bolsover/</a>.  Link from here to English Heritage and to other geophysical surveys available in HTML format (most of which look rather further back in time).
+
+<p>
+
+<strong>WINDSOR CASTLE, BERKS</strong><br>
+
+You can get some sense of the variety of interiors and exteriors
+
+through the pictures (and few words) at <a href=http://www.johansen.com/hotelnet/windsor/home.htm> http://www.johansen.com/hotelnet/windsor/home.htm</a>.  The best thing here is the 1607 bird's eye view by John Norden.
+
+<p>
+
+<strong>GREENWICH HOSPITAL, LONDON</strong><br>
+
+Christopher Wren's gargantuan building is now the Royal Naval College
+
+which allows CERES to make its first ever recommendation of a
+
+Ministry of Defence web page. There's good coverage in words and
+
+pictures at <a href=http://www.mod.uk/histbldg/RNC_DOH.HTM> http://www.mod.uk/histbldg/RNC_DOH.HTM</a>.  Link from here to other historical buildings under the aegis of the MoD.
+
+<p>
+
+<strong>KNOLE, KENT</strong><br>
+
+Description at <a href=http://www.britain.co.uk/pages/K/KNO50RPc.html> http://www.britain.co.uk/pages/K/KNO50RPc.html</a>.  There are pictures of the house and deer-park at <a href=http://www.sevenoaks-uk.com/town.htm#knole> http://www.sevenoaks-uk.com/town.htm#knole</a>.
+
+<p>
+
+<strong>KENILWORTH, WARKS</strong><br>
+
+There is information and an eye-twisting moving panorama graphic
+
+(addictive but dangerous) at <a href=http://www.celcat.com/kworth/castle.html> http://www.celcat.com/kworth/castle.html</a>.  Link to pictures and context - don't forget to click on the tiny pictures to obtain larger versions - at
+
+<a href=http://www.celcat.com/kworth/castle.html> http://www.celcat.com/kworth/castle.html</a>.
+
+<p>
+
+Cahiers Elisabethains recently featured an article by Mary Hazard
+
+entitled 'A Magnificent Lord': Leicester, Kenilworth, and
+
+Transformations in the Idea of Magnificence'. Link to abstract in
+
+French or English from the CE website
+
+<a href=http://serinf2.univ-montp3.fr/CERRA/AbsCE31.html> http://serinf2.univ-montp3.fr/CERRA/AbsCE31.html</a>.
+
+<p>
+
+<strong>PENSHURST PLACE, KENT</strong><br>
+
+There's a pretty good virtual tour with only mildly annoying music at
+
+<a href=http://www.i-way.co.uk/~sid/pens.html> http://www.i-way.co.uk/~sid/pens.html</a>.  At this site you'll find scanty biogs of some Sidneys (Philip, but not Robert), details of the building of the house, and other
+
+historical context. It doesn't replace books, far from it, but it
+
+can, er, bring certain things to life. Link from here to visitors'
+
+info at <a href=http://www.seetb.org.uk/penshurst/> http://www.seetb.org.uk/penshurst/</a>.
+
+<p>
+
+<strong>THE QUEEN'S HOUSE, GREENWICH</strong><br>
+
+There's some historical information on the National Maritime Museum's
+
+website (the Queen's House is on their patch) at
+
+<a href=http://www.nmm.ac.uk/tm/queen.html> http://www.nmm.ac.uk/tm/queen.html</a>.  Link from here to '25 Facts about the Queen's House' and details of how you can get married there, Inigo-Jones-style.
+
+<p>
+
+<strong>BEAULIEU, DORSET</strong><br>
+
+It has its own web pages but very scanty material:
+
+<a href=http://www.itl.net/features/nmm/Beaulieu.html> http://www.itl.net/features/nmm/Beaulieu.html</a>.
+
+<p>
+
+<hr width=75% align=center>
+
+<a name=people></a>
+
+<h3 align=center>PEOPLE</h3>
+
+<p>
+
+<strong>INIGO JONES</strong><br>
+
+The Globe theatre website based at Reading promises more links to
+
+Jonesy materials, and currently offers interesting photos and
+
+drawings of the Globe's indoor theatre, which is based on designs by
+
+Inigo Jones, probably for the Cockpit: <a href=http://www.reading.ac.uk/globe/Data-Base/Images/Jones.html> http://www.reading.ac.uk/globe/Data-Base/Images/Jones.html</a>.
+
+<p>
+
+There are more Globe-related architectural drawings and photos at
+
+<a href=http://www.reading.ac.uk/globe/Data-Base/Pictures.html> http://www.reading.ac.uk/globe/Data-Base/Pictures.html</a>.  See also an article on architectural style and the Globe at <a href=http://www.reading.ac.uk/globe/Data-Base/Articles/RDN1Ronayne.html> http://www.reading.ac.uk/globe/Data-Base/Articles/RDN1Ronayne.html</a> with links to drawings of interiors by Jones and Robert Smythson.
+
+<p>
+
+<strong>CHRISTOPHER WREN</strong><br>
+
+There's a good collection, with pictures, of Wren's buildings in
+
+London and information about those elsewhere at
+
+<a href=http://www.uk-guide.com/london/wren-lon.htm> http://www.uk-guide.com/london/wren-lon.htm</a>.
+
+<p>
+
+His biography is part of the Galileo Project; see under 'Internet
+
+Resources'.
+
+<p>
+
+<strong>SIR JOHN VANBRUGH</strong><br>
+
+There is a small biography at
+
+<a href=http://ernie.bgsu.edu/~smorgan/publick/vanbrugh.html> http://ernie.bgsu.edu/~smorgan/publick/vanbrugh.html</a>- a page brought
+
+to you by the owner of the Restoration Drama Homepage,
+
+<a href=http://ernie.bgsu.edu/~smorgan/publick/resthome.html> http://ernie.bgsu.edu/~smorgan/publick/resthome.html</a>.
+
+<p>
+
+<strong>VITRUVIUS</strong><br>
+
+There's a German Vitruvius homepage which has biography and
+
+bibliography, plus links to other Vitruvian and general architectural
+
+sources: <a href=http://www.lrz-muenchen.de/~kdw0101/WWW/SC/Vitruvia/vitruvius.html> http://www.lrz-muenchen.de/~kdw0101/WWW/SC/Vitruvia/vitruvius.html</a>.
+
+<p>
+
+<small><a href=#top>Back to top.</a></small>
+
+<hr>
+
+<a name=netsources>
+
+<h2 align=center>INTERNET RESOURCES</h2>
+
+<p>
+
+<strong>BROTHERTON COLLECTION MANUSCRIPT VERSE</strong><br>
+
+CERES is showing its age! We remember the days when this was a creaky
+
+telnet link! (At least we think we do.) Can it be that haven't
+
+mentioned this seriously scholarly internet search facility, enabling
+
+you to rummage (virtually) through the individual items of English
+
+poetry contained in the 17th and 18th century manuscripts in the
+
+Brotherton Collection of Leeds University Library? No full texts, but
+
+first and last lines and lots of bibliographical information. The
+
+website expresses the hope that in time it may extend to include
+
+material in other collections. Let's hope so. The items in question
+
+range from contemporary copies of poems by writers like Dryden and
+
+Pope at one literary extreme to popular tags and epitaphs at the
+
+other. Many of the manuscripts are miscellanies and commonplace books
+
+which have never previously been indexed, and their contents have
+
+consequently remained largely unknown to scholars.
+
+Pay respects to <a href=http://www.leeds.ac.uk/library/spcoll/bcmsv/intro.html> http://www.leeds.ac.uk/library/spcoll/bcmsv/intro.html</a>.
+
+<p>
+
+<strong>CHRIST CHURCH PICTURE GALLERY</strong><br>
+
+Like most Oxbridge colleges Christ Church has a website, but its
+
+coverage of the excellent picture gallery there make it stand out:
+
+details of exhibitions and reproductions from the Renaissance Italian
+
+collection via <a href=http://www.chch.ox.ac.uk/> http://www.chch.ox.ac.uk/</a>.
+
+<p>
+
+<strong>THE GALILEO PROJECT</strong><br>
+
+This site is dedicated to the life and work of Galileo and to the
+
+science and scientists of his era. It offers a great deal of serious
+
+information on a well-organised site. Amongst other things it has
+
+fairly detailed biographies of some 600 major figures in European
+
+Renaissance science: <a href=http://es.rice.edu/ES/humsoc/Galileo/> http://es.rice.edu/ES/humsoc/Galileo/</a>.
+
+<p>
+
+<strong>ELECTRONIC MARLOWE</strong><br>
+
+CERES has already mentioned this site for its texts of Dr Faustus; it
+
+is now on the verge of being complete, with an electronic edition of
+
+the rest of Marlowe's works. This edition collates many earlier
+
+editions of the plays: for instance, users may select the 1590 Octavo
+
+version of Tamburlaine the Great, Part 1 or view instead Robinson's
+
+1826 collation. By selecting from the pop-up menu above each text,
+
+viewers may choose between approximately twenty versions of each of
+
+Marlowe's works. It is anticipated that every text will be available
+
+for viewing with textual variants any day now. Find it at
+
+<a href=http://www.perseus.tufts.edu/Texts/Marlowe.html> http://www.perseus.tufts.edu/Texts/Marlowe.html</a>.
+
+<p>
+
+<strong>VERSIFICATION</strong><br>
+
+<a href=http://sizcol1.u-shizuoka-ken.ac.jp/versif/Versification.html> http://sizcol1.u-shizuoka-ken.ac.jp/versif/Versification.html</a><br>
+
+Already mentioned in Harvest II.i, this comprehensive site gets a
+
+second mention because it now hosts T.V.F. Brogan's 'English
+
+Versification: A Reference Guide', a revised and corrected electronic
+
+edition of Brogan's monumental annotated bibliography, Versification:
+
+1570-1980, originally published by Johns Hopkins U.P. It will be
+
+issued in individual files that correspond to the citation prefixes
+
+in the Table of Contents. When the entire bibliography has been
+
+published [and most of it seems to be there already], it will be
+
+consolidated into a single file and a search engine added to
+
+facilitate searches. This should be completed by early next year.
+
+Later supplements, scheduled for 1998, will carry the bibliography's
+
+terminus ad quem to 1987.
+
+<p>
+
+<strong>THE ELIOT-PHELIPS COLLECTION CATALOGUING PROJECT</strong><br>
+
+The University of London Library has just completed the first phase
+
+(funded by HEFCE) of a project to catalogue and conserve the
+
+Eliot-Phelips Collection of publications printed in or relating to
+
+Spain. The collection consists primarily of approximately 3500 books,
+
+pamphlets, and official documents, supplemented by smaller numbers of
+
+maps, manuscripts, and prints. Over 50% of the printed material is
+
+from the hand-press period. Of the 971 items catalogued up to July
+
+1997, 139 were printed before 1600, 195 between 1600 and 1699, and
+
+213 between 1700 and 1830.
+
+<p>
+
+A fuller account of the project, together with a more detailed
+
+description of the material in the collection, is now available on
+
+the Web. It can be seen via the University of London Library home
+
+page (URL: <a href=http://www.ull.ac.uk/ull/>http://www.ull.ac.uk/ull/</a>) or directly at URL: <a href=http://www.ull.ac.uk/ull/EP/EPIntro.html>http://www.ull.ac.uk/ull/EP/EPIntro.html</a>.  For further information, contact <a href=mailto:jwalworth@ull.ac.uk>Julia Walworth, Head of Special Collections (jwalworth@ull.ac.uk)</a> or <a href=mailto:pnoble@ull.ac.uk>Patricia Noble, Project Officer (pnoble@ull.ac.uk)</a>.
+
+<p>
+
+<strong>MR WILLIAM SHAKESPEARE AND THE INTERNET</strong><br>
+
+This site has been around for a while but after its recent revision
+
+it is a capacious and useful starting point not only for Shakespeare
+
+resources but for Renaissance literature more generally. And, it has
+
+moved to a new address <a href=http://daphne.palomar.edu/shakespeare/> http://daphne.palomar.edu/shakespeare/</a>.
+
+<p>
+
+<strong>COMPUTERS AND TEXTS ON-LINE</strong><br>
+
+Volume 15 is now on-line! Of particular interest is Jean Chothia's
+
+review of the Arden Shakespeare CD-ROM, with a response co-written by
+
+Jonathan Bate. The central contention in the Computers and Texts review
+
+is its use of the Arden 2 editions rather than the new Arden 3. URL
+
+for C and T 15 is <a href=http://info.ox.ac.uk/ctitext/publish/comtxt/ct15/index.html> http://info.ox.ac.uk/ctitext/publish/comtxt/ct15/index.html</a>.
+
+<p>
+
+<strong>BIBLIOFIND</strong><br>
+
+Just in passing, you can search through a vast catalogue of rare,
+
+antiquarian, and second-hand books at <a href=http://www.bibliofind.com> http://www.bibliofind.com</a>.
+
+<p>
+
+<small><a href=#top>Back to top.</a></small>
+
+<hr>
+
+<a name=nftn></a>
+
+<h2 align=center>NEWS FROM THE NET</h2>
+
+<p>
+
+<strong>WARBURG SEMINARS AND LECTURES 1997-8</strong><br>
+
+Details of activities of all kinds at the Warburg Institute are
+
+available at the website <a href=http://www.sas.ac.uk/warburg/> http://www.sas.ac.uk/warburg/</a>.
+
+<p>
+
+<strong>GIOSEFFO ZARLINO'S MUSIC TREATISES</strong><br>
+
+The Department of Computer and Humanities (Utrecht University)
+
+announces the publication of Gioseffo Zarlino's Music Treatises,
+
+facsimile and transcription edited by Frans Wiering, Thesaurus
+
+Musicarum Italicarum, Volume 1, CD-ROM for Windows 95.
+
+<p>
+
+Gioseffo Zarlino (1517-1590) was one of the most influential music
+
+theorists of the Renaissance. His principal work, <cite>Le istitutioni
+
+harmoniche</cite>, is a unique synthesis of the music theory of Antiquity,
+
+the Middle Ages and the Renaissance, and the compositional practice
+
+of his own time. The <cite>Dimostrationi harmoniche</cite> presents music theory
+
+according to the axiomatic model of Euclid's <cite>Elements</cite>. In the
+
+<cite>Sopplimenti</cite>, Zarlino displays his wide reading of classical sources
+
+in a sharp response to Vincenzo Galilei's critique of his earlier
+
+writings.
+
+<p>
+
+This CD-ROM contains the first edition of the <cite>Istitutioni</cite> (1558),
+
+and all three treatises as they appear in the <cite>Tutte le Opere</cite> of
+
+1588-89. Each document is available in two forms: a facsimile and a
+
+transcription. The texts are transcribed using Standard Generalized
+
+Markup Language (SGML), following the guidelines of the Text Encoding
+
+Initiative (TEI). All illustrations are included, and the music
+
+examples from both editions of the <cite>Istitutioni</cite> have been
+
+transcribed into modern notation. Longer examples from the 1558
+
+edition can also be played from MIDI.
+
+<p>
+
+The CD-ROM also contains an SGML viewer for Windows 95, a viewer for
+
+the facsimiles, and two fonts. Together these provide a powerful and
+
+user-friendly software environment for the TMI.
+
+<p>
+
+The price of the CD-ROM is 10 Dollars, 6 British Pounds [BARGAIN],
+
+LIT. 20,000, DM 20 or DFL 20 (cost of software, CD production and
+
+mailing). To order, please send this amount IN CASH to the address
+
+below. If you prefer to pay by cheque, please DOUBLE the specified
+
+sums in order to cover the banking charges we shall unavoidably
+
+incur.
+
+<p>
+
+TMI, Utrecht University, Department of Computer and Humanities,
+
+Achter de Dom 22-24, NL 3512 JP Utrecht, Netherlands.  E-mail: <a href=mailto:tmi@let.ruu.nl>tmi@let.ruu.nl</a>.  WWW: <a href=http://candl.let.ruu.nl/>http://candl.let.ruu.nl/</a>.
+
+<p>
+
+<strong>WORLD SHAKESPEARE BIBLIOGRAPHY CD</strong><br>
+
+Cambridge University Press has just released the World Shakespeare
+
+Bibliography on CD-ROM 1987-94. The 24,768 entries (along with
+
+several thousand additional reviews) cover scholarship and
+
+productions in more than 80 languages. Full details are available at
+
+the World Shakespeare Bibliography Web-Site:
+
+<a href=http://www-english.tamu.edu/wsb/>http://www-english.tamu.edu/wsb/</a>  (which includes a list of books and articles that have not been tracked down).
+
+<p>
+
+<small><a href=#top>Back to top.</a><br>
+<a href=archive.htm>Return to CERES Archive</a></small>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+
+
+
+x<a> o/>ototel

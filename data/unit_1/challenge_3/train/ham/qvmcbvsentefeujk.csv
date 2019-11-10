@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template_final.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Leeds Trinity &amp; All Saints Student Union</title>
+<!-- InstanceEndEditable -->
+<link href="cssfiles/layout.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- RIGHT CLICK CODE -->
+<style>
+<!--
+
+/* Context menu Script- © Dynamic Drive (www.dynamicdrive.com) Last updated: 01/08/22
+For full source code and Terms Of Use, visit http://www.dynamicdrive.com */
+
+.skin0{
+position:absolute;
+width:125px;
+border:1px solid #980027;
+background-color:#FFFFFF;
+font-family:Verdana;
+font-weight:bold;
+text-align:left;
+line-height:18px;
+cursor:default;
+font-size:11px;
+z-index:100;
+visibility:hidden;
+}
+
+.menuitems{
+padding-left:5px;
+padding-right:10px;
+}
+-->
+</style>
+
+
+
+</head>
+<body onload="MM_preloadImages('graphics/nav_home_f2.jpg','graphics/nav_welcome_f2.jpg','graphics/nav_news_f2.jpg','graphics/nav_about_f2.jpg','graphics/nav_events_f2.jpg','graphics/nav_gallery_f2.jpg','graphics/nav_societies_f2.jpg','graphics/nav_facilities_f2.jpg','graphics/nav_contact_f2.jpg','graphics/nav_hq_f2.jpg','graphics/nav_security_f2.jpg')">
+<!-- RIGHT CLICK CODE -->
+<div id="ie5menu" class="skin0" onMouseover="highlightie5(event)" onMouseout="lowlightie5(event)" onClick="jumptoie5(event)" display:none>
+<div class="menuitems" url="http://www.leedstrinity.ac.uk/su/">Home</div>
+<div class="menuitems" url="http://tascusforum.proboards32.com/index.cgi" target="_blank">Forum</div>
+<div class="menuitems" url="http://www.leedstrinity.ac.uk/su/events/events.html">Events</div>
+<div class="menuitems" url="http://www.leedstrinity.ac.uk/">Trinity Home</div>
+<div class="menuitems" url="http://www.leedstrinity.ac.uk/su/contact/contact.html">Contact</div>
+<hr>
+<div class="menuitems" url="mailto:UM@leedstrinity.ac.uk">Email LTU</div>
+</div>
+
+<script language="JavaScript1.2">
+
+//set this variable to 1 if you wish the URLs of the highlighted menu to be displayed in the status bar
+var display_url=0
+
+var ie5=document.all&&document.getElementById
+var ns6=document.getElementById&&!document.all
+if (ie5||ns6)
+var menuobj=document.getElementById("ie5menu")
+
+function showmenuie5(e){
+//Find out how close the mouse is to the corner of the window
+var rightedge=ie5? document.body.clientWidth-event.clientX : window.innerWidth-e.clientX
+var bottomedge=ie5? document.body.clientHeight-event.clientY : window.innerHeight-e.clientY
+
+//if the horizontal distance isn't enough to accomodate the width of the context menu
+if (rightedge<menuobj.offsetWidth)
+//move the horizontal position of the menu to the left by it's width
+menuobj.style.left=ie5? document.body.scrollLeft+event.clientX-menuobj.offsetWidth : window.pageXOffset+e.clientX-menuobj.offsetWidth
+else
+//position the horizontal position of the menu where the mouse was clicked
+menuobj.style.left=ie5? document.body.scrollLeft+event.clientX : window.pageXOffset+e.clientX
+
+//same concept with the vertical position
+if (bottomedge<menuobj.offsetHeight)
+menuobj.style.top=ie5? document.body.scrollTop+event.clientY-menuobj.offsetHeight : window.pageYOffset+e.clientY-menuobj.offsetHeight
+else
+menuobj.style.top=ie5? document.body.scrollTop+event.clientY : window.pageYOffset+e.clientY
+
+menuobj.style.visibility="visible"
+return false
+}
+
+function hidemenuie5(e){
+menuobj.style.visibility="hidden"
+}
+
+function highlightie5(e){
+var firingobj=ie5? event.srcElement : e.target
+if (firingobj.className=="menuitems"||ns6&&firingobj.parentNode.className=="menuitems"){
+if (ns6&&firingobj.parentNode.className=="menuitems") firingobj=firingobj.parentNode //up one node
+firingobj.style.backgroundColor="highlight"
+firingobj.style.color="white"
+if (display_url==1)
+window.status=event.srcElement.url
+}
+}
+
+function lowlightie5(e){
+var firingobj=ie5? event.srcElement : e.target
+if (firingobj.className=="menuitems"||ns6&&firingobj.parentNode.className=="menuitems"){
+if (ns6&&firingobj.parentNode.className=="menuitems") firingobj=firingobj.parentNode //up one node
+firingobj.style.backgroundColor=""
+firingobj.style.color="black"
+window.status=''
+}
+}
+
+function jumptoie5(e){
+var firingobj=ie5? event.srcElement : e.target
+if (firingobj.className=="menuitems"||ns6&&firingobj.parentNode.className=="menuitems"){
+if (ns6&&firingobj.parentNode.className=="menuitems") firingobj=firingobj.parentNode
+if (firingobj.getAttribute("target"))
+window.open(firingobj.getAttribute("url"),firingobj.getAttribute("target"))
+else
+window.location=firingobj.getAttribute("url")
+}
+}
+
+if (ie5||ns6){
+menuobj.style.display=''
+document.oncontextmenu=showmenuie5
+document.onclick=hidemenuie5
+}
+
+</script>
+
+
+<div id="wrapper">
+
+ <div id="header"><img src="graphics/header_top_left.jpg" alt="Leeds Trinity &amp; Allsaints Student Union" /><!-- InstanceBeginEditable name="image" --><img src="graphics/images/image2.jpg" width="562" height="154" border="0" /><!-- InstanceEndEditable --><img src="graphics/header_bot_left.jpg" /><img src="graphics/header_bot_right.jpg" /></div>
+ <div id="top_nav"><a href="campaigns/campaigns.html"><img src="graphics/top_nav_campaigns.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Campaigns" border="0" /></a><a href="welfare/welfare.html"><img src="graphics/top_nav_welfare.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Welfare" border="0" /></a><a href="academic/academic.html"><img src="graphics/top_nav_academic.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Academic" border="0" /></a><a href="volunteering/volunteering.html"><img src="graphics/top_nav_volunteering.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Volunteering" border="0" /></a><a href="rag/rag.html"><img src="graphics/top_nav_rag.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - RAG Week" border="0" /></a><a href="nus_extra/nus.html"><img src="graphics/top_nav_nus.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - NUS Extra" border="0" /></a><a href="sports_teams/mens.html"><img src="graphics/top_nav_mens.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Mens Sports" border="0" /></a><a href="sports_teams/ladies.html"><img src="graphics/top_nav_ladies.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Ladies Sports" border="0" /></a><a href="links/links.html"><img src="graphics/top_nav_links.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Links" border="0" /></a></div>
+ <div id="nav_left"><img src="graphics/nav_top.jpg" alt="Leeds Trinity &amp; Allsaints Student Union" /><a href="index.htm"><img src="graphics/nav_home.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Home" name="Image1" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','graphics/nav_home_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="welcome/welcome.html"><img src="graphics/nav_welcome.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Welcome" name="Image2" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','graphics/nav_welcome_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="news/news.html"><img src="graphics/nav_news.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - News" name="Image3" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','graphics/nav_news_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="about_us/about_us.html"><img src="graphics/nav_about.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - About Us" name="Image4" border="0" id="Image4" onmouseover="MM_swapImage('Image4','','graphics/nav_about_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="events/events.html"><img src="graphics/nav_events.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Events" name="Image5" border="0" id="Image5" onmouseover="MM_swapImage('Image5','','graphics/nav_events_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="gallery/gallery.html"><img src="graphics/nav_gallery.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Gallery" name="Image6" border="0" id="Image6" onmouseover="MM_swapImage('Image6','','graphics/nav_gallery_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="societies/societies.html"><img src="graphics/nav_societies.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Societies" name="Image7" border="0" id="Image7" onmouseover="MM_swapImage('Image7','','graphics/nav_societies_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="facilities/facilities.html"><img src="graphics/nav_facilities.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Facilities" name="Image8" border="0" id="Image8" onmouseover="MM_swapImage('Image8','','graphics/nav_facilities_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="contact/contact.html"><img src="graphics/nav_contact.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Contact" name="Image9" border="0" id="Image9" onmouseover="MM_swapImage('Image9','','graphics/nav_contact_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="hq_bar/bar.html"><img src="graphics/nav_hq.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - HQ Bar" name="Image10" border="0" id="Image10" onmouseover="MM_swapImage('Image10','','graphics/nav_hq_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><a href="security/security.html"><img src="graphics/nav_security.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Security Issues" name="Image11" border="0" id="Image11" onmouseover="MM_swapImage('Image11','','graphics/nav_security_f2.jpg',1)" onmouseout="MM_swapImgRestore()" /></a><img src="graphics/nav_bottom.jpg" /><br />
+       <br />
+         <a href="http://www.gradplace.co.uk/trinity.asp" target="_blank"><img src="graphics/fresher_banner.gif" alt="Freshers 2006" width="120" height="60" border="0" style="padding:0 20px 0 0;" /></a><br />
+         <br />
+         <br />
+  <div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&copy;2006 Evangelion Designs</div> </div>
+ <div id="body_wrapper"><img src="graphics/body_top.jpg" width="461" height="19" />
+   <div id="body_content"><!-- InstanceBeginEditable name="content" --> <br />
+     <div style="width:280px; float:right;">
+      <p>Welcome,    </p>
+      <p>For enquiries about the Student Union please use the contact details below: </p>
+      <p><strong>Peter Travis  </strong><br />
+        <a href="mailto:p.travis@leedstrinity.ac.uk">p.travis@leedstrinity.ac.uk</a> <br />
+          <br />
+          0113 2837241<br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <strong>Ian  Ballinger </strong><br />
+        <a href="mailto:i.ballinger@leedstrinity.ac.uk">i.ballinger@leedstrinity.ac.uk</a><br />
+        <br />
+        0113  2837328<br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <strong>Nikera McDonald</strong><br /> 
+        <a href="mailto:n.mcdonald@leedstrinity.ac.uk">n.mcdonald@leedstrinity.ac.uk</a></p>
+    </div>
+   <div style="width:150px; float:left;">
+       <img src="about_us/trav.jpg" width="150" height="150" />
+       <br />
+       <img src="about_us/ian.jpg" width="150" height="150" />
+       <br />
+      <img src="about_us/nikera.jpg" width="150" height="150" /></div>
+	  <br clear="all" />
+	 
+     <!-- InstanceEndEditable --></div>
+ <img src="graphics/body_footer.jpg" width="461" height="60" /><a href="http://www.jeansforgenes.com"></a></div>
+ <div id="quick_links"><img src="graphics/links_top.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Quick Links" /><a href="events/events.html"><img src="graphics/links_event.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Next Event" border="0" /></a><a href="http://tascusforum.proboards32.com/index.cgi" target="_new"><img src="graphics/links_forum.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Forum" border="0" /></a><a href="http://www.myspace.com/leedstrinity" target="_blank"><img src="graphics/links_cotw.jpg" alt="Leeds Trinity &amp; Allsaints Student Union - Caption Of The Week" border="0" /></a><a href="index.htm"><img src="graphics/ltu_logo.jpg" alt="Leeds Trinity &amp; Allsaints Student Union" border="0" /></a></div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+
+
+mtnpos2=<e6 a i

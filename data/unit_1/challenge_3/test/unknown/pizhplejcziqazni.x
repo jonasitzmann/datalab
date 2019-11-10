@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>sta travel Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=computer-workstation"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">computer workstation</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=high-stakes-gambling"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">high stakes gambling</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=play-station-2-game"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">play station 2 game</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=play-station-game"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">play station game</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=game-station"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">game station</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=sta-travel"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">sta travel</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">sta travel Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://www.statravel.co.uk"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Travel the World with STA Travel</font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Discount rates for students &amp; under 26s on flights, accommodation, tours, treks &amp; insurance with STA Travel. Book with the specialists today.</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.statravel.co.uk</font><br><br>
+<br><a href="http://statravelaustralia.r-schroeder.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>sta travel australia </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>sta travel australia were such good friends. It pleased him to see that Luet wasnt just a tagalong, that in fact she wasnt at all sta travel australia outlet worshipful or deferent, beyond the norm...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://statravelaustralia.r-schroeder.co.uk/</font><br><br>
+<br><a href="http://www.zeus.com/news/press_articles/061113-001/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Content Management Software, Application Delivery: STA selects Zeus to improve application performance and resilience. </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Home Products Solutions Support Partners Download News About STA Travel selects Zeus to improve website performance and resilience November 13, 2006 Zeus Technology, the leading provider of extensi...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.zeus.com/news/press_articles/061113-001/</font><br><br>
+<br><a href="http://www.last-minute-holiday.org.uk/html/sta_travel.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>STA Travel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Home Resources Resources2 Travel Insurance Car Hire Hotels Flights Holiday Greece France Spain Cyprus Portugal All Inclusive Egypt Skiing Holiday Travel Holiday Deal Weekend Break Cruises Break Bar...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.last-minute-holiday.org.uk/html/sta_travel.html</font><br><br>
+<br><a href="http://www.thesite.org/travelandfreetime/travel/preparingtogo/yout ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Youth travel cards and passes - TheSite.org </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Ireland by rail this card will also get you substantial discounts. The ISIC card is internationally recognised as proof of you being a student. Where? STA Travel. Call 08701 600 599 or buy onli...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.thesite.org/travelandfreetime/travel/preparingtogo/yout ...</font><br><br>
+<br><a href="http://www.flights-only-search.co.uk/new/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>flights only search </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... the UK to Canada at great prices with Zoom Airlines. Seat sale now on. www.flyzoom.com Cheap Flights Worldwide Bargain worldwide flights from STA Travel - student and under 26 experts. Great di...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.flights-only-search.co.uk/new/</font><br><br>
+<br><a href="http://www.ibackpack.co.uk/blog/sta-travel-insurance/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>STA Travel Insurance .:. Backpacker Travel Insurance News Blog </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Backpacker Travel Insurance News Blog For all the latest news and views on backpacker insurance « Adventure Travel Insurance New Travel Insurance Websites » STA Travel Insurance If you are looking ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.ibackpack.co.uk/blog/sta-travel-insurance/</font><br><br>
+<br><a href="http://www.nirallynetwork.co.uk/hotlinks/australia-sta-travel.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Goto4me australia sta travel </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>www.nirallynetwork.co.uk Home Banks Injury Investment Savings Loans Endowment Credit Search Best Results You are searching here: UK Select search region: Channel Islands - England - Isle of Man - N...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.nirallynetwork.co.uk/hotlinks/australia-sta-travel.html</font><br><br>
+<br><a href="http://www.cheaptravelinsuranceonline.co.uk/index.shtml"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Travel Insurance - reviewed, comprehensive listings </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... to help you to locate resources on Cheap Travel Insurance. Popular search results for Travel Insurance: Travel Insurance from STA Travel Get cheap travel insurance at STA Travel. Student and un...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.cheaptravelinsuranceonline.co.uk/index.shtml</font><br><br>
+<br><a href="http://www.annual-holiday-insurance-quote.co.uk/holidayinsurance/a ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Australian Travel Insurance Companies </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Travel Insurance UK Travel insurance policies from only £5.99 per week. Buy online today. Get Cheap Travel Insurance at STA Travel Cheap specialist travel insurance policies from STA Travel. Bo...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.annual-holiday-insurance-quote.co.uk/holidayinsurance/a ...</font><br><br>
+<br><a href="http://www.insure-onthenet.co.uk/insurance/annual_travel_insurance ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Annual Travel Insurance 65s from InsureOnTheNet </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... simple and our policies provide excellent cover at competitive prices. Visit insurance.essentialtravel.co.uk Get Cheap Travel Insurance at STA Travel Cheap specialist travel insurance policies ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.insure-onthenet.co.uk/insurance/annual_travel_insurance ...</font><br><br>
+<br><a href="http://www.letmetravel.co.uk/holiday-companies/aberdeen-travel-age ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Aberdeen Travel Agents Aberdeen Holiday Companies </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... St, Aberdeen, AB11 6JN 01224 581800 http://www.atpi.com Atp - the advanced travel partner Profile Map S T A Travel - Aberdeen travel agents 30 Upperkirkgate, Aberdeen, AB10 1BA 01224 658222 htt...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.letmetravel.co.uk/holiday-companies/aberdeen-travel-age ...</font><br><br>
+<br><a href="http://travel-barcelona.lg2.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Let's Go To :: Travel Barcelona </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... second city of SpainReturn Schedule Air Travel with British Airways to Barcelona: departing fr... www.jmb-travel.co.uk/operahouse.asp?city_ref=24 STA TRAVEL Barcelona Travel Trust. Travel Journ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://travel-barcelona.lg2.co.uk/</font><br><br>
+<br><a href="http://insurance.pricelook.co.uk/travel.php"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Travel Insurance - UK Credit Cards, Loans and Mortagages </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... travel. Click here for some great value travel insurance deals with some savings up to 50%. www.tescofinance.com Travel Insurance from STA Travel Get cheap travel insurance at STA Travel. Stude...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://insurance.pricelook.co.uk/travel.php</font><br><br>
+<br><a href="http://www.portugal.co.uk/Travel-Insurance.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Travel Insurance Info. Specialist Travel Insurance Site With Discount Travel Insurance. </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... online cover on single trip, annual, backpackers and adventure sports. www.atlasdirect.net 5. Get Cheap Travel Insurance at STA Travel Cheap specialist travel insurance policies from STA Travel...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.portugal.co.uk/Travel-Insurance.html</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+isnagi

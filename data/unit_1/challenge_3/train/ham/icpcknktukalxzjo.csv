@@ -1,0 +1,95 @@
+
+
+
+<html>
+<head>
+
+<title>Brighton &amp; Hove Education Online: BHCC website for schools PRINTABLE VERSION</title>
+
+
+<!-- Brighton & Hove City Council - Education Online skin -->
+<!-- Version 2.0 September 2003 -->
+<!-- Technical enquiries: james.burton@brighton-hove.gov.uk -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+	@import url(web/sites/education/page_display/may_03_print.css);
+</style>
+
+
+<meta name="keywords" content=""> <meta name="Description" content=""> 
+
+<script language="JavaScript">
+	window.print();
+</script>
+
+<style>
+.breadCrumbsText {
+	color: #000;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<p class="Upgrade">This page looks plain and unstyled because you're using a
+  non-standard compliant browser. Please upgrade to a browser that supports web standards as soon as possible. Staff within Brighton & Hove City Council can call the ICT Helpdesk on 292001. Staff within schools should contact their ICT Coordinator or ICT Support Staff. Everyone else can get useful information from <a href="http://www.webstandards.org/upgrade/" title="The Web Standards Project's Browser Upgrade initiative">The Web Standards Project's Browser Upgrade initiative</a>.</p>
+
+
+ 
+
+
+<div id="Container">   
+<h2 align="center">Brighton & Hove Education Online Printable version</h1>
+
+
+		  <div id="Main" style="background-color:#fff;">
+		
+		
+		
+		    <div id="Topmenu">
+				
+		<a href="index.cfm?request=a300" title="eds_home" class="breadCrumbsText">home</a>
+	
+			&nbsp;/ <strong>Remember my details</strong>
+		 
+			</div>
+			
+			<div id="Content">
+			
+							
+				
+				
+				<a name="Title1"></a>
+			
+	<h2 class="title"><P>Remembering your account details</P></h2>
+
+				<a name="BodyText1"></a>
+			
+		<span id="blacktext">
+			<P>If you select the checkbox in the login panel before logging in, your details will be saved in a cookie on&nbsp;your hard drive. The next time you come to the site you will be logged in automatically.&nbsp;Do not select this option if you share your computer with others, or they will have access to your user profile and to any&nbsp;group applications you may belong to (eg the School Visits application).</P><P>Moderators and administrators are not able to save their details in this way for security reasons.</P>
+		</span>
+		
+					<br clear="all"/>
+					
+						<span class="date">Last updated 20-May-04</span>
+					
+			
+		</div>
+		<br >&nbsp;</br>
+		
+
+
+
+
+ </div>
+
+</body>
+</html>
+
+
+mmiaae ii>

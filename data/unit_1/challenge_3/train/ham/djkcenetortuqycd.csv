@@ -1,0 +1,145 @@
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+<TITLE>RRes - SS Department - sundial</TITLE>
+<style>
+<!--
+A { text-decoration: none;  }  
+A:visited, A:hover, A:active { text-decoration: none; } 
+// -->
+</STYLE>
+</HEAD>
+
+<body background="/aen/NewIACRBackground.gif">
+
+<table border="0" cellpadding="6">
+<tr>
+<td colspan="3" valign="top">
+<font face="arial" size="+3"><b>Soil Science&nbsp;</b></font>
+</td>
+</tr>
+
+<tr>
+<td HEIGHT="10"><!--blank cell--></td>
+</tr>
+
+<tr>
+
+<td width="165" valign="top" align="left">
+
+<!-- side menu Start -->
+
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><img border="0" src="/iacr/iacrimages/template3.gif" width="100" height="129"></a>
+<br />
+<p align="left">
+<font face="arial" size="2">
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><b>RRes home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/htdig/search.html"><b>Search</b></a><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html"><b>Research</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/aenindex.htm"><b>SS Department home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+
+<a href="/aen/nut_dyn/nutdyn.htm"><b>Nutrient Dynamics</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/soil_prot/soilprot.htm"><b>Soil Protection and Remediation</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/c_cycling/index.htm"><b>Carbon Cycling</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+<br />
+
+<a href="/aen/project.htm"><b>AEN project pages</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/software.htm"><b>Software</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/meetings.htm"><b>Meetings</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/links.htm"><b>Useful links</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+<B>Soil Science Department<br />
+Rothamsted Research<br />
+Harpenden, Herts<br />
+AL5 2JQ  England<br />
+<br />
+Tel: +44 (0) 1582 763133<br />
+Fax: +44 (0) 1582 469036<br /> 
+E-mail: <A HREF="MAILTO:christine.jaggard@bbsrc.ac.uk">Secretary</A></B><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+</font>
+
+
+<!-- side menu End -->
+
+
+</td>
+
+<td Width="10"><!--blank cell--></td>
+
+<td valign="top">
+<HEAD>
+  <!-- Created with AOLpress/2.0 -->
+  <TITLE>SUNDIAL the Research Tool</TITLE>
+</HEAD>
+<P>
+<H1>
+  <B><BIG><FONT COLOR=#1111ff>SUNDIAL</font> the research tool</BIG></B>
+</H1>
+<P>
+<hr />
+<P>
+The <A HREF="sci.htm">SUNDIAL</A> model incorporates current scientific
+knowledge on the individual processes of nitrogen turnover, and integrates
+these processes to simulate what happens in the whole soil. It has a modular
+structure, each module representing one of the major nitrogen turnover processes.
+Inputs of nitrogen to the soil include those from fertiliser, manures, crop
+residues and from the atmosphere. Nitrogen is transformed within the soil
+by mineralisation and immobilisation of organic matter and nitrification
+of ammonium, and removed from the soil by crop uptake, nitrate leaching and
+gaseous losses. <A HREF="sci.htm">SUNDIAL</A> requires simple field
+specific information as input data: the soil texture class, previous cropping
+history, the current crop type together with its sowing and harvest dates.  The crops currently supported are annual arable crops and some field-grown horticultural crops commonly grown in the UK.  It runs on a weekly time-step, using the weekly rainfall, evapotranspiration
+and mean weekly temperature as meteorological inputs. See
+<A HREF="sci.htm">Model Description</A> for a more detailed description.
+<P>
+SUNDIAL the Research Tool can be used to follow the fate of any fertiliser
+or organic manure applied during one or more growing seasons, to predict
+the amount of nitrate leached from the soil, to look at sources of that nitrate
+and to explore practical strategies for reducing nitrate leaching.
+<A HREF="sci.htm">SUNDIAL</A> can be run for a number of years so
+that the cycling of nitrogen can be examined through various crop rotations
+(modelling whole farm systems). SUNDIAL the Research Tool has been distributed
+to over 250 scientists world wide.
+<P>
+The development of SUNDIAL the Research Tool was primarily funded by the
+Home-Grown Cereals Authority (<A HREF="http://www.hgca.com/">HGCA</A>).
+<P>
+  <hr />
+<P>
+<A HREF="sundial.htm">Back to Sundial
+home page</A>
+</td>
+
+</tr>
+</table>
+
+
+
+t<ri u_ saan

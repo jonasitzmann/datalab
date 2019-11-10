@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Faculty of English</title>
+<link rel="stylesheet" type="text/css" href="/style/camstylenew.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/style/print2.css" media="print" />
+<!--
+<meta name="description" content="insert text here" />
+<meta name="keywords" content="" />
+-->
+</head>
+<body>
+<div id="page">
+<!-- header -->
+<div id="navigation">
+<div class="skiplink"><a href="#startcontent" accesskey="2">Skip over navigation</a>&nbsp;|&nbsp;<a href="http://www.cam.ac.uk/computing/accesskeys.html" accesskey="0">Access key help</a></div> 
+<div id="insert"><span class="noshow">|</span><a href="../localsearch.htm" accesskey="4"><img src="/images/search.gif" width="53" height="18" alt="[Search]" /></a><span class="noshow">|</span><a href="../az.htm"><img src="/images/az.gif" width="53" height="18" alt="[A-Z Index]" /></a><span class="noshow">|</span><a href="../help.htm"><img src="/images/help.gif" alt="[Help]" width="53" height="18" border="0" /></a></div>
+</div>
+
+<table id="header" summary="page header">
+<tr>
+<td class="identifier"><a href="http://www.cam.ac.uk/"><img src="/images/identifier2.gif" width="192" height="46" alt="[University of Cambridge]" /></a></td>
+<td class="deptitle">Faculty of English </td>
+</tr>
+</table>
+<div id="topbgline">&nbsp;</div>
+<!-- end header -->
+
+<!-- breadcrumbs -->
+
+<div id="bread">
+<p><a href="http://www.cam.ac.uk/">University of Cambridge</a>&nbsp;&gt;&nbsp;<a href="http://www.english.cam.ac.uk/">Faculty of English</a> &gt; <strong>Alumni</strong>
+<!-- content -->
+</p>
+</div>
+<div id="content"><a name="startcontent" id="startcontent"></a><!-- this is the anchor for the skiplink -->
+
+<table id="hpcontainer" summary="page content">
+<tr>
+<!-- left  -->
+<td class="left">  <img src="images/9west.jpg" width="252" height="351" />   </td>
+<!-- end left  -->
+
+<!-- right --> 
+<td class="right"><!-- emergency news -->  <h1>News for Alumni</h1>  <ul>
+  <li><a href="http://www.english.cam.ac.uk/building/">The New Building</a></li>
+  <li>      <a href="http://www.english.cam.ac.uk/alumni/currentevents.htm">Current Faculty Events of Interest to Alumni</a></li>
+  <li>        <a href="newsletter/9westroad6.pdf">Latest Edition of the Alumni Newsletter</a> (or <a href="newsletter/index.htm" class="homemenu">archives</a>)</li>
+  <li>              <a href="http://www.cam.ac.uk/cambuniv/cambsoc/">The Cambridge Society</a></li>
+  <li>              <a href="http://www.foundation.cam.ac.uk/weekend.php">The University's Alumni Weekend</a></li>
+  <li>              <a href="http://www.cam.ac.uk/alumni/">Link to the University Alumni Website</a><br />
+  </li>
+    </ul> 
+    
+    <h1><img src="/images/alert.gif" width="15" height="15" alt="[!]" />To be Notified of News and Special Events </h1>
+    <ul>
+        <li class="normal">If you wish to be kept informed of future events organized by the Cambridge English Faculty, please e-mail your details to <a href="mailto:english-events@lists.cam.ac.uk?Subject=Mailing%20list,%20ref:%20Alumni%20Info">english-events @lists.cam.ac.uk</a> or phone (01223) 335070.</li>
+        <li></li>
+    </ul></td>
+</tr>
+</table>
+
+</div>
+<!-- end contents -->
+<!-- footer -->
+<div id="bottombgline">&nbsp;</div>
+<p class="footer">&copy; 2006 Faculty of English, University of Cambridge<br />
+Information provided by <a href="">webmaster@english.cam.ac.uk</a>.
+<!--If you wish to give level of conformance after testing, edit this and uncomment it-->
+<!--
+<br />
+<a href="http://www.w3.org/WAI/WCAG1AAA-Conformance">WAI AAA conformant</a>
+--></p>
+<p class="rfooter"><a href="http://www.english.cam.ac.uk/disclaim.htm">Disclaimer</a> | <a href="http://www.cam.ac.uk/privacy/">Privacy</a></p>
+<!--  end footer -->
+</div>
+</body>
+</html>
+
+
+
+istNlScmf-

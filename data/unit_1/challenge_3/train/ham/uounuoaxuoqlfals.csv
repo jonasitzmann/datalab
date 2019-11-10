@@ -1,0 +1,2633 @@
+<HTML><HEAD>
+
+<title>CERES Digest I</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h1 align=center>CERES Digest I</h1>
+
+<h4 align=center><cite>Quas dea per terras et quas erraverit undas,
+
+<br>dicere longa mora est; quaerenti defuit orbis.</cite></h4> 
+<p>
+
+<strong>CONTENTS AND INTRODUCTION</strong> <br>
+
+This digest contains the highlights of our first six issues, spanning December 1996 to May 1997.  Select from the following topics, or scroll through below:
+
+<ul>
+
+<li><a href=#nftn>News From The Net</a>
+
+<li><a href=#nr>Net Resources</a>, featuring websites of interest
+
+<li><a href=#reviews>Reviews</a> of the SPENSER-L mailing list; the MILTON-L discussion
+
+group; and MANTOVANO-L
+
+<li><a href=#electexts>Electronic Texts</a>, featuring in particular the Oxford Text
+
+Archive
+
+<li><a href=#rrotn>Rhetoric Resources on the Net</a>, including a review of the list
+
+H-RHETOR
+
+<li><a href=#eascdrom>Editions and Adaptations of Shakespeare on CD-ROM</a> (review by
+
+Colin Burrow)
+
+<li><a href=#stcol>STC On-Line</a> (review by Richard Serjeantson)
+
+</ul>
+
+<p>
+
+The digest complements the <a href=starter.htm>CERES STARTER GUIDE</a>.  Note that in some cases our comments will be especially dated.
+
+<p>
+
+Not included here are the ephemera culled from our regular trawl of the University of Pennsylvania's Calls for Papers (CFP) service and usually swelling our 'News from the Net' section.  You can always check CFP yourself via the following URL:
+
+<a href=http://dept.english.upenn.edu/CFP>http://dept.english.upenn.edu/CFP</a>
+
+<p>
+
+Our customary reminders:  that we are what you make us (plus a little extra) - we depend upon your feedback and contributions; and that in certain obvious cases the wording, spelling, and pronouns in blurbs are not ours.
+
+<p>
+
+<hr>
+
+<a name=nftn></a>
+
+<h2 align=center>NEWS FROM THE NET</h2>
+
+<p>
+
+<strong>THE MILTON TRANSCRIPTION PROJECT</strong><br>
+
+The MTP is dedicated to making all of John Milton's poetry and
+
+prose available for public access on the Internet.  Although most
+
+of Milton's poetry is available in modernized forms, the MTP is
+
+preparing more accurate electronic facsimiles of the early editions
+
+of Milton's poems.  In addition, most of the English and Latin
+
+prose - along with a great deal of fascinating Miltoniana - remains
+
+to be done.  Volunteers are invited to transcribe as much or as
+
+little as they wish; each transcription will be proofread,
+
+formatted, checked, and refereed.  All accepted transcriptions will be
+
+credited by name.  More info can be had from <a href=mailto:dithw@ttacs.ttu.edu>Professor Hugh Wilson</a>, MTP Editor, or <a href=mailto:coldiron@jhunix.hcf.jhu.edu>Professor A.E.B. Coldiron</a>, MTP Internet Liaison.
+
+<p>
+
+<strong>H-CERVANTES</strong><br>
+
+New H-NET network for scholars and professionals active in studies
+
+related to Miguel de Cervantes Saavedra.  It encourages scholarly
+
+exchanges on all aspects of the author, his works, his circle, his
+
+times, and scholarship on the era, and welcomes participation by
+
+scholars/specialists from all disciplines.  More information is available at the <a href=http://h-net.msu.edu>H-Net Web Site (http://h-net.msu.edu)</a>. To join H-Cervantes, please send a message to
+
+<a href=mailto:listserv@h-net.msu.edu>listserv@h-net.msu.edu</a> with no subject line and only this text:
+
+sub h-Cervantes firstname lastname, institution.  Capitalization does not matter, but spelling, spaces and commas do.
+
+For technical assistance, write to: <a href=mailto:help@h-net.msu.edu>help@h-net.msu.edu</a>
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=nr></a>
+
+<h2 align=center>NET RESOURCES</h2>
+
+<p>
+
+This rather large section can be accessed by the following index, or you can scroll through below:
+
+<table width="100%" cellpadding="10%">
+
+<tr><td width="50%" valign=top>
+
+<ul>
+
+<li><a href=#bwwp>Brown Women Writers Project</a?>
+
+<li><a href=#hrIII>Hyptertext Richard III</a>
+
+<li><a href=#shp>Spenser Home Page</a>
+
+<li><a href=#screl>Sixteenth Century Renaissance English Literature</a>
+
+<li><a href=#mwsti>Mr William Shakespeare and the Internet</a>
+
+<li><a href=#ddw>De Doctrina Website</a>
+
+<li><a href=#iemls>Interactive EMLS</a>
+
+<li><a href=#op>Ovid Project</a>
+
+<li><a href=#ml>Mailing Lists</a>
+
+<li><a href=#itertbre>ITER: The Bibliography of Renaissance Europe 1350-1700</a>
+
+<li><a href=#sa>Shakespeare (again)</a>
+
+<li><a href=#pw>Palaeography on the Web</a>
+
+<li><a href=#ise>Internet Shakespeare Editions</a>
+
+<li><a href=#copac>COPAC</a>
+
+<li><a href=#olc>Other Libraries, Catalogues, etc.</a>
+
+<li><a href=#re>Renaissance Emblems</a>
+
+</ul>
+
+</td>
+
+<td width="50%" valign=top>
+
+<li><a href=#f>Fonts</a>
+
+<li><a href=#reed>REED</a>
+
+<li><a href=#mavb>Mantovano Archive and Virgil Bibliography</a>
+
+<li><a href=#sbo>Studies in Bibliography Online</a>
+
+<li><a href=#emte>Early Modern Transatlantic Encounters</a>
+
+<li><a href=#hcw>History of Cartography Website</a>
+
+<li><a href=#sn>Sidney Journal</a>
+
+<li><a href=#tpp>The Perdita Project</a>
+
+<li><a href=#ctigdr>CTI Guide to Digital Resources</a>
+
+<li><a href=#cerrainp>CERRA Increases Net Profile</a>
+
+<li><a href=#nscdrom>Norton Shakespeare CD-ROM</a>
+
+<li><a href=#si>Shakespeare Illustrated</a>
+
+<li><a href=#abs>Aphra Behn Society</a>
+
+<li><a href=#eese>Erfurt Electronic Studies in English</a>
+
+<li><a href=#ces>Computers and English Studies</a>
+
+<li><a href=#dwo>David Wilson-Okamura</a>
+
+<li><a href=#ppgr>Perseus Project Goes Renaissance</a>
+
+<li><a href=#ieti>Irish Electronic Texts on the Internet</a>
+
+</ul>
+
+</td></tr></table>
+
+<p>
+
+<a name=bwwp></a>
+
+<strong>BROWN WOMEN WRITERS PROJECT</strong><br>
+
+The main feature of this site is a list of texts 1350-1830 written
+
+by women which are available in paper form (orders via e-mail,
+
+details on website).  It also has a discussion group and relevant
+
+links and information on conferences etc.  The project is
+
+associated with OUP who are printing a series of WWP books.  It can be reached at <a href=http://www.stg.brown.edu/projects/wwp/wwp_home.html>http://www.stg.brown.edu/projects/wwp/wwp_home.html</a>
+
+<p>
+
+<a name=hrIII></a>
+
+<strong>HYPERTEXT RICHARD III:</strong> <br>
+
+Produced by the Richard III Society, this is not a scholarly
+
+edition but rather an electronic text with links at appropriate
+
+points to notes taken from Charles Ross's 1981 biography of
+
+Richard.  Also offers links to related Richard III materials such
+
+as ballad versions of the story, excerpts of historical accounts,
+
+and details of films and other performances.  Look for Richard at <a href=http://www.r3.org/>http://www.r3.org</a>.
+
+<p>
+
+<a name=shp></a>
+
+<strong>SPENSER HOME PAGE</strong><br>
+
+This page has excellent links to services elsewhere, as well as
+
+details of how to subscribe to SPENSER-L (see its review below), a
+
+whopping Spenser bibliography, and page manager Richard Bear's own
+
+collection of electronic texts.  These include an ongoing
+
+illustrated hypertext 'Lady of May', and transcriptions from
+
+facsimiles of 'Amoretti and Epithalamion', 'Astrophel and Stella',
+
+Wroth's 'Pamphilia to Amphilanthus', and so on.  Also, there are
+
+scannings-in of editions by Grosart; most of Spenser is available
+
+in this form.  View Spenser at <a href=http://darkwing.uoregon.edu/~rbear/>http://darkwing.uoregon.edu/~rbear/</a>.
+
+<p>
+
+<a name=screl></a>
+
+<strong>16TH CENTURY RENAISSANCE ENGLISH LITERATURE</strong><br>
+
+This is really a service to make term projects fun for students,
+
+but it still has some great pictures (Sidney in colour) for your
+
+wallpaper, and some good links.  It can be accessed at <a href=http://www.luminarium.org/lumina.html> http://www.luminarium.org/lumina.html</a>.
+
+<p>
+
+<a name=mwsti></a>
+
+<strong>MR WILLIAM SHAKESPEARE & THE INTERNET</strong><br>
+
+A very good set of links with brief explanatory comments.  This
+
+page provides a good survey of the numerous sites where you can
+
+find Renaissance resources and particularly texts.  Mine these veins at <a href=http://daphne.palomar.edu/shakespeare/> http://daphne.palomar.edu/shakespeare/</a>.  
+<p>
+
+<a name=ddw></a>
+
+<strong>DE DOCTRINA WEBSITE</strong><br>
+
+This features a lengthy scholarly essay prepared by five scholars
+
+on the provenance and authorship of Milton's <cite>DDC</cite>.  It can be reached at <a href=http://genmac.bangor.ac.uk/ddc.htm>http://genmac.bangor.ac.uk/ddc.htm</a>.
+
+<p>
+
+<a name=iemls></a>
+
+<strong>INTERACTIVE EMLS</strong><br>
+
+Keep an eye on Early Modern Literary Studies, an on-line journal
+
+and one of the best sources of Renaissance links.  Its interactive
+
+section, IEMLS, is accumulating a broad range of texts and
+
+other resources and links: <a href=http://www.humanities.ualberta.ca/emls/emlshome.html>http://www.humanities.ualberta.ca/emls/emlshome.html</a>.
+
+<p>
+
+<a name=op></a>
+
+<strong>OVID PROJECT</strong><br>
+
+Some very pretty pictures at the University of
+
+Vermont; site features engravings from the 1640 Sandys translation and
+
+1703 engravings by Johann Wilhelm Baur.  Achieve the green-mountain state at <a href=http://www.uvm.edu/~hag/ovid/>http://www.uvm.edu/~hag/ovid/</a>.
+
+<p>
+
+<a name=ml></a>
+
+<strong>MAILING LISTS</strong><br>
+
+Diane Kovacs maintains an exhaustive-seeming list of scholarly,
+
+widely accessible, e-mailing lists.  URL: <a href=http://www.n2h2.com/KOVACS/>http://www.n2h2.com/KOVACS/</a>
+
+<p>
+
+<a name=iterbre></a>
+
+<strong>ITER<br>
+
+The Bibliography of Renaissance Europe 1350-1700</strong><br>
+
+Visit: <a href=http://iter.library.utoronto.ca/>http://iter.library.utoronto.ca/</a>.
+
+ITER currently has 50,000 articles on the database and will have
+
+100,000 books as well:  clearly a database to be reckoned with.
+
+The plan is that users will have to subscribe, but at present
+
+(6/97) ITER is FREE!
+
+<p>
+
+<a name=sa></a>
+
+<strong>SHAKESPEARE</strong> (again)<br>
+
+Another one to add to the list, but not just one of the crowd.
+
+Matty Farrow of the Persistent Systems Research Group at the
+
+University of Sydney has developed a site with a good search
+
+facility and different versions of the collected works.  A new
+
+version of the search program is under development; try it out at<a href=http://www.psrg.cs.usyd.edu.au/~matty/Shakespeare/> http://www.psrg.cs.usyd.edu.au/~matty/Shakespeare/</a>.
+
+<p>
+
+<a name=pw></a>
+
+<strong>PALAEOGRAPHY ON THE WEB</strong><br>
+
+Perhaps surprisingly the Web is not stuffed with samples of
+
+fearsome Elizabethan secretary hands.  What is underway, however,
+
+is a large scale digitising of large numbers of manuscripts and
+
+rare books in the name of access and also of conservation.
+
+Currently pretty pictures are the order of the day.
+
+<p>
+
+A good place to start for the MS browser is:
+
+<a href=http://www.georgetown.edu/labyrinth/subjects/mss/mss.html> http://www.georgetown.edu/labyrinth/subjects/mss/mss.html</a>. This has links to on-line manuscript catalogues, on-line
+
+manuscripts, and (perhaps most interestingly at this stage) to major manuscript projects that are underway e.g. in the Bodleian, British Library, Vatican Library etc.
+
+<p>
+
+Similar services at: <a href=http://www.byu.edu/~hurbut/dscriptorium>http://www.byu.edu/~hurlbut/dscriptorium</a>.
+
+<p>
+
+<a name=ise></a>
+
+<strong>INTERNET SHAKESPEARE EDITIONS</strong><br>
+
+CERES would like members to give these editions a thorough going
+
+over and to report back to us.  Clearly the potential of this
+
+resource is enormous. Draft electronic versions of a number of
+
+early quarto and folio texts are now available from the site of the
+
+Internet Shakespeare Editions.  The texts are available for
+
+teaching purposes, and can be downloaded in either HTML format as
+
+you browse, or as text files in what is variously known as
+
+'Interchange Format,' 'Rich Text Format,' or 'RTF' by ftp. Most
+
+word processors should be able to translate the text files to
+
+provide basic formatting.
+
+<p>
+
+The site for the Internet Shakespeare Editions uses the metaphor of
+
+a library as a principle of organization.  From the <cite>Foyer</cite> you can
+
+access discussions about the aims of the ISE texts, a list of the
+
+Editorial Board, and some material on the principles of tagging
+
+that are being employed.  The <cite>Library</cite> will contain the final
+
+editions (nothing there yet).  All material in this section will be
+
+refereed.  The <cite>Annex</cite> is an area for informal discussion and the
+
+posting of useful, but unrefereed materials. This is where the
+
+current texts can be found.
+
+<p>
+
+The following are available in the <cite>Annex</cite> so far:
+
+<ul>
+
+<li><cite>Romeo and Juliet</cite>: Q1, Q2, F
+
+<li><cite>Hamlet</cite>: Q1, Q2, F
+
+<li><cite>King Lear</cite>: Q1, F
+
+</ul>
+
+The website for Internet Shakespeare editions is: <a href=http://web.uvic.ca/shakespeare>http://web.uvic.ca/shakespeare</a>.
+
+<p>
+
+<a name=copac></a>
+
+<strong>COPAC</strong><br>
+
+COPAC is a new nationally accessible catalogue.  Based at the
+
+University of Manchester, it provides unified access to the
+
+consolidated online catalogues of some of the largest university
+
+research libraries in the UK and Ireland.  COPAC is normally
+
+available 24 hours a day 365 days a year and access is free of
+
+charge.
+
+<p>
+
+The COPAC database currently contains approx. 3.5 million records.
+
+These represent the merged online library catalogues of:  Cambridge
+
+University, Edinburgh University, Glasgow University, Leeds
+
+University, Oxford University, Trinity College Dublin.
+
+<p>
+
+The records from a further twelve university library catalogues
+
+will be added in due course, and there are plans for the addition
+
+of material from further libraries in the future.  Records for
+
+materials published pre-1900 make up c.4% of the database and the
+
+proportion of older materials is growing.  Records for periodicals
+
+make up some 4% of the COPAC database.<br>
+
+<dl>
+
+<dt>Accessing COPAC is via one of two interfaces:</dt>
+
+<dd>A WWW Interface: http://copac.ac.uk/copac/
+
+<p>
+
+A Text Interface: Telnet: copac.ac.uk (username: copac password: copac)</dd></dl>
+
+Online search assistance is provided and printed User Guides are
+
+available for both interfaces.  Postscript versions of the User
+
+Guides are available for downloading at: <a href=http://copac.ac.uk/copac/userguide/>http://copac.ac.uk/copac/userguide/</a>.
+
+<p>
+
+<a name=olc></a>
+
+<strong>OTHER LIBRARIES - CATALOGUES ETC.</strong><br>
+
+<ul>
+
+<li><a href=http://www.lib.cam.ac.uk/>CUL: http://www.lib.cam.ac.uk/</a><br>
+
+<li><a href=http://www.bodley.ox.ac.uk/>BODLEIAN: http://www.bodley.ox.ac.uk/</a><br>
+
+<li><a href=http://www.newberry.org/>NEWBERRY: http://www.newberry.org/</a><br>
+
+<li><a href=http://www.huntington.org/>HUNTINGTON: http://www.huntington.org/</a><br>
+
+<li><a href=http://opac97.bl.uk/>BRITISH LIBRARY: http://opac97.bl.uk/</a><br>
+
+<li><a href=http://lcweb.loc.gov/homepage/lchp.html>LIBRARY OF CONGRESS: http://lcweb.loc.gov/homepage/lchp.html</a><br>
+
+<li><a href=http://www.folger.edu/menu.htm>FOLGER: http://www.folger.edu/menu.htm</a>
+
+</ul>
+
+<p>
+
+<a name=re></a>
+
+<strong>RENAISSANCE EMBLEMS</strong><br>
+
+William Barker, Mark Feltham, and Jean Guthrie of the Memorial
+
+University of Newfoundland have put online Andrea Alciato's <cite>Emblematum liber</cite>, text in Latin with English
+
+translation.  After an update at the end of 1996 the site now
+
+includes the emblems of Whitney, Lefevre, and Palmer.
+
+See <a href=http://www.mun.ca/alciato/>http://www.mun.ca/alciato/</a>. This site also has links to other resources, including a website at Glasgow specialising in French emblem books:<a href=http://www.gla.ac.uk/Library/Emblems/> http://www.gla.ac.uk/Library/Emblems/</a>.
+
+<p>
+
+<a name=f></a>
+
+<strong>FONTS</strong><br>
+
+CERES is interested to hear if members have good examples of
+
+Renaissance (or other useful) fonts on their computers. A
+
+premilinary foray into this area has unearthed a useful article
+
+(how-to-do-it etc.) by Grazyna Cooper, of the Oxford University
+
+Humanities Centre, at<a href=http://info.ox.ac.uk/oucs/humanities/fonts.html> http://info.ox.ac.uk/oucs/humanities/fonts.html</a>. NB when this article talks about 'Old English' it doesn't necessarily mean Anglo-Saxon. More information and possible downloads at the following URL:
+
+<a href=http://info.ox.ac.uk/oucs/humanities/chcdown.html#oldengpc> http://info.ox.ac.uk/oucs/humanities/chcdown.html#oldengpc</a>.  There is also a font based on the Shakespeare First Folio from the Illinois Shakespeare Festival site.  It includes no numerals and few special characters, which limits its use. A final point worth making is that some commercially available fonts are effectively early modern in style, such as Adobe's Caslon series (certainly available for Macs).  This, of course, has the special characters and numbers, but also ligatures and some swashes.
+
+<p>
+
+<a name=reed></a>
+
+<strong>REED</strong><br>
+
+CERES has already mentioned REED-L, the Records of Early English
+
+Drama Discussion Group (in the STARTER GUIDE). There are other
+
+addresses to note:
+
+<ul>
+
+<li>REED home page (<a href=http://www.chass.utoronto.ca/~reed/reed.html>http://www.chass.utoronto.ca/~reed/reed.html</a>)
+
+<li>REED-L's page (<a href=http://www.chass.utoronto.ca/~reed/reed-l.html>http://www.chass.utoronto.ca/~reed/reed-l.html</a>)
+
+<li>REED's theatre resource page (<a href=http://www.chass.utoronto.ca/~reed/stage.html>http://www.chass.utoronto.ca/~reed/stage.html</a>)
+
+<li>REED library and archives page (<a href=http://www.chass.utoronto.ca/~reed/archive.html>http://www.chass.utoronto.ca/~reed/archive.html</a>)
+
+</ul>
+
+<p>
+
+<a name=mavb></a>
+
+<strong>MANTOVANO ARCHIVE AND VIRGIL BIBLIOGRAPHY</strong><br>
+
+MANTOVANO is a list specialising in the reception of Virgil, as
+
+reviewed below.  Searchable archives for the lists are now
+
+available at the following URL:
+
+<a href=http://www.reference.com/cgi-bin/pn/listarch?list=MANTOVANO@virgil.org> http://www.reference.com/cgi-bin/pn/listarch?list=MANTOVANO@virgil.org</a>.  MANTOVANO list manager David Wilson-Okamura has also updated his
+
+Virgil bibliography, which can be found at:
+
+<a href=http://www.virgil.org/
+
+>http://www.virgil.org/</a>.
+
+<p>
+
+<strong>STUDIES IN BIBLIOGRAPHY ONLINE</strong><br>
+
+The online version of Studies in Bibliography can be found on the
+
+homepage of the Bibliographical Society of Virginia at
+
+<a href=http://etext.lib.virginia.edu/bsuva>http://etext.lib.virginia.edu/bsuva</a>.
+
+<p>
+
+<a name=emte></a>
+
+<strong>EARLY MODERN TRANS-ATLANTIC ENCOUNTERS</strong><br>
+
+CERES Harvest I.iii carried the information about this conference
+
+held March 6-7 1997 at CUNY.  Some of the papers presented are
+
+on-line, in addition to the programme.  The conference website is:
+
+<a href=http://web.gc.cuny.edu/dept/renai/conf/> http://web.gc.cuny.edu/dept/renai/conf/</a>.
+
+<p>
+
+<a name=hcw></a>
+
+<strong>HISTORY OF CARTOGRAPHY WEBSITE</strong><br>
+
+This is a very full site run from the Institute of Historical
+
+Research.  URL: <a href=http://ihr.sas.ac.uk/maps/>http://ihr.sas.ac.uk/maps/</a>.  
+
+The website has information about journals, conferences,
+
+collections etc.  What it does not have is lots of pretty pictures
+
+but (i) it has links to them and (ii) it is intended to develop.
+
+<p>
+
+<a name=sn></a>
+
+<strong>SIDNEY JOURNAL</strong><br>
+
+Available at<a href=http://www.uoguelph.ca/englit/sidney/> http://www.uoguelph.ca/englit/sidney/</a>.  
+
+As is too often the case with periodicals on the Net, Sidney
+
+Journal has only put contents pages on-line. There's
+
+also the full text of the first-ever issue, and a few other
+
+goodies.
+
+<p>
+
+<a name=tpp></a>
+
+<strong>THE PERDITA PROJECT</strong><br>
+
+This is a planned database for early modern women's manuscript
+
+collections. Run by Nottingham Trent University and the Oxford
+
+Centre for Humanities Computing, it aims to produce a comprehensive
+
+guide to over 300 miscellanies compiled by women. Publication may
+
+be on CD-ROM or on the Internet; in either case the Internet will
+
+be used to provide updated information. Interested contributors
+
+and/or consumers should contact Victoria Burke (<a href=mailto:ems3burkeve@ntu.ac.uk>ems3burkeve@ntu.ac.uk</a>).
+
+<p>
+
+<a name=ctigdr></a>
+
+<strong>CTI GUIDE TO DIGITAL RESOURCES</strong><br>
+
+A pretty impressive list of various kinds of electronic resources based in Oxford. Still under
+
+development, so the specifically literary section remains to be
+
+evaluated.  Still, the 'Bibliographic Resources and Tools' is
+
+useful, particularly as a starting point.  It includes entries for
+
+twenty-eight bibliographic databases and other packages, with links
+
+to Internet resources, and an overview essay of the resources
+
+available in this area.  Take an electronic trip to
+
+<a href=http://info.ox.ac.uk/ctitext/resguide/>http://info.ox.ac.uk/ctitext/resguide/</a>.
+
+<p>
+
+<a name=cerrainp></a>
+
+<strong>CERRA INCREASES NET PROFILE</strong><br>
+
+It is now possible to consult the schedule of the seminars of the
+
+Centre d'Etudes et de Recherches sur la Renaissance Anglaise of
+
+Montpellier on the research web server of Universite Paul-Valery at
+
+the following URL:
+
+<a href=http://serinf2.univ-montp3.fr/CERRA/CERRAsem97s21.html> http://serinf2.univ-montp3.fr/CERRA/CERRAsem97s21.html</a>.
+
+<p>
+
+A link leads to a list of seminars since 1993.  Soon coming:  a
+
+presentation of the members' activities and bibliographies.
+
+<p>
+
+For the Centre's home-page and links to the on-line Cahiers
+
+Elizabethains, head for: <a href=http://serinf2.univ-montp3.fr/CERRA.html>http://serinf2.univ-montp3.fr/CERRA.html</a>.
+
+<p>
+
+<a name=nscdrom></a>
+
+<strong>NORTON SHAKESPEARE CD-ROM</strong><br>
+Information is available at: <a href=http://www.wwnorton.com/college/english/shakespeare/cdrom.htm>http://www.wwnorton.com/college/english/shakespeare/cdrom.htm</a>.
+
+You can see there a slightly uninspiring reproduction of a CD-ROM
+
+page with a charming little link to a sound clip from the play.
+
+'Not Hermia, but Helena I love' etc.
+
+<p>
+
+<a name=si></a>
+
+<strong>SHAKESPEARE ILLUSTRATED</strong><br>
+
+Run by Harry Rusche at Emory, this features nineteenth-century paintings of Shakespearean
+
+topics and, though still under development, is a pleasure to visit:
+
+<a href=http://www.emory.edu/ENGLISH/classes/Shakespeare_Illustrated/Shakespeare.html> http://www.emory.edu/ENGLISH/classes/Shakespeare_Illustrated/Shakespeare.html</a>.
+
+<p>
+
+<a name=abs></a>
+
+<strong>APHRA BEHN SOCIETY</strong><br>
+
+Website at <a href=http://prometheus.cc.emory.edu/behn/index.html> http://prometheus.cc.emory.edu/behn/index.html</a>.
+
+This well-maintained site features the society's newsletter,
+
+information about conferences and other projects, links to
+
+electronic resources and on-line teaching resources, relating to
+
+Aphra Behn and women's writing more generally.  It also has a page
+
+of members' e-mail addresses.
+
+<p>
+
+<a name=eese></a>
+
+<strong>ERFURT ELECTRONIC STUDIES IN ENGLISH</strong><br>
+
+EESE, which is under construction, offers a journal and a resources
+
+area. It is apparent, though, that there is not much extra material
+
+afforded by the latter to anyone acquainted with one of the
+
+introductory sites already featured by CERES (EMLS, Jack Lynch,
+
+etc.).  It does, though, have a curious front-end picture which shows Shakespeare
+
+with a black eye and a cathedral on his head. The journal is, like
+
+its peers, OK if you like that sort of thing.
+
+URL: <a href=http://webdoc.sub.gwdg.de/edoc/ia/eese/eese.html> http://webdoc.sub.gwdg.de/edoc/ia/eese/eese.html</a>.
+
+<p>
+
+<a name=ces></a>
+
+<strong>COMPUTERS AND ENGLISH STUDIES</strong><br>
+
+Reading lists and URLs from a series of lectures in Oxford on this
+
+topic.  Plenty of food for thought here in the form of ruminations
+
+on the place of electronic media in the study of literature, plus
+
+numerous practical examples.  URL: <a href=http://users.ox.ac.uk/~stuart/engcourse.html> http://users.ox.ac.uk/~stuart/engcourse.html</a>.
+
+<p>
+
+<a name=dwo></a>
+
+<strong>DAVID WILSON-OKAMURA</strong><br>
+
+CERES salutes this man; creator of a splendid homepage and the
+
+owner of the MANTOVANO list reviewed very favourably by Colin
+
+Burrow below.  His web pages feature Donatus's Life of Virgil in a
+
+convenient English translation.  Perhaps the appeal of his
+
+excellent Virgil-reception bibliography (including lots on the
+
+Renaissance) is even wider. His bookmarks are thorough and
+
+impressive and will link you to most of the crucial resources, with
+
+a Classics-and-English spin. Enjoy your excursion to URL:
+
+<a href=http://student-www.uchicago.edu/users/dswilson/> http://student-www.uchicago.edu/users/dswilson/</a>.
+
+<p>
+<a name=ppgr></a>
+
+<strong>PERSEUS PROJECT GOES RENAISSANCE!</strong><br>
+
+For a while the Perseus Project has provided electronic resources
+
+for classicists (mainly Greek; the Roman section is just getting
+
+started):  URL <a href=http://www.perseus.tufts.edu/> http://www.perseus.tufts.edu/</a>. 
+
+Now it plans to branch out into Renaissance materials, including an
+
+impressive range of Shakespearean sources, sixteenth and
+
+seventeenth-century critical essays (i.e. Smith and Spingarn plus),
+
+religious materials, pamphlets, etc. So far there's only a
+
+preliminary list, but if you wish to start your brain cells
+
+salivating, or to check that everything's there, spur your browser
+
+towards <a href=http://www.perseus.tufts.edu/sources.html> http://www.perseus.tufts.edu/sources.html</a>.
+
+<p>
+
+<a name=ieti></a>
+
+<strong>IRISH ELECTRONIC TEXTS ON THE INTERNET</strong><br>
+
+A new Web project called CELT is being launched by University
+
+College Cork to make text material of Irish interest widely
+
+available in computerised form.  The project will cover
+
+contemporary and historical topics from many areas, including
+
+literature and the other arts.  CELT replaces CURIA, a project
+
+which had been joint-funded by the Royal Irish Academy.
+
+The project's web pages start at<a href=http://www.ucc.ie/celt/> http://www.ucc.ie/celt/</a>.
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=reviews></a>
+
+<h2 align=center>REVIEWS</h2>
+
+<p>
+
+<strong>SPENSER-L</strong><br><cite>Reviewed Spring, 1997</cite><p>
+
+SPENSER-L is an unmoderated on-line discussion of things Spenserian
+
+and Sidneian.  The list has about 300 members, some of whom will be
+
+temporary - students encouraged to think that sending in an enquiry
+
+may get their essay written for them.  Most, though, are decent scholars.  Contributions tend to be off the top of the
+
+head rather than considered; but then, this willingness to talk
+
+shop without checking references first has its advantages.  The
+
+list is very good at responding promptly to simple queries ('What's
+
+the latest article on...?'), and at brainstorming (a request for
+
+analogues and sources for images of mining in Spenser, very
+
+productively).  Also, a considered but open-ended question engaging
+
+members' general understanding of critical trends, methodology, or
+
+Spenser even, can lead to many provoked thoughts.  Information and
+
+references can be vague, though seldom inscrutably so, but the
+
+recent recruiting of 'Analogy' Nohrnberg is raising the stakes
+
+here; worrying of course to see scholars getting addicted to e-mail
+
+(nosce teipsum!), but a precious few provide great service to the
+
+scholarly community.
+
+<p>
+
+SPENSER-L snuggles under the broad aegis of Richard Bear, who also
+
+runs the <a href=http://darkwing.uoregon.edu/~rbear/>WWW Spenser home-page (http://darkwing.uoregon.edu/~rbear/)</a>.  To subscribe, send the
+
+following command to<a href=mailto:majordomo@darkwing.uoregon.edu> majordomo@darkwing.uoregon.edu</a> in the BODY of
+
+your e-mail: 'subscribe spenser-l'
+
+<p>
+
+For further information, contact <a href=mailto:rbear@oregon.uoregon.edu>Richard Bear (rbear@oregon.uoregon.edu)</a>.
+
+<p>
+
+<strong>REVIEW OF MILTON-L DISCUSSION GROUP</strong><br> <cite>Reviewed by Colin Burrow, Spring 1997</cite>
+<p>
+
+As one versed in the extreme indecorum of Milton's own
+
+'discussions' with his enemies, I imagined that the items on the
+
+Milton-L discussion group would be gobbets of bile.  Here at last,
+
+I fondly dreamed, Stanley Fish and Christopher Ricks would finally
+
+say what they really thought of each other, and Abdiels would
+
+zealously defend the cause of righteousness.  No such luck.  The
+
+group is at present rather sleepy, and when not dozing is
+
+scrupulously polite.  Even when a sophomore asks for hot tips about
+
+Milton's attitudes to beauty no-one says 'Er, what do blind
+
+iconoclasts usually think about beauty?'  Instead there's a great
+
+deal of 'You might try looking at the description of Adam and Eve's
+
+bower at the end of book IV.  Good luck with your term paper.'  The
+
+advice is often quite teachy, and so is quite unoffputting and
+
+often quite helpful.  It's hard to imagine Milton himself being
+
+that nice to John Phillips et al.  Roy Flannagan puts in occasional
+
+genial and learned words when either too much heat or too much
+
+dozing is being generated. Odd little angles (not angels) pop up,
+
+and the odd really bad joke.  I've found that when contributors
+
+suggest reading in reply to queries they tend to give half-
+
+remembered references on the hoof, so don't expect gleamingly
+
+up-to-date-references which you can paste into bibliographies.
+
+Unless you are desperate to have as many items in your in-tray as
+
+possible (as sad as me in fact) it's probably better to subscribe
+
+to Milton Digest, which pastes all the contributions handily
+
+together.  That way you only have to delete one item...  There is
+
+an archive of past contributions (address below), which includes
+
+discussions of Milton's theodicy, gnostic elements in 'Paradise
+
+Lost' and so on.  It is unedited though, and the list as a whole is
+
+not moderated, so expect some dross, and not necessarily bullion
+
+dross at that.
+
+<p>
+
+An archive of contributions in HTML format is under construction
+
+(i.e. not much use at present) at:<a href=http://www.urich.edu/~creamer/archive.html> http://www.urich.edu/~creamer/archive.html</a>.
+
+<p>
+
+The bulk of the archive, though, can be obtained by anonymous FTP
+
+from ftp://urvax.urich.edu/milton/milton.  Big files, though:  long
+
+toil to read, too, since each message is preceded by a long account
+
+of how the electrons which make it up went around the world.
+
+Sometimes, one fears, the electrons zipped in vain.
+
+<p>
+
+To subscribe to Milton-L, send a message to
+
+<a href=mailto:Mailserv@urvax.urich.edu>Mailserv@urvax.urich.edu</a>.  The
+
+message should read:  subscribe Milton-L
+
+To subscribe to Milton-Digest, send a message to
+
+<a href=mailto:Mailserv@urvax.urich.edu> Mailserv@urvax.urich.edu</a>.
+
+The message should read:  subscribe Milton-Digest
+
+These messages are case-sensitive.
+
+<p>
+
+You can subscribe via the <a href=http://www.urich.edu/~creamer/milton.html>Milton-L Homepage (http://www.urich.edu/~creamer/milton.html)</a>, though I tried that
+
+method and it didn't work for me.  The Homepage is full of
+
+excellent links.
+
+<p>
+
+<strong>REVIEW OF MANTOVANO-L (DISCUSSION GROUP OF VIRGIL AND HIS AFTERLIFE)</strong><br>
+<cite>Reviewed by Colin Burrow, Spring 1997</cite>
+<p>
+It's hard to know what a discussion group should be.  I suppose it
+
+should be fairly polite to initiates who ask for a few tips, and
+
+should let scholars know what other scholars want to know in a
+
+format which saves them time.  There's also a case for a group
+
+which doesn't encourage people to say 'Oh hum there was this
+
+article in the BJRL a few years ago' when they're asked for reading
+
+on an arcane point.  A good list manager will encourage
+
+contributors to give full and accurate citations in answer to
+
+queries.  People who want to learn what a discussion group can do
+
+might do a lot worse than subscribe to Mantovano-L for a week or
+
+so.  Topics vary as they always do in these groups:  one day a
+
+teacher might be asking which edition of Virgil to use to teach
+
+High-School students, and get a surprisingly unanimous answer the next;
+
+another day someone might wonder if Fulgentius's commentary on the
+
+'Aeneid' is partly intended as a joke.  Students who ask what the
+
+Virgilian allusions in Tennyson's 'Virgil' are get rapidly starved
+
+out in the fairly recondite air of this group, but it's usually
+
+kindly done.
+
+<p>
+
+Presiding over it all is David Wilson-Okamura, who does a heroic
+
+job.  He chugs out reading suggestions with great accuracy and
+
+detail on some fairly restricted areas, and keeps decorum kindly.
+
+(His Bookmarks are a very good start to anyone looking for Latin
+
+material on the Web, by the way: <a href=http://student-www.uchicago.edu/users/dswilson/bookmark.html> http://student-www.uchicago.edu/users/dswilson/bookmark.html</a>)
+
+Subscribers to Ceres might find the whole thing a bit specialised
+
+in areas which aren't quite theirs (it has a very strong interest
+
+in early commentaries on Virgil, for example), but it is good to
+
+see that the temptations of e-mail to say what the hell you like as
+
+badly as you like can be resisted, and that the result can be a
+
+genuinely useful scholarly medium.
+
+<p>
+
+Mantovano says that it exists to discuss:  1.The works attributed
+
+to Publius Vergilius Maro; 2.Commentary on Virgil and his works; a.
+
+from late antiquity (e.g., Servius, Macrobius); b. from the middle
+
+ages (e.g., 'Anselm of Laon'); c. from the renaissance (e.g.,
+
+Landino); d. from the enlightenment to the present; 3.Virgil's
+
+influence on subsequent literature (e.g., Lucan, Statius, Dante,
+
+Ariosto, Petrarch, Tasso, Spenser, Milton). My experience suggests
+
+that 1 and 2 are more popular among its contributors than 3.
+
+<p>
+
+You can subscribe to Mantovano-l at its Home Page:
+
+<a href=http://www.virgil.org/mantovano> http://www.virgil.org/mantovano</a>.
+
+<p>
+
+Alternatively you can send the message 'subscribe mantovano'
+
+to: <a href=mailto:majordomo@virgil.org>majordomo@virgil.org</a>.
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=electexts></a>
+
+<h2 align=center>ELECTRONIC TEXTS</h2>
+
+<p>
+
+This section is dedicated to sites and services which provide
+
+access to texts in various electronic forms.  Many of the Internet
+
+sites found above or in the CERES guide no. 2, 'Internet Sites',
+
+can lead you to texts as well.  The point of this section is to
+
+explain how to gain access to useful text providers.
+
+<p>
+<a name=ota></a>
+
+<strong><a href=http://ota.ox.ac.uk/>OXFORD TEXT ARCHIVE</a></strong><br> <cite>Reviewed Spring, 1997</cite><p>
+
+This sounds like a great service, but, as ever, what is freely
+
+available is useless, and what is good takes some effort to get
+
+hold of (SEE BELOW).  You might want to see what is available in
+
+the 3 main categories (free by FTP; application only; Oxford users
+
+only) by looking at the main catalogue
+
+(<a href=http://firth.natcorp.ox.ac.uk/ota/public/catalogue/index.html>http://firth.natcorp.ox.ac.uk/ota/public/catalogue/index.html</a>).  As far as freely available stuff
+
+goes, for some reason Oxford have removed line breaks from all
+
+verse texts.  So Paradise Lost reads 'Book One Of Man's first
+
+disobedience and the fruit Of that forbidden tree', and so on.
+
+Beautifully ancient as a writing system, but annoying.  Such free
+
+texts as this and Marvell work just as well for concordancing in
+
+this form, however, so unless you actually propose reading the
+
+thing on screen, or printing it all off, this format is not as
+
+handicapped as it might appear to be.  The KJB is available via
+
+this route, and has paragraph breaks, not because it is more
+
+authentic a manifestation of God's lexicon than Paradise Lost, of
+
+course, but because it is prose.  If without a Rosetta Stone, you
+
+may wish to look for texts in more eclectic spaces, such as the
+
+home pages for the authors concerned (Spenser home page has links
+
+to Milton home page, and MILTON-L home page).
+
+<p>
+
+Several CERES members now have experience of acquiring electronic
+
+texts from the OTA.  Texts are divided into various classes: P
+
+(publically available), U (available to scholars), A (as U but
+
+requires written permission from the person who deposited the
+
+text), X (Oxford users only).  The introduction above dealt with
+
+texts publically available over the internet.  Most texts, however,
+
+are in class U.  Getting hold of these is more complicated, but
+
+they tend to be of better quality and so greater utility.  Examples
+
+include J.C. Smith's 'Faerie Queene', very usefully marked up with
+
+book, canto, and stanza numbers; texts used to make some Cornell
+
+concordances (e.g. Donow's Sidney); a transcription of the 1609
+
+'Sonnets' deposited by Gary Taylor; and thousands of other things.
+
+These may contain a smattering or a hailstorm of codes (for
+
+instance for small capitals or italics), which you may be able to
+
+utilise, or you may wish to delete [OTA has links to information
+
+about mark-up systems].  
+<p>
+<cite>For more information on the OTA, see recent coverage in Harvest III.iii <a href=arch-3-3.htm>here</a>.</cite>
+
+<p>
+
+<strong>OTHER NOTABLE E-TEXT DEPOSITORIES</strong><br>
+
+<ul>
+
+<li><a href=http://etext.lib.virginia.edu/>U OF VIRGINIA ELECTRONIC TEXTS CENTRE (http://etext.lib.virginia.edu/)</a>
+
+<li><a href=http://jefferson.village.virginia.edu/>INSTITUTE FOR ADVANCED TECHNOLOGY IN THE HUMANITIES AT
+
+CHARLOTTESVILLE (http://jefferson.village.virginia.edu/)</a>
+
+<li><a href=http://www.ceth.rutgers.edu/>CENTRE FOR ELECTRONIC TEXTS IN THE HUMANITIES at PRINCETON / RUTGERS (http://www.ceth.rutgers.edu/)</a>
+
+<li><a href=http://citd.scar.utoronto.ca/CRRS/Index.html>TORONTO CENTRE FOR REN AND REF STUDS (http://citd.scar.utoronto.ca/CRRS/Index.html)</a>
+
+<li><a href=http://www.hti.umich.edu/>HUMANITIES TEXT INITIATIVE, MICHIGAN (http://www.hti.umich.edu/)</a>
+
+<li><a href=http://ahds.ac.uk/>ARTS AND HUMANITIES DATA SERVICE (http://ahds.ac.uk/)</a>
+
+</ul>
+
+And while we're at it, two final things...<br>
+
+MILTON TEXTS: surely the best links to a wide variety of decent
+
+texts from throughout Milton's oeuvre are from
+
+<a href=http://www.urich.edu/~creamer/resource.html> http://www.urich.edu/~creamer/resource.html</a>
+
+<p>
+
+THOMAS HARIOT: an excellent-looking site
+
+with transcriptions, facsimiles, variants, and introductions to
+
+both the 1588 quarto and 1590 folio of Hariot's 'A Briefe and True
+
+Report of the New Found Land of Virginia. It's at the following
+
+URL: <a href=http://fermi.clas.virginia.edu/~msk5d/hariot/main.html> http://fermi.clas.virginia.edu/~msk5d/hariot/main.html</a>
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=rrotn></a>
+
+<h2 align=center>RHETORIC RESOURCES ON THE NET</h2>
+
+<p>
+
+In making use of the many rhetoric-connected resources on the
+
+internet one must bear in mind that the USA is a classical
+
+republic.  Most of the services and most of the people using them
+
+are connected to institutions which teach rhetoric as a part of
+
+courses on writing or communication.  The list H-RHETOR is a case
+
+in point.  Its mission statement is as follows:
+
+<p>
+
+'H-RHETOR will provide a forum for scholars and teachers of the
+
+history of rhetoric, writing, and communication.  There are no
+
+geographical or chronological boundaries...  The primary purpose of
+
+H-RHETOR is to enable historians to communicate current research
+
+and research interests; to discuss new articles, books, papers,
+
+approaches, methods and tools of analysis; and to test new ideas
+
+and share comments and tips on teaching.'
+
+<p>
+
+The list can be received in a digested form (recommended), and is a
+
+fairly busy forum.  It sends out details of [ir]relevant job
+
+vacancies, conferences (such as a full programme for this year's
+
+International Society for the History of Rhetoric conference), and
+
+news (much forwarding of Reuters reports on the discovery of the
+
+Lyceum in Athens).  As is the case with many lists, its members are
+
+happiest to volunteer short contributions which require minimal
+
+thought, though occasionally a discussion will lead to the exchange
+
+of massive bibliographies on a particular issue which to
+
+Renaissance rhetoricians may look utterly alien.  One string which
+
+produced much correspondence started life as a suggestion that a
+
+discussion be started on rhetoric in the New Testament.  A volley
+
+of full references was returned from various professors of the
+
+history of communication.  The writer of the original query then
+
+wrote in with notable dignity to remark on the way he had been
+
+taken for an ignoramus in need of bibliographical help rather than
+
+a scholar wishing to exchange ideas.  And the references kept
+
+coming ('good luck with your project').  The references were in
+
+fact very good; and it is quite possible that the list members were
+
+right in their assumptions and did not wish to get drawn into idle
+
+banter.  But I have seen nothing to suggest that the many members
+
+of H-RHETOR have much of a communal identity or sense of what the
+
+list ought to be for.  (One possible exception was a lamentably
+
+popular chain of rhetoric jokes.)  Where other lists have habits
+
+and protocols, a culture in short, H-RHETOR seems an awkward
+
+infant.  This may be because the area is too big.  Or perhaps it
+
+was a bad year. If you wish to subscribe send the following message
+
+to <a href=mailto:listserv@msu.edu>listserv@msu.edu</a>, substituting your name and affiliation whereappropriate: 'SUB H-RHETOR firstname surname affiliation' (Example: SUB H-RHETOR Philologus Waffle University of Cambridge).
+
+<p>
+
+The list is archived at Carnegie-Mellon University:
+
+<a href=http://english-www.hss.cmu.edu/rhetoric/searching-h-rhetor.txt>http://english-www.hss.cmu.edu/rhetoric/searching-h-rhetor.txt</a>.
+
+<p>
+
+As for the WWW, there is no ideal site or set of links, perhaps
+
+because most of the resources on offer are either texts or lists of
+
+figures for students taught by H-RHETOR members.
+
+You might like to try Carnegie-Mellon: <a href=http://english-www.hss.cmu.edu/rhetoric/>http://english-www.hss.cmu.edu/rhetoric/</a>.
+
+Or the H-RHETOR homepage: <a href=http://h-net2.msu.edu/~rhetor/>http://h-net2.msu.edu/~rhetor/</a>. Or, more low-level, Georgia Rhetoric Resources:
+
+<a href=http://www.lcc.gatech.edu/gallery/rhetoric/> http://www.lcc.gatech.edu/gallery/rhetoric/</a>.
+
+Or, the American Communication Association links at <a href=http://www.uark.edu/depts/comminfo/www/classical.html> http://www.uark.edu/depts/comminfo/www/classical.html</a>.
+
+Most of these seem to be links to texts, and to other sets of
+
+links.  For which one might just as well start at Cambridge
+
+classical links: <a href=http://www.classics.cam.ac.uk/Faculty/linguistics.html> http://www.classics.cam.ac.uk/Faculty/linguistics.html</a>.
+
+Or try any of the general Renaissance links pages listed in our
+
+starter guide.
+
+<p>
+
+Perhaps a better method to generate your own avenues of enquiry is
+
+to try a search at, for example: <a href=http://altavista.digital.com> http://altavista.digital.com</a>.
+
+An advanced search such as 'rhetoric and dialectic' [document will
+
+contain both words], or 'rhetoric near dialectic' [within 10 words
+
+of each other] will narrow the field.
+
+<p>
+
+But now for the good news.
+
+<p>
+
+A number of companies, like AltaVista, have computers which
+
+cross-index every word every time it appears in any document on the
+
+internet.  Making the most of this facility can be problematic: a
+
+search on 'tragedy' will yield many tens of thousands of hits, 90%
+
+of which will make no reference to literature.  If you can find the
+
+right word, however - something nice and rare, something with only
+
+one meaning - you can strike gold.  Any rhetorical figure is such a
+
+word.  Just try searching for paralepsis at AltaVista, and you will
+
+get a score of hits, very few of which are likely to be red
+
+herrings.  Narrow it to 'paralepsis near (rhetoric or rhetorical)'
+
+or 'paralepsis and epanorthosis' and further refine your bullion.
+
+With a single word search you will also discover what I discovered,
+
+which is a wonderful service offered by a company called ZenSoft.
+
+They have created pages with links to the results of searches on
+
+single words by all the dozen or so other companies (AltaVista,
+
+Yahoo, HotBot, etc.) to create what they call 'Ultimate home
+
+pages'.  I found a great deal at: <a href=http://zensoft.com/pages/aposiopesis.html> http://zensoft.com/pages/aposiopesis.html</a>.
+
+<p>
+
+This included useful references to articles; two discussions of the
+
+figure in the New Testament from online biblical commentaries; an
+
+interesting use of the figure in Joseph of Exeter's C12 'Judgement
+
+of Paris', identified by the hypertext commentary; an online review
+
+of Burmeister's 'Musica Poetica'; and a mention in a recent book on
+
+art theory, a chapter from which had been put on the Web as a
+
+taster.  I also discovered Monty Python's Announcement for People
+
+who hate Figures of Speech:
+
+<a href=http://bau2.uibk.ac.at/sg/python/Scripts/BrandNewPapperbok/HateFigures.html>http://bau2.uibk.ac.at/sg/python/Scripts/BrandNewPapperbok/HateFigures.html</a>.
+
+<p>
+
+The best thing about ZenSoft's service is that you can go straight
+
+to the page by typing in the URL: http://zensoft.com/pages/[word, including proper nouns].html.
+
+<p>
+
+To test their comprehensiveness I tried the ultimate big word, and
+
+was duly impressed:
+
+<a href=http://zensoft.com/pages/honorificabilitudinitatibus.html> http://zensoft.com/pages/honorificabilitudinitatibus.html</a>.
+
+<p>
+
+Honorificabilitudinitatibus! Welcome to the ULTIMATE
+
+Honorificabilitudinitatibus Homepage!
+
+<p>
+
+Looking for stuff about honorificabilitudinitatibus?
+
+Congratulations! You've come to the right place!
+
+<p>
+
+From this page, you can directly search every major search engine
+
+for honorificabilitudinitatibus with a single click! The entire
+
+world wide web is at your disposal! And please, don't forget to
+
+visit our sponsor!
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=eascdrom></a>
+
+<h2 align=center>EDITIONS AND ADAPTATIONS OF SHAKESPEARE ON CD-ROM</h2>
+
+<cite>Reviewed by Colin Burrow, Spring 1997</cite>
+
+<p>
+
+If you have used any of the Chadwyck-Healey Databases before,
+
+Editions and Adaptations of Shakespeare should look familiar.  The
+
+interface is very similar to that of The Bible in English.  You are
+
+presented at start-up (well, after several minutes frantic chugging
+
+from a terminal in the UL) with either a search window which uses
+
+standard Boolean terms, or with a menu of contents.  The icon with
+
+a red magnifying glass on the toolbar opens the search window if it
+
+does not open up straight away, but don't be hasty:  the main
+
+problem with this software in its UL manifestation is that it is so
+
+slow that you make every command twice since you don't believe just
+
+how slow it is.  Wait.  It will happen.  Eventually.
+
+<p>
+
+The icon on the toolbar that looks like an open book will give you
+
+the menu of contents, if it does not come onto the screen straight
+
+away.  Again, wait.  From the menu you can choose from a range of
+
+editions from the First Folio, through Rowe, Pope and co. up to the
+
+Cambridge edition of 1863-6, and a range of adaptations of the
+
+plays (from Dryden's All for Love through Davenant and Betterton's
+
+Hamlet, to Brough's Perdita or the Royal Milkmaid).  What there
+
+isn't is any representative modernised text to compare with the
+
+earlier editorial tradition, although the Cambridge edition comes
+
+as close to this as copyright allows.  (Probably the most reliable
+
+source of a modern e-Shakespeare is Shakespeare by Andromeda, which
+
+is the Oxford Shakespeare on CD, although the search engine is
+
+dreadful and the application doesn't coexist happily with others).
+
+You'll find too that sometimes Chadwyck-Healey have, for reasons of
+
+space, opted for the first edition of a particular edited version
+
+(as in the case of Rowe); in other cases they have taken the last
+
+and fullest (as in the case of Malone's edition, where the text
+
+used is the 1821 Malone/Boswell variorum).  These choices are on
+
+the whole well made, but if you want to compare different editions
+
+of the same edited version you have to return to the world of
+
+paper.  (Don't worry: it's still out there.)  Click a radio button
+
+on the menu and you will open up the volume you want.  (More
+
+frantic wheezing and a lot of waiting.)  Click more radio buttons
+
+and more editions will appear. (Chug wheeze.)
+
+<p>
+
+You can view an edition in three ways:  table of contents only;
+
+text only; text and table of contents.  Unless you want to read
+
+through from the start (let's face it, no-one reads e-text) it's
+
+best to use text and table of contents (TTOC), which you access by
+
+clicking the icon on the toolbar (helpfully unnamed) that looks
+
+like a double column of text.  A screen split between contents
+
+(left) and text (right) will appear.  You can adjust the divider by
+
+dragging it with the mouse.  You can make text bigger or smaller by
+
+pressing Shift at the same time as the up or down direction keys.
+
+(Irritatingly there is no way of saving these changes for when you
+
+open a new window, since there is no Preferences command, so you
+
+have to do it every time you open a new volume.)  The TOC will have
+
+the title of the volume with a + sign in a box beside it.  Click
+
+once on the + sign to expand the contents list.  Beware oh ye
+
+instinctive double clickers that if you double click here the
+
+machine will groan and wheeze for a minute and briefly expand the
+
+tree before groaning and wheezing and then collapsing it again.
+
+<p>
+
+Anyway, you then find the bit of the particular volume you want via
+
+the Table of Contents and, well, you could then read it.  A
+
+brilliant feature of the software (as of The Bible in English and
+
+English Verse Drama), though, is its ability to indulge one's
+
+desire infinitely to postpone reading into a play of difference
+
+that is jouissance (a.k.a. nerdery).  That is that it lets you
+
+collate versions easily.  Open several editions; click on the Full
+
+Text icon on the toolbar (FT plus loads of lines); click on
+
+'Window' in the command bar; then 'Tile Vertically'; find the place
+
+you're looking for ('O what a rogue and peasant slave', say) in one
+
+edition, and then click on the icon in the text window which looks
+
+like two little books being pecked by red arrows.  Zap kerpow, all
+
+your open editions are open at the same spot (or more or less, my
+
+experiments suggest).
+
+<p>
+
+This is excellent for comparing quarto and folio texts.  Except
+
+that on the UL machines it is not Zap kerpow at all but anxious
+
+whirs and 'where's my brain gone?' from those dear little things
+
+that were born to be dumb terminals.  Write to your MP asking for
+
+more RAM in the UL.  Ask them to load the tables of contents onto
+
+the hard disks of the terminals too, since that speeds the program
+
+up a lot.
+
+<p>
+
+Note though:  reasonably enough this collation feature, or 'text
+
+synchronise' feature as they call it, does not work with the
+
+adaptations, since the texts are often so different as to make it
+
+impossible to collate Shakespearean scenes with their derivatives.
+
+Fair enough.  But, dear Mr Chadwyck-Healey why didn't you bother to
+
+make the collation feature work for the sonnets and narrative
+
+poems?  For these you just have to Page Down manually, which is
+
+annoying, since someone has been paid to do the job electronically
+
+and hasn't finished it off properly.  Do, by the way, use Page Down
+
+rather than the scroll bar or the direction keys:  the scroll bar
+
+covers the whole volume you're looking at, which might contain
+
+twenty different printed volumes, so you move very crudely down;
+
+the direction keys go so slowly that the temptation is to keep
+
+pressing and pressing. If you do that you will find, minutes later,
+
+that the UL terminal has had one of its sudden bursts of frisky
+
+energy and has decided to canter past where you want to be.  And
+
+then you page up ...
+
+<p>
+
+So it has bad points, slowness chief.
+
+<p>
+
+It also has some more serious deficiencies, several of which derive
+
+from the way the early printed material is grouped into volumes.
+
+Some of the 'volumes' are oddly selected.  'The First Folio and
+
+Collected Poems' is particularly badly thought out:  the 'Collected
+
+Poems' is Benson's 1640 edition of the Sonnets, reordered and
+
+de-homosexualised, and full of demonstrably non-Shakespearean
+
+material.  There is no Venus and Adonis or Lucrece in this volume,
+
+and no 1609 Quarto of the Sonnets.  You have to look for these in
+
+'Early Quartos and First Printings'.  The reason for this, is, I
+
+suppose that the whole enterprise is aimed to represent the
+
+reception of Shakespeare as much as an idealised version of his
+
+texts abstracted from historical contingency, and Benson played a
+
+very strong role in determining the reception of Shakespeare's
+
+poems.  His text, lovingly reproduced with all its unquestionably
+
+non-Shakespearean material (Heywood's Ovidian epistles and so on)
+
+is given an extremely misleading centrality, for the uninitiated at
+
+any rate, by being put together with F1 as the volume you are
+
+presented with by default. And if you choose 'Search first Folio'
+
+without otherwise limiting your search the program will also search
+
+the 'Collected Poems'. So if you want to know about 'lo?e' in F1,
+
+say, you will also have to find out something about Heywood's uses
+
+of the word 'love', unless you select all the plays individually.
+
+I suppose Margreta de Grazia's arguments that Benson's volume is
+
+designed to look like the second Folio influenced Chadwyck-Healey
+
+here, despite the fact that Benson's text derives entirely from the
+
+1609 Quarto, and despite the fact that he and Cotes clearly were
+
+not intending to produce a 'Collected Poems' volume since they made
+
+no efforts to obtain the copyright on the narrative poems.
+
+Benson's volume belongs among 'Adaptations', and the 'Folio and
+
+Collected Poems' section ought to include F1 together with Q1 of
+
+the Sonnets, Venus and Adonis and Lucrece.
+
+<p>
+
+The other quite seriously bad feature of the disposition of
+
+material into volumes is that, while you can open several texts
+
+from different volumes at the same time, you can't open different
+
+texts from the same volume at the same time. This is a real problem
+
+with the baggy monster volume 'Quartos and First Printings', which
+
+contains both Q1 and Q2 of Hamlet, for example.  You can compare
+
+Rowe's Hamlet with Pope's by viewing both at the same time.  You
+
+can view the Hamlets of F1 and Q1 together with an eighteenth
+
+century adaptation, because they occupy different volumes, but you
+
+can't view Q1 and Q2 of Hamlet (unless I've missed something).
+
+This is deeply perverse.  The volume of 'Quartos and First
+
+Printings' ought to be divided into separate volumes for each play,
+
+or at the very least into 'First Quartos' and 'Second Quartos'.
+
+<p>
+
+The search engine also has its perversities.  To select poems or
+
+plays you use a browse feature.  This does not differentiate
+
+between different Quartos of the same play.  So you ask it to
+
+search through Hamlet in the 'Quartos and first printings' volume
+
+and it will search Q1 and Q2 without giving you the option of
+
+selecting which one you want.  This could be a real bore if you
+
+want to follow up a hunch about the spelling preferences of a
+
+particular print shop or compositor.  The front end allows you to
+
+limit searches by character, by 'genre' (i.e. comedies, histories,
+
+tragedies, late plays, which I'm not sure anyone really believes
+
+are very useful ways of dividing the canon any more), by volume
+
+(i.e. a particular edition or one of the software's groupings, such
+
+as Adaptations).  But you cannot search exclusively within the
+
+sonnets, since each sonnet (yes, each sonnet) is given a separate
+
+entry in the Browse menu from which you select your titles to
+
+search.  Try selecting all 154 Sonnets and the software (what a
+
+darling!  After all it only costs rather over two thousand quid)
+
+will tell you that you have selected too many items for it to
+
+search.  The browse menu in the search window badly needs to be
+
+redesigned so that you can select individual Quartos.  There should
+
+be a single entry for the Sonnets as well as the entries for
+
+individual ones, and a genre of 'non-dramatic verse' should be
+
+added to the 'genre' browse menu.  Maybe one day.
+
+<p>
+
+The treatment of footnotes is also painful.  The program does not
+
+have a View Footnotes command of the kind that most Word-processors
+
+have, which would allow you to see all the footnotes on a
+
+particular scene in, say, the Malone-Boswell Variorum edition;
+
+instead you have to double-click on the book-shaped hypertext links
+
+which are embedded at the relevant point in the text to see each
+
+note individually. This opens a footnote window for the particular
+
+footnote only, which is by default maximised:  zap (or rather chug
+
+chug wheeze) no visible text, just a huge footnote plastered over
+
+the whole screen.  Reduce the size of the note and you also reduce
+
+the size of the text window, so you still can't see the text unless
+
+you then maximise the text window, which then overlays the note
+
+window, until you reactivate and move the note window.  Bloody
+
+irritating, and the simple result of bad software design.  And you
+
+have to go through this whole rigmarole every time you consult a
+
+note, since the note window defaults back to maximised size.  This
+
+way of presenting notes is just about OK with the Bible in English
+
+Translation, where it's likely one would want to find only one
+
+marginal gloss on a particular passage, but it is very annoying
+
+with this type of material, where you might want to get a run at
+
+how Malone reads a particular speech, say.  And since a lot of the
+
+notes to the editions are lists of variants you need to be able to
+
+see them easily at the same time as the text, without shifting
+
+endless windowlets around the screen.  There really should be an
+
+Options menu which would enable you to set a position for footnote
+
+windows, choose fonts, choose default window sizes and so on.  But
+
+there isn't.  Ho hum.
+
+<p>
+
+The worst problem, though, is saving.  The obvious way round some
+
+of the limitations of the software is to save what you need onto
+
+disk, so that you can view text and footnotes together, say, or do
+
+word searches on the text of Q1 of the Sonnets.  The otherwise
+
+helpful UL guide will not tell you so, but the program will only
+
+allow you to save a limited proportion of any text.  If you try to
+
+save a whole volume the program will say 'This is not allowed'.
+
+Thanks.  If you try to save more than 40% of a particular volume
+
+(but not the whole thing) the program will not make a murmur and
+
+will just go ahead with the save routine.  But it will actually
+
+save only 40% of what you want (the Chadwyck-Healey handbook, which
+
+you can sign for in the Reading Room of the UL, warns you about
+
+this a bit cryptically).  So if you select a large chunk of text to
+
+save - say a whole play plus notes, but minus the prefatory matter,
+
+from the Johnson edition - and save it to disk you will sit there
+
+and sit there and sit there (I found it took 30 mins per item).
+
+You will then take your disk home and find that the saved version
+
+breaks off, mid-sentence, after 40% of whatever it is you wanted.
+
+Nothing tells you 'Ha ha you thought you could download this stuff,
+
+but you can't' while you are wasting your time in this way.  And
+
+trying to copy large sections of texts with the mouse will also get
+
+you nowhere slowly:  copy more than 8192 characters (why 8192? -
+
+no, I don't want to know) and Dynatext (whose SGML software
+
+Chadwyck- Healey use) will flash up a message saying that you have
+
+tried to copy more text than it will allow you to and that it will
+
+copy only 8192 characters of it.
+
+<p>
+
+It is of course quite reasonable for Chadwyck-Healey to protect
+
+themselves against large-scale piracy, even by academics, those
+
+notorious thieves of valuable data, from the sale of which, we all
+
+know, they fund their cocaine habits.  But the program should warn
+
+you of what it won't let you do.  And given that its software in
+
+several crucial respects limits what can be done with its very
+
+useful data it should give its users a chance to use what they need
+
+- and what the UL has paid a lot for - in the way they need to use
+
+it by saving it to disk.  I can't believe that enabling proper
+
+downloads would effect the sales of a CD so expensive that it can
+
+only be afforded by libraries.  None of the material is in
+
+copyright, which is why the CD does not include a benchmark
+
+contemporary edition:  why are we not permitted to use as much of
+
+it as we like for the purposes of research?  Tell us,
+
+Chadwyck-Healey, in a sentence which does not contain the word
+
+'money'.
+
+<p>
+
+So it's great for collating plays, provided you don't want to
+
+collate two quartos.  It's really valuable if you are working on
+
+the growing area of the history of Shakespeare's theatrical
+
+reception, provided you don't want more than 40% of an e-text of a
+
+scarce adaptation to play with on your own.  The selection of
+
+material to include seems to me to have been made with real
+
+judiciousness (though why they use Q2 of Venus and Adonis
+
+escapes me); it's the way the software divides it up that's the
+
+main problem.  The CD is also probably the easiest way to do
+
+searches on F1 and the early Quartos currently available, since
+
+getting these from the Oxford Text Archive will involve giving up a
+
+lot of disk space and spending a lot of time downloading and
+
+searching.  The texts are, so far as my tests have gone, quite
+
+accurate (though like many e-text transcribers its compositors
+
+sometimes have a hard time accurately reproducing compositorial
+
+errors and typographical oddities).  The front end has some
+
+seriously annoying features which will limit its usefulness.
+
+Chadwyck-Healey need to try out their versions of Dynatext on more
+
+users before they release it:  to have good data which is presented
+
+in a way that limits what you can do with it defeats the purpose of
+
+hypertext editions, of which the chief advantage is near-infinite
+
+flexibility.  The good news, though, is that Dynatext boasts that
+
+it is more or less infinitely configurable by the companies who use
+
+it to organise their SGML databases:  so I hope Chadwyck-Healey
+
+will get reconfiguring, and produce an update of this software
+
+which fits their users.  The CUP World Shakespeare Bibliography
+
+uses Dynatext and is great:  fast, readily grasped by intuition,
+
+and set out in a way that shows an intelligent awareness of how
+
+academics want to work.
+
+<p>
+
+<cite>Note, May 1998</cite>
+
+<p>
+
+<cite>Since I wrote the above Chadwyck-Healey has modified the structure of the database in the online version so that the Folio volume includes not Benson but the early quartos of the poetical works. A small victory for CERES. Since I wrote it too the UL has upgraded the hardware used for accessing the CD ROM version of the database: it is no longer painfully slow to use. A small victory for progress, as we whigs call it.</cite>
+
+<p>
+
+<a href=#top><small>Back to top.</small></a>
+
+<hr>
+
+<a name=stcol></a>
+
+<h2 align=center>STC ONLINE</h2>
+
+<cite>Reviewed by Richard Serjeantson</cite>
+
+<p>
+
+<strong>The on-line ESTC (English Short-Title Catalogue) combines the Eighteenth Century STC, Pollard and Redgrave, and Wing. It is produced by RLG (Research Libraries Group) which sells subscriptions to individuals and institutions. The review which follows is of the telnet interface. For a review of the Web version see Harvest III.iii.</strong>
+
+<p>
+
+<strong>NATURE</strong><br>
+
+The ESTC does not claim comprehensiveness, but rather states that
+
+it lists 75,000 works printed before 1700 as well as the entire
+
+18th century STC.  Having said this, I have not often been
+
+disappointed when looking for a particular English work, although I
+
+confess that I haven't been guddling around in newsbooks.  By its
+
+nature, I think that it probably includes at least every work that
+
+is in the - reasonably extensive - microfilm runs of STC and Wing
+
+put out by University Microfilms International.
+
+<p>
+
+In fact, ESTC is something of a misnomer, since it is really not a
+
+Short Title but rather a Full Title database, as may be seen from
+
+the appended sample record.  The value of this over the printed STC
+
+and Wing may easily be imagined: no longer does one find a
+
+suggestive title cut off in its bibliographic prime.  This
+
+comprehensiveness of detail is probably the best feature of the
+
+on-line as opposed to the printed catalogues.
+
+<p>
+
+The on-line ESTC also gives publication details as these are listed
+
+on the title page: i.e., Printed by  X for Y and are sold at Z.
+
+Furthermore, in the case of anonymous publication, it gives the
+
+name of the author when this is known.  Unfortunately, this is done
+
+without distinguishing in the author field that the publication was
+
+anonymous, although this is remarked upon in the notes.
+
+Publication details are likewise expanded when they are known, and
+
+marked thus (Wing H609):
+
+'[Oxford] : Printed [by Henry Hall] for R. Royston at the Angel in
+
+Ivy-lane [London], and R. Davis in Oxford, 1646.'
+
+<p>
+
+Each record also includes useful notes giving details about
+
+relations between different impressions and editions, which it
+
+seems to record reasonably faithfully.  This can, in my experience,
+
+save an awful lot of time.  These notes also record details of
+
+translations and of works included within the main one.  Finally,
+
+formats are also given.
+
+<p>
+
+<strong>USE</strong><br>
+
+The simplest way to use the catalogue is by browsing index lists,
+
+either by name of author, or title, or subject.  This has the
+
+advantage that one can (as it were) see the records on either side
+
+of the one that one is seeking, thus easily tracking down variably
+
+catalogued names or titles (which are in fact surprisingly rare).
+
+It has the drawback that a search on 'Milton, John' will throw up
+
+609 entries.  These can, however, be limited by, in particular,
+
+date (i.e. 'limit date before 1650') which removes various
+
+eighteenth-century mutilations of *Paradise Lost* (not to mention
+
+the original editions) at a stroke.  For most authors, though, it
+
+is a simple and sometimes instructive matter just to skim through
+
+their entire printed oeuvre in search of the work one is seeking,
+
+as one would with the printed  versions.
+
+<p>
+
+One can also search very easily on keywords--such as a particular
+
+word or words within a title.  Furthermore, there is useful little
+
+command ('like') that will extract various indexed details from the
+
+record that one is  looking at and allows further searching on any
+
+one of them.  This is most useful with respect to subject-headings:
+
+many of the pre-1700 books have subject details according to the
+
+Library of Congress system.  In general, I find these headings to
+
+be distinctly blunt tools, but there is something to be said for
+
+being able to track down at a stroke books on, say, 'Learning and
+
+scholarship -- Early works to 1800' or even 'Episcopacy -- Early
+
+works to 1800'.
+
+<p>
+
+The Eureka ESTC has a further useful little feature.  If you use a
+
+bibliographic programme, such as the excellent Endnote from Niles
+
+Associates [CERES Ed. note: information at website
+
+http://www.niles.com/home/default.html which can lead you to a free
+
+demo], you can instruct the catalogue to send you an email message
+
+containing anything from one to fifty or so bibliographic records
+
+in a format that will import simply and unproblematically into your
+
+own citation database; a feature, to my mind, that is alone worth
+
+the price of admission.
+
+<p>
+
+<strong>SHORTCOMINGS</strong><br>
+
+Like its printed counter-parts, the on-line ESTC does not record
+
+continental printed books unless they are written in English.
+
+However, the Eureka organisation also maintains a separate and
+
+rather remarkable consolidated catalogue of over 100 research
+
+libraries that contains rather more than 22 million bibliographic
+
+entries.  Not quite so swift of access, this catalogue - as well as
+
+acting, in effect, as an almost complete list of modern printed
+
+books - also has details of a large number of early-modern printed
+
+books.  Although it is very far from being comprehensive for this
+
+earlier period, I have nonetheless found that it can be helpful in
+
+giving some idea of continental publications that I have tried to
+
+track down.  It makes a passable stop-gap before we get round to
+
+the on-line World STC of books printed before 1700.  Of course,
+
+this same catalogue is also valuable for easily garnering
+
+information about books published in later periods, too: who would
+
+have thought that there were at least thirty-three editions (two of
+
+which appear to have been pirates) of W.E.H. Lecky's _History of
+
+the Rise and Influence of the Spirit of Rationalism in Europe_
+
+(first publ. 1865) to 1955 in London and New York?  It seems
+
+possible that subscription to the on-line ESTC would be accompanied
+
+by access to this other catalogue.
+
+<p>
+
+Returning to the ESTC, it should be said that I haven't found a way
+
+of searching by publisher or printer, although that is not to say
+
+that there is not one that has escaped me.  Nor, interestingly
+
+enough, does there seem to be a way of searching by Wing or STC
+
+number.  This may seem strange to those used to the format of the
+
+printed versions, but I would venture to suggest that even for
+
+those accustomed to work using these, the on-line version will
+
+offer ways round or even above this limitation.  It does, of
+
+course, record Wing and STC numbers in the notes.
+
+<p>
+
+In one particular and obvious respect the on-line version is less
+
+effective than the printed versions: one cannot scan whole pages at
+
+a glance.
+
+<p>
+
+<strong>CONCLUSIONS</strong><br>
+
+In a large number of respects, then, I have found this on-line STC
+
+to be not just a good alternative to, but actually more useful than
+
+its printed equivalents.  To members of subscribing institutions it
+
+is free and freely available, at least in those parts of the
+
+learned world that regard a hard-wired internet connection as the
+
+indispensable scholarly accoutrement of every undergraduate,
+
+graduate and faculty member.  One does not have to lay out
+
+personally the hundreds of pounds required for the printed
+
+versions, and hence one does not one have to do one's preliminary
+
+bibliographic work tied to a library's reference room.
+
+Furthermore, the on-line version even lists subscribing libraries
+
+that hold copies of each work and their corresponding shelfmarks.
+
+(Oxford college libraries seem to be better represented in this
+
+than Cambridge ones.)  Perhaps even more usefully for those works
+
+not to be found in the flesh at one's own institution, each record
+
+lists the appropriate University Microfilm reference number, thus
+
+removing the need to cross-refer to the STC, Wing, or Thomason
+
+Tract indexes for this resource.  And there is, finally, rather
+
+more information available about each book than may be found in the
+
+printed versions.
+
+<p>
+
+<strong>SAMPLE RECORD</strong><br>
+
+AUTHOR: Milton, John, 1608-1674.
+
+TITLE: Poems of Mr. John Milton, both English and Latin, compos'd
+
+at several times. Printed by his true copies. The songs were
+
+set in musick by Mr. Henry Lawes Gentleman of the Kings
+
+Chappel, and one of His Maiesties private musick. Printed
+
+and publish'd according to order.
+
+<p>
+
+PUBLISHED: London : printed by Ruth Raworth for Humphrey Moseley,
+
+and are to be sold at the signe of the Princes Arms in S. Pauls
+
+Church-yard, 1645 [i.e. 1646]<br>
+
+PHYSICAL DETAILS: [6], 120, 87, [1] p., [1] leaf of plates ; 80.<br>
+
+RECORD ID: ESTCR202162
+
+<p>
+
+LOCATION: University of Texas, Austin<br>
+
+SHELFMARK: Pforz 722
+
+<p>
+
+LOCATION: British Library<br>
+
+SHELFMARK: Thomason E.1126[1]
+
+<p>
+
+LOCATION: Oxford University Jesus College<br>
+
+SHELFMARK: M4.21.Gall.
+
+<p>
+
+LOCATION: Oxford University Worcester College Library<br>
+
+SHELFMARK: [Shelfmark not available]
+
+<p>
+
+LOCATION: Henry E. Huntington Library<br>
+
+SHELFMARK: [Unverified]
+
+<p>
+
+LOCATION: University of Texas, Austin<br>
+
+SHELFMARK: PR3550.C23 2cop<br>
+
+NOTE: both copies: variant
+
+<p>
+
+LOCATION: Alexander Turnbull Library, Wellington, N.Z.<br>
+
+SHELFMARK: REng.Mil.1645.Poems
+
+<p>
+
+NOTES: Includes: Joannes Miltoni Londinensis Poemata (separately
+
+listed in Wing as M2159), which has a separate dated title
+
+page, pagination and register. Includes a separate dated
+
+title page for A mask of the same author presented at
+
+Ludlow-Castle, 1634; pagination and register are continuous.
+
+Variant: 'In the last line of the imprint in some copies 'S.
+
+Pauls' occurs without the 'S.''--Pforzheimer catalogue
+
+(Shawcross 70).<br>
+
+The publication year is given according to Lady Day dating.
+
+<p>
+
+NOTES: Annotation on Thomason copy: 'Jan: 2d'.
+
+Dummy Reproduction of the original in the British Library.
+
+Wing (2nd ed.) M2160.Shawcross, J.Milton, 70, 71.
+
+Pforzheimer 722.<br>
+
+Thomason E.1126[1].<br>
+
+Microfilm.Ann Arbor, Mich. University Microfilms, 1978. 1
+
+microfilm reel ; 35 mm. (Thomason Tracts; 164:E.1126[1]).
+
+L.
+
+<p>
+
+OTHER AUTHORS: Milton, John, 1608-1674.<br>
+
+Lawes, Henry, 1596-1662.
+
+<p>
+
+OTHER TITLES: Poemata.
+
+<p>
+<cite>For more information on the online ESTC, please see recent coverage in Harvest III.iii <a href=harvest.htm#estc>here</a>.</cite>
+<p>
+
+<small><a href=#top>Back to top.</a><br>
+<a href=archive.htm>Return to CERES Archive.</a></small>
+
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</HTML>
+
+
+I>t sedteias

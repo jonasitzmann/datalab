@@ -1,0 +1,326 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>rml_manor</title>
+<link rel="stylesheet" href="emx_nav_left.css" type="text/css">
+<script type="text/javascript">
+<!--
+
+
+
+<!--
+var time = 3000;
+var numofitems = 7;
+
+//menu constructor
+function menu(allitems,thisitem,startstate){ 
+  callname= "gl"+thisitem;
+  divname="subglobal"+thisitem;  
+  this.numberofmenuitems = 7;
+  this.caller = document.getElementById(callname);
+  this.thediv = document.getElementById(divname);
+  this.thediv.style.visibility = startstate;
+}
+
+//menu methods
+function ehandler(event,theobj){
+  for (var i=1; i<= theobj.numberofmenuitems; i++){
+    //var shutdiv =eval( "menuitem"+i+".thediv");
+    //shutdiv.style.visibility="hidden";
+  }
+  theobj.thediv.style.visibility="visible";
+}
+				
+function closesubnav(event){
+  if ((event.clientY <48)||(event.clientY > 107)){
+    for (var i=1; i<= numofitems; i++){
+      //var shutdiv =eval('menuitem'+i+'.thediv');
+      //shutdiv.style.visibility='hidden';
+    }
+  }
+}
+// -->
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<style>
+<!--
+body {
+	background-color: #EEEFC7;
+}
+a:link {
+	color: #818636;
+	text-decoration: none;
+}
+a:visited {
+	color: #DBCF65;
+	text-decoration: none;
+}
+h1 {
+	color: #804000;
+}
+h3 {
+	color: #804000;
+}
+h4 {
+	color: #804000;
+}
+h5 {
+	color: #804000;
+}
+h6 {
+	color: #804000;
+}
+h2 {
+	color: #804000;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #F3ECDD;
+}
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: none;
+	color: #47AEBF;
+}
+a:active {
+	text-decoration: none;
+	color: #9F3727;
+}
+#Layer3 {
+	position:absolute;
+	left:628px;
+	top:376px;
+	width:230px;
+	height:131px;
+	z-index:9;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<link href="css/buffet%20text.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style34 {color: #F5F8C9}
+#Layer5 {
+	position:absolute;
+	left:86px;
+	top:240px;
+	width:193px;
+	height:54px;
+	z-index:13;
+}
+#Layer6 {
+	position:absolute;
+	left:100px;
+	top:245px;
+	width:69px;
+	height:28px;
+	z-index:14;
+}
+#Layer7 {
+	position:absolute;
+	left:100px;
+	top:486px;
+	width:193px;
+	height:32px;
+	z-index:15;
+}
+#Layer8 {
+	position:absolute;
+	left:100px;
+	top:291px;
+	width:93px;
+	height:24px;
+	z-index:16;
+}
+#Layer9 {
+	position:absolute;
+	left:100px;
+	top:339px;
+	width:99px;
+	height:24px;
+	z-index:17;
+}
+.style37 {font-size: 18px}
+#Layer10 {
+	position:absolute;
+	left:775px;
+	top:571px;
+	width:263px;
+	height:82px;
+	z-index:10;
+	visibility: visible;
+}
+#Layer11 {
+	position:absolute;
+	left:52px;
+	top:532px;
+	width:92px;
+	height:81px;
+	z-index:18;
+}
+#Layer12 {
+	position:absolute;
+	left:358px;
+	top:246px;
+	width:283px;
+	height:184px;
+	z-index:19;
+}
+#Layer13 {
+	position:absolute;
+	left:367px;
+	top:85px;
+	width:197px;
+	height:57px;
+	z-index:20;
+}
+#Layer15 {
+	position:absolute;
+	left:534px;
+	top:122px;
+	width:236px;
+	height:29px;
+	z-index:21;
+}
+#Layer16 {
+	position:absolute;
+	left:584px;
+	top:128px;
+	width:93px;
+	height:70px;
+	z-index:22;
+}
+.style38 {
+	font-size: 62px;
+	color: #980E33;
+}
+#Layer17 {
+	position:absolute;
+	left:628px;
+	top:189px;
+	width:262px;
+	height:42px;
+	z-index:23;
+}
+#Layer18 {
+	position:absolute;
+	left:350px;
+	top:376px;
+	width:243px;
+	height:136px;
+	z-index:24;
+}
+#Layer19 {
+	position:absolute;
+	left:92px;
+	top:393px;
+	width:123px;
+	height:29px;
+	z-index:25;
+}
+#Layer20 {
+	position:absolute;
+	left:100px;
+	top:389px;
+	width:87px;
+	height:27px;
+	z-index:25;
+}
+#Layer21 {
+	position:absolute;
+	left:91px;
+	top:441px;
+	width:106px;
+	height:28px;
+	z-index:26;
+}
+#Layer22 {
+	position:absolute;
+	left:100px;
+	top:436px;
+	width:92px;
+	height:28px;
+	z-index:26;
+}
+.style39 {font-size: 9px}
+#Layer23 {
+	position:absolute;
+	left:83px;
+	top:117px;
+	width:90px;
+	height:27px;
+	z-index:28;
+}
+.style40 {color: #980E33}
+.style41 {color: #F0F2C8}
+-->
+</style>
+</head>
+<body>
+<div id="RMLlogoBrown" style="position:absolute; left:193px; top:7px; width:87px; height:61px; z-index:10; visibility: visible;"><img src="images/logos/rml_logo_red.gif" alt="conference site" width="96" height="69" border="0" /></div>
+<div id="Layer3"><img src="animationfiles/complete/gif/manor_venue.gif" alt="entrance to the manor" width="225" height="125"></div>
+<div id="Layer1" style="position:absolute; left:628px; top:227px; width:259px; height:104px; z-index:11; font-size: 12px;" class="main_text">the quality of the catering will always be a key feature of any event. Our in-house catering team are able to offer irresistible food, always using the finest and freshest ingredients. </div>
+<div class="sub_heading" id="Layer2" style="position:absolute; left:100px; top:152px; width:89px; height:29px; z-index:12; color: #F5F8C9; visibility: visible;"><a href="facilities.html" class="sub_heading style37">facilities</a></div>
+<div id="Layer4" style="position:absolute; left:100px; top:197px; width:115px; height:30px; z-index:13; color: #F5F8C9;" class="sub_heading"><a href="fine_dining.htm" class="sub_heading style37">fine dining </a></div>
+<div class="sub_heading style34" id="Layer6"><a href="tariff.htm" class="sub_heading style37">tariff</a></div>
+<div id="Layer7"><a href="terms_conditions.htm" class="sub_heading style37">terms and conditions </a></div>
+<div class="sub_heading style34" id="Layer8"><a href="booking.html" class="sub_heading style37">booking</a></div>
+<div class="sub_heading style34" id="Layer9" ><a href="brochurepdf/function_bundle_events_team.pdf" class="style37">brochure</a></div>
+<div class="main_heading" id="Layer13">Whether a </div>
+<div class="sub_heading" id="Layer15">simple buffet lunch </div>
+<div class="main_heading style38" id="Layer16">or</div>
+<div class="sub_heading" id="Layer17">an elaborate banquet, </div>
+<div class="main_text" id="Layer18">Rothamsted Manor is set in its own picturesque grounds. Its private, secluded gardens offer a peaceful and tranquil setting in which to enjoy a drink before or after your meal.</div>
+<div id="Layer20">
+  <div class="sub_heading style34" id="layer"><a href="history.html" class="sub_heading style37">history</a></div>
+</div>
+<div id="Layer22"><a href="location.html" class="sub_heading style37">location</a></div>
+<div id="Layer5" style="position:absolute; left:50px; top:562px; width:263px; height:38px; z-index:27"><img src="images/gif/colour_dots_thin.gif" alt="" width="265" height="33"></div>
+<font color="#980E33" face="Verdana, Arial, Helvetica, sans-serif"></font>
+<!-- end masthead -->
+<div id="Layer14" style="position:absolute; left:349px; top:558px; width:547px; height:53px; z-index:124">
+  <p align="left" class="buffet_text style39"><span class="style40">Reservations <span class="style41">2</span> RML <span class="style41">2</span> Rothamsted Manor <span class="style41">2</span> Rothamsted Research <span class="style41">2</span> Harpenden <span class="style41">2</span> Hertfordshire <span class="style41">2</span> AL5 2JQ<br />
+    Telephone +44 (0) 1582 763133 <span class="style41">2</span> Extension 2492 <span class="style41">2</span> Facsimile +44 (0) 1582 467820 <br />
+    E-mail</span> <a href="mailto:res.manor@bbsrc.ac.uk">res.manor@bbsrc.ac.uk</a></p>
+</div>
+<div id="Welcome" style="position:absolute; left:327px; top:12px; width:645px; height:49px; z-index:119; font-size: 36px; visibility: visible;">
+  <div align="center" class="main_heading"><strong>Welcome to Rothamsted Manor</strong></div>
+</div>
+<div id="LeftBackground" style="position:absolute; left:50px; top:0px; width:263px; height:625px; z-index:8; background-color: #980E33; layer-background-color: #980E33; visibility: visible;"></div>
+<div id="RothLogo" style="position:absolute; left:70px; top:4px; width:51px; height:62px; z-index:110; visibility: visible;"><a href="http://local-info.rothamsted.bbsrc.ac.uk/"><img src="images/logos/RRLogo50px.gif" alt="Rothamsted home page" width="50" height="64" border="0" /></a></div>
+<!--end pagecell1--> 
+
+</body>
+</html>
+
+
+<<g	-drib/a>"bi

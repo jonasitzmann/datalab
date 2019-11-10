@@ -1,0 +1,272 @@
+<HTML>
+<HEAD>
+<TITLE> MORSE - Background </TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="morse.css">
+</HEAD>
+<BODY>
+<center>
+<H1>
+MIPAS Orbital Retrieval using Sequential Estimation (MORSE)</h1>
+</center>
+<h4>01MAY03</h4>
+
+<h2>Introduction</h2>
+
+The Michelson Interferometer for Passive Atmospheric Sounding is one of the
+on the European Space Agency's Envisat satellite launched in
+March 2002.  MIPAS measures atmospheric limb emission spectra from 685-2410
+cm-1 (14.5 to 4.1um) over an altitude range 6-68 km. 
+<P>
+Since MIPAS is one of the core instruments, ESA have undertaken to process and
+distribute MIPAS data operationally. This includes both atmospheric spectra (L1
+data) and derived profiles of atmospheric pressure, temperature and
+concentrations of CH4, H2O, HNO3, N2O, NO2 and O3 (L2 data). The ESA processing
+algorithms were designed before launch so are intentionally relatively simple
+and robust. However the software is complex and not publicly available.
+<P>
+
+In addition to the ESA L2 products, MIPAS has the potential to retrieve
+numerous additional species or parameters, or the same species using more
+sophisticated algorithms, and a number of laboratories around Europe have been
+developing their own codes to do this, coordinated under the EU Framework V
+project AMIL2DA). However, these codes are generally designed only for local
+use by experts and often require large, dedicated machines.
+<P>
+
+The aims of this project are
+<OL>
+<LI>to generate a retrieval algorithm MORSE which can
+   either replicate  or improve upon the ESA L2 processing, and
+<LI>to make the software available for NERC users to download and install using
+   only basic computing facilities and background knowledge.
+</OL>
+
+The code will be written in FORTRAN and designed for a Unix/Linux operating
+system. Documentation and tutorials will be in HTML and available on the web.
+<P>
+The goal is to provide the resources to allow a postgraduate student
+or postdoctoral researcher working independently to perform their own
+retrievals from MIPAS spectra  while leaving sufficient time to concentrate 
+mainly on the scientific aspects of the results rather than the details
+of the processing.
+
+<h2>Schedule</h2>
+
+Since MIPAS is already operational it is considered desirable to generate 
+usable software in as short a period of time as possible. 
+An additional advantage is to bring users early experience of the code
+during the development in order to generate feedback, help with testing and
+refine the user-requirements. 
+<P>
+The project is split into 4 phases, each of 6 months, with software releases at
+the end of each phase. The start date is 1st January 2004.
+<dL>
+<DD>
+6months - Phase I - MORSE v1 (1st July 2004)
+
+<DD>
+12months - Phase II - MORSE v2 (1st January 2005)
+
+<DD>
+18months - Phase III - MORSE v3 (1st July 2005)
+
+<DD>
+24months - Phase IV - MORSE v4 (1st January 2006)
+</dl>
+
+The additional capabilities of each phase of development are outlined in the
+science case below.
+
+<h2>Science Case</h2>
+
+In the following, limitations of the ESA L2 products are assessed together with
+the additional capabilities offered by the MORSE code at each phase of 
+development.
+<P>
+These comments are based on the current state of the ESA processor and it
+should be noted that upgrades are anticipated in the time scale of the order
+of a year.
+<P>
+<h3>Phase I</h3>
+<DL>
+<DT>MORSE v1 Features:
+<UL>
+<LI> Retrieval of single profile from nominal MIPAS scan
+<LI>  ESA or user-supplied microwindows 
+<LI>  Optimal estimation retrieval
+</UL>
+
+<DT>Reprocessing
+<DD> ESA's processing is fully automated so that if retrievals fail for some
+reason, e.g., due to convergence or cloud contamination problems, the profiles
+are simply unavailable until possibly the next reprocessing run. 
+The code will allow a user to hand-generate missing data, e.g., critical to
+a particular campaign, using the same spectral data as the ESA processor
+(although not an identical retrieval algorithm).
+<DD>Aims: recover missing ESA profiles where L1 data is available
+
+<DT> Microwindow selection
+<DD>The ESA retrieval uses a fixed set of microwindows and spectroscopic data.
+A more flexible approach would allow the sensitivity to spectroscopic
+parameters to be assessed, e.g. assessing the impact of using a different
+set of line parameters for a particular molecule
+<DD>Aims: spectroscopic validation
+
+<DT>Improved ESA Products
+<DD> ESA retrieve profiles of pT and key-species in near-real-time using a limited
+set of microwindows - typically only 2 or 3 per species. Additional accuracy
+can be obtained using more microwindows, at the expense of additional cpu time.
+<DD>Aims: improved accuracy of standard products
+
+<DT>Lower altitude limit
+<DD> 
+ESA's current processing is limited to 12km and above, ignoring spectra from 
+6 and 9km in order to minimise problems with clouds and convergence issues
+caused by large tropospheric water vapour. The option will be available to
+retrieve at these altitudes where clouds do not occur.
+<DD> Aims: Upper-troposphere/lower stratosphere retrievals
+
+<DT> Additional Products
+<DD> Many more species can be retrieved, albeit with lower 
+signal/noise or under enhanced conditions, using essentially the same algorithm
+e.g. CFCs, N2O5, Sulphur budget (SO2, SF6, OCS),
+Chlorine budget (ClONO2, HOCl, CCl4, ClO), NH3, HCN, C2H6 and H2O2
+<DD> Aims: additional species
+
+<DT> Retrieval algorithm
+<DD> 
+There are several possible methods for inverting a set of radiance measurements
+to retrieve a profile. ESA use the least squares fit approach which has its
+advantages in terms of being unbiased and maximising vertical resolution but
+suffers from instabilities and forces a specific set of retrieval 
+levels to match the available measurements.
+It is intended to provide alternative approaches
+based on optimal estimation or regularisation in order to improve
+the robustness and flexibility of the retrieval.
+<DD> Aims: more uniform retrievals with well-defined averaging kernels
+</DL>
+
+<h3>Phase II </h3>
+<DL>
+<DT>MORSE v2 Features:
+<UL>
+<LI> Simultaneous retrievals of multiple species
+<LI> Flexible retrieval/measurement spacing
+<LI> Choice of optimal estimation or regularisation          
+</UL>
+
+<DT> Retrieval sequence
+<DD> 
+A limitation on the ESA processing is that first pressure and temperature
+are retrieved, followed by each species individually. This necessitates the
+use of microwindows where the emission is primarily from a single species.
+Allowing for joint retrievals (e.g., pT plus H2O simultaneousl) allows use
+of spectral intervals where there is overlap between different molecules and
+should improve retrievals of the marginal species.
+<DD>Aims: improved accuracy
+
+<DT> Special Modes
+<DD> 
+MIPAS has a nominal scan mode of 17 elevation steps from 68-6km but also a 
+number of so-called "special modes" where the scan pattern, and sometimes
+spectral resolution, are changed, e.g, concentrating on the UTLS region
+and improving the horizontal sampling. These special modes will be operated for
+a few days each during the first part of 2003 but ESA currently plan only on
+processing these data to L1, ie generating spectra but not retrieving 
+profiles. The intention is for the science community to establish the
+usefulness of such observations so processing of this data will be included
+here.
+<DD>
+Aims: retrievals of profiles during MIPAS Special Modes (eg polar vortex,
+strat/trop exchange, high horizontal resolution)
+
+<DT> Retrieval algorithm
+<DD> 
+There are several possible methods for inverting a set of radiance measurements
+to retrieve a profile. ESA use the least squares fit approach which has its
+advantages in terms of being unbiased and maximising vertical resolution but
+suffers from instabilities and forces a specific set of retrieval 
+levels to match the available measurements. 
+It is intended to provide alternative approaches
+based on optimal estimation or regularisation in order to improve
+the robustness and flexibility of the retrieval.
+<DD> Aims: more uniform retrievals with well-defined averaging kernels, eg for data
+assimilation studies
+</DL>
+
+<H3>Phase III </h3>
+<DL>
+<DT>MORSE v3 Features:
+<UL>
+<LI> Choice of continuum constraints
+<LI>  Handling of horizontal gradients
+<LI>  Orbital processing
+<LI>  Retrieval of vibrational temperature and isotopic ratios
+</UL>
+
+<DT> Isotopic ratios
+<DD>Isotopic ratios give additional information on the history and source of
+atmospheric species. With MIPAS spectral resolution it is possible to isolate
+spectral lines from individual isotopes. Although these are generally much
+weaker than the main isotopic lines (through a lower concentration) a retrieval
+formulated in terms of determining the ratio of minor/main isotopes rather than
+the absolute concentration should remove many sources of inaccuracy. 
+<DD>Aims: Water vapour isotope distributions are the most likely target.
+
+<DT> Vibrational Temperatures
+<DD>The ESA retrieval assume local thermodynamic equilibrium, i.e. that all
+spectral emissions are characterised by the Planck function for the local
+temperature. At high altitudes, or short wavelengths, especially during
+day-time conditions the emissions of particular molecules deviate from this
+and are typically characterised by an internal `vibrational' temperature. 
+The proposed retrieval will either allow vibrational temperature profiles
+to be externally supplied or retrieved directly. This may allow the retrieval
+of CO. 
+<DD>Aims: CO retrievals, non-LTE modelling
+
+<DT> Continuum constraints
+<DD>The ESA retrieval is built around the approach of simultaneously fitting an
+independent atmospheric continuum profile in each microwindow, effectively
+the molecular signature becomes the difference between the line peak and the
+continuum background rather than the zero radiance level. This is an advantage
+for molecules with distinct emission line features, e.g., in eliminating
+contributions from aerosol or thin clouds,  but restricts the
+sensitivity to retrieving heavy molecules such as N2O5 and the CFCs. 
+Two alternatives will be provided: either using broader microwindows or
+retrieving continuum absorption
+independently, e.g. from adjacent spectral regions, which is a useful
+product in itself.
+<DD> Aims: cloud/aerosol studies, additional continuum-like species 
+
+<DT> Horizontal Gradients
+<DD> The ESA retrieval assumes a horizontally homogeneous atmosphere when
+retrieving each profile, e.g., that the atmospheric parameters retrieved
+from the 21km tangent point are the same as those encountered by the ray
+passing through the 18km tangent point as it crosses the 21km surface,
+even though these are displaced some 75km horizontally either side.
+One approach being explored by several groups is a 2-dimensional retrieval
+where a two dimensional field is retrieved in the vertical plane
+(e.g., a full orbit) rather than a single profile. However, this greatly
+increases the processing requirements. The approach adopted here will be
+a two-pass sequential estimator (Kalman smoother)
+where profiles are first retrieved assuming
+no gradient, then subsequently reretrieved using gradient information from
+the first pass.
+<DD> 
+Aims: improved accuracy, particularly in regions of sharp gradients, generation
+      of larger datasets
+</dl>
+
+<H3>Phase IV </h3>
+
+<DL>
+<DT> MORSE v4
+<DD>The last phase is intended only to allow for a period of support including
+code maintenance, bug-fixes, improvements to documentation and minor 
+algorithm refinements based largely on user-feedback.
+This will culminate in a `final' release of MORSE v4.
+</dl>
+
+
+
+gtt<o5

@@ -1,0 +1,82 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<title>manchester job Results ezze</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="text.css" type="text/css">
+</HEAD>
+<BODY>
+<br> <TABLE WIDTH="86%" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD COLSPAN="3" VALIGN="TOP"> 
+<FORM NAME=search ACTION=/search/ METHOD=post> <TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=829 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0" HEIGHT="50"> 
+<TR> <INPUT TYPE="hidden" NAME="cmdSearch" VALUE=Search> <INPUT TYPE="hidden" NAME="details" VALUE=1> 
+<INPUT TYPE="hidden" NAME="nRes" VALUE=10> <TD WIDTH="24%"> <FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">&nbsp;</FONT></B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"><A HREF="http://www.ezze.co.uk/"><FONT COLOR="#6600FF">ezze 
+Search</FONT></A></FONT></B><FONT COLOR="#6600FF"><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2"> 
+</FONT></B></FONT><TD WIDTH="36%"><INPUT SIZE=45 NAME=q CLASS="unnamed1"> <TD WIDTH="40%"> 
+<INPUT TYPE="image" BORDER="0" VALUE="submit" NAME="imageField" SRC="/images/search2.gif" WIDTH="80" HEIGHT="24"> 
+</TABLE></TD></TR></TABLE></form></TD></TR><TR> <TD WIDTH="20%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=170 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle> 
+<TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR><TD HEIGHT="5" WIDTH="8%"><BR> <BR><TD HEIGHT="5" WIDTH="92%"><BR> <A HREF="http://www.ezze.co.uk/s/?q=car-parking-at-manchester-airport"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">car parking at manchester airport</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=manchester-entertainment"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">manchester entertainment</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=entertainment-manchester-wedding"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">entertainment manchester wedding</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=manchester-job"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">manchester job</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=job-in-manchester"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">job in manchester</FONT></A><BR> <A HREF="http://www.ezze.co.uk/s/?q=job-at-manchester-airport"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#333333">job at manchester airport</FONT></A><BR> <BR></TABLE></TD></TR></TABLE><BR><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=171 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD HEIGHT="5" WIDTH="8%"><TD HEIGHT="5" WIDTH="92%"><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=car"><FONT COLOR="#333333">Cars</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=computer"><FONT COLOR="#333333">Computers</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=electronic"><FONT COLOR="#333333">Electronics</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=entertainment"><FONT COLOR="#333333">Entertainment</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><A HREF="http://www.ezze.co.uk/s/?q=finance"><FONT COLOR="#333333">Finance</FONT></A><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gambling"><FONT COLOR="#333333">Gambling</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=game"><FONT COLOR="#333333">Games</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=gift"><FONT COLOR="#333333">Gifts</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=health-and-beauty"><FONT COLOR="#333333">Health 
+And Beauty</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=home"><FONT COLOR="#333333">Home</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=insurance"><FONT COLOR="#333333">Insurance</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=internet"><FONT COLOR="#333333">Internet</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=job"><FONT COLOR="#333333">Jobs</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=shopping"><FONT COLOR="#333333">Shopping</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=sport"><FONT COLOR="#333333">Sports</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2"><B><A HREF="http://www.ezze.co.uk/s/?q=travel"><FONT COLOR="#333333">Travel</FONT></A></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B></B></FONT><FONT FACE="Trebuchet MS, Verdana, Arial" SIZE="2" COLOR="#666666"><B><BR><BR></B></FONT></TABLE></TD></TR></TABLE><BR></TD><TD WIDTH="1%">&nbsp;</TD><TD WIDTH="79%" VALIGN="TOP"> 
+<TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> <TBODY> <TR> <TD ALIGN=middle WIDTH="697"> 
+<TABLE WIDTH="648" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TR> <TD WIDTH="20">&nbsp; <TD WIDTH="527"><FONT COLOR="#000099"><BR> <B><FONT FACE="Trebuchet MS, Verdana, Arial">manchester job Results</FONT></B></FONT><BR> 
+   <hr size=1 color=666666 NOSHADE><font style=font-family:Trebuchet MS;font-size:12px;color: 6600FF;>
+<br><a href="http://www.mymanchesterjobs.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Manchester's Own Jobs site, Jobs in Manchester from My Manchester Jobs- </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Jobs in Manchester from My Manchester Jobs , Jobs in Bolton , Jobs in Bury & Jobs in Stockport . Find Manchester Jobs from the best recruitment agencies and employers in Manchester. Leeds Jobs , Jo...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.mymanchesterjobs.co.uk/</font><br><br>
+<br><a href="http://findmanchesterjobs.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Find Manchester Jobs: local recruitment for the North West area </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>find manchester jobs don't search....find! Home About us Contact us Info Advertise a job Jobs Cars Homes Businesses Just Jobs in Your Local Area Enter search term: Advanced search Find a Job in... ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://findmanchesterjobs.co.uk/</font><br><br>
+<br><a href="http://news.bbc.co.uk/1/hi/england/manchester/6615809.stm"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>BBC NEWS England Manchester Job losses follow relocation plan </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Accessibility Links Skip to content Skip to bbc.co.uk navigation Skip to search Access keys help bbc.co.uk bbc.co.uk Navigation Search Home TV Radio Talk Where I Live A-Z Index UK version Internati...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://news.bbc.co.uk/1/hi/england/manchester/6615809.stm</font><br><br>
+<br><a href="http://www.jobs2find.co.uk/north-west.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>job in manchester - work, careers, employment @jobs2find </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... jobs in Manchester emailed to your PC. www.totaljobs.co.uk for "job in manchester" Jobs In Manchester- Newscientist Jobs Looking for jobs in Manchester look no further than NewScientist jobs, y...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.jobs2find.co.uk/north-west.html</font><br><br>
+<br><a href="http://findgreatermanchesterjobs.co.uk/list/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>: Find Greater Manchester Jobs: find jobs in the North West area </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>find greater manchester jobs don't search....find! Home About us Contact us Info Advertise a job Jobs Cars Homes Businesses Find a job... Enter search term: Browse for jobs Advanced search User Log...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://findgreatermanchesterjobs.co.uk/list/</font><br><br>
+<br><a href="http://www.jobs-in-manchester.co.uk/towns/town-a-jobs.asp"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Manchester Job Agencies, Recruitment Agencies and Employment Agencies listing jobs in Manchester </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>Recruitment Agencies in Manchester Other Towns Useful Links Sky TV website Van Insurance reviews and Information Buy New and Used cars in Tenby The Times newspaper 1st Solicitors Local Directory Se...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.jobs-in-manchester.co.uk/towns/town-a-jobs.asp</font><br><br>
+<br><a href="http://www.1job.co.uk/category.php/8353/Manchester/89/Languages::1"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Languages jobs in Manchester @ 1Job.co.uk - UK Jobs Search Engine. </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... your CV checked Submit your CV Now! www.thefullercv.co.uk More Manchester Job Categories Media and Language - Jobs Education and Training Jobs Register your CV Manchester Jobs Search >> Languag...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.1job.co.uk/category.php/8353/Manchester/89/Languages::1</font><br><br>
+<br><a href="http://www.jobmax.co.uk/pages/locations/manchester.html"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Manchester Job Board - Job Max </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>User: Email: Password: Password Reminder Manchester Area - Jobmax Your first stop on the way to Job hunting and Recruitment success A technically advanced but people friendly job site designed to p...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.jobmax.co.uk/pages/locations/manchester.html</font><br><br>
+<br><a href="http://manchester.topjobs.co.uk/"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Jobs in Manchester, Topjobs </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... those looking for Jobs in Manchester. Top organisations are advertising on topjobs.co.uk now! Please add this Manchester Job area page to your favourites and check back regularly as the jobs ar...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://manchester.topjobs.co.uk/</font><br><br>
+<br><a href="http://www.mywestmidlandsjobs.co.uk/Banking-and-Financial-Jobs-In- ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Job Search - The West Midlands Own Jobs site, Local jobs from My West Midlands Jobs </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... top local employers and Recruitment Agencies all on your very own West Midlands Jobs Site! Leeds Jobs , Jobs in Manchester , Jobs in Leeds , Jobs in Birmingham , Jobs in Sheffield Job Sector: T...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.mywestmidlandsjobs.co.uk/Banking-and-Financial-Jobs-In- ...</font><br><br>
+<br><a href="http://www.energy-trading-systems.co.uk/energy/apprenticeships_in_ ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Apprenticeships In Manchester </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Kaufman, Rt Hon Gerald. Chamber ... in cities, Greater Manchester 1575w ... Modern apprenticeships, Greater Manchester 629 ... Jobs in Manchester Jobs in Manchester ... Jobs in Manchester. Work...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.energy-trading-systems.co.uk/energy/apprenticeships_in_ ...</font><br><br>
+<br><a href="http://www.mysouthyorkshirejobs.co.uk/Accounting-Jobs-In-Sheffield"class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Job Search - South Yorkshire's Own Jobs site, Local jobs from My South yorkshire Jobs </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Find South Yorkshire Jobs from the best recruitment agencies and employers in South Yorkshire! Other sites: Leeds Jobs , Jobs in Manchester , Jobs in Leeds , Jobs in Birmingham Job Sector: Town...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.mysouthyorkshirejobs.co.uk/Accounting-Jobs-In-Sheffield</font><br><br>
+<br><a href="http://www.searchforjobs.co.uk/account_director_manchester-p66187. ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Account Director - Manchester </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Europe > United Kingdom Accountancy Back Account Director - Manchester Jobs from Computer People Status Full Time Salary 45-50 Per Annum plus car/allowance Job Location Europe > United Kingdom ...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.searchforjobs.co.uk/account_director_manchester-p66187. ...</font><br><br>
+<br><a href="http://www.mycoventryjobs.co.uk/Business-Development-Jobs-In-Birmi ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Job Search - Coventry's Own Jobs site, Jobs in Coventry from My Coventry Jobs </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... jobs and careers in Coventry from the top local employers and Recruitment Agencies in Coventry . Leeds Jobs , Jobs in Manchester , Jobs in Leeds , Jobs in Birmingham , Jobs in Sheffield Job Sec...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.mycoventryjobs.co.uk/Business-Development-Jobs-In-Birmi ...</font><br><br>
+<br><a href="http://www.mywestyorkshirejobs.co.uk/Business-Development-Jobs-In- ..."class=unnamed2><DT><b><FONT FACE=verdana size=2 COLOR=#6600FF>Job Search - West Yorkshire's Own Jobs site, Local jobs from My West Yorkshire Jobs </font></b></a></DT>
+<br><FONT FACE=verdana size=2 COLOR=#000000>... Wakefield, Jobs in Huddersfield, Leeds Jobs and careers throughout the County form employers and recruitment agencies. Leeds Jobs , Jobs in Manchester , Jobs in Leeds , Jobs in Birmingham Job S...</font>
+<br><FONT FACE=verdana size=1 COLOR=#009900>http://www.mywestyorkshirejobs.co.uk/Business-Development-Jobs-In- ...</font><br><br>
+</font>
+ <TD WIDTH="20">&nbsp;</TABLE></TD></TR></TABLE><TABLE HEIGHT="30" ALIGN="CENTER"> 
+<TBODY> <TR> <TD></TD></TR></TBODY></TABLE><TABLE CELLSPACING=1 CELLPADDING=0 WIDTH=650 BGCOLOR=#808AA2> 
+<TBODY> <TR> <TD ALIGN=middle> <TABLE WIDTH="100%" BGCOLOR=#F7F7F7 CELLPADDING="0" CELLSPACING="0" BORDER="0"> 
+<TD HEIGHT="5"> <TABLE HEIGHT="30"> <TBODY> <TR> <TD></TD></TR></TBODY></TABLE></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+</BODY></HTML>
+
+
+sber?
+<

@@ -1,0 +1,572 @@
+<HTML><HEAD><TITLE>Oxford University: AOPP: dept: ar_sep93:</TITLE>
+<STYLE TYPE="text/css">
+<!--
+        H1,H2,H3,H4 {font-weight: bold; text-align: left;
+        vertical-align: top; color: #000099;}
+        H1 {font-size: 20pt;}
+        H2 {font-size: 12pt;}
+        H3 {font-size: 10pt;}
+        H4 {font-size: 8pt;}
+
+        BODY,P,TD {font-weight: normal; font-size: 10pt;
+        text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #555555;}
+        A {font-weight: normal; font-size: 10pt; text-decoration : none;
+        font-family: Arial, Helvetica, Sans-Serif; color: #5555ff;}
+        P.Small {font-size: 8pt;}
+
+        STRONG {color: #000099}
+
+        TABLE,TR,TD {vertical-align: top; }
+        TABLE,TR,TD {text-align: left;}
+        TD.Bottom {vertical-align: bottom;}
+        TD.Bottomright {vertical-align: bottom; text-align: right;}
+        TD.Middle {vertical-align: middle;}
+        TD.Center {text-align: center;}
+        TD.Right {text-align: right;}
+        TD.TopMenu {text-align: center; vertical-align: middle;
+        background-color:#E7E7FF}
+
+        A:link { color: #5555ff; }
+        A:visited { color: #0000aa; }
+        A:hover { color: #0000ff; }
+        A.Small {font-size: 8pt}
+
+-->
+</STYLE></HEAD><BODY>
+
+<a name="top"></a>
+<h1>Department of Physics, Oxford University
+<br>Atmospheric, Oceanic and Planetary Physics
+</h1>
+
+<H2>Head of Subdepartment: Professor F.W. Taylor<br>
+Report for the period from 1992 October 1 to 1993 September 30</H2>
+
+<P><h3>Table of Contents</h3></P>
+
+<UL>
+<LI><a href="#intro">Introduction</a>
+<LI><a href="#earth">Earth Observations</a>
+<LI><a href="#atmos">Middle Atmosphere Modelling</a>
+<LI><a href="#plan">Planetary Experiments</a>
+<LI><a href="#gpfd">Geophysical Planetary Fluid Dynamics</a>
+<LI><a href="#ocean">Physical Oceanography</a>
+<LI><a href="#nonlinear">Nonlinear Systems</a>
+</UL>
+
+<P>
+
+<A NAME="intro"><P><h3>Introduction</h3></P>
+
+<P>The low point of the year was undoubtedly the loss, just before orbital
+insertion was due to take place, of the Mars Observer spacecraft, which carried
+the Pressure Modulator Infrared Radiometer instrument on which the members of
+the Department had lavished considerable effort and skill over a period of
+nearly ten years. It is to be hoped that plans to refly the mission in 1996 or
+1998 will be realised so that the outstanding science goals of PMIRR and the
+other instruments may be realised, however belatedly.  <p>
+On a more positive note, the ISAMS and NIMS experiments on the Upper Atmosphere
+Research Satellite and Galileo Jupiter Orbiter spacecraft, respectively, were
+very productive scientifically.  Some early results were reported in special
+issues of the journals <i>Geophysical Research Letters</i> and <i>Planetary and
+Space Science</i>.  <p>
+The extensive building works which had disrupted the Atmospheric Physics
+Laboratory for several years were completed, with the commissioning of the new
+Space Instruments Laboratory, with clean room, vibration test facility and
+extended satellite instrument test laboratory.  A new computing facility has
+been introduced, featuring extensive ethernetworking, fast international data
+links, and new workstations.  The new top-floor administrative suite was the
+last part of the revamped building to be occupied, in January 1993.<p>
+The subdepartment became a partner, with two other Oxford and one Cambridge
+departments, in the newly-formed Smith Institute for Industrial Mathematics and
+System Engineering which was formally opened by the Chancellor of the Duchy of
+Lancaster.  The venture should lead to improved interactions between industry
+and academia, in pure research endeavours of common interest which serve wealth
+creation without compromising traditional academic values.<p>
+
+<a name="earth"><P><h3>Earth Obervations</h3></P>
+
+<i><p>
+The Improved Stratospheric and Mesospheric Sounder on the Upper Atmosphere
+Research Satellite.  </i>The Improved Stratospheric and Mesospheric Sounder
+(ISAMS) which was launched in September 1991 produced about 180 days of very
+valuable data which will continue to occupy us for some considerable time yet.
+Validation has been of prime importance during this reporting period, but as
+the results improve, we are moving more and more towards scientific studies of
+the data.  The data from version 8 of the processing suite is now complete, and
+has been placed in the public archives at the RAL Geophysical Data Facility and
+at the Goddard Space Flight Center DAAC.   Work will continue on data
+validation, and future improvements will be made available to data users from
+time to time.  Version 9 is being processed at GSFC, and should be available
+for public use in the spring of 1994.  Version 10 is expected to feature (i)
+improved treatment of volcanic aerosol, which affects constituent profiles
+below the 10 mb level, (ii) detailed formulation of non-equilibrium emission,
+especially in water vapour, carbon monoxide and ozone, (iii) retrieval of
+nitric oxide and nitrogen pentoxide and (iv) improved detection of clouds at
+the bottom of the scan, as well as a host of miscellaneous other improvements.
+<p>
+<p>
+Work published and in preparation includes studies of  atmospheric tides,
+showing reasonable agreement with theoretical tidal models; the transport of
+long-lived tracers by the middle atmosphere circulation, from which we are
+learning a great deal about the general circulation of the middle atmosphere;
+the spectral response, composition and transport of volcanic aerosol from Mt
+Pinatubo; the detection of polar stratospheric clouds from their spectral
+properties, and their formation and dissipation; the behaviour of nitrogen
+dioxide in the winter polar regions, showing the joint effects of dynamics and
+chemistry generating the `Noxon Cliff' and allowing the question of transport
+and chemistry in the NOx family to be comprehensively investigated for the
+first time; the polar night enhancement of mesospheric and stratospheric carbon
+monoxide, due to descent of air from the upper mesosphere into the polar
+vortex;  and thermospheric emission from nitric oxide and its enhancement at
+times of solar flares.  <p>
+<p>
+Work is continuing on elucidating further details of all of the above, and in
+many other areas. The temperature data is being studied for evidence of gravity
+waves, to identify regions of high wave activity, and their possible connection
+with lower atmospheric forcing.  Nitric acid shows interesting behaviour, which
+is not yet understood,  both in the polar vortex and in intrusions of low
+latitude air into the polar vortex.  The latest nitrogen pentoxide retrievals
+look sensible, but do not vary with solar zenith angle in  the way expected
+from model predictions.  <p>
+<p>
+ISAMS data has been made good use of by other investigators in the UARS
+community, and its use worldwide is expected to increase considerably now that
+the data is in the public domain.<p>
+<i><p>
+The Along Track Scanning Radiometers on ERS-1 and ERS-2. </i>The<i> </i>thermal
+vacuum testing and scientific calibration of the second ATSR was completed, and
+the instrument delivered to ESA for a 1994 launch. Parameters measured during a
+programme of precise thermometry and radiometry using precision blackbodies
+were field of view, thermal balance during an orbital simulation, and spectral
+and radiometric gains.  Scientific work with ATSR data at Oxford is focusing on
+determining global cloud properties.<p>
+<i><p>
+The EURECA Occultation Radiometer on the ESA European Retrievable Carrier:
+</i>Preliminary water vapour retrievals show layers in the vertical profiles,
+with lower than expected concentrations near 50km. The monthly means show a dry
+'hole' at high latitudes.<p>
+<i><p>
+Measurements of Pollution in the Troposphere: an experiment for the NASA EOS
+AM-1 Platform (1998):  </i>Work is being carried out on the thermal design and
+optics layout for MOPITT, including the detailed design of pressure modulators
+to be built at Oxford. Plans are being developed for an aircraft version to be
+flown on a Jetstream aircraft at Cranfield.<i><p>
+<p>
+High Resolution Infrared Dynamics Limb Sounder for the NASA Earth Observing
+System. </i> The HIRDLS instrument is an infra red limb sounder which will
+measure temperature, pressure and the concentrations of ten minor constituents
+concerned with the chemistry and radiation in the stratosphere and mesosphere.
+The instrument will be able to view at a large range of azimuth angles, and
+this will provide vertical profiles at a much closer spacing in longitude than
+previously obtained by limb sounders.  The typical resolution will be 1 km
+vertically by about 400 km horizontally.  The project is joint between SERC and
+NASA with NCAR taking the lead in the USA and Oxford University taking the
+scientific and technical lead in the UK.  Reading University, the Rutherford
+Appleton Laboratory and Matra Marconi Space (UK) Ltd are also involved in the
+UK.  Considerable progress has been made on defining the system requirements
+for the instrument; an internal requirements review was held at NCAR in January
+1993 and a System Requirements Review will be held at Goddard Space Flight
+Center in December 1993.  Some changes have been made in the division of work
+between the UK and USA during the last year, notably moving the building of the
+telescope subsystem including the optical bench to the USA.  Work at Oxford has
+taken place particularly in the areas of system engineering, design of the
+calibration facility, the pointing system and the ground support equipment, and
+of modelling the solar illumination geometry and sun shield requirements.  The
+instrument was originally selected for a 1998 launch, but is now scheduled for
+2002 on the NASA EOS Chem satellite.  Atmospheric chlorine is predicted to peak
+in about 2005, when HIRDLS should be operating.<i><p>
+<p>
+Other activities: </i>The space data management group produced a final report
+detailing how data from 3000 tapes and tonnes of paper had been placed on 35
+optical discs, documented and catalogued. Scientific work with satellite data
+accumulated over more than twenty years makes trend analysis possible once
+problems with different observing wavelengths, weighting functions, and
+calibration targets, have been addressed.  Meanwhile, ISAMS temperature and
+volcanic plume observations are being compared to historic Nimbus data, and
+plans to re-retrieve Nimbus 4,5,6 and 7 temperatures from the radiance data
+considered.<p>
+<p>
+New models of heating and cooling processes in the mesosphere involving the
+deactivation of CO2 by atomic oxygen O(3P) have been
+developed from satellite data.  The results could explain the improbably low
+thermospheric temperatures found in the atmospheres of Mars and Venus, and
+require an extra source of heating - possibly associated with gravity waves -
+in energy balance models of the Earth's mesosphere.  <p>
+<p>
+The 'GENLN2' radiative transfer code is being further developed with colleagues
+in the USA.  New features include treatment of line mixing, including heavy
+molecule cross-sections from lab measurements, improved empirical water vapour
+continuum treatment, and inclusion of aerosol extinction. Applications include
+producing transmission functions for ISAMS and EOR, testing band models used in
+fast retrieval schemes, testing the multiplicative properties of overlapping
+gas transmissions, and comparisons with similar codes developed elsewhere.<p>
+
+<a name="atmos"><P><h3>Middle Atmosphere Dynamics</h3></P>
+
+<p>
+The middle atmosphere modelling group is using a range of numerical models of
+the fluid dynamics, radiative transfer and chemical transport in the
+stratosphere and mesosphere, with the aim of interpreting the data from the
+ISAMS instrument.<p>
+<p>
+A first step has been to use our dynamical diagnostic package, MADPO, to
+examine in some detail the evolution of the temperature and winds in the
+stratosphere and lower mesosphere during the northern winter of 1991-92.  A
+variety of interesting dynamical features are revealed, including the migration
+and splitting of the zonal-mean jets and several periods of stratospheric
+warming, culminating in a near-major warming in January 1992.  Tracer fields,
+especially N2O, have also been studied; these provide valuable evidence of the
+transport characteristics of the stratosphere during this period.<p>
+<p>
+A series of experiments is in progress using a middle-atmosphere version of the
+sophisticated general circulation model developed by the Universities' Global
+Atmospheric Modelling Programme, in which we participate.  The model has been
+run to simulate the 1991-92 winter and beyond, starting on 9 November 1991 with
+dynamical fields from the European Centre for Medium-range Weather Forecasts
+below 10 hPa, and temperature, wind and chemical tracer fields of N2O, CH4 and
+aerosol derived from ISAMS measurements above 10 hPa. Also included in the
+model are several thousand particles initialized on 8 levels to give an
+indication of typical air parcel trajectories. Some of these runs have produced
+zonal mean winds which compare quite well with winds derived from ISAMS
+temperatures.  They also produce other realistic features: descent of
+mesospheric air into the winter polar stratosphere, a fairly persistent
+wave-one disturbance on the vortex in the low and middle stratosphere, and
+tongues of N2O and potential vorticity similar to those found by ISAMS.  In
+addition, they capture some features of the change in zonal mean N2O and CH4
+observed by ISAMS.<p>
+<p>
+Developments of the `contour advection' modelling technique have been made.
+This very accurate technique reveals the ultra-fine-scale structure in
+isentropic tracer transport. It has been applied to the transport of chemically
+activated air out of the polar vortex, to the break-up of the polar vortex as
+revealed by ISAMS aerosol, and to stratosphere-troposphere exchange.<p>
+<p>
+We have extracted large-scale sun-synchronous motions in the middle atmosphere
+with diurnal and semi-diurnal periods from the ISAMS temperature data.   These
+motions may be interpreted in terms of atmospheric tides, and we have started
+to compare them with a detailed numerical tidal model of the stratosphere and
+mesosphere, with encouraging results so far.<p>
+<p>
+Other projects include a collaboration with the Meteorological Office in which
+the particle-trajectory method described above is studied in great detail in a
+middle-atmosphere model of intermediate complexity. Another intermediate model
+is being used to investigate the propagation characteristics of non-linear
+planetary-scale Rossby waves in idealised situations, to help our understanding
+of disturbances of this kind observed in our satellite data. <p>
+
+<a name="plan"><P><h3>Planetary Experiments</h3></P>
+
+<p>
+As noted above, the loss of the Mars Observer spacecraft was a major blow; a
+large part of the Pressure Modulator Infrared Radiometer (PMIRR) experiment was
+built in Oxford and the concept was based upon the stratospheric limb sounders
+developed in the Department.  Data reduction algorithms were in place and a two
+dimensional water transportation model for interpretation of the PMIRR water
+measurements was under development.  This utilises dynamical information from
+measurements or from circulation models existing in Oxford or elsewhere and
+uses an advection scheme to model the water transport and parameterisation of
+the physical processes involved in adsorption, desorption, diffusion,
+sublimation and condensation of water at the surface and throughout the
+atmosphere.  Work on this model will continue at a low level in the hope that
+measurements will be obtained later this decade from a rebuilt PMIRR using the
+spare parts which exist for most of the instrument.<p>
+<p>
+Data analysis activities are now centred around preparation for receipt of data
+from the Near Infrared Mapping Spectrometer (NIMS) on Galileo when it reaches
+Jupiter in December 1995.  The instrument is a grating spectrometer covering
+the wavelength range 0.7 to 5.2 micron using a scanning secondary mirror and
+motion of the scan platform to build up images for which each pixel is a
+spectrum.  The spacecraft flew past Venus in February 1990, returning the data
+to Earth later that year.  The analysis of these data has been highly
+successful (see publications).  The NIMS results yielded new information on the
+cloud structure and its distribution as well as unique soundings of the deep
+atmosphere in atmospheric transmission windows which were not known to exist
+until recently.  The spacecraft's main antenna remains partly closed but by
+data selection and compression, we still expect to obtain a significant volume
+of measurements and good scientific results.  Observations are planned which
+will allow us to measure atmospheric minor constituent abundances in the deep
+atmosphere and to investigate the vertical distribution of the Jovian clouds
+for a wide range of regions representative of the features discovered on
+Jupiter during the Pioneer and Voyager missions.<p>
+<p>
+The group's hardware efforts are directed towards the development of the
+radiative cooler and focal plane assembly for the Composite InfraRed
+Spectrometer (CIRS) experiment on the Cassini mission to Saturn.  The
+development effort is now nearing completion and fabrication of the flight
+parts is expected to start in early 1994 for a launch in 1997.  The CIRS
+instrument, being built in collaboration with NASA Goddard Space Flight Center
+and CEN/Saclay in France, is an advanced version of the IRIS spectrometer which
+performed excellently on the Voyager spacecraft.  The new instrument has a
+wider wavelength range (7 micron - 1000micron), plus better spatial and
+spectral resolutions, made possible by the use of the cooled focal plane.  The
+instrument will measure the temperature structure of the atmospheres of Saturn
+and Titan as well as detecting and mapping minor constituents in both
+atmospheres.<p>
+<p>
+Work has begun on building a prototype of a small instrument intended for the
+NASA Pluto fast flyby mission.  This mission is currently in a study phase and
+the instrument is a simple near infrared spectrometer being developed again in
+collaboration with the Goddard Space Flight Center since much of the design is
+based directly on the cooler being developed in Oxford for CIRS.<p>
+<p>
+Evaluation of novel silicon pressure sensors for use in the low pressure
+regimes on the Martian surface has recently started.  The devices were designed
+as a student project and fabrication of the first sensors has just been
+completed by industrial collaborators.  Instruments based on these may be used
+in meteorological stations forming part of the ESA Marsnet or NASA MESUR
+networks.<p>
+<p>
+Work has also continued on development of bolometric detectors based upon high
+temperature superconductors.  These detectors will give improved noise
+performance over room temperature devices for wavelengths above 20micron.
+Detectors have been fabricated and shown to have a bolometric response and our
+efforts are now directed to producing a low thermal mass, and thus low time
+constant, detector with low noise suitable for space use.<p>
+
+<a name="gpfd"><P><h3>Geophysical and Planetary Fluid Dynamics</h3></P>
+
+<p>
+A laboratory investigation was completed of baroclinic waves in an
+internally-heated fluid in cylindrical containers with sloping boundaries, such
+that the depth of the system varied with radius.  Coherent baroclinic eddies
+were found which were analogous to those earlier found by Read and Hide in the
+context of a proposed laboratory analogue of long-lived vortices in the major
+planets, but were highly dispersive in their azimuthal propagation.  Some
+evidence for the formation of multiple zonal jets were also found at high
+rotation rates, though such jets were strongly confined in the vertical and may
+occur even in the absence of a radial depth gradient, in contrast to
+predictions from widely-accepted theoretical ideas based on potential vorticity
+dynamics.<p>
+<p>
+A combined laboratory and numerical modelling study of transitions to chaotic
+behaviour in a thermally-driven rotating annulus was completed, using
+much-improved apparatus and instrumentation over previous work.  Encouraging
+agreement was found between results from laboratory experiments on transitions
+from highly stable, single-wavenumber states to more complex, chaotically
+modulated multiple-wavenumber states and highly-truncated spectral models which
+represent the non-linear interaction of only a small number of wavenumber
+modes.  Both experiments and models appear to show similar transition sequences
+provided (a) the model includes at least the dominant wavenumber mode and its
+sidebands and long wave, and (b) the wave pattern drifts with respect to the
+apparatus in the experiment.  A follow-on project to this work is now under
+way.<p>
+<p>
+Two projects have continued with the aim of improving the direct numerical
+simulation of flow systems realisable in the laboratory.  Recent attempts to
+simulate baroclinic wave flows using a fully three-dimensional time-dependent
+numerical model, based on the Navier-Stokes equations in cylindrical geometry,
+have shown encouraging agreement with detailed laboratory measurements for the
+simpler single-wavenumber regimes, though more complex time-dependent flows
+were less successfully simulated.  In these cases, it was suspected that the
+advection scheme in the original model needed improvement.  Two separate new
+approaches are under current investigation.<p>
+<p>
+A feasibility study was completed of the application of control-volume
+finite-element methods to the simulation of baroclinic flows, and showed some
+encouraging results for some simple test cases, though a number of practical
+problems in the implementation of this method (especially relating to solving
+for the pressure field) remain to be satisfactorily overcome.  In a new
+project, the group has begun to implement a semi-Lagrangian advection scheme in
+their 3-D Navier-Stokes model.  Such schemes are currently under consideration
+by the Meteorological Office for use in their next generation of weather and
+climate models, because of the accuracy and computational economy claimed for
+the latter over more conventional Eulerian methods.  They do not satisfy formal
+conservation of heat and momentum, however, and it is hoped with the present
+project to evaluate some of the implications of imperfect conservation and more
+general aspects of the scheme's performance by direct comparison of simulations
+with laboratory measurements.<p>
+<p>
+Results from a numerical modelling study of equatorial planetary waves in the
+atmospheres of the Earth and Jupiter, and their interaction with zonal flows,
+indicate an important role for the breaking of equatorial Kelvin and Mixed
+Rossby-Gravity waves in the Quasi-Biennial Oscillation (QBO) observed in the
+Earth's stratosphere.  A new model has also been developed which simulates a
+mechanism comparable to that of the QBO for the so-called Quasi-Quadrennial
+Oscillation (an oscillation with a period around 4 Earth years) recently
+discovered in the atmosphere of Jupiter.  Some aspects of this model may be
+amenable to observational tests during the Galileo mission to Jupiter.<p>
+<p>
+Work has progressed on two modelling projects relating to the Martian
+atmosphere.  The first of these has entailed the development of a simplified
+'reduced physics' circulation model of the Martian atmosphere (the Mars Simple
+General Circulation Model, or MSGCM).  This is based on a semi-spectral
+primitive equations model originally developed for modelling the Earth's
+atmosphere at Reading University, which has been used to study dynamical
+process relating to baroclinic waves and the effect of the very large amplitude
+surface topography of Mars on its atmosphere. Recent process studies have
+investigated the generation of large-scale stationary waves in the atmosphere
+by major topographic features such as the Tharsis Plateau and the Hellas Basin.
+By using finer spatial resolution in the MSGCM than has been feasible hitherto
+with other more complex models of the Mars atmosphere, it has also been
+possible to study smaller scale features linked to surface topography.  In
+particular, cross-equatorial flow in the main Hadley circulation occurring
+under solstice conditions is found to be concentrated into two strong low-level
+jets on the east-facing slopes of the two major topographic features at that
+latitude.  The strength of the jets depends strongly on the effect of surface
+drag, but it is of interest that the locations of the strongest winds in the
+model are close to regions which have been associated with the generation of
+large-scale dust storms.<p>
+<p>
+A project was begun to develop a more detailed model of the Martian atmosphere
+including a scheme for assimilating spacecraft observations, as a means of
+analysing and interpreting asynchronous observations in an optimum way,
+analogous to the approach in current operational use for terrestrial numerical
+weather prediction.  This work is being continued in the expectation that a
+replacement Mars Observer mission may yet return a substantial set of
+meteorological data for the atmosphere of Mars, principally in the form of
+thermal infrared soundings from the Pressure Modulator Infrared Radiometer.
+This model is being produced by extending the MSGCM described above, including
+more complex parameterisations of the boundary layer, dry convection, soil
+diffusion and drag as a result of gravity wave breaking.  The radiation scheme
+is being developed with Laboratoire de M&eacute;t&eacute;orologie Dynamique,
+Paris, and refinements to include the effects of non-local thermodynamic
+equilibrium with colleagues from Instituto de Astrofisica de Andalucia,
+Granada, Spain.  Schemes for dust transport, later to be coupled with the
+radiation scheme, polar mass and heat balance and possibly the effects of polar
+clouds are planned for the near future.<p>
+<p>
+The data assimilation procedure uses a modified form of the Analysis Correction
+Scheme which is in current operational use at the Met. Office.  This scheme is
+an approximation to the optimal interpolation analysis which involves a form of
+successive-correction iterated between each time step of the model.  Continuous
+(asynoptic) repeated insertion is conducted sequentially, assimilating each
+measurement at the time and place it is valid without prior interpolation.
+Observational increments to the model are spread in time and space by
+empirically-determined functions with scales and weights which depend on the
+relative errors in observations and the model forecast and on the difference
+between the current model time and the time at which the data is valid.
+Typical output from the assimilation comprises self-consistent fields as
+represented in the model (velocity, temperature and surface pressure) stored at
+regular intervals from which derived quantities and diagnostics (potential
+vorticity, energy budgets, transport of heat, momentum and material tracers,
+Eliassen-Palm fluxes etc.) may be calculated and which may be used, for
+example, as initial states for further independent model studies.  Preliminary
+trials of the scheme have so far been conducted using synthetic data generated
+from parallel model runs.  <p>
+
+<a name="ocean"><P><h3>Physical Oceanography</h3></P>
+
+<p>
+Work has continued on simulating and predicting the ENSO (El
+Ni&ntilde;o/Southern Oscillation) phenomenon, the dominant mode of interannual
+variability in the tropics.  Several kinds of prediction schemes have been
+developed and significant predictions at lead times of 6-12 months have been
+achieved, although there are still a variety of open questions to explore, such
+as the selection of best predictors, the dependence of predictability on
+initial conditions and the spatial distribution of the skill of different
+models.  We have addressed the topic of best predictors in the context of
+statistical predictive schemes and dynamical coupled models.  The statistical
+predictions are based on a POP scheme, which can identify cyclic features in
+the analysed field.  It has been used  to compare the predictive skill of
+different variables, such as the SST or heat content (HC) and to explore to
+what extent the predictability of the ENSO depends on the phase of its cycle.
+Dynamical predictions  are carried out using various ocean models coupled to an
+empirical atmosphere, deduced by advanced statistical techniques, with the
+atmospheric response assumed to be in equilibrium with the ocean.  Both
+statistical and dynamical schemes have  significant predictive skill of some
+index of ENSO at lead times of around one year.<p>
+<p>
+The POP scheme gives better results in predicting the observed <i>SST</i>
+anomalies when using  HC instead of SST as predictors, which suggests the
+importance of HC in the maintenance of the ENSO cycle.  The transition phase of
+ENSO is predicted better than the peak phase, but this needs farther
+investigation.  For the dynamical system the best skill, above 0.5 up to 18
+months, is achieved when the atmosphere responds to changes in SST and HC
+simultaneously.  It improves considerably (0.8 at 18 months) when predicting
+periods dominated by ENSO variability.  The dynamical predictions show a strong
+seasonal dependence, with spring and summer being the seasons most difficult to
+predict, although the skill often recovers after the decay in these seasons,
+leading to successful predictions for the following seasons.<p>
+<p>
+The initial state of the ocean from which climate forecasts are made is
+obtained in large part from the history of the surface wind stress.  Obtaining
+accurate winds over the ocean is difficult, but work is in progress with ECMWF
+and Pacific Marine Environmental Lab (PMEL) to evaluate winds products derived
+from the scatterometer on ERS1 and the TAO array, a comprehensive set of
+moorings which monitor both wind and upper ocean thermal structure in the
+tropical Pacific ocean.  High quality wind fields are now obtainable from the
+scatterometer, and the impact of these winds on the ECMWF analysis is currently
+being evaluated.  Because the data are single level, surface data, they do not
+have as much impact on the analysis system, as might be desired.  A similar
+result is true for the TAO wind data.<p>
+<p>
+One way of validating the ECMWF winds is to use them to force ocean models.  A
+model of the tropical Pacific (a medium-resolution GCM) was forced with wind
+data from the ECMWF analyses for the period covered by the ERS-1 mission
+(August 1991 to present).  One aim of this work was to compare model results
+with SST data from the Along-track Scanning Radiometer (ATSR).  Results of a
+simulation of the decline and re-occurrence of the 1991-92 El Ni&ntilde;o event
+were studied.  A propagating signal of about 35 day period was present in the
+model results which compares favourably with the ATSR observations and is
+considered to be a Legeckis-wave type instability.  A second objective was to
+compare the ocean model results with observations from the TAO array and a
+third to compare the results of the model SST produced by forcing with ECMWF
+wind stresses with those obtained from the Florida State University wind
+product.  This comparison shows that there are significant differences in the
+results of up to 3 degC.  Such errors present in the initial
+conditions used in the coupled model, degrade the forecast and may account for
+the fact that the re-warming of the tropical Pacific ocean in 1993 was not
+consistently forecast by the coupled model.<p>
+<p>
+The combination of satellite altimeter data with a dynamical model of the
+Tropical Pacific Ocean has been carried out using a four-dimensional
+variational technique.  Of particular interest, is the potential for a time
+sequence of altimeter data (ie, sea surface height) to constrain the subsurface
+fields in a multi-layer system.  One year assimilation experiments using
+simulated observations indicate that vertical propagation of the surface
+information is particularly effective within the equatorial region; fast
+equatorially trapped waves provide the mechanism for propagating this
+information to depth.  At higher latitudes, where baroclinic Rossby wave
+propagation is much slower, the assimilation has far less of an impact,
+suggesting that additional (subsurface) data are required.<p>
+<p>
+Work is in progress to set up a coupled ocean-atmosphere model to study
+interdecadal variations in the global climate.  The model being developed is
+complex enough to represent relevant physical processes but simple enough to
+allow many integrations of duration of 100 years.  The ocean model simulates
+the basic three dimensional circulation, including thermohaline overturning,
+and the atmospheric model simulates the troposphere and its response to SST
+anomalies, including teleconnections between low and high latitudes.<p>
+
+<a name="nonlinear"><P><h3>Nonlinear Systems</h3></P>
+
+<p>
+This research continues to focus on the application of ideas from
+finite-dimensional dynamical systems to rotating fluid flows, especially
+between concentric rotating cylinders (the Taylor-Couette problem).  We have
+investigated the dependence of the so-called anomalous modes on the radius
+ratio of the cylinders using both experimental and numerical techniques.  High
+sensitivity to this geometrical parameter was found and this explains the
+previously reported differences found in the narrow and wide gap limits of the
+problem.  Other current research activities include the transition to
+turbulence in a pipe, electrically induced instabilities in nematic liquid
+crystals, convection in molten gallium, the irregular motion of vibrating beams
+and non-linear signal processing applied to time series from distributed
+sources.<p>
+<p>
+A review of the combined experimental and theoretical approach used in our
+research and a more detailed discussion of observations of chaos in fluid
+mechanical problems, where the discourse has been extended to include both open
+and closed recirculating flows, have been prepared (see publications).  New
+results have been reported on a generalised rotating flow where both low and
+high-dimensional dynamics are found to coexist at the same parameter values.<p>
+<p>
+Novel hydrodynamic instabilities have been found in the flow of a nematic
+liquid crystal under the action of oscillatory shear.  As yet the comparison
+between theory and experiment remains qualitative as certain crucial material
+parameters are unknown.  However, the general trend of the results has been
+satisfactorily predicted and there is good agreement in some of the details
+such as the wavelength of the instability.  Finally, we have investigated the
+stability of inverted multiple pendulums under parametric excitation.  It has
+been shown that up to three such connected pendulums can be stabilised and very
+good agreement has been found between theory and experiment.  There does,
+however remain an enigma in that the pendulums ought to be linearly unstable in
+certain parameter ranges and yet they are observed experimentally to be stable.
+
+<center><a href="#top">Back to Top</a></center>
+</BODY></HTML>
+
+
+c1=hT

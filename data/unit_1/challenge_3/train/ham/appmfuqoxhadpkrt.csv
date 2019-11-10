@@ -1,0 +1,81 @@
+<HTML>
+<HEAD>
+<TITLE> MORSE v3</TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="morse.css">
+</HEAD>
+<BODY>
+<H1 class=page>MORSE v3</h1>
+<H6>13SEP05</H6>
+<HR>
+MORSE v3 is officially available from September 2005.
+It does everything MORSE v2 does, but also
+<UL>
+<LI> Uses the new <a
+href=http://www.atm.ox.ac.uk/group/mipas/L1C/index.html#v2.0>L1C 
+format (v2.0)</a> input files to tell MORSE
+things like type of spectrum, spectral resolution and nominal altitudes
+rather than have to enter these in the driver table via Flags and the
+*SCN section. 
+
+<LI> Allows retrievals on different grids: not just tangent levels but
+also (<font color=red>although these haven't yet been tested!</font>) 
+pressure and altitude surfaces. 
+Also allows species to be retrieved
+simultaneously on different subsets of the same grid.
+
+<LI> Creates new output files <b>morse.swp</b> which 
+contain data previously included in <b>morse.rtv</b> and <b>morse.atm</b>
+that was fundamentally associated with the tangent point of the spectrum 
+(=sweep), such as adjusted altitudes
+and chisq statistics. This is related to the decoupling of tangent points
+and retrieval levels.
+</ul>
+
+As far as the v2 user is concerned, the following changes are required.
+<OL>
+<LI> The L1C data has to be 
+generated in the new format by running the new 
+<a href=l1c.html>l1c.pro</a> program 
+<LI> The MORSE driver tables have to be restructured:
+instead of sections arranged as on the left, they
+are now arranged as on the right, with the *SCN section deleted and the
+*LEV section relabelled as *TAN.
+
+<TABLE ALIGN=CENTER>
+<TR><TH> MORSE v2 <TH> MORSE v3
+<TR><TD><B>*HDR</B>  <TD><B>*HDR</B>
+<TR><TD><B>*FLG</B>  <TD><B>*FLG</B>
+<TR><TD BGCOLOR=#FFFFCC><B>*SCN</B>  <TD BGCOLOR=#CCCCFF><B>*L1C</B>
+<TD> L1C file itself now conveys info originally in *SCN section
+<TR><TD BGCOLOR=#FFCCCC><B>*LEV</B>  <TD BGCOLOR=#CCFFCC><B>*RTV</B>
+<TD> Retrieved species now defined before retrieval levels 
+<TR><TD BGCOLOR=#CCFFCC><B>*RTV</B>  <TD BGCOLOR=#FFCCCC><B>*[LEV]</B>
+<TD> to allow subsets of retrieval grid for different species
+<TR><TD><B>*MWL</B>  <TD><B>*MWL</B>
+<TD> *LEV header now replaced by *ALT, *PRE, *SWP or *TAN
+<TR><TD><B>*MDB</B>  <TD><B>*MDB</B>
+<TD> according to required definition of retrieval grid
+<TR><TD BGCOLOR=#CCCCFF><B>*L1C</B>  
+<TR><TD><B>*CLI</B>  <TD><B>*CLI</B>
+<TR><TD><B>*ILS</B>  <TD><B>*ILS</B>
+<TR><TD><B>*FOV</B>  <TD><B>*FOV</B>
+</TABLE>
+
+<LI> The output <b>morse.swp</b> file from the pT retrieval should be
+inserted into the *L1C section immediately after the L1C filename - this
+is now how the sweep altitudes are modified rather than via the *L2P section.
+
+<LI> The NOM and HYD flags are no longer used.
+The NOM flag is now effectively always applied while the hydrostatic constraint
+is applied whenever both temperature and pressure/pointing are retrieved.
+</ol>
+
+<HR>
+<UL>
+<LI> <a href=index.html>Back to MORSE Index</a>
+</UL>
+</BODY>
+</HTML>
+
+
+0_Qps

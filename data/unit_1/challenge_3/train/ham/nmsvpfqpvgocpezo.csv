@@ -1,0 +1,260 @@
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+<TITLE>RRes - SS Department - sundial - Model description</TITLE>
+<style>
+<!--
+A { text-decoration: none;  }  
+A:visited, A:hover, A:active { text-decoration: none; } 
+// -->
+</STYLE>
+</HEAD>
+
+<body background="/aen/NewIACRBackground.gif">
+
+<table border="0" width="680" cellpadding="6">
+<tr>
+<td colspan="3" valign="top">
+<font face="arial" size="+3"><b>Soil Science&nbsp;</b></font>
+</td>
+</tr>
+
+<tr>
+<td HEIGHT="10"><!--blank cell--></td>
+</tr>
+
+<tr>
+
+<td width="165" valign="top" align="left">
+
+<!-- side menu Start -->
+
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><img border="0" src="/iacr/iacrimages/template3.gif" width="100" height="129"></a>
+<br />
+<p align="left">
+<font face="arial" size="2">
+
+<a href="http://www.rothamsted.bbsrc.ac.uk"><b>RRes home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/htdig/search.html"><b>Search</b></a><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/Research/ResearchOverview.html"><b>Research</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="http://www.rothamsted.bbsrc.ac.uk/aen/aenindex.htm"><b>SS Department home</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+
+<a href="/aen/nut_dyn/nutdyn.htm"><b>Nutrient Dynamics</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/soil_prot/soilprot.htm"><b>Soil Protection and Remediation</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/c_cycling/index.htm"><b>Carbon Cycling</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+
+<br />
+
+<a href="/aen/project.htm"><b>AEN project pages</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/software.htm"><b>Software</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/meetings.htm"><b>Meetings</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<a href="/aen/links.htm"><b>Useful links</b><br /></a>
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+<br />
+<B>Soil Science Department<br />
+Rothamsted Research<br />
+Harpenden, Herts<br />
+AL5 2JQ  England<br />
+<br />
+Tel: +44 (0) 1582 763133<br />
+Fax: +44 (0) 1582 469036<br /> 
+E-mail: <A HREF="MAILTO:christine.jaggard@bbsrc.ac.uk">Secretary</A></B><br />
+<img border="0" src="/aen/NarrowGreenLine.gif" width="150" height="5"><br />
+
+</font>
+
+
+<!-- side menu End -->
+
+
+</td>
+
+<td Width="10"><!--blank cell--></td>
+
+
+<td valign="top">
+
+<META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win95; I) [Netscape]">
+ 
+<H1 ALIGN=Center>
+  <B><BIG><FONT COLOR=#1111ff>SUNDIAL</font><!-- Created with AOLpress/2.0 --></BIG></B>
+</H1>
+<H2>
+  <B><FONT SIZE=+1>MODEL DESCRIPTION</FONT></B>
+</H2>
+<P>
+The model has 15 compartments, as shown below. There are four input compartments, allowing nitrogen (N) to be added to the soil/crop system: atmospheric N, inorganic fertiliser N and organic manure N. There are seven transformation compartments, into and out of which N flows. Nitrogen may leave the system by one of four output compartments: denitrification, leaching, volatilisation and harvested N. The N content of each compartment is updated according to the flows of N into and out of that compartment each week. Further details of each compartment can be obtained by clicking on the relevant box in the diagram below.
+<P>
+<P>
+<MAP name="structure">
+  <AREA HREF="#Atmosphere" alt="Atmosphere" shape="rect" coords="14,2,100,20">
+  <AREA HREF="#Fertiliser" alt="Fertiliser" shape="rect" coords="117,2,188,20">
+  <AREA HREF="#Seed" alt="Seed" shape="rect" coords="211,2,276,20">
+  <AREA HREF="#Organic" alt="Organic Manure" shape="rect" coords="287,2,397,20">
+  <AREA HREF="#Biomass" alt="Biomass" shape="rect" coords="167,58,243,76">
+  <AREA href="#Ammonium" alt="Ammonium" shape="rect" coords="84,95,166,113">
+  <AREA href="#Humus" alt="Humus" shape="rect" coords="303,95,358,113">
+  <AREA href="#Nitrate" alt="Nitrate" shape="rect" coords="29,128,96,146">
+  <AREA href="#Debris" alt="Crop Debris" shape="rect" coords="282,128,387,146">
+  <AREA href="#Stubble" alt="Stubble &amp; Straw" shape="rect" coords="298,182,385,200">
+  <AREA href="#Crop" alt="Crop" shape="rect" coords="160,216,276,234">
+  <AREA href="#Denitrification" alt="Denitrification" shape="rect" coords="74,254,172,272">
+  <AREA href="#Leaching" alt="Leaching" shape="rect" coords="2,254,68,272">
+  <AREA href="#Harvest" alt="Harvest" shape="rect" coords="178,254,238,272">
+  <AREA href="#Volatilisation" alt="Volatilisation" shape="rect" coords="244,254,336,272">
+  <AREA shape="default" nohref>
+</MAP>
+<TABLE CELLSPACING="1">
+  <CAPTION>
+    <A NAME="Diagram"><!-- --></A><BIG><B>Structure of the SUNDIAL
+    model</B></BIG>
+  </CAPTION>
+  <TR>
+    <TD><IMG ISMAP USEMAP="#structure" SRC="structure3.gif" ALT="Structure of the model SUNDIAL"
+	  HEIGHT=275 WIDTH=400>
+      <P>
+      <P>
+    </TD>
+    <TD valign=top><A HREF="#Atmosphere">Atmosphere<br />
+      </A><A HREF="#Fertiliser">Fertiliser<br />
+      </A><A HREF="#Seed">Seed<br />
+      </A><A HREF="#Organic">Organic Manure<br />
+      </A><A HREF="#Biomass">Biomass<br />
+      </A><A HREF="#Ammonium">Ammonium<br />
+      </A><A HREF="#Humus">Humus<br />
+      </A><A HREF="#Nitrate">Nitrate<br />
+      </A><A HREF="#Debris">Crop Debris<br />
+      </A><A HREF="#Stubble">Stubble &amp; Straw<br />
+      </A><A HREF="#Crop">Crop<br />
+      </A><A HREF="#Denitrification">Denitrification<br />
+      </A><A HREF="#Leaching">Leaching<br />
+      </A><A HREF="#Harvest">Harvest<br />
+      </A><A HREF="#Volatilisation">Volatilisation</A><br />
+      <br />
+    </TD>
+  </TR>
+</TABLE>
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  <A NAME="Atmosphere">&nbsp;<B>Atmosphere</B></A>
+</H3>
+Inputs of nitrogen to the soil from the atmosphere include those in the rain, from dry deposition of gases such as ammonia and oxides of nitrogen, and from symbiotic and non-symbiotic nitrogen fixation. Inputs in the UK typically
+range from 20 - 60 kg N/ha year, depending on location and crop. Atmospheric inputs are assumed to be distributed evenly throughout the year. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Fertiliser">Fertiliser</A></B>
+</H3>
+Inorganic nitrogen fertiliser can be applied as single or split applications. Each application is described by the amount, application date and fertiliser composition (percentage nitrate-N, urea N and ammonium-N as (NH<SUB>4</SUB>)<SUB>2</SUB>SO<SUB>4</SUB> or other NH<SUB>4</SUB> salt).  The fertiliser may be labelled so that the progress of a particular application may be traced throughout the simulation. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Seed">Seed</A></B>
+</H3>
+This compartment comprises the nitrogen contained in the seed.  This is assumed to be 4 kg N/ha for small grain cereals, and more or less for other crops depending on the size and spacing of the seed. &nbsp;Back to
+<A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Organic">Organic Manure</A></B>
+</H3>
+Nitrogen may be added to the soil as organic manure - FYM, poultry manure, etc. Each application is described by the amount, application date and composition. The organic manure may be labelled so that the progress of a
+particular application may be traced throughout the simulation. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Biomass">Biomass</A></B>
+</H3>
+The biomass compartment comprises the N in the soil microbial biomass, consisting of soil microfauna and microflora. The biomass controls the mineralisation of complex organic forms of N (<A HREF="#Humus">humus </A>and
+<A HREF="#Debris">crop debris</A> nitrogen) into <A HREF="#Ammonium">ammonium</A>, and the immobilisation of simple inorganic forms of N (<A HREF="#Nitrate">nitrate</A> and <A HREF="#Ammonium">ammonium</A>) into organic forms. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Nitrate">Nitrate </A></B>
+</H3>
+Nitrogen enters the nitrate pool from nitrate <A HREF="#Fertiliser">fertilisers</A>, inputs from the <A HREF="#Atmosphere">atmosphere</A> and from the nitrification of <A HREF="#Ammonium">ammonium</A>. The priorities for nitrate transformations are: immobilisation&gt;denitrification&gt;plant uptake&gt;leaching. &nbsp;Back
+to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  <B>&nbsp;<A NAME="Ammonium">Ammonium</A></B>
+</H3>
+Nitrogen enters the ammonium pool by the mineralisation of soil organic nitrogen (<A HREF="#Organic">organic manure</A>, <A HREF="#Humus">humus</A>, soil microbial <A HREF="#Biomass">biomass</A> and <A HREF="#Debris">crop debris</A>), from any applied <A HREF="#Organic">organic manure</A> and from
+ammonium <A HREF="#Fertiliser">fertilisers</A>. The priorities for ammonium transformations are: immobilisation&gt;nitrification&gt;plant uptake. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Crop">Crop</A></B>
+</H3>
+This compartment contains all the N taken up by the crop, including that in the roots. A&nbsp;fixed amount of N is added in the seed, depending on the specified crop type. &nbsp;This could be considered as a separate compartment. &nbsp;Nitrogen can be taken up as <A HREF="#Nitrate">nitrate </A>or <A HREF="#Ammonium">ammonium</A>. Part of the crop N is returned to the soil in the <A HREF="#Debris">crop debris </A>and <A HREF="#Stubble">stubble and straw </A>compartments. The remainder is removed as <A HREF="#Harvest">harvest</A> N. This includes crop product (grain, tubers, seed, etc) and any crop residue which is removed or burnt (straw, sugar beet tops, etc). Nitrogen may also be lost from the senescing crop by <A HREF="#Volatilisation">volatilisation</A> of ammonia. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Humus">Humus</A></B>
+</H3>
+This compartment contains all the N in the soil humus. Nitrogen enters this pool from <A HREF="#Debris">crop debris</A>, the soil microbial <A HREF="#Biomass">biomass</A> and from any applied <A HREF="#Organic">organic
+manure</A>. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Debris">Crop Debris</A></B>
+</H3>
+This compartment contains all the <A HREF="#Crop">crop</A> N returned to the soil during the growth of the crop. This includes N in dead roots, root exudates, fallen leaves and other plant debris shed during the growing season.
+Upon decomposition the N in the crop debris compartment will enter the <A HREF="#Humus">humus</A> and <A HREF="#Biomass">biomass</A> compartments.  Crop residues which are returned to the soil at harvest (straw, chaff, stubble, lost tubers, etc) are passed into this compartment from the <A HREF="#Stubble">stubble and straw</A> compartment. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Stubble">Stubble and straw</A></B>
+</H3>
+This compartment contains all the <A HREF="#Crop">crop</A> residue N which is returned at harvest. This will include stubble, chaff, lost tubers, etc, and may also include straw, sugar beet tops, etc. Crop residues which are returned to the soil during the growth of the crop, such as fallen leaves and roots exudates, are included in the <A HREF="#Debris">crop debris</A> compartment. If part of the crop residue is removed or destroyed at harvest, e.g. cereal straw may be baled and carted or burnt, then this becomes an output from the system and is included in the <A  REF="#Harvest">harvest</A>
+N compartment. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Denitrification">Denitrification</A></B>
+</H3>
+<A HREF="#Nitrate">Nitrate</A> can be lost from the soil/crop system by denitrification, i.e. the reduction of nitrate to nitrite (NO<SUB>2</SUB><SUP>-</SUP>), nitrous oxide (N<SUB>2</SUB>O) and nitrogen gas (N<SUB>2</SUB>), usually by soil bacteria. Denitrification is assumed to occur only in the top 0-25cm layer of soil. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  <B>&nbsp;<A NAME="Leaching">Leaching</A></B>
+</H3>
+<A HREF="#Nitrate">Nitrate</A> can be lost from the soil/crop system by leaching, i.e. the process by which nitrate is carried through and out of the soil by water draining through it. Nitrate is assumed to be infinitely soluble in water and to move downwards at the same rate as the water in which it is dissolved. <A HREF="#Ammonium">Ammonium</A> N is not leached, nor is any form of organic N. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Harvest">Harvest</A></B>
+</H3>
+This compartment contains all the <A HREF="#Crop">crop</A> N removed at harvest, i.e. in the product (grain, seed, tubers, etc), and in any straw or other cartable residue removed or burnt (cereal straw, oilseed rape straw, sugar
+beet tops, etc). &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<H3>
+  <IMG SRC="../bluedot.gif" HEIGHT=14 WIDTH=14>
+  &nbsp;<B><A NAME="Volatilisation">Volatilisation</A></B>
+</H3>
+<P>
+This compartment contains all the N lost by the volatilisation of ammonia (NH<SUB>3</SUB>). Ammonia can be lost from the soil after the application of inorganic <A HREF="#Fertiliser">fertiliser </A>or <A HREF="#Organic">organic
+manure</A>, and also from the senescing plant. In the model losses during senescence can only occur after anthesis. &nbsp;Back to <A HREF="#Diagram">diagram</A>.
+<P>
+  <hr />
+<P>
+<A HREF="sundial.htm">Back to Sundial
+home page</A>
+<P>
+
+</td>
+
+</tr>
+</table>
+
+
+
+t>e D	  lTc<xrT>

@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<title>Site map</title>
+<meta name="DC.title" content="Site map" />
+<meta name="eGMS.accessibility" scheme="WCAG" content="Double-A" />
+<meta http-equiv="pics-label" content="(pics-1.1 'http://www.icra.org/ratingsv02.html' l gen false for 'http://www.knowsley.gov.uk' r (nz 1 vz 1 lz 1 oz 1 cz 1))" />
+<meta name="DCTERMS.audience" scheme="eGMSAES" content="Adults, children, older people, all" />
+<meta name="DCTERMS.mediator" scheme="eGMSAES" content="Corporate web team, council services" />
+<meta name="DC.contributor" content="Edited by Web Team, corporatewebteam@knowsley.gov.uk" />
+<meta name="DC.coverage.spatial" scheme="ONS SNAC" content="Knowsley, Mersyside, England, United Kingdom, Europe" />
+<meta name="DC.creator" content="Web Communications Officer, andrea.prescott@knowsley.gov.uk" />
+<meta name="DC.date.available" scheme="W3CDTF" content="2006-11-12" />
+<meta name="DC.date.created" scheme="W3CDTF" content="2006-11-13" />
+<meta name="DC.date.updatingFrequency" content="When requested" />
+<meta name="DC.description" content="Site map for Knowsley Council website" />
+<meta name="DC.disposal.authorised" content="Web Communications Officer" />
+<meta name="DC.format" scheme="IMT" content="text/html" />
+<meta name="DC.identifier" content="http://www.knowsley.gov.uk/sitemap/" />
+<meta name="DC.language" scheme="ISO 639-2/T" content="eng" />
+<meta name="DC.publisher" content="Knowsley Metropolitan Borough Council, Municipal Buildings, PO Box 21, Archway Road, Huyton, Knowsley, Merseyside, L36 9YU, 0151 489 6000, general.enquiries@knowsley.gov.uk" />
+<meta name="DC.rights.copyright" content="http://www.knowsley.gov.uk/copyright.html" />
+<meta name="eGMS.status" content="Version-2" />
+<meta name="eGMS.subject.keyword" content="sitemap, site, map, knowsley, website" />
+<meta name="eGMS.subject.category" scheme="LGCL" content="Council, government and democracy" />
+<meta name="eGMS.subject.category" scheme="GCL" content="Government, politics and public administration" />
+<meta name="eGMS.subject.processIdentifier" scheme="LGCL" content="3088" />
+<meta name="eGMS.subject.processIdentifier" scheme="LGSL" content="0" />
+<meta name="AUTHOR" content="Web Communications Officer, andrea.prescott@knowsley.gov.uk" />
+<meta name="GENERATOR" content="CCME Version 5.5.0" />
+<meta name="DESCRIPTION" content="Site map for Knowsley Council website" />
+<meta name="KEYWORDS" content="sitemap, site, map, knowsley, website" />
+
+<script src="/shared/javascript/common/logging_script.php?transtype=Providing+Information&amp;pidno=0&amp;url=/sitemap/" type="text/javascript">
+</script>
+<link rel="stylesheet" media="screen" type="text/css" href="/shared/graphics/kmbc/switchcss.php" /><link rel="stylesheet" media="print" href="/shared/graphics/kmbc/print.css" type="text/css" /></head>
+<body>
+
+<div id="container"><div id="header-back"><div id="header"><div id="topnav"><a href="#skipnav" accesskey="S" title="Skip Navigation"><img src="/shared/graphics/kmbc/images/blank.gif" width="1" height="1" alt="skip navigation" class="noborder" /></a><ul><li><a href="/" title="Home" accesskey="1" tabindex="1">Home</a></li>
+<li>|</li>
+<li><span class="graphics1"><a href="/shared/graphics/kmbc/cookiejar.php?set=text" title="Text Version" accesskey="O">Text</a></span><span style="display:none;">|</span><span class="graphics2"><a href="/shared/graphics/kmbc/cookiejar.php?set=textcontrast" title="Text-Contrast Version" accesskey="O">Text Version</a></span><span style="display:none;">|</span><span class="graphics3"><a href="/shared/graphics/kmbc/cookiejar.php?set=style" title="Graphical Version" accesskey="O">Graphical</a></span><span style="display:none;">|</span><span class="graphics4"><a href="/shared/graphics/kmbc/cookiejar.php?set=contrast" title="Graphical-Contrast Version" accesskey="O">Graphical Version</a></span></li>
+<li>|</li>
+<li><span class="contrast1"><a href="/shared/graphics/kmbc/cookiejar.php?set=contrast" title="High Contrast Version" accesskey="B">High Contrast</a></span><span style="display:none;">|</span><span class="contrast2"><a href="/shared/graphics/kmbc/cookiejar.php?set=style" title="Low Contrast Version" accesskey="B">Low Contrast</a></span><span style="display:none;">|</span><span class="contrast3"><a href="/shared/graphics/kmbc/cookiejar.php?set=textcontrast" title="High Contrast Text" accesskey="B">High Contrast Text</a></span><span style="display:none;">|</span><span class="contrast4"><a href="/shared/graphics/kmbc/cookiejar.php?set=text" title="Text Version" accesskey="B">Low Contrast Text</a></span></li>
+<li>|</li>
+<li><a href="/accessibility.html" title="Accessibility Help" accesskey="0" tabindex="2">Accessibility Help</a></li>
+<li>|</li>
+<li><a href="/contact.html" title="Contact Us" accesskey="9" tabindex="3">Contact Us</a></li>
+<li>|</li>
+<li><a href="/atoz/" title="A-Z Search" accesskey="Z" tabindex="4">A-Z Search</a></li>
+</ul>
+</div>
+<div id="search"><div id="searchbox">
+<form method="get" name="search" action="/search.php"><label for="searchy">Search&nbsp;</label><input accesskey="4" tabindex="3" type="text" id="searchy" value="Keyword" name="terms" onfocus="if(this.value=='Keyword')this.value=''" /><input tabindex="6" type="submit" name="Submit" value="Go" id="go" class="go" /></form>
+</div>
+</div>
+</div>
+</div>
+<div id="logo-back"><div id="logo-cntr"><div id="logo"><img src="/shared/graphics/kmbc/images/knowsleylogo.gif" alt="Knowsley Logo" width="546" height="73" /></div>
+</div>
+</div>
+<div id="breadcrumb-back"><div id="breadcrumb-cntr"><div id="home"><a href="/" title="Home Page" accesskey="1" tabindex="6">Home Page</a><span style="display:none;">|</span></div>
+<div id="breadcrumb"><div id="dateweather"><div id="breadcrumbsub"><ul><li><a tabindex="201" title="Home Page" href="/">Home Page</a></li>
+<li>-</li>
+<li>Site map</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="main-back">
+<div id="main-cntr"><div id="globalnav"><div id="globalnavtop">Visit...</div>
+
+<div id="globalnavlinks"><ul><li><a tabindex="101" title="Business" accesskey="U" href="/business/">Business</a></li>
+<li><a tabindex="102" title="Community and Living" accesskey="C" href="/community/">Community and Living</a></li>
+<li><a tabindex="103" title="Education and Learning" accesskey="D" href="/education/">Education and Learning</a></li>
+<li><a tabindex="104" title="Environment and Planning" accesskey="R" href="/environment/">Environment and Planning</a></li>
+<li><a tabindex="105" title="Health and Social Care" accesskey="Q" href="/health/">Health and Social Care</a></li>
+<li><a tabindex="106" title="Housing" accesskey="K" href="/housing/">Housing</a></li>
+<li><a tabindex="107" title="Jobs and Careers" accesskey="J" href="/jobs/jobs_and_careers.html">Jobs and Careers</a></li>
+<li><a tabindex="108" title="Legal Services" accesskey="L" href="/legal/">Legal Services</a></li>
+<li><a tabindex="109" title="Leisure and Culture" accesskey="X" href="/leisure/">Leisure and Culture</a></li>
+<li><a tabindex="110" title="Policing and Public Safety" accesskey="P" href="/policing/">Policing and Public Safety</a></li>
+<li><a tabindex="111" title="Social Issues" accesskey="I" href="/social/">Social Issues</a></li>
+<li><a tabindex="112" title="Transport and Streets" accesskey="G" href="/transport/">Transport and Streets</a></li>
+<li><a tabindex="113" title="Your Council" accesskey="Y" href="/your_council/">Your Council</a></li>
+</ul>
+</div>
+<div id="languages"><div id="langhead">Access Tools</div>
+<div class="lang"><a tabindex="114" title="Translation information" href="/accessibility/translation/">Translation information<br /><img alt="Translation information l" src="/resources/151893/logo_languages_accesstoolbox.gif" width="116" height="57" class="noborder" /></a><hr style="display:none;" /></div>
+<div class="lang"><a tabindex="115" title="Multimedia collection" href="/accessibility/multimedia.html">Multimedia collection<br /><img alt="Windows Media Logo" src="/resources/186244/WM_Comp.gif" width="116" height="52" class="noborder" /></a><hr style="display:none;" /></div>
+<br />
+<br />
+</div>
+</div>
+
+<div id="main"><a name="skipnav"></a>
+<div id="middlecolumn1"><div class="multipageheading"><h1><strong>Site Map</strong></h1><div class="multipagegraphic"><img width="70" height="70" src="/shared/graphics/kmbc/images/sitemap.gif" alt="Logotype for Site Map" /></div>
+</div>
+
+<p>This site map provides an overview of the structure of the
+Knowsley website, showing the main sections of the site and their
+sub-areas. For a more detailed index of site contents please visit
+the <a title="A to Z index" href="http://www.knowsley.gov.uk/atoz/">A to Z index</a>.</p>
+<div id="navigationlists"><ul><li><a href="/" title="Home Page" tabindex="200">Home Page</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="5" /><br />&nbsp;</li>
+<li class="sitemapheader2">Help</li><li><a tabindex="216" title="Accessibility Help" href="/accessibility.html">Accessibility Help</a></li><li><a tabindex="217" title="Contact Us" href="/contact.html">Contact Us</a></li><li><a tabindex="218" title="Site Help" href="/help.html">Site Help</a></li><li><a tabindex="219" title="Terms and Conditions" href="/conditions.html">Terms and Conditions</a></li><li><a tabindex="220" title="Translation Information" href="/accessibility/translation/">Translation Information</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="5" /><br />&nbsp;</li>
+<li class="sitemapheader2">Council Services</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Business</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="221" title="Business and street trading licences" href="/business/business_licences/">Business and street trading licences</a></li><li><a tabindex="222" title="Business finance" href="/business/business_finance/">Business finance</a></li><li><a tabindex="223" title="Business opportunities" href="/business/business_opp/">Business opportunities</a></li><li><a tabindex="224" title="Business procurement" href="/business/business_procurement/business_procurement.html">Business procurement</a></li><li><a tabindex="225" title="Business promotion" href="/business/business_promotion/business_promotion.html">Business promotion</a></li><li><a tabindex="226" title="Business rates" href="/business/business_finance/business_rates.html">Business rates</a></li><li><a tabindex="227" title="Business sectors and services" href="/business/business_sectors/">Business sectors and services</a></li><li><a tabindex="228" title="Business support and advice" href="/business/business_support/">Business support and advice</a></li><li><a tabindex="229" title="Economic development" href="/business/economic_development/">Economic development</a></li><li><a tabindex="230" title="Employing people" href="/business/employing_people/">Employing people</a></li><li><a tabindex="231" title="Health and Safety" href="/business/health_and_safety/">Health and Safety</a></li><li><a tabindex="232" title="Imports and exports" href="/business/imports_exports/">Imports and exports</a></li><li><a tabindex="233" title="Knowsley business website" href="http://www.knowsleybusiness.com/" target="new">Knowsley business website (Opens in new window)</a></li><li><a tabindex="234" title="Licensing Act 2003" href="/business/business_licences/licensing_act_2003.html">Licensing Act 2003</a></li><li><a tabindex="235" title="Trading standards" href="/business/trading_standards/">Trading standards</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Community and living</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="236" title="Births" href="/community/life_events/registration_births.html">Births</a></li><li><a tabindex="237" title="Charities and citizens interest groups" href="/community/charities/">Charities and citizens interest groups</a></li><li><a tabindex="238" title="Community grants" href="/community/community_grants/">Community grants</a></li><li><a tabindex="239" title="Community safety" href="/community/community_safety/">Community safety</a></li><li><a tabindex="240" title="Consumer advice and protection" href="/community/consumer_advice/">Consumer advice and protection</a></li><li><a tabindex="241" title="Deaths" href="/community/life_events/registration_deaths.html">Deaths</a></li><li><a tabindex="242" title="Ethnic communities" href="/community/ethnic_communities/">Ethnic communities</a></li><li><a tabindex="243" title="Faiths, beliefs and religions" href="/community/faiths_beliefs/">Faiths, beliefs and religions</a></li><li><a tabindex="244" title="Interpreters&#039; services" href="/community/interpreters/">Interpreters&#039; services</a></li><li><a tabindex="245" title="Knowsley suites" href="/community/knowsley_suites/">Knowsley suites</a></li><li><a tabindex="246" title="Life events" href="/community/life_events/">Life events</a></li><li><a tabindex="247" title="Local Strategic Partnership website" href="http://www.theknowsleypartnership.org.uk" target="new">Local Strategic Partnership website (Opens in new window)</a></li><li><a tabindex="248" title="Marriages" href="/community/life_events/registration_marry.html">Marriages</a></li><li><a tabindex="249" title="Neighbourhood and village" href="/community/neighbourhood/">Neighbourhood and village</a></li><li><a tabindex="250" title="Twinning" href="/community/twinning/">Twinning</a></li><li><a tabindex="251" title="Voluntary organisations" href="/community/voluntary_org/">Voluntary organisations</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Education and learning</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="252" title="Adult and community education" href="/education/adult_community_educ/">Adult and community education</a></li><li><a tabindex="253" title="Child care" href="/education/child_care/">Child care</a></li><li><a tabindex="254" title="Distance learning" href="/education/distance_learning/">Distance learning</a></li><li><a tabindex="255" title="Early years" href="/education/early_years/">Early years</a></li><li><a tabindex="256" title="Education welfare services" href="/education/education_welfare/">Education welfare services</a></li><li><a tabindex="257" title="Educational institutions" href="/education/education_instit/">Educational institutions</a></li><li><a tabindex="258" title="Find a school" href="/education/schools/">Find a school</a></li><li><a tabindex="259" title="Higher education" href="/education/higher_education/">Higher education</a></li><li><a tabindex="260" title="Home education" href="/education/home_education/">Home education</a></li><li><a tabindex="261" title="Job training &amp; development" href="/education/job_training/">Job training &amp; development</a></li><li><a tabindex="262" title="Language tuition" href="/education/lang_tuition/">Language tuition</a></li><li><a tabindex="263" title="School library service" href="/education/library/">School library service</a></li><li><a tabindex="264" title="Schools and colleges" href="/education/schools_and_colleges/">Schools and colleges</a></li><li><a tabindex="265" title="Schools for the future" href="/education/bsf/">Schools for the future</a></li><li><a tabindex="266" title="Student loans" href="/education/schools_and_colleges/awards_and_benefits/student_loans.html">Student loans</a></li><li><a tabindex="267" title="Teaching" href="/education/teaching/">Teaching</a></li><li><a tabindex="268" title="Work based learning" href="/education/work_based_learning/">Work based learning</a></li><li><a tabindex="269" title="Term dates" href="/education/schools_and_colleges/term_dates.html">Term dates</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Environment and planning</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="270" title="Animal welfare" href="/environment/animal_welfare/">Animal welfare</a></li><li><a tabindex="271" title="Bin collection days" href="/environment/rubbish_waste/doorstep_collection.html">Bin collection days</a></li><li><a tabindex="272" title="Energy" href="/environment/energy/">Energy</a></li><li><a tabindex="273" title="Food production and quality" href="/environment/food_production/">Food production and quality</a></li><li><a tabindex="274" title="Noise pollution" href="/environment/pollution/noise.html">Noise pollution</a></li><li><a tabindex="275" title="Pests and nuisance" href="/environment/pests_and_nuisance/">Pests and nuisance</a></li><li><a tabindex="276" title="Planning and building control" href="/environment/planningandbuilding/">Planning and building control</a></li><li><a tabindex="277" title="Pollution" href="/environment/pollution/">Pollution</a></li><li><a tabindex="278" title="Recycling centres" href="/environment/rubbish_waste/recycling_centres.html">Recycling centres</a></li><li><a tabindex="279" title="Rubbish, waste and recycling" href="/environment/rubbish_waste/">Rubbish, waste and recycling</a></li><li><a tabindex="280" title="Skip hire" href="/environment/rubbish_waste/skip_hire.html">Skip hire</a></li><li><a tabindex="281" title="Street care and cleaning" href="/environment/street_care_cleaning/">Street care and cleaning</a></li><li><a tabindex="282" title="Sustainability and environmental development" href="/environment/sustainability/">Sustainability and environmental development</a></li><li><a tabindex="283" title="Town centre management" href="/environment/town_centre_mgment/">Town centre management</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Health and social care</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="284" title="Children and family care" href="/health/social_services/children_and_family/">Children and family care</a></li><li><a tabindex="285" title="Disabilities" href="/health/disabilities/">Disabilities</a></li><li><a tabindex="286" title="Reports and policies" href="/health/social_services/reports_and_policies.html">Reports and policies</a></li><li><a tabindex="287" title="General support care" href="/health/social_services/general_support_care/">General support care</a></li><li><a tabindex="288" title="Health and medical care" href="/health/health_medical_care/">Health and medical care</a></li><li><a tabindex="289" title="Knowsley care partnership" href="/health/social_services/knowsley_care_part/">Knowsley care partnership</a></li><li><a tabindex="290" title="Pandemic flu" href="/health/health_medical_care/pandemic_flu.html">Pandemic flu</a></li><li><a tabindex="291" title="Social policy" href="/health/social_policy/">Social policy</a></li><li><a tabindex="292" title="Social services" href="/health/social_services/">Social services</a></li><li><a tabindex="293" title="Supporting people" href="/health/social_services/supporting_people/">Supporting people</a></li><li><a tabindex="294" title="St Helens &amp; Knowsley Health Community" href="http://www.knowsley.nhs.uk/" target="new">St Helens &amp; Knowsley Health Community (Opens in new window)</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Housing</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="295" title="Benefits Calculator" href="http://webbencalc.knowsley.gov.uk/wbc-2006.htm" target="new">Benefits Calculator (Opens in new window)</a></li><li><a tabindex="296" title="Council housing" href="/housing/council_housing/">Council housing</a></li><li><a tabindex="297" title="Homelessness" href="/housing/housing_advice/homelessness.html">Homelessness</a></li><li><a tabindex="298" title="Housing advice" href="/housing/housing_advice/">Housing advice</a></li><li><a tabindex="299" title="Housing associations and co-operatives" href="/housing/housing_associations/">Housing associations and co-operatives</a></li><li><a tabindex="300" title="Housing benefits" href="/housing/housing_finance/housing_benefits.html">Housing benefits</a></li><li><a tabindex="301" title="Housing finance" href="/housing/housing_finance/">Housing finance</a></li><li><a tabindex="302" title="Housing improvements and repairs" href="/housing/housing_improvements/">Housing improvements and repairs</a></li><li><a tabindex="303" title="Joining a housing association" href="/housing/housing_associations/joining_association.html">Joining a housing association</a></li><li><a tabindex="304" title="Multiple occupancy homes" href="/housing/multiple_occupancy.html">Multiple occupancy homes</a></li><li><a tabindex="305" title="Pay your council tax" href="https://www.e-paycapita.com/knowsley/selection.jsp" target="new">Pay your council tax (Opens in new window)</a></li><li><a tabindex="306" title="Private and compulsory property purchase" href="/housing/private_housing.html">Private and compulsory property purchase</a></li><li><a tabindex="307" title="Strategy, policies and reports" href="/housing/strategy_policy.html">Strategy, policies and reports</a></li><li><a tabindex="308" title="Supported and sheltered housing" href="/housing/supported_housing/">Supported and sheltered housing</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Jobs and careers</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="309" title="Assessment" href="/jobs/assessment.html">Assessment</a></li><li><a tabindex="310" title="Jobs" href="/jobs/">Jobs</a></li><li><a tabindex="311" title="Jobcentre Plus" href="http://www.jobcentreplus.gov.uk/" target="new">Jobcentre Plus (Opens in new window)</a></li><li><a tabindex="312" title="Jobs by Email" href="http://jobs.merseyworkplace.com/jobs_mailer/" target="new">Jobs by Email (Opens in new window)</a></li><li><a tabindex="313" title="Northwest Workplace" href="http://www.northwestworkplace.com/" target="new">Northwest Workplace (Opens in new window)</a></li><li><a tabindex="314" title="Equal opportunities - jobs" href="/jobs/equal_opportunities.html">Equal opportunities - jobs</a></li><li><a tabindex="315" title="Working policies" href="/jobs/working_policies.html">Working policies</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Legal services</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="316" title="County courts" href="/legal/legal_advice/community_legal_serv.html">County courts</a></li><li><a tabindex="317" title="Courts" href="/legal/courts/">Courts</a></li><li><a tabindex="318" title="Criminal Justice System" href="http://www.cjsonline.gov.uk/" target="new">Criminal Justice System (Opens in new window)</a></li><li><a tabindex="319" title="Legal advice" href="/legal/legal_advice/">Legal advice</a></li><li><a tabindex="320" title="Legal aid" href="/legal/legal_advice/legal_aid.html">Legal aid</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Leisure and culture</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="321" title="Arts and entertainment" href="/leisure/arts_entertainment/">Arts and entertainment</a></li><li><a tabindex="322" title="Libraries" href="/leisure/libraries/">Libraries</a></li><li><a tabindex="323" title="Local history and heritage" href="/leisure/local_history/">Local history and heritage</a></li><li><a tabindex="324" title="Museums and galleries" href="/leisure/museums_galleries/">Museums and galleries</a></li><li><a tabindex="325" title="Older people&#039;s activities" href="/leisure/older_people.html">Older people&#039;s activities</a></li><li><a tabindex="326" title="Parks and recreation" href="/leisure/parks_recreation/">Parks and recreation</a></li><li><a tabindex="327" title="Sports" href="/leisure/sports/">Sports</a></li><li><a tabindex="328" title="Tourism and travel" href="/leisure/tourism_and_travel.html">Tourism and travel</a></li><li><a tabindex="329" title="Visit Knowsley.com" href="http://www.visitknowsley.com" target="new">Visit Knowsley.com (Opens in new window)</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Policing and public safety</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="330" title="Accidents,emergencies and safety" href="/policing/accidents/">Accidents,emergencies and safety</a></li><li><a tabindex="331" title="Ambulance service" href="/policing/accidents/ambulance_service.html">Ambulance service</a></li><li><a tabindex="332" title="Crime and law enforcement" href="/policing/crime/">Crime and law enforcement</a></li><li><a tabindex="333" title="Crime and Disorder Reduction" href="http://crime.theknowsleypartnership.org.uk" target="new">Crime and Disorder Reduction (Opens in new window)</a></li><li><a tabindex="334" title="Discrimination or harassment" href="/community/ethnic_communities/discrimination.html">Discrimination or harassment</a></li><li><a tabindex="335" title="Emergency planning" href="/policing/accidents/emergency_planning.html">Emergency planning</a></li><li><a tabindex="336" title="Fire and rescue service" href="/policing/fire_and_rescue.html">Fire and rescue service</a></li><li><a tabindex="337" title="Victim support" href="/policing/victim_support.html">Victim support</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Social issues</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="338" title="Equal opportunities - social" href="/social/equal_opps.html">Equal opportunities - social</a></li><li><a tabindex="339" title="Immigration and nationality" href="/social/immigration.html">Immigration and nationality</a></li><li><a tabindex="340" title="Population and migration" href="/social/population.html">Population and migration</a></li><li><a tabindex="341" title="Sexual orientation" href="/social/sexual_orientation.html">Sexual orientation</a></li><li><a tabindex="342" title="Social inclusion" href="/social/social_inclusion.html">Social inclusion</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Transport and streets</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="343" title="Motor vehicles, roads and parking" href="/transport/motor_vehicles/">Motor vehicles, roads and parking</a></li><li><a tabindex="344" title="Merseytravel Website" href="http://www.merseytravel.gov.uk/" target="new">Merseytravel Website (Opens in new window)</a></li><li><a tabindex="345" title="Ports and harbours" href="/transport/ports_harbours.html">Ports and harbours</a></li><li><a tabindex="346" title="Public rights of way" href="/transport/public_rights_of_way/">Public rights of way</a></li><li><a tabindex="347" title="Public transport" href="/transport/public_transport/">Public transport</a></li><li><a tabindex="348" title="Road and pathway maintenance" href="/transport/road_maintenance/">Road and pathway maintenance</a></li><li><a tabindex="349" title="Transport planning" href="/transport/local_transport_plan.html">Transport planning</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li class="sitemapheader1">Your council</li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="1" /><br />&nbsp;</li>
+<li><a tabindex="350" title="Compliments and complaints" href="/your_council/councils/complaints.html">Compliments and complaints</a></li><li><a tabindex="351" title="Councils" href="/your_council/councils/">Councils</a></li><li><a tabindex="352" title="Council performance" href="/your_council/councils/cpa.html">Council performance</a></li><li><a tabindex="353" title="Data protection and freedom of information" href="/your_council/data_protection_foi/">Data protection and freedom of information</a></li><li><a tabindex="354" title="Democratic processes and events" href="/your_council/democratic_processes/">Democratic processes and events</a></li><li><a tabindex="355" title="Elections" href="/your_council/elections/">Elections</a></li><li><a tabindex="356" title="Forward plan" href="/your_council/councils/forward_plan.html">Forward plan</a></li><li><a tabindex="357" title="One stop shops" href="/your_council/councils/one_stop_shops.html">One stop shops</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="5" /><br />&nbsp;</li>
+<li class="sitemapheader2">Search Facilities</li><li><a tabindex="358" title="A to Z Search" href="/atoz/">A to Z Search</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="5" /><br />&nbsp;</li>
+<li class="sitemapheader2">News</li><li><a tabindex="359" title="News Centre" href="/news/newsreleases.html">News Centre</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="5" /><br />&nbsp;</li>
+<li class="sitemapheader2">Utility Links</li><li><a tabindex="360" title="Add to Favourites" href="http://www.knowsley.gov.uk/help.html#favorites" target="new">Add to Favourites (Opens in new window)</a></li><li><a tabindex="361" title="Weather" href="/weather.php">Weather</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="5" /><br />&nbsp;</li>
+<li class="sitemapheader2">Do it Online</li><li><a tabindex="362" title="Electronic library" href="/leisure/libraries/electronic_library.html">Electronic library</a></li><li><a tabindex="363" title="Find your councillor" href="/your_council/council/">Find your councillor</a></li><li><a tabindex="364" title="Golf booking" href="/leisure/sports/sports_and_games/golf.html">Golf booking</a></li><li><a tabindex="365" title="Jobs - apply online" href="/jobs/">Jobs - apply online</a></li><li><a tabindex="366" title="Leisure bookings" href="/leisure/sports/online_booking.html">Leisure bookings</a></li><li><a tabindex="367" title="Make a complaint" href="/your_council/councils/complaints.html">Make a complaint</a></li><li><a tabindex="368" title="Pay council tax and bills" href="https://www.e-paycapita.com/knowsley/selection.jsp" target="new">Pay council tax and bills (Opens in new window)</a></li><li><a tabindex="369" title="Submit forms" href="/submit_forms.html">Submit forms</a></li><li><img src="/shared/graphics/kmbc/images/blank.gif" alt=" " width="200" height="5" /><br />&nbsp;</li>
+<li class="sitemapheader2">Council Tools</li><li><a tabindex="370" title="Events in Knowsley" href="/events/">Events in Knowsley</a></li><li><a tabindex="371" title="Journey planner" href="/journey_planner.html">Journey planner</a></li><li><a tabindex="372" title="Knowsley maps" href="/maps/knowsley_borough.html">Knowsley maps</a></li><li><a tabindex="373" title="Meetings in Knowsley" href="/meetings/">Meetings in Knowsley</a></li><li><a tabindex="374" title="Polls and surveys" href="/polls_survey.html">Polls and surveys</a></li><li><a tabindex="375" title="Road works and closures" href="/transport/motor_vehicles/roadworks.html">Road works and closures</a></li><li>&nbsp;</li></ul></div>
+</div>
+
+<div id="rightcolumn"><div class="rn-header"><div class="rn-white-curve"><h2>Do it Online...</h2></div>
+</div>
+<div class="nav-right"><ul><li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="476" title="Electronic Library" href="/leisure/libraries/electronic_library.html">Electronic Library</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="477" title="Find your Councillor" href="/your_council/council/">Find your Councillor</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="478" title="Golf Booking" href="/leisure/sports/sports_and_games/golf.html">Golf Booking</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="479" title="Job Vacancies" href="/jobs/">Job Vacancies</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="480" title="Leisure Bookings" href="/leisure/sports/online_booking.html">Leisure Bookings</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="481" title="Make a Complaint" href="/your_council/councils/complaints.html">Make a Complaint</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="482" title="Pay Council Tax and Bills" href="https://www.e-paycapita.com/knowsley/selection.jsp" target="new">Pay Council Tax and Bills (Opens in new window)</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="483" title="Planning" href="/environment/planningandbuilding/online_planning.html">Planning</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-text"><a tabindex="484" title="Submit Forms" href="/submit_forms.html">Submit Forms</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="nav-right-footer">&nbsp;</div><div class="rn-header"><div class="rn-white-curve"><h2>Council Tools...</h2></div>
+</div>
+<div class="nav-right"><ul><li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools meetings" src="/resources/183215/ct_img6.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="485" title="Agendas and meetings" href="/meetings/may/">Agendas and meetings</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools surveys" src="/resources/151684/ct-img4.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="486" title="Consultations" href="/your_council/councils/consultation.html">Consultations</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools events" src="/resources/151675/ct-img1.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="487" title="Events in Knowsley" href="/events/may/">Events in Knowsley</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="tools journey planner" src="/resources/151678/ct-img2.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="488" title="Journey Planner" href="/journey_planner.html">Journey Planner</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools maps" src="/resources/151681/ct-img3.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="489" title="Knowsley Maps" href="/maps/knowsley_borough.html">Knowsley Maps</a></div>
+</div>
+</li>
+<li><div class="rn-cnt"><div class="rn-cnt-left"><img alt="council tools roadworks" src="/resources/186760/ct_img7.gif" width="44" height="44" /></div>
+<div class="rn-cnt-right"><a tabindex="490" title="Road Works and Closures" href="/transport/motor_vehicles/roadworks.html">Road Works and Closures</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="nav-right-footer">&nbsp;</div>
+&nbsp;
+</div>
+</div>
+</div>
+</div>
+<div id="footer-back" style="clear:both;"><div id="footer-cntr"><div id="footer"><ul><li>&copy; Copyright Knowsley Metropolitan Borough Council 2005</li>
+<li>|</li>
+<li><a href="/sitemap/" title="Sitemap" accesskey="3" tabindex="405">Sitemap</a></li>
+<li>|</li>
+<li><a href="/help.html" title="Help" accesskey="6" tabindex="406">Help</a></li>
+<li>|</li>
+<li><a href="/statistics/" title="Site Statistics" tabindex="407">Site Statistics</a></li>
+<li>|</li>
+<li><a href="/conditions.html" title="Terms and Conditions" tabindex="408" accesskey="8">Terms and Conditions</a></li>
+<li>|</li>
+<li><a href="/help.html#favorites" title="Add to Favourites" accesskey="M" tabindex="409">Add to Favourites</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="connect">
+Knowsley Metropolitan Borough Council is not responsible for the content of external internet sites
+<br />
+<a href="http://www.connectinternetsolutions.com" tabindex="410" target="new">Powered by Connect Internet Solutions (Opens in new window)</a></div>
+</div>
+</body>
+</html>
+
+utpc>os
+tf>odaw

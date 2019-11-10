@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE>Andy White's abstract</TITLE>
+</HEAD>
+<BODY BGCOLOR="white"> 
+
+<HR><H2 ALIGN=CENTER><font color="#000099">
+Global model design for deep and shallow atmospheres 
+</font></H2>
+<H3 ALIGN=CENTER>Dr Andy White</H3>
+<p ALIGN=CENTER>Meteorological Office,
+Bracknell
+</p>
+<BR>
+<H4 ALIGN=CENTER>
+Abstract:
+</H4>
+
+<p>
+Since 90% of the mass of the atmosphere lies below an altitude of 17km, and
+the mean radius of the Earth is about 6370km, a certain shallowness assumption
+seems reasonable when designing a numerical model for weather prediction or
+climate study. But it turns out that a dynamically consistent treatment,
+given this shallowness assumption, requires neglect of part of the Coriolis 
+force. This is unsettling because the Coriolis forfe is generally considered 
+to be important in many aspects of meteorology and climatology. Also, the
+assumption of shallowness involves neglect of conceptually important effects in the angular momentum balance. Over the years, the Met Office has put considerable effort into the development of <I>deep</I> atmosphere models, which allow a
+full representation of the Coriolis force without violating consistency 
+requirements or distorting the angular momentum balance. In this seminar, the Met Office's "Old" and "New" Dynamics -both deep formulations- will be contrasted with various shallow formulations, including the hydrostatic "Primitive
+Equations" used by many other NWP and climite centres. The advantages of deep
+models are currently greater physical acceptability and flexibility rather
+than improved quantitative performance. However, there is now widespread 
+interest in deep models, which can be seen as a natural development in global
+atmospheric modelling.
+
+If time allows -and with an eye to the future- the formulation of switchable
+models will be considered. In such models, transition between deep and shallow
+forms would involve only a few parameter changes rather than the extensive
+modifications needed in current codes.
+</p>
+
+<br><a href="http://www.atm.ox.ac.uk/main/gnfdseminars/semlist.html">Back to main GNFD seminars page</a>
+
+</HTML>
+
+
+hni="r>y

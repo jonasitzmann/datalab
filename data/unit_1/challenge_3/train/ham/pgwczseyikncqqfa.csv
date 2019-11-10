@@ -1,0 +1,204 @@
+<HTML>
+<HEAD>
+<TITLE> MIPAS-related studies at Oxford </TITLE>
+</HEAD>
+<BODY bgcolor="white">
+<font face="sans-serif" size=2>
+<center>
+<img src="ncrest.gif" align=left height=100>
+<img src="aopp_3.gif" align=right height=80>
+<H1>MIPAS-related studies at Oxford</H1>
+</center>
+
+<HR>
+<dl>
+<dt> <b>MIPAS Retrievals (OPTIMO)</b>
+(EU Framework V project 
+<a href="http://www-imk.fzk.de:8080/imk2/ame/amil2da/">AMIL2DA</a>)
+<dD> Oxford, as well as several other groups involved in this project, 
+are developing independent
+off-line retrieval schemes for MIPAS. 
+The Oxford scheme `OPTIMO', uses the RFM as the forward model and the
+retrieval uses a  `Kalman Smoother' to update a running estimate of the
+atmospheric profile with spectra at their measurement locations, similar
+to the 
+<A href="http://www-atm.atm.ox.ac.uk/group/isams/">ISAMS</a> 
+Temperature retrieval.
+<dd> contact: <a href=mailto:jay@atm.ox.ac.uk>Victoria Jay</a>
+<p>
+<dt> <b>MIPAS Spectra: Analysis and Retrievals</b> 
+(<A href="http://projects.esa-ao.org/bin/public/infowiz?XC8FBxzQE7xlSdxs0rIJa2jYaf8vTIbECs76q9DNdTI8VlYlyZi8X">Envisat Cal/Val project 
+AO-323</a>)
+<dd> Oxford has a role as an `Expert Support Laboratory' in validating ESA's
+operational processing of MIPAS data. For this, the Oxford processor OPTIMO
+will be adapted to simulate the operational retrieval and allow individual
+sub-models and assumptions to be tested.
+<dd> contact: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+<p>
+<dt> <b>Reference Forward Model 
+(<a href="http://www.atm.ox.ac.uk/RFM/">RFM</a>)</b> (ESA Contract 11886/96/NL/CN)
+<dd> The RFM was originally developed to simulate atmospheric spectra for 
+testing MIPAS retrieval software, but has subsequently been developed into a 
+general-purpose line-by-line radiative transfer model. 
+<dd> contact: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+<p>
+<dt> <b>Microwindow Selection
+(<a href="http://www.atm.ox.ac.uk/RFM/mwmake.html">MWMAKE</a>)
+</b> (ESA Contract 11717/95/NL/CN/CCN-5)
+<dd> An algorithm has been developed for selecting the optimal spectral 
+regions ("microwindows") for the retrieval of different species in order to
+maximise the information content allowing for both random and systematic
+errors while minimising the processing time. For the MIPAS
+operational processing, typically 5 microwindows each of width ~1 cm-1 will
+be used for each species.
+<dd> Contact: <A href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+<dd> Publications
+<dl>
+<dt> 
+<DD> <a href=http://www.opticsinfobase.org/abstract.cfm?id=69181>Microwindow 
+Selection for High-Spectral-Resolution Sounders</a>
+<dd> <i>App. Optics</i>, <b>41</b>, 3665, 2002 
+<dd> Dudhia, A., V. L. Jay and C. D. Rodgers,
+</dl>
+<p>
+<dt> <b>ACE-CHEM</b> (ESA Contract 13048/98/NL/GD)
+<dd> As part of a study coordinated by 
+<a href="http://www.sstd.rl.ac.uk/ssd/sn.html">RAL</a>, the microwindow
+selection scheme MWMAKE developed for MIPAS has been adapted to make
+performance predictions for ACE-CHEM, a candidate for 
+a core instrument of ESA's Earth Explorer missons.
+<dd> contact: <a href=mailto:lama@atm.ox.ac.uk>Francesco Lama</a>
+<p>
+<DT> <B>Fast Monochromatic Radiative Transfer Techniques</b> 
+(ESA Contract 11717/95/NL/CN/CCN-5)
+<dd> Processing satellite data in real time requires rapid models to
+simulate atmospheric radiances at high spectral resolution. 
+Line-by-line models are generally too slow,
+but techniques have been developed using pretabulated absorption coefficients
+(compressed using SVD) and irregular spectral grids with negligible loss
+of accuracy. These are now used in ESA's operational retrieval for MIPAS
+and can also be applied to other IR instruments such as 
+<a href="http://www.atm.ox.ac.uk/hirdls/">HIRDLS</a>.
+<dd> Contact: <A href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+<dd> Publications
+<dl>
+<dt> 
+<DD> <a href=http://dx.doi.org/10.1016/S0022-4073(01)00285-0>Fast 
+monochromatic radiative transfer calculations for limb sounding</a>
+<dd> <i>J. Quant. Spect. & Radiative Trans.</i>, <b>74</b>, 745-756, 2002 
+<dd> Dudhia, A., P. E. Morris and R. J. Wells
+</dl>
+
+<p>
+<dt><b>UT/LS Retrievals from Satellite Limb Sounding</b> (NERC D.Phil project)
+<dd> Comparison of the capabilities of 
+<a href="http://www-atm.atm.ox.ac.uk/group/isams/">ISAMS</a> and
+MIPAS in retrieving water vapour and ozone in the Upper Tropospher/Lower
+Stratosphere region.
+<dd> contact: <a href=mailto:parrington@atm.ox.ac.uk>Mark Parrington</a>,
+supervisors: <a href=mailto:rodgers@atm.ox.ac.uk>Clive Rodgers</a>,
+<a href=http://www.leos.le.ac.uk/home/group/jjr.html>John Remedios</a> 
+(U.Leicester) and
+<a href=mailto:B.J.Kerridge@rl.ac.uk>Brian Kerridge</a> (RAL).
+<p>
+<dt><b>Measurements of Acetone 
+in the Upper Troposphere</b> (NERC D.Phil project)
+<dd> 
+Investigating the detection and retrieval of acetone in the upper
+troposphere using data from the MIPAS balloon instrument
+and new laboratory measurements of acetone infrared absorption
+cross-sections.
+<dd> contact: <a href=mailto:waterfll@atm.ox.ac.uk>Alison Waterfall</a>,
+supervisors: <a href=mailto:rodgers@atm.ox.ac.uk>Clive Rodgers</a> and
+<a href=http://www.leos.le.ac.uk/home/group/jjr.html>John Remedios</a> 
+(U.Leicester)
+<p>
+<dt><b>Retrieval of Atmospheric Composition from the MIPAS
+Satellite</b> (NERC D.Phil project)
+<dd>  Retrieval and Validation of CH4 and H2O from MIPAS using the Oxford 
+processing scheme.
+<dd> contact: <a href=mailto:payne@atm.ox.ac.uk>Vivienne Payne</a>,
+supervisors: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a> and
+<a href=mailto:grainger@atm.ox.ac.uk>Don Grainger</a>
+<p>
+<dt><b>Retrieval of Atmospheric Composition from the MIPAS
+Satellite</b> (NERC D.Phil project)
+<dd>  Retrieval and Validation of [tbd] minor species using the Oxford 
+processing scheme.
+<dd> contact: <a href=mailto:aburgess@atm.ox.ac.uk>Alastair Burgess</a>,
+supervisors: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a> and
+<a href=mailto:grainger@atm.ox.ac.uk>Don Grainger</a>
+<p>
+<dt><b>ClO Retrieval using MIPAS</b>
+(<a href="robinson.pdf">Report</a>, PDF file)
+(Student project, April 2000)
+<dd> Investigation of the feasibility of retrieving ClO from MIPAS.
+<dd> author: Jim Robinson (St Catherine's College),
+supervisor: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+<p>
+<dt><b>The Impact of CFCs on MIPAS measurements</b>
+(<a href="obrien.pdf">Report</a>, PDF file)
+(Student project, April 2001)
+<dd> Analysis of the concentrations of 21 
+<a href="http://www.atm.ox.ac.uk/RFM/rfm_downloads.html#xsc">CFC/HCFC/HFC 
+compounds</a>
+in the atmosphere and their expected signatures within the MIPAS
+spectral range.
+<dd> author: Oliver O'Brien (Pembroke College),
+supervisor: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+
+<P>
+<dt><b>Cloud Detection in MIPAS Spectra</b>
+(<a href="kasprzyk.pdf">Report</a>, PDF file)
+(Student project, April 2002)
+<dd>Investigation of the sensitivity of the Leicester `Cloud Index' 
+and its relation to equivalent cloud opacity in the field-of-view.
+<dd> author: Dominik Kasprzyk (Exeter College),
+supervisor: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+
+<P>
+<dt><b>Carbon Monoxide Retrievals from MIPAS</b>
+(<a href="fletcher.pdf">Report</a>, PDF file)
+(Student project, August 2002)
+<dd>Investigation of the feasibility of retrieving profiles of
+CO from MIPAS data
+<dd> author: Ben Fletcher (St John's College),
+supervisor: <a href=mailto:dudhia@atm.ox.ac.uk>Anu Dudhia</a>
+
+<P>
+<dt><b>Study of water and ozone concentrations from MIPAS
+and SMR data</b>
+(<a href="das.pdf">Report</a>, PDF file)
+(Student project, July 2004)
+<dd>Comparison of H2O and O3 retrievals from MIPAS and ODIN/SMR
+instruments for 22Nov03.
+<dd> author: Payel Das (St Edmund Hall),
+supervisor: <a href=mailto:piccolo@atm.ox.ac.uk>Chiara Piccolo</a>.
+
+<P>
+<DT><B> MIPAS Special Modes Study </b>
+(ESA Contract 16700/02/I-LG)
+<DD>
+The main Oxford contribution was a Survey of Existing Algorithms
+for the Selection of Auxiliary Data, which included an investigation
+into microwindow selection for a number of minor species.
+<a href=survey.pdf>Report</a> [PDF File].
+
+</dl>
+<hr>
+<ul>
+<LI><a href="index.html">AOPP MIPAS page</a>
+<li><a href="http://www-atm.atm.ox.ac.uk/group/earth.html">AOPP 
+Earth Observation
+Space Experiments</a>
+<li><a href="http://www-atm.atm.ox.ac.uk/">Atmospheric, Oceanic and Planetary
+Physics Home Page</a>
+</ul>
+<i>Last modified 04-FEB-02 AD </i>
+
+</BODY>
+</HTML>
+
+
+nEBe
+ tet/

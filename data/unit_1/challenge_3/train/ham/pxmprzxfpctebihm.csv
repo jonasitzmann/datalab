@@ -1,0 +1,147 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+tas_dec05
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="gif_1.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+	if(parent.isUpLevel)
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+
+<script type="text/jscript" language="jscript">
+
+var pageID = 7;
+
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = -0.000000;
+	viewMgr.visBBoxRight = 11.692913;
+	viewMgr.visBBoxBottom = 0.000000;
+	viewMgr.visBBoxTop = 8.267717;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Shows the location of the selected shape" src="arrow.gif"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF">
+
+<div id=arrowdiv style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+<DIV id=RasterDiv>
+
+
+<center>
+  <IMG id="ConvertedImage" SRC="gif_3.gif" ALT="Registrar" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="Student Finance" origTitle="Student Finance" TITLE="Student Finance"  target="_top" COORDS=" 388,340 453,340 453,307 388,307 388,340" onmouseover="UpdateTooltip(this,7,115)" onfocus="UpdateTooltip(this,7,115)" onclick="return OnShapeClick(7,115);" onkeyup="OnShapeKey(7,115);">
+  <AREA shape="POLYGON" tabindex="1" ALT="International Office" origTitle="International Office" TITLE="International Office"  target="_top" COORDS=" 599,259 663,259 663,226 599,226 599,259" onmouseover="UpdateTooltip(this,7,109)" onfocus="UpdateTooltip(this,7,109)" onclick="return OnShapeClick(7,109);" onkeyup="OnShapeKey(7,109);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Student Support Office" origTitle="Student Support Office" TITLE="Student Support Office"  target="_top" COORDS=" 307,299 372,299 372,267 307,267 307,299" onmouseover="UpdateTooltip(this,7,103)" onfocus="UpdateTooltip(this,7,103)" onclick="return OnShapeClick(7,103);" onkeyup="OnShapeKey(7,103);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Health Centre" origTitle="Health Centre" TITLE="Health Centre"  target="_top" COORDS=" 388,380 453,380 453,348 388,348 388,380" onmouseover="UpdateTooltip(this,7,97)" onfocus="UpdateTooltip(this,7,97)" onclick="return OnShapeClick(7,97);" onkeyup="OnShapeKey(7,97);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Hall Wardens" origTitle="Hall Wardens" TITLE="Hall Wardens"  target="_top" COORDS=" 307,259 372,259 372,226 307,226 307,259" onmouseover="UpdateTooltip(this,7,91)" onfocus="UpdateTooltip(this,7,91)" onclick="return OnShapeClick(7,91);" onkeyup="OnShapeKey(7,91);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Disability Services" origTitle="Disability Services" TITLE="Disability Services"  target="_top" COORDS=" 388,299 453,299 453,267 388,267 388,299" onmouseover="UpdateTooltip(this,7,85)" onfocus="UpdateTooltip(this,7,85)" onclick="return OnShapeClick(7,85);" onkeyup="OnShapeKey(7,85);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Counselling Service" origTitle="Counselling Service" TITLE="Counselling Service"  target="_top" COORDS=" 307,340 372,340 372,307 307,307 307,340" onmouseover="UpdateTooltip(this,7,79)" onfocus="UpdateTooltip(this,7,79)" onclick="return OnShapeClick(7,79);" onkeyup="OnShapeKey(7,79);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Careers Service" origTitle="Careers Service" TITLE="Careers Service"  target="_top" COORDS=" 388,259 453,259 453,226 388,226 388,259" onmouseover="UpdateTooltip(this,7,67)" onfocus="UpdateTooltip(this,7,67)" onclick="return OnShapeClick(7,67);" onkeyup="OnShapeKey(7,67);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Student Loans" origTitle="Student Loans" TITLE="Student Loans"  target="_top" COORDS=" 170,259 235,259 235,226 170,226 170,259" onmouseover="UpdateTooltip(this,7,55)" onfocus="UpdateTooltip(this,7,55)" onclick="return OnShapeClick(7,55);" onkeyup="OnShapeKey(7,55);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Registry" origTitle="Registry" TITLE="Registry"  target="_top" COORDS=" 89,259 154,259 154,226 89,226 89,259" onmouseover="UpdateTooltip(this,7,49)" onfocus="UpdateTooltip(this,7,49)" onclick="return OnShapeClick(7,49);" onkeyup="OnShapeKey(7,49);">
+  <AREA shape="POLYGON" tabindex="1" ALT="International Development Manager" origTitle="International Development Manager" TITLE="International Development Manager"  target="_top" COORDS=" 610,180 592,180 592,209 670,209 670,180 654,180 654,179 610,179 610,180" onmouseover="UpdateTooltip(this,7,43)" onfocus="UpdateTooltip(this,7,43)" onclick="return OnShapeClick(7,43);" onkeyup="OnShapeKey(7,43);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Director of Student Support" origTitle="Director of Student Support" TITLE="Director of Student Support"  target="_top" COORDS=" 349,180 341,180 341,209 419,209 419,180 414,180 414,179 349,179 349,180" onmouseover="UpdateTooltip(this,7,37)" onfocus="UpdateTooltip(this,7,37)" onclick="return OnShapeClick(7,37);" onkeyup="OnShapeKey(7,37);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Head of Registry Services" origTitle="Head of Registry Services" TITLE="Head of Registry Services"  target="_top" COORDS=" 133,180 123,180 123,209 201,209 201,180 192,180 192,179 133,179 133,180" onmouseover="UpdateTooltip(this,7,25)" onfocus="UpdateTooltip(this,7,25)" onclick="return OnShapeClick(7,25);" onkeyup="OnShapeKey(7,25);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Assistant Principal (Registrar)" origTitle="Assistant Principal (Registrar)" TITLE="Assistant Principal (Registrar)" HREF="gif_1.htm" target="frmDrawing" COORDS=" 309,160 403,160 403,115 309,115 309,160" onmouseover="UpdateTooltip(this,7,20)" onfocus="UpdateTooltip(this,7,20)" onclick="return OnShapeClick(7,20);" onkeyup="OnShapeKey(7,20);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="http://www.tasc.ac.uk/" target="_top" COORDS=" 721,47 724,47 724,44 724,44 724,44 724,43 724,43 724,43 724,43 725,43 725,43 725,42 725,42 725,42 725,42 725,42 726,42 726,42 726,42 726,42 726,42 727,42 727,42 727,42 727,42 727,42 728,42 728,42 728,42 728,42 728,43 728,43 728,43 729,43 729,43 729,43 729,44 729,44 729,44 729,47 732,47 732,36 735,38 735,38 727,30 726,29 726,30 718,38 718,38 721,36 721,47" onmouseover="UpdateTooltip(this,7,5)" onfocus="UpdateTooltip(this,7,5)" onclick="return OnShapeClick(7,5);" onkeyup="OnShapeKey(7,5);">
+</MAP>
+
+
+
+</DIV>
+
+</body>
+</html>
+
+
+
+o :n

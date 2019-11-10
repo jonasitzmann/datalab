@@ -1,0 +1,137 @@
+<pre>
+Format of logged data file.                           (Updated 4 January 2002).
+
+File names are of the form MLmmddyy.CSV where mm, dd and yy are the two digit
+month, day and year values. Files span one day. The files may have been zipped
+to save space (they compress by a factor of more than 10), in which case they
+will have a name of MLmmddyy.ZIP. It is also possible that they will have this
+name but with a different case, e.g. MLmmddyy.csv, mlmmddyy.CSV, etc..
+
+The file MLlatest.CSV will also be present and in the same format. This gives
+the file that is being built up for the current day. It is normally
+transferred about every 10 minutes. The final record is normally incomplete.
+
+File MLDUMMY.CSV and MLDUMMY.ZIP are normally also present; they are empty and
+should be ignored. They are present to help make the wildcard transfers more
+robust.
+
+MLmmddyy.CSV files are in ASCII text with lines up to 80 characters; the file
+is terminated by a form-feed.
+
+Where a comment is required in the file, this will occupy the first record,
+and will begin and end with double quote, so that it will be stored in the
+first cell if the file is read by a spreadsheet program. If more extensive
+information needs to be conveyed, the comment will refer to a separate file.
+
+There is one line per time entry;. Entries are normally spaced by a few
+seconds, but this interval may vary, possibly being less for special purposes,
+a few minutes where a new version of the software was being tested, or much
+longer where there was a failure. The interval will never be less than 1
+second. Note that rainfall and sunshine entries give the increment since the
+last entry, so totals should not be lost when logging ceases for some time, and
+the first entry after a gap could be unusually high.
+
+Items are separated by commas. Spaces are also present, but should not be
+relied upon, and the files may at some stage be processed to remove them in
+order to save space.
+
+The file can be read by spreadsheets as a comma-delimited file (an Excel
+CSV file).
+
+Where a problem has occurred, the last line may be incomplete, and it may be
+useful to check for this when writing any programs.
+ 
+
+Item 1:  Date of reading; month, day, year as dd-mm-yyyy (i.e. European format);
+         prior to 4 Jan 2002 the format was mm-dd-yyy (US format).
+Item 2:  Universal time (i.e. GMT) of reading; hours, min, sec as hh:mm:ss. 
+Item 3:  Wind direction, from which wind is blowing; integer in range 0-255;
+         scaling is such that 0-256 is mapped onto 0-360 deg.
+Item 4:  Wind speed; integer in range 0-255; units are knots; 
+         1 knot = 0.514 m/sec = 1.852 km/hour = 1.151 miles/hour.
+Item 5:  Dry bulb temperature; integer in range 0-255; see table below for
+         scaling.
+Item 6:  Sunshine amount since last reading; integer in range 0-255; units of
+         36 sec (0.01 hour).
+Item 7:  Precipitation amount since last reading; integer in range 0-65535;
+         units of 0.01 mm.
+Item 8:  Pressure; integer in range 0-255; add 900 to obtain pressure in hPa.
+Item 9:  Relative humidity: integer in range 0-255; units are percent (should
+         not exceed 100).
+Item 10: Wet bulb temperature; integer in range 0-255; see table below for 
+         scaling.
+
+
+
+Temperature conversion:
+Subtracting 112 and multiplying by 2.5 is approximately correct to obtain the
+temperature in C. For accurate results the following conversion table should
+be used:
+
+Reading.      Temperature (C).
+
+     29            -40
+     44            -30
+     63            -20
+     87            -10
+     112            0
+     137            10
+     160            20
+     181            30
+     200            40
+     216            50
+
+This has been fitted by a polynomial where x=(d-112)*0.01 and d is the data
+value. The fitted temperatures (C) are given approximately by:
+       T = A*x + B*x*x + C*x*x*x + D*x*x*x*x + E*x*x*x*x*x
+where
+A=39.45288  B=2.312172  C=6.805814  D=-6.26714  E=5.040324
+
+
+Example of the first few lines of a file.
+
+07-25-2001,00:00:00, 125 , 2 , 154 , 0 , 0 , 118 , 76 , 66 
+07-25-2001,00:00:04, 126 , 0 , 154 , 0 , 0 , 118 , 76 , 66 
+07-25-2001,00:00:08, 125 , 0 , 154 , 0 , 0 , 118 , 75 , 66 
+07-25-2001,00:00:24, 126 , 0 , 154 , 0 , 0 , 118 , 76 , 66 
+
+Example from later in the day with the sun shining continuously
+(sixth item has one count every 36 sec):
+
+07-25-2001,08:52:12, 68 , 2 , 161 , 0 , 0 , 118 , 57 , 66 
+07-25-2001,08:52:16, 68 , 2 , 160 , 1 , 0 , 116 , 57 , 66 
+07-25-2001,08:52:20, 68 , 2 , 160 , 0 , 0 , 116 , 58 , 66 
+07-25-2001,08:52:24, 68 , 2 , 160 , 0 , 0 , 118 , 56 , 66 
+07-25-2001,08:52:28, 66 , 2 , 160 , 0 , 0 , 116 , 57 , 66 
+07-25-2001,08:52:32, 67 , 0 , 160 , 0 , 0 , 118 , 58 , 66 
+07-25-2001,08:52:36, 66 , 2 , 160 , 0 , 0 , 116 , 58 , 66 
+07-25-2001,08:52:40, 59 , 4 , 160 , 0 , 0 , 116 , 58 , 66 
+07-25-2001,08:52:44, 56 , 4 , 160 , 0 , 0 , 116 , 58 , 66 
+07-25-2001,08:52:48, 55 , 2 , 160 , 0 , 0 , 118 , 58 , 66 
+07-25-2001,08:52:52, 56 , 2 , 160 , 1 , 0 , 118 , 58 , 66 
+
+Example from a period of very heavy rain:
+
+08-04-2001,15:15:35, 90 , 12 , 145 , 0 , 4 , 112 , 87 , 66 
+08-04-2001,15:15:39, 80 , 12 , 145 , 0 , 4 , 112 , 87 , 66 
+08-04-2001,15:15:43, 84 , 8 , 145 , 0 , 4 , 112 , 87 , 66 
+08-04-2001,15:15:47, 100 , 4 , 145 , 0 , 5 , 111 , 87 , 66 
+08-04-2001,15:15:51, 88 , 6 , 145 , 0 , 5 , 112 , 87 , 66 
+08-04-2001,15:15:55, 94 , 8 , 145 , 0 , 4 , 111 , 87 , 66 
+08-04-2001,15:15:59, 86 , 10 , 145 , 0 , 5 , 112 , 86 , 66 
+08-04-2001,15:16:03, 86 , 6 , 145 , 0 , 4 , 111 , 86 , 66 
+08-04-2001,15:16:07, 95 , 14 , 145 , 0 , 5 , 111 , 86 , 66 
+08-04-2001,15:16:11, 95 , 14 , 145 , 0 , 4 , 112 , 86 , 66 
+08-04-2001,15:16:15, 97 , 8 , 145 , 0 , 5 , 112 , 86 , 66 
+08-04-2001,15:16:19, 92 , 10 , 145 , 0 , 4 , 111 , 87 , 66 
+08-04-2001,15:16:23, 96 , 6 , 145 , 0 , 4 , 112 , 87 , 66 
+08-04-2001,15:16:27, 98 , 6 , 145 , 0 , 5 , 112 , 87 , 66 
+08-04-2001,15:16:31, 100 , 10 , 145 , 0 , 4 , 112 , 87 , 66 
+08-04-2001,15:16:35, 93 , 8 , 145 , 0 , 4 , 112 , 87 , 66 
+08-04-2001,15:16:39, 92 , 8 , 145 , 0 , 5 , 112 , 87 , 66 
+08-04-2001,15:16:43, 86 , 4 , 145 , 0 , 4 , 112 , 87 , 66 
+
+
+
+ip4meZ
+aeeox"/tS

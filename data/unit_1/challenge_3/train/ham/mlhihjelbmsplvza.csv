@@ -1,0 +1,490 @@
+<html>
+<head>
+
+<title>
+
+CERES Harvest IV.iv</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr>
+</center>
+<p>
+<h2 align=center>CERES Harvest IV.iv<br>
+1.8.00</h2>
+<center><table><tr><td><h4>
+And art thou borne, brave Babe? Blest be thy birth!<br>
+That so hath crown'd our hopes, our spring, and earth, <br>
+The bed of the chast Lilly, and the Rose! <br>
+   What Month then May, was fitter to disclose<br> 
+This Prince of flowers? Soone shoot thou up, and grow <br>
+   The same that thou art promis'd, but be slow, <br>
+And long in changing... <br>
+<p>
+</td></tr></table></center>
+<p>
+<hr>
+<p>
+<strong>INTRODUCTION</strong><br>
+Welcome to our latest Harvest, somewhat later in the year than it might
+have been, but then the weather has rather failed to live up to
+expectations this summer. Highlights include some major new library
+catalogues, most notably the British Library's Manuscripts Collection, and
+a further look at Early English Books Online. Shorter features come first
+below, with the more extensive reviews bringing up the rear. Our links
+page, at <a href=http://www.english.cam.ac.uk/ceres/links.htm>http://www.english.cam.ac.uk/ceres/links.htm</a>, has been updated to
+include some of the best of our recent finds, and remember that all past
+issues of Harvest are archived and searchable at <a href=http://www.english.cam.ac.uk/ceres/archive.htm> http://www.english.cam.ac.uk/ceres/archive.htm</a>.
+<p>
+<hr>
+<p>
+<h2 align=center>ELECTRONIC RESOURCES</h2>
+<p>
+<strong>FOLGER LIBRARY CATALOGUE GOES ONLINE</strong><br>
+<a href=http://shakespeare.folger.edu/>http://shakespeare.folger.edu/</a><br>
+Less exciting than it sounds, this does not include manuscript materials,
+and so far covers less than 10% of the rare book collections. It does,
+though, include all copies of the four Shakespeare folio editions published
+between 1623 and 1685; promptbooks; all incunabula; and accession records
+for all rare materials acquired since 1996. And it is anticipated that
+before the year is out around 50,000 records describing Folger STC
+(1475-1640), Wing (1641-1700), and eighteenth-century holdings will be
+uploaded. In the meantime, you can find if an early book is in the Folger
+by looking for it at ESTC (see the CERES links page, and our reviews of
+that service in Harvest).
+<p>
+<strong>OXFORD ENGLISH DICTIONARY ONLINE</strong><br>
+This speaks for itself. Far superior in appearance and interface to the OED
+on CD-ROM, this new service will also find search results more quickly with
+some forms of connection. Because it is an indispensable tool it comes at a
+cost. If your institution subscribes, access will probably be via
+<a href=http://dictionary.oed.com/>http://dictionary.oed.com/</a>. Click on 'sign in' and see if you are turned away. The same front door is presented at <a href=http://oed.com/>http://oed.com/</a>.
+<p>
+<strong>BIDS ISI RIP</strong><br>
+The BIDS ISI data service, which has been running at the University of
+Bath since February 1991, will close on Monday 31st July 2000. 
+<p>
+The replacement service, which accesses an identical copy of the data
+through a different interface, is known as Web of Science. It has been
+developed and is maintained by ISI, and the contract to operate the system
+delivering the service has been awarded by the JISC to MIMAS at the
+University of Manchester. This service is available now at
+<a href=http://wos.mimas.ac.uk>http://wos.mimas.ac.uk</a> and supports the same ATHENS usernames and
+passwords as the BIDS ISI service. 
+<p>
+The interface has some differences but seems to function well. One major
+loss is the BIDS AutoJournals facility, which emails users with the tables
+of contents of their own list of journals. There is currently no equivalent
+to this in Web of Science, although many publishers (OUP for one at
+<a href=http://www3.oup.co.uk/jnls/tocmail/>http://www3.oup.co.uk/jnls/tocmail/</a>) offer such a service for their own
+journals.
+<p>
+<strong>HISTORICAL MANUSCRIPTS COMMISSION</strong><br>
+<a href=http://www.hmc.gov.uk/>http://www.hmc.gov.uk/</a><br>
+Beneath the upper levels of the HMC web pages lurks, miraculously, a
+complete listing of the HMC reports and calendars. Also recently enhanced
+is ARCHON, a database of information about archives which supplements the
+National Register of Archives.<br>
+<a href=http://www.hmc.gov.uk/pubs/rep&cal.htm>http://www.hmc.gov.uk/pubs/rep&cal.htm</a><br>
+<a href=http://www.hmc.gov.uk/archon/archon.htm>http://www.hmc.gov.uk/archon/archon.htm</a><br>
+<a href=http://www.hmc.gov.uk/nra/nra2.htm>http://www.hmc.gov.uk/nra/nra2.htm</a><br>
+<p>
+<strong>THE EDMUND SPENSER HOME PAGE</strong><br>
+Following a brief mention in the last issue, the exponential growth of this
+new site earns a second notice. Constructed and maintained by CERES' own
+Andrew Zurcher, the site replaces Richard Bear's Spenser home page. It
+offers a pretty vast array, including full biography, bibliography, and
+listing of electronic texts, as well as hosting the pages of the new
+Spenser discussion list, the Spenser Society, and the journal Spenser
+Studies. This last set of pages includes a comprehensive listing of
+contents for volumes 1-14, complete with abstracts. I won't go on, for fear
+of accusations of exchanging our proper oaten reed for some stern trumpet
+blowing. But do have a look at <a href=http://www.english.cam.ac.uk/spenser/>http://www.english.cam.ac.uk/spenser/</a>.
+<p>
+<strong>THE SIDNEY HOMEPAGE</strong><br>
+Rather further behind in the CERES offshoots trail of glory is the new
+Sidney homepage, which aims to focus the on and offline study of Philip
+Sidney, Robert Sidney, the Countess of Pembroke, and Mary Wroth. The site
+is still under construction, but already includes information on the Sidney
+Society and its conferences, and tables of contents for the Sidney Journal.
+Hope for more at <a href=http://www.english.cam.ac.uk/sidney/>http://www.english.cam.ac.uk/sidney/</a>.
+<p>
+<strong>THE MILTON READING ROOM</strong><br>
+<a href=http://www.dartmouth.edu/research/milton/reading_room/>http://www.dartmouth.edu/research/milton/reading_room/</a><br>
+An impressive site, clearly designed to educate students, and
+enthusiastically built on the premise that 'Milton...should be read and
+studied from inside a library, and the web makes this possible on a scale
+only recently imagined'. The work of Thomas Luxon and his students, this
+offers all the major poetry (including all the Latin works with
+translations) and a good selection of the prose. The texts are presented in
+old spelling editions which, because of comprehensive inclusion of
+preliminaries and reproduction of title page layout, amount to online type
+facsimiles. With the surprising addition of hypertext links to a helpful
+commentary which appears at the foot of the page, this makes for an
+attractive and challenging version of Milton online. Incomplete in some
+areas and ambitious for expansion in others, this is a highly promising
+resource.
+<p>
+<strong>EARLY MODERN CULTURE: AN ELECTRONIC SEMINAR</strong><br>
+<a href=http://eserver.org/emc/>http://eserver.org/emc/</a><br>
+An ambitious and well-conceived attempt to set up 'an on-line space for
+something like the active and on-going inquiry of a good seminar'. The
+first issue offers 'four works-in-progress by major scholars in early
+modern studies, along with a set of responses from readers - some junior,
+some senior - working on similar topics' and aims to start up further
+conversations. The advantages for scholars of this opportunity to present
+drafts of future publications are easy to see, and by soliciting responses
+the editors ensure that some dialogue takes place, even if, as so often
+with such projects, Joe Academic stays largely silent.
+<p>
+<strong>THE PERDITA PROJECT</strong><br>
+<a href=http://human.ntu.ac.uk/perdita/>http://human.ntu.ac.uk/perdita/</a><br>
+This project, already fairly well-known, is producing a database of
+descriptive and contextual information for about 400 early modern
+manuscripts written or compiled by women. Apart from offering information
+about the project and seminars it sponsors, the site tantalises with some
+specimen entries, well worth a look for a taste of what is to come.
+<p>
+<strong>THE SHAKESPEARE INSTITUTE LIBRARY</strong><br>
+<a href=http://www.is.bham.ac.uk/shakespeare>http://www.is.bham.ac.uk/shakespeare</a><br>
+Another good site for keeping abreast of Shakespeariana. Aside from
+information about the Institute and Library, this offers a comprehensive
+listing of 'Current and Forthcoming Shakespeare Productions in the UK'.
+<p>
+<strong>THE TUDOR SYMPOSIUM</strong><br>
+An informal research forum for scholars working in sixteenth-century
+English literature and related areas, the Tudor Symposium sponsors a
+biennial conference (the next is in September) and publishes an online
+register of members and their research interests (membership is free):
+<a href=http://www.ncl.ac.uk/english/tudor_members.htm> http://www.ncl.ac.uk/english/tudor_members.htm</a><br>
+<a href=http://www.ncl.ac.uk/english/tudor_conference_2000.htm> http://www.ncl.ac.uk/english/tudor_conference_2000.htm</a>.
+<p>
+<strong>METAPHYSICALPOETRY.ORG</strong><br>
+<a href=http://www.metaphysicalpoetry.org>http://www.metaphysicalpoetry.org</a><br>
+Maintained by Gregory Kneidel of Texas Christian University,
+metaphysicalpoetry.org is 'an annotated bibliography of web resources for
+studying, teaching, and appreciating seventeenth-century metaphysical
+poetry'. It has pages devoted to authors - Donne, Herbert, Cowley, Vaughan,
+and 'minor' others (which, oddly, includes Marvell) - and to 'Teaching and
+Research', in other words background information and criticism. The
+well-organised fruits of some well-organised browsing, this site offers a
+great many links, many familiar, some new, some even worth coming across.
+<p>
+<strong>EARLY MODERN LITERARY STUDIES LATEST</strong><br>
+<a href=http://www.shu.ac.uk/emls/emlshome.html>http://www.shu.ac.uk/emls/emlshome.html</a><br>
+The new issue of EMLS, 6.1, is devoted to Shakespeare on Screen. Other
+areas continue to grow, with a now substantial set of reviews of electronic
+resources offered in the interactive EMLS section.
+<p>
+<strong>MORE FROM RENASCENCE EDITIONS</strong><br>
+One of our favourite sites continues to thrive. New additions include
+electronic texts of Gosson's <i>Schoole of Abuse</i> (1579) and the somewhat
+Spenserian poet Richard Niccols's <i>The Beggers Ape</i> (1607). URLs:<br>
+<a href=http://darkwing.uoregon.edu/~rbear/gosson1.html>http://darkwing.uoregon.edu/~rbear/gosson1.html</a><br>
+<a href=http://darkwing.uoregon.edu/~rbear/ape.html>http://darkwing.uoregon.edu/~rbear/ape.html</a>
+<p>
+<strong>BRITISH LIBRARY MANUSCRIPTS ONLINE CATALOGUE (MOLCAT)</strong><br>
+<a href=http://molcat.bl.uk>http://molcat.bl.uk</a><br>
+Your lottery money has been hard at work bringing the British Library
+Manuscripts catalogue into the modern age. Using the Manuscripts Online
+Catalogue (MOLCAT), it is now possible to conduct a remote search of
+selected indexes and descriptions of various classes of manuscripts held at
+the BL. It is also possible to retrieve index records or a description
+relating to a particular manuscript.
+<p>
+The search facility is spare and sensible, allowing searches by name
+(person, location, corporate body), additional name, and other index entry.
+Searches can be further limited by start and end years, language, and
+state. The standard range of boolean expressions is allowed, including
+'and', 'or', and 'near'. Further search options include use of the '*'
+option for part-word searching, and a set of buttons enabling and disabling
+word-only and start-of-word searching. One of the best features of MOLCAT -
+in contrast to, for example, the Public Record Office search facility - is
+its spare use of graphics. Navigating around the site is fast and responsive.
+<p>
+As usual with new internet launches, the online catalogue is incomplete and
+very much a work in progress. As the editors note in their disclaimer (see
+<a href=http://molcat.bl.uk/msscat/MSSRETRO.ASP>http://molcat.bl.uk/msscat/MSSRETRO.ASP</a>), MOLCAT is intended to offer a
+single means of access to the Library's 'mainstream' manuscript catalogues
+- many specialist catalogues are still only available in paper form in the
+Library itself. Furthermore, most of the work was done by text-recognition
+computer scanning of the paper catalogues, which means that the online
+version is subject to the same historical changes in cataloguing standards
+that vex the paper catalogues. In some classes of manuscript, index records
+for the manuscripts are available where descriptions are not, while the
+reverse is true in others (the disclaimer details the current status of
+various manuscript collections). This is by far the most serious concern,
+as important collections are not included in one or another type of search
+- a fact most obvious when trying unsuccessfully to locate index records or
+a description for a particular (known) manuscript belonging to a collection
+where one or the other type of information is not yet available. Further
+updates, additions, and enhancements are promised, though the editors
+intend to concentrate for now on filling gaps in coverage.
+<p>
+There is no denying that MOLCAT is an important new service for the
+scholarly community, but it should be used with caution. Searchability in a
+text is only as good as the text itself, and the catalogues have a long way
+to go before they can be reliably trusted to yield fair responses. On the
+other hand, the ease of using MOLCAT is enticing, and even imperfect remote
+use of the catalogues is better than no remote use at all. The future is
+brighter.
+<p>
+<strong>EARLY ENGLISH BOOKS ONLINE REVISITED</strong><br>
+<a href=http://wwwlib.umi.com/eebo/>http://wwwlib.umi.com/eebo/</a><br>
+[A supplement to our review in Harvest 4.3]<br>
+EEBO has made great progress since our last review. More and more of the
+old UMI microfilms have now been scanned in, so that one tends no longer to
+find that an item is not yet available. To all intents and purposes this
+now is the complete digital collection of the books listed in STC and Wing.
+Teething troubles remain (see below) but the service has already changed
+the way we work.
+<p>
+One feature of EEBO which we somehow neglected to applaud in our first
+review is the one which packages up a complete file of your chosen book for
+downloading in Adobe Acrobat format. This is a timesaving alternative to
+viewing, or printing off, page by page using the DJVU plugin. Adobe Acrobat
+is a viewer, rather like a web browser, and EEBO will direct you to a
+download site if you don't already have it on your computer. (If you do, it
+may not be the latest version, 4, and you may, as I did, have an afternoon
+of PC meltdown in store before you realise what the problem is). After
+searching, click to mark with a tick the book(s) you want. Then click on
+'marked list' and you will be offered a full citation and the option -
+again click to select - of downloading all or a range of the book's scanned
+pages. On the next page you must enter your email address, so that EEBO can
+email you when the book is ready for downloading (this takes anything from
+a minute to half an hour). On the next page, you are given a temporary PIN
+number (right click to copy) and a link to ANOTHER page. Go there and enter
+the PIN (right click to paste) [and I do apologise to Mac users without
+right mouse buttons, as well as to sinistral PC users I suppose]. Click
+'submit' and you get to a final page, which you can also reach via the link
+sent to you by email as notification that your order is being processed.
+This final page gives your order details, and is reloaded every minute
+until (and once) the file is ready, when the details turn into a hyperlink.
+<p>
+But before you click to download, a word of caution. Some files are as
+large as 50 megabytes. And at some times of the day heavy internet traffic
+causes problems, not least long download times. These are all reasons why
+something may go wrong, probably with your computer but occasionally at the
+other end. Whenever I download from EEBO I expect a crash. I try to avoid
+this by enlarging and emptying my browser cache (deleting everything that
+has piled up in \windows\temporary internet files and making the cache at
+least twice as large as the file to be downloaded). [Obviously I am again
+offending Mac users, but I doubt their machines crash, so they ought just
+to be happy.] By freeing up space in this way, I hope that my computer will
+get less confused when Windows tries to put copies of the download into
+temporary directories. Another thing I do is not click on the link to open
+the file straightaway, but save it to disk (by right clicking). A third
+thing I may do is close other open applications, including, after right
+clicking on the link to start the save process, my browser, since that is
+still trying to reload the download page every minute.
+<p>
+These cautions over, we can download our gleaming virtual early modern book
+and save it somewhere knowing that after a few years spent sweating in
+front of the computer it will be possible to do all our research on the
+beach with a laptop and a private archive of CDs. Or will it? The worst
+thing about this, the best of online services, is that sometimes a page
+blanks out half way down. Acrobat reader tells you 'read less image data
+than expected', because the problem is either with the file as EEBO sent it
+to you, or with the file as it emerged at the other end of the web. All you
+can do is go through the process again, and hope that this time it works.
+When it does, the results are satisfying. But be prepared for some
+occasional frustration.
+<p>
+<strong>WORLD SHAKESPEARE BIBLIOGRAPHY ONLINE</strong><br>
+Edited by James L. Harner, this release of The World Shakespeare
+Bibliography Online provides annotated entries for all important books,
+articles, book reviews, dissertations, theatrical productions, reviews of
+productions, audiovisual materials, electronic media, and other scholarly
+and popular materials related to Shakespeare and published or produced
+between 1977 and 1998.
+<p>
+Published by The Arden Shakespeare in association with The Folger
+Shakespeare Library, WSB Online has been inaugurated with a one month open
+trial period. The site may be accessed at <a href=http://www.worldshakesbib.com>http://www.worldshakesbib.com</a>
+using the following:<br>
+Username: shakelib<br>
+Password: trialbiblio<br>
+The single institutional price for one year is $200. Personal subscriptions
+are also available for $50 and a 50% discount is available to Shakespeare
+Quarterly personal subscribers.
+<p>
+The boolean searching is powerful but in some ways inappropriate to the
+nature of the material. The 'help' is colourful to look at but doesn't tell
+you precisely how to locate entries which share, say, an author. Searching
+the advanced search under 'author' with 'Frank Kermode' finds nothing.
+Searching with 'Kermode, Frank' finds mostly things by other people called
+Frank, with relevancy scores, but not presented in order of relevance. But,
+mirabile dictu, searching 'Frank and Kermode' will get everything by
+Kermode, as will searching 'Kermode Frank'. While 'Frank near Kermode'
+yields nothing. Bad job. Oh, and since book reviews are entered in the
+database as a list appended to the entry for the book reviewed, one must
+search 'keywords' to find reviews written by Kermode Frank. Perhaps my
+intuitions are awry, but this seems a particularly unintuitive dataset and
+interface.
+<p>
+<strong>WATERMARKS</strong><br>
+A number of sites are constructing databases of watermarks, not, as with
+Briquet, Heawood, et al., using tracings but for the most part reproducing
+either beta-radiographs or images produced using the more recent technique
+of fluorescent light and Dylux paper. A good example, though German and
+focussing on mediaeval material, is WZMA (Wasserzeichen des Mittelalters)
+at <a href=http://www.oeaw.ac.at/~ksbm/wz/wwwdb/>http://www.oeaw.ac.at/~ksbm/wz/wwwdb/</a>.
+Another impressive collection is Le filigrane degli archivi genovesi at
+<a href=http://linux.lettere.unige.it/briquet/>http://linux.lettere.unige.it/briquet/</a>.
+<p>
+But the number one choice is the online version of the Thomas Gravell
+collection of watermarks held at the University of Delaware Library (that
+collection is described at <a href=http://www.lib.udel.edu/ud/spec/findaids/gravell.htm>http://www.lib.udel.edu/ud/spec/findaids/gravell.htm</a>). The work of Daniel
+Mosser and Ernest W. Sullivan II, the database includes digital images of
+photographic reproductions of over 6,500 watermarks in paper made between
+1400 and 1835 and is sponsored by, among others, the Center for Applied
+Technologies in the Humanities (CATH) at Virginia Tech, on whose
+web-database server the service is mounted: <a href=http://128.173.125.124:591/DBs/Gravell/>http://128.173.125.124:591/DBs/Gravell/</a>
+<p>
+This is very much a work in progress (only 500 entries so far), but in time
+looks to become a very valuable resource. The site includes links to other
+relevant sites, at <a href=http://128.173.125.124:591/DBs/Gravell/library.html>http://128.173.125.124:591/DBs/Gravell/library.html</a>,
+including directions on how to subscribe to the Watermarks Discussion List,
+based at Virginia Tech, and archived at <a href=http://ebbs.english.vt.edu/mailopen/watermarks/>http://ebbs.english.vt.edu/mailopen/watermarks/</a>.
+<p>
+Also worth a look is 'The Watermark Initiative', a project which aims 'to
+arrive at standards for the design and function of World Wide Web based
+Archives of Papers and Watermarks'. It is based at <a href=http://www.bates.edu/Faculty/wmarchive/wm-initiative/>http://www.bates.edu/Faculty/wmarchive/wm-initiative/</a> and is an offshoot of the Archive of Papers and Watermarks in Greek Manuscripts at
+<a href=http://www.bates.edu/Faculty/wmarchive/>http://www.bates.edu/Faculty/wmarchive/</a>. Perhaps more relevant to CERES
+users is David Gants's site 'A Digital Catalogue of Watermarks and Type
+Ornaments Used by William Stansby in the Printing of The Workes of Benjamin
+Jonson', at <a href=http://jefferson.village.virginia.edu/gants/>http://jefferson.village.virginia.edu/gants/</a>.
+<p>
+For more bibliographical links, try HoBo, our next-door neighbours, at <a href=http://www.english.cam.ac.uk/hobo/bkres.html> http://www.english.cam.ac.uk/hobo/bkres.html</a>, or SHARP at
+<a href=http://www.indiana.edu/~sharp/>http://www.indiana.edu/~sharp/</a>.
+<p>
+<small><a href=#top>Back to top.</a><br>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+
+
+t1htc sEeas h

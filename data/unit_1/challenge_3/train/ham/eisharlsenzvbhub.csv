@@ -1,0 +1,667 @@
+<HTML>
+<HEAD>
+<TITLE> MORSE Input Files</TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="morse.css">
+</HEAD>
+<BODY>
+<H1 class=page>MORSE Input Files</h1>
+<H6>16SEP05</H6>
+<font color=maroon>Differences from <a href=./v2/outputs.html>MORSE v2</a>
+ in maroon</font>
+<HR>
+When <B>MORSE</B> is run, certain input files are <i>always</i> 
+required: the driver table (<b>morse.drv</b>)
+and files associated with mandatory sections
+of the driver table. Additional files may be required by
+optional sections of the driver table.
+Click on File column in the table below for details of a particular file.
+<P>
+<TABLE ALIGN=center>
+<CAPTION><B>MORSE Input Files</B></CAPTION>
+<THEAD>
+<TH CLASS=M COLSPAN=3>Mandatory Sections
+<TR><TH> Section <TH> File <TH ALIGN=LEFT> Description
+<TBODY>
+<TR> <TD>
+     <TD ALIGN=RIGHT><A href=#drv><B>morse.drv</b></a> 
+     <TD> Driver Table 
+<TR> <TD ALIGN=CENTER><a href=driver.html#mwl><B>*L1C</b></a>
+     <TD ALIGN=RIGHT><A href=#l1c><B> L1C*</b></a> 
+     <TD> Level 1C Data
+<TR> <TD> 
+     <TD ALIGN=RIGHT> <a href=#swp><B> *.swp </B></A> 
+     <TD> <font color=maroon>Retrieved pointing (optional)</font>
+<TR> <TD ALIGN=CENTER><a href=driver.html#mwl><B>*MWL</b></a>
+     <TD ALIGN=RIGHT><A href=#mwl><B> *.lst</b></a> 
+     <TD> Microwindow List 
+<TR> <TD ALIGN=CENTER><a href=driver.html#mwl><B>*MDB</b></a>
+     <TD ALIGN=RIGHT><A href=#mdb><B> MW*.DAT</b></a> 
+     <TD> Microwindow Database 
+<TR> <TD ALIGN=CENTER><a href=driver.html#cli><B>*CLI</b></a>
+     <TD ALIGN=RIGHT><A href=#cli><B> *.atm</b></a> 
+     <TD> Climatological Data
+<TR> <TD ALIGN=CENTER><a href=driver.html#ils><B>*ILS</b></a>
+     <TD ALIGN=RIGHT><A href=#ils><B> *.ils</b></a> 
+     <TD> (Apodised) Instrument Line Shape
+<TR> <TD ALIGN=CENTER><a href=driver.html#fov><B>*FOV</b></a>
+     <TD ALIGN=RIGHT><A href=#fov><B> *.fov</b></a> 
+     <TD> Field of View
+<TR> <TH CLASS=O COLSPAN=3>Optional Sections
+<TR><TH> Section <TH> File <TH ALIGN=LEFT> Description
+<TR> <TD ALIGN=CENTER><a href=driver.html#acv><B>*ACV</b></a>
+     <TD ALIGN=RIGHT><A href=#acv><B> *.acv</b></a> 
+     <TD> A Priori Covariance
+<TR> <TD ALIGN=CENTER><a href=driver.html#hit><B>*HIT</b></a>
+     <TD ALIGN=RIGHT><A href=#hit><B> *.bin</b></a> 
+     <TD> HITRAN Binary File
+<TR> <TD ALIGN=CENTER><a href=driver.html#l2p><B>*L2P</b></a>
+     <TD ALIGN=RIGHT><A href=#l2p><B> *.atm</b></a> 
+     <TD> Previously Retrieved Profiles
+<TR> <TD ALIGN=CENTER><a href=driver.html#lut><B>*LUT</b></a>
+     <TD ALIGN=RIGHT><A href=#lut><B> CS*DAT</b></a> 
+     <TD> Look-Up Tables
+<TR> <TD ALIGN=CENTER><a href=driver.html#nte><B>*NTE</b></a>
+     <TD ALIGN=RIGHT><A href=#nte><B> *.nte</b></a> 
+     <TD> Vibrational Temperatures (non-LTE)
+<TR> <TD ALIGN=CENTER><a href=driver.html#xsc><B>*XSC</b></a>
+     <TD ALIGN=RIGHT><A href=#xsc><B>.xsc</b></a> 
+     <TD> Molecular Cross-Sections
+</TABLE>
+
+<P>
+<B>Notes</b>
+<OL> 
+<LI> Most input files start with an arbitrary number of optional
+comment records, identified by the first character being '<b>!</b>'
+<LI> Blank records are ignored
+<LI> Numerical data are read free format unless otherwise specifed and
+text data is read either from specific positions within record or using
+spaces to distinguish fields (effectively free-format but without any
+requirement for quote marks).
+</ol>
+The rest of this document describes each input file in detail
+<a name=drv>
+<h2 class=m>morse.drv (mandatory)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Driver Table
+<DD> Controls operation of MORSE
+
+<P>
+<DT><B>Specified</b>
+<DD> Fixed filename (see Note 1)
+
+
+<P>
+<DT><B>Format</b>
+<DD> See <a href=driver.html><b>Driver Table</b></a>
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> The filename <b>morse.drv</b> is hard-wired in
+      subroutine <b>msedrv.for</b>.
+  </ol>
+<P>
+<DT><B>Examples</b>
+  <DD> <a href=morse_pt.drv><B>morse_pt.drv</b></a> for pT retrieval
+  <DD> <a href=morse_h2o.drv><B>morse_h2o.drv</b></a> for H2O retrieval
+</dl>
+
+<a name=l1c>
+<h2 class=m>L1C* (mandatory)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> MIPAS L1C Data 
+<DD> Apodised spectra for selected microwindows
+
+<P>
+<DT><B>Specified</b>
+<DD> Filename specified in <A href=driver.html#l1c><B>*L1C</b></a> section  
+
+<P>
+<DT><B>Format</b>
+<DD> See 
+<a href=http://www.atm.ox.ac.uk/group/mipas/L1C/>L1C Format</a>
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> L1C data can be generated from ESA L1B spectra by the IDL program 
+      <a href=l1c.html><B>l1c.pro</b></a>
+  </ol>
+
+<P>
+<DT><B>Example</b>
+  <DD> <b><a href="L1C_02081_SCAN_13">L1C_02081_SCAN#13</a></b> 
+  (Scan#13, Orbit 2081)
+</dl>
+
+
+<a name=swp>
+<h2 class=o>*.swp (optional)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Retrieved Sweep tangent altitudes
+
+<P>
+<DT><B>Specified</b>
+<DD> Filename specified in <A href=driver.html#l1c><B>*L1C</b></a> section  
+
+<P>
+<DT><B>Format</b>
+<DD> Same as MORSE <a href=outputs.html#swp><B>.swp</B></A> output
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> <font color=maroon>New to MORSE v3: previously the sweep altitudes
+       were updated via the <a href=#l2p><B>.atm</B></A> file in the 
+       <A href=driver.html#l2p><B>*L2P</B></A> section.</font>
+  <LI> Only the <B>*SWEEP</B> and <B>*HGT_RTV</B> profiles are read from
+      the  <a href=outputs.html#swp><b>.swp</b></a> file when used as input.
+  </ol>
+
+<P>
+<DT><B>Example</b>
+  <DD> <b><a href="L1C_02081_SCAN_13">L1C_02081_SCAN#13</a></b> 
+  (Scan#13, Orbit 2081)
+</dl>
+
+
+<a name=mwl>
+<h2 class=m>*.lst (mandatory)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> List(s) of microwindows to be used in retrieval.
+
+<P>
+<DT><B>Specified</b>
+<DD> Filename(s) specified in <a href=driver.html#mwl><B>*MWL</b></a> section
+
+<P>
+<DT><B>Format</b>
+<DD> Records up to C*120 
+<DD> <TABLE CLASS=rec>
+    <TR><TD><B> !CMNT </B> <TD BGCOLOR=WHITE> [optional comment records]
+    <TR><TD><B> ISEQ  LAB WNOL WNOU ALTL ALTU </B>[
+       <B>ABS</B>(1) <B>ABS</B>(2) ...etc]
+        <TD BGCOLOR=WHITE> [1 record per microwindow]
+    <TR><TD> [eof]
+    </TABLE>
+
+<DD><TABLE CLASS=fld>
+   <TR><TH>Field<TH>Type<TH>Description<TH>Range
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> !CMNT </B></FONT> 
+       <TD> C*120
+       <TD> Comment record(s) (optional)
+       <TD> Record starts with '<TT>!</TT>'
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> ISEQ </B></FONT> 
+       <TD ALIGN=CENTER> I 
+       <TD> Sequence Number (Dummy/Optional) 
+       <TD> eg <b>1</b>
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> LAB </B></FONT> 
+       <TD ALIGN=CENTER> C*8 
+       <TD> Microwindow Label 
+       <TD> eg <B>PT__0001</b> 
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> WNOL </B></FONT>  
+       <TD ALIGN=CENTER> R*8 
+       <TD> MW Lower Wavenumber Boundary [cm<SUP>-1</SUP>] 
+       <TD> eg <b>686.400</b>
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> WNOU </B></FONT>  
+       <TD ALIGN=CENTER> R*8 
+       <TD> MW Upper Wavenumber Boundary [cm<SUP>-1</SUP>] 
+       <TD> eg <b>689.400</b>
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> ALTL </B></FONT>  
+       <TD ALIGN=CENTER> R*4
+       <TD> MW Lower Tangent Altitude [km] 
+       <TD> eg <b>30</b>
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> ALTU </B></FONT>  
+       <TD ALIGN=CENTER> R*4
+       <TD> MW Upper Tangent Altitude [km] 
+       <TD> eg <b>68</b>
+   <TR><TD ALIGN=RIGHT> <FONT COLOR=RED> <B>ABS</B>(i) </FONT> 
+       <TD ALIGN=CENTER> I
+       <TD>  
+      <A href=http://www.atm.ox.ac.uk/RFM/sum/rfm_gaslist.html>HITRAN 
+       Index</a> of absorber#i (Optional)
+       <TD> eg <b>2</b> (=CO2)
+</TABLE>
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> 
+       The first 4 characters of a non-comment record normally contain the
+       number <B>ISEQ</B> of the microwindow in order of selection, 
+       however these are
+       not used by MORSE. Microwindows are processed in the order in which
+       they appear in the <b>.lst</b> file rather than selection sequence.
+  <LI> The Microwindow Label <B>LAB</B>
+       is assumed to occupy positions 5:12 in the record.
+       All subsequent data is read free-format.
+  <LI> If any absorber indices <B>ABS</B>
+       are specified in the <b>.lst</b> file these
+       will override the list of absorbers in the <a href=#mdb>Microwindow
+       Database File</a> 
+  <LI> Unlike MORSE, the <a href=l1c.html><b>L1C</b></a> program requires
+      a single list file in order to extract microwindows from L1B data. 
+      However this can be created from different microwindow lists 
+       (eg different species)
+       simply by concatenating the individual files, eg
+       <blockquote><div class=termbox>
+       <PRE><B>cat pt_mws.lst h2o_mws.lst > all_mws.lst</b></pre>
+       </div></blockquote>
+  </ol>
+<P>
+<DT><B>Examples</b>
+  <DD> <a href=pt_000.lst><B>pt_000.lst</b></a> Microwindows for pT retrieval
+  <DD> <a href=h2o_000.lst><B>h2o_000.lst</b></a> Microwindows for H2O retrieval
+</dl>
+
+<a name=mdb>
+<h2 class=m>MW*DAT (mandatory-ish)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Microwindow Database file(s)
+<DD> File containing, amongst other things, the spectral masks,
+     irregular grids and absorber lists associated with each microwindow.
+
+<P>
+<DT><B>Specified</b>
+<DD> Filename(s) specified in <a href=driver.html#mdb><b>*MDB</b></a> section
+<P>
+<DT><B>Format</b>
+<DD> These are ASCII files whose format is too complicated to detail here,
+but is described in ESA documents
+   <DL>
+   <DT> The Revised Microwindow Database Format 
+   <DD> <I> Tech Note PO-TN-IMK-GS-0002 (April, 1999) </i>
+   <DT> ASCII Input Data Interface Control Document (DD53) 
+   <DD> <I> PO-IF-DOG-GS-0002 (April, 1999)  </i>
+   </dl>
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> The <A
+      href=http://www.atm.ox.ac.uk/RFM/mwmake.html#imkfil><B>*.imk</b></A>  
+      microwindow files generated by 
+      <B>mwmake</b> program are in fact single microwindow versions of the 
+       <B>MW*DAT</b> files, 
+      minus the irregular grids which are derived by a separate
+       process - see <a href=http://www.atm.ox.ac.uk/group/mipas/documents/PO-MA-OXF-GS-0019.pdf>PO-MA-OXF-GS-0019.pdf</a>
+  </ol>
+
+<P>
+<DT><B>Examples</b>
+  <DD> Directory <b><a href=./MW/>./MW</a></b> contains Microwindow Database
+       Files for various species and spectral resolutions.
+  <DD> See  
+      <b><a href=./MW/README.txt>./MW/README.txt</a></b> for further details.
+</dl>
+
+<a name=cli>
+<h2 class=m>*.atm (mandatory)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Climatological profiles
+<DD> Used as both <i>a priori</I> and initial guess.
+ 
+<P>
+<DT><B>Specified</b>
+<DD> Filename(s) specified in <A href=driver.html#cli><B>*CLI</b></a> section
+
+<P>
+<DT><B>Format</b>
+<DD> RFM <a href=http://www.atm.ox.ac.uk/RFM/sum/atmfil.html><b>.atm</b></a>
+file format
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> Profiles have to be supplied for temperature, pressure and every
+     absorbing species (including aerosol if Continuum is retrieved).
+  </ol>
+
+<P>
+<DT><B>Examples</b>
+  <DD> ESA 'Initial Guess' Climatology, as created by U.Leicester are in
+     directory <a href=./IG/><B>./IG</b></a> - 
+    see <a href=./IG/README.txt><B>./IG/README.txt</B></a>   
+  <DD> Also <a
+  href=http://www.atm.ox.ac.uk/RFM/rfm_downloads.html#atm>http://www.atm.ox.ac.uk/RFM/rfm_downloads.html#atm</a>
+  for other 'atmospheres'.
+  <DD> <a href=aerosol.atm><b>aerosol.atm</b></a> 'zero' aerosol profile.
+</dl>
+
+
+<a name=ils>
+<h2 class=m>*.ils (mandatory)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> (Apodised) Instrument Line Shape file(s)
+  
+<P>
+<DT><B>Specified</b>
+<DD> Filename(s) specified in <A href=driver.html#ils><B>*ILS</b></a> section
+
+<P>
+<DT><B>Format</b>
+<DD> RFM <a href=http://www.atm.ox.ac.uk/RFM/sum/ilsfil.html><b>.ils</b></a>
+    file format.
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> Every microwindow has to have a single, valid ILS function assigned
+       to it, although the same function can be assigned to more than one
+       microwindow.
+  </ol>
+
+<P>
+<DT><B>Examples</b>
+  <DD> <a href=ofm.ils><b>ofm.ils</b></a> Idealised AILS for 0.025cm-1
+      sampling, Norton Beer Strong Apodisation, applicable over whole range.
+  <DD> <A href=mipas_a.ails><B>mipas_a.ails</b></a> Pre-launch computation of 
+      the MIPAS A-band AILS.
+</dl>
+
+
+<a name=fov>
+<h2 class=m>*.fov (mandatory)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Field of View file
+  
+<P>
+<DT><B>Specified</b>
+<DD> Filename specified in <A href=driver.html#fov><B>*FOV</b></a> section
+
+<P>
+<DT><B>Format</b>
+<DD> RFM <a href=http://www.atm.ox.ac.uk/RFM/sum/fovfil.html><b>.fov</b></a>
+    file format.
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> Only a single FOV function is used for all microwindows.
+  <LI> The FOV tabulated as a function of relative altitude refers to 
+      the geometric projection on to the limb - by default the ray-tracing
+      will allow for the expansion due to refraction (unless the 
+      <B>FVZ</B> Flag is set in the <A href=driver.html#flg><B>*FLG</B></A>
+  section)
+  <LI> No FOV is required for nadir-viewing spectra.
+  </ol>
+
+<P>
+<DT><B>Examples</b>
+  <DD> <a href=rfm_1km5.fov><b>rfm_1km5.fov</b></a> Field of View represented
+      as 5 points with 1.5km spacing
+</dl>
+
+
+<a name=acv>
+<h2 class=o>*.acv (optional)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> A Priori Covariance Matrix
+  
+<P>
+<DT><B>Specified</b>
+<DD> Filename specified in <A href=driver.html#acv><B>*ACV</b></a> section
+
+<P>
+<DT><B>Format</b>
+<DD> Same as <a href=outputs.html#cov><b>morse.cov</b></a> output file.
+<DD> <TABLE CLASS=rec>
+    <TR><TD><B> !CMNT </B> <TD BGCOLOR=WHITE> [optional comment records]
+    <TR><TD><B> N M </B>
+    <TR><TD><B>SA</B>(1,1) <B>SA</B>(2,1) ...
+    <TR><TD>... <B>SA</B>(N,M)
+    <TR><TD> [eof]
+    </TABLE>
+
+<DD><TABLE CLASS=fld>
+    <TR><TH>Field<TH>Type<TH>Description<TH>Range
+    <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> !CMNT </B></FONT> 
+        <TD> C*80
+        <TD> Comment record(s) (optional)
+        <TD> Record starts with '<TT>!</TT>'
+    <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> N </B></FONT> 
+        <TD ALIGN=CENTER> I 
+        <TD> First dimension of matrix
+        <TD> eg <b>36</b>
+    <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> M </B></FONT> 
+        <TD ALIGN=CENTER> I 
+        <TD> Second dimension of matrix
+        <TD> same as <B>N</B>
+    <TR><TD ALIGN=RIGHT> <FONT COLOR=RED><B> SA </B></FONT> 
+        <TD ALIGN=CENTER> R*8
+        <TD> Covariance Matrix elements
+        <TD> eg <b>0.151308903009384</b>
+    </TABLE>
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> Although covariance matrices are always square, the file format
+       is intended to be used for any matrix, so both dimensions
+      <B>N, M</b> are specified (it is checked that these are
+       both the same when the file is read).
+  </ol>
+
+<P>
+<DT><B>Examples</b>
+  <DD> <A href=morse.cov><B>morse.cov</b></a>
+</dl>
+
+
+<a name=hit>
+<h2 class=o>*.bin (optional)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Binary form of HITRAN (-type) line parameter data 
+  
+<P>
+<DT><B>Specified</b>
+<DD> Filename specified in <A href=driver.html#hit><B>*HIT</b></a> section
+
+<P>
+<DT><B>Format</b>
+    <DD> RFM 
+<a href=http://www.atm.ox.ac.uk/RFM/sum/hitfil.html><B>.hit</b></a> file format
+
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> HITRAN ASCII data converted into a direct-access binary file
+        using the RFM program <a
+        href=http://www.atm.ox.ac.uk/RFM/rfm_downloads.html#for><b>hitbin.for</b></a>
+        (this doesn't yet work for the new HITRAN 2004 format
+  - see <a href=http://www.hitran.com>www.hitran.com</a>)
+  <LI> The same binary files can be used on most unix and linux systems,
+       although for Windows and Sun machines it may be necessary to 
+       regenerate the file using <b>hitbin</b> since the byte-ordering
+       appears to be different. 
+  <LI> There is a MIPAS-specific database in HITRAN ASCII
+      format - see <a
+   href=http://www.ifac.cnr.it/retrieval/database.html>http://www.ifac.cnr.it/retrieval/database.html</a>.
+   Once you have obtained the necessary permission we can give you the 
+    binary version for use with MORSE.
+  </ol>
+<P>
+<DT><B>Example</b>
+   <DD> File <b>hitran_dummy.bin</b> in directory <a href=./bin><b>./bin</b></a>
+    (just H2O lines from  791-808cm-1)
+</dl>
+
+<a name=l2p>
+<h2 class=o>*.atm (optional)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Previously retrieved profiles from the same L1B scan
+ 
+<P>
+<DT><B>Specified</b>
+<DD> Filename(s) specified in <A href=driver.html#l2p><B>*L2P</b></a> section
+
+<P>
+<DT><B>Format</b>
+<DD> RFM <a
+href=http://www.atm.ox.ac.uk/RFM/sum/atmfil.html><B>.atm</b></a> file
+format.
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> These are intended to be the MORSE <a
+  href=outputs.html#atm><b>.atm</b></a> output files from previous retrievals
+   on the same vertical grid - see 
+  <a href=driver.html#l2p><B>*L2P</B></A> section for usage
+  <LI> <font color=maroon>In MORSE v3, any <B>*SWEEP</B> data is ignored - 
+altitudes are now
+      updated in the <A href=driver.html#l1c><B>*L1C</B></A> section.</font>
+  </ol>
+
+<P>
+<DT><B>Examples</b>
+  <DD> <b><a href=morse_pt.atm>morse_pt.atm</a></b>
+  <DD> <b><a href=morse_h2o.atm>morse_h2o.atm</a></b>
+</dl>
+
+<a name=lut>
+<h2 class=o>CS*DAT (optional)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> SVD-compressed Look-Up Tables of absorption coefficients
+ 
+<P>
+<DT><B>Specified</b>
+<DD> Directories specified in 
+     <A href=driver.html#lut><B>*LUT</b></a> section  
+<DD> Filenames are constructed in the form:
+     <B>CS_<FONT COLOR=RED>[LAB]</FONT>_<FONT COLOR=RED>[ii]</FONT>.DAT</B>
+<TABLE>
+<TR><TD ALIGN=RIGHT><FONT COLOR=RED><B>[LAB]</B></FONT> <TD> A8 <TD> 
+        Microwindow Label
+          <TD> eg <b>H2O_0001</b>
+<TR><TD ALIGN=RIGHT><FONT COLOR=RED><B>[ii]</B></FONT> <TD> I2.2 <TD> 
+         <a href=http://www.atm.ox.ac.uk/RFM/sum/rfm_gaslist.html>HITRAN
+           Index</a> of the absorber <TD> eg <B>02</b> (=CO2).
+</TABLE>
+<P>
+<DT><B>Format</b>
+<DD> RFM <A href=http://www.atm.ox.ac.uk/RFM/sum/lutfil.html><B>.lut</B></A> 
+     file format
+<DD> Also described in 
+<a href=http://www.atm.ox.ac.uk/group/mipas/documents/PO-TN-OXF-GS-0011.txt>PT-TN-OXF-GS_0011.txt</a>
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> The SVD-compressed LUTs are those used in the ESA retrieval,
+      generated as part of the microwindow processing suite
+      <b>mwproc</b> (see <a href=http://www.atm.ox.ac.uk/group/mipas/documents/PO-MA-OXF-GS-0019.pdf>PO-MA-OXF-GS-0019.pdf</a>)
+  <LI> <font color=green>In theory, instead of the SVD-compressed LUTs, the LUTs generated 
+      directly by the RFM using the <a
+      href=http://www.atm.ox.ac.uk/RFM/sum/tabflg.html><B>TAB</b></A> option
+      can also be used (provided they have the same filenames), however this
+       hasn't been tested.</font>
+  <LI> <B>SF6</B>: although SF6 cross-section data (HITRAN ID=64) is usually
+      used, for historical reasons MORSE assumes that the CS*DAT file has the
+      ID <B>ii</B>=30.
+  <LI> Isotopes: the <a
+      href=http://www.atm.ox.ac.uk/RFM/sum/rfm_isolist.html>HITRAN Isotope
+      ID</a> is inserted as a decimal digit after the Gas ID, eg
+       CS_H2O_0001_01.4.DAT for H2O (ID=01) isotope#4 (=HDO).
+  </ol>
+<P>
+<DT><B>Examples</b>
+  <DD> In directory <a href=./CS/><B>./CS</b></a> 
+      (see <b><a href=./CS/README.txt>./CS/README.txt</a></b>)
+</dl>
+
+<a name=nte>
+<h2 class=o>*.nte (optional)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Vibrational Temperatures (non-LTE calculations)
+ 
+<P>
+<DT><B>Specified</b>
+<DD> Filename(s) specified in 
+<A href=driver.html#nte><B>*NTE</b></a> section
+
+<P>
+<DT><B>Format</b>
+<DD> RFM <a
+href=http://www.atm.ox.ac.uk/RFM/sum/ntefil.html><B>.nte</b></a> file
+format.
+
+<P>
+<DT><B>Examples</b>
+</dl>
+
+
+<a name=xsc>
+<h2 class=o>*.xsc (optional)</h2>
+<P>
+<DL>
+<DT><B>Description</b>
+<DD> Heavy Molecule Cross-Section data
+ 
+<P>
+<DT><B>Specified</b>
+<DD> Directories specified in 
+     <A href=driver.html#xsc><B>*XSC</b></a> section
+<DD> Filenames are constructed in the form:
+     <B><FONT COLOR=RED>[gas]</FONT>.xsc</B> 
+     <TABLE>
+<TR><TD ALIGN=RIGHT><FONT COLOR=RED><B>[gas]</B></FONT> 
+      <TD> A7 <TD> Name of the molecule <TD> eg <b>f12</b>
+</TABLE>
+
+<P>
+<DT><B>Format</b>
+<DD> RFM <a href=http://www.atm.ox.ac.uk/RFM/sum/xscfil.html><b>.xsc</b></A>
+     file format, except restricted to one molecule per file. 
+
+<P>
+<DT><B>Notes</b>
+  <OL>
+  <LI> Molecule names are expected to be lower case and 
+      using the 
+           <a
+           href=http://www.atm.ox.ac.uk/RFM/sum/rfm_gaslist.html><B>F..</b></a>
+           codes for CFCs eg <b>f11</b> for CFCl3
+  </ol>
+<P>
+<DT><B>Examples</b>
+  <DD> See <a href=http://www.atm.ox.ac.uk/RFM/rfm_downloads.html#xsc>http://www.atm.ox.ac.uk/RFM/rfm_downloads.html#xsc</a>
+  <DD> <a href=aerosol.xsc><b>aerosol.xsc</b></a> flat aerosol spectrum.
+</dl>
+<HR>
+<UL>
+<LI><a href=index.html>Back to MORSE Index</a>
+</UL>
+</BODY>
+</HTML>
+
+
+a b6 Tel/y

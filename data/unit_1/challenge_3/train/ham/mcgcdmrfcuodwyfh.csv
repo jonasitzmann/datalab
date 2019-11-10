@@ -1,0 +1,398 @@
+<html>
+
+<head>
+
+<title>
+
+CERES Harvest III.i</title>
+
+</head>
+
+<body background=gifs/sheaf3.gif bgcolor=FFFFBB text=000000 link=0000FF alink=FF0000 vlink=007700>
+
+<a name=top></a>
+<center>
+<script language="JavaScript">
+
+<!--
+
+    ceresoff = new Image(250,74);
+    ceresoff.src = "gifs/ceresoff.gif";
+    cereson = new Image(250,74);
+    cereson.src = "gifs/cereson.gif";    
+
+    copiaoff = new Image(78,74);
+    copiaoff.src = "gifs/copiaoff.gif";
+    copiaon = new Image(78,74);
+    copiaon.src = "gifs/copiaon.gif";
+
+    linksoff = new Image(78,74);
+    linksoff.src = "gifs/linksoff.gif";
+    linkson = new Image(78,74);
+    linkson.src = "gifs/linkson.gif";
+
+    archiveoff = new Image(78,74);
+    archiveoff.src = "gifs/archiveoff.gif";
+    archiveon = new Image(78,74);
+    archiveon.src = "gifs/archiveon.gif";
+
+    aboutoff = new Image(113,31);
+    aboutoff.src = "gifs/aboutoff.gif";
+    abouton = new Image(113,31);
+    abouton.src = "gifs/abouton.gif";
+
+    searchingoff = new Image(113,31);
+    searchingoff.src = "gifs/searchingoff.gif";
+    searchingon = new Image(113,31);
+    searchingon.src = "gifs/searchingon.gif";
+
+
+//-->
+
+</script>
+
+<table width=100%>
+<tr>
+<td width=35% valign=middle align=center>
+ <a href="main.htm"
+        onmouseover="ceres.src = cereson.src"
+        onclick="ceres.src = cereson.src"
+        onmouseout="ceres.src = ceresoff.src"><img
+        alt="CERES"
+        src="gifs/ceresoff.gif"
+        border="0" width="250"
+        height="74" name="ceres"></a></td>
+
+<td width=15% valign=middle align=center>
+ <a href="copia.htm"
+        onmouseover="copia.src = copiaon.src"
+        onclick="copia.src = copiaon.src"
+        onmouseout="copia.src = copiaoff.src"><img
+        alt="Copia"
+        src="gifs/copiaoff.gif"
+        border="0" width="78"
+        height="74" name="copia"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="links.htm" 
+        onmouseover="links.src = linkson.src"
+        onclick="links.src = linkson.src"
+        onmouseout="links.src = linksoff.src"><img
+        alt="Links"
+        src="gifs/linksoff.gif"
+        border="0" width="78"
+        height="74" name="links"></a></td>
+
+<td width=15% valign=middle align=center>
+  <a href="archive.htm" 
+        onmouseover="archive.src = archiveon.src"
+        onclick="archive.src = archiveon.src"
+        onmouseout="archive.src = archiveoff.src"><img
+        alt="Archive"
+        src="gifs/archiveoff.gif"
+        border="0" width="78"
+        height="74" name="archive"></a></td>
+
+<td width=20% valign=middle align=center>
+<a href="about.htm" 
+        onmouseover="about.src = abouton.src"
+        onclick="about.src = abouton.src"
+        onmouseout="about.src = aboutoff.src"><img
+        alt="About CERES"
+        src="gifs/aboutoff.gif"
+        border="0" width="113"
+        height="31" name="about"></a><br>
+<a href="search.htm" 
+        onmouseover="searching.src = searchingon.src"
+        onclick="searching.src = searchingon.src"
+        onmouseout="searching.src = searchingoff.src"><img
+        alt="Search CERES"
+        src="gifs/searchingoff.gif"
+        border="0" width="113"
+        height="31" name="searching"></a>
+</td>
+</tr>
+</table>
+<hr></center>
+<p>
+<h2 align=center>CERES Harvest III.i<br>
+
+7.1.97</h2>
+<center><table width=75%>
+<tr><td><h4 align=justified><cite>
+How came this fortune to you, said he, for no doubt but you were
+borne of better ranke then the estate you appeare in shewes you
+to be: Loue, said shee, hath tyranniz'd ouer me, as well as plaid
+with you. His sports, if but such as I yet feele, cryde he, are
+rather racks and tortures then delights, vnlesse you will call
+them playes, as Dogges and Horses are taught by stripes and
+blowes, and such pastime I haue in loue, and so loue playes with
+mee: she that time that he discoursed, wound vp her hayre in
+strings of tawny, to shew her chance; then as if to hide it a
+little, or rather her selfe from the Sunne, shee put a dainty
+strawne hat on her head, appearing like Ceres crownd with her
+owne plenty.
+</cite></h4></td></tr></table>
+</center>
+
+<p>
+<hr>
+
+<strong>CONTENTS</strong><br>
+
+Please select from the index or scroll through below.
+
+<ul>
+
+<li><a href=#netsources>Internet Resources</a>
+
+<li><a href=#nftn>News From the Net</a>
+
+</ul>
+
+<p>
+
+<hr>
+
+<a name=netsources></a>
+
+<h2 align=center>INTERNET RESOURCES</h2>
+<p>
+<a name=emedd></a>
+<strong>EARLY MODERN ENGLISH DICTIONARIES DATABASE</strong><br>
+When complete, this could turn out to be outstandingly useful. As
+it stands, it is already a considerable resource. The principle
+behind this project, edited by Ian Lancashire, is to collect
+early dictionary materials and make them searchable. Head for the
+start page at <a href=http://www.chass.utoronto.ca:8080/english/emed/emedd.html>http://www.chass.utoronto.ca:8080/english/emed/emedd.html</a>.
+Here you'll find a useful introduction to EMEDD, including a
+history of the project, and reflections on the nature of
+renaissance word-meanings etc.
+<p>
+The present EMEDD includes 18 works at various stages of
+completion:
+<ul>
+<li>six bilingual dictionaries - John Palsgrave (1530;
+English-French), Sir Thomas Elyot (1538; Latin- English), William
+Thomas (1550; Italian-English), Thomas Thomas (1587;
+Latin-English), John Florio (1598; Italian-English), and Randle
+Cotgrave (1611; French-English) - these give pairs of French,
+Italian, and Latin dictionaries, each pair separated by 50-80
+years.
+<li>four English hard-word dictionaries - Edmund Coote (1596), Robert
+Cawdrey (1604; courtesy of Raymond Siemens), John Bullokar (1616),
+and Henry Cockeram (1623) - and one English word-list by Richard
+Mulcaster (1582).
+<li>the first full English-only dictionary - Thomas Blount (1656).
+<li>three specialized lexicons - William Turner on herbal names
+(1548), Henry Mainwearing on maritime words (1644), and John
+Garfield on scientific terms (1657).
+<li>four treatises with substantial glossing - Pierre Valence on
+French grammar (1528), Richard Sherry on schemes (1550) and on
+figures (1555), and George Puttenham on the English poetics
+(1589).
+</ul>
+<p>
+The 11 of these which are currently in presentable form can be
+searched using 'Patterweb', a search device created by Mark Catt.
+This allows intelligent and flexible searching, e.g. with
+combination searches, searching through dictionaries individually
+or as a group. It is possible to search for words near each other
+(e.g. pawn near chess) or NOT near each other (pawn not near
+chess) which is a clever idea. The search page is
+<a href=http://www.chass.utoronto.ca/english/emed/patterweb.html>http://www.chass.utoronto.ca/english/emed/patterweb.html</a>. Available: Palsgrave, William Thomas, Mulcaster, Thomas Thomas, Coote, Minsheu, Cawdrey, Bullokar, Cockeram, Blount, Garfield.
+<p>
+EMEDD is part of the older and larger Edicta project which
+incorporates similar projects relating to French and Latin. Find
+out more, and use the links, at
+<a href=http://www.chass.utoronto.ca:8080/~wulfric/edicta/intro.htm>http://www.chass.utoronto.ca:8080/~wulfric/edicta/intro.htm</a>.
+<p>
+Interestingly and conveniently a recent Special Issue of the
+on-line journal EMLS features uses of the dictionary database
+mainly relating to Shakespeare. Seek inspiration at
+<a href=http://www.humanities.ualberta.ca/emls/si-01/si-01toc.html>http://www.humanities.ualberta.ca/emls/si-01/si-01toc.html</a>
+Most of these essays grew out of Ian Lancashire's graduate course
+on Shakespeare's language offered at the University of Toronto in
+1995-96.
+<p>
+<strong>MIDDLETON ON-LINE</strong><br>
+Surely one of the best electronic texts on offer. Chris Cleary
+maintains this site based at the U of Virginia, and has so far
+produced electronic editions of three-quarters of Middleton's
+work (ranging from plays certainly written by Middleton alone to
+dubious collaborations). This is an attractive set of pages and
+the texts are clear and intelligently annotated; each play's
+notes starts with a brief but sensible introduction. One of the
+best features is that interesting points of vocabulary are not
+only glossed but also linked, hypertextually, to other instances
+in Middleton. Some of the notes are more extended and also make
+use of links. Coming soon: the rest of the plays, and full
+textual apparatus. As Cleary notes, these editions are not
+refereed, but they have been undertaken carefully. Head for
+<a href=http://dayhoff.med.virginia.edu/~ecc4g/middhome.html>http://dayhoff.med.virginia.edu/~ecc4g/middhome.html</a>.
+<p>
+<strong>RICHARD BEAR'S SNOWBALL</strong><br>
+Yet more e-texts have been added to Richard Bear's Renascence
+Editions website at: <a href=http://darkwing.uoregon.edu/~rbear/ren.htm>http://darkwing.uoregon.edu/~rbear/ren.htm</a>.  Thomas Campion's <cite>Observations on the Art of English Poesie</cite> has very recently appeared, along with seven John Milton online books,
+now available in new HTML editions and published by arrangement
+with Judy Boss of University of Nebraska at Omaha. They are:
+<ul>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/areopagitica.html>Areopagitica</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/comus.html>Comus</cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/lycidas.html>Shorter Poems</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/edu.html>Of Education</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/lost/lost.html>Paradise Lost</a></cite> (1667, in 10 books)
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/regained.html>Paradise Regained</a></cite>
+<li><cite><a href=http://darkwing.uoregon.edu/~rbear/samson.html>Samson Agonistes</a></cite>
+</ul>
+<p>
+<strong>ELECTRONIC SIXTEENTH CENTURY JOURNAL</strong><br>
+ESCJ, which has been around since last July, has been rather
+underpublicised. So we are publicising it again: <a href=http://www.truman.edu/escj/home.html>http://www.truman.edu/escj/home.html</a>. Like many journal websites it has a nice logo but is a little thin
+on content. One or two features do have the potential to save shoe
+wear, such as the abstracts of articles from recent issues of
+Sixteenth Century Journal, and the list, in full and brief formats
+and with an index, of books in the Sixteenth Century Essays and
+Studies series:<br>
+Abstracts: <a href=http://www.truman.edu/escj/abstracts.html>http://www.truman.edu/escj/abstracts.html</a><br>
+Books: <a href=http://www.truman.edu/escj/books.html>http://www.truman.edu/escj/books.html</a>.<br>
+You can also follow links to find out about C16 Studies Conferences
+past and future.
+<p>
+<strong>MEDIEVAL AND RENAISSANCE GAMES</strong><br>
+This meticulously-prepared page features a huge variety of games
+from many periods and cultures. Rules, pictures, documents, and
+discussions are all available, many of them on this site, and
+others via links. It is aimed at the player rather than at the
+scholar, which makes it quite a refreshing read, but it could
+well be a highly useful and informative aid to those who wonder
+about the rules of obscure games that crop up in their reading.
+Get your dice and cards ready, and head for <a href=http://www.inmet.com/~justin/game-hist.html>http://www.inmet.com/~justin/game-hist.html</a>.
+<p>
+<strong>ELIZABETHAN REVIEW</strong><br>
+This is an on-line journal of less standing than some and, I am
+afraid to report, takes an unhealthy interest in the question of
+whether the Earl of Oxford wrote Shakespeare's plays. Still, some
+of its output is on-line and there may be things of interest. You
+can find ER at <a href=http://www.elizreview.com/>http://www.elizreview.com/</a>.
+<p>
+<strong>FLORIMENE ON THE WEB</strong><br>
+This project is at heart a teaching resource, using electronic
+media to guide students through 17th century staging via the
+example of Florimene. Started in 1988, it has (not surprisingly)
+changed its method considerably and the genesis of the current
+WWW format takes up some space on the site, but it is
+interesting. The material on staging is impressively technical
+and represented in wonderfully bilious colours which recall the
+great days of 1980s computing. For content and for its
+demonstration of what can be done, this is worth a visit:
+<a href=http://artsci.washington.edu/drama/flori1.html>http://artsci.washington.edu/drama/flori1.html</a>.
+<p>
+<strong>TYBURN TREE</strong><br>
+A website devoted to public execution in early modern England,
+including texts (a couple of homilies), selections from other
+contemporary documents (Kyd, Pepys, Boswell, Newgate Calendar), a
+few dying speeches, images, bibliography, and links. The site is
+unfinished and apologises for this; its current sponsor clearly
+wants to hand it over to someone else. Nevertheless, some stuff...
+<a href=http://www.wantree.com.au/~halligan/tyburn.htm>http://www.wantree.com.au/~halligan/tyburn.htm</a>.
+<p>
+<strong>MONTAIGNE STUDIES</strong><br>
+The journal's homepage includes tables of contents of past issues
+but not electronic versions of the articles. Included also is the
+'Bibliotheca Desaniana' which includes bibliographical details
+and facsimile title-pages of editions from the first to Dali's
+selection from Cotton's translation. Links from here to some
+French renaissance texts and resources. Head for:
+<a href=http://humanities.uchicago.edu/humanities/montaigne/index.html>http://humanities.uchicago.edu/humanities/montaigne/index.html</a>.
+<p>
+<strong>RENAISSANCE FORUM NEW ISSUE</strong><br>
+The Autumn 1997 (2.2) issue of <cite>Renaissance Forum</cite> is available on
+the WWW from <a href=http://www.hull.ac.uk/renforum/index.html>http://www.hull.ac.uk/renforum/index.html</a>.  Contents include: Steve Longstaffe, 'What is the English history
+play and why are they saying such terrible things about it?'; David
+Siar, 'Jean E. Howard's Postmodern Marxist Feminism and the
+Economic Last Instance'; and Anny Crunelle-Vanrigh with a Kristevan
+view of Hamlet's First Soliloquy.  Plus reviews by Nick Cox, J. C. Davis, Lisa Hopkins, Romauld I. Lakowski, Mark E. C. Perrott, Jeffrey Powers-Beck and J. A. Sharpe
+of books by or edited by Simon Barker, David Bevington, David
+Cressy, Christopher Durston and Jacqueline Eales, R.A. Foakes, Sean
+Kelsey, William Lamont, Diarmaid MacCulloch, Julia Reinhard Lupton,
+Derek Roper, John Russell Brown, David L. Smith, Richard Strier and
+David Bevington, and Michael Taylor.
+<p>
+<small><a href=#top>Back to top.</a></small>
+<hr>
+<a name=nftn></a>
+<h2 align=center>NEWS FROM THE NET</h2>
+<p>
+<strong>DISEASE IN EARLY MODERN ENGLAND</strong><br>
+'The Discursive Construction of Disease in Early Modern England' is
+a proposed panel for the 1988 Sixteenth Century Studies Conference
+in Toronto, Ontario (10/22-25) will focus on the role of texts -
+medical, religious, juridico-political and literary - in the
+production of discourses of disease and illness in early modern
+England. Of special interest are papers that examine the political
+agendas of this discourse and the notions of particular diseases
+they produce.  Abstracts were due by January 30, 1998; more information can be had from John Gibbs, Texas A&M University, Department of English, College Station, TX 77843-4227 or on email at <a href=mailto:jog367a@unix.tamu.edu>jog367a@unix.tamu.edu</a>.
+<p>
+<strong>1998 SAN FRANCISCO MLA PANELS</strong><br>
+<ol type=1>
+<li>'English Prose Fiction and the Construction of Readership in the
+1590s', devoted to examining the emergence of prose fiction in the
+final decade of the sixteenth century. Of particular interest are
+papers that discuss the historical conditions of the genre's
+appearance and the concomitant emergence of its audience. Papers
+may also touch on questions of authorship, especially regarding how
+authors perceived themselves, their medium, and their readership,
+or questions of the social function of prose - its role in the
+generation and maintenance of political ideology.
+Abstracts were due by January 30, 1998; more information can be had from John Gibbs, Texas A&M University, Department of English, College Station, TX
+77843-4227 or on email at <a href=mailto:jog367a@unix.tamu.edu>jog367a@unix.tamu.edu</a>.
+<li>'Maiden Knights: Masculinities in the Early Modern Prose Romances
+in England' - call for papers on heroic and romantic masculinity,
+male friendship, race, class and masculinity, the homoerotics of
+prose romances, masculinity and nationalism, masculinity and
+mecantilisim, women and their relationship to the masculine in
+early romances, male cross-dressing - and other topics that
+historicize and theorize the construction of masculinity in prose
+romances in the 16th and 17th century.  Abstracts were due by March 10, 1998; more information is available from Goran Stanivukovic,
+University College of Cape Breton, P.O. Box 5300, Sydney, Nova
+Scotia, Canada B1P 6L2, or on email at <a href=mailto:gstanivu@uccb.ns.ca>gstanivu@uccb.ns.ca</a>.
+<li>'Faces in Early Modern England'. How were faces constructed,
+represented and experienced in early modern England? Papers can
+address any aspect of faces in literature and culture from the
+period. Abstracts were due by 1 March 1998; for more information, write to Laura
+B. Wilson, Campus Box 226, University of Colorado at Boulder,
+Boulder, CO  80309.
+</ol>
+<p>
+<strong>COMPUTERS & TEXTS 16</strong><br>
+Articles and reviews were invited for the coming issue of Computers &
+Texts, the newsletter of CTI Textual Studies.  Information on future issues and publications can be had by writing the Centre at <a href=mailto:ctitext@oucs.ox.ac.uk>ctitext@oucs.ox.ac.uk</a> or by writing to <a href=mailto:mike.fraser@oucs.ox.ac.uk>mike.fraser@oucs.ox.ac.uk</a>. Articles do not normally exceed 2,500 words and reviews are generally between
+800-1,500 words. Contributions appear in both the print and
+electronic editions of Computers & Texts.
+<p>
+<small><a href=#top>Back to top.</a><br>
+
+<a href=archive.htm>Return to CERES Archive</a></small>
+<hr> 
+<center>
+<img src=gifs/CERES4.gif>
+<br>
+<address>
+For further information on <a href=about.htm>CERES</a>, please write to <a href=mailto:gra1000@cam.ac.uk>Gavin Alexander</a> or <a href=mailto:rtrl100@hermes.cam.ac.uk>Raphael Lyne</a>.<br>
+This page is maintained by <a href=mailto:aez20@cus.cam.ac.uk>Andrew Zurcher</a>, and was last updated on 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write(document.lastModified);
+// -->
+</SCRIPT>.
+<br>
+</address>
+</center>
+</body>
+
+</html>
+
+
+
+eu<pSc

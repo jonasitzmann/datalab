@@ -1,0 +1,151 @@
+<head>
+<title>Notes for the EO Spring school practicals</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<!img src="sm_eddies.gif" align=left hspace=10>
+<h1>Notes for the EO Spring school practicals (v2.0)</h1>
+
+<p>These pages contain some useful links, files and references to help
+with the <a href="http://www.climate-dynamics.rl.ac.uk/EOSchool.html">EO
+Spring School</a> practicals.
+
+<!You will want to familiarise yourself (if
+you are not already) with the material mentioned below to ensure
+productive use can be made of the short time available.>
+
+<p><b>Update:</b> In view of the short time available, it is probable that
+solving any complex inverse problem would be impossible. An
+alternative is that participants just bring their data, or model results
+along with them, and attempt to find/characterise the correlations etc.
+etc. in
+that data. All that is required, in that case, is to have data available
+in a format that can be read into a package such as IDL or Matlab. 
+
+<p>The point of the whole exercise is simply for you to try some of the
+techniques discussed in the lectures. All lecturers and assistants should
+be available to help out. Masses of results are not required. The only
+requirement is to give a short presentation at the end about what you've
+done during the school.
+
+<p>You may still want to work on inverse modelling. If so, in view of the
+shortage of time, I'd recommend considering very simple models only
+(similar to
+the Lorenz
+equations). Read on if you're interested.
+
+<p>Inverse modelling is where you have some observations and a model of
+the process which produced them, and you wish to discover the model
+parameters/initial conditions which are most consistent with the
+observations. 
+
+<p>A <em>cost function</em> is defined to give the least squares
+difference between the observations and the model output. It can also
+contain other terms. It is function of the model inputs (initial
+conditions, boundary conditions, model parameters). The <em>variational
+assimilation</em> method (there are others) uses an iterative technique to
+minimise the cost function value with respect to the model inputs. At the
+minimum the model is in a state most consistent with the observations. To
+find the minimum requires a reasonable first guess. Then
+repeated calculation
+of the cost function value allows iterative movement downhill towards the
+minimum. To make the technique feasible for large systems, one also needs
+to calculate the gradient of the cost function with respect to the model
+inputs. This points the minimisation procedure downhill towards the
+minimum. The gradient of the cost function is found using the
+model <em>adjoint</em>, which is
+essentially the derivative of the model equations. Producing the
+adjoint by hand is a long and tedious operation. Fortunately
+automatic code producers are available which can produce it automatically.
+Here at Oxford we use <a
+href="http://klima47.dkrz.de/giering/tamc/tamc.html">TAMC</a> (the Tangent
+Adjoint Model Compiler) and to do this.
+
+My <a href="ftp://ftp.atm.ox.ac.uk/pub/user/lea/report.ps">first year
+report</a> will tell you more about these techniques. And you will
+certainly learn much more in the lectures during the spring school.
+
+<h1>Example code</h1>
+
+<p>Here's some example code, and other bits and pieces to give you an idea
+of what is possible.
+
+<h2>Lorenz '63 equations</h2>
+
+The Lorenz equations consist of a set of 3 ordinary differential
+equations. It may be possible to replace the equations subroutine in this
+code with, for example, a simple biological model. Here are some example
+Fortran programs
+<ul>
+
+<li>Cost function and assimilation code <a
+href="lorenzseq.f">lorenzseq.f</a>
+
+<li>Adjoint <a href="lorenzseq_ad.f">lorenzseq_ad.f</a> produced by TAMC
+</ul>
+
+<p><b>f77 -r8 -o lorenzseq lorenzseq.f lorenzseq_ad.f -lnag</b></p>
+
+<p>compiles the code. The NAG library is required as the NAG conjugate
+gradient routine is used to minimise the cost function. NB.
+this code is meant as taster - so don't worry if you don't understand it
+or can't get it to work on your machine.
+</p>
+
+<p>This is a plot of the trajectory of the
+variables x, and z, producing the famous Lorenz attractor</p>
+
+<center><img src="lorenz.gif"></center>
+
+<h2>Ocean model</h2>
+
+Also available is code for a reduced gravity shallow water ocean model. 
+This shows the techniques involved in variational assimilation with larger
+models eg. oceanic or atmospheric dynamical models. I don't propose to put
+the code here. If you're interested in using it in Oxford then just ask
+during the practical session. Below is some example output and
+loading routines to look at in IDL and Matlab. 
+
+<ul>
+<li><a href="t75100a.clim">F77 unformatted data file</a>.
+<li><a href="loadmodel.m">Matlab loader</a>.
+<li><a href="loadmodel.pro">IDL loader</a>.
+</ul>
+<p>If you don't want to download those files, then take a look at
+these example fields
+
+<center><p><b>Instantaneous layer depth</b></center>
+<center><img src="h0050b.gif"></center>
+<center><p><b>Temperature for the same time</b></center>
+<center><img src="t0050b.gif"></center>
+</center>
+
+<h1>References</h1>
+<p>Giering and Kaminski. <a
+href="http://klima47.dkrz.de/giering/tamc/tamc.html"><em>Recipes for
+adjoint
+code construction</em></a> 1996.</p>
+<p>Lea. <a
+href="ftp://ftp.atm.ox.ac.uk/pub/user/lea/report.ps"><em>Combining
+remotely sensed sea surface
+temperature and sea surface height with a dynamical ocean model</em></a>.
+1st
+year report, AOPP, Oxford 1998.</p> 
+<p>Lorenz. Deterministic nonperiodic flow. <em>J. Atmos. Sci.</em>, 20
+pp130-141 1963</p>
+<p>Press, Teukolsky, Vetterling and Flannery. <a
+href="http://beta.ulib.org/webRoot/Books/Numerical_Recipes/bookf.html"><em>Numerical
+recipes in Fortran 77</em></a> CUP 1993</p> 
+
+<hr>
+Find out about my work in <a href="index.html">Daniel Lea's page</a>.
+<p><a href="http://www.atm.ox.ac.uk/group/ocean/">Oceanography main
+page</a>.
+
+<hr>
+Email me at <a href="mailto:lea@atm.ox.ac.uk">lea@atm.ox.ac.uk</a>.
+<p>Last updated 26 Mar 99. 
+</body>
+
+
+e/=.t>

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Yearly Wind Direction and Speed (m/s)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+
+<script>   
+function changeScreenSize(w,h)     
+{       window.resizeTo( w,h )     }
+</script>
+</head>
+
+<body onload="changeScreenSize(750,900)">
+
+<IMG SRC="images/SpeedDir_YR.png">
+<p>Wind data are summarised on a rose diagram showing the distribution of winds according to their speed (m/s) and direction. Wind records are grouped by direction into 22.5° circular segments each with radius (length) corresponding to the number of wind records in the segment (expressed as a percentage of the 365 daily observations represented). Wind speeds are categorised according to the 'Key' (lower right-hand scale) and the proportion of all records of each speed occurring within each segment are denoted using the appropriate colours.</p>
+<p><b> To convert m/s to mph multiply by 2.237 </b></p>
+<p align="center">
+<INPUT TYPE='BUTTON' VALUE='Close' onClick='window.close()'>
+</p>
+</body>
+</html>
+
+
+ y2=ot/.aFi0

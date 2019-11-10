@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Leeds Comenius : Contact us</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#D7D9D5" onLoad="MM_preloadImages('../images/training_f2.gif','../images/events-courses_f2.gif','../images/ks3-strategy_f2.gif','../images/primary-languages_f2.gif','../images/free-resources_f2.gif','../images/news_f2.gif','../images/links_f2.gif')">
+<div align="center">
+  <table width="700" border="0" cellpadding="20" cellspacing="0">
+    <tr> 
+      <td bgcolor="#FFFFFF"> <div align="center">
+          <table width="660" border="0" cellspacing="1" cellpadding="0">
+            <tr> 
+              <td height="127" colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="54%" rowspan="3"><img src="../images/new-logo.gif" alt="Comenius Yorkshire and the Humber" width="217" height="86"></td>
+                  <td width="46%" height="61" valign="bottom"><div align="right" class="topbar"><font color="#666666"><img src="../index_clip_image002_0002.jpg" width="192" height="41"><br>
+                        <a href="index.htm"></a><a href="../about-us/index.htm"></a><a href="../find-us/index.htm"></a><a href="../indexold.htm"></a></font></div></td>
+                </tr>
+                <tr>
+                  <td height="43" valign="bottom"><div align="right"><font color="#666666"><img src="../images/call-us.gif" alt="Call us on 0113 2837226" width="189" height="22"></font></div></td>
+                </tr>
+                <tr>
+                  <td valign="bottom"><div align="right"><font color="#666666"><a href="index.htm"><img src="../images/contact_us.gif" alt="Contact us" width="62" height="18" border="0"></a><a href="../about-us/index.htm"><img src="../images/about_us.gif" alt="About us" width="57" height="18" border="0"></a><a href="../find-us/index.htm"><img src="../images/find_us.gif" alt="How to find us" width="83" height="18" border="0"></a><a href="../index.htm"><img src="../images/home.gif" alt="Home" width="38" height="18" border="0"></a></font></div></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td colspan="6">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161" class="maintext style44"><div align="center"><strong><a href="../events-courses/index.htm">Courses &amp; Conferences</a> </strong></div></td>
+              <td width="152" class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/primary-languages/index.htm">Primary Languages </a></strong></div></td>
+              <td width="56" class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/news/index.htm">News</a></strong></div></td>
+              <td width="67" class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/links/index.htm">Links</a></strong></div></td>
+              <td width="91" class="maintext style44"><div align="center"><strong><a href="http://www.tasc.ac.uk/depart/COMENIUS/free-resources/index.htm">Resources</a></strong></div></td>
+              <td width="127" class="maintext style44"><div align="center"><strong><a href="../training/Evaluations.html">Course Evaluations</a> </strong></div></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('training','','../images/training_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/index.htm" onMouseOver="MM_swapImage('events','','../images/events-courses_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../archive/KS3 index.htm" onMouseOver="MM_swapImage('ks3','','../images/ks3-strategy_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../primary-languages/index.htm" onMouseOver="MM_swapImage('languages','','../images/primary-languages_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../free-resources/index.htm" onMouseOver="MM_swapImage('free','','../images/free-resources_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../news/index.htm" onMouseOver="MM_swapImage('news','','../images/news_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a><a href="../links/index.htm" onMouseOver="MM_swapImage('links','','../images/links_f2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr> 
+                    <td width="354" rowspan="2"><div align="center"><span class="style1">Contact us</span></div></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr> 
+                    <td><a href="../find-us/index.htm"><img src="../images/image-bar/map-directions.gif" alt="Click here for map and directions to find us"  width="306" height="89" border="0"></a></td>
+                  </tr>
+                </table></td>
+            </tr>
+            <tr> 
+              <td colspan="6"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  
+                  <tr> 
+                    <td width="653" class="maintext">
+                      <p><span class="headlines">Brenda Pease</span><br>
+                        Administrator (mornings only) - email: <a href="mailto:b.pease@leedstrinity.ac.uk"></a><a href="mailto:b.pease@leedstrinity.ac.uk">b.pease@leedstrinity.ac.uk</a></p>
+                      <p><span class="headlines">Sara Sellars </span><br>
+                        Administrator (0900 - 1500 Monday &amp; Friday, 0900-1700 Tuesday, Wednesday &amp; Thursday)  - email: <a href="mailto:s.sellars@leedstrinity.ac.uk"></a><a href="mailto:s.sellars@leedstrinity.ac.uk">s.sellars@leedstrinity.ac.uk</a></p>
+                      <p><span class="headlines">Adrienne Smith</span><br>
+                        Administrator (mornings 
+                      only) - email: <a href="mailto:a.smith@leedstrinity.ac.uk">a.smith@leedstrinity.ac.uk</a></p>
+                      <p class="headlines">Call us on: 0113 
+                        283 7226</p>
+                      <p>Comenius Yorkshire and the Humber<br>
+                        Leeds Trinity &amp; All Saints<br>
+                        Brownberrie Lane<br>
+                        Horsforth<br>
+                        Leeds LS18 5HD</p>
+                      <p>For directions and maps to the  Comenius Centre at Leeds Trinity &amp; All 
+                        Saints, please click here <a href="http://www.tasc.ac.uk/about/travel.htm" target="_blank">http://www.tasc.ac.uk/about/travel.htm</a><br>
+                        <br>
+                        For details of our Resource Centre based in the Andrew Kean Learning Centre at Leeds Trinity &amp; All Saints, please <a href="../free-resources/resources.htm">click here</a>. <br>
+                        <br>
+                        <strong>Regional Comenius Centres:</strong><br>
+                        <br>
+                        <em>East Riding of Yorkshire:</em><br>
+                        <br>
+Wolfreton Upper School<br>
+South Ella Way<br>
+Kirk Ella<br>
+East Riding of Yorkshire   HU10 7LU<br>
+<br>
+Tel: 01482 658485 <br>
+<br>
+Judi Fairbanks - Comenius Manager (<a href="mailto:judi.fairbanks@eastriding.gov.uk">judi.fairbanks@eastriding.gov.uk</a>) <br>
+Heather Hodgson - Administrator (<a href="mailto:hhodgson@york-comenius.karoo.co.uk">hhodgson@york-comenius.karoo.co.uk</a>) <br>
+                      </p>
+                      <p><em>Sheffield:</em><br>
+                        <br>
+                        Sheffield LEA School Effectiveness Service<BR>
+                        Bannerdale Centre<BR>
+                        Carter   Knowle Road<BR>
+                      SHEFFIELD S7 2EX </p>
+                      <p>Tel: 0114 250 6706<br>
+                        <br>
+                      Geoff Swinn - Comenius Manager (<A href="mailto:geoff.swinn@sheffield.gov.uk">geoff.swinn@sheffield.gov.uk</A>)<br>
+                      </p>
+                      <p><em>York:<br>
+                        <br>
+                      </em>College Library<BR>
+                      York St John University <BR>
+                      Lord Mayor's Walk<BR>
+                      York<BR>
+                      YO31   7EX</p>
+                      <p>Tel: 01904 716 775<br>
+                        <br>
+                      Ann Gregory - Comenius Manager (<a href="mailto:a.gregory@yorksj.ac.uk">a.gregory@yorksj.ac.uk</a>) </p>                    </td>
+                    <td width="10" valign="top">&nbsp;</td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table>
+        </div></td>
+    </tr>
+    <tr> 
+      <td class="smallText"><div align="center">
+        <p>Comenius Yorkshire and the Humber, Leeds Trinity &amp; All Saints, Brownberrie Lane, Horsforth, Leeds, LS18 5HD<br>
+          Telephone 0113 
+          283 7226<br>
+          <font color="#999999">Page last updated: 
+            <!-- #BeginDate format:fcAm1 -->Friday, April 27, 2007<!-- #EndDate -->
+          </font> </p>
+        </div></td>
+    </tr>
+  </table>
+  <p class="style">&nbsp;</p>
+</div>
+</body>
+</html>
+
+
+ e==== 0

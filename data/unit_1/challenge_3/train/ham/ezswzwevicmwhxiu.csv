@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<HTML>
+
+<HEAD>
+<TITLE>EXAMINE Network</TITLE>
+<META NAME="GENERATOR" CONTENT="Arachnophilia 3.9">
+<META NAME="FORMATTER" CONTENT="Arachnophilia 3.9">
+
+<link rel="stylesheet" type="text/css" href="/examine/ExamineStyle.css">
+<SCRIPT LANGUAGE="JavaScript">
+
+function formHandlerHeader(form){
+	var URL = document.formHeader.site.options[document.formHeader.site.selectedIndex].value;
+	window.location.href = URL;
+}
+
+function formHandlerFooter(form){
+	var URL = document.formFooter.site.options[document.formFooter.site.selectedIndex].value;
+	window.location.href = URL;
+}
+
+</script>
+
+</HEAD>
+
+<BODY background ="/examine/graphics/examineback.gif">
+
+<table border=0 cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left">
+<a href="/examine/index.html"><img src="/examine/graphics/logo.gif" border=0 alt="click for home page"></a>
+</td>
+
+<td valign="middle" align="center">
+
+<p style="font-family: Impact; font-size:28px;"><FONT COLOR="green" size="+3">EX</FONT>ploitation of <FONT COLOR="green" size="+3">A</FONT>phid <FONT COLOR="green" size="+3">M</FONT>onitoring systems <FONT COLOR="green" size="+3">IN</FONT> <FONT COLOR="green" size="+3">E</FONT>urope</font><br /><span style=" ">Environment Project EVK2-1999-00151</span></p>
+
+</td>
+
+<td align="right">
+<a href="http://www.europa.eu.int/"><img src="/examine/flags/euflag.gif" border=0 alt="Europa, the European Union's server" ></a>
+</td>
+
+</tr>
+</table>
+
+<h1 style="font-family: Impact; color: green;">The Network</h1>
+<table align="center" bgcolor="#CEFFCE" style="font-family:Arial, Helvetica, sans-serif; border: 1px solid black; "><tr>
+<td><li style="color: #FF0000;"><strong style="color: #000000;">&nbsp;original EXAMINE member</strong></td>
+<td><li style="color: #FFCC00;"><strong style="color: #000000;">&nbsp;other trap operator</strong></td>
+</tr></table>
+
+<div align="center">
+
+<h1 style="font-family: Impact; color: darkblue;">Traps operating in 2007</h1>
+
+
+<img src="/examine/graphics/Traps2007.gif" border="0">
+
+<h1 style="font-family: Impact; color: darkblue;">Defunct traps</h1>
+
+
+<img src="/examine/graphics/DefunctTraps2007.gif" border="0">
+
+
+</div>
+
+
+<p>&nbsp;</p>
+<table border=0 width="100%">
+<td valign=top align=left>
+<a href="http://www.europa.eu.int/"><img src="/examine/flags/euflag.gif" align="left" border=0 alt="Europa, the European Union's server"></a>
+</td>
+
+
+<td align="center">
+<p>
+<FORM ACTION="http://search.freefind.com/find.html" 
+METHOD="GET" target="_blank">
+&nbsp;&nbsp;
+<font size=1 face="arial,helvetica" >
+<A 
+HREF="http://search.freefind.com/find.html?id=3682582">
+Search this site</A> 
+or 
+<A 
+HREF="http://search.freefind.com/find.html?id=3682582&t=w">
+the web</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+powered by <A HREF="http://www.freefind.com/">FreeFind</A><br />
+<INPUT TYPE="HIDDEN" NAME="id" SIZE="-1" VALUE="3682582">
+<INPUT TYPE="HIDDEN" NAME="pid" SIZE="-1" VALUE="r">
+<INPUT TYPE="HIDDEN" NAME="mode" SIZE="-1" VALUE="ALL">&nbsp;
+<INPUT TYPE="TEXT" NAME="query" SIZE="20">
+<INPUT TYPE="SUBMIT" 
+VALUE=" Find! "><input type="SUBMIT" 
+name="sitemap" value="Site Map"><br />
+&nbsp;
+<input type="radio" name="t" value="s" CHECKED> Site search
+<input type="radio" name="t" value="w">Web search
+</font></FORM>
+</p>
+</td>
+
+<td valign=middle align=center>
+<font size="-1" color=#800000 face="arial">
+<form style="display: inline" name="formFooter">
+<select name="site" size=1 onChange="javascript:formHandlerFooter()">
+<option>Go to ...</option>
+<option value="/examine/index.html">EXAMINE Home</option>
+<option value="/examine/objectives.html">Objectives</option>
+<option value="/examine/consortium.html">Consortium</option>
+<option value="/examine/network.html">The Trap Network</option>
+<option value="/examine/aphids.html">The Aphids</option>
+<option value="/examine/datacollection.html">Data collection</option>
+<option value="/examine/DataAccessAgreement.html">Data Access Agreement</option>
+<option value="http://examine.rothamsted.bbsrc.ac.uk/examine/AnnualReports/AnnualReports.asp">Annual Reports (private)</option>
+<option value="/examine/database.html">Database (private)</option>
+<option value="/examine/sitemap.html">Site map</option>
+<option value="/insect-survey/">Rothamsted Insect Survey</option>
+<option value="/pie/">Plant and Invertebrate Ecology home</option>
+</select>
+</form>
+</font>
+</td>
+<td valign=top align=right>
+
+<a href="http://www.rothamsted.ac.uk/"><img src="/examine/graphics/iacrbutton.gif" border=0 alt="RRes home page"></a>
+</td>
+</tr>
+</table>
+
+
+
+
+
+<p>
+
+</body>
+<!--
+<MAP NAME="network">
+<!-- #$-:Image Map file created by Map THIS! -->
+<!-- #$-:Map THIS! free image map editor by Todd C. Wilson -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:1.30 -->
+<!-- #$DATE:Mon Dec 03 11:11:15 2001 -->
+<!-- #$PATH:Z:\graphics\ -->
+<!-- #$GIF:2001Traps.gif -->
+
+<!--
+<AREA SHAPE=POLY COORDS="161,229,180,232,164,250,185,255,168,284,178,291,191,330,194,349,204,350,207,359,201,380,186,389,107,387,130,370,149,367,120,354,142,333,163,326,156,303,141,294,138,261,147,241,162,229,161,229,161,229" HREF="members1.html" ALT="United Kingdom">
+<AREA SHAPE=POLY COORDS="30,528,33,506,49,499,133,525,199,558,110,647,52,655,31,624,62,545,33,529,30,528" HREF="members3.html" ALT="Spain">
+<AREA SHAPE=POLY COORDS="196,554,137,522,151,490,142,453,113,429,115,419,154,421,157,407,169,418,191,409,213,388,228,403,263,431,277,431,270,457,247,480,243,489,257,486,261,492,256,519,265,533,248,547,211,535,196,555,196,554" HREF="members1.html#france" ALT="France">
+<AREA SHAPE=POLY COORDS="396,51,429,106,412,107,409,138,384,173,378,202,396,227,378,254,400,263,396,279,342,314,325,269,325,242,334,204,331,172,340,148,351,146,347,124,366,80,380,60,397,49,396,51" HREF="members3.html#sweden" ALT="Sweden">
+<AREA SHAPE=POLY COORDS="400,42,413,50,427,48,433,28,447,23,453,46,488,139,500,144,497,171,481,197,439,219,422,209,413,165,432,138,439,117,427,93,418,67,395,44,400,42" HREF="members2.html" ALT="Finland">
+<AREA SHAPE=POLY COORDS="215,386,230,382,246,386,259,399,262,407,249,414,251,420,214,388,215,386" HREF="members1.html#belgium" ALT="Belgium">
+<AREA SHAPE=POLY COORDS="275,458,282,461,299,465,301,471,308,478,301,488,289,495,284,491,282,484,274,491,265,491,256,483,246,486,259,465,270,457,275,458" HREF="members3.html#switzerland" ALT="Switzerland">
+<AREA SHAPE=POLY COORDS="536,558,490,575,464,585,452,614,481,664,514,687,538,691,556,681,540,674,512,683,490,668,514,642,515,625,487,598,514,591,505,581,537,577,538,558,536,558" HREF="members2.html#greece" ALT="Greece">
+<AREA SHAPE=POLY COORDS="313,477,330,477,334,484,349,486,349,499,330,509,335,530,362,561,426,602,423,610,402,600,395,613,406,621,392,648,373,673,334,650,367,649,386,640,384,609,334,578,308,553,289,525,268,535,259,519,261,497,280,492,296,495,312,478,313,477" HREF="members2.html#italy" ALT="Italy">
+<AREA SHAPE=POLY COORDS="352,486,382,479,388,484,385,490,369,506,349,508,350,487,352,486" HREF="members3.html#slovenia" ALT="Slovenia">
+<AREA SHAPE=POLY COORDS="385,476,393,452,406,456,425,447,434,447,446,437,456,436,463,445,473,447,468,452,468,466,464,478,449,487,421,492,414,496,400,491,385,477,385,476" HREF="members3.html#hungary" ALT="Hungary">
+<AREA SHAPE=POLY COORDS="332,413,359,399,370,400,375,406,382,415,390,410,396,415,414,418,417,419,410,426,408,435,390,442,377,443,371,440,355,444,340,434,335,426,332,426,332,413" HREF="members1.html#czechrep" ALT="The Czech Republic">
+<AREA SHAPE=POLY COORDS="355,346,387,321,393,320,405,330,415,326,459,328,464,343,467,355,464,361,466,372,475,388,478,398,467,411,463,414,466,429,419,421,393,408,382,410,366,397,357,369,355,357,356,346,355,346" HREF="members2.html#poland" ALT="Poland">
+<AREA SHAPE=POLY COORDS="292,319,303,319,319,339,324,338,334,331,351,342,354,360,360,382,363,393,329,414,330,424,339,435,352,443,341,450,344,463,307,463,288,460,273,454,282,433,273,426,260,425,254,412,265,407,259,390,274,346,282,342,295,341,292,319" HREF="members2.html#germany" ALT="Germany">
+<AREA SHAPE=default HREF="http://www.rothamsted.ac.uk/examine/network.html">
+</MAP>
+
+
+
+<MAP NAME="oldnetwork">
+<!-- #$-:Image Map file created by Map THIS! -->
+<!-- #$-:Map THIS! free image map editor by Todd C. Wilson -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:1.30 -->
+<!-- #$DATE:Fri Nov 30 10:18:18 2001 -->
+<!-- #$PATH:Z:\graphics\ -->
+<!-- #$GIF:network2001.gif -->
+<!--
+<AREA SHAPE=RECT COORDS="175,302,192,322" HREF="members1.html" ALT="P17">
+<AREA SHAPE=RECT COORDS="157,316,170,330" HREF="members1.html" ALT="P17">
+<AREA SHAPE=RECT COORDS="192,333,204,346" HREF="members1.html" ALT="P1">
+<AREA SHAPE=RECT COORDS="175,354,187,365" HREF="members1.html" ALT="P1">
+<AREA SHAPE=RECT COORDS="192,358,204,371" HREF="members1.html" ALT="P1">
+<AREA SHAPE=RECT COORDS="206,378,217,389" HREF="members1.html" ALT="P1">
+<AREA SHAPE=RECT COORDS="164,396,179,419" HREF="members1.html" ALT="P1">
+<AREA SHAPE=RECT COORDS="146,424,161,435" HREF="members1.html" ALT="P1">
+<AREA SHAPE=RECT COORDS="189,397,219,432" HREF="members1.html" ALT="P1">
+<AREA SHAPE=RECT COORDS="159,479,172,492" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="181,460,194,474" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="238,440,249,457" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="252,469,267,480" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="279,495,290,507" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="244,496,258,509" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="220,492,232,506" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="183,517,196,531" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="249,555,261,569" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="228,581,241,596" HREF="members1.html#france" ALT="P2">
+<AREA SHAPE=RECT COORDS="256,447,270,460" HREF="members1.html#belgium" ALT="P19">
+<AREA SHAPE=RECT COORDS="274,460,288,472" HREF="members1.html#belgium" ALT="P19">
+<AREA SHAPE=RECT COORDS="387,456,398,468" HREF="members1.html#czechrep" ALT="P5">
+<AREA SHAPE=RECT COORDS="414,473,426,488" HREF="members1.html#czechrep" ALT="P5">
+<AREA SHAPE=RECT COORDS="432,479,443,492" HREF="members1.html#czechrep" ALT="P5">
+<AREA SHAPE=RECT COORDS="444,467,455,481" HREF="members1.html#czechrep" ALT="P5">
+<AREA SHAPE=RECT COORDS="482,145,494,159" HREF="members2.html" ALT="P6">
+<AREA SHAPE=RECT COORDS="486,218,499,232" HREF="members2.html" ALT="P6">
+<AREA SHAPE=RECT COORDS="500,226,511,241" HREF="members2.html" ALT="P6">
+<AREA SHAPE=RECT COORDS="361,373,375,389" HREF="members2.html#germany" ALT="P7 & P8">
+<AREA SHAPE=RECT COORDS="354,403,365,417" HREF="members2.html#germany" ALT="P7 & P8">
+<AREA SHAPE=RECT COORDS="335,408,351,423" HREF="members2.html#germany" ALT="P7 & P8">
+<AREA SHAPE=RECT COORDS="318,477,330,494" HREF="members2.html#germany" ALT="P7 & P8">
+<AREA SHAPE=RECT COORDS="540,653,552,665" HREF="members2.html#greece" ALT="P9 & P10">
+<AREA SHAPE=RECT COORDS="535,674,550,687" HREF="members2.html#greece" ALT="P9 & P10">
+<AREA SHAPE=RECT COORDS="550,699,563,711" HREF="members2.html#greece" ALT="P9 & P10">
+<AREA SHAPE=RECT COORDS="525,712,538,726" HREF="members2.html#greece" ALT="P9 & P10">
+<AREA SHAPE=RECT COORDS="598,756,609,766" HREF="members2.html#greece" ALT="P9 & P10">
+<AREA SHAPE=RECT COORDS="324,547,339,561" HREF="members2.html#italy" ALT="P11 & P12">
+<AREA SHAPE=RECT COORDS="370,547,384,559" HREF="members2.html#italy" ALT="P11 & P12">
+<AREA SHAPE=RECT COORDS="397,652,411,667" HREF="members2.html#italy" ALT="P11 & P12">
+<AREA SHAPE=RECT COORDS="435,689,449,704" HREF="members2.html#italy" ALT="P11 & P12">
+<AREA SHAPE=RECT COORDS="408,728,422,740" HREF="members2.html#italy" ALT="P12 & P12">
+<AREA SHAPE=RECT COORDS="426,402,437,416" HREF="members2.html#poland" ALT="P13">
+<AREA SHAPE=RECT COORDS="84,591,98,604" HREF="members3.html" ALT="P14">
+<AREA SHAPE=RECT COORDS="455,110,468,123" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="443,152,455,165" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="420,243,435,258" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="405,270,420,287" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="378,282,390,296" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="387,304,401,321" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="375,328,391,345" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="403,316,416,332" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="435,297,449,311" HREF="members3.html#sweden" ALT="P15">
+<AREA SHAPE=RECT COORDS="281,527,292,540" HREF="members3.html#switzerland" ALT="P16">
+<AREA SHAPE=RECT COORDS="312,508,325,521" HREF="members3.html#switzerland" ALT="P16">
+<AREA SHAPE=RECT COORDS="399,546,413,559" HREF="members3.html#slovenia" ALT="P18">
+<AREA SHAPE=RECT COORDS="413,539,427,551" HREF="members3.html#slovenia" ALT="P18">
+<AREA SHAPE=POLY COORDS="438,497,442,512,502,497,510,481,474,473,461,479,454,489,438,496,438,497" HREF="members3.html#hungary" ALT="P20">
+<AREA SHAPE=RECT COORDS="489,527,504,542" HREF="/examine/members3.html#hungary" ALT="P20">
+<AREA SHAPE=default HREF="http://www.rothamsted.ac.uk/examine/network.html">
+</MAP>
+-->
+
+ aWr
