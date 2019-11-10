@@ -130,7 +130,7 @@ class Task(BaseTask):
         pipeline = Pipeline([
             ('x_test_fitter', cheater),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
-                #('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('html_features', HtmlFeatureExtractor())
                 ])),
             ('no_x_test_fitter', uncheater),  # stop cheating (subsequent steps need labels)

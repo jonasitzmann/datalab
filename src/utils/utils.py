@@ -126,7 +126,8 @@ def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dic
         try:
             model.set_params(**params)
             score = cross_validate(model, dataset, verbose=False)
-            df = df.append(params, ignore_index=True)
+            params_and_score = params.update({'score': score})
+            df = df.append(params_and_score, ignore_index=True)
             df.to_csv(file_name)
             if score > best_score:
                 best_params = params
