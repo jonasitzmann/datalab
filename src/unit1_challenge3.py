@@ -1,3 +1,5 @@
+import pickle
+
 import numpy as np
 from src.base.task import BaseTask
 from src.utils.utils import DenseTransformer
@@ -5,7 +7,8 @@ from sklearn.base import TransformerMixin
 from src.utils.utils import couple_params
 from src.utils.utils import FixRandomSeed
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_selection import SelectKBest, chi2
+from sklearn.feature_selection import SelectKBest
+from sklearn.feature_selection import f_classif
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from bs4 import BeautifulSoup
@@ -18,8 +21,6 @@ from skorch.callbacks import EarlyStopping
 from torch.optim import Adam
 from src.utils.utils import XTestFitter
 from src.utils.utils import NoXTestFitter
-from functools import partial
-import spacy
 
 
 class HtmlFeatureExtractor(TransformerMixin):
@@ -125,17 +126,52 @@ def get_classifier_from_net(dataset):
     return net
 
 
+class FirstLineRemover(TransformerMixin):
+    def __init__(self):
+        super(FirstLineRemover, self).__init__()
+
+    def fit(self, x, y=None, **fit_params):
+        return self
+
+    def transform(self, x, y=None):
+        return [sample.split('\n', 1)[1] for sample in x]
+
+
+class EmbeddingLoader(TransformerMixin):
+    def __init__(self):
+        super(EmbeddingLoader, self).__init__()
+
+    def fit(self, x, y=None, **fit_params):
+        return self
+
+    def transform_sample(self, filename):
+        with open(filename, 'rb') as f:
+            dictionary = pickle.load(f)
+        return [*dictionary['mean'], *dictionary['std']]
+
+    def transform(self, x, y=None):
+        filenames = [sample.split('\n', 1)[0] for sample in x]
+        transformed = [self.transform_sample(name) for name in filenames]
+        return transformed
+
+
 class Task(BaseTask):
     def get_model(self, **kwargs):
-        selection = SelectKBest(score_func=chi2, k=1000)
+        selection = SelectKBest(score_func=f_classif, k=1000)
         net = get_classifier_from_net(self.dataset)
         cheater = XTestFitter()
         uncheater = NoXTestFitter(cheater)
         pipeline = Pipeline([
             ('x_test_fitter', cheater),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
-                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
-                ('html_features', HtmlFeatureExtractor())
+                ('embedding_loader', EmbeddingLoader()),
+                ('pipeline', Pipeline([
+                    ('remove_first_line', FirstLineRemover()),
+                    ('union', FeatureUnion([
+                        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+                        ('html_features', HtmlFeatureExtractor()),
+                    ]))
+                ]))
                 ])),
             ('no_x_test_fitter', uncheater),  # stop cheating (subsequent steps need labels)
             ('feature_selection', selection),
@@ -157,7 +193,7 @@ class Task(BaseTask):
 
     def get_params(self):
         return {
-            'feature_selection__k': 8,
+            'feature_selection__k': 10000,
             'classification__module__hidden_layer_sizes': (10, 10),
             'classification__module__dropout': 0.2,
             'x_test_fitter__active': 0,
@@ -173,4 +209,4 @@ class Task(BaseTask):
 
     @property
     def include_file_names(self):
-        return False  # todo: set to True
+        return True
