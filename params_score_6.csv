@@ -1,0 +1,4 @@
+,feature_selection__k,classification__module__hidden_layer_sizes,classification__module__dropout,x_test_fitter__active,score
+0,10000,"(12, 12)",0.1,0,0.9989344960202051
+1,10000,"(12, 12)",0.1,0,0.9989344960202051
+2,10000,"(8, 8)",0.1,1,0.9991007194244604
