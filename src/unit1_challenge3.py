@@ -134,7 +134,7 @@ class Task(BaseTask):
         pipeline = Pipeline([
             ('x_test_fitter', cheater),  # cheat by using test data for fitting
             ('feature_extraction', FeatureUnion([
-                #('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+                ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
                 ('html_features', HtmlFeatureExtractor())
                 ])),
             ('no_x_test_fitter', uncheater),  # stop cheating (subsequent steps need labels)
@@ -149,8 +149,8 @@ class Task(BaseTask):
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [8],
-            'classification__module__hidden_layer_sizes': [(10, 10), (8, 8), (7, 7), (6, 6)],
+            'feature_selection__k': [5000, 10000],
+            'classification__module__hidden_layer_sizes': [(10, 10), (6, 6), (10, 6), (6, 10)],
             'classification__module__dropout': [0.1, 0.15, 0.2],
             'x_test_fitter__active': [0, 1],
         }
