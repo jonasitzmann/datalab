@@ -193,7 +193,7 @@ class Task(BaseTask):
 
     def get_params(self):
         return {
-            'feature_selection__k': 10000,
+            'feature_selection__k': 20000,
             'classification__module__hidden_layer_sizes': (10, 10),
             'classification__module__dropout': 0.1,
             'x_test_fitter__active': 1,
