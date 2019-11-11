@@ -189,13 +189,13 @@ class Task(BaseTask):
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [2000, 10000],
-            'classification__module__hidden_layer_sizes': [(6, 6, 6), (10, 5, 3)],
+            'feature_selection__k': [100, 500, 2000],
+            'classification__module__hidden_layer_sizes': [(2, 4, 2), (6, 5, 3)],
             'classification__module__dropout': [0.1, 0.2],
-            'classification__optimizer__weight_decay': [0.01, 0.02],
+            'classification__optimizer__weight_decay': [0.01, 0.02, 0.03],
             'classification__optimizer__lr': [5e-2, 1e-2, 1e-3],
             'x_test_fitter__active': [1],
-            'feature_extraction__pipeline__union__bag_of_words__ngram_range': [(1, 2), (1, 3), (1, 5)]
+            #'feature_extraction__pipeline__union__bag_of_words__ngram_range': [(1, 2), (1, 3), (1, 5)]
         }
 
     def get_params(self):
