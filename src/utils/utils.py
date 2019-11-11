@@ -252,7 +252,7 @@ def save_last_score(score, task):
         f.write(str(score))
 
 
-def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=4, verbose=True, parallel=True):
+def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=6, verbose=True, parallel=True):
     if verbose:
         print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
     xs, ys = dataset.x_train, dataset.y_train

@@ -81,13 +81,14 @@ class HtmlFeatureExtractor(TransformerMixin):
 
 
 class Net(nn.Module):
-    def __init__(self, input_dim=1000, hidden_layer_sizes=(10, 10), dropout=0):
+    def __init__(self, input_dim=1000, hidden_layer_sizes=(10, 10, 10), dropout=0):
         self.output_dim = 2
         super(Net, self).__init__()
         self.l0 = nn.Linear(input_dim, hidden_layer_sizes[0])
         self.drop = nn.Dropout(p=dropout)
-        self.l1 = nn.Linear(*hidden_layer_sizes)
-        self.l2 = nn.Linear(hidden_layer_sizes[1], self.output_dim)
+        self.l1 = nn.Linear(hidden_layer_sizes[0], hidden_layer_sizes[1])
+        self.l2 = nn.Linear(hidden_layer_sizes[1], hidden_layer_sizes[2])
+        self.l3 = nn.Linear(hidden_layer_sizes[2], self.output_dim)
 
     def forward(self, x, **kwargs):
         x = x.float()
@@ -98,6 +99,8 @@ class Net(nn.Module):
         x = self.drop(x)
         x = F.relu(x)
         x = self.l2(x)
+        x = F.relu(x)
+        x = self.l3(x)
         return x
 
 
@@ -118,8 +121,9 @@ def get_classifier_from_net(dataset):
             FixRandomSeed(),
         ],
         module__input_dim=100,
-        module__hidden_layer_sizes=(10, 10),
-        module__dropout=0.3,
+        module__dropout=0.2,
+        optimizer__weight_decay=0.01,
+        optimizer__lr=1e-2,
         verbose=False
     )
     net.set_params(callbacks__print_log=None)  # deactivate logging in each epoch
@@ -168,7 +172,7 @@ class Task(BaseTask):
                 ('pipeline', Pipeline([
                     ('remove_first_line', FirstLineRemover()),
                     ('union', FeatureUnion([
-                        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 3))),
+                        ('bag_of_words', TfidfVectorizer(ngram_range=(1, 2))),
                         ('html_features', HtmlFeatureExtractor()),
                     ]))
                 ]))
@@ -185,17 +189,19 @@ class Task(BaseTask):
 
     def get_param_distribution(self):
         return {
-            'feature_selection__k': [2000, 10000, 20000],
-            'classification__module__hidden_layer_sizes': [(10, 10), (5, 5), (12, 12)],
-            'classification__module__dropout': [0.1, 0.2, 0.5],
+            'feature_selection__k': [2000, 10000],
+            'classification__module__hidden_layer_sizes': [(6, 6, 6), (10, 5, 3)],
+            'classification__module__dropout': [0.1, 0.2],
+            'classification__optimizer__weight_decay': [0.01, 0.02],
+            'classification__optimizer__lr': [5e-2, 1e-2, 1e-3],
             'x_test_fitter__active': [1],
-            'feature_extraction__pipeline__union__bag_of_words__ngram_range': [(1, 3), (1, 5)]
+            'feature_extraction__pipeline__union__bag_of_words__ngram_range': [(1, 2), (1, 3), (1, 5)]
         }
 
     def get_params(self):
         return {
-            'feature_selection__k': 20000,
-            'classification__module__hidden_layer_sizes': (10, 10),
+            'feature_selection__k': 2000,
+            'classification__module__hidden_layer_sizes': (10, 5, 3),
             'classification__module__dropout': 0.1,
             'x_test_fitter__active': 1,
         }
