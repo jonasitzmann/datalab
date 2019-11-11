@@ -1,0 +1,95 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf100
+{\fonttbl\f0\froman\fcharset77 TimesNewRomanPSMT;\f1\froman\fcharset77 TimesNewRomanPS-BoldMT;\f2\froman\fcharset77 TimesNewRomanPS-ItalicMT;
+}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc
+
+\f0\fs24 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc
+
+\f1\b \cf0 Frequently Asked Questions\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b0 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f2\i \cf0 Everything is set up correctly, but users can't log in.  What is wrong?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+
+\f0\i0 \cf0 \
+An inability for users to be able to connect to the server is virtually always due to networking problems.  For full details, see the "FTP Overview" article in the "Helpful Info" folder of the Rumpus package.  For those running private LANs bridged via a single IP address to the public Internet, please also see the "Port Forwarding" article for specifics on setting up Rumpus and your router in this networking environment.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f2\i \cf0 Users can log in, but get an error immediately when attempting to retrieve a directory listing. Why?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+
+\f0\i0 \cf0 \
+Most FTP clients automatically retrieve a directory listing as soon as they successfully log in, so this is by far the most common point at which failures can occur.  There are 2 basic reasons: networking problems and Rumpus configuration issues.\
+\
+Even when a user can establish an initial control connection to an FTP server, networking issues may be present.  This is because data transfers (such as directory listings, file uploads and file downloads) take place on a second data connection, which may require additional network setup to support.  For details, see the "FTP Overview" article in the "Helpful Info" folder.\
+\
+It is also possible that the problem is due to incorrect Rumpus setup.  If your network is private, and bridged to the public Internet via a single IP address, be sure that the "Passive Mode Connect Address" has been set correctly.  This field can be found on the "Advanced" tab of the Rumpus "FTP Settings" window and should be set to the external, "WAN" address of your router.\
+\
+The problem may also be due to an incorrect folder path specified for the user account.  On the "Define Users" window, select the user account in question and click the "select folder" button to reset the user's home folder.  Even if the path to the user folder looks correct, reset it, as even a single errant space in the path can cause problems.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f2\i \cf0 How Do I Have The Server Started At System Start-Up?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+
+\f0\i0 \cf0 \
+Most servers will run Rumpus all day, every day to provide 24/7 FTP access for their users. To have Rumpus automatically started when the server is booted, open the "Install Server" window and check the "Launch Rumpus Service At System Startup" checkbox. Note that this will not start the Rumpus control application, only the Rumpus service, when the computer is turned on. In fact, the Rumpus service will be started even if no user logs in to the computer.\
+\
+The "Launch Rumpus Service At System Startup" checkbox is more than a simple preference setting. When the box is checked, a startup script (and associated "plist" file) is saved to the folder "/Library/StarupItems/Rumpus/", and when it is unchecked, the script is deleted.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f2\i \cf0 How Do I Give My Server A Name?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+
+\f0\i0 \cf0 \
+Every computer connected to the Internet has an address. The address has the form "192.168.1.100", that is, four numbers seperated by "dots" (periods). These addresses can be temporary, and assigned each time a computer logs into the Internet (dynamic addresses) or permanently assigned to the computer (static addresses). IP addresses are assigned by your ISP, in either case. Dynamic addresses are assigned each time users log in so that a handful of addresses can be used by a large number of people, in turn. Static addresses are assigned to one person alone, and are permanently associated with an individual computer.\
+\
+The first thing you need to do when setting up any type of Internet server is to get a static IP address for the computer. If you don't have a static address, or don't know how to configure one, call your ISP. Normal dial-up Internet accounts usually don't include a static IP address, so you will most likely need an extended or business-oriented account. Again, only your ISP can help you with this.\
+\
+A static address isn't technically required to run an FTP server. However, if your server is connected using a dynamic address, the address will change every time you log in to the Internet. People wishing to connect to your server will not know the address to connect to, unless you tell them each time they need to connect. Dynamic address name services are available to help resolve this problem, but whenever possible, a static IP address will keep things much simpler.\
+\
+Any server on the Internet can be accessed by it's IP address, but most people are familiar with names, rather than numbers. For example, the Maxum web server can be accessed with the URL "http://67.38.123.181/", but most people are much more comfortable with "http://www.maxum.com/". "www.maxum.com" is the domain name for Maxum's Web server. For FTP servers, the typical domain name begins with "ftp.", as in "ftp.maxum.com".\
+\
+Domain names work very much like your local phone book. You use a phone book to find a phone number given a person's name. The domain name system (DNS) allows Internet clients to find an IP address from a domain name. Your Web browser, for example, doesn't actually connect to "www.maxum.com". It uses a domain name server to convert "www.maxum.com" to "67.38.123.181", and then connects to that address.\
+\
+Domain names are unique, and must be registered. Again, your ISP can help you with this, or you can use one of the registration services such as register.com. Once registered, your ISP or registration service will handle adding your name to the domain name system so that your static address is returned whenever a client asks for your domain name.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f2\i \cf0 Why "Mac OS Peter's Server"?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+
+\f0\i0 \cf0 \
+If you have ever used a graphical FTP client and looked at the FTP session transcript, you have probably noticed that most clients use the "SYST" command to determine the "system type", and that Rumpus responds by reporting that it is "MacOS Peter's Server". This response is required by a number of clients for historical reasons, and should not be changed without very good reason.\
+\
+"Peter", who is not associated with Maxum, refers to Peter Lewis, the author of the first widely used FTP server for Macintosh. The server he developed responded to the SYST request with this name, and several FTP clients used this response to determine certain behaviors. For example, Mac-savvy FTP clients that identify a Mac-savvy server (by checking for "MacOS Peter's Server") will enable the MacBinary transfer mode when appropriate. MacBinary is essential to FTP transfers so that Mac files retain their resource forks and Finder information.\
+\
+In addition, many FTP clients on several platforms use the "SYST" to determine how directory listings should be parsed. If you change the "Reported FTP Server Name" in Rumpus, these clients may not be able to correctly interpret and display directory listings at all.\
+\
+So, while Maxum would prefer to report "MacOS Rumpus" as the server name, and you might prefer to specify your company name, the name "MacOS Peter's Server" is simply required in most cases for FTP client compatibility. \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f2\i \cf0 How Can I Control What Happens To Files Downloaded Via The Rumpus Web File Manager?\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+
+\f0\i0 \cf0 \
+Rumpus sends files to the browser, but it is up to the browser to decide what to do with the file. If it's an HTML file, for example, the browser will display it, by default.\
+\
+With that said, you do have options...\
+\
+First, most browsers will give you other options for what to do with files that are retrieved from a server. In typical Mac browsers, for example, if you hold down the Control key and click and hold on a link, a pop-up menu will appear that gives you several choices, including "Download Link To Disk" or some similar option. Again, remember, Rumpus can only deliver the data... Some work may need to be done at the browser in order to process the data the way you need.\
+\
+Even from the server side, however, you have some control. The way browsers determine how to process the data they are receiving is by the file's "Content-Type". This is a bit of information that is sent by the server as part of the file download. In Rumpus, you can control the Content Type using the File Types window to edit each filename extension (the portion of the filename after the "dot", which typically specifies what type of data is contained in the file). If you wish, you can change the Content-Type for various filename extensions so that the browser handles those files accordingly.\
+\
+Determining the correct Content-Type for a given file type is the trickiest and most server-specific component of the process of serving files for download. Rumpus comes preconfigured with dozens of common File Types which tell browsers how to handle many common files. You may, however, need to add entries to the preconfigured list, or change specific entries. For example, Rumpus comes preset to serve files with the suffix ".html" with a Content-Type of "text/html", which virtually all browsers will interpret to mean that the file should be displayed in the browser window. If, however, you would like HTML files saved to disk by default, you will need to change the Content-Type to represent binary data, which browsers will typically save to disk. (The most generic binary Content-Type is "application/octet-stream", for example.)\
+\
+When working with files, try changing the filename suffix to better represent the data in the file, or to simply experiment with how various browsers process the data after it is downloaded. Finally, for examples of various filename extensions and their associated Content-Types, look in the preference settings of your favorite Web browser. Most browsers come preconfigured with many, many Content-Types and helper applications.\
+} r}30114

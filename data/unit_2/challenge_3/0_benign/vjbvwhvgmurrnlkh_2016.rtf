@@ -1,0 +1,425 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fnil\fcharset0 Univers;\f1\fnil\fcharset77 ZapfDingbatsITC;}
+{\colortbl;\red255\green255\blue255;\red0\green173\blue239;}
+\margl1440\margr1440\vieww10400\viewh17040\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ri2160\qj\pardirnatural
+
+\f0\b\fs24 \cf0 PreMaster CD\'99 3.3
+\b0  (build 3260)	November 1, 2010\
+\
+\
+
+\b Please Read Before You Begin\'85
+\b0 \
+\
+Thank you for your purchase of PreMaster CD. This file contains\
+important information about the installation and operation of your application. A more complete version of this document is available in the application\'92s folder.\
+\
+\
+
+\b Changes since PreMaster CD 3.2.1 \'97
+\b0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri2160\sl288\slmult1\qj
+\cf0 New Features:\
+- Added support for all common audio sample rates: 48, 88.2, 96, 176.4m 192 kHz\
+- Addition of Sonic EQ (basic filter set)\
+- Added support for compressed file playback (Apple lossless, mp4, mp3, AAC, FLAC)\
+\
+General:\
+- Improved handling of Sample Rate mistmatch on startup and opening EDLs/soundfiles\
+- Improved handling of external Sample Rate changes\
+- Fix Display of Multiple Gain notes (delta display)\
+- Fix for Channel 2 mute when copying during playback\
+- Append \'93.aif, .wav\'94 to recordings\
+- BWF Metadata fixes for date, coding history, etc.\
+- Fixes for Export EDL (bit depth and bwf data)\
+- Default an empty EDL to match Hardware SR.\
+- Changes to SRC and addition of DSD to SRC\
+- Fix waveform bugs\
+- Enhance TPDF dither\
+- Fix 1x DDP dump error\
+\
+Mark Info\
+- Fixes for crashes in editing in Mark Info window\
+- Fixes to \'93Zoom to In/Out Edit Point\'94 key command\
+- Fix for writing JAM files on Intel-based machines\
+- Fix inconsistent display and use of offset preferences\
+- Add auto increment of ISRC, clear fields on closing Project\
+- Fix crash in making a CD from a DDP (with no project open)\
+- Fix crash after aborting a CD delivery\
+\
+Background Manger\
+Sample Rate Conversion\
+- Support for all common sample rates added\
+- Support for audio file type conversion\
+- Do not build waveforms added\
+- Improved file name handling\
+- Improved error message reporting\
+\
+NoNOISE\
+- Fix one crash in Type-E DeCrackle\
+- Enable NoNoise II Commands for Selected Segments\
+- Fix Restore Click on selected segments\
+- Fix stall/improve speed on long E-Type decrackle\
+- Fix BBDN handling of Sample Rate above 44.1\
+\
+Export\
+- Improvements to BWF meta data handling in Export\
+- Fix dither checking in Export Tracks\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ri2160\qj\pardirnatural
+\cf0 \
+Version 3.2.1 addresses:\
+Mark Info\
+	- Fixes for crashes in editing in Mark Info window\
+	- Fixes to "Zoom to In/Out Edit Point" key command\
+	- Fix JAM file (Intel)\
+	- Fix inconsistency display and use of offset preferences 	- Add auto increment of ISRC, clear fields on closing Project\
+	- Fix crash in making DDP (fromCD ) with no Project Open\
+	- Fix one crash after abort of CD\
+	- Fix one crash after abort of CD\
+		\
+Background Manger\
+Sample Rate Conversion\
+	- do not build waveforms, \
+	- handle naming better\
+	- improved error messages\
+NoNoise	\
+	- Fix one crash in Type-E DeCrackle\
+	- Enable NoNoise II Commands for Selected Segments\
+\
+Export\
+	- Improvements to BWF meta data handling in Export\
+	- Fixes dither checking in Export Tracks\
+General:\
+	- Addition of Sonic EQ (basic filter set)\
+	- Improved handling of Sample Rate mistmatch\
+	On startup and opening EDLs/soundfiles.\
+	- Compressed file playback (Apple lossles, mp4, mp3, AAC)\
+	FLAC Playback requires installer (please write support)\
+	        - Fix Display of Multiple Gain notes (delta display)\
+ 	        - Fix erratic gain changes on long fades\
+ 	\
+Version 3.1.2 addresses:\
+	- Menu Items and Broken Cmd-H command\
+      - Add WAV as an export type (no BWF metadata)\
+	- Add JAM Image support (requires DDP Open Option)\
+	- Add Fixes for Export and Background DeCrackle\
+      - Fixes issues with PQ offsets not updating correctly\
+      - Fixes for AIFF export\
+	- Improve Error handling on DDP Delivery\
+	- Fixes settings for Dither (TPDF/mBit)\
+	- Add support for 32bit PCM AIFF format sound files\
+\
+Version 3.1.1 addresses:\
+	- Crash on setting Start Time in Mark Info Window\
+	- Fixes for CD-Text\
+	- Fixes for Export\
+	- Fixes for opening older HD projects\
+\
+Version 3.1 addresses:\
+	- Fixes for DSD Converter: BWF, DSDIFF support added.\
+	- Change Close Project to Command-Shift-W\
+	- Fix for 24 bit export crash\
+	- Fix and add settings for mBit+ Dither\
+	- Fix bug with DDP Open with CDText (and end marks)\
+	- Fixes for CDTEXT.BIN in DDPMS\
+	- Fix reading of DDP Images with No TS file (and CDTEXT.BIN)\
+	- Issue w/ certain options (reNOVAtor) not being recognized\
+	- Add nexStage DSD Converter option support.\
+	- Fix JAM support (crash in Toast 9.0)\
+	- Allow PMCD to create a PQ only DDP file set\
+	- Improved sound processing algorithms\
+\
+
+\b Demo Mode \'97
+\b0 \
+\
+PreMaster CD will run in demo mode unless authorized using an iLOK USB Key. In demo mode, certain features are disabled as well as the audio stream mutes periodically during playback.\
+\
+
+\b iLok Authorization for Licensed Options \'96\
+
+\b0 \
+PreMaster CD 3.2 requires your iLok to enable any purchased\
+options for PreMaster CD such as DDP File Open and Manual DeClick or our new products, NoNOISE FixIt and the DSD Converter. \
+\
+If you own one of these options, you must have your iLok updated\
+with a license for each option in order to use them. Send an Email to <support@sonicstudio.com> with your iLok ID and tell us which options you need licensed. There is no charge for this.\
+\
+See the Installation section below for more specific instruction.\
+\
+\ul NOTE\ulnone : 	PreMaster CD 3.2 will no longer recognize legacy Sonic Key Files. \
+\
+\ul NOTE\ulnone :	Only install options that you have licensed. This can seriously affect startup time for PreMaster CD.\
+\
+
+\b Preferences \'97\
+
+\b0 \
+Please delete your existing PreMaster CD preferences prior to using this version!\
+\
+Double click on the included utility (in the Extras folder) Delete PMCD Preferences.command. This will run the Terminal utility and delete existing PreMaster CD preferences. You can quit Terminal after running.\
+\
+
+\b Using PreMaster CD With Leopard \'97\
+
+\b0 \
+PreMaster CD 3.2 has been tested and approved under OS X 10.5(Leopard). There is one reported issue with using 10.5: \
+\
+A CD must be inserted into the CD Drive before running PreMaster CD. Otherwise the CD device is not recognized. This bug will be addressed by Apple in a future release of OS X.\
+\
+
+\b Requirements \'97
+\b0 \
+\
+PreMaster CD requires the following:\
+\
+	CPU:	Apple Macintosh PPC G4, G5 or Intel\
+		1 GHz or higher\
+	Display:	17" or larger display\
+	RAM:	2 GB RAM minimum, >2 GB preferred\
+	Disc:	Apple\'96supplied, recordable optical disc mechanism\
+	OS:	Mac OS 10.4.11 or newer\
+	USB:	One available USB port for iLok\
+	iLok:	iLok USB Smart Key, not supplied\
+\
+Note that USB hubs, audio or optical disc peripherals are not\
+supported.\
+\
+Since PreMaster CD uses Core Audio, the quality of your playback and delivered discs will be entirely dependent on the hardware andassociated drivers used. Note that PreMaster CD is supported on Macintosh OS versions 10.4.3 or newer for optimal device compatibility as well as CD Text support.\
+
+\b \
+PACE InterLok:
+\b0 \
+Please note that PreMaster CD is protected with PACE Anti-Piracy\'92s InterLok copy protection. Your PreMaster CD license is authorized with iLok USB Smart Keys. To request authorization for your iLok USB Smart Key, visit:\
+\
+	http://www.sonicstudio.com/register\
+\
+Completing the form will generate an authorization request. We will then place a license for PreMaster CD in your iLok account. Please fill out the form completely to avoid delay in authorization\
+\
+\ul NOTE\ulnone : 	PACE\'92s InterLok and SafeNet\'92s Sentinel frameworks conflict. You cannot have a Sentinel dongle plugged in when running PreMaster CD.\
+\
+
+\b Installation \'97
+\b0 \
+To install PreMaster CD, please click on the PreMaster_CD_33_Installer.pkg icon. Follow the on screen\
+instructions to install your software.\
+\
+
+\b PreMaster CD Options Installation \'97
+\b0 \
+PreMaster CD requires the installation of Options using the provided Options Installer.\
+\
+This installer is located at:\
+\
+PreMaster CD 3.3>Extras>PMCD 30 Option Installers	\
+\
+	1) Run Install PreMaster CD Options.mpkg. \
+	2) Select the options you have licensed (and for a demo 		trial). \
+	 Select (check) 
+\b \ul only the options you are licensed to use
+\b0 \ulnone . \
+\
+This does not install the actual option software, only the software that lets you use specific options you have licenses for on your iLok. \
+ \
+\
+
+\b PreMaster CD Options Notes:
+\b0 \
+1.	Requires PreMaster 3.0 or later. \
+2.	Legacy Sonic Key Files are no longer supported in PreMaster CD 3.0 and later. \
+3.	To enable options using iLOK please use the Install PreMaster CD Options installer. \
+4.	If your iLOK has not been authorized for your options please write us: support@sonicstudio.com. \
+ 	Please include your iLOK serial number and iLOK user account. \
+5.	Options are installed on the Boot Volume at: \
+ "/Library/Application Support/Sonic Studio/Sonic Options/" \
+6.	Use Remove PreMaster CD Options for removing options.\
+\
+\ul NOTE\ulnone : 	Only install options that you have licensed. Installing options that are not on your iLok will make PMCD launch VERY slowly.\
+\
+Intel Support \'97\
+\
+PreMaster CD 3 is a Universal Binary version and is built to run\
+natively on both PowerPC and Intel Macs.\
+\
+An Aggregate Device is no longer needed. If you have any existing Aggregate Device definitions you have created in Audio/MIDI Setup, you can continue to use them as needed.\
+\
+\
+
+\b 3.1 Additions \'97\
+
+\b0 	-CDTEXT.BIN\
+	- set name correctly in the DDPMS file\
+	- support reading CDTEXT.bin files (with no TS)\
+\
+
+\b 3.0 Additions \'97\
+
+\b0 \
+-	Universal Binary\
+	Version 3 of PreMaster CD is now a Universal Binary 		application. It runs natively on either Intel- or Power PC-		based Apple computers.\
+\
+-	MBIT+ Dither\
+	iZotope's MBIT+ Psychoacoustic Wordlengh Reduction 		has been added to the Preferences>Delivery settings.\
+\
+-	Sample Rate Conversion\
+	PreMaster CD now comes with the Background Manager 		for Sample Rate Conversion to 44100 for CD delivery.\
+\
+-	New Commands / Features\
+\
+-	Open EDL has been added to the File menu. This 			command allows you to navigate to EDLs within a Project 		folder and open them in a new project window.\
+\
+-	Open Dual Sound File command has been added. 			Selecting this command allows you to open dual mono 		files in sync, in to Panels Left and Right.\
+\
+\
+- 	DDP and CD Text\
+	DDPs created in PreMaster CD now reference CD Text 		metadata in the DDPMS file. The TS file is still used to 		deliver CD Text for CD-R.\
+\
+-	New Options\
+\
+-	FixIt is a new option for PreMaster CD. FixIt is an audio 		restoration product based on our award-winnig 			NoNOISE\'99 	software. Fixit combines DeClick, DeCrackle, 	EQ, and Sample Rate Conversion into one low-cost and 		easy-to-use 	package.\
+\
+-	DSD File Conversion has been added as an option for 		PreMaster CD. Sonic Studio's DSD Converter provides 		fully adjustable and bidirectional PCM to DSD and DSD to 		PCM conversion as a background process in PreMaster 		CD. The DSD option is only available for Intel Mac based 		systems.\
+\
+
+\b 3.0 Refinements \'97\
+
+\b0 \
+-	Response time for the user interface is improved.\
+-	The maximum open file limit has been increased to 10,240 		files.\
+-	The PQ Listing now shows the CD Track, Artist and Album names.\
+-	Opening .sd2 files with Region Markers, and Create Marks enabled, has been fixed.\
+-	The ability to drag or drop an IMAGE.DAT file into a Project has been added.\
+-	Fixed bug in the delivery of blank CDs when no Panels are selected in the Project.\
+-	The delivery of DDP file sets will now always use the Destination Edit Group and top Panel in a Project. This change addresses the creation of empty DDP file sets.\
+-	A change has been made which suspends background processing during auditions. This improves foreground process performance.\
+-	Checking for the presence of valid iLoks when opening New Projects has been optimized to reduce the time required.\
+-	Improvements have been made to reduce late read/writes during Delivery.\
+-	Improvements to handle DDP file sets with more than one audio or DDPMS file.\
+-	The PQ Listing now shows the CD Track, Artist and Album names.\
+-	Improvements have been made to naming abilities in the Export Sound File process.\
+-	The application returns an error if two Start of Track Marks are at same location.\
+-	Improvements have to file name handling and waveform metadata creation.\
+-	The Reverse Soundfile command has been fixed.\
+- 	The default behavior of dragging a sound files into a project has changed. \
+	In this release, dragging a sound file into a project no longer creates Start and End of Track Marks automatically. Holding down the command key when releasing a dragged sound file(s) into a Project causes PreMaster CD to create Start of Track Marks for each sound file. \
+-	A fix has been made to address crashes on undo.\
+-	A fix has been made to address crashes when quitting the application.\
+-	A fix has been made to the Auto Space function so as to correctly read its preference setting.\
+-	A fix has been made to handle extended ASCII characters with diacritical marks.\
+-	A fix has been made to DDP deliveries when aborting and starting another job.\
+-	A fix has been made to some menu items in PreMaster CD.\
+-	Fixes have been made to clarify menu entries in PreMaster CD.\
+-	A fix has been made that allows Shift\'96G to bring up the Gain dialog in Mark Info.\
+-	A fix has been made to meter scaling in the Details window.\
+-	A fix has been made to burn CD Text and ISRC with open session CD-Rs.\
+\
+
+\b Known Issues \'97\
+
+\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri2160\sl288\slmult1\qj
+\cf0 -  Auto Space duration not respected with multiple files via Drag & Drop.\
+	 Work-around: Command-Drag & Drop, clear or edit Marks as needed.\
+- Edit menu->Auto Space All Segments command with Marks produces error -20200.\
+	 Work-around: Clear Marks, execute command, remark project as needed\
+-  Audio File Conversion in Background Manager produces crash\
+	 Work-around: Use Export Soundfile or Export Track for File Conversion\
+- Sound files with names longer than 27 characters or special characters may prevent waveform metadata from being built. This may also prevent sample rate conversion from progressing. \
+	 Work-around: Rename file with <28 standard alphanumeric characters.\
+- Sample Rate Conversion of AIFC files is not supported.\
+- Because PreMaster CD employs the CD writing functions of Mac OS, 3rd party optical disc writers are handled differently than Apple\'96supplied, built\'96in drives. A simple and inexpensive application, Christian Moeller\'92s PatchBurn < www.patchburn.de>, creates a \'93Device Profile\'94 used by the operating system when addressing the drive. NOTE: Patchburn is not necessary in Mac OS 10.5 (Leopard) or later.\
+- When using a 3rd party FireWire\'96attached CD-R or DVD-R drive, you must power up the mechanism and restart PreMaster CD in order for the application to recognize the drive. To prevent rare but expensive repairs to your equipment, always plug in FireWire peripherals with power off, then power on afterwards. \
+- When first launching PreMaster CD and opening a New Project at sampling rates other than 44.1, you may see a warning prompt indicating that you have a sampling rate mismatch. Please click \'93OK\'94 and proceed. You should not receive this warning again within this project.\
+- When rearranging CD Tracks in the Mark Info window, Track 1 cannot be moved. \
+	Work-around: MoveTrack 1 using the Track Bar within Project.\
+- When dragging fades, sometimes the audio underneath the fade will move or be unintentionally offset on the time-line.\
+	Work-around: Undo the fade change, perform the fade move again and then turn the fade tool off until needed to protect your fade settings.\
+- Occasionally, stereo playback or editing will break momentarily. \
+	Work-around: Click on the mono Edit Mode button and back to stereo again to reset.\
+- Some audio devices have not been tested and certified as compatible with PreMaster CD.  Our 3rd Party Compatibility page list products and their status at: \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri2160\sl288\slmult1\qj
+\cf2 \ulth \ulc2 www.sonicstudio.com/support/3rdparty.html\cf0 \ulnone \
+- If segments are moved after PQ Marks have been placed, your mark locations must be checked.\
+- If sound files are part of a Project when saved as a Default Project, the sound files will be referenced in all default Projects. Always save an empty Default Project.\
+- On some older version of OS X (10.4.8) there are -1 Delivery errors. This is being investigated.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ri2160\qj\pardirnatural
+\cf0 \
+
+\b Implementation Specifics \'97\
+
+\b0 \
+Please take note that the following features may seriously affect your use of this application:\
+\
+
+\f1 \uc0\u9991 
+\f0 	DDP file sets created by PreMaster CD are \'93source-mode complete.\'94 This means that 2 seconds of pregap are present, with silence before the first Start of Track (SOT) mark. DDP file sets created by some vendors are \'93source-mode incomplete,\'94 and are lacking the 2 second pregap.\
+\
+
+\f1 \uc0\u9991 
+\f0 	Note that, in the Speed menu, the descriptors are provided as a guide and are not explicit. Your actual delivery speed is host\'96specific and may vary from the stated rate.\
+\
+
+\f1 \uc0\u9991 
+\f0 	If segments are moved after PQ Marks have been placed, your mark locations must be checked.\
+\
+
+\f1 \uc0\u9991 
+\f0 	If sound files are part of a Project when saved as a Default Project, the sound files will be referenced in all default Projects. Always save an empty Default Project.\
+\
+\
+
+\b Using PMCD with Digidesign\'ae Hardware \'97
+\b0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri2160\sl288\slmult1\qj
+\cf0 With the release of ProTools 8, the integration of PreMaster CD and Digidesign hardware is easy. Just make sure that your Digidesign hardware is defined in Audio MIDI Set Up as Use This Device For Sound Input and Use This Device For Sound Output (OS 10.6) or Defult Input, Default Output and Properites For (OS 10.5.8)
+\b \
+
+\b0 \
+In ProTools 7, you can add PreMaster CD to the list of recognized applications in the Digidesign CoreAudio Manager. Refer to Digidesign\'92s CoreAudio Usage Guide for information on associating PreMaster CD with your Pro Tools hardware and configuring the Digidesign CoreAudio Manager.\
+\
+Please refer to Digidesign\'92s site for more information:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri2160\sl288\slmult1\qj
+\cf0 \ulth \ulc0 www.digidesign.com/download/coreaudio\ulnone \
+\
+for the current version. Also see:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri2160\sl288\slmult1\ql\qnatural
+\cf0 \ulth www.digidesign.com/index.cfm?langid=1&navid=54&itemid=24268akmedia.digidesign.com/support/docs/CoreAudio_Drivers_Guide_v73_32943.pdf\ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ri2160\sl288\slmult1\qj
+\cf0 \
+You should have the most recent version of the Digidesign CoreAudio Driver installed for seamless operation.\
+\
+Basic instructions:\
+\
+- Run the Digidesign CoreAudio Setup Application\
+- Select \'93Supported Applications\'85\'94\
+- Select \'93Add New \'94\
+- Choose the PreMaster CD application and add it to the Digidesign CoreAudio driver\'92s list of supported applications.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ri2160\qj\pardirnatural
+\cf0 \
+\
+
+\b Contacting Us \'97
+\b0 \
+\
+Thanks for purchasing a Sonic Studio product. We really appreciate your patronage and are always interested in your experiences with PreMaster CD.\
+\
+For bug reports and support issues, visit www.sonicstudio.com\
+support or email us support@sonicstudio.com. To suggest new \
+features for our products, e\'96mail us at support@sonicstudio.com. \
+\
+For up to date information on all of Sonic Studio\'92s products, visit\
+\
+	www.sonicstudio.com/products\
+\
+\
+\
+Software Updates \'97\
+\
+Updates to PreMaster CD are available in the Downloads section of the Sonic Studio website.\
+\
+	http://www.sonicstudio.com/support/downloadapp.html}  6xcT

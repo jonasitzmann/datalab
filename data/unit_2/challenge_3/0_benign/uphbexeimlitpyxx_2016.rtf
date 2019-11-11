@@ -1,0 +1,498 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf410
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fnil\fcharset77 LucidaGrande;\f2\fnil\fcharset77 LucidaGrande-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red125\green125\blue125;\red64\green93\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
+
+\f0\fs24 \cf0  {{\NeXTGraphic MozoDojo.png \width2560 \height2560
+}¬}
+\f1\fs26 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
+
+\f2\b \cf0 MozoDojo 2.2.1\
+
+\f1\b0\fs22 \cf2 Joie des photos mosa\'95ques dans une super-napplication\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f2\b\fs26 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f1\b0 \cf0 \ul \ulc0 Table des mati\'8fres
+\f2\b \ulnone \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f1\b0\fs22 \cf0 - Informations g\'8en\'8erales\
+- Syst\'8fme requis\
+- Installation/D\'8esinstallation\
+- Qu'est-ce que MozoDojo\
+- Survol de l'utilisation\
+- Le fichier de cache\
+- Les technologies sous-jacentes \'88 MozoDojo\
+- FAQ (Foire Aux Questions )\
+- Probl\'8fmes connus
+\f2\b\fs26 \
+
+\f1\b0\fs22 - Historique des versions\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul Informations g\'8en\'8erales\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone \
+Site web de MozoDojo: \cf3 http://ktd.club.fr/programmation/mozodojo.php\cf0 \
+Adresse de contact e-mail : \cf3 pierre.chatelier@club-internet.fr
+\fs26 \cf0 \ul \
+\
+Syst\'8fme requis\
+
+\fs22 \ulnone \
+MozoDojo 2.2.1 n\'8ecessite Mac OS X version 10.4 ou sup\'8erieure (nom de code Tiger). Si iPhoto, iTunes ou Delicious Library (\cf3 http://www.delicious-monster.com\cf0 ) sont install\'8es, MozoDojo offre une interaction avec ces programmes, mais leur pr\'8esence n'est pas requise.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f2\b\fs26 \cf0 \
+
+\f1\b0 \ul Installation/D\'8esinstallation\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone \
+Installation : D\'8eposez simplement l'ic\'99ne de MozoDojo \'88 partir de l'image disque vers votre dossier "Applications", ou tout autre endroit de votre disque dur.\
+D\'8esinstallation : MozoDojo cr\'8ee un fichier Bibiloth\'8fque/Application Support/MozoDojo/cache.db dans votre dossier utilisateur. Si vous d\'8ecidez de d\'8esinstaller MozoDojo (en pla\'8dant son ic\'99ne dans la corbeille), vous pouvez \'8egalement supprimer ce fichier (voyez la section "Le fichier de cache" pour des explications suppl\'8ementaires).
+\f2\b\fs26 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f1\b0 \cf0 \ul Qu'est-ce que MozoDojo ?\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone \
+MozoDojo est un cr\'8eateur de photo-mosa\'95ques. Il construit une mosa\'95que dont les carreaux sont pioch\'8es dans une banque d'images, et dont l'aspect final est celui d'une image donn\'8ee (le mod\'8fle). En voici un exemple :\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f0\fs24 \cf0 {{\NeXTGraphic earth-small.jpg \width7200 \height7380
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+\cf0 {{\NeXTGraphic earth-mosaic-small.jpg \width7200 \height7340
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+\cf0 \
+Cette image prise sur le site de l'APOD (Astronomy picture of the day, http://antwrp.gsfc.nasa.gov/apod/astropix.html) a \'8et\'8e construite avec d'autres images de l'espace sur le m\'90me site.
+\f1\fs22 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul Survol de l'utilisation\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone Cette section explique comment s'utilise MozoDojo, et quelles sont les significations des diff\'8erents param\'8ftres.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f2\b\fs26 \cf0 1) D\'8eposez une image mod\'8fle \'88 transformer en mosa\'95que :
+\fs22 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\b0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic.tiff \width8060 \height5960
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f2\b\fs22 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f1\b0 \cf0 Une image mod\'8fle doit \'90tre d\'8epos\'8ee dans le panneau de gauche. La photo-mosa\'95que essaiera de ressembler \'88 cette image.\
+Une image masque peut \'8egalement \'90tre d\'8epos\'8e dans l'onglet "Masque" du panneau de gauche.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 1.tiff \width8080 \height5900
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f1\fs22 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+\cf0 \
+Un masque est une image en niveaux de gris qui "filtre" l'image normale. Le blanc correspond ici \'88 l'opacit\'8e compl\'8fte, et le noir \'88 la transparence. Ce masque est optionnel. Sa taille est automatiquement ajust\'8ee \'88 celle de l'image mod\'8fle.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f2\b\fs26 \cf0 2) S\'8electionnez une banque d'images
+\fs22 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f0\b0\fs24 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 {{\NeXTGraphic Pasted Graphic 2.tiff \width8020 \height4340
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f1\fs22 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+\cf0 Une banque d'images est un ensemble d'images pouvant \'90tre utilis\'8ees comme carreaux de la mosa\'95que \'88 construire. Il peut s'agir d'un dossier ou d'un dossier intelligent, dont seront extraits les fichiers images. Il est \'8egalement possible d'utiliser une s\'8equence dont on extrait des pose \'88 intervalles r\'8eguliers. Si iPhoto, iTunes ou Delicious Library (\cf3 http://www.delicious-monster.com\cf0 ) sont install\'8es, ils peuvent \'8egalement \'90tre utilis\'8es comme banques d'images pratiques.\
+Vous pouvez ajouter ou supprimer des banques d'images en cliquant sur les boutons "+" et "-". Veuillez noter qu'il n'est pas possible d'avoir plus d'une instance de iPhoto, iTunes ou Delicious Library.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul \
+
+\f2\b \ulnone 3) D\'8efinissez la grille de la mosa\'95que\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\b0\fs24 \cf0 {{\NeXTGraphic 1__#$!@%!#__Pasted Graphic 2.tiff \width8140 \height2160
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\f2\b\fs22 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f1\b0 \cf0 Vous pouvez d\'8efinir l'aspect de la mosa\'95que, en choisissant le nombre et le format des carreaux. Veuillez noter que la glissi\'8fre contr\'99lant les subdivisions modifie le nombre de divisions 
+\f2\b horizontales
+\f1\b0 , les divisions 
+\f2\b verticales
+\f1\b0  \'8etant d\'8eduite du format choisi.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f2\b \cf0 Veuillez aussi noter que changer le format implique une nouvelle analyse des images 
+\f1\b0 (qui seront bien s\'9er stock\'8ees dans le cache).
+\f2\b \
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 4) D\'8efinir les param\'8ftres d'analyse des images
+\fs22 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f1\b0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 3.tiff \width8080 \height3980
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f1\fs22 \cf0 MozoDojo permet de restreindre l'usage des images en provenance d'une banque d'images. Vous pouvez choisir d'utiliser les images sous certaines contraintes, de type "pas moins d'un certain nombre de fois", et "pas plus d'un certain nombre de fois".\
+\
+Vous pouvez aussi d\'8efinir un "
+\f2\b seuil d'acceptation
+\f1\b0 ". Une image provenant d'une banque ne peut \'90tre utilis\'8ee comme carreau que si elle "ressemble assez" \'88 une zone de l'image mod\'8fle. Ce param\'8ftre peut \'90tre 
+\f2\b diminu\'8e
+\f1\b0  pour \'90tre 
+\f2\b moins
+\f1\b0  strict (plus tol\'8erant). Cela est utile si vous constatez que la mosa\'95que finale contient des trous, signifiant qu'aucune image n'a pu \'90tre choisie pour le combler. Vous observerez vraisemblablement des trous si vous emp\'90chez les images d'\'90tre utilis\'8ees "plus d'un certain nombre de fois".\
+\
+Le param\'8ftre "
+\f2\b handicap de proximit\'8e
+\f1\b0 " contr\'99le la possibilt\'8e pour une image d'\'90tre choisie comme carreau plusieurs fois dans la m\'90me zone. En effet, si l'image mod\'8fle contient une zone tr\'8fs homog\'8fne, le logiciel a toutes les chances de choisir la m\'90me image pour carreler toute la zone. En augmentant le handicap de proximit\'8e, vous emp\'90chez une image de se retrouver trop proche d'un carreau o\'9d elle serait d\'8ej\'88 utilis\'8ee.\
+\
+MozoDojo calcule la meilleure mosa\'95que possible d'apr\'8fs ses propres crit\'8fres. En lan\'8dant le m\'90me calcul plusieurs fois, vous avez donc la garantie d'obtenir le m\'90me r\'8esultat. Malgr\'8e tout, MozoDojo peut, lors de l'\'8etape de s\'8election utilisant le "handicap de proximit\'8e", se trouver face \'88 un choix assez arbitraire de l'ordre de traitement des images. La "
+\f2\b graine de hasard
+\f1\b0 " permet de param\'8etrer ce choix avec une valeur arbitraire. Une graine est associ\'8ee \'88 un r\'8esultat. Changer la graine peut changer l\'8eg\'8frement le r\'8esultat.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f2\b\fs26 \cf0 5) \'83viter les carreaux disgracieux\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\fs22 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\b0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 4.tiff \width8060 \height3960
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+\cf0 \
+
+\f1\fs22 Quand MozoDojo utilise une image comme carreau de la mosa\'95que, il l'\'8etire on la comprime pour remplir exactement le carreau. Cela peut produire des d\'8eformations visibles et disgr\'89cieuses si l'image \'88 placer a un format tr\'8fs peu semblable \'88 celui du carreau.\
+Le format caract\'8erisant une image est son rapport largeur sur hauteur. Il y a le format id\'8eal du carreau, et le format de l'image \'88 placer. Si ces deux formats sont trop diff\'8erents, l'image peut \'90tre ignor\'8ee/\'8etir\'8ee/rogn\'8ee. Vous pouvez aussi autoriser MozoDojo \'88 tourner automatiquement l'image de 90\'a1 (dans le sens horaire ou anti-horaire) pour trouver l'orientation correspondant le mieux au carreau.\
+La "Tol\'8erance du calcul de similarit\'8e des formats" peut \'90tre adapt\'8ee pour d\'8efinir la sensibilit\'8e de MozoDojo lors de la comparaison de l'\'8ecart entre deux formats. Une tol\'8erance de 0% signifie que les ratios doivent avoir exactement la m\'90me valeur pour que les formats soient dits similaires, tandis qu'une sensibilit\'8e de 100% signifie que deux formats seront toujours vus comme similaires.\
+Num\'8eriquement, le calcul sous-jacent est le suivant : soit t la tol\'8erance entre 0 et 100. Soient r1 et r2 les valeurs r\'8eelles des formats \'88 comparer (rapport largeur/hauteur). Les formats sont dits trop \'8eloign\'8es si\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 1.pdf \width2520 \height780
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f2\b\fs22 \cf0 Veuillez aussi noter que changer ces param\'8ftres implique une nouvelle analyse des images 
+\f1\b0 (qui sera bien s\'9er stock\'8ee dans le cache).
+\f2\b \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f1\b0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f2\b\fs26 \cf0 6) Personnaliser la mosa\'95que
+\fs22 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f1\b0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 5.tiff \width8120 \height3900
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f1\fs22 \cf0 \
+Dans l'onglet "Dessin", vous pouvez choisir un comportement pour combler les trous pouvant appara\'94tre dans la mosa\'95que (si aucune image n'a pu \'90tre choisie). Vous pouvez \'8egalement d\'8efinir la taille de la mosa\'95que en pixels. La dimension maximale a \'8et\'8e fix\'8ee \'88 50000 pixels.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f2\b\fs26 \cf0 7) Calculer la mosa\'95que\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\b0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 7.tiff \width3360 \height600
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+\cf0 \
+Le calcul de la mosa\'95que est interruptible; de plus, MozoDojo reste fonctionnel et vous pouvez concevoir d'autres mosa\'95ques (dans d'autres documents) pendant qu'il s'effectue.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f2\b\fs26 \cf0 \
+8) Aper\'8du de la mosa\'95que
+\f1\b0\fs22 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\fs24 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 {{\NeXTGraphic Pasted Graphic 6.tiff \width8060 \height7840
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f1\fs22 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+\cf0 \
+Une fois la mosa\'95que calcul\'8ee, vous en avez un aper\'8du sur lequel il est possible de zoomer, et de "tricher" l\'8eg\'8frement pour obtenir un meilleur r\'8esultat. Cette "triche" consiste \'88 replaquer l'image mod\'8fle en surimpression par dessus la mosa\'95que.\
+Veuillez noter que tous les calculs sont stock\'8es dans le fichier de cache (voyez la section suivante : "Le fichier de cache")\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f2\b\fs26 \cf0 9) Enregistrer la mosa\'95que
+\f0\b0\fs24 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+\cf0 {{\NeXTGraphic 1__#$!@%!#__Pasted Graphic 7.tiff \width3940 \height600
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 {{\NeXTGraphic 1__#$!@%!#__Pasted Graphic.tiff \width8480 \height4100
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f1\fs22 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+\cf0 La mosa\'95que peut \'90tre export\'8ee au format d'image TIFF (sa taille \'8etant d\'8efinie dans l'onglet "Dessin"). Il est aussi possible d'exporter l'image en "Texte" ou "XML", dont le contenu ne sera alors la description de la mosa\'95que, sous forme de la liste de ses carreaux et de leurs emplacements.
+\f2\b\fs26 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f1\b0\fs22 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul Le fichier de cache\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\fs22 \cf0 \ulnone \
+Le processus d'analyse des images pour \'8etablir leurs similarit\'8es peut \'90tre assez long. M\'90me s'il ne suffisait que d'une seconde pour une image, il faudrait une heure pour 3600 images !\
+Pour \'8economiser du temps de calcul, MozoDojo stocke tous les r\'8esultats dans un fichier, appel\'8e le "fichier de cache", de telle sorte que si une image est analys\'8ee une nouvelle fois, il va d'abord v\'8erifier la disponibilit\'8e des r\'8esultats du calcul. Cela est tr\'8fs efficace en pratique, et vos banques d'images ne n\'8ecessitent donc qu'une analyse (par jeu de param\'8ftres).\
+Le fichier de cache se trouve \'88 l'emplacement chez-vous/Biblioth\'8fque/Application Support/MozoDojo/cache.db. Vous pouvez le supprimer, MozoDojo en cr\'8eera simplement un nouveau.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+
+\f2\b \cf0 Veuillez noter que si une image est modifi\'8ee, le cache d\'8etectera que son contenu n'est pas \'88 jour et une nouvelle analyse de l'image sera faite.\
+Veuillez aussi noter que modifier la configuration de MozoDojo peut impliquer de nouveaux calculs pour une banque d'images non modifi\'8ee. Par exemple, changer le format ou les param\'8ftres "Modification" de la mosa\'95que demande une nouvelle analyse 
+\f1\b0 (dont les r\'8esultats seront \'88 leur tour stock\'8es dans le cache).\
+\
+
+\f2\b Gestion du cache :
+\f1\b0 \
+\
+Le menu "Fichier > Gestion du fichier de cache..." fait appara\'94tre la fen\'90tre suivante :\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+
+\f0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 11.tiff \width6900 \height3660
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qc\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\qj\pardirnatural
+\cf0 \
+Plus vous utilisez MozoDojo, plus la taille du fichier de cache augmente. De temps en temps, vous pouvez effectuer quelques nettoyages pour r\'8eduire sa taille. Vous pouvez effectuer les actions suivante :\
+	- "Vider le cache" supprime l'int\'8egralit\'8e du contenu du fichier ;\
+	- "Chemins invalides" supprime les donn\'8ees faisant r\'8ef\'8erence \'88 des fichiers qui n'existent plus (en se basant sur le nom des fichiers) ;\
+	- "Donn\'8ees p\'8erim\'8ees" supprime les donn\'8ees faisant r\'8ef\'8erence \'88 des fichiers modifi\'8es depuis ;\
+	- "Images mod\'8fles" supprime les donn\'8ees faisant r\'8ef\'8erence aux images utilis\'8ees comme "mod\'8fles" de la mosa\'95que dans le panneau de gauche.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f1\fs22 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul Les technologies sous-jacentes \'88 MozoDojo\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\f2\b \cf0 MozoDojo
+\f1\b0  utilise de nombreuses technologies fournies par MacOS X. Cette section donne quelques d\'8etails quant \'88 leur implication.\
+\
+
+\f2\b CoreImage/QuartzComposer :
+\f1\b0  MozoDojo effectue des analyses d'images. Pour acc\'8elerer ce processus, CoreImage et QuartzComposer aident MozoDojo en appliquant un pr\'8e-filtrage aux images gr\'89ce \'88 des algorithmes con\'8dus pour l'occasion, et appliqu\'8es par la carte vid\'8eo. Les shaders OpenGL sont utilis\'8es et le flux de donn\'8ees a \'8et\'8e construit avec QuartzComposer. De nombreux autres filtres sont encore appliqu\'8es \'88 la construction de la mosa\'95que, gr\'89ce \'88 Core Image.\
+\
+
+\f2\b CoreData :
+\f1\b0  la plupart des calculs effectu\'8es par MozoDojo sont stock\'8es dans un fichier dit de "cache", pour pouvoir r\'8eutiliser les r\'8esultats par la suite. CoreData permet de stocker cela facilement. Cela est tr\'8fs efficace en pratique, car il est possible de stocker autant de donn\'8ees que d\'8esir\'8e, mais surtout, il est possible de ne charger en m\'8emoire que celles dont on a besoin \'88 un instant donn\'8e. De cette fa\'8don, MozoDojo ne consomme pas forc\'8ement plus de m\'8emoire m\'90me si le cache grandit.\
+\
+
+\f2\b Spotlight :
+\f1\b0  lorsque l'on utilise un dossier comme banque d'images, MozoDojo permet de choisir un dossier intelligent du Finder, et permet aussi d'explorer en profondeur le contenu d'un r\'8epertoire. Ces deux options ont \'8et\'8e r\'8ealisables simplement gr\'89ce \'88 l'int\'8egration de Spotlight.\
+\
+
+\f2\b Quicktime :
+\f1\b0  MozoDojo peut aussi utiliser une s\'8equence comme banque d'images. Ceci est possible gr\'89ce \'88 l'int\'8egration de Quicktime.\
+\
+
+\f2\b Parall\'8elisation :
+\f1\b0  Pour faire le meilleur usage possible des machines multi-processeur et multi-c\'cfur, MozoDojo est hautement parall\'8elis\'8e. Les calculs sont r\'8epartis sur les diff\'8erents processeurs disponibles. La diff\'8erence est tr\'8fs importante entre un G4 simple et un processeur CoreDuo.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul \
+FAQ (Foire aux questions)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone \
+(Q) : Pourquoi ne puis-je construire une banque d'image \'88 la fa\'8don d'un dossier intelligent (recherche Spotlight) ?\
+(R) : Vous pouvez utiliser une banque d'image de type dossier et s\'8electionner un dossier intelligent construit directement dans le Finder.\
+\
+(Q) : Pourquoi MozoDojo n'int\'8fgre-t-il pas Flickr ou GoogleImages comme banques d'images ?\
+(R) : Il y a deux raisons \'88 cela, l'une logique, l'autre technique. La raison logique est qu'il est plus vraisemblable de savoir avec quelles images on construit une mosa\'95que. Utiliser Flickr ou GoogleImages rendrait votre mosa\'95que impr\'8evisible, et ce n'est pas forc\'8ement une bonne id\'8ee pour personnaliser un travail. La raison technique est plus subtile. D'abord, MozoDojo stocke tous ses calculs pour \'8eviter d'avoir \'88 les ex\'8ecuter deux fois. De plus, si un fichier d'image est modifi\'8e, les calculs sont effectu\'8es \'88 nouveau car MozoDojo d\'8etecte que les calculs stock\'8es sont p\'8erim\'8es. Aussi, utiliser des images distantes en provenance de Flickr ou GoogleImage pose probl\'8fme, car il ne serait pas possible de v\'8erifier simplement que le fichier a \'8et\'8e modifi\'8e; cela signifie qu'il faudrait syst\'8ematiquement r\'8eeffectuer les calculs. C'est un gaspillage de temps. Une solution est de t\'8el\'8echarger vous-m\'90me les images, et de les utiliser localement, \'88 travers une simple banque d'images "Dossier".\
+\
+(Q) : J'ai d\'8ej\'88 calcul\'8e une image, mais MozoDojo l'analyse une nouvelle fois ! Pourtant, les calculs ont d\'9e \'90tre stock\'8es ?\
+(R) : Si vous avez modifi\'8e des options, comme le format de la grille ou l'onglet "Modification" (tol\'8erance au format, ignorer/rogner/\'8etirer/tourner), l'image doit \'90tre analys\'8ee diff\'8eremment. De nouveaux calculs sont n\'8ecessaires (et ils seront stock\'8es aussi). De plus, si pour quelque raison que se soit, le cache n'a pu \'90tre sauv\'8e (par exemple en cas d'arr\'90t inopin\'8e), vous pouvez observer un tel comportement.\
+\
+(Q) : La prise en compte des sous-dossiers pour une banque d'images de type "Dossier" de fonctionne pas !\
+(R) : MozoDojo utilise Spotlight pour trouver les images dans une arborescence. Cela peut \'8echouer si votre dossier est exclu des recherches Spotlight.\
+\
+(Q) : Comment puis-je augmenter ma productivit\'8e gr\'89ce \'88 MozoDojo ?\
+(R) : Quand MozoDojo est lanc\'8e, appuyez simplement sur la combinaison de touches \uc0\u8984 Q, et votre productivit\'8e augmentera sans doute d'un facteur d'environ 50%.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul Probl\'8fmes connus\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone \
+- Le d\'8ecompte des images d'une banque d'images de type dossier peut ne pas \'90tre mis \'88 jour si un des fichiers d'images est plac\'8e dans la corbeille. Cela est d\'9e \'88 Spotlight qui ne consid\'8fre pas ce fichier comme supprim\'8e;\
+- La prise en compte des sous-dossiers pour une banque d'images de type "Dossier" ne fonctionne pas si le dossier est exclu des recherches Spotlight;\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs26 \cf0 \ul Historique des versions\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qj
+
+\fs22 \cf0 \ulnone \
+v 2.2.1 (4 avril 2007)\
+- Correction d'un blocage (interblocage de verrous) pouvant survenir sur des machines multi-processeur;\
+- Les alias \'8etaient parfois ignor\'8es, notamment dans les banques d'images de type dossier avec la prise en compte des sous-dossiers;\
+- Inversion de la gliss\'8fre "seuil d'acceptation" pour \'90tre plus intuitive conform\'8ement \'88 son intitul\'8e;\
+- Meilleure gestion des mosa\'95ques \'88 tr\'8fs petits carreaux.\
+\
+v 2.2.0 (30 mars 2007)\
+- Correction d'un bug pouvant emp\'90cher MozoDojo de fonctionner sur les tr\'8fs grandes banques d'images;\
+- D\'8eplacement du fichier de cache de ~/Library/Caches/MozoDojo vers ~/Library/Application Support/MozoDojo, pour \'8eviter une suppression automatique par MacOS X dans certaines circonstances;\
+- Correction d'un bug emp\'90chant de r\'8ecup\'8erer la fen\'90tre si elle \'8etait cach\'8ee ou r\'8eduite pendant l'assemblage des images;\
+- La version 2.1.1 n'avait pas compl\'8ftement r\'8esolu le probl\'8fme des "nested transactions"; ce bug devrait maintenant \'90tre corrig\'8e;\
+- Am\'8elioration du comportement lors de l'interruption d'un calcul;\
+- Correction de probl\'8fmes d'enregistrement/ouverture de documents; les anciens documents risquent de ne plus pouvoir \'90tre ouverts;\
+- Correction de quelques petites fuites m\'8emoire;\
+- Corrections mineures d'interface.\
+\
+v 2.1.1 (12 mars 2007)\
+- R\'8esolution d'un probl\'8fme de "nested transactions" pouvant emp\'90cher la sauvegarde du cache;\
+- Apr\'8fs avoir supprim\'8e une banque d'image de type "Dossier" puis effectu\'8e une modification du dossier dans le Finder, MozoDojo s'arr\'90tait inopin\'8ement;\
+- Gestion de l'annulation (undo) des modifications de param\'8ftres.\
+\
+v 2.1.0 (25 janvier 2007)\
+- Grande am\'8elioration de la rapidit\'8e d'utilisation des images d'une s\'8equence.\
+\
+v 2.0.1 (23 janvier 2007)\
+- Correction d'un bug sur la gestion du chemin lors de l'ajout de banques d'images.\
+\
+v 2.0.0 (22 janvier 2007)\
+- Enti\'8frement r\'8e\'8ecrit de z\'8ero. MozoDojo est maintenant plus rapide, plus efficace, plus param\'8etrable, consomme moins de m\'8emoire. Utilisez-le pour voir toutes les nouveaut\'8es !\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 v 1.6.0 (9 Avril 2006)\
+- ajout du support des couvertures de CD de iTunes (semble ne pas marcher avec certains MP3; le AAC est correctement g\'8er\'8e);\
+- les alias de fichiers sont maintenant correctement pris en compte;\
+- correction d'un bug pouvant provoquer un arr\'90t inopin\'8e lors d'une modification de iTunes, iPhoto ou DeliciousLibrary pendant que MozoDojo est lanc\'8e;\
+- dans la version fran\'8daise, les boutons "Rafra\'94chir" et "Exporter" n'\'8etaient pas correctement d\'8esactiv\'8es.\
+\
+v 1.5.0 (9 Mars 2006)\
+- MozoDojo n\'8ecessite maintenant MacOS 10.4 "Tiger", et n'est plus compatible avec MacOS 10.3 "Panther";\
+- MozoDojo est compil\'8e en Universal binaries (PowerPC/Intel), la version Intel n'a pas \'8et\'8e test\'8ee, mais devrait fonctionner;\
+- la mosa\'95que peut maintenant utiliser des images extraites de films;\
+- l'image originale peut \'90tre superpos\'8ee en transparence sur la mosa\'95que pour am\'8eliorer l'aspect final;\
+- suppression de "correction des teintes", devenu inutile;\
+- meilleure vitesse et utilsiation m\'8emoire (mais les mosa\'95ques de basse r\'8esolution sont plus lentes \'88 calculer qu'avant);\
+- int\'8egration d'un outil de contr\'99le des mises \'88 jour;\
+- traduction allemande par Dirk Pl\'9atzner {\field{\*\fldinst{HYPERLINK "http://www.dragonart.biz"}}{\fldrslt http://www.dragonart.biz}}
+\fs26 \ul \
+
+\fs22 \ulnone \
+v 1.4.1\
+-correction de quelques bugs pouvant provoquer un arr\'90t inopin\'8e du programme.\
+\
+v 1.4 (30 Avril 2005)\
+-possibilit\'8e de s\'8electionner plusieurs sources d'images ;\
+-possibilit\'8e de prendre en compte le contenu des sous-dossiers dans le d\'8ecompte des images ;\
+-mise \'88 jour de la documentation.\
+
+\fs26 \ul \
+
+\fs22 \ulnone v 1.3\
+-possibilit\'8e d'essayer de limiter le nombre d'usages d'une image ;\
+-ajout de la possibilit\'8e d'enregistrer/charger une configuration ;\
+-le cache n'est plus sauv\'8e que si n\'8ecessaire ;\
+-correction de bugs mineurs d'interface ;\
+-mise \'88 jour de la documentation.
+\fs26 \ul \
+\
+
+\fs22 \ulnone v 1.2\
+-correction d'un bug pouvant provoquer un crash du programme au d\'8emarrage, sur certaines configurations ;\
+-finalement, la correction de teintes ne change plus l'algorithme de s\'8election des images; mieux vaut utiliser le contr\'99le de "tol\'8erance" ;
+\fs26 \ul \
+
+\fs22 \ulnone -corrections mineures dans la documentation.\
+
+\fs26 \ul \
+
+\fs22 \ulnone v 1.1\
+-correction d'un bug pouvant emp\'90cher MozoDojo de se lancer sur certaines machines; ce bug \'8etait d\'9e \'88 une impl\'8ementation peu robuste de la lecture des donn\'8ees de Delicious Library ;\
+-cette correction apporte en sus un temps de chargement plus rapide du programme ;
+\fs26 \ul \
+
+\fs22 \ulnone -correction d'un bug pouvant provoquer un arr\'90t inopin\'8e de MozoDojo lors d'une manipulation dans Delicious Library ;\
+-correction d'un bug pouvant provoquer l'affichage de l'aide en anglais, alors que le programme avait \'8et\'8e d\'8emarr\'8e en fran\'8dais ;
+\fs26 \ul \
+
+\fs22 \ulnone -ajout d'un param\'8ftre modifiable pour l'utilisateur : la tol\'8erance de s\'8election des images ;\
+-corrections mineures dans la documentation.
+\fs26 \ul \
+\
+
+\fs22 \ulnone v 1.0 (20 Avril 2005)\
+- Premi\'8fre distribution publique}  639}3b72

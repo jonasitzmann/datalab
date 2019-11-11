@@ -1,0 +1,77 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue255;\red75\green172\blue198;\red79\green129\blue189;}
+{\*\generator Riched20 10.0.10240}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 Since I'm 'skinning-challenged', I thought I'd try to pull together the tips & tools needed to get the excellent 'MilkDrop2' visualization engine running on Media Center into a single 'Install Pack' zip file with a more or less 'linear' installation document . I've had it running under MC Versions 19, 20 & 21 and under Windows Vista, 8.1, & 10. It's kind of confusing jumping back & forth in the forum thread, so maybe this can help get a few more up & running. I know it looks long, but it's really not very difficult.\par
+Credits:    The original MC 'port' is the work of paul1970. This file is based on the excellent write-up by Doof - I've simply added a few lines and tips gleaned from the thread.  Marko's registry post saved the day for me. \par
+I'm also including ~50k presets originally posted by Arcturus and some that I've collected. The software itself is now open source, so a search may turn up new presets or other goodies. \par
+\cf1 INSTALLING:\par
+\cf0 It's easier to do this if you log in with an Administrator account. \par
+\cf1 1). DirectX NOTE: I put this first because it's a show stopper for many. You may not need to do this, but it's likely that you will...  \cf0 The most common error seems to be the dreaded \cf1\b "\i Error compiling Ps_2_0 warp shader... Your  hardware sux"\cf0\b0\i0  (ok, so I paraphrased). This makes it sound like you need to update your graphics card drivers (which isn't a bad idea), but is actually the result of a DirectX error. Your system is either newer (and includes only \i partial\i0  DirectX legacy support) or older. In either case, the solution is to snag the needed files from Microsoft as follows:\par
+Go to: {{\field{\*\fldinst{HYPERLINK http://www.microsoft.com/en-us/download/details.aspx?id=35 }}{\fldrslt{http://www.microsoft.com/en-us/download/details.aspx?id=35\ul0\cf0}}}}\f0\fs22\par
+Click the link to DL the installer (dxwebsetup.exe) & run it. It won't affect your existing DirectX install, just adds full legacy support. \par
+\cf1 2). Unzip the file "MilkDrop2 Install Pack.zip"\cf0  to somewhere you can find it, like "Desktop". It will result in a main folder named "MilkDrop2 Install Pack"  with the following folders under it: MilkDrop2, MilkDrop2 registry files, and Preset Pack\par
+\cf1 3). Copy & Paste or Drag & Drop the folder "Milkdrop2"\cf0  into your "Visualizations" folder. \par
+That should be as follows (substituting your version number for XX  (19, 20, or 21)) :\par
+    32bit Windows System:              C:\\Program Files\\J River\\Media Center XX\\Visualizations\par
+    64bit Windows System:              C:\\Program Files (x86)\\J River\\Media Center XX\\Visualizations\par
+These assume you've installed MC to the default Program Files folder on your C: drive. If you haven't, substitute accordingly.\par
+You should have a structure similar to this:\par
+Media Center XX\par
+|_\par
+   Visualizations\par
+   |_\par
+      Milkdrop2\par
+      |_\par
+         Milkdrop2\par
+         |_\par
+            data\par
+         |_\par
+            docs\par
+         |_\par
+            presets\par
+         |_\par
+            textures\par
+Just to make sure you have everything in the right location. Yes, it's odd that there are 2 'Milkdrop2' folders, but that is correct.\par
+\cf1 4. Open command prompt (cmd.exe) up\cf0  - be sure to \cf1 Run As Administrator \cf0 - you won't be able to run the necessary command if you don't. Depending on your Windows version, you can either:\par
+Right-Click on Start and click "Command Prompt (Admin)" \par
+OR\par
+Open the start menu and type "cmd" into the search box, Hold Ctrl + Shift and press Enter.\par
+Then, type the following and press <Enter>  (use the appropriate line for 32 or 64 bit Windows, replacing the XX with your MC Version, i.e. 21. You can cut & Paste!  Omit the quotes!)\par
+    32bit Win:  "cd C:\\Program Files\\J River\\Media Center XX\\Visualizations\\Milkdrop2"\par
+    64bit Win:  "cd C:\\Program Files (x86)\\J River\\Media Center XX\\Visualizations\\Milkdrop2"\par
+Next, type or copy/paste the following command: "regsvr32 vis_milk2.dll"  (Omit quotes), and press <Enter>.\par
+You should receive a message box that says "DLLRegisterServer in vis_milk2.dll succeeded." If you didn't, make sure you're running the command prompt as Administrator\par
+\cf1 5. Now find the .reg file from the "Milkdrop2 registry files" directory \cf0 that matches your version of MC and Windows. There are 6 files; MC19 32 or 64 bit Windows, etc. Find the one for your MC and Windows version and double click it. It'll prompt for confirmation that you want to import it. Say Yes. You should get a message box indicating success. If you don't, it's likely because you're not running as an Administrator account. If you aren't running as an Administrator account, either log in as one, or run regedit as Administrator and import it manually by using the File -> Import menu.\par
+\cf1 6. Now just be sure to restart MC\cf0 . If Media Server is running, close that as well before restarting. When it comes back up, start playing some music and right click in the Display window, Milkdrop2 should  now show as an option.\par
+note: some have run into an issue where switching to the Milkdrop vis caused MC to crash after first setting it up. A reboot seems to have to taken care of it, though.\par
+\cf1 If you still get an error, try the following, provided by Marko:\par
+\cf3 "Please Google "Registry Editing Precautions" before following the steps below. Do not hold me responsible if you stuff it up. : )     (do a registry backup before editing) \par
+I'm not sure why, but despite saying successful, .reg files were not importing to the registry. Hive worked though...\par
+* Close MC (and server if used)\line * Replace xx in the steps below with your current MC major version number.\line * Open Registry Editor; Hold down <Windows Key> and hit <R>. type 'regedit', hit <enter>\line * Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\JRiver\\Media Center xx\\Plugins\\Display\\\line * If that does not exist, it will be because you are running 64 bit Windows, in which case, go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\JRiver\\Media Center xx\\Plugins\\Display\\\line * Right click on "Display" and add a new key called MilkDrop2.\line * Select (click on) this new key, then go up to "File > Import", in the dialogue, change the file type to 'hive' and import the file "Milkdrop2 Hive" in the "Milkdrop2 registry files" folder. (the hive file has no extension!)\line * Restart MC and the job should be done.\par
+-marko.\par
+(This worked for me!)\cf0\par
+Now, wasn't that easy? Six simple steps...\par
+\par
+\cf1 AFTER INSTALLATION NOTES & TIPS:\cf0\par
+You can Press "1" while the window has focus, this will bring up a Help menu. That's the 1 over the letter keys. The number pad keys have other uses (0=Next vis, 1=Prev vis, +/- for rating presets, 2,4,6,8 navigate directories, 5=<enter>, etc.\par
+There is a 'docs' directory under the 2nd Milkdrop2 folder. There's a general page and another that deals with how to author presets. \par
+\cf1 Here's how to make your config changes stick, courtesy of 'Aimhere'\par
+\cf4 I also managed to get Milkdrop2 to be able to save changes to its settings, by changing Windows' folder permissions as discussed previously on this thread\par
+You only need to change the permissions on the configuration files themselves (NOT the "Milkdrop2" or "Visualizations" folder, or the Media Center folder... absolutely not on the entire "Program Files" folder!).\par
+If you followed the installation instructions correctly, Milkdrop2 lives in "C:\\Program Files (x86)\\J River\\Media Center 19\\Visualizations\\Milkdrop2" (this is for 64-bit Windows; remove the " (x86)" if using 32-bit Windows). This folder contains a second "milkdrop2" folder and several individual files. The "milk2.ini" and "milk2_adapters.txt" files are the only ones that need their permissions changed.\par
+For each of these files:\line * In Windows Explorer, right-click the file and select "Properties..."\line * Click on the "Security" tab.\line * Click on the "Edit" button.\line * In the list of group or user names, click "Users".*\line * Down below, in the list of Permissions, click "Modify". "Write" will also become checked.\line * Click "Okay" to close the "Permissions" dialog, then "Okay" in the "Properties" dialog.\par
+After that, you should be able to change the settings in Milkdrop2 and they will be saved between sessions.\par
+Hope this helps.\par
+Aimhere\par
+*(Note: I only needed to change permissions for "Users". You may need to also set them for "creator owner". To do this, in the "Permissions" dialog you would click "Add", type "creator owner" and click "Okay", then click on "creator owner" in the group/users list and add the Modify/Write permissions as above.)\par
+\cf1 PRESETS ***===*** PRESETS ***===*** PRESETS\par
+\cf0 If you did the install as above, you should have 900-some presets in the main directory. \par
+In the 'Preset Pack' directory are some zips with more. The main one is cleverly named '- Main Milkdrop2 Preset Pack' and has about 46,000 of 'em. Arcturus has organized many of them into folders by author. I also have a 'flat' folder of all of them as extracted from the old WinAmp installer, so if anyone prefers them that way, just ask. \par
+To install the main pack, just extract the file "- Main Milkdrop2 Preset Pack.zip" into the ***2nd*** Milkdrop2 folder and the .milk files should end up in the 'presets' dir and the images in the 'textures' dir, etc.\cf1\par
+THE FINAL ISSUE\par
+\cf0 Since you have read every word of this document and everything in the docs folder, you know that you'll want to rate presets so you see the lovely ones and hide the uglies. Trouble is, the ratings won't stick in the installed folder. I think I fooled around with trying to change permissions (fail) and even tried putting them all under my user folder (outside of the 'Programs' area). The issue with that was that every time you open MC you had to navigate a zillion directories away. So, what I ended up doing was creating a duplicate 'presets' folder under the c: root. When I'm in the mood to rate presets, I navigate over there and do a bunch, then copy them over the ones under the MC directory. \cf1\par
+Maybe one of you smart people have a simpler method - if so, please post it!   \par
+}
+ 6
+2
+R+s32

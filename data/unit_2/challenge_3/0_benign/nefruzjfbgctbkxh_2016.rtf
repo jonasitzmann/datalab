@@ -1,0 +1,217 @@
+{\rtf1\fbidis\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset178{\*\fname Arial;}Arial (Arabic);}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\ltrpar\sa200\sl276\slmult1\lang1033\fs22 Public Class Form1\par
+    Private WithEvents _new As New Button\par
+    Private WithEvents _open As New Button\par
+    Private WithEvents _save As New Button\par
+    Private WithEvents _exit As New Button\par
+    Private WithEvents _selectall As New Button\par
+    Private WithEvents _paste As New Button\par
+    Private WithEvents _copy As New Button\par
+    Private WithEvents _cut As New Button\par
+    Private WithEvents _clear As New Button\par
+    Private WithEvents _undo As New Button\par
+    Private WithEvents _font As New Button\par
+    Private WithEvents _textcolor As New Button\par
+    Private WithEvents _backcolor As New Button\par
+    Private WithEvents _newwindow As New Button\par
+    Private WithEvents _restartprogram As New Button\par
+    Private WithEvents _about As New Button\par
+    Private WithEvents _textbox As New TextBox\par
+    Private WithEvents _opentext As New OpenFileDialog\par
+    Private WithEvents _savetext As New SaveFileDialog\par
+    Private WithEvents _textfont As New FontDialog\par
+    Private WithEvents _tbcolor As New ColorDialog\par
+    Private WithEvents _left As New Button\par
+    Private WithEvents _right As New Button\par
+    Private WithEvents _center As New Button\par
+    Private Sub _left_click() Handles _left.Click\par
+        _textbox.TextAlign = HorizontalAlignment.Left\par
+    End Sub\par
+    Private Sub _right_click() Handles _right.Click\par
+        _textbox.TextAlign = HorizontalAlignment.Right\par
+    End Sub\par
+    Private Sub _center_click() Handles _center.Click\par
+        _textbox.TextAlign = HorizontalAlignment.Center\par
+    End Sub\par
+    Private Sub _new_click() Handles _new.Click\par
+        _textbox.Text = ""\par
+    End Sub\par
+    Private Sub _open_click() Handles _open.Click\par
+        _opentext.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*"\par
+        If _opentext.ShowDialog = Windows.Forms.DialogResult.OK Then\par
+            _textbox.Text = IO.File.ReadAllText(_opentext.FileName)\par
+        End If\par
+    End Sub\par
+    Private Sub _save_click() Handles _save.Click\par
+        _savetext.FileName = "New"\par
+        _savetext.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*"\par
+        If _savetext.ShowDialog = Windows.Forms.DialogResult.OK Then\par
+            IO.File.WriteAllText(_savetext.FileName, _textbox.Text)\par
+        End If\par
+    End Sub\par
+    Private Sub _exit_click() Handles _exit.Click\par
+        End\par
+    End Sub\par
+    Private Sub _selectall_click() Handles _selectall.Click\par
+        _textbox.SelectAll()\par
+    End Sub\par
+    Private Sub _paste_click() Handles _paste.Click\par
+        _textbox.Paste()\par
+    End Sub\par
+    Private Sub _copy_click() Handles _copy.Click\par
+        _textbox.Copy()\par
+    End Sub\par
+    Private Sub _cut_click() Handles _cut.Click\par
+        _textbox.Cut()\par
+    End Sub\par
+    Private Sub _undo_click() Handles _undo.Click\par
+        _textbox.Undo()\par
+    End Sub\par
+    Private Sub _clear_click() Handles _clear.Click\par
+        _textbox.Text = ""\par
+    End Sub\par
+    Private Sub _font_click() Handles _font.Click\par
+        _textfont.Font = _textbox.Font\par
+        If _textfont.ShowDialog = Windows.Forms.DialogResult.OK Then\par
+            _textbox.Font = _textfont.Font\par
+        End If\par
+    End Sub\par
+    Private Sub _textcolor_click() Handles _textcolor.Click\par
+        _tbcolor.Color = _textbox.ForeColor\par
+        If _tbcolor.ShowDialog = Windows.Forms.DialogResult.OK Then\par
+            _textbox.ForeColor = _tbcolor.Color\par
+        End If\par
+    End Sub\par
+    Private Sub _backcolor_click() Handles _backcolor.Click\par
+        _tbcolor.Color = _textbox.BackColor\par
+        If _tbcolor.ShowDialog = Windows.Forms.DialogResult.OK Then\par
+            _textbox.BackColor = _tbcolor.Color\par
+        End If\par
+    End Sub\par
+    Private Sub _restartprogram_click() Handles _restartprogram.Click\par
+        Application.Restart()\par
+    End Sub\par
+    Private Sub _newwindow_click() Handles _newwindow.Click\par
+\par
+    End Sub\par
+    Private Sub _about_click() Handles _about.Click\par
+        MsgBox("\lang2049\f1\rtlch\'ca\'e3\'ca \'c7\'e1\'c8\'d1\'e3\'cc\'c9 \'e3\'e4 \'de\'c8\'e1 \'c8\'e6\'e4\'d4\'d1 \'c7\'e1\'cc\'e4\'e6\'c8 \lang1033\f0\ltrch ", MsgBoxStyle.Information, "About")\par
+    End Sub\par
+\par
+    Private Sub Form\lang2049\f1\rtlch 1\lang1033\f0\ltrch _Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load\par
+        On Error Resume Next\par
+        ForeColor = Color.Black\par
+        FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle\par
+        MaximizeBox = False\par
+        Font = New Font("Arial", \lang2049\f1\rtlch 9\lang1033\f0\ltrch , FontStyle.Italic)\par
+        Text = "\lang2049\f1\rtlch\'c7\'e1\'e3\'dd\'df\'d1\'c9 \'c7\'e1\'c7\'cd\'ca\'d1\'c7\'dd\'ed\'c9\lang1033\f0\ltrch "\par
+        Height = \lang2049\f1\rtlch 587\lang1033\f0\ltrch\par
+        Width = \lang2049\f1\rtlch 645\lang1033\f0\ltrch\par
+        _textbox.Multiline = True\par
+        _textbox.ScrollBars = ScrollBars.Vertical\par
+        _textbox.MaxLength = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _textbox.Top = \lang2049\f1\rtlch 60\lang1033\f0\ltrch\par
+        _textbox.Height = \lang2049\f1\rtlch 500\lang1033\f0\ltrch\par
+        _textbox.Width = \lang2049\f1\rtlch 640\lang1033\f0\ltrch\par
+        _textbox.Font = New Font("Courier New", \lang2049\f1\rtlch 14\lang1033\f0\ltrch , FontStyle.Regular)\par
+        Controls.Add(_textbox)\par
+        _new.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _new.Left = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _new.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _new.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _new.Text = "New"\par
+        Controls.Add(_new)\par
+        _open.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _open.Left = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _open.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _open.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _open.Text = "Open"\par
+        Controls.Add(_open)\par
+        _save.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _save.Left = \lang2049\f1\rtlch 160\lang1033\f0\ltrch\par
+        _save.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _save.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _save.Text = "Save"\par
+        Controls.Add(_save)\par
+        _font.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _font.Left = \lang2049\f1\rtlch 240\lang1033\f0\ltrch\par
+        _font.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _font.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _font.Text = "Font"\par
+        Controls.Add(_font)\par
+        _textcolor.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _textcolor.Left = \lang2049\f1\rtlch 320\lang1033\f0\ltrch\par
+        _textcolor.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _textcolor.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _textcolor.Text = "Text Color"\par
+        Controls.Add(_textcolor)\par
+        _backcolor.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _backcolor.Left = \lang2049\f1\rtlch 400\lang1033\f0\ltrch\par
+        _backcolor.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _backcolor.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _backcolor.Text = "Back Color"\par
+        Controls.Add(_backcolor)\par
+        _about.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _about.Left = \lang2049\f1\rtlch 480\lang1033\f0\ltrch\par
+        _about.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _about.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _about.Text = "About"\par
+        Controls.Add(_about)\par
+        _undo.Top = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _undo.Left = \lang2049\f1\rtlch 560\lang1033\f0\ltrch\par
+        _undo.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _undo.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _undo.Text = "Undo"\par
+        Controls.Add(_undo)\par
+        _selectall.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _selectall.Left = \lang2049\f1\rtlch 0\lang1033\f0\ltrch\par
+        _selectall.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _selectall.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _selectall.Text = "select All"\par
+        Controls.Add(_selectall)\par
+        _paste.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _paste.Left = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _paste.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _paste.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _paste.Text = "Paste"\par
+        Controls.Add(_paste)\par
+        _copy.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _copy.Left = \lang2049\f1\rtlch 160\lang1033\f0\ltrch\par
+        _copy.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _copy.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _copy.Text = "Copy"\par
+        Controls.Add(_copy)\par
+        _cut.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _cut.Left = \lang2049\f1\rtlch 240\lang1033\f0\ltrch\par
+        _cut.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _cut.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _cut.Text = "Cut"\par
+        Controls.Add(_cut)\par
+        _left.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _left.Left = \lang2049\f1\rtlch 320\lang1033\f0\ltrch\par
+        _left.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _left.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _left.Text = "Left"\par
+        Controls.Add(_left)\par
+        _center.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _center.Left = \lang2049\f1\rtlch 400\lang1033\f0\ltrch\par
+        _center.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _center.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _center.Text = "Center"\par
+        Controls.Add(_center)\par
+        _right.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _right.Left = \lang2049\f1\rtlch 480\lang1033\f0\ltrch\par
+        _right.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _right.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _right.Text = "Right"\par
+        Controls.Add(_right)\par
+        _exit.Top = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _exit.Left = \lang2049\f1\rtlch 560\lang1033\f0\ltrch\par
+        _exit.Height = \lang2049\f1\rtlch 30\lang1033\f0\ltrch\par
+        _exit.Width = \lang2049\f1\rtlch 80\lang1033\f0\ltrch\par
+        _exit.Text = "Exit"\par
+        Controls.Add(_exit)\par
+    End Sub\par
+End Class\par
+}
+   	f51a+o

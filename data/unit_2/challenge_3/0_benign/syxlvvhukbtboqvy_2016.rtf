@@ -1,0 +1,853 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\froman\fcharset0 Times New Roman;}{\f3\froman Times New Roman;}{\f4\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}{\s4 heading 4;}{\s5 heading 5;}}
+{\*\generator Msftedit 5.41.21.2500;}\viewkind4\uc1\pard\keepn\nowidctlpar\s3\sa60\qj\ul\b\f0\fs28 README - Neo/Neo3D 5.5\ulnone\b0\fs24\par
+\fs20 Before you begin installation, we recommend you read the following.\par
+\pard\keepn\nowidctlpar\s3\sb240\sa60\ul\b Neo  System Requirements\par
+\pard\nowidctlpar\qj\ulnone\b0\par
+\pard\keepn\nowidctlpar\s5\ul\b Minimum Hardware Requirements\par
+\pard\keepn\nowidctlpar\s5\li360\ulnone\b0\par
+\ul\b For file conversions and media playback\par
+\pard\keepn\nowidctlpar\s5\li720\ulnone\b0\f1\tab\f0 An SSE2 enabled CPU.\par
+\f1\tab\f0 1GB Dual DDR2 memory system.\par
+\f1\tab\f0 A disk drive that supports the target data rate. Up to 25MB/s sustained for YUV \par
+\tab   and 50MB/s for RGB 444.)\par
+\pard\keepn\nowidctlpar\s5\li360\par
+\ul\b HD Capture from HMDI or HDSDI sources\par
+\pard\keepn\nowidctlpar\s5\li720\ulnone\b0\f1\tab\f0 Fast dual core or dual proc CPU system.\par
+\f1\tab\f0 2 GB DDR2 \par
+\f1\tab\f0 SATA or SCSI RAID 0 or 5 for video drives.\par
+\pard\keepn\nowidctlpar\s5\li360\par
+Note:  Neo  may be useable on systems below these specs, however, RT video/audio capture/playback are not guaranteed.\par
+\pard\nowidctlpar\qj\par
+\ul\b Software Requirements\par
+\pard\nowidctlpar\fi-360\li720\qj\tx720\ulnone\b0\f1\fs24\'b7\f0\tab\fs20 Windows XP with Service Pack 2+ or Vista and ALL WINDOWS UPDATES\fs24\par
+\f1\'b7\f0\tab\fs20 For Blackmagic support, use the latest drivers.\fs24\par
+\f1\'b7\f0\tab\fs20 For AJA Xena LH/LHe/LHi HD-SDI or  AJA Xena HS HD-SDI cards use the AJA drivers installed within \'85\\Program Files\\CineForm\\AJAIO\fs24\par
+\pard\nowidctlpar\qj\fs20\par
+\pard\nowidctlpar\ul\b Changes\par
+\par
+\b0 Build 5.5.4.332, released 24-August-2011\ulnone\par
+\tab Enhanced FirstLight pick and clip white balance selection (more accurate.)\par
+\tab Enhanced encoding quality and bit-rate with some minor tweaks\par
+\tab Enhanced compatible for DPX source used by DPX2CF.exe\par
+\tab Fixed CS5.5 Multi-cam plays green with Mercury enabled\par
+\tab Fixed upscale within HDLink, rounding errors produced artifacts.\par
+\tab Fixed quantization error on the left edge of SD 720 4:2:2 encodes.\par
+\tab Fixed 4:2:2 720x480 output to RGBA32, small chroma issues on the right edge \par
+\tab Fixed HDLink conversion of Sony MTS files with static hissing on audio tracks\par
+\tab Fixed CStyle decoding curve handling for increasd saturation                         \par
+\tab several other minor items\par
+\ul\b\par
+\b0 Build 5.5.3.327, released 24-June-2011\ulnone\par
+\tab Enhanced: CS5.x playback module now two: CineForm 2D and CineForm 3D modules, improving 2D performance.\ul\par
+\ulnone\tab Fixed: CS5.x Project Management not trimming AVIs.\par
+\tab Fixed: Greater than 2K exports in CS5.x ignoring the quality settings.\par
+\ul\b\par
+\b0 Build 5.5.2.326, released 10-June-2011\par
+\ulnone\tab Added: GoPro-CineForm Codec rebanding\ul\par
+\ulnone\tab Enhanced: RAW Camera and DNG support through DPX2CF\par
+\tab Fixed: Sony EX1/3 audio handling in HDLink.\par
+\tab Fixed: Old Canon 5D 30.0fps video restoration to 29.97.\par
+\tab Fixed: for audio conversion from Nikon MOV sources. \par
+\tab Fixed: Capture convert option HDV cameras.\par
+\par
+\ul Build 5.5.1.323, released 18-May-2011\par
+\ulnone\tab Added: Support for Technicolor CineStyle(TM) in FirstLight either through a native workspace curve (CSyte) or a LUT (CStyleLUT)\par
+\tab Added: Support for Sony S-Log curve with the workspace controls in FirstLight.\par
+\tab Restored: Side-by-side 3D performance (back to 50% faster.)\tab\par
+\tab Fixed: Blackmagic capture mode names in HDLink.\par
+\tab Fixed: Framing controls for 444 decodes at half resolution.\par
+\tab Fixed: some minor bugs.\ul\b\par
+\par
+\b0 Build 5.5.0.319, released 5-May-2011\par
+\ulnone\tab First Release after GoPro acquisition of CineForm\tab\par
+\tab Added: better support for 3D preformatted into a 2D frame (many customer 3D cameras.)\par
+\tab Enhanced: Switched to I-frame only encoding within AE.\par
+\tab Enhanced: Visual Reaseach Phanton .cine file support in VR2CF tool.\par
+\tab Enhanced: Parallax 3D filter in CS5 for sub-pixel horiztonal corrections (for Fast 3D and export to \par
+\tab\tab CineForm 3D exports only currently.)\par
+\tab Fixed: Pixel aspect ratio bug in stereo encodes.\tab\par
+\tab Fixed: many minor fixes.\ul\b\par
+\par
+\b0 Build 5.3.2.308, released 10-March-2011\par
+\ulnone\tab Fixed: math for sources encoded with Cineon curves.\par
+\tab Fixed: brightness shift between using 3D LUTs with and without framing corrections.\par
+\tab Fixed: for slight mult-generation green shift on I-frame YUV encodes.\par
+\tab Fixed: tiny green shift in the HDLink scaler.\par
+\tab Fixed: for FijiFilm W3 3D conversions.\par
+\tab Fixed: audio glitch on export from CS4/5.\par
+\ul\b\par
+\b0 Build 5.3.1.304, released 22-February-2011\par
+\ulnone\tab Added: support 4444 (alpha channel) sources to use FirstLight and Active Metadata corrections.  \par
+\tab Added: support for r408/v408 decodes with alpha channel.\par
+\tab Added: support for 3D corrections for interlaced sources.\tab\par
+\tab Added: support for framing corrections for interlaced sources.\par
+\tab Added: Alpha channel exports from Premiere Pro CS5.\par
+\tab Added: some .3dl support for the LookInstaller.\par
+\tab Enhanced: 100+ generations quality for 16-bit pixel formats.\par
+\tab Enhanced: 2D source can now be used in 3D productions.\par
+\tab Enhanced: the 601 to 709 math use for Canon DSLR video conversion.\par
+\tab Fixed: QuickTime 444 export pop-up window has been restored.\par
+\tab Fixed: QT encodes from RedcineX where missing metadata needed for FirstLight keyframing.\par
+\tab Fixed: DPX2CF filename length issue.  Very long filenames wouldn't load.\par
+\tab Fixed: ParseCFHD tool to work with 3D uncompressed CineForm sources.\par
+\tab Fixed: a startup condition made adding keyframes to a new clip in FirstLight weird.\par
+\tab Fixed: Cut and paste of Keystone and DepthTilt in Neo3D's FirstLight.\par
+\tab Fixed: a few Premiere CS5 crashes.\par
+\tab Fixed: Premiere CS5 nesting.\par
+\par
+\ul\b\par
+\b0 Build 5.3.0.297, released 03-February-2011\par
+\ulnone\tab Added: color Matrix control to FirstLight, and the ability to load and save these matrices. \par
+\tab Enhanced: Premiere Pro CS5, 3D integration for page-flipped displays.\par
+\tab Restored: Demosaicing quanlity controls for side-by-side mode.\par
+\tab Fixed: Keystone was broken for any clip with a horizontal Flip.\par
+\tab Fixed: side-by-side was broken for RAW sources.\par
+\tab Fixed: Rewrap shell tool to support new GUID generation on 3D files.\par
+\tab Fixed: loading MOVs in FirstLight that have the audio track before the video (Vegas 10 MOVs.)\par
+\tab Fixed: 444 to 422 filtering on encode was producing green-tinted frames.\par
+\tab Fixed: loading DPX frames that have an unaligned image field.\par
+\tab Fixed: Custom curve power entry in FirstLight.\par
+\tab Fixed: Side-by-side 3D decoding with a rotation correction.\par
+\tab Fixed: A key-framing bug in FirstLight when scrubbing the the same frame more than once.\par
+\tab Fixed: 3D rendered form CS5 using interlaced sources (PS. 3D should be progressive.)\par
+\ul\b\par
+\b0 Build 5.2.8.291, released 6-Januray-2011\par
+\ulnone\tab Enhanced: HDLink HD to SD 16x9 scaling for more accuracy.\par
+\tab Enhanced: AVI CS5 export to use large audio sample interleaves for faster audio conform \par
+\tab                     when reimported. \par
+\tab Enhanced: Removed the DPX2CF raw camera convertors dependence on an internet connection.\par
+\tab Fixed: 3D display type side-by-side with overlays (had a memory leak)\ul\b\par
+\par
+\b0 Build 5.2.7.290, released 30-December-2010\par
+\ulnone\tab Added: DPX2CF now supports metadata addition to CineForm media.\par
+\tab Added: DPX2CF now supports RAW files from Arri Alexa/D21. \par
+\tab Enhaced: Red R3D (R2CF.exe) updated to the latest SDK (supports up to camera build 31.) \par
+\tab Fixed: CS5.0.3 seems to make asynchronous decoding unstable so we have switch to synchronous.\par
+\tab Fixed: Green/purple right edge on 8-bit RGBA decodes (from YUV sources), only happened \par
+                            with clips that weren't altered in FirstLight.\par
+\tab Fixed: writing timecode into MOV from a DPX-C sequence using DPX2CF.  \par
+\tab Fixed: HDR decoding with alpha channels (pixel format W13A.) \par
+\ul\b\par
+\b0 Build 5.2.6.289, released 15-December-2010\par
+\ulnone\tab Enhanced: Demosaicing quality for the CF Advance filters.\par
+\tab Enhanced: Startup speed of HDlink/FirstLight with faster licensing tools.\par
+\tab Fixed: XDCAM file MXF conversion crash (could occur <20% of the time at clip end.)\par
+\tab Fixed: Crash in 3D side-by-side of uncompressed RAW.\par
+\ul\b\par
+\b0 Build 5.2.5.288, released 8-December-2010\par
+\ulnone\tab Added: Camera RAW support to DPX2CF for native RAW to CineForm RAW conversion,\par
+\tab  desgined to work with Canon, Nikon, Pentax and DNG formats like ACamDii. (Neo4K/3D only)\par
+\tab Added: FirstLight now has a saturation clip point control, handling color is saturation highlights\par
+\tab  that can be incorrect for bad aquisition white balance or sensor clipping in camera RAW.\par
+\tab Enhanced: More decoder performance for 3D format and with active metadata.\par
+\tab Fixed: Conversions of the Canon S95 and similar H264 based point and shoot cameras.\par
+\tab Fixed: An SDK Licensing error within the upcoming Vegas 10.0b\par
+\tab Fixed: Last line color was incorrect on converted interlaced sources. \par
+\tab Fixed: OpenGL selector in FirstLight.\par
+\tab Fixed: DPX2CF for large TIF files.\par
+\tab Fixed: BlackMagic frame rate naming in HDlink capture.\par
+\tab Fixed: many smaller bug fixes.\ul\b\par
+\par
+\b0 Build 5.2.2.282, released 12-November-2010\par
+\ulnone\tab Added: Affect Effects CS5 AVI exporter. \par
+\tab Added: 64-bit DirectShow encoder (currently used by AE).\par
+\tab Added: B/W Anaglyph 3D display modes.\ul\par
+\ulnone\tab Added: Dubois optimized Anaglyph 3D display mode.\ul\par
+\ulnone\tab Enhanced: YUV dyanmic range of clip ungoing FirstLight enhancements.\par
+\tab Enhanced: Updated the PDF manual.\par
+\tab Fixed: CS4 audio support.\par
+\tab Fixed: stereo mode encode to CineForm 3D from existing 3D file sources. \par
+\tab Fixed: Black dots that could appear in Vegas (v9 or earlier) clips with extreme highlights.\par
+\tab Fixed: Very old (pre-metadata) CineForm clips could crash Vegas.\par
+\tab Fixed: XDCAM EX conversions of audio.\par
+\ul\b\par
+\b0 Build 5.2.1.279, released 20-October-2010\par
+\ulnone\tab Enhanced: 4:2:0 to 4:2:2 upconversion for many camera sources. \par
+\tab Enhanced: HDLink's auto detect 4:2:0 versus 4:2:2 MXF footage  for better support for the \par
+\tab\tab new XF series.\par
+\tab Fixed: proxy that would could be distorted and grow larger than the source.\par
+\ul\b\par
+\b0 Build 5.2.0.278, released 14-October-2010\par
+\ulnone\tab Added: HDLink can now generate proxies for other CineForm files, for 2D or 3D work.  \par
+\tab\tab All metadata transfers so that proxy can be corrected in FirstLight and all the \par
+\tab\tab corrections will automatically applied to the master CineForm file. \par
+\tab\tab Very cool workflow enhancement.\ul\par
+\ulnone\tab Added: Decode 422 to 444 filter control to the status viewer (removed from VFW control panel.) \par
+\tab Added: Decode speed option in the status viewer (more convient access than in the Tools folder.) \par
+\tab Added: A swap Left/Right metdata function, for those that mux 3D clips backwards.\par
+\tab Added: CS5 Project triming for MOV CineForm sources.\par
+\tab Added: 3D cameras can now store eye independent color/3d corrections upon capture.\par
+\tab Added: NV12 4:2:0 pixel format to the DirectShow encoder.\par
+\tab Enhanced: Codec SDK to version 6.6, greatly helping third parties to read/use CineForm metadata.\par
+\tab Enhanced: Installer now tests for a valid QuickTime installation\par
+\tab Enhanced: FirstLight handles being launched twice better by bring to front the first .\tab\par
+\tab Enhanced: Support for MXF sources that have two mono audio tracks, will now output stereo.\par
+\tab Enhanced: NeoHD/Neo4K will now protect more of the Neo3D settings.\par
+\tab Fixed: Support for MXF MPEG2 sources under Windows 7.\par
+\tab Fixed: Crash in Parallax3D filter that occurred on interlaced CS5 sequences.\par
+\tab Fixed: FirstLight loading snapshots with non-gamma 2.2 encoding curves.\par
+\tab Fixed: tools switching off with clips using a large number of keyframes.\par
+\tab Fixed: Invert option in FirstLight.\par
+\tab Fixed: CS5 handling CineForm MOVs greater than 4GB.\par
+\tab Fixed: Colorspace issue converting 3D clips with P-frames.\ul\b\par
+\ulnone\b0\tab Fixed: CineForm MOVs audio issues.\par
+\tab Fixed: a crash using Fast 3D, or 3D speed mode in FirstLight.\ul\b\par
+\par
+\b0 Build 5.1.3.272, released 8-September-2010\par
+\ulnone\tab Added: MOV importer for CS5.\ul\b\par
+\ulnone\b0\tab Fixed: importing clips in CS3 sometimes losing their audio.\par
+\tab Fixed: importing longer AVI files into CS4 (was getting the duration wrong.)\par
+\tab Fixed: a occasional crash in the systray Status Viewer when requesting the version information.\par
+\tab Fixed: FijiFilm W3 cameras reporting conversion progress percentage wrong.\ul\b\par
+\par
+\b0 Build 5.1.2.271, released 3-September-2010\par
+\ulnone\tab Added: support for Fujifilm FinePix W1/W3 into the FirstLight 3D Muxing tool.\par
+\tab Fixed: NLE Sync functionality in FirstLight\par
+\tab Fixed: adding the missing Microsoft and Intel redistribution libraries.\ul\b\par
+\par
+\b0 Build 5.1.1.270, released 26-August-2010\par
+\pard\ulnone\f2\tab Added - Major overhaul for the FirstLight manual.  Much more up-to-date and useful.\f3\par
+\f2\tab\f3 Added - support for uncompressed quality profiles for 422 and 444 encodes -- to be used \par
+\tab\tab primarily in third party battery op capture tools to reduce CPU load.\par
+\tab Enhanced -- StereoMux and Convert3D utilities to support shell operations (these tools are \par
+\tab\tab normally invoked from FirstLight.)\par
+\f2\tab Enhanced -- all components rebuild under the latest Intel compiler.\f3  \par
+\tab Fixed -- HDLink running on systems not used C:/ for their OS. \par
+\tab Fixed -- Convert3D running on systems not used C:/ for their OS. \par
+\tab Fixed -- change\f2 d\f3  export presets\f2  under CS5\f3  \f2 to \f3 avoid a Premiere crash (there is \f2 a \f3 bug \par
+\f2\tab\tab\f3 Adobe is working on, this patch alleviates the issue.\f2 )\ul\b\f0\par
+\pard\nowidctlpar\par
+\b0 Build 5.1.0.268, released 10-August-2010\ulnone\par
+\tab Added -- a new Settings control panel in FirstLight 3D Mux tool, to enable automatic stereoscopic\par
+\tab\tab conversation to a use many of the features of HDLink like: pulldown removal,\par
+\tab\tab deinterlacing, resizing and quality controls.\par
+\tab Enhanced -- 3D display mode -- Interlaced renamed to "Line Interleaved" to avoid confusion with \tab\tab video interlacing.\par
+\tab Fixed -- FirstLight would sometimes not completely quit.\par
+\tab Several minor tweaks.\ul\b\par
+\par
+\b0 Build 5.0.7.267, released 3-August-2010\ulnone\par
+\tab Enhanced -- now using fewer threads if there are more than two decoder running in a process.\par
+\tab Enhanced -- the auto 3D muxing option with FirstLight.\par
+\tab Enhanced -- 3D editing features in CS5 with far great speed through the OpenGL control panel's\par
+\tab\tab "Fast 3D" option.\par
+\tab Enhanced -- restored Vegas 9 smart rendering (Sony, you moved the goal post again.)\par
+\tab Fixed -- Parallax 3D filter for support all 3D mode (some were broken in 5.0.6.)\par
+\tab Fixed -- \cf1 converting QTPro trimmed Canon DSLR MOVs in HDLink.\cf0\par
+\tab Fixed -- a transcoding crash, more typical of large source files.\par
+\tab Fixed -- a conflict between MainConcept components and Windows Media Player / \par
+\tab\tab DirectShow playback.\ul\b\par
+\par
+\b0 Build 5.0.6.265, released 12-July-2010\ulnone\par
+\tab Added - to FirstLight, the Status viewer and the decoder, image flip can now be masked \par
+\tab\tab separately from other 3D or framing correction.  This enabled beam splitter users \par
+\tab\tab to correct for flips but optionally output without any other corrections.\par
+\tab Added - DPX2CF now supports 64-940 range conversion into YUV using -cY64 switch.\par
+\tab Added - (Alpha support) Automatic batch conversion and muxing for the Panasonic 3DA1\par
+\tab\tab 3D AVCHD Camera.  Hugely easing the workflow.\par
+\tab Fixed -  v5.0.5 broke support for IP (long GOP) CineForm files within FirstLight.\par
+\tab Fixed - MOV timecode generation on the PC.  Used to be only valid for the first frame,\par
+\tab\tab  which was fine for many tools, but not all.\ul\b\par
+\par
+\b0 Build 5.0.5.264, released 30-June-2010\ulnone\par
+\tab Added - support for NVidia Dual SDI from Premiere Pro CS5\par
+\tab Added - "Auto Mux" feature in FirstLight to stereo multiplex numerical left and right eye \tab   \par
+\tab\tab sequences.\par
+\tab Added - Panavision GDP .lut support to the LookInstaller (double click on .lut to register \par
+\tab\tab them with FirstLight.)\par
+\tab Enhanced - support for NVidia Dual SDI from FirstLight \par
+\tab Enhanced - DPX2CF for sync left / right sequences based on TC but sorted on frame name.\tab   \par
+\tab\tab New switch is -dT (this option is faster -sT.)\par
+\tab Enhanced - DPX2CF to support camera flip corrections before encoding (switches -LH -RV.)\par
+\tab Enhanced - Canon 5D/7D/T2i conversion to fixing the colorspace by converting to 10-bit 709\tab  \par
+\tab\tab upon encode.\par
+\tab Fixed - crash with 3D rendered using Match Sequence.\par
+\tab Fixed - the preservation of playback settings when reloading a project and switching \par
+\tab\tab between sequences.\ul\b\par
+\par
+\b0 Build 5.0.4.261, released 14-June-2010\ulnone\tab\par
+\tab Added - support for NVidia Dual SDI from FirstLight (2D and 3D playback.)\par
+\tab Enhanced - restored asynchronous decodes to CS5.\par
+\tab Enhanced - Playback under heavy load in CS5.\par
+\tab Enhanced - AVI Thumbnail support in CS5 Adobe Brudge.\par
+\tab Fixed - Avid MC5 compatibilty with the QT decoder.\par
+\tab Fixed - CS3 exports being half height.\par
+\tab Fixed - MOV support in Bridge\par
+\ul\b\par
+\b0 Build 5.0.3.259, released 4-June-2010\ulnone\tab\par
+\tab Added: FirstLight sidecar export, for single file database correction (.fdb files)\par
+\tab Added: Double click on new .fdb files or .cdb will install those color correction databases.\par
+\tab Enhanced: FirstLight now defaults to video gamma rather than Log90.\ul\par
+\ulnone\tab Fixed: 4444 (RGBA) decodes is AE CS5 32-bit float modes now work correctly.\par
+\tab Fixed: Some system run FirstLight playback on only one thread.\par
+\tab Fixed: Whitebalance corrections for stereo sequences could be applied twice.\par
+\tab Fixed : Database exports now support left and right eye deltas.\par
+\tab Fixed:  The CS5 AVI importer could deadlock.\par
+\tab Fixed:  Tangent Wave support fixed for NeoHD and Neo4K.\par
+\tab Fixed:  The 1920x1080p23.976 CS5 preset had the wrong frame rate in the comment field \par
+\ul\b\par
+\b0 Build 5.0.2.258, released 25-May-2010\ulnone\par
+\tab Fixed:  FirstLight OpenGL Fullscreen and secondary monitor support for NeoHD and Neo4K.\par
+\tab Fixed:  FirstLight first time initialization on Windows 7 (used to require Admin. priviledges.)\par
+\tab Fixed:  Better 3D modes handling in the decoder (Vertical shift on 3D source with a flipped eye.)\par
+\tab General: codec core improvements.  \par
+\ul\b\par
+\b0 Build 5.0.1.257, released 19-May-2010\ulnone\par
+\tab Added:  New FirstLight navigation controls \par
+\tab\tab F6 - play backward, F6 again faster\par
+\tab\tab F7 - stop\par
+\tab\tab F8 - play forward, F8 again faster.\par
+\tab\tab F9 - step back one second\par
+\tab\tab F10 - step back one frame\par
+\tab\tab F11 - step forward one frame\par
+\tab\tab F12 - step forward one second\par
+\tab Added: A reset button to the Framing controls, rather clicking on the name of each line to reset.\par
+\tab Enhanced: Undo behaves more logically in FirstLight.\par
+\tab Fixed: CS5 CineForm export now defaults that 3D rendering is off.\ul\par
+\ulnone\tab Fixed: White balanced cut and paste with FirstLight.\par
+\tab Fixed: Crash converting some m2ts files within HDLink.\par
+\tab Fixed: FirstLight keyframing color corrections on IP files.\par
+\tab Fixed: Handling 3D clips with the left eye flipped. \par
+\ul\b\par
+\b0 Build 5.0.0.256, released 13-May-2010\par
+\ulnone\tab Too many changes to list individually.\par
+\tab Codec enhancements\par
+\tab Many new feature to FirstLight\par
+\tab Premiere Pro CS5 support\par
+\tab Stereoscopic 3D support.\ul\b\par
+\par
+\b0 Build 4.3.0.240, pre-released 05-March-2010\b\par
+\ulnone\tab\b0 Added: Alpha channel reading support for CS4.\par
+\tab Added: Project Management / Trimming support to the CS4 MOV and AVI importers.\par
+\tab Added: CineForm SysTray control now can set the demosaic filter for RAW sources.\par
+\tab Added: (3D products) OpenGL surface output for full secondary monitor via Gfx card.\par
+\tab Added: (3D products) Display modes Quad buffered 120Hz shutter glasses stereo.\par
+\tab Added: (3D products) Full screen modes for single monitor systems.\par
+\tab Added: (3D products) Full and Windows screen modes for passive polarized 3D monitors.\par
+\tab Enhanced: Codec bumped to v6.0, adding 4:4:4 to 4:2:2 transcodes upon encode, a more \par
+\tab\tab metadata controls. \par
+\tab Enhanced: Codec calibrated for all pixel formats up to 5K\par
+\tab Enhanced: Dragging an existing clip into FirstLight  now reselects that existing item \par
+\tab\tab rather than an error message.\par
+\tab Enhanced: many tweaks a fixes to HDlink for supporting more and more cameras.\par
+\tab Fixed: 4:2:0 to 4:2:2 upsampling for AVCHD sources.\par
+\tab Fixed: slight vertical and horizontal displacement with FirstLight's 3D zoom.\par
+\tab Fixed: left edge having some cross talk with the right edge under very slight 3D zooms.\par
+\tab Fixed: crash that happened white balancing the first frame on a CineForm MOV file in First Light.\par
+\tab Fixed: Histograms, which were not accurate and different between RGB and YUV display modes.\par
+\tab Fixed: vertical offset in the Framing Active Metadata was backward in RGB(A) 8bit mode to all \par
+\tab\tab other pixel formats, now fixed. \par
+\tab Fixed: 444 encodes, decoding as 16-bit YUV had a level shift.\par
+\tab Fixed: First Light overriding camera ColorMatrices -- rare.\par
+\tab Fixed: full res alpha channel decodes in 16-bit modes.\par
+\tab Fixed: uninstall will now disable the systray tool.\par
+\tab many more tweaks.\par
+\ul\b\par
+\b0 Build 4.2.0.237, released 22-January-2010\par
+\ulnone\tab Added: CineForm status to the System Tray, this allow you to control which Active Metadata \par
+\tab\tab and 3D display mode you are currently running (on all CineForm tools.)  Like the global \par
+\tab\tab controls in First Light, you can select whihc white balance, LUTs and color corrections \par
+\tab\tab are applied, during playback within any video tool.  The CineForm status will also inform \tab\tab you there are any new CineForm updates.\ul\b\par
+\ulnone\b0\tab Added: Get timecode from file based M2Ts\ul\par
+\ulnone\tab Added: timecode base at the framerate for non-TC sources in HDLink.\par
+\tab Added: HDLink now extracts Timecode and Time/Date info for most file conversions.\par
+\tab Added: ExifTool support to exact additional shooting info metadata from diskbased files, \par
+\tab\tab particularly for Canon DLVR sources.\par
+\tab Added: Add a directory structure style nativation to FirstLight passive metadata to handle the \par
+\tab\tab potentially large number of new metadata fields.\par
+\tab Added: Custom Copy/Paste Filters in First Light.  Ctrl+Shift+C will bring out a window to filter \par
+\tab\tab which properties to copy or Ctrl+Shift+V will do the same for paste.\par
+\tab Added: Local (per clip) overlay templates -- now metadata layouts can be clip or globally applied.  \par
+\tab Added: Free View 3D mode -- like side-by-side but not anamorphically squeezed.\par
+\tab Added: Overlays with center justification are now draggable.\par
+\tab Added: Green Magenta anaglyph to First Light\ul\b\par
+\ulnone\b0\tab Added: (Prospect 3D) Tangent Wave support to First Light for color and convergence controls\par
+\tab Enhanced: Smarter pulldown removal option, it will only do a pulldown on sources with \par
+\tab\tab frame rates greater than 25fps.\par
+\tab Enhanced: 3D overlay placement.\par
+\tab Fixed: audio sync issues in CS4.\par
+\tab Fixed: A Window Media Player crash when using very old files with the latest builds.\par
+\tab Fixed: 3D Orientation Restore \par
+\tab Fixed: Snapshot to work with 3D orientation\par
+\tab Fixed: Fixed a decoder performance issue as the Active Metadata color processing was on \par
+\tab\tab when not needed.\par
+\tab Fixed: Neo/Prospect3D only encoded 422 in VideoForWindows, now 444 works.\par
+\tab Fixed: a memory leak in the overlay engine. \par
+\tab Fixed: (Prospect 3D) Swap eyes for side-by-side mode.\par
+\tab Fixed: MOV Import a divide by zero error when a audio track is flagged but has no samples.\par
+\tab Fixed: Bug in StereoMux (Prospect 3D) where it would find the muxing tool.\par
+\tab Fixed: 3D StereoMux issue reject sequences that where fine.\par
+\tab Fixed: (3D) overlays working in YUV side-by-side, under-over and interlace modes.\par
+\ul\b\par
+\b0 Build 4.1.6.233, released 22-December-2009\par
+\ulnone\tab Fixes: for codec compatibility with some Window 7 systems running 64-bit codecs.\par
+\tab Fixes: First Light now handle 25Hz timecode correctly.\par
+\ul\b\par
+\b0 Build 4.1.5.232, released 18-December-2009\par
+\ulnone\tab Added: Support for color, stroke and background for overlay controls in First Light.\par
+\tab Added: Overlays timing so over only appear of a particular time peroid (in and out times.)\par
+\tab Added: (3D products) Overlays in 3D with a parallax control.\par
+\tab Enhanced: Improved font rendering performance in multiple core systems.\par
+\tab Fixed: First Light wait long to get a license (fixing an occasional startup failure.)\par
+\tab Fixed: Licensing issues with 64-bit codec on Windows 7 systems. \par
+\tab Fixed: CS4 crash using overlays.\ul\b\par
+\par
+\b0 Build 4.1.4.230, released 11-December-2009\par
+\ulnone\tab Added: Capture support for AJA IO Express (HDMI/HDSDI for you laptop.)\par
+\tab Added: an export Look option to First Light, that can be added to SI camera or for \par
+                               downstream color corrections.\par
+\tab Added: overlay support for all pixel formats, so 10-bit export with burn-in now work.\par
+\tab Enhanced: the "color science" ;) for the look up math.\par
+\tab Enhanced: Many feature to the burnin layout GUI within First Light.\par
+\tab Fixed:  Audio resampling for Canon 7D.\par
+\ul\b\par
+\b0 Build 4.1.3.227, released 22-November-2009\ulnone\par
+\tab Added: First beta of the metadata burnin engine. See the Passive Metadata tab First Light \par
+\tab  for some unfinished controls (much more to come.)\par
+\tab Added: 64-bit DLL Decoder and 32/64-bit Encoder DLLs for easier third party integration.\par
+\tab Enhanced: 4:2:0 to 4:2:2 upconversion quality for HDV sources.\par
+\tab Enhanced: Pulldown removal from 4:2:0 source (HDV & AVCHD), sometimes has a chroma \par
+\tab  ghost every 4 frames (now fixed.)\par
+\tab Fixed: artifact on right edge of very dark 4:4:4 decodes.\par
+\tab Fixed: First Light will now read metadata stored in separate locations with a video file -- \par
+\tab   fixing reading timecode from some R3D transcodes.\par
+\tab Fixed: Canon 7D audio remodulation bug.\par
+\ul\b\par
+\b0 Build 4.1.2.224, released 16-October-2009\par
+\ulnone\tab Added: Contrast controls to Active Metadata and First Light\tab\par
+\tab Added: Control of which curve is used for color processing\par
+\tab Enhanced: Active Metadata coor development is more flexible (pish the image further.)\par
+\tab Enhanced: Active Metadata decodes faster.\par
+\tab Enhanced: Canon 7D support\par
+\tab Enhanced: Maybe First Light feature\par
+\tab Many other smaller items\ul\b\par
+\par
+\b0 Build 4.1.0.222, released 10-September-2009\par
+\ulnone\tab Added: Histogram overlay via active metadata. Enabled/disabled in First Light\par
+\tab Added: Framing controls in First Light. Enables the application of a 2.35:1 mask without a render.\par
+\tab Fixed: Conversion of video files with AAC-encoded audio\par
+\tab Fixed: Conversion of some MP4-wrapped AVCHD formats \par
+\ul\b\par
+\b0 Build 4.0.9.219, released 5-August-2009\par
+\pard\nowidctlpar\li720\ulnone Added: support for alternative LUT paths for First Light manipulations (helps with Windows 7.)\par
+Added: First Light autosync function to help find the last clip played in any other tool.\par
+Added: Support for new lossless mode coming soon to SI-2K cameras.\par
+Added: 8-bit encode mode for CS4 for slightly faster exports.\par
+Enhanced: some more speed for YUV 4:2:2 decodes with Premeire CS4.\par
+Enhanced: High dynamic range processing for 32-bit float CS4 exports.\par
+Enhanced: CFRepair to work with the original SI-2K files (2006 vintage.)\par
+Enhanced: CFRepair to generate new GUIDs.\par
+Fixed: Some progressive sources in CS4 importing as interlaced.\par
+Fixed: Audio Sync error for 5D sources.\par
+Fixed: 64-bit decodes for enhanced demosaicing filters.\par
+Fixed: the RegisterComponents utility which wasn't working on every system.\par
+Fixed: 59.94p sources showing as 60p in CS4.\par
+Fixed: exporting to 48kHz from 44.1kHz sources in CS4.\par
+Fixed: QuickTime 444 exports not working in FirstLight for active metadata.\par
+Fixed: First Light enabling a disabled look file when importing a clip.\par
+Fixed: Combustion QuickTime rendering with a different GUID in each frame.\par
+\pard\keepn\nowidctlpar\s3\sa60\qj\ul\b\fs28\par
+\pard\nowidctlpar\b0\fs20 Build 4.0.8.217, released 22-July-2009\par
+\pard\nowidctlpar\li720\ulnone Added: HDLink Capture support for AJA LHi HDMI input.\par
+Enhanced: AE CS4 now reports CineForm files as Trillions of Colors (not Millions.)\par
+Fixed: CS4 imports not handling very long single files (over 70000 frames.)\par
+Fixed: CF2DPX not extracting DPX for some YUV encoded files.\par
+Fixed: SD CineForm AVI to MPEG2 DVDs within CS4, no longer added an extra 709 to 601 color space conversion (source is 601 if SD.)\par
+Fixed: 2 year old 1440x1080 files would decode each second frame as green in CS4.\par
+Fixed: 3D/Stereo files too dark in 32-bit AE mode.  \par
+Fixed: AJA audio pops again (this time for all users.)\par
+Fixed: tools like TMPGEnc not producing First Light compatible AVIs.\ul\b\par
+\pard\nowidctlpar\par
+\b0 Build 4.0.7.216\ulnone\par
+\tab Added: HDSDI/HDMI output support to First Light --- Tested with AJA Xena LHe/2Ke and \par
+\tab    Blackmagic Intensity.\tab\par
+\tab Added: 64-bit Video for Windows Codec.\ul\par
+\ulnone\tab Added: CS4 16-bit RGB support in AE\par
+\tab Added: Fast scale mode to HDLink -- great for batching proxies.\par
+\tab Added: HDLink CineForm to CineForm conversions also copy the GUID for First Light enabled \tab   proxies.\ul\par
+\ulnone\tab Added: Latest AJA drivers\tab\par
+\tab Enhanced: CS4 decoder performance.\par
+\tab Enhance: DPX2CF tools to support conversion from a known frame number until a discontinuty\par
+\tab Enhance: R2CF tools, upgraded to latest R3D SDK.\par
+\tab Enhanced: HDLink Prefs with horizontal layout -- better for small screens. \par
+\tab Fixed : CS4 frame duplication/skip\par
+\tab Fixed : CS4 decoder green flashes.\par
+\tab Fixed:  CS4 32-bit RGB support in AE\par
+\tab Fixed: Audio pops in AJA capture -- please install the latest AJA drivers.\par
+\tab Fixed: an ocassional crash exiting AE CS3.\par
+\tab Fixed: Some 720p files in CS4 came in interlaced.\ul\b\par
+\par
+\b0 Build 4.0.5.214\par
+\pard\nowidctlpar\li720\ulnone Added: First Light database import and export.\par
+Enhanced: Playback is faster for 8-bit modes in many NLEs.\par
+Enhanced: multi-gen for Vegas.\par
+Enhanced: First Light reports of missing LUTs\par
+Fixed: First Light Black Offset was only working with other settings, never on it own.\par
+Fixed: YUV decoding to DPX0 and R210 pixel format (used by CF2DPX.)\par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 4.0.4.213\par
+\pard\nowidctlpar\li720\ulnone Enhanced: Decoder speed, some color processing was active unnecessarily.\par
+Enhanced: Improved 4:4:4 to 4:4:4 and 4:2:2 to 4:2:2 for multi-generations.\par
+Fixed: HD versions didn't get the latest CFHDDecoder.DLL\par
+Fixed: Paste function in First Light would reset the green channel to a gain of 1.\par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 4.0.3.212\par
+\pard\nowidctlpar\li720\ulnone Enhanced: the First Light color update speed (to very smooth.)\par
+Enhanced: Support up to 16-cores in R2CF the Red R3D convertor.\par
+Enhanced: New fast mode for half res. R3D decodes.\par
+Fixed: Cut copy paste in First Light.\par
+Fixed a rare crash in the encoder, that was happen on some PCs are not others.\par
+Fixed: 16-bit per channel QuickTime import and export from tools like Combustion.\par
+Fixed: CS4 exports 601/709 color shift error on non-CineForm elements (like Color bars.)\par
+Fixed: CS4 exports no longer stuck on 29.97 frame rate. \par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 4.0.2.211\par
+\pard\nowidctlpar\li720\ulnone Added: VfW Codec now has a pixel aspect ratio controls in its settings panel.\par
+Added: the installer now includes .Net3.5 framework for XP systems to run First Light.\par
+Enhanced: Decoder is more memory efficient by 6MB per instance.\par
+Enhanced: First Light window resizing is much improved.\par
+Enhanced: HDlink 10-bit HD to SD downscales now addresses 709 to 601 conversion for prefect SD color (great for DVD mastering.)\par
+Enhanced: CS4 importer is getting better each day, lower memory usage and faster.\par
+Enhanced: The QuickTime codec for Windows was brought up to the current codec engine.\par
+Fixed: Center crop and letterbox mode of the 10-bit HDLink scaler.\par
+Fixed: Encoder and Decoders now correct support the 'r210', 10-bit RGB 4:4:4 pixel format.\par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 4.0.1.210\par
+\pard\nowidctlpar\li720\ulnone The offical 4.0 release\par
+Added: CineForm First Light to the tools folder to enable many image enhancements.\par
+Added: The ability to convert most MOV / Quicktime files playable in QT Player.\par
+Added: Limited CS4 features for import and export (more to come.)\ul\par
+\ulnone Added: Direct support for AVCHD cameras files within HDLink.\par
+Added: Direct support for Canon 5D Mk2, include fixing  frame rate and luma levels.\par
+Enhanced: DPX2CF now  handles unsort file sources (common from Linux file systems) allowing easier batch conversion of larger founds of DPX files.\par
+Enhanced: The installer ability to find the various versions of Premiere.\par
+Enhanced: R2CF (Red One footage convertor) to be faster for extracting segements from \par
+long sequences.\tab Enhanced: Codec core revision now at 5.0.3\par
+Enhanced: Added HDLink to the tools folder. \par
+Fixed: R2CF audio and timecode support (which wasn't correct for extracted sequences.)\par
+Fixed: rare explorer crash when it sends the codec unaligned data.\par
+Fixed: 444 encoding and decoding of odd height images, the bottom scanline was empty.\par
+Many other features, enhancements, and bug fixes.\ul\b\par
+\pard\nowidctlpar\ulnone\b0\tab  \ul\b\par
+\b0 Build 3.4.8.191\ulnone\par
+\pard\nowidctlpar\li720 Added: (N4K and P4K only) DriectShow alpha channel encoding of 8-bit sources (previously was 16-bit only.) \par
+Added: CF2DPX frame range access and more speed when creating DPXs.\par
+Enhanced : Progressive v210 (10-bit YUV) decodes are 20% faster on 4+ core systems.\par
+Enhanced: The CF2DPX example help is better.\par
+Enhanced: Pulldown detection for very long records.\par
+Enhanced: When requesting 24p from 60i, it will now deinterlace until it is more sure it has found a pulldown cadence.\par
+Enhanced: 24p pulldown will be smarter when fed already 24p source than have no pulldown (Canon 24F source) or 50i sources.\par
+Fixed: Look for CoreAVC first as the new CS4 AVCHD breaks AVCHD support in HDLink.\par
+Fixed: Active Metadata with different user accounts.\par
+Fixed: Encodes from within BluffTitler -- had weird slant.\par
+Fixed: Playback using Vista's Window Media Player is now fast and with the correct aspect ratio.\par
+Fixed: Super-super white (serval stops over) clipping with using Active Metadata but not using 3D LUTs.\par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 3.4.6.188\ulnone\par
+\tab Enhanced: AE 32-bit more will now linearize Active Metadata curves.\par
+\tab Enhanced: Premiere export compiler support IP vs I frame controls.\par
+\tab Fixed: Levels 32-bit playback in Premiere (weird color clipping.)\par
+\tab Fixed: 32-bit linear mode in AE would sometime mess up the color.\par
+\tab Fixed: Clipping in Active Metadata extreme super whites (4 stops over) now handled correctly.\par
+\tab Fixed: Some Premiere exports being one frame too long. \par
+\tab Fixed: Crash in scale to NTSC Letterbox within HDLink.\par
+\ul\b\par
+\b0 Build 3.4.6.187\ulnone\par
+\tab Fixed: a small handle leak in the decoder.\par
+\tab Fixed: Crash in HDLink due to a default stack size too small for some file sources.\par
+\tab Fixed: Very old YUV 8-bit clips where tinted green in half res decodes with Premiere.\par
+\tab Fixed: A memory issue encoding 4:4:4 4K with R2CF.\par
+\tab Fixed: A subtle scaling artifact in large down scales from 4K or above.\tab\par
+\tab Fixed: A crash import some older clips in Premiere that where fine outside Premiere.\par
+\ul\b\par
+\b0 Build 3.4.5.186\ulnone\par
+\tab Added: Cineon 985 a PD985Log equivalent curve type for Active Metadata.\par
+\tab Enhanced: Decoder performance increased significantly for systems with 4 or more cores (v4.3.)\ul\par
+\b\par
+\b0 Build 3.4.5.185\ulnone\par
+\tab Enhanced: the decoder threading engine, a little more performance without compromising quality (codec bump to 4.2)\par
+\ul\b\par
+\b0 Build 3.4.4.184\b\par
+\ulnone\b0\tab Added: more curve options for encoding and decoding through Active Metadata (helps with some Red projects.)\par
+\tab Added: Timecode support in HDLink for Sony EX1 MP4 files.\par
+\tab Enhanced: High resolution (>1920) onlines in Premiere, fixing some low memory issues.\ul\b\par
+\par
+\b0 Build 3.4.3.183\par
+\pard\nowidctlpar\li720\ulnone Added: AVI to MOV rewrap now preserves the timecode.\par
+Added: Encoder/Decoder support for new monochrome encoding mode.\par
+Fixed: removed a rare decoder glitch.\par
+Fixed: A HDLink crash for some rate change operations (rare.)\par
+Fixed: MP4 sources now support the rate change filter in HDLink. \ul\b\par
+\pard\nowidctlpar\par
+\b0 Build 3.4.2.181\ulnone\par
+\tab Enahnced: Codec internals of future handling of future data types (version now 4.0)\par
+\tab Enhanced: R3D convertor R2CF with Quicktime timecode and several minor fixes.\par
+\tab Enhanced: R2CF now includes a watchDog timer and automatically restarts conversions that fail (for whatever reason.)\par
+\tab Enhanced: HDLink now reports the correct version number in the Log window.\par
+\tab Fixed: Video System RGB handled with Vegas.\par
+\ul\b\par
+\b0 Build 3.4.2.180\ulnone\par
+\tab Enhanced: Acceleration 32-bit decode from the Premiere importer\par
+\tab Enhanced: R3D convertor R2CF with many scripts to simplify conversion\par
+\tab Updates to DPX2CF for YUV DPX sources\par
+\tab Fixed: 444 thumbnail in the Premiere clip bin where upside down.\par
+\tab Fixed: Decoder bug that prevent AVISynth using DirectShowSource.\par
+\tab Fixed: New cineon math.  Had the display gamma math wrong.\par
+\tab Many minor fixes and changes\ul\b\par
+\par
+\b0 Build 3.4.1.179\ulnone\par
+\tab Added: R2CF.exe a shell based R3D (tm) file converter (NEO HD and NEO 4K.)  \par
+\tab Enhanced: If timecode is not present in the header, the Adobe importer will now extract the timecode form the sample.\par
+\tab Fixed: The timeline gap (black area) playback of none standard timeline sizes like 1024x512. \par
+\tab Fixed: Correctly initized the global Active Metadata settings in Premiere.\par
+\ul\b\par
+\b0 Build 3.4.1.178\ulnone\par
+\pard\nowidctlpar\li720 Added: Active metadata will now load 8x8x8, 16x6x16 and 32x32x32 Iridas LUTs.\par
+Added: 24 to 25p conversion to HDLink.\par
+Enahnced: Made DPX2CF faster for SANs.\par
+Enhanced: Updates to DPX2CF, CF2DPX and CFRepair for more speed and flexibility.\par
+Enhanced: Made 23.976 to 24/25p mode accurate (using 24000/1001 not 23976/1000 math.)\par
+Enhanced: faster/smaller LUTs will using for playback but rendering uses the full 65x65x65 precision.\par
+Fixed: a colorspace issue of RAW playback to YUV surfaces\par
+Fixed: an up-scaling artifact in HDLink that happened in the last beta.\par
+Fixed: centercrop HDLink scaling for 4x3 sources into 16x9 outputs.\par
+Fixed: green thumbnails for RAW clips in Premiere's clip bin. \ul\b\par
+\pard\nowidctlpar\par
+\b0 Build 3.4.1.176\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-720\li720\ulnone Added: support for Grass Valley Infinity cameras (via I-JSK Suite, a $99 add-on)  (HD, 4K)\par
+{\pntext\f4\'B7\tab}Enhanced: the scaler used in HDLink. \par
+{\pntext\f4\'B7\tab}Fixed: 720x486 striding problems (with and without looks.)\par
+{\pntext\f4\'B7\tab}Fixed: Explorer crash loading 1280 wide AVIs with active metadata enabled.\ul\par
+\pard\nowidctlpar\b\par
+\b0 Build 3.4.0.173\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-720\li720\ulnone Added : Active Metadata support for 4:2:2 sources.  Now all the fun of RAW cameras can be applied to most clip types (current except is clips with alpha channels.)\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlcont\pnf4\pnindent0{\pntxtb\'B7}}\nowidctlpar\ul\par
+{\pntext\f4\'B7\tab}Build 3.4.0.172\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-720\li720\ulnone Added : Active Metadata support for 4:4:4 sources.  Now all the fun of RAW cameras can be applied to standard 444 clips.\par
+{\pntext\f4\'B7\tab}Added:  Cineon curves are now part of codec core, allowing their selection as either an enocde or decode curve through Active Metadata.\par
+{\pntext\f4\'B7\tab}Enhanced:  Fast 1D LUT Active Metadata, the base tools used for ASC CDL (coming soon to a CineForm product.)\par
+{\pntext\f4\'B7\tab}Fixed: Active Metadata gamma corrects would not be active if both white balance and the matrix where disabled.\par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 3.3.2.171\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-720\li720\ulnone Enhanced: Decoder2 prioritizes 444 decodes over 422 decodes if 10-bit RGB and v210 formats are enabled. \par
+{\pntext\f4\'B7\tab}Added: 4:4:4 12-bit RGB files can now decode to 10-bit YUV 422.\par
+{\pntext\f4\'B7\tab}Added: HDLink can now transcode CineForm 444 files to 422 files, while preserving a high bit-depth.\par
+{\pntext\f4\'B7\tab}Added: CineForm RAW ouputs to v210 now.\par
+{\pntext\f4\'B7\tab}Fixed: Bottom line errors on single CPU (non-HT) systems.\par
+{\pntext\f4\'B7\tab}Fixed:  Thumbnail crash on single CPU systems.\par
+{\pntext\f4\'B7\tab}Fixed: some alternative bayer formats played with the wrong demosaic under QuickTime.\par
+{\pntext\f4\'B7\tab}Fixed: 4:4:4:4 playing blank under QT.\par
+{\pntext\f4\'B7\tab}Enchanced: dithering was only using one scan-line rather than two in some cases.\par
+{\pntext\f4\'B7\tab}Added: New Unique_frame_num tag for encodes (used by RAW cameras like SI-2K.)\par
+{\pntext\f4\'B7\tab}Fixed: a bug in two frame GOPs handling of local metadata.\par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 3.3.1.169\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-720\li720\ulnone Enhanced: 1K decoding performance of 4K RAW files is now around twice as fast.\par
+{\pntext\f4\'B7\tab}Fixed : the wrong registry setting preventing RT capture convert from some HDV sources.\par
+{\pntext\f4\'B7\tab}Fixed: CineForm RAW encoding from 8-bit source with blue on the first scanline.\par
+\pard\nowidctlpar\ul\b\par
+\b0 Build 3.3.1.167\par
+\pard\nowidctlpar\fi-360\li720\tx720\ulnone\f1\fs24\'b7\f0\tab\fs20 Added: More performance on dual and quad core systems for CineForm decoding.\fs24\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\f0\tab\fs20 Added: DShow Decoder now has better direct control of the pixel format is output via it properties control panel.  Output settings can be now saved as defaults.\fs24\par
+\f1\'b7\f0\tab\fs20 Added: DShow Decoder has two new 4:4:4 10-bit formats (A2R10G10B10 and A2B10G10R10) supported by the Video Mixing Rendering-9 (on some GFX cards.)  \fs24\par
+\f1\'b7\f0\tab\fs20 Added: DShow decoder know displays the version number in the control panels.\fs24\par
+\pard\nowidctlpar\fi-360\li720\tx720\f1\'b7\f0\tab\fs20 Added: Registry control HKCU/Software/Cineform/DShow/EncoderThreadsSet to control the number of threads used by CFEnocder2.ax. \fs24\par
+\f1\'b7\f0\tab\fs20 Enhanced: Reduced the memory footprint of encoder2. \fs24\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\f0\tab\fs20 Enhanced: Decoding performance is boosted even more.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Occasional wrong coloration of the top left pixel in the last couple of builds.\fs24\par
+\pard\nowidctlpar\fi-360\li720\tx720\f1\'b7\f0\tab\fs20 Fixed: Demoasicing error for alternative bayer phases when using the color database.\fs24\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\f0\tab\fs20 Fixed: CineForm RAW: Old user data in the being ingored on P-frames if on new color database information was added for that clip.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: CineForm RAW: AE 32-bit float linear math was wrong for new whitepoint.  \fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: AE thumbnail decoding for 444 and RAW clips.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: In HDLink the Interlaced 4:2:0 fix wasn't being used in pulldown removal for M2T files, yet it was for live or streaming capture/convert.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: HDSDI 10-bit YUV scaling of 1920x1080 to 1440x1080 upon capture.\fs24\par
+\pard\nowidctlpar\fi-360\li720\tx720\f1\'b7\f0\tab\fs20 Fixed : DShow decoder now remembers if quarter resolution playback was the default. \fs24\par
+\pard\nowidctlpar\par
+\ul\fs20 Build 3.3.0.164\par
+\pard\nowidctlpar\fi-360\li720\tx720\ulnone\f1\fs24\'b7\f0\tab\fs20 SetActiveMetadata utility replaces the old RAW control scripts for disabling the 3D LUTs.\fs24\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\f0\tab\fs20 CineForm RAW now has a separate color database (2K and 4K only,) controlled using SetActiveMetadata.  There color databases are enter-changeable to allow multiple color profiles between projects. They may also be export and moved between PCs (and soon Macs.)\fs24\par
+\f1\'b7\f0\tab\fs20 CFRepair utility now shipped as standard.  Primary for repairing files used in live capture, and a power outage or crash left an incomplete AVI. \fs24\par
+\f1\'b7\f0\tab\fs20 HDLink has improved support for AVCHD support, looking for common third party components like the Haali Media Splitter and the CoreAVC decoder, fixing issue where there where too many AVCHD components installed.  More information here :\fs24  \fs20 http://www.cineform.com/products/TechNotes/AVCHD_FileConversion.htm\fs24\par
+\f1\'b7\f0\tab\fs20 Improved threading performanceof deinterlacing and scaling when capturing live from HDSDI/HDMI.\fs24\par
+\f1\'b7\f0\tab\fs20 Many other internal upgrades.\fs24\par
+\pard\nowidctlpar\par
+\ul\fs20 Build 3.2.5.158\ulnone  \fs24\par
+\pard\nowidctlpar\fi-360\li720\tx720\f1\'b7\f0\tab\fs20 Enhanced: Sony EX1 MXF conversion to have the same quality features as the MP4 conversions\fs24\par
+\pard\nowidctlpar\par
+\ul\fs20 Build 3.2.5.157\ulnone  \fs24\par
+\pard\nowidctlpar\fi-360\li720\tx720\f1\'b7\f0\tab\fs20 Enchanced: Filtering 4:2:0 to 4:2:2 now supports EX1 progressive sources.\fs24\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\f0\tab\fs20 Fixed: The HDLink scaler now detects progressive sources correctly.\fs24\par
+\pard\nowidctlpar\fi-360\li720\tx720\f1\'b7\f0\tab\fs20 Fixed: Support for Sony EX large MP4 files\fs24\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\f0\tab\fs20 Fixed: Chroma quality fix for Ex1 interlaced sources (progressive was fine.)\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Smaller decoding error on the right hand edge for progressive YUV clips decoding to RGB 8-bit, 16-bit decoding, RAW or 4:4:4 source were uneffected.\fs24\par
+\f1\'b7\f0\tab\fs20 Enhanced: Exports to CineForm AVI for a lower memory footprint within Premiere.  \fs24\par
+\f1\'b7\f0\tab\fs20 Added: Support for 4K exports.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Real-time playback of CineForm RAW that use all metadata including gamma shift would sometime have a play error.\fs24\par
+\f1\'b7\f0\tab\fs20 Enhanced: New SI-2K meta with color matrix data now support.\fs24\par
+\f1\'b7\f0\tab\fs20 Enhanced: Better real-time playback of 4K timelines.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Color processing metadata support for x64 systems\fs24\par
+\f1\'b7\f0\tab\fs20 Enhanced: Encoder2 update to support any size metadata\fs24\par
+\pard\nowidctlpar\par
+\ul\fs20 Build 3.2.4.155\par
+\pard\nowidctlpar\fi-720\li720\tx720\ulnone\f1\fs24\'b7\f0\tab\fs20 Enhanced: Metadata sync'd with Samples even with threaded systems.\fs24\par
+\pard\nowidctlpar\fi-720\li720\f1\'b7\f0\tab\fs20 Fixed: Bayer size report (sometime said 4K was 8K) in the Premiere Properties window.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Sometimes 4K files report as a negative size in some cases caused a half res decode.\fs24\par
+\f1\'b7\f0\tab\fs20 Enhanced: Filmscan I-frame mode get a quality bump.\fs24\par
+\f1\'b7\f0\tab\fs20 Added: r210 pixel support support for Decoder2.\fs24\par
+\f1\'b7\f0\tab\fs20 Enhanced: Filmscan 2, enhanced to the ultimate mastering/archive format (targeting 4:1.)\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Adobe Ultra would sometimes incorrectly use the Desktop Playback - Fast mode (Half res.)\fs24\par
+\f1\'b7\f0\tab\fs20 Changed: Protection wrapping in 154 was causing some install issues.\fs24\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\fs20\par
+\pard\nowidctlpar\b0 Build 3.2.4.154\par
+\pard\nowidctlpar\fi-720\li720\tx720\ulnone\f1\fs24\'b7\f0\tab\fs20 Added: More curve support internal to the decoder.\fs24\par
+\pard\nowidctlpar\fi-720\li720\f1\'b7\f0\tab\fs20 Added: 8-bit support to the Window QT component. Originally only supported 16-bits per pixel.\fs24\par
+\f1\'b7\f0\tab\fs20 Added: QT support for pixel type 32, Quicktime retro ARGB format.\fs24\par
+\f1\'b7\f0\tab\fs20 Added: Four new high quality CineForm RAW debayer filters for Premiere and After Effects.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Color accuracy on QT 8-bit RGB exports.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Some older CineForm RAW AVIs wouldn't work in Premiere if the 3D LUT was missing.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Decoder now knows when it is being run within HDLink, preventing the "Desktop Playback - Fast" mode impacting quality for CineForm to CineForm resizng conversions.\fs24\par
+\f1\'b7\f0\tab\fs20 Added: Registry control HKEY_CURRENT_USER\\SOFTWARE\\Cineform\\DShow\\EncoderThreadsLimit to set the much number of threads used by the DirectShow Encoder. \fs24\par
+\f1\'b7\f0\tab\fs20 Added: Mac CineForm RAW decodes now have full control over which Debayer filter is used via the SetActiveMetadata utility.\fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Mac some 8-bit decodes were outputting to the wrong gamma. \fs24\par
+\f1\'b7\f0\tab\fs20 Fixed: Mac decoder now support 8 cores.\fs24\par
+\pard\nowidctlpar\par
+\ul\fs20 Build 3.2.3.150\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fixed: 8 cores systems has problems with the VFW codec\par
+\f1\tab\f0 Fixed: minor upgrades to the MXF reader\par
+\f1\tab\f0 Fixed: decoding of older CineForm RAW 1080p clips\par
+\f1\tab\f0 Fixed: Mac quarter res decodeing of CineForm 444 \par
+\f1\tab\f0 Fixed: RGBA32 decodes within VirtualDub\par
+\f1\tab\f0 Fixed: Colorspace was wrong for progressive RGB decodes in VFW & Sony Vegas\par
+\f1\tab\f0 Fixed: Changing an AVIs timecode in Premiere.\par
+\pard\nowidctlpar\fi-720\li720\qj Added: Mac codec scaling greatly improved.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\b0 Build 3.2.2.148\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fixed: XDCAM-EX support for 1920x1080 MXF files.\par
+\pard\nowidctlpar\fi-720\li720\qj Fixed: Progressive decoding to RGB of YUV sources.\par
+\pard\nowidctlpar\fs24\par
+\ul\fs20 Build 3.2.2.147\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Added: XDCAM-EX support to HDLink\par
+\f1\tab\f0 Added: Count offset for HDLink split scene naming\par
+\f1\tab\f0 Added: Improved cross platform decoder threading.\par
+\f1\tab\f0 Added: global controls over RAW metadata.\par
+\f1\tab\f0 Fixed: Support on quad core systems for some old clips was broken.\par
+\f1\tab\f0 Changed: "Force YUV" now defaults to on as too many cards could support RGB overlays.\par
+\pard\nowidctlpar\fs24\par
+\ul\fs20 Build 3.2.1.145\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fixed: Pulldown removal for 8-bit sources was broken in 3.2.0\par
+\f1\tab\f0 Added: QuickTime encoder now defaults to I-Frame only with keyframe control off.\par
+\f1\tab\f0 Added: QuickTime codec naming now reflects the licencing for HD, 2K or 4K.\par
+\f1\tab\f0 Added: Program Files->CineForm->Tools Scripts to control metadata with other applications (AE, playback)\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.2.0.142\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Added: RedCine support for PC Quicktime exports in beta.  1920x1080 (or smaller) exports default to YUV 4:2:2, 2K exports are automatically RGB 4:4:4.\par
+\f1\tab\f0 Added: Importer and AEIO updated to handle new bayer headers on older files\par
+\f1\tab\f0 Fixed: HD Link no longer reports errors when capture from Decklink cards is stopped.\par
+\f1\tab\f0 Fixed: DirectShow Encoder in I-frame mode would sometimes drop the very first frame.\par
+\f1\tab\f0 Fixed: QT encoder would internal truncate 1556 tall images to 1552, now fixed.\par
+\pard\nowidctlpar\fi-720\li720\qj Fixed: Size report wrong in the Decoder's VidoInfo structure.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.2.0.141 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fixed: Premiere Pro CS3 is Vista adds "\\\\?\\" before the path name of rendered preview files.\par
+\f1\tab\f0 Update all components to use: Intel Complier V10 (some speed enhancements.)\par
+\f1\tab\f0 Fixed: Edge filters for some bayer layouts.\par
+\f1\fs24\tab\f0\fs20 Added: Bayer decoding for VfW and Quicktime codec engines.\fs24  \par
+\f1\fs20\tab\f0 Added: CineForm RAW decoding to the Mac codec (beta.)\par
+\f1\tab\f0 Fixed: CineForm 444 thumbnail/quarter resolution decoding on the Mac.\par
+\f1\tab\f0 Improved the pulldown detection for heavy compressed sources like AVCHD 24p in 60i.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.1.2.139 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fixed: AE CS3 now report the compression type as one of these: CineForm Intermediate (4:2:2), CineForm 444, CineForm RAW or CineForm 444 + Alpha.\par
+\f1\tab\f0 Fixed: AE CS3 thumbnail decoding of YUV would sometimes show up as pink. \par
+\f1\tab\f0 Fixed: AE CS3 QuickTime export in 16-bit mode. \par
+\f1\tab\f0 Fixed: Decklink capture format setting correctly maintained.\par
+\f1\tab\f0 Added: Centercrop control for HDLink conversion of non-16x9 sources.\par
+\f1\tab\f0 Fixed: NTSC SD imports defaulting to 0.9 pixel aspect ratio.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.1.1.138 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fixed : Progressive 1080 clips would import into AE as interlaced. \par
+\f1\tab\f0 Fixed : 16-bit per channel Quicktime decodes now work in both CS3 and AE7 (CS3 was byte swapped thanks to an Adobe change.)\par
+\f1\tab\f0 Enhanced debayer noise filter for CineForm RAW.\par
+\f1\tab\f0 Fix some export issues with AE and the Quicktime encoder.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.1.0.137 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Intel Mac version of the codec include in the distribution.\par
+\f1\tab\f0 Fix for XDCAM HD conversion that broken in the last release.\par
+\f1\tab\f0 Fix for M2T file conversions with scene split.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.0.6.136 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Alpha channel decoding support now within Premiere & AE \endash  CineForm 4:4:4:4.\par
+\f1\tab\f0 AE CS3 importer now works without having to remove any AE components. \par
+\f1\tab\f0 Improve AE memory handling for rendering very large 4:4:4 frames.\par
+\f1\tab\f0 Fixed user control for timecode changing with Premiere Pro CS3.\par
+\f1\tab\f0 Fixed an XDCAM-HD conversion issue for non-English installs of Windows.\par
+\f1\tab\f0 Fix for distorted audio export from After Effects.\par
+\f1\tab\f0 Fix for converting JVC 24p sources in HDLink (broken in 3.0.3)\par
+\f1\tab\f0 Fixed the quality leave controls for HDLink capturing from HMDI cards \endash  every setting was one lower than it should be and Low was undefined.\par
+\f1\tab\f0 Fixed a handle leak in the encoder. \par
+\f1\tab\f0 Fixed for decoding bayer images of difference phases.\par
+\f1\tab\f0 Fixed Windows Media Player under Vista showing weird colors (still don\rquote t use Windows Media Player as it is very slow.)\par
+\pard\nowidctlpar\qj\ul\par
+Build 3.0.5.135 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 HDLink now can convert JVC TOD files to CineForm AVIs.\par
+\f1\tab\f0 HDLink file selector now defaults to all convertible media rather than just MPEG media.\par
+\f1\tab\f0 Fix for Vista, some system would fail to playback if the timeline was shortened.\par
+\f1\tab\f0 Fix for Vista, some system would fail to playback if the timeline was shortened.\par
+\f1\tab\f0 Fix for Vista, COM Surrogate errors with thumbnail view in window explorer,\par
+\pard\nowidctlpar\fs24\par
+\pard\nowidctlpar\qj\ul\fs20 Build 3.0.4.134 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\fs24\tab\f0\fs20 XDCAM\endash HD conversion support within HDLink\ul  \ulnone\fs24\par
+\f1\fs20\tab\f0 Fixed a Premiere memory leak on exports that would eventually crash.\par
+\f1\tab\f0 Fixed a threading issue for rendering out 3D LUT enabled clips on 8 CPU/core systems.\par
+\f1\tab\f0 Fixed MOV rewrapping to AVI for files greater than 4GB.\par
+\f1\tab\f0 Fixed HDlink upscale from assuming SD sources are interlaced.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.0.3.132 \par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fix for reading CineForm 444 files within Premiere/AE CineForm importers that where created with Video for Windows.\par
+\f1\tab\f0 Restored YUY2 support within the Video for Windows codec.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.0.2.131\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Fixed rewrapping AVI to MOV on old Prospect HD installations \endash  now much faster.\par
+\f1\tab\f0 Fixed a rare Encoder failure that may happen with a lot of encoding.\par
+\f1\tab\f0 Fixed scene detection capture to MOV, no longer output AVIs for the second and third clips. \par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.0.1.130\b  \ulnone\b0\fs24\par
+\pard\nowidctlpar\li720\qj\f1\fs20\tab\f0 Installer will now install into Premiere Pro CS3 correctly to match an Adobe change.\par
+\f1\tab\f0 The Installer will now install within all Premiere Pro version found.\par
+\f1\fs24\tab\f0\fs20 Fix so that the encoders are list in under more third party tools \ldblquote Video Compressors\rdblquote\ul  \ulnone\fs24\par
+\f1\fs20\tab\f0 New metadata handling in preparation for future features. \par
+\f1\tab\f0 Many other minor enhancements\par
+\f1\tab\f0 NEO Player only : Vegas get an upgraded CineForm codec license.\par
+\pard\nowidctlpar\f1\fs24\tab\f0\par
+\pard\nowidctlpar\qj\ul\fs20 Build 3.0.1.129\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 HDLink has has improved support for consumer HD cameras like the JVC HD Everio GZ-HD7.\par
+\f1\fs24\tab\f0\fs20 Fixed : File re-wrapping MOV to AVI would occasionally use the wrong frame rate.\ul  \ulnone\fs24\par
+\f1\fs20\tab\f0 Fixed: HDLink would sometimes stop conversions early for large files. \par
+\f1\tab\f0 Fix for the CineForm QuickTime Importer which wasn't deferring to Premiere for other QT media.\par
+\f1\tab\f0 Added a control to disable the HDSDI/HMDI capture window with HDLink.\par
+\f1\tab\f0 Improved Vista support.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.0.1.128\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 After Effects importer enhancements to fix bugs loading and saving older projects.\par
+\f1\tab\f0 Added support for other bayer layouts (for a wide range of RAW camera support.)\par
+\f1\tab\f0 Fix for analog audio capture with the AJA Xena LHe\par
+\f1\tab\f0 Fix for NTSC SD capture within HDlink.\par
+\f1\tab\f0 Faster MOV to AVI re-wrapping.\par
+\f1\tab\f0 NEO HDV had the wrong splash screen and licensing.\par
+\pard\keepn\nowidctlpar\s2\qj\ul\b\par
+\pard\nowidctlpar\qj\b0 Build 3.0.0.126\par
+\pard\nowidctlpar\li720\qj\ulnone\f1\tab\f0 Although this is the first official version of the NEO product line it is based on the Prospect HD/2K engine so it share is version numbering.  \par
+\pard\nowidctlpar\qj\par
+CineForm Inc\par
+380 Stevens Ave. Suite 313\par
+Solana Beach, CA 92075\par
+\fs24 http://www.cineform.com\par
+\pard\keepn\nowidctlpar\s2\qj\par
+\pard\sb100\sa100\cf1\f2\fs20 THIS PRODUCT IS LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL USE OF A CONSUMER OR OTHER USES IN WHICH IT DOES NOT RECEIVE REMUNERATION TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE\cf0  \cf1 AVC STANDARD (\ldblquote AVC VIDEO\rdblquote ) AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE AVC VIDEO. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE \cf0\b HTTP://WWW.MPEGLA.COM\b0\par
+\pard\nowidctlpar\f0\par
+\pard\keepn\nowidctlpar\s2\par
+\pard\keepn\nowidctlpar\s2\qj\fs24\par
+}
+   051400
+f\f s2

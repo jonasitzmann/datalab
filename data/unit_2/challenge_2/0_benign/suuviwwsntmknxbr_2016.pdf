@@ -1,0 +1,2036 @@
+%PDF-1.4
+%ª«¬­
+1 0 obj
+<<
+/Title (Merkblatt Ausfüllhinweise_FB Begleitschein)
+/Producer (cirali-pdf Pdf-V74 http://www.fjd.de)
+/Creator (Cirali Output Manager B1-23 http://www.fjd.de)
+/Author (TLVwA)
+>>
+endobj
+2 0 obj
+<< /Type /Catalog
+/Pages 3 0 R
+/Names 32 0 R
+/AcroForm 13 0 R
+/AA << /WP << /S /JavaScript /JS (
+var n = this.numFields;\rvar f;\rvar fn;\rfor\(var i=0;i<n;i++\)\r{\r   fn = this.getNthFieldName\(i\);\r   if\(""==fn\) continue;\r\r   f = this.getField\(fn\);\r   if\(null==f\) continue;\r   if\("button"==f.type\)continue;\r\r   SYS_FILL\(f,color.transparent\);\r\r\r   if\("checkbox"==f.type\)\r   { f.style=style.cr;\r     f.strokeColor=getBorderColor\(fn\);\r   }\r   else\r   {    if\(""+f.strokeColor!=""+color.transparent\)\r   		{  f.strokeColor=color.transparent;\r   		}\r   }\r}\r) >>
+ /DP << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+>>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [ 4 0 R 7 0 R 10 0 R]
+/Count 3
+>>
+endobj
+4 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots 6 0 R
+/MediaBox [ 0 0 595.28 841.89 ]
+/Contents [ 5 0 R ]
+/AA << /O << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+/Resources
+<< /ProcSet [ /PDF /ImageC ] 
+ /Font << /F1 47 0 R
+/Helv 43 0 R
+>>/XObject<</I1 48 0 R
+/I2 49 0 R
+>>
+>>
+>>
+endobj
+5 0 obj
+<< /Length 11881 >>
+stream
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg 2 J [] 0 d 0.5 w 59.74 685.42 m 59.74 500.5 l S
+537.7 685.42 m 537.7 500.5 l S
+BT /F1 10.0 Tf 59.74 470.18 Td (Abfallerzeuger) Tj ET
+BT /Helv 10.0 Tf 136.56 470.18 Td (\(bei) Tj ET
+BT /Helv 10.0 Tf 156.06 470.18 Td (zugrundeliegendem) Tj ET
+BT /Helv 10.0 Tf 246.86 470.18 Td (Einzelentsorgungsnachweis\):) Tj ET
+BT /Helv 10.0 Tf 65.43 444.58 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 444.58 Td (Begleitscheinnummer) Tj ET
+BT /Helv 10.0 Tf 65.43 431.88 Td () Tj ET
+BT /Helv 10.0 Tf 68.23 431.88 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 419.18 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 419.18 Td (Abfallschlüssel) Tj ET
+BT /Helv 10.0 Tf 140.73 419.18 Td (und) Tj ET
+BT /Helv 10.0 Tf 160.33 419.18 Td (Abfallbezeichnung) Tj ET
+BT /Helv 10.0 Tf 65.43 406.48 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 393.78 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 393.78 Td (Entsorgungsnachweisnummer) Tj ET
+BT /Helv 10.0 Tf 65.43 381.08 Td () Tj ET
+BT /Helv 10.0 Tf 68.23 381.08 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 368.38 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 368.38 Td (Menge) Tj ET
+BT /Helv 10.0 Tf 104.93 368.38 Td (in) Tj ET
+BT /Helv 10.0 Tf 115.53 368.38 Td (t) Tj ET
+BT /Helv 10.0 Tf 121.13 368.38 Td (\(geschätzte) Tj ET
+BT /Helv 10.0 Tf 175.63 368.38 Td (Tonnage\)) Tj ET
+BT /Helv 10.0 Tf 221.43 368.38 Td (-) Tj ET
+BT /Helv 10.0 Tf 227.53 368.38 Td (im) Tj ET
+BT /Helv 10.0 Tf 240.93 368.38 Td (Papierverfahren) Tj ET
+BT /Helv 10.0 Tf 315.13 368.38 Td (unter) Tj ET
+BT /Helv 10.0 Tf 340.83 368.38 Td ("Frei) Tj ET
+BT /Helv 10.0 Tf 364.43 368.38 Td (für) Tj ET
+BT /Helv 10.0 Tf 379.03 368.38 Td (Vermerke") Tj ET
+BT /Helv 10.0 Tf 65.43 355.68 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 342.98 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 342.98 Td (Erzeugernummer) Tj ET
+BT /Helv 10.0 Tf 65.43 330.28 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 317.58 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 317.58 Td (Firmenname,) Tj ET
+BT /Helv 10.0 Tf 133.53 317.58 Td (Anschrift) Tj ET
+BT /Helv 10.0 Tf 175.43 317.58 Td (des) Tj ET
+BT /Helv 10.0 Tf 194.43 317.58 Td (Erzeugers) Tj ET
+BT /Helv 10.0 Tf 65.43 304.88 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 292.18 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 292.18 Td (Datum) Tj ET
+BT /Helv 10.0 Tf 103.93 292.18 Td (der) Tj ET
+BT /Helv 10.0 Tf 121.23 292.18 Td (Übergabe) Tj ET
+BT /Helv 10.0 Tf 65.43 279.48 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 266.78 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 266.78 Td (Feld) Tj ET
+BT /Helv 10.0 Tf 93.83 266.78 Td ("Frei) Tj ET
+BT /Helv 10.0 Tf 117.43 266.78 Td (für) Tj ET
+BT /Helv 10.0 Tf 132.03 266.78 Td (Vermerke") Tj ET
+BT /Helv 10.0 Tf 181.93 266.78 Td () Tj ET
+BT /Helv 10.0 Tf 184.73 266.78 Td (\(nur) Tj ET
+BT /Helv 10.0 Tf 205.33 266.78 Td (bei) Tj ET
+BT /Helv 10.0 Tf 221.53 266.78 Td (zugrundeliegendem) Tj ET
+BT /Helv 10.0 Tf 312.33 266.78 Td (Entsorgungsnachweis) Tj ET
+BT /Helv 10.0 Tf 413.03 266.78 Td (für) Tj ET
+BT /Helv 10.0 Tf 427.63 266.78 Td (Altöle) Tj ET
+BT /Helv 10.0 Tf 455.53 266.78 Td (oder) Tj ET
+BT /Helv 10.0 Tf 478.43 266.78 Td (Althölzer) Tj ET
+BT /Helv 10.0 Tf 65.43 254.08 Td () Tj ET
+BT /Helv 10.0 Tf 68.23 254.08 Td () Tj ET
+BT /Helv 10.0 Tf 71.03 254.08 Td (mit) Tj ET
+BT /Helv 10.0 Tf 87.23 254.08 Td (mehr) Tj ET
+BT /Helv 10.0 Tf 112.93 254.08 Td (als) Tj ET
+BT /Helv 10.0 Tf 128.53 254.08 Td (einem) Tj ET
+BT /Helv 10.0 Tf 158.73 254.08 Td (Abfallschlüssel\)) Tj ET
+BT /Helv 10.0 Tf 65.43 241.38 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 228.68 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 228.68 Td (Unterschrift) Tj ET
+BT /Helv 10.0 Tf 125.63 228.68 Td (\(Versicherung) Tj ET
+BT /Helv 10.0 Tf 190.73 228.68 Td (der) Tj ET
+BT /Helv 10.0 Tf 208.03 228.68 Td (richtigen) Tj ET
+BT /Helv 10.0 Tf 248.63 228.68 Td (Deklaration\)) Tj ET
+q
+1 0 0 1 0.0 748.72 cm
+0.24090322580645163 0 0 0.24090322580645163 0 0 cm
+2480 0 0 366 0 0 cm
+/I1 Do
+s
+Q
+BT /Helv 10.0 Tf 59.74 199.91 Td (Es) Tj ET
+BT /Helv 10.0 Tf 74.24 199.91 Td (wird) Tj ET
+BT /Helv 10.0 Tf 95.24 199.91 Td (empfohlen,) Tj ET
+BT /Helv 10.0 Tf 147.94 199.91 Td (auch) Tj ET
+BT /Helv 10.0 Tf 172.54 199.91 Td (Firmennamen) Tj ET
+BT /Helv 10.0 Tf 237.34 199.91 Td (und) Tj ET
+BT /Helv 10.0 Tf 256.94 199.91 Td (Anschrift) Tj ET
+BT /Helv 10.0 Tf 298.84 199.91 Td (des) Tj ET
+BT /Helv 10.0 Tf 317.84 199.91 Td (Entsorgers) Tj ET
+BT /Helv 10.0 Tf 369.04 199.91 Td (einzutragen.) Tj ET
+0.8 0.0 0.0 RG 0.8 0.0 0.0 rg BT /F1 12.0 Tf 59.74 729.92 Td (Ausfüllhinweise) Tj ET
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /F1 10.0 Tf 59.74 162.93 Td (Abfallbeförderer) Tj ET
+BT /Helv 10.0 Tf 142.25 162.93 Td (\(bei) Tj ET
+BT /Helv 10.0 Tf 161.75 162.93 Td (zugrundeliegendem) Tj ET
+BT /Helv 10.0 Tf 252.55 162.93 Td (Einzelentsorgungsnachweis\):) Tj ET
+BT /Helv 10.0 Tf 65.43 137.32 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 137.32 Td (Beförderernummer) Tj ET
+BT /Helv 10.0 Tf 65.43 124.62 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 111.92 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 111.92 Td (Firmenname) Tj ET
+BT /Helv 10.0 Tf 130.73 111.92 Td (und) Tj ET
+BT /Helv 10.0 Tf 150.33 111.92 Td (Anschrift) Tj ET
+BT /Helv 10.0 Tf 192.23 111.92 Td (des) Tj ET
+BT /Helv 10.0 Tf 211.23 111.92 Td (Beförderers) Tj ET
+BT /Helv 10.0 Tf 65.43 99.22 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 86.52 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 86.52 Td (Datum) Tj ET
+BT /Helv 10.0 Tf 103.93 86.52 Td (der) Tj ET
+BT /Helv 10.0 Tf 121.23 86.52 Td (Übernahme) Tj ET
+BT /Helv 10.0 Tf 65.43 73.82 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 61.12 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 61.12 Td (KFZ-Kennzeichen) Tj ET
+BT /Helv 10.0 Tf 154.53 61.12 Td (\(bei) Tj ET
+BT /Helv 10.0 Tf 174.03 61.12 Td (Straßenbeförderung\)) Tj ET
+BT /Helv 10.0 Tf 270.03 61.12 Td (-) Tj ET
+BT /Helv 10.0 Tf 276.13 61.12 Td (nur) Tj ET
+BT /Helv 10.0 Tf 293.43 61.12 Td (im) Tj ET
+BT /Helv 10.0 Tf 306.83 61.12 Td (elektronischen) Tj ET
+BT /Helv 10.0 Tf 374.33 61.12 Td (Verfahren) Tj ET
+BT /Helv 10.0 Tf 65.43 48.42 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 35.72 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 35.72 Td (Unterschrift) Tj ET
+BT /Helv 10.0 Tf 125.63 35.72 Td (\(Versicherung) Tj ET
+BT /Helv 10.0 Tf 190.73 35.72 Td (der) Tj ET
+BT /Helv 10.0 Tf 208.03 35.72 Td (ordnungsgemäßen) Tj ET
+BT /Helv 10.0 Tf 295.03 35.72 Td (Beförderung\)) Tj ET
+q
+1 0 0 1 0.0 748.72 cm
+0.24090322580645163 0 0 0.24090322580645163 0 0 cm
+2480 0 0 366 0 0 cm
+/I2 Do
+s
+Q
+BT /Helv 10.0 Tf 73.97 666.48 Td (Das) Tj ET
+BT /Helv 10.0 Tf 100.33 666.48 Td (Formblatt) Tj ET
+BT /Helv 10.0 Tf 151.29 666.48 Td (Begleitschein) Tj ET
+BT /Helv 10.0 Tf 219.44 666.48 Td (besteht) Tj ET
+BT /Helv 10.0 Tf 261.0 666.48 Td (im) Tj ET
+BT /Helv 10.0 Tf 280.16 666.48 Td (Papierverfahren) Tj ET
+BT /Helv 10.0 Tf 360.12 666.48 Td (aus) Tj ET
+BT /Helv 10.0 Tf 384.88 666.48 Td (einem) Tj ET
+BT /Helv 10.0 Tf 420.83 666.48 Td (Begleitscheinsatz) Tj ET
+BT /Helv 10.0 Tf 507.29 666.48 Td (mit) Tj ET
+BT /Helv 10.0 Tf 529.25 666.48 Td (6) Tj ET
+BT /Helv 10.0 Tf 73.97 653.78 Td (Ausfertigungen.) Tj ET
+BT /Helv 10.0 Tf 151.99 653.78 Td (Hierzu) Tj ET
+BT /Helv 10.0 Tf 188.51 653.78 Td (ist) Tj ET
+BT /Helv 10.0 Tf 206.23 653.78 Td (ein) Tj ET
+BT /Helv 10.0 Tf 227.35 653.78 Td (Begleitscheinsatz) Tj ET
+BT /Helv 10.0 Tf 312.97 653.78 Td (im) Tj ET
+BT /Helv 10.0 Tf 331.29 653.78 Td (Durchschreibeverfahren) Tj ET
+BT /Helv 10.0 Tf 446.01 653.78 Td (zu) Tj ET
+BT /Helv 10.0 Tf 464.23 653.78 Td (verwenden.) Tj ET
+BT /Helv 10.0 Tf 523.65 653.78 Td (Im) Tj ET
+BT /Helv 10.0 Tf 73.97 641.08 Td (elektronischen) Tj ET
+BT /Helv 10.0 Tf 144.93 641.08 Td (Verfahren) Tj ET
+BT /Helv 10.0 Tf 195.39 641.08 Td (werden) Tj ET
+BT /Helv 10.0 Tf 234.45 641.08 Td (die) Tj ET
+BT /Helv 10.0 Tf 254.11 641.08 Td (verschiedenen) Tj ET
+BT /Helv 10.0 Tf 325.57 641.08 Td (farbigen) Tj ET
+BT /Helv 10.0 Tf 368.13 641.08 Td (Ausführungen) Tj ET
+BT /Helv 10.0 Tf 436.99 641.08 Td (durch) Tj ET
+BT /Helv 10.0 Tf 468.35 641.08 Td (entsprechende) Tj ET
+BT /Helv 10.0 Tf 73.97 628.38 Td (Layer) Tj ET
+BT /Helv 10.0 Tf 101.77 628.38 Td (ersetzt.) Tj ET
+BT /Helv 10.0 Tf 73.97 615.68 Td () Tj ET
+BT /Helv 10.0 Tf 73.97 602.98 Td (Die) Tj ET
+BT /Helv 10.0 Tf 91.95 602.98 Td (1.) Tj ET
+BT /Helv 10.0 Tf 103.34 602.98 Td (Ausfertigung) Tj ET
+BT /Helv 10.0 Tf 162.62 602.98 Td (\(weiß\)) Tj ET
+BT /Helv 10.0 Tf 193.2 602.98 Td (erhält) Tj ET
+BT /Helv 10.0 Tf 221.29 602.98 Td (der) Tj ET
+BT /Helv 10.0 Tf 238.77 602.98 Td (Erzeuger) Tj ET
+BT /Helv 10.0 Tf 282.25 602.98 Td (zum) Tj ET
+BT /Helv 10.0 Tf 304.13 602.98 Td (Zweck) Tj ET
+BT /Helv 10.0 Tf 335.92 602.98 Td (der) Tj ET
+BT /Helv 10.0 Tf 353.4 602.98 Td (Eigendokumentation,) Tj ET
+BT /Helv 10.0 Tf 450.78 602.98 Td (die) Tj ET
+BT /Helv 10.0 Tf 467.17 602.98 Td (2.) Tj ET
+BT /Helv 10.0 Tf 478.55 602.98 Td (Ausfertigung) Tj ET
+BT /Helv 10.0 Tf 73.97 590.28 Td (\(rosa\)) Tj ET
+BT /Helv 10.0 Tf 105.35 590.28 Td (die) Tj ET
+BT /Helv 10.0 Tf 124.04 590.28 Td (für) Tj ET
+BT /Helv 10.0 Tf 141.12 590.28 Td (den) Tj ET
+BT /Helv 10.0 Tf 163.21 590.28 Td (Erzeuger) Tj ET
+BT /Helv 10.0 Tf 208.99 590.28 Td (zuständige) Tj ET
+BT /Helv 10.0 Tf 262.68 590.28 Td (Behörde,) Tj ET
+BT /Helv 10.0 Tf 308.76 590.28 Td (die) Tj ET
+BT /Helv 10.0 Tf 327.44 590.28 Td (3.) Tj ET
+BT /Helv 10.0 Tf 341.13 590.28 Td (Ausfertigung) Tj ET
+BT /Helv 10.0 Tf 402.71 590.28 Td (\(blau\)) Tj ET
+BT /Helv 10.0 Tf 433.6 590.28 Td (die) Tj ET
+BT /Helv 10.0 Tf 452.28 590.28 Td (für) Tj ET
+BT /Helv 10.0 Tf 469.37 590.28 Td (den) Tj ET
+BT /Helv 10.0 Tf 491.45 590.28 Td (Entsorger) Tj ET
+BT /Helv 10.0 Tf 73.97 577.58 Td (zuständige) Tj ET
+BT /Helv 10.0 Tf 128.59 577.58 Td (Behörde,) Tj ET
+BT /Helv 10.0 Tf 175.6 577.58 Td (die) Tj ET
+BT /Helv 10.0 Tf 195.21 577.58 Td (4.) Tj ET
+BT /Helv 10.0 Tf 209.83 577.58 Td (Ausfertigung) Tj ET
+BT /Helv 10.0 Tf 272.34 577.58 Td (\(gelb\)) Tj ET
+BT /Helv 10.0 Tf 304.06 577.58 Td (der) Tj ET
+BT /Helv 10.0 Tf 324.77 577.58 Td (Beförderer,) Tj ET
+BT /Helv 10.0 Tf 381.29 577.58 Td (die) Tj ET
+BT /Helv 10.0 Tf 400.9 577.58 Td (5.) Tj ET
+BT /Helv 10.0 Tf 415.52 577.58 Td (Ausfertigung) Tj ET
+BT /Helv 10.0 Tf 478.03 577.58 Td (\(altgold\)) Tj ET
+BT /Helv 10.0 Tf 520.35 577.58 Td (der) Tj ET
+BT /Helv 10.0 Tf 73.97 564.88 Td (Erzeuger) Tj ET
+BT /Helv 10.0 Tf 121.98 564.88 Td (\(mit) Tj ET
+BT /Helv 10.0 Tf 146.2 564.88 Td (der) Tj ET
+BT /Helv 10.0 Tf 168.21 564.88 Td (Bescheinigung) Tj ET
+BT /Helv 10.0 Tf 241.43 564.88 Td (der) Tj ET
+BT /Helv 10.0 Tf 263.45 564.88 Td (erfolgten) Tj ET
+BT /Helv 10.0 Tf 310.06 564.88 Td (Übernahme) Tj ET
+BT /Helv 10.0 Tf 370.08 564.88 Td (durch) Tj ET
+BT /Helv 10.0 Tf 402.69 564.88 Td (den) Tj ET
+BT /Helv 10.0 Tf 427.01 564.88 Td (Entsorger\)) Tj ET
+BT /Helv 10.0 Tf 481.22 564.88 Td (und) Tj ET
+BT /Helv 10.0 Tf 505.54 564.88 Td (die) Tj ET
+BT /Helv 10.0 Tf 526.45 564.88 Td (6.) Tj ET
+BT /Helv 10.0 Tf 73.97 552.18 Td (Ausfertigung) Tj ET
+BT /Helv 10.0 Tf 133.07 552.18 Td (\(grün\)) Tj ET
+BT /Helv 10.0 Tf 162.47 552.18 Td (der) Tj ET
+BT /Helv 10.0 Tf 179.77 552.18 Td (Entsorger.) Tj ET
+BT /Helv 10.0 Tf 73.97 539.48 Td () Tj ET
+BT /Helv 10.0 Tf 73.97 526.78 Td (In) Tj ET
+BT /Helv 10.0 Tf 86.24 526.78 Td (der) Tj ET
+BT /Helv 10.0 Tf 104.62 526.78 Td (Abfolge) Tj ET
+BT /Helv 10.0 Tf 142.59 526.78 Td (müssen) Tj ET
+BT /Helv 10.0 Tf 181.66 526.78 Td (von) Tj ET
+BT /Helv 10.0 Tf 201.64 526.78 Td (den) Tj ET
+BT /Helv 10.0 Tf 222.31 526.78 Td (Abfallwirtschaftsbeteiligten) Tj ET
+BT /Helv 10.0 Tf 344.38 526.78 Td (folgende) Tj ET
+BT /Helv 10.0 Tf 386.86 526.78 Td (Angaben) Tj ET
+BT /Helv 10.0 Tf 430.93 526.78 Td (bei) Tj ET
+BT /Helv 10.0 Tf 448.2 526.78 Td (der) Tj ET
+BT /Helv 10.0 Tf 466.58 526.78 Td (Übergabe) Tj ET
+BT /Helv 10.0 Tf 514.45 526.78 Td (bzw.) Tj ET
+BT /Helv 10.0 Tf 73.97 514.08 Td (Übernahme) Tj ET
+BT /Helv 10.0 Tf 129.27 514.08 Td (der) Tj ET
+BT /Helv 10.0 Tf 146.57 514.08 Td (Abfälle) Tj ET
+BT /Helv 10.0 Tf 180.17 514.08 Td (vorliegen:) Tj ET
+BT /Helv 10.0 Tf 226.27 514.08 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 703.47 Td (Formblatt) Tj ET
+BT /Helv 10.0 Tf 104.94 703.47 Td (Begleitschein) Tj ET
+59.74 685.42 m 537.7 685.42 l S
+59.74 500.5 m 537.7 500.5 l S
+endstream
+endobj
+6 0 obj
+[
+14 0 R
+15 0 R
+16 0 R
+17 0 R
+18 0 R
+20 0 R
+22 0 R
+]
+endobj
+7 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots 9 0 R
+/MediaBox [ 0 0 595.28 841.89 ]
+/Contents [ 8 0 R ]
+/AA << /O << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+/Resources
+<< /ProcSet [ /PDF /ImageC ] 
+ /Font << /F1 47 0 R
+/Helv 43 0 R
+>>>>
+>>
+endobj
+8 0 obj
+<< /Length 12142 >>
+stream
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /F1 10.0 Tf 59.74 234.05 Td (Erläuterungen) Tj ET
+BT /F1 10.0 Tf 59.74 731.92 Td (Abfalleinsammler) Tj ET
+BT /Helv 10.0 Tf 150.78 731.92 Td (\(bei) Tj ET
+BT /Helv 10.0 Tf 170.28 731.92 Td (zugrundeliegendem) Tj ET
+BT /Helv 10.0 Tf 261.08 731.92 Td (Sammelentsorgungsnachweis\):) Tj ET
+BT /Helv 10.0 Tf 65.43 706.31 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 706.31 Td (Begleitscheinnummer) Tj ET
+BT /Helv 10.0 Tf 65.43 693.61 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 680.91 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 680.91 Td (Abfallschlüssel) Tj ET
+BT /Helv 10.0 Tf 140.73 680.91 Td (und) Tj ET
+BT /Helv 10.0 Tf 160.33 680.91 Td (Abfallbezeichnung) Tj ET
+BT /Helv 10.0 Tf 65.43 668.21 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 655.51 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 655.51 Td (Entsorgungsnachweisnummer) Tj ET
+BT /Helv 10.0 Tf 65.43 642.81 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 630.11 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 630.11 Td (Menge) Tj ET
+BT /Helv 10.0 Tf 104.93 630.11 Td (in) Tj ET
+BT /Helv 10.0 Tf 115.53 630.11 Td (t) Tj ET
+BT /Helv 10.0 Tf 121.13 630.11 Td (\(geschätzte) Tj ET
+BT /Helv 10.0 Tf 175.63 630.11 Td (Tonnage) Tj ET
+BT /Helv 10.0 Tf 218.13 630.11 Td (nach) Tj ET
+BT /Helv 10.0 Tf 242.73 630.11 Td (Abschluss) Tj ET
+BT /Helv 10.0 Tf 291.23 630.11 Td (der) Tj ET
+BT /Helv 10.0 Tf 308.53 630.11 Td (Einsammlung\)) Tj ET
+BT /Helv 10.0 Tf 375.43 630.11 Td (-) Tj ET
+BT /Helv 10.0 Tf 381.53 630.11 Td (im) Tj ET
+BT /Helv 10.0 Tf 394.93 630.11 Td (Papierverfahren) Tj ET
+BT /Helv 10.0 Tf 65.43 617.41 Td () Tj ET
+BT /Helv 10.0 Tf 68.23 617.41 Td () Tj ET
+BT /Helv 10.0 Tf 71.03 617.41 Td (unter) Tj ET
+BT /Helv 10.0 Tf 96.73 617.41 Td ("Frei) Tj ET
+BT /Helv 10.0 Tf 120.33 617.41 Td (für) Tj ET
+BT /Helv 10.0 Tf 134.93 617.41 Td (Vermerke") Tj ET
+BT /Helv 10.0 Tf 65.43 604.71 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 592.01 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 592.01 Td (fiktive) Tj ET
+BT /Helv 10.0 Tf 99.93 592.01 Td (Erzeugernummer) Tj ET
+BT /Helv 10.0 Tf 65.43 579.31 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 566.61 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 566.61 Td (Firmenname) Tj ET
+BT /Helv 10.0 Tf 130.73 566.61 Td (und) Tj ET
+BT /Helv 10.0 Tf 150.33 566.61 Td (Anschrift) Tj ET
+BT /Helv 10.0 Tf 192.23 566.61 Td (des) Tj ET
+BT /Helv 10.0 Tf 211.23 566.61 Td (Einsammlers) Tj ET
+BT /Helv 10.0 Tf 272.03 566.61 Td (im) Tj ET
+BT /Helv 10.0 Tf 285.43 566.61 Td (Befördererfeld) Tj ET
+BT /Helv 10.0 Tf 65.43 553.91 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 541.21 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 541.21 Td (Beförderernummer) Tj ET
+BT /Helv 10.0 Tf 65.43 528.51 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 515.81 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 515.81 Td (Datum) Tj ET
+BT /Helv 10.0 Tf 103.93 515.81 Td (der) Tj ET
+BT /Helv 10.0 Tf 121.23 515.81 Td (Übernahme) Tj ET
+BT /Helv 10.0 Tf 176.53 515.81 Td (\(Beginn) Tj ET
+BT /Helv 10.0 Tf 213.83 515.81 Td (der) Tj ET
+BT /Helv 10.0 Tf 231.13 515.81 Td (Einsammlung\)) Tj ET
+BT /Helv 10.0 Tf 65.43 503.11 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 490.41 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 490.41 Td (KFZ-Kennzeichen) Tj ET
+BT /Helv 10.0 Tf 154.53 490.41 Td (\(bei) Tj ET
+BT /Helv 10.0 Tf 174.03 490.41 Td (Straßenbeförderungen\)) Tj ET
+BT /Helv 10.0 Tf 281.23 490.41 Td (-) Tj ET
+BT /Helv 10.0 Tf 287.33 490.41 Td (nur) Tj ET
+BT /Helv 10.0 Tf 304.63 490.41 Td (im) Tj ET
+BT /Helv 10.0 Tf 318.03 490.41 Td (elektronischen) Tj ET
+BT /Helv 10.0 Tf 385.53 490.41 Td (Verfahren) Tj ET
+BT /Helv 10.0 Tf 65.43 477.71 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 465.01 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 465.01 Td (Feld) Tj ET
+BT /Helv 10.0 Tf 93.83 465.01 Td ("Frei) Tj ET
+BT /Helv 10.0 Tf 117.43 465.01 Td (für) Tj ET
+BT /Helv 10.0 Tf 132.03 465.01 Td (Vermerke") Tj ET
+BT /Helv 10.0 Tf 181.93 465.01 Td (\(Übernahmescheinnummern,) Tj ET
+BT /Helv 10.0 Tf 314.83 465.01 Td (ferner) Tj ET
+BT /Helv 10.0 Tf 343.93 465.01 Td (Abfallschlüssel) Tj ET
+BT /Helv 10.0 Tf 413.13 465.01 Td (bei) Tj ET
+BT /Helv 10.0 Tf 429.33 465.01 Td () Tj ET
+BT /Helv 10.0 Tf 432.13 465.01 Td () Tj ET
+BT /Helv 10.0 Tf 434.93 465.01 Td (zugrundeliegendem) Tj ET
+BT /Helv 10.0 Tf 525.73 465.01 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 452.31 Td () Tj ET
+BT /Helv 10.0 Tf 68.23 452.31 Td () Tj ET
+BT /Helv 10.0 Tf 71.03 452.31 Td (Sammelentsorgungsnachweis) Tj ET
+BT /Helv 10.0 Tf 207.53 452.31 Td (mit) Tj ET
+BT /Helv 10.0 Tf 223.73 452.31 Td (mehr) Tj ET
+BT /Helv 10.0 Tf 249.43 452.31 Td (als) Tj ET
+BT /Helv 10.0 Tf 265.03 452.31 Td (einem) Tj ET
+BT /Helv 10.0 Tf 295.23 452.31 Td (Abfallschlüssel) Tj ET
+BT /Helv 10.0 Tf 364.43 452.31 Td (für) Tj ET
+BT /Helv 10.0 Tf 379.03 452.31 Td (Altöle) Tj ET
+BT /Helv 10.0 Tf 406.93 452.31 Td () Tj ET
+BT /Helv 10.0 Tf 409.73 452.31 Td (oder) Tj ET
+BT /Helv 10.0 Tf 432.63 452.31 Td (Althölzer\)) Tj ET
+BT /Helv 10.0 Tf 65.43 439.61 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 426.91 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 426.91 Td (Unterschrift) Tj ET
+BT /Helv 10.0 Tf 125.63 426.91 Td (\(Versicherung) Tj ET
+BT /Helv 10.0 Tf 190.73 426.91 Td (der) Tj ET
+BT /Helv 10.0 Tf 208.03 426.91 Td (ordnungsgemäßen) Tj ET
+BT /Helv 10.0 Tf 295.03 426.91 Td (Beförderung\)) Tj ET
+BT /Helv 10.0 Tf 65.43 414.21 Td () Tj ET
+BT /F1 10.0 Tf 59.74 393.37 Td (Abfallentsorger:) Tj ET
+BT /Helv 10.0 Tf 293.03 760.37 Td (2) Tj ET
+BT /Helv 10.0 Tf 65.43 367.76 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 367.76 Td (Entsorgernummer) Tj ET
+BT /Helv 10.0 Tf 65.43 355.06 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 342.36 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 342.36 Td (Firmenname) Tj ET
+BT /Helv 10.0 Tf 130.73 342.36 Td (und) Tj ET
+BT /Helv 10.0 Tf 150.33 342.36 Td (Anschrift) Tj ET
+BT /Helv 10.0 Tf 192.23 342.36 Td (des) Tj ET
+BT /Helv 10.0 Tf 211.23 342.36 Td (Entsorgers) Tj ET
+BT /Helv 10.0 Tf 65.43 329.66 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 316.96 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 316.96 Td (Menge) Tj ET
+BT /Helv 10.0 Tf 104.93 316.96 Td (in) Tj ET
+BT /Helv 10.0 Tf 115.53 316.96 Td (t) Tj ET
+BT /Helv 10.0 Tf 121.13 316.96 Td (\(festgestellte) Tj ET
+BT /Helv 10.0 Tf 180.83 316.96 Td (Tonnage\)) Tj ET
+BT /Helv 10.0 Tf 65.43 304.26 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 291.56 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 291.56 Td (Datum) Tj ET
+BT /Helv 10.0 Tf 103.93 291.56 Td (der) Tj ET
+BT /Helv 10.0 Tf 121.23 291.56 Td (Annahme) Tj ET
+BT /Helv 10.0 Tf 65.43 278.86 Td () Tj ET
+BT /Helv 10.0 Tf 65.43 266.16 Td (-) Tj ET
+BT /Helv 10.0 Tf 71.53 266.16 Td (Unterschrift) Tj ET
+BT /Helv 10.0 Tf 125.63 266.16 Td (\(Versicherung) Tj ET
+BT /Helv 10.0 Tf 190.73 266.16 Td (der) Tj ET
+BT /Helv 10.0 Tf 208.03 266.16 Td (Annahme) Tj ET
+BT /Helv 10.0 Tf 253.93 266.16 Td (zur) Tj ET
+BT /Helv 10.0 Tf 270.53 266.16 Td (ordnungsgemäßen) Tj ET
+BT /Helv 10.0 Tf 357.53 266.16 Td (Entsorgung\)) Tj ET
+BT /Helv 10.0 Tf 59.74 211.29 Td (1.1) Tj ET
+BT /Helv 10.0 Tf 76.54 211.29 Td (Die) Tj ET
+BT /Helv 10.0 Tf 94.34 211.29 Td () Tj ET
+BT /F1 10.0 Tf 94.34 211.29 Td (Begleitscheinnummer) Tj ET
+BT /Helv 10.0 Tf 199.04 211.29 Td () Tj ET
+BT /Helv 10.0 Tf 201.84 211.29 Td (ist) Tj ET
+BT /Helv 10.0 Tf 214.64 211.29 Td (vorgegeben.) Tj ET
+BT /F1 10.0 Tf 76.81 188.53 Td (Papierverfahren:) Tj ET
+BT /Helv 10.0 Tf 76.81 168.62 Td (Der) Tj ET
+BT /Helv 10.0 Tf 98.33 168.62 Td (Aufbau) Tj ET
+BT /Helv 10.0 Tf 135.76 168.62 Td (der) Tj ET
+BT /Helv 10.0 Tf 155.68 168.62 Td (12-stelligen) Tj ET
+BT /Helv 10.0 Tf 212.31 168.62 Td (Begleitscheinnummer) Tj ET
+BT /Helv 10.0 Tf 314.23 168.62 Td (ist) Tj ET
+BT /Helv 10.0 Tf 329.66 168.62 Td (wie) Tj ET
+BT /Helv 10.0 Tf 349.98 168.62 Td (folgt) Tj ET
+BT /Helv 10.0 Tf 374.4 168.62 Td (vorgegeben:) Tj ET
+BT /Helv 10.0 Tf 435.43 168.62 Td (Sie) Tj ET
+BT /Helv 10.0 Tf 455.35 168.62 Td (besteht) Tj ET
+BT /Helv 10.0 Tf 493.78 168.62 Td (aus) Tj ET
+BT /Helv 10.0 Tf 515.4 168.62 Td (einer) Tj ET
+BT /Helv 10.0 Tf 76.81 155.92 Td (vorangestellten) Tj ET
+BT /Helv 10.0 Tf 152.08 155.92 Td ("1",) Tj ET
+BT /Helv 10.0 Tf 175.06 155.92 Td (einer) Tj ET
+BT /Helv 10.0 Tf 204.73 155.92 Td (4-stelligen) Tj ET
+BT /Helv 10.0 Tf 257.71 155.92 Td (Verlagskennziffer) Tj ET
+BT /Helv 10.0 Tf 342.58 155.92 Td (und) Tj ET
+BT /Helv 10.0 Tf 366.75 155.92 Td (7-stelligen) Tj ET
+BT /Helv 10.0 Tf 419.73 155.92 Td (laufenden) Tj ET
+BT /Helv 10.0 Tf 471.4 155.92 Td (Nummerierung) Tj ET
+BT /Helv 10.0 Tf 76.81 143.22 Td (\(rechtsbündig\).) Tj ET
+BT /Helv 10.0 Tf 147.28 143.22 Td (Die) Tj ET
+BT /Helv 10.0 Tf 165.95 143.22 Td (Verlagskennziffer) Tj ET
+BT /Helv 10.0 Tf 247.13 143.22 Td (wird) Tj ET
+BT /Helv 10.0 Tf 269.0 143.22 Td (vom) Tj ET
+BT /Helv 10.0 Tf 291.57 143.22 Td (Umweltbundesamt) Tj ET
+BT /Helv 10.0 Tf 378.34 143.22 Td (\(UBA\)) Tj ET
+BT /Helv 10.0 Tf 409.21 143.22 Td (vergeben.) Tj ET
+BT /Helv 10.0 Tf 457.38 143.22 Td (Sie) Tj ET
+BT /Helv 10.0 Tf 475.56 143.22 Td (kann) Tj ET
+BT /Helv 10.0 Tf 501.03 143.22 Td (auch) Tj ET
+BT /Helv 10.0 Tf 526.5 143.22 Td (an) Tj ET
+BT /Helv 10.0 Tf 76.81 130.52 Td (Firmen) Tj ET
+BT /Helv 10.0 Tf 110.81 130.52 Td (vergeben) Tj ET
+BT /Helv 10.0 Tf 155.31 130.52 Td (werden,) Tj ET
+BT /Helv 10.0 Tf 193.71 130.52 Td (die) Tj ET
+BT /Helv 10.0 Tf 209.91 130.52 Td (Begleitscheine) Tj ET
+BT /Helv 10.0 Tf 277.91 130.52 Td (nach) Tj ET
+BT /Helv 10.0 Tf 302.51 130.52 Td (den) Tj ET
+BT /Helv 10.0 Tf 322.11 130.52 Td (Vorgaben) Tj ET
+BT /Helv 10.0 Tf 368.41 130.52 Td (des) Tj ET
+BT /Helv 10.0 Tf 387.41 130.52 Td (UBA) Tj ET
+BT /Helv 10.0 Tf 410.81 130.52 Td (selbst) Tj ET
+BT /Helv 10.0 Tf 439.81 130.52 Td (drucken) Tj ET
+BT /Helv 10.0 Tf 478.31 130.52 Td (wollen.) Tj ET
+BT /Helv 10.0 Tf 76.81 117.82 Td () Tj ET
+BT /Helv 10.0 Tf 76.81 105.12 Td (Das) Tj ET
+BT /Helv 10.0 Tf 97.41 105.12 Td (Eintragen) Tj ET
+BT /Helv 10.0 Tf 143.11 105.12 Td (einer) Tj ET
+BT /Helv 10.0 Tf 168.21 105.12 Td (selbst) Tj ET
+BT /Helv 10.0 Tf 197.21 105.12 Td (vorgegebenen) Tj ET
+BT /Helv 10.0 Tf 264.01 105.12 Td (Verlagskennziffer) Tj ET
+BT /Helv 10.0 Tf 344.31 105.12 Td (ist) Tj ET
+BT /Helv 10.0 Tf 357.11 105.12 Td (nicht) Tj ET
+BT /Helv 10.0 Tf 381.11 105.12 Td (zulässig.) Tj ET
+BT /Helv 10.0 Tf 76.81 92.42 Td () Tj ET
+BT /F1 10.0 Tf 76.81 80.42 Td (Elektronisches) Tj ET
+BT /F1 10.0 Tf 151.01 80.42 Td (Verfahren:) Tj ET
+BT /Helv 10.0 Tf 76.81 60.51 Td (Die) Tj ET
+BT /Helv 10.0 Tf 100.81 60.51 Td (Begleitscheinnummer) Tj ET
+BT /Helv 10.0 Tf 206.31 60.51 Td (besteht) Tj ET
+BT /Helv 10.0 Tf 248.31 60.51 Td (aus) Tj ET
+BT /Helv 10.0 Tf 273.51 60.51 Td (einer) Tj ET
+BT /Helv 10.0 Tf 304.8 60.51 Td (vorangestellten) Tj ET
+BT /Helv 10.0 Tf 381.7 60.51 Td ("1") Tj ET
+BT /Helv 10.0 Tf 403.5 60.51 Td (als) Tj ET
+BT /Helv 10.0 Tf 425.3 60.51 Td (Kennzeichen) Tj ET
+BT /Helv 10.0 Tf 492.3 60.51 Td (für) Tj ET
+BT /Helv 10.0 Tf 513.1 60.51 Td (einen) Tj ET
+BT /Helv 10.0 Tf 76.81 47.81 Td (Begleitschein,) Tj ET
+BT /Helv 10.0 Tf 142.74 47.81 Td (einer) Tj ET
+BT /Helv 10.0 Tf 168.57 47.81 Td (13-stelligen) Tj ET
+BT /Helv 10.0 Tf 223.3 47.81 Td (Identifizierungsnummer,) Tj ET
+BT /Helv 10.0 Tf 333.93 47.81 Td (diese) Tj ET
+BT /Helv 10.0 Tf 361.45 47.81 Td (wird) Tj ET
+BT /Helv 10.0 Tf 383.18 47.81 Td (von) Tj ET
+BT /Helv 10.0 Tf 402.81 47.81 Td (der) Tj ET
+BT /Helv 10.0 Tf 420.84 47.81 Td (ZKS-Abfall) Tj ET
+BT /Helv 10.0 Tf 472.37 47.81 Td (vergeben) Tj ET
+BT /Helv 10.0 Tf 517.6 47.81 Td (oder) Tj ET
+BT /Helv 10.0 Tf 76.81 35.11 Td (von) Tj ET
+BT /Helv 10.0 Tf 97.8 35.11 Td (dieser) Tj ET
+BT /Helv 10.0 Tf 129.98 35.11 Td (zugeteilt,) Tj ET
+BT /Helv 10.0 Tf 174.87 35.11 Td (z.) Tj ET
+BT /Helv 10.0 Tf 187.46 35.11 Td (B.) Tj ET
+BT /Helv 10.0 Tf 201.84 35.11 Td (über) Tj ET
+BT /Helv 10.0 Tf 226.83 35.11 Td (einen) Tj ET
+BT /Helv 10.0 Tf 256.32 35.11 Td (Provider.) Tj ET
+BT /Helv 10.0 Tf 301.2 35.11 Td (Daran) Tj ET
+BT /Helv 10.0 Tf 333.39 35.11 Td (schließt) Tj ET
+BT /Helv 10.0 Tf 372.78 35.11 Td (sich) Tj ET
+BT /Helv 10.0 Tf 395.47 35.11 Td (eine) Tj ET
+BT /Helv 10.0 Tf 419.35 35.11 Td (Prüfziffer) Tj ET
+BT /Helv 10.0 Tf 464.54 35.11 Td (\(7\)) Tj ET
+BT /Helv 10.0 Tf 481.63 35.11 Td (an,) Tj ET
+BT /Helv 10.0 Tf 500.51 35.11 Td (die) Tj ET
+BT /Helv 10.0 Tf 518.8 35.11 Td (vom) Tj ET
+BT /Helv 10.0 Tf 76.81 22.41 Td (elektronischen) Tj ET
+BT /Helv 10.0 Tf 144.31 22.41 Td (System) Tj ET
+BT /Helv 10.0 Tf 180.51 22.41 Td (vergeben) Tj ET
+BT /Helv 10.0 Tf 225.01 22.41 Td (wird.) Tj ET
+endstream
+endobj
+9 0 obj
+[
+]
+endobj
+10 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots 12 0 R
+/MediaBox [ 0 0 595.28 841.89 ]
+/Contents [ 11 0 R ]
+/AA << /O << /S /JavaScript /JS (
+SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\);) >>
+ >>
+/Resources
+<< /ProcSet [ /PDF /ImageC ] 
+ /Font << /Helv 43 0 R
+/F1 47 0 R
+>>>>
+>>
+endobj
+11 0 obj
+<< /Length 35316 >>
+stream
+0.0 0.0 0.0 RG 0.0 0.0 0.0 rg BT /Helv 10.0 Tf 59.74 731.92 Td (1.2) Tj ET
+BT /Helv 10.0 Tf 76.54 731.92 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 731.92 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 731.92 Td () Tj ET
+BT /F1 10.0 Tf 82.14 731.92 Td (Abfallbezeichnung) Tj ET
+BT /F1 10.0 Tf 173.64 731.92 Td (und) Tj ET
+BT /F1 10.0 Tf 194.74 731.92 Td (Abfallschlüssel) Tj ET
+BT /Helv 10.0 Tf 268.04 731.92 Td () Tj ET
+BT /Helv 10.0 Tf 270.84 731.92 Td (sind) Tj ET
+BT /Helv 10.0 Tf 292.04 731.92 Td (nach) Tj ET
+BT /Helv 10.0 Tf 316.64 731.92 Td (der) Tj ET
+BT /Helv 10.0 Tf 333.94 731.92 Td (Abfallnomenklatur) Tj ET
+BT /Helv 10.0 Tf 417.24 731.92 Td (der) Tj ET
+BT /Helv 10.0 Tf 434.54 731.92 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 719.22 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 719.22 Td (Abfallverzeichnis-Verordnung) Tj ET
+BT /Helv 10.0 Tf 215.74 719.22 Td (\(AVV\)) Tj ET
+BT /Helv 10.0 Tf 245.24 719.22 Td (einzutragen.) Tj ET
+BT /Helv 10.0 Tf 59.74 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 706.52 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 706.52 Td (Werden) Tj ET
+BT /Helv 10.0 Tf 120.54 706.52 Td (Altöle) Tj ET
+BT /Helv 10.0 Tf 148.44 706.52 Td (oder) Tj ET
+BT /Helv 10.0 Tf 171.34 706.52 Td (Althölzer) Tj ET
+BT /Helv 10.0 Tf 213.04 706.52 Td (verschiedener) Tj ET
+BT /Helv 10.0 Tf 278.74 706.52 Td (Abfallschlüsselnummern) Tj ET
+BT /Helv 10.0 Tf 390.44 706.52 Td (nach) Tj ET
+BT /Helv 10.0 Tf 415.04 706.52 Td (der) Tj ET
+BT /Helv 10.0 Tf 432.34 706.52 Td (Altölverordnung) Tj ET
+BT /Helv 10.0 Tf 505.24 706.52 Td (oder) Tj ET
+BT /Helv 10.0 Tf 59.74 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 693.82 Td (der) Tj ET
+BT /Helv 10.0 Tf 99.44 693.82 Td (Altholzverordnung) Tj ET
+BT /Helv 10.0 Tf 182.84 693.82 Td (entsorgt,) Tj ET
+BT /Helv 10.0 Tf 224.64 693.82 Td (ist) Tj ET
+BT /Helv 10.0 Tf 237.44 693.82 Td (der) Tj ET
+BT /Helv 10.0 Tf 254.74 693.82 Td (prägende) Tj ET
+BT /Helv 10.0 Tf 299.94 693.82 Td (Abfallschlüssel) Tj ET
+BT /Helv 10.0 Tf 369.14 693.82 Td (einzutragen,) Tj ET
+BT /Helv 10.0 Tf 427.04 693.82 Td (auf) Tj ET
+BT /Helv 10.0 Tf 443.94 693.82 Td (den) Tj ET
+BT /Helv 10.0 Tf 463.54 693.82 Td (der) Tj ET
+BT /Helv 10.0 Tf 480.84 693.82 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 681.12 Td (Entsorgungsnachweis) Tj ET
+BT /Helv 10.0 Tf 182.84 681.12 Td (bzw.) Tj ET
+BT /Helv 10.0 Tf 206.04 681.12 Td (Sammelentsorgungsnachweis) Tj ET
+BT /Helv 10.0 Tf 342.54 681.12 Td (ausgestellt) Tj ET
+BT /Helv 10.0 Tf 393.24 681.12 Td (ist.) Tj ET
+BT /Helv 10.0 Tf 408.84 681.12 Td (Im) Tj ET
+BT /Helv 10.0 Tf 422.84 681.12 Td (Feld) Tj ET
+BT /Helv 10.0 Tf 445.14 681.12 Td („Frei) Tj ET
+BT /Helv 10.0 Tf 468.44 681.12 Td (für) Tj ET
+BT /Helv 10.0 Tf 483.04 681.12 Td (Vermerke“) Tj ET
+BT /Helv 10.0 Tf 532.64 681.12 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 668.42 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 668.42 Td (sind) Tj ET
+BT /Helv 10.0 Tf 103.34 668.42 Td (die) Tj ET
+BT /Helv 10.0 Tf 119.54 668.42 Td (Abfallschlüssel) Tj ET
+BT /Helv 10.0 Tf 188.74 668.42 Td (der) Tj ET
+BT /Helv 10.0 Tf 206.04 668.42 Td (tatsächlich) Tj ET
+BT /Helv 10.0 Tf 256.24 668.42 Td (entsorgten) Tj ET
+BT /Helv 10.0 Tf 306.44 668.42 Td (Abfälle) Tj ET
+BT /Helv 10.0 Tf 340.04 668.42 Td (aufzunehmen,) Tj ET
+BT /Helv 10.0 Tf 406.64 668.42 Td (im) Tj ET
+BT /Helv 10.0 Tf 420.04 668.42 Td (elektronischen) Tj ET
+BT /Helv 10.0 Tf 487.54 668.42 Td (Verfahren) Tj ET
+BT /Helv 10.0 Tf 59.74 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 655.72 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 655.72 Td (erfolgt) Tj ET
+BT /Helv 10.0 Tf 112.84 655.72 Td (dies) Tj ET
+BT /Helv 10.0 Tf 134.04 655.72 Td (in) Tj ET
+BT /Helv 10.0 Tf 144.64 655.72 Td (separaten) Tj ET
+BT /Helv 10.0 Tf 192.14 655.72 Td (Feldern.) Tj ET
+BT /Helv 10.0 Tf 59.74 623.81 Td (1.3) Tj ET
+BT /F1 10.0 Tf 73.74 623.81 Td () Tj ET
+BT /F1 10.0 Tf 76.54 623.81 Td () Tj ET
+BT /F1 10.0 Tf 79.34 623.81 Td () Tj ET
+BT /F1 10.0 Tf 82.14 623.81 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 623.81 Td (Die) Tj ET
+BT /Helv 10.0 Tf 99.94 623.81 Td () Tj ET
+BT /F1 10.0 Tf 99.94 623.81 Td (Entsorgungsnachweisnummer) Tj ET
+BT /Helv 10.0 Tf 246.54 623.81 Td () Tj ET
+BT /Helv 10.0 Tf 249.34 623.81 Td (ist) Tj ET
+BT /Helv 10.0 Tf 262.14 623.81 Td (aus) Tj ET
+BT /Helv 10.0 Tf 281.14 623.81 Td (dem) Tj ET
+BT /Helv 10.0 Tf 303.54 623.81 Td (Entsorgungsnachweis) Tj ET
+BT /Helv 10.0 Tf 404.24 623.81 Td (zu) Tj ET
+BT /Helv 10.0 Tf 417.54 623.81 Td (übernehmen.) Tj ET
+BT /Helv 10.0 Tf 59.74 598.2 Td (1.4) Tj ET
+BT /Helv 10.0 Tf 76.54 598.2 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 598.2 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 598.2 Td (Die) Tj ET
+BT /Helv 10.0 Tf 99.94 598.2 Td (Eintragung) Tj ET
+BT /Helv 10.0 Tf 151.14 598.2 Td (der) Tj ET
+BT /Helv 10.0 Tf 168.44 598.2 Td () Tj ET
+BT /F1 10.0 Tf 168.44 598.2 Td (Menge) Tj ET
+BT /Helv 10.0 Tf 200.14 598.2 Td () Tj ET
+BT /Helv 10.0 Tf 202.94 598.2 Td (ist) Tj ET
+BT /Helv 10.0 Tf 215.74 598.2 Td (verbindlich.) Tj ET
+BT /Helv 10.0 Tf 59.74 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 585.5 Td (Sofern) Tj ET
+BT /Helv 10.0 Tf 114.64 585.5 Td (bei) Tj ET
+BT /Helv 10.0 Tf 130.84 585.5 Td (Beginn) Tj ET
+BT /Helv 10.0 Tf 164.84 585.5 Td (des) Tj ET
+BT /Helv 10.0 Tf 183.84 585.5 Td (Transportes) Tj ET
+BT /Helv 10.0 Tf 240.24 585.5 Td (das) Tj ET
+BT /Helv 10.0 Tf 259.24 585.5 Td (Gewicht) Tj ET
+BT /Helv 10.0 Tf 298.14 585.5 Td (nur) Tj ET
+BT /Helv 10.0 Tf 315.44 585.5 Td (geschätzt) Tj ET
+BT /Helv 10.0 Tf 361.04 585.5 Td (werden) Tj ET
+BT /Helv 10.0 Tf 396.64 585.5 Td (kann,) Tj ET
+BT /Helv 10.0 Tf 424.04 585.5 Td (ist) Tj ET
+BT /Helv 10.0 Tf 436.84 585.5 Td (dieser) Tj ET
+BT /Helv 10.0 Tf 466.94 585.5 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 572.8 Td (Schätzwert) Tj ET
+BT /Helv 10.0 Tf 134.34 572.8 Td (ebenfalls) Tj ET
+BT /Helv 10.0 Tf 177.44 572.8 Td (im) Tj ET
+BT /Helv 10.0 Tf 190.84 572.8 Td (Mengenfeld) Tj ET
+BT /Helv 10.0 Tf 246.14 572.8 Td (einzutragen.) Tj ET
+BT /Helv 10.0 Tf 304.04 572.8 Td (Im) Tj ET
+BT /Helv 10.0 Tf 318.04 572.8 Td (Feld) Tj ET
+BT /Helv 10.0 Tf 340.34 572.8 Td („Frei) Tj ET
+BT /Helv 10.0 Tf 363.64 572.8 Td (für) Tj ET
+BT /Helv 10.0 Tf 378.24 572.8 Td (Vermerke“) Tj ET
+BT /Helv 10.0 Tf 427.84 572.8 Td (können) Tj ET
+BT /Helv 10.0 Tf 463.64 572.8 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 560.1 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 560.1 Td (weitere) Tj ET
+BT /Helv 10.0 Tf 117.14 560.1 Td (Angaben) Tj ET
+BT /Helv 10.0 Tf 160.14 560.1 Td (in) Tj ET
+BT /Helv 10.0 Tf 170.74 560.1 Td (m³) Tj ET
+BT /Helv 10.0 Tf 185.24 560.1 Td (oder) Tj ET
+BT /Helv 10.0 Tf 208.14 560.1 Td (anderen) Tj ET
+BT /Helv 10.0 Tf 247.84 560.1 Td (Einheiten) Tj ET
+BT /Helv 10.0 Tf 292.54 560.1 Td (eingetragen) Tj ET
+BT /Helv 10.0 Tf 348.24 560.1 Td (werden.) Tj ET
+BT /Helv 10.0 Tf 386.64 560.1 Td (Für) Tj ET
+BT /Helv 10.0 Tf 404.44 560.1 Td (die) Tj ET
+BT /Helv 10.0 Tf 420.64 560.1 Td (Angabe) Tj ET
+BT /Helv 10.0 Tf 458.04 560.1 Td (des) Tj ET
+BT /Helv 10.0 Tf 59.74 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 547.4 Td (Volumens) Tj ET
+BT /Helv 10.0 Tf 129.64 547.4 Td (existiert) Tj ET
+BT /Helv 10.0 Tf 166.84 547.4 Td (im) Tj ET
+BT /Helv 10.0 Tf 180.24 547.4 Td (elektronischen) Tj ET
+BT /Helv 10.0 Tf 247.74 547.4 Td (Verfahren) Tj ET
+BT /Helv 10.0 Tf 294.74 547.4 Td (ein) Tj ET
+BT /Helv 10.0 Tf 310.94 547.4 Td (separates) Tj ET
+BT /Helv 10.0 Tf 357.84 547.4 Td (Feld.) Tj ET
+BT /Helv 10.0 Tf 382.94 547.4 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 518.55 Td (1.5) Tj ET
+BT /Helv 10.0 Tf 76.54 518.55 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 518.55 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 518.55 Td (Im) Tj ET
+BT /Helv 10.0 Tf 96.14 518.55 Td () Tj ET
+BT /F1 10.0 Tf 96.14 518.55 Td (Erzeugerfeld) Tj ET
+BT /F1 10.0 Tf 159.64 518.55 Td () Tj ET
+BT /Helv 10.0 Tf 159.64 518.55 Td (sind) Tj ET
+BT /Helv 10.0 Tf 180.84 518.55 Td (im) Tj ET
+BT /Helv 10.0 Tf 194.24 518.55 Td (Falle) Tj ET
+BT /Helv 10.0 Tf 218.74 518.55 Td (der) Tj ET
+BT /Helv 10.0 Tf 236.04 518.55 Td (Einzelentsorgung) Tj ET
+BT /Helv 10.0 Tf 316.14 518.55 Td (die) Tj ET
+BT /Helv 10.0 Tf 332.34 518.55 Td (Erzeugernummer) Tj ET
+BT /Helv 10.0 Tf 412.54 518.55 Td (entsprechend) Tj ET
+BT /Helv 10.0 Tf 476.24 518.55 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 505.85 Td (dem) Tj ET
+BT /Helv 10.0 Tf 104.54 505.85 Td (Entsorgungsnachweis) Tj ET
+BT /Helv 10.0 Tf 205.24 505.85 Td (und) Tj ET
+BT /Helv 10.0 Tf 224.84 505.85 Td (der) Tj ET
+BT /Helv 10.0 Tf 242.14 505.85 Td (Firmenname) Tj ET
+BT /Helv 10.0 Tf 301.34 505.85 Td (und) Tj ET
+BT /Helv 10.0 Tf 320.94 505.85 Td (die) Tj ET
+BT /Helv 10.0 Tf 337.14 505.85 Td (der) Tj ET
+BT /Helv 10.0 Tf 354.44 505.85 Td (Erzeugernummer) Tj ET
+BT /Helv 10.0 Tf 434.64 505.85 Td (zugeordnete) Tj ET
+BT /Helv 10.0 Tf 493.14 505.85 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 493.15 Td (Adresse) Tj ET
+BT /Helv 10.0 Tf 121.74 493.15 Td (des) Tj ET
+BT /Helv 10.0 Tf 140.74 493.15 Td (Erzeugers) Tj ET
+BT /Helv 10.0 Tf 189.04 493.15 Td (einzutragen.) Tj ET
+BT /Helv 10.0 Tf 246.94 493.15 Td (Das) Tj ET
+BT /Helv 10.0 Tf 267.54 493.15 Td (Datum) Tj ET
+BT /Helv 10.0 Tf 299.94 493.15 Td (der) Tj ET
+BT /Helv 10.0 Tf 317.24 493.15 Td (Übergabe) Tj ET
+BT /Helv 10.0 Tf 364.04 493.15 Td (des) Tj ET
+BT /Helv 10.0 Tf 383.04 493.15 Td (Abfalls) Tj ET
+BT /Helv 10.0 Tf 416.04 493.15 Td (an) Tj ET
+BT /Helv 10.0 Tf 430.04 493.15 Td (den) Tj ET
+BT /Helv 10.0 Tf 449.64 493.15 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 480.45 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 480.45 Td (Beförderer) Tj ET
+BT /Helv 10.0 Tf 132.44 480.45 Td (ist) Tj ET
+BT /Helv 10.0 Tf 145.24 480.45 Td (zu) Tj ET
+BT /Helv 10.0 Tf 158.54 480.45 Td (vermerken) Tj ET
+BT /Helv 10.0 Tf 208.64 480.45 Td (und) Tj ET
+BT /Helv 10.0 Tf 228.24 480.45 Td (die) Tj ET
+BT /Helv 10.0 Tf 244.44 480.45 Td (Unterschrift) Tj ET
+BT /Helv 10.0 Tf 298.54 480.45 Td (\(Signatur\)) Tj ET
+BT /Helv 10.0 Tf 345.24 480.45 Td (zu) Tj ET
+BT /Helv 10.0 Tf 358.54 480.45 Td (leisten.) Tj ET
+BT /Helv 10.0 Tf 59.74 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 467.75 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 467.75 Td (Im) Tj ET
+BT /Helv 10.0 Tf 96.14 467.75 Td (Falle) Tj ET
+BT /Helv 10.0 Tf 120.64 467.75 Td (der) Tj ET
+BT /Helv 10.0 Tf 137.94 467.75 Td (Sammelentsorgung) Tj ET
+BT /Helv 10.0 Tf 227.74 467.75 Td (ist) Tj ET
+BT /Helv 10.0 Tf 240.54 467.75 Td (unter) Tj ET
+BT /Helv 10.0 Tf 266.24 467.75 Td (der) Tj ET
+BT /Helv 10.0 Tf 283.54 467.75 Td (Erzeugernummer) Tj ET
+BT /Helv 10.0 Tf 363.74 467.75 Td (eine) Tj ET
+BT /Helv 10.0 Tf 385.54 467.75 Td (fiktive) Tj ET
+BT /Helv 10.0 Tf 413.94 467.75 Td (Erzeugernummer) Tj ET
+BT /Helv 10.0 Tf 59.74 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 455.05 Td (einzutragen,) Tj ET
+BT /Helv 10.0 Tf 140.04 455.05 Td (die) Tj ET
+BT /Helv 10.0 Tf 156.24 455.05 Td (mit) Tj ET
+BT /Helv 10.0 Tf 172.44 455.05 Td (dem) Tj ET
+BT /Helv 10.0 Tf 194.84 455.05 Td (jeweiligen) Tj ET
+BT /Helv 10.0 Tf 241.44 455.05 Td (Landeskenner) Tj ET
+BT /Helv 10.0 Tf 307.94 455.05 Td (gemäß) Tj ET
+BT /Helv 10.0 Tf 341.94 455.05 Td (§) Tj ET
+BT /Helv 10.0 Tf 350.34 455.05 Td (28) Tj ET
+BT /Helv 10.0 Tf 364.34 455.05 Td (Abs.) Tj ET
+BT /Helv 10.0 Tf 387.24 455.05 Td (6) Tj ET
+BT /Helv 10.0 Tf 395.64 455.05 Td (NachwV) Tj ET
+BT /Helv 10.0 Tf 435.64 455.05 Td (desjenigen) Tj ET
+BT /Helv 10.0 Tf 486.94 455.05 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 442.35 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 442.35 Td (Bundeslandes) Tj ET
+BT /Helv 10.0 Tf 148.64 442.35 Td (beginnt,) Tj ET
+BT /Helv 10.0 Tf 187.14 442.35 Td (in) Tj ET
+BT /Helv 10.0 Tf 197.74 442.35 Td (dem) Tj ET
+BT /Helv 10.0 Tf 220.14 442.35 Td (die) Tj ET
+BT /Helv 10.0 Tf 236.34 442.35 Td (Einsammlung) Tj ET
+BT /Helv 10.0 Tf 299.94 442.35 Td (durchgeführt) Tj ET
+BT /Helv 10.0 Tf 359.14 442.35 Td (wird.) Tj ET
+BT /Helv 10.0 Tf 382.94 442.35 Td (An) Tj ET
+BT /Helv 10.0 Tf 398.04 442.35 Td (den) Tj ET
+BT /Helv 10.0 Tf 417.64 442.35 Td (Landeskenner) Tj ET
+BT /Helv 10.0 Tf 59.74 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 429.65 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 429.65 Td (schließt) Tj ET
+BT /Helv 10.0 Tf 119.44 429.65 Td (sich) Tj ET
+BT /Helv 10.0 Tf 140.04 429.65 Td (ein) Tj ET
+BT /Helv 10.0 Tf 156.24 429.65 Td („S“) Tj ET
+BT /Helv 10.0 Tf 172.34 429.65 Td (als) Tj ET
+BT /Helv 10.0 Tf 187.94 429.65 Td (Kennzeichen) Tj ET
+BT /Helv 10.0 Tf 248.74 429.65 Td (für) Tj ET
+BT /Helv 10.0 Tf 263.34 429.65 Td (eine) Tj ET
+BT /Helv 10.0 Tf 285.14 429.65 Td (Sammelentsorgung) Tj ET
+BT /Helv 10.0 Tf 374.94 429.65 Td (an.) Tj ET
+BT /Helv 10.0 Tf 391.74 429.65 Td (Die) Tj ET
+BT /Helv 10.0 Tf 409.54 429.65 Td (restlichen) Tj ET
+BT /Helv 10.0 Tf 455.24 429.65 Td (Felder) Tj ET
+BT /Helv 10.0 Tf 59.74 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 416.95 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 416.95 Td (werden) Tj ET
+BT /Helv 10.0 Tf 117.74 416.95 Td (durch) Tj ET
+BT /Helv 10.0 Tf 145.64 416.95 Td (die) Tj ET
+BT /Helv 10.0 Tf 161.84 416.95 Td (Ziffer) Tj ET
+BT /Helv 10.0 Tf 187.64 416.95 Td („0“) Tj ET
+BT /Helv 10.0 Tf 202.64 416.95 Td (aufgefüllt.) Tj ET
+BT /Helv 10.0 Tf 59.74 381.99 Td (1.6) Tj ET
+BT /Helv 10.0 Tf 76.54 381.99 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 381.99 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 381.99 Td (Bei) Tj ET
+BT /Helv 10.0 Tf 99.44 381.99 Td (der) Tj ET
+BT /Helv 10.0 Tf 116.74 381.99 Td (Einzelentsorgung) Tj ET
+BT /Helv 10.0 Tf 196.84 381.99 Td (sind) Tj ET
+BT /Helv 10.0 Tf 218.04 381.99 Td (im) Tj ET
+BT /Helv 10.0 Tf 231.44 381.99 Td () Tj ET
+BT /F1 10.0 Tf 231.44 381.99 Td (Befördererfeld) Tj ET
+BT /F1 10.0 Tf 303.24 381.99 Td () Tj ET
+BT /Helv 10.0 Tf 303.24 381.99 Td (der) Tj ET
+BT /Helv 10.0 Tf 320.54 381.99 Td (Firmenname,) Tj ET
+BT /Helv 10.0 Tf 382.54 381.99 Td (die) Tj ET
+BT /Helv 10.0 Tf 398.74 381.99 Td (Anschrift) Tj ET
+BT /Helv 10.0 Tf 440.64 381.99 Td (und) Tj ET
+BT /Helv 10.0 Tf 460.24 381.99 Td (die) Tj ET
+BT /Helv 10.0 Tf 476.44 381.99 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 369.29 Td (Beförderernummer) Tj ET
+BT /Helv 10.0 Tf 169.34 369.29 Td (sowie) Tj ET
+BT /Helv 10.0 Tf 197.64 369.29 Td (im) Tj ET
+BT /Helv 10.0 Tf 211.04 369.29 Td (Fall) Tj ET
+BT /Helv 10.0 Tf 229.94 369.29 Td (des) Tj ET
+BT /Helv 10.0 Tf 248.94 369.29 Td (Transportes) Tj ET
+BT /Helv 10.0 Tf 305.34 369.29 Td (mit) Tj ET
+BT /Helv 10.0 Tf 321.54 369.29 Td (Kfz) Tj ET
+BT /Helv 10.0 Tf 338.84 369.29 Td (das) Tj ET
+BT /Helv 10.0 Tf 357.84 369.29 Td (entsprechende) Tj ET
+BT /Helv 10.0 Tf 427.14 369.29 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 356.59 Td (Kfz-) Tj ET
+BT /Helv 10.0 Tf 102.74 356.59 Td (Kennzeichen) Tj ET
+BT /Helv 10.0 Tf 163.54 356.59 Td (einzutragen.) Tj ET
+BT /Helv 10.0 Tf 221.44 356.59 Td (Das) Tj ET
+BT /Helv 10.0 Tf 242.04 356.59 Td (Datum) Tj ET
+BT /Helv 10.0 Tf 274.44 356.59 Td (der) Tj ET
+BT /Helv 10.0 Tf 291.74 356.59 Td (Übernahme) Tj ET
+BT /Helv 10.0 Tf 347.04 356.59 Td (muss) Tj ET
+BT /Helv 10.0 Tf 373.84 356.59 Td (bei) Tj ET
+BT /Helv 10.0 Tf 390.04 356.59 Td (der) Tj ET
+BT /Helv 10.0 Tf 407.34 356.59 Td (Einzelentsorgung) Tj ET
+BT /Helv 10.0 Tf 487.44 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 490.24 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 493.04 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 495.84 356.59 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 343.89 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 343.89 Td (mit) Tj ET
+BT /Helv 10.0 Tf 98.34 343.89 Td (dem) Tj ET
+BT /Helv 10.0 Tf 120.74 343.89 Td (Datum) Tj ET
+BT /Helv 10.0 Tf 153.14 343.89 Td (der) Tj ET
+BT /Helv 10.0 Tf 170.44 343.89 Td (Übergabe) Tj ET
+BT /Helv 10.0 Tf 217.24 343.89 Td (übereinstimmen.) Tj ET
+BT /Helv 10.0 Tf 59.74 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 331.19 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 331.19 Td (Wird) Tj ET
+BT /Helv 10.0 Tf 105.94 331.19 Td (der) Tj ET
+BT /Helv 10.0 Tf 123.24 331.19 Td (Begleitschein) Tj ET
+BT /Helv 10.0 Tf 185.64 331.19 Td (im) Tj ET
+BT /Helv 10.0 Tf 199.04 331.19 Td (Rahmen) Tj ET
+BT /Helv 10.0 Tf 239.84 331.19 Td (der) Tj ET
+BT /Helv 10.0 Tf 257.14 331.19 Td (Sammelentsorgung) Tj ET
+BT /Helv 10.0 Tf 346.94 331.19 Td (verwendet,) Tj ET
+BT /Helv 10.0 Tf 398.64 331.19 Td (erfolgt) Tj ET
+BT /Helv 10.0 Tf 429.34 331.19 Td (die) Tj ET
+BT /Helv 10.0 Tf 445.54 331.19 Td (Eintragung) Tj ET
+BT /Helv 10.0 Tf 59.74 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 318.49 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 318.49 Td (des) Tj ET
+BT /Helv 10.0 Tf 101.14 318.49 Td (Einsammlers) Tj ET
+BT /Helv 10.0 Tf 161.94 318.49 Td (als) Tj ET
+BT /Helv 10.0 Tf 177.54 318.49 Td (Beförderer.) Tj ET
+BT /Helv 10.0 Tf 230.64 318.49 Td (Darüber) Tj ET
+BT /Helv 10.0 Tf 269.64 318.49 Td (hinaus) Tj ET
+BT /Helv 10.0 Tf 302.04 318.49 Td (sind) Tj ET
+BT /Helv 10.0 Tf 323.24 318.49 Td (die) Tj ET
+BT /Helv 10.0 Tf 339.44 318.49 Td (entsprechende) Tj ET
+BT /Helv 10.0 Tf 408.74 318.49 Td (Befördernummer) Tj ET
+BT /Helv 10.0 Tf 59.74 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 305.79 Td (und) Tj ET
+BT /Helv 10.0 Tf 101.74 305.79 Td (das) Tj ET
+BT /Helv 10.0 Tf 120.74 305.79 Td (Kfz-Kennzeichen) Tj ET
+BT /Helv 10.0 Tf 199.34 305.79 Td (einzutragen.) Tj ET
+BT /Helv 10.0 Tf 257.24 305.79 Td (Im) Tj ET
+BT /Helv 10.0 Tf 271.24 305.79 Td (Begleitschein) Tj ET
+BT /Helv 10.0 Tf 333.64 305.79 Td () Tj ET
+BT /Helv 10.0 Tf 336.44 305.79 Td (wird) Tj ET
+BT /Helv 10.0 Tf 357.44 305.79 Td (im) Tj ET
+BT /Helv 10.0 Tf 370.84 305.79 Td () Tj ET
+BT /F1 10.0 Tf 370.84 305.79 Td (Feld) Tj ET
+BT /F1 10.0 Tf 394.24 305.79 Td („Datum) Tj ET
+BT /F1 10.0 Tf 433.14 305.79 Td (der) Tj ET
+BT /F1 10.0 Tf 451.54 305.79 Td () Tj ET
+BT /F1 10.0 Tf 59.74 293.09 Td () Tj ET
+BT /F1 10.0 Tf 62.54 293.09 Td () Tj ET
+BT /F1 10.0 Tf 65.34 293.09 Td () Tj ET
+BT /F1 10.0 Tf 68.14 293.09 Td () Tj ET
+BT /F1 10.0 Tf 70.94 293.09 Td () Tj ET
+BT /F1 10.0 Tf 73.74 293.09 Td () Tj ET
+BT /F1 10.0 Tf 76.54 293.09 Td () Tj ET
+BT /F1 10.0 Tf 79.34 293.09 Td () Tj ET
+BT /F1 10.0 Tf 82.14 293.09 Td (Übernahme“) Tj ET
+BT /Helv 10.0 Tf 142.24 293.09 Td () Tj ET
+BT /Helv 10.0 Tf 145.04 293.09 Td (der) Tj ET
+BT /Helv 10.0 Tf 162.34 293.09 Td (Beginn) Tj ET
+BT /Helv 10.0 Tf 196.34 293.09 Td (der) Tj ET
+BT /Helv 10.0 Tf 213.64 293.09 Td (Einsammlung) Tj ET
+BT /Helv 10.0 Tf 277.24 293.09 Td (vermerkt.) Tj ET
+BT /Helv 10.0 Tf 321.74 293.09 Td (Die) Tj ET
+BT /Helv 10.0 Tf 339.54 293.09 Td (entsprechende) Tj ET
+BT /Helv 10.0 Tf 408.84 293.09 Td (Unterschrift) Tj ET
+BT /Helv 10.0 Tf 59.74 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 280.39 Td (\(Signatur\)) Tj ET
+BT /Helv 10.0 Tf 128.84 280.39 Td (ist) Tj ET
+BT /Helv 10.0 Tf 141.64 280.39 Td (bei) Tj ET
+BT /Helv 10.0 Tf 157.84 280.39 Td (Beginn) Tj ET
+BT /Helv 10.0 Tf 191.84 280.39 Td (der) Tj ET
+BT /Helv 10.0 Tf 209.14 280.39 Td (Einsammlung) Tj ET
+BT /Helv 10.0 Tf 272.74 280.39 Td (zu) Tj ET
+BT /Helv 10.0 Tf 286.04 280.39 Td (leisten.) Tj ET
+BT /Helv 10.0 Tf 320.64 280.39 Td () Tj ET
+BT /Helv 10.0 Tf 293.03 760.37 Td (3) Tj ET
+BT /Helv 10.0 Tf 59.74 245.43 Td (1.7) Tj ET
+BT /Helv 10.0 Tf 76.54 245.43 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 245.43 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 245.43 Td (Das) Tj ET
+BT /Helv 10.0 Tf 102.74 245.43 Td () Tj ET
+BT /F1 10.0 Tf 102.74 245.43 Td (Entsorgerfeld) Tj ET
+BT /F1 10.0 Tf 170.64 245.43 Td () Tj ET
+BT /Helv 10.0 Tf 170.64 245.43 Td (ist) Tj ET
+BT /Helv 10.0 Tf 183.44 245.43 Td (entsprechend) Tj ET
+BT /Helv 10.0 Tf 247.14 245.43 Td (den) Tj ET
+BT /Helv 10.0 Tf 266.74 245.43 Td (Daten) Tj ET
+BT /Helv 10.0 Tf 296.34 245.43 Td (des) Tj ET
+BT /Helv 10.0 Tf 315.34 245.43 Td (Entsorgers) Tj ET
+BT /Helv 10.0 Tf 366.54 245.43 Td (spätestens) Tj ET
+BT /Helv 10.0 Tf 417.94 245.43 Td (bei) Tj ET
+BT /Helv 10.0 Tf 434.14 245.43 Td (Annahme) Tj ET
+BT /Helv 10.0 Tf 480.04 245.43 Td (der) Tj ET
+BT /Helv 10.0 Tf 497.34 245.43 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 232.73 Td (Abfälle) Tj ET
+BT /Helv 10.0 Tf 115.74 232.73 Td (auszufüllen) Tj ET
+BT /Helv 10.0 Tf 169.34 232.73 Td (und) Tj ET
+BT /Helv 10.0 Tf 188.94 232.73 Td (zu) Tj ET
+BT /Helv 10.0 Tf 202.24 232.73 Td (unterschreiben.) Tj ET
+BT /Helv 10.0 Tf 274.24 232.73 Td (Gegebenenfalls) Tj ET
+BT /Helv 10.0 Tf 347.44 232.73 Td (ist) Tj ET
+BT /Helv 10.0 Tf 360.24 232.73 Td (das) Tj ET
+BT /Helv 10.0 Tf 379.24 232.73 Td (Feld) Tj ET
+BT /Helv 10.0 Tf 401.54 232.73 Td („Menge“) Tj ET
+BT /Helv 10.0 Tf 441.54 232.73 Td (zu) Tj ET
+BT /Helv 10.0 Tf 454.84 232.73 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 220.03 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 220.03 Td (korrigieren) Tj ET
+BT /Helv 10.0 Tf 132.14 220.03 Td (\(vgl.) Tj ET
+BT /Helv 10.0 Tf 153.64 220.03 Td (Nr.) Tj ET
+BT /Helv 10.0 Tf 169.74 220.03 Td (1.4\).) Tj ET
+BT /Helv 10.0 Tf 192.64 220.03 Td (Es) Tj ET
+BT /Helv 10.0 Tf 207.14 220.03 Td (sind) Tj ET
+BT /Helv 10.0 Tf 228.34 220.03 Td (u.) Tj ET
+BT /Helv 10.0 Tf 239.54 220.03 Td (a.) Tj ET
+BT /Helv 10.0 Tf 250.74 220.03 Td (der) Tj ET
+BT /Helv 10.0 Tf 268.04 220.03 Td (Firmenname) Tj ET
+BT /Helv 10.0 Tf 327.24 220.03 Td (und) Tj ET
+BT /Helv 10.0 Tf 346.84 220.03 Td (die) Tj ET
+BT /Helv 10.0 Tf 363.04 220.03 Td (der) Tj ET
+BT /Helv 10.0 Tf 380.34 220.03 Td (Entsorgernummer) Tj ET
+BT /Helv 10.0 Tf 59.74 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 207.33 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 207.33 Td (zugeordnete) Tj ET
+BT /Helv 10.0 Tf 140.64 207.33 Td (Adresse) Tj ET
+BT /Helv 10.0 Tf 180.24 207.33 Td (des) Tj ET
+BT /Helv 10.0 Tf 199.24 207.33 Td (Entsorgers) Tj ET
+BT /Helv 10.0 Tf 250.44 207.33 Td (einzutragen.) Tj ET
+BT /Helv 10.0 Tf 59.74 180.0 Td (1.8) Tj ET
+BT /Helv 10.0 Tf 76.54 180.0 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 180.0 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 180.0 Td (Im) Tj ET
+BT /Helv 10.0 Tf 96.14 180.0 Td () Tj ET
+BT /F1 10.0 Tf 96.14 180.0 Td (Feld) Tj ET
+BT /F1 10.0 Tf 119.54 180.0 Td () Tj ET
+BT /F1 10.0 Tf 122.34 180.0 Td („Frei) Tj ET
+BT /F1 10.0 Tf 148.54 180.0 Td (für) Tj ET
+BT /F1 10.0 Tf 164.64 180.0 Td (Vermerke“) Tj ET
+BT /Helv 10.0 Tf 215.44 180.0 Td () Tj ET
+BT /Helv 10.0 Tf 218.24 180.0 Td (sind) Tj ET
+BT /Helv 10.0 Tf 239.44 180.0 Td (im) Tj ET
+BT /Helv 10.0 Tf 252.84 180.0 Td (Falle) Tj ET
+BT /Helv 10.0 Tf 277.34 180.0 Td (der) Tj ET
+BT /Helv 10.0 Tf 294.64 180.0 Td (Sammelentsorgung) Tj ET
+BT /Helv 10.0 Tf 384.44 180.0 Td (die) Tj ET
+BT /Helv 10.0 Tf 400.64 180.0 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 167.3 Td (Übernahmescheinnummern) Tj ET
+BT /Helv 10.0 Tf 208.94 167.3 Td (aufzunehmen;) Tj ET
+BT /Helv 10.0 Tf 275.54 167.3 Td (im) Tj ET
+BT /Helv 10.0 Tf 288.94 167.3 Td (elektronischen) Tj ET
+BT /Helv 10.0 Tf 356.44 167.3 Td (Verfahren) Tj ET
+BT /Helv 10.0 Tf 403.44 167.3 Td (erfolgt) Tj ET
+BT /Helv 10.0 Tf 434.14 167.3 Td (dies) Tj ET
+BT /Helv 10.0 Tf 455.34 167.3 Td (in) Tj ET
+BT /Helv 10.0 Tf 465.94 167.3 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 154.6 Td (separaten) Tj ET
+BT /Helv 10.0 Tf 129.64 154.6 Td (Feldern.) Tj ET
+BT /Helv 10.0 Tf 169.24 154.6 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 125.94 Td (1.9) Tj ET
+BT /Helv 10.0 Tf 76.54 125.94 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 125.94 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 125.94 Td (Bei) Tj ET
+BT /Helv 10.0 Tf 99.44 125.94 Td (einem) Tj ET
+BT /Helv 10.0 Tf 129.64 125.94 Td () Tj ET
+BT /F1 10.0 Tf 129.64 125.94 Td (Befördererwechsel) Tj ET
+BT /Helv 10.0 Tf 220.14 125.94 Td () Tj ET
+BT /Helv 10.0 Tf 222.94 125.94 Td (hat) Tj ET
+BT /Helv 10.0 Tf 239.74 125.94 Td (sich) Tj ET
+BT /Helv 10.0 Tf 260.34 125.94 Td (der) Tj ET
+BT /Helv 10.0 Tf 277.64 125.94 Td (übernehmende) Tj ET
+BT /Helv 10.0 Tf 348.14 125.94 Td (Beförderer) Tj ET
+BT /Helv 10.0 Tf 398.44 125.94 Td (in) Tj ET
+BT /Helv 10.0 Tf 409.04 125.94 Td (den) Tj ET
+BT /Helv 10.0 Tf 428.64 125.94 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 113.24 Td (entsprechenden) Tj ET
+BT /Helv 10.0 Tf 157.04 113.24 Td (Feldern) Tj ET
+BT /Helv 10.0 Tf 193.84 113.24 Td (einzutragen.) Tj ET
+BT /Helv 10.0 Tf 251.74 113.24 Td (Es) Tj ET
+BT /Helv 10.0 Tf 266.24 113.24 Td (gelten) Tj ET
+BT /Helv 10.0 Tf 296.34 113.24 Td (sinngemäß) Tj ET
+BT /Helv 10.0 Tf 348.74 113.24 Td (die) Tj ET
+BT /Helv 10.0 Tf 364.94 113.24 Td (Ausführungen) Tj ET
+BT /Helv 10.0 Tf 430.34 113.24 Td (unter) Tj ET
+BT /Helv 10.0 Tf 456.04 113.24 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 100.54 Td (Nr.) Tj ET
+BT /Helv 10.0 Tf 98.24 100.54 Td (1.6) Tj ET
+BT /Helv 10.0 Tf 115.04 100.54 Td (Satz) Tj ET
+BT /Helv 10.0 Tf 137.84 100.54 Td (1.) Tj ET
+BT /Helv 10.0 Tf 149.04 100.54 Td () Tj ET
+BT /Helv 10.0 Tf 59.74 71.89 Td (1.10) Tj ET
+BT /Helv 10.0 Tf 82.14 71.89 Td (Eine) Tj ET
+BT /Helv 10.0 Tf 105.04 71.89 Td (Transportunterbrechung) Tj ET
+BT /Helv 10.0 Tf 215.54 71.89 Td (durch) Tj ET
+BT /Helv 10.0 Tf 243.44 71.89 Td (kurzfristige) Tj ET
+BT /Helv 10.0 Tf 294.54 71.89 Td (Lagerung) Tj ET
+BT /Helv 10.0 Tf 339.64 71.89 Td (oder) Tj ET
+BT /Helv 10.0 Tf 362.54 71.89 Td (des) Tj ET
+BT /Helv 10.0 Tf 381.54 71.89 Td (Umschlags) Tj ET
+BT /Helv 10.0 Tf 59.74 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 59.19 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 59.19 Td (\(z.) Tj ET
+BT /Helv 10.0 Tf 95.94 59.19 Td (B.) Tj ET
+BT /Helv 10.0 Tf 108.24 59.19 Td (Wechsel) Tj ET
+BT /Helv 10.0 Tf 149.94 59.19 Td (des) Tj ET
+BT /Helv 10.0 Tf 168.94 59.19 Td (Transportmittels) Tj ET
+BT /Helv 10.0 Tf 243.74 59.19 Td (von) Tj ET
+BT /Helv 10.0 Tf 262.64 59.19 Td (Kfz) Tj ET
+BT /Helv 10.0 Tf 279.94 59.19 Td (auf) Tj ET
+BT /Helv 10.0 Tf 296.84 59.19 Td (Schiff) Tj ET
+BT /Helv 10.0 Tf 324.94 59.19 Td (oder) Tj ET
+BT /Helv 10.0 Tf 347.84 59.19 Td (schienengebundene) Tj ET
+BT /Helv 10.0 Tf 441.14 59.19 Td (Fahrzeuge\)) Tj ET
+BT /Helv 10.0 Tf 59.74 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 62.54 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 65.34 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 68.14 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 70.94 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 73.74 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 76.54 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 79.34 46.49 Td () Tj ET
+BT /Helv 10.0 Tf 82.14 46.49 Td (ist) Tj ET
+BT /Helv 10.0 Tf 94.94 46.49 Td (im) Tj ET
+BT /Helv 10.0 Tf 108.34 46.49 Td (entsprechenden) Tj ET
+BT /Helv 10.0 Tf 183.24 46.49 Td (Feld) Tj ET
+BT /Helv 10.0 Tf 205.54 46.49 Td (darzustellen.) Tj ET
+ q
+0.0 1.0 -1.0 0.0 81.94 19.699999999999996 cm S
+BT /Helv 6.0 Tf 25.6 50.04 Td (TLVwA) Tj ET
+BT /Helv 6.0 Tf 46.7 50.04 Td (430-16-01/10) Tj ET
+ Q
+endstream
+endobj
+12 0 obj
+[
+]
+endobj
+13 0 obj
+<< /Fields [ 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 20 0 R 22 0 R ]
+/DR << /Font << /Helv 43 0 R /Cour 46 0 R /ZaDb 0 0 R >> >>
+/DA (/Helv 0 Tf 0 g )
+>>
+endobj
+14 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 283.17934999999994 821.9753499999999 349.92885 839.04505 ]
+/F 4
+/P 4 0 R
+/T (SYS_SEND_BUTTON1_p1)
+/FT /Btn
+/Ff 65536
+/AP << /N  24 0 R /D 25 0 R >>
+/A << /S /SubmitForm
+/F << /FS /URL /F (http://cirali.thueringen.de:80/cdm/httpinlet) >>
+/Flags 5 >>
+/MK << /BC [ 0.50195 0.50195 0.50195 ] /CA (Absenden)/BG [ 0.75293 0.75293 0.75293 ] >>
+/AA << /E << /S /JavaScript /JS (
+getField\("SYS_SEND_BUTTON1_p1"\).setFocus\(\);\r
+SYS_PA2_SUBMIT\(\);\r) >>
+ >>
+>>
+endobj
+15 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 283.17934999999994 821.9753499999999 349.92885 839.04505 ]
+/F 4
+/P 4 0 R
+/T (SYS_SEND_BTN_SHADOW1_p1)
+/FT /Btn
+/Ff 65536
+/TU(Bitte füllen Sie vor dem Absenden alle rot umrandeten Pflichfelder des Formulares aus.)
+/AP << /N  26 0 R /D 27 0 R >>
+/A << /S /JavaScript /JS (app.alert\("Bitte füllen Sie vor dem Absenden alle rot umrandeten Pflichfelder des Formulares aus.",3\);) >> 
+/MK << /BC [ 0.50195 0.50195 0.50195 ] /CA (Absenden)/BG [ 0.75293 0.75293 0.75293 ] >>
+/AA << /E << /S /JavaScript /JS (
+getField\("SYS_SEND_BTN_SHADOW1_p1"\).setFocus\(\);\r
+SYS_PA2_SUBMIT\(\);\r) >>
+ >>
+>>
+endobj
+16 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 297.40409999999997 2.629750000000058 349.92885 19.69945000000007 ]
+/F 4
+/P 4 0 R
+/T (SYS_SEND_BUTTON2_p1)
+/FT /Btn
+/Ff 65536
+/AP << /N  28 0 R /D 29 0 R >>
+/A << /S /SubmitForm
+/F << /FS /URL /F (http://cirali.thueringen.de:80/cdm/httpinlet) >>
+/Flags 5 >>
+/MK << /BC [ 0.50195 0.50195 0.50195 ] /CA (Absenden)/BG [ 0.75293 0.75293 0.75293 ] >>
+/AA << /E << /S /JavaScript /JS (
+getField\("SYS_SEND_BUTTON2_p1"\).setFocus\(\);\r
+SYS_PA2_SUBMIT\(\);\r) >>
+ >>
+>>
+endobj
+17 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 297.40409999999997 2.629750000000058 349.92885 19.69945000000007 ]
+/F 4
+/P 4 0 R
+/T (SYS_SEND_BTN_SHADOW2_p1)
+/FT /Btn
+/Ff 65536
+/TU(Bitte füllen Sie vor dem Absenden alle rot umrandeten Pflichfelder des Formulares aus.)
+/AP << /N  30 0 R /D 31 0 R >>
+/A << /S /JavaScript /JS (app.alert\("Bitte füllen Sie vor dem Absenden alle rot umrandeten Pflichfelder des Formulares aus.",3\);) >> 
+/MK << /BC [ 0.50195 0.50195 0.50195 ] /CA (Absenden)/BG [ 0.75293 0.75293 0.75293 ] >>
+/AA << /E << /S /JavaScript /JS (
+getField\("SYS_SEND_BTN_SHADOW2_p1"\).setFocus\(\);\r
+SYS_PA2_SUBMIT\(\);\r) >>
+ >>
+>>
+endobj
+18 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 337.40409999999997 2.629750000000058 389.92885 19.69945000000007 ]
+/F 2
+/P 4 0 R
+/T (PROCESS)
+/Ff 12582913
+/FT /Tx
+/DA (/Helv 10.0 Tf 0 g)
+/MK << /BG [ 0.0 0.0 0.0 ] >> 
+/DV (tlvwastatistik)
+/V (tlvwastatistik)
+/AP << /N 19 0 R >>
+/MaxLen 10
+>>
+endobj
+19 0 obj
+<< /Length 151 /Subtype /Form /BBox [ 0 0 52.525 17.07 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Helv 43 0 R >> >> >>
+stream
+0.749 0.749 0.749 rg 0 0 52.525 17.07 re f /Tx BMC q 0 0 52.525 17.07 re W n 0 g BT /Helv 10.0 Tf 2 4.534850000000006 Td (tlvwastatistik) Tj ET Q EMC 
+endstream
+endobj
+20 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 377.40409999999997 2.629750000000058 429.92885 19.69945000000007 ]
+/F 2
+/P 4 0 R
+/T (MANDANTID)
+/Ff 12582913
+/FT /Tx
+/DA (/Helv 10.0 Tf 0 g)
+/MK << /BG [ 0.0 0.0 0.0 ] >> 
+/DV (3)
+/V (3)
+/AP << /N 21 0 R >>
+/MaxLen 10
+>>
+endobj
+21 0 obj
+<< /Length 138 /Subtype /Form /BBox [ 0 0 52.525 17.07 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Helv 43 0 R >> >> >>
+stream
+0.749 0.749 0.749 rg 0 0 52.525 17.07 re f /Tx BMC q 0 0 52.525 17.07 re W n 0 g BT /Helv 10.0 Tf 2 4.534850000000006 Td (3) Tj ET Q EMC 
+endstream
+endobj
+22 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/Rect [ 417.40409999999997 2.629750000000058 469.92885 19.69945000000007 ]
+/F 2
+/P 4 0 R
+/T (FORMID)
+/Ff 12582913
+/FT /Tx
+/DA (/Helv 10.0 Tf 0 g)
+/MK << /BG [ 0.0 0.0 0.0 ] >> 
+/DV (1317)
+/V (1317)
+/AP << /N 23 0 R >>
+/MaxLen 10
+>>
+endobj
+23 0 obj
+<< /Length 141 /Subtype /Form /BBox [ 0 0 52.525 17.07 ] /Resources << /ProcSet [ /PDF /Text ] /Font << /Helv 43 0 R >> >> >>
+stream
+0.749 0.749 0.749 rg 0 0 52.525 17.07 re f /Tx BMC q 0 0 52.525 17.07 re W n 0 g BT /Helv 10.0 Tf 2 4.534850000000006 Td (1317) Tj ET Q EMC 
+endstream
+endobj
+0 0 obj
+24 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 66.74950000000007 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.75 g
+0.0 0.0 66.75 17.07 re
+f
+0.25 g
+2.0 2.0 66.75 17.07 re
+f
+0.5 g
+2.0 2.0 62.75 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 66.74950000000007 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.5 g
+0.0 0.0 66.75 17.07 re
+f
+0.25 g
+2.0 2.0 66.75 17.07 re
+f
+0.75 g
+2.0 2.0 62.75 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 66.74950000000007 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.75 g
+0.0 0.0 66.75 17.07 re
+f
+0.25 g
+2.0 2.0 66.75 17.07 re
+f
+0.5 g
+2.0 2.0 62.75 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 66.74950000000007 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.5 g
+0.0 0.0 66.75 17.07 re
+f
+0.25 g
+2.0 2.0 66.75 17.07 re
+f
+0.75 g
+2.0 2.0 62.75 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 52.52475000000004 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.75 g
+0.0 0.0 52.52 17.07 re
+f
+0.25 g
+2.0 2.0 52.52 17.07 re
+f
+0.5 g
+2.0 2.0 48.52 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 52.52475000000004 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.5 g
+0.0 0.0 52.52 17.07 re
+f
+0.25 g
+2.0 2.0 52.52 17.07 re
+f
+0.75 g
+2.0 2.0 48.52 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 52.52475000000004 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.75 g
+0.0 0.0 52.52 17.07 re
+f
+0.25 g
+2.0 2.0 52.52 17.07 re
+f
+0.5 g
+2.0 2.0 48.52 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /XObject /Subtype /Form /FormType 1 /BBox [0.0 0.0 52.52475000000004 17.06970000000001]
+/Length 157 /Resources << /ProcSet [/PDF] /Font << /HeBo 44 0 R >> >> >>
+stream
+0.5 g
+0.0 0.0 52.52 17.07 re
+f
+0.25 g
+2.0 2.0 52.52 17.07 re
+f
+0.75 g
+2.0 2.0 48.52 13.07 re
+f
+s
+1.0 1.0 0.0 rg
+BT /HeBo 8.0 Tf 18.0 6.0 Td (Absenden) Tj ET
+endstream
+endobj
+32 0 obj
+<<
+/JavaScript 33 0 R
+>>
+endobj
+33 0 obj
+<<
+/Names [ (SYS_AWM)38 0 R (SYS_CHECK_MF_FIELDS)41 0 R (SYS_EWB)39 0 R (SYS_EWM)37 0 R (SYS_FILL)36 0 R (SYS_PA2_SUBMIT)40 0 R (SYS_RESET_BG_COLORS_UPON_ALL_PAGES)42 0 R (getBgColor)34 0 R (getBorderColor)35 0 R ]
+>>
+endobj
+34 0 obj
+<<
+/S /JavaScript
+/JS (function getBgColor\(fn\){\rvar BG_DISABLED=["RGB",0.749,0.749,0.749];\r    return color.transparent;})
+>>
+endobj
+35 0 obj
+<<
+/S /JavaScript
+/JS (function getBorderColor\(fn\){\r   var f = this.getField\(fn\);\r   if\(\(null!=f\)&&\("checkbox"==f.type\)\)\r   { return ["RGB",0.0,0.0,0.0];\r   }\r   return color.transparent;\r})
+>>
+endobj
+36 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_FILL\(f,c\){\r  if\(""+f.fillColor!=""+c\)  {f.fillColor=c;}}\r)
+>>
+endobj
+37 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_EWM\(f1,f2\){\r var v1=getField\(f1\);\r var v2=getField\(f2\);\r if\(\(null==v1\)||\(null==v2\)\) return;\r if\(v1.value=="Off"\)\r { v2.readonly=true;SYS_FILL\(v2,["RGB",0.749,0.749,0.749]\);\r }\r else\r {  v2.readonly=false;SYS_FILL\(v2,getBgColor\(f2\)\);\r }\r}\r)
+>>
+endobj
+38 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_AWM\(f1,f2\){\r var v1=getField\(f1\);\r var v2=getField\(f2\);\r if\(\(null==v1\)||\(null==v2\)\) return;\r if\(v1.value=="Off"\)\r {  v2.readonly=false;SYS_FILL\(v2,getBgColor\(f2\)\);\r }\r else\r { v2.readonly=true;SYS_FILL\(v2,["RGB",0.749,0.749,0.749]\);\r }\r}\r)
+>>
+endobj
+39 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_EWB\(v1,f2\){\r var v2=getField\(f2\);\r if\(\(null==v1\)||\(null==v2\)\) return;\r if\(""==v1\)\r { v2.readonly=true;SYS_FILL\(v2,["RGB",0.749,0.749,0.749]\);\r }\r else\r {  v2.readonly=false;SYS_FILL\(v2,getBgColor\(f2\)\);\r }\r}\r)
+>>
+endobj
+40 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_PA2_SUBMIT\(\)\r{\r        var pflichtfelder_befuellt = SYS_CHECK_MF_FIELDS\(\);\r        var n = this.numFields;\r        var f;\r        var fn;\r        for\(var i=0;i<n;i++\)\r        {\r                fn = this.getNthFieldName\(i\);\r                if\( \(""!=fn\) && \("SYS_SEND_BUTTON"==fn.substring\(0,15\)\) \)\r                {\r                        f = this.getField\(fn\);\r                        if\(null!=f\)\r                        {\r                             if\(true==pflichtfelder_befuellt\)\r                        	 { f.readonly=false;\r                        	 }\r                        	 else\r                        	 { f.readonly=true;\r                        	 }\r                        }\r                        f = this.getField\("SYS_SEND_BTN_SHADOW"+fn.substring\(15,fn.length\)\);\r                        if\(null!=f\)\r                        {\r                             if\(true==pflichtfelder_befuellt\)\r                        	 { f.readonly=true;\r                        	   f.display=display.hidden;\r                        	 }\r                        	 else\r                        	 { f.readonly=false;\r                        	   f.display=display.visible;\r                        	 }\r                        }\r                }\r        }\r}\r)
+>>
+endobj
+41 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_CHECK_MF_FIELDS\(\)\r{\r        var n = this.numFields;\r        var f;\r        var fn;\r        for\(var i=0;i<n;i++\)\r        {\r                fn = this.getNthFieldName\(i\);\r                if\( \(""!=fn\) && \("SYSTEM_P1_DUMMY"!=fn\) \)\r                {\r                        f = this.getField\(fn\);\r                        if\( \(null!=f\) && \("button"!=f.type\) \)\r                        {\r                                if\(\(f.required\)&&\(""==f.value\)\)\r                                {\r                                        return false;\r                                }\r                        }\r                }\r        }\r        return true;\r}\r)
+>>
+endobj
+42 0 obj
+<<
+/S /JavaScript
+/JS (function SYS_RESET_BG_COLORS_UPON_ALL_PAGES\(\)\r{\rSYS_PA2_SUBMIT\(\);\r        var n = this.numFields;\r        var f;\r        var fn;\r        for\(var i=0;i<n;i++\)\r        {\r                fn = this.getNthFieldName\(i\);\r                if\( \(""!=fn\) && \("SYSTEM_P1_DUMMY"!=fn\) \)\r                {\r                        f = this.getField\(fn\);\r                        if\( \(null!=f\) && \("button"!=f.type\) \)\r                        {\r                                if\("checkbox"==f.type\)\r                                { \r                                  f.style=style.cr;\r                                }\r                                if\(f.readonly\)\r                                {\r                                        if\(f.readonly\) SYS_FILL\(f,["RGB",0.749,0.749,0.749]\);\r                                }\r                                else\r                                {\r                                     SYS_FILL\(f,getBgColor\(fn\)\);\r                                }\r                                if\(\(f.required\)&&\(""==f.value\)\)\r                                {\r                                        f.strokeColor=color.red;\r                                }\r                                else\r                                {\r                                   f.strokeColor=getBorderColor\(fn\);\r                                }\r                        }\r                }\r        }\r}\r)
+>>
+endobj
+43 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /Helv
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
+endobj
+44 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /HeBo
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
+endobj
+45 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /ZaDb
+/BaseFont /ZapfDingbats
+>>
+endobj
+46 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /Cour
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+47 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+48 0 obj
+<< /Type /XObject
+/Subtype /Image
+/Name /I1
+/Width 2480
+/Height 366
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Filter [ /DCTDecode ] 
+/Length 33272 >>
+stream
+ÿØÿà JFIF   d d  ÿì Ducky     d  ÿî &Adobe dÀ    
+  "b  Qv  sÛ  öÿÛ „ ÿÂ n	° ÿÄ ı            	
+                      €70 @°Ğ1Pp' 
+
+   !å7—1"AQa2# 0€RqB3$´Ôu6–‘br’CSs%µv¡±ÁÑ‚4D5&F@°cPpƒÓTt„”EUe…•Õ'               Ğ     !1A 0€Qa@ğqP¡á°Ğ‘±ÁpÑñÿÚ    ŸÀ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 $št‘€                                                                                                                 
+=Æ@D!!dc™A1à                                                                                                                e»&üÅÈ0'¨ú@                                                                                                               OlbD£Ë€"ÔêS©@                                                                                                              AGÁ>%¦Â  x"‘“'3SØ                                                                                                              †rTM€{À  `Ñ€›ü’@                                                                                                             "œ•€     çã†	h                                                                                                             :uÉÕ     RGq,à                                                                                                             F‘¬É/6P    ‡‚QÍ€                                                                                                              Ô¤^:    #0İGd€                                                                                                             ! ’ƒ£À    „¸O´v  8L•Ú                                                                                                  à¨ &Ì1Sh³G›¸÷ bÈ61d¨™˜ ˜Ò†í=à jƒãšĞäsá’pm``ÄD’ÀFÑ·É                                                                                                  7+Êy9,ÙFè=¤Éú[4ğRü±™!À–;L™cDŞH8 ÔT`·‘!@  4!‘œzÉQR’´7y `                                                                                                  ^	%ğ˜ClğBAÅ£.®gF6áî ¯G6<Yä   35±ù‰¥È8|Â‰,                                                                                                  W‚BÉ|fÄ[@À¤¹wÃ;"°¯	&ÅÍDVxµéä€ãºNÜ) \€¦ùxS&    ùüë"¤ÄIY2ğ                                                                                                  v$0—ĞFa…³€*¬H¹2EO	}+H^$ÇŠ-=:t¥)rÂ1H¼-^Tì–bW€    õ‘êhÒJM®                                                                                                   
+»’Kğ#0†"Ú ¼@al2%×Ê“|h‚‰$ 2ÖåHNû$€ŒÓ‰‹g    Ä„`                                                                                                    *îHI/àŒÂ‹h ~2¤ ™ù`bN>9¬²‘UòG©$ ¤ùİ€p±vÓj€   `ÄH“N                                                                                                    ]I%ü˜Bñl°y_2Ë´kB—Çz˜*œqÙtBNJ,ğVÓ¸É¯    Haº                                                                                               åóP    ÿ wNŞ%öV˜öOihb•î-<W"`I#LËEXIœ$:ˆ‹-  ñaı˜lbJÎ 1ğ                                                                                  à:|                      jSm      òÜ|£õ8~                                                                                                           ¸ìÃ¢@  Ì${Ly çsŠÉV?ƒô€                                                                                                           ğBI6¼  9œZjBn ©$à                                                                                                             kR)É›=àçƒQ|èPb„näc¯O˜s9ŠIh                                                                                                             Ö¤S“6qq«¼"ØÏOÄL1¨ŸÕG°İ<d`                                                                                                             jG9"ÄY’NnÃó‘âlH’                                                                                                                7Øpq²IM ƒ¾Ş                                                                                                                *FQ(çÖ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ÿÚ  ÿ 6F› ¢ìİ¦‰I½˜³
+30¿3“´eså×«l$ØGñ¨´Œ:ÇËYÂ&ÄPI_²ùõ» šTtl"Öœ­/?CØAÏ<¼ğ~ÎÌkdŠ€ŠŸğó1\1=–	GÍÏ;[a7ÇñáéÁ†^&6~+0ËW¬ëôÆ°¹)cì§³³¯§¯3lbÌ|Ì¹:ú#¸Ì‚J ÇÄïşg ¤PÉ1Èô†:@LÀ)Ç—|}““l98°“ cöºş›î¾¼`“ñÖÇ¢—"YNÈÙ—RdºŸÙÃÈç×’cqÙ<v7’	#Â_d’JDAËC²£?Ö8(à!G®‡n^Ée8aÏ¹ë:g†ğK˜N~¤–tó1?
+b‰{&t6oÈ‰ü0±lOÔ’!G>§¸‚Yë’±=“3Çáçû%Ç _T*FæßØøM7Oğó¶ò8›^¸·ÎÆâ¤œ9ğìáì!ÍÕ±—ÏUŸ«>5V|j¬øÕYñ²rzgfÁk8|Ë\¹qáÆÏW_g_o_«ÁïC9€™z=ê'„¤ñâr¦oãÛİÕÕgÆ«¯³¯»¯øæ‚8åVqÒ.ƒ£bÖêK!Lv8°Œ0ĞxùƒĞ™«1ñ‚wÅ‰Œ‡ÎØ?]dFvˆv^Ï|Íö=ˆ?Fª3rıQ›‘ÈDpî	H²3Oê”Ü¸j”Ùÿ =§êçÑjOÍıÔèøŸ¬&ÿ ™E^»˜i÷sm5û@b“˜ÇA5s#ş;DiøŒPµŒ×ÁŒQô$hänN	t€ÊXIãéX¤P·Ód:ø~Oé;óï”q6^/Î8ö¹ÿ )iwÆ>›oğÆ¥|Ñéº ßpÓã°H^ÎxŒ­nOiøÃ°ê1>ÇáÃ‡Wã¸¦Ÿ|yD}ü`}75û)çÓ’ãAéDw¯^úºû^¤}u"ÅÉ|Ù)Ó?	×	Ú‰1cİ]*~%ö¹ÿ )iÆ>›oğÆ¥üÑèh3Šf'ÜğV0ÿ †R:¶èÓñ¸Ì%»­·Zçg¹-à>9Æ{	$bH>›U2–
+—ëNa“Ôrüó†:É—î|eİµs‹Úó€ŒY]±š>£«SsãkCCkbåË.“‘Ñqc¸tÿ /ä0°´4{Üÿ ”ô¿ã/M·øcR¾gõÛ€Æd57ûÀRÛ?$òœãbÀíYQùÃ~v;3ö ¸ó“‡{£œ0aàæ3çË&®¹²¤°:Éˆ4Ã¸&¿`õ/òI9mˆgâò¡~E}_<¸ñRôË”7šëlá– XXø ÿ °­ÏùOK¾2ôÛ†5/æ]¦üº+×3ÁåSRl`Á(ôo:Q“:ººú:¶¼Cñ™_W‹?)ˆ· ÓìÀ|b\P.“Ë¦.ü2'Ôÿ É%%´¦¿—JÚÂiÇ`?°×•´†Ql‚ªfŠÊŸVPf’6R8†bşßa›Ÿãÿ ©éwÆ^›oğÆ¥üÑë‘ÑÓ•Ñ$	äGç³|Íà²ÒŸëÍnP‡İãı*,ÿ ¦O°¤9’dÙâ<jñCï¹q„Í»E¿×»P¾ÁŸ•t…¶7=™‘ş¦ÍkÎ§Mkõ:kY˜Ä€äøæbL—¥÷%ƒYù°±ûÜÿ •4»ã/M·øcSyxã3ÿ {©{©{©xóãÏÕşŞGïwy‰Ãx€Ç¨Èw¸P@™â16Ô şÂÉ=m°g!™Añğ‚\8eÄbİCOúll÷“Ï]Âû¥æ\E¾¦Ôõ‡ã6GÆ9ßûôÖNü-ÒıWê¿Uú¯Õ~«õ_ªıWê¿Uûëµ±ÑÙd©âÄb@›6ÀöMSç4ôÀ©éx†æ/+^™Ş"h3üyÁıÒo¬ÿ œs”µš<Ìãe´‘Öyì}­P©š§`ébA“õ¨,3õÙØû4ú7×ğù^>“ş†FGF8ÉHù‹I9; s&fÛ0w¶Ä1;×dí6ı©ÒıWê¿Uú¯Õ~«õ_ŠıWê¿Uú¯Õ~«õ_ªıWê¿Uø¯Õ~«õ_ªıWê¿Uú¯Õ~«ñ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ŠıWê¿Uú¯Õ~«ñ_ªıWê¿Uú¯Õ~«õ_ªıWâ¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ŠıWê¿Uú¯Õ~«õ_ªüWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿ú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ŠıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~«õ_ªıWê¿Uú¯Õ~ ©;óGOüæ9¸ŞQ—ø.îîœn—ÇÇı– "ÖÇ±áò–!èèéÆéö<VsÓlŸíŸôŒ¤¦YLéJ’£T>÷?Í¢íŸÂTó$Á¿wvuõ÷uôôôãõ{!{sÖ’Î¾Î¾î¿¡)I1`”Eº—»?glTüpG™ÄYœvdÓÙp‹Ë±A¹‘uöu÷uúJñè_ì”(ƒ¥PüÏG¶V¢&EçÙ[Hü ?b9“ë!ìœ*³vnÄÅdèØÉ[‡™Üö%Zó½ãû$.a8`*!×B.¾Î¾î¹¾]êŠ¢È7…g§œŸ×™ûkY›â·ùHIóşÚñêpnovÄ­#•â78ùñãÇN9>É‹„XN Ü²Ãòñ–ÃGıvz’¤/øpìãÇ‡9²9*ÏuœÃËÃ5#£'„iì´ÍÑÂä¹7=œLû˜õœeë¯Ôã[ÁN1q±ğ±½–½²55viìoÏ«£Ç<’óÿÚ  ÿ W´ÿÚ  ÿ W´ÿÚ ?^ÓÿÚ ?^ÓÿÚ ?ÿ ­†ƒ3N’Sç<İ>—'Lf:l2™ß5¸eÒE@Uö•îË@¡±>«N‘Ry#Æ“X§óû“NÊñ.‹*ùÜ"¤˜q*^©ô2_¯Ïf›I¦²¯Ê”úììlóy÷MP@Œ–äKí»AÅJ•Qd_‰.9^Ú$‹q´ëeİ0$CK•m!ÀØ`Ã¦>~ğ¶J;6ßµ-˜5N¼÷çzª×ªTÙ•
+µ(©ñYHêÛqÃt5’Ñ¦ßä‘ n‹+/W`´ ç¼…>3M7>—4QwSa»‡ºaöÂ½×º[,”-PÏUxÙ?%°tœ²î_¨s ÄÅAò÷„#)jRDŞîîÓb”m.Ôú‹µ\£Vtÿ 13¼‚S6ZW>U#"wrÛ€-÷øs$Ú¬ªnş…ú“ë"FZ¬TëÔé!Ö¢NvÅ6V@6A‰PUBûï@2Dºû?™2ë2ëº-\œ…] ²r|¹$¤Ø˜Ô—qt{¦—2ê¡îœZƒZİ2“¨A¹‘š³DİÖjF—‡ŒÓÑä›[±]€âAï:£ˆÒó­2©§Ãñ‰ÌÃ@‰"§N£U™"}´†ÍsB–"iÖÓİ:«±AHTTÇ¨Š˜!cA+»Â…rbÂ¾{UêTúyUçÀ¦Í™–îN£&4wf: æìä˜aE¹{lî°k~ËGšÖSíeÌ©Pš‘¢eÑ^pZ …0¶½öÌ]‰îŠDñw"Ïƒ!©p§Gf\9L8Ì˜²[˜}“†ÓÍ¯èZÕW7VX¤DúEŒ^~D§Õ1(F‰·¤½»¦¢7vÚCôz¤ÜÇTD@FƒJ©±"|§,‹òá´ËB¥Ú»VîÄUÙj^¯êÔ—)R©ŠãÙ3#C÷MQåG3²EVÕwÆw+Š8Q«H…6;2áËaØÒ¢Èl]bDw[y—š4Pq· •µ-‰@§F¥R ‚·@ÀÓHD¦kç#qÃ%""U"%½Vÿ ‘kt‹JLÊ> ÔÊu:ú‚:µ(¯Ô%7¹ï^‘·¤j‰°/¶Lz‹=™ÁNË´Z4ônôrN™L‰l9#:Ó¡²ôï
+¡%â¨¿B£uÓšh	Çpm°LFfepˆ ¥ê«Ùi‘b·šjíC’äoˆÒh‰"$š[ˆâ¾äÆMÆ–ıŠ ˜“jlT³ç¤ÈŒ™`¨L°/9…w`O,óF@Í.R¹nô-ƒWµ(›¦+ùå5›C¦’â"l'ñ!8B¸·¼w½„E©1rÎ_%ƒX‘Neö\eÆn0›f>eE¿æ%êÎ“DY4+¾Ô?gÄ“Tê­)†Ñw;Œdw ß¯!Ee\m!æ\·-$C”8^d”R]>X¢o Oe•‰L*öv\Cxª-’©™*ğh´õ“"Jø°ÑI”â4ÃB«´ˆ‰o_ª(¤·
+* ˜!	
+¢‰
+¥èB©±QSèOPÓ|Šüª.›P¦xlõœ®ã.*9I§!"cl‰µAã>èç»Â'.eÚ{0)töğ4Ğ¢ívL—U1È— ûÎ8[H­÷0şÿ ›æêYIsô­5
+ø¡W(ñ`øÊcòÄÈÒDHé!–£!)ªàÂ[µ"À¢%†ÍÈÕíJ«gÊ|r™¥ÓXT€*X+e4Œ$:*ãnñ"bUÂ²²-g(f}QÊ,÷&W²ü92¦EÃ'«Qåc{5Ejîæ&”pSò¶kÉù£O%Ö@¾'5G(qgHAØf15½U¸Nå}ÕTUO¡6¢´¸¡_p›CE0aÓ·/Ä"â´W/Ÿ
+ú?èĞ+ìÜi‰êUU‘OF¨a¹¹°Ïgxİø]‹æT£zÂêxµÂÖHÎÆKà³sq
+$§œÿ h%î6d¸ĞıÓì&BI³¢WÇ­c)9£$Š)S34U-ìµ‰TSÄ¹´‰‘¹H—8\Øe.š«·ºö\”Ò™7¨â¨ôCpW¸RşÅA+Ççókr)Î2ECÁƒˆÑH&‡¸Öô‘Q±#T½n[“Ì¶‰®¤û5zÍQ¦åäÚuÚNZ¥©¤4Â«xœ7)ÚÒ®ğïy{ŸBVõ?Ie7—5ùQšÀÍ765±^<èş6@¥ÊF›¹\·8?Í:$Ë*våÚÜÈ5–ŸÔ4!rYŠÄ©n ŞW¨{KvÛAÌ™npN¦OÀÓc¬<?v‰-›ñG—ö/gØ¹~vnŠéYGzœ¨güäbÓ©ğ7¨2 Ã_eÕÆ8H‡¼ë‰»näC;PòÌ'^~-
+—–Ãò0oŞŒ‹[×wb!¼sër]ô'•J­f¼­
+SC»›N©Ö©qß y¤,"J'…Ö\M„;Em2æCª0æI¨åFsÃ©3ÙŸCJ±¹JŞ9XqÖVS‚(+ÜÁØˆ‰óƒ©Z9)¬±Ÿb)»>šŞhÙ­¯mØòØ[¢µ*E×$Fûl'ï-VR¤JË™Ë*¼Ì,ÕBÛ¨dº²mè®8—«œG;…ïQ¹oL&_Bmi‹›èŒÖ£Óâe¹ÚyùŒ#/=K¥¶á§ƒ“IHí·ÙÊÆSËhõ'¢9ÉLÊ©>E×uÆpÌ™!´Bq]‰~Ï×³ÎÖ(ƒT­Q†¾Ä×üBÃJ—‰Ağq¤aİxö®í·éí?ÿ q¬§øé¶…Mƒ©nL¨>ÜX¸ÍF(¹!åÂÓJü¨L°Ê¸[
+_³·å¦Ÿé&Yc>æ¸@ìœÂ®HÜQè¬´˜|;Ówñ™ñˆé<Nª7Şqp&‘­ÙG¤æ,lRs	á6œÄæ”oj¦ës'2Ë$†—–1&¯BQP¼„\l„ÀÅ	/M„$Ÿ@—*5ŠŒU=•zuJ[¢4®˜¶Ú9&I¶Èo$½vªÛ˜9'õ¦‡øõ¹ƒ’Zh[˜9'õ¦‡øõ¹ƒ’Zh[˜9'õ¦‡øõ¹’¿ZhŸ[âuz­6—M½¤ø…FlhP¯c)â¤¸Û7º«İÛ¶ÃO¢æì³Wbf©•Údéf'cÅ”ë¤-Õ[¶'ŒÉ Tˆ‰nKÔ•W±-Ì“úÓCüzÀëF´è¸Ù!¶ãf˜€ÀÆñ ![ÑS·ä7*¿Z¤Ğã<îá™z„Js.¿€œÜ¶ìÇYw *áM·%œ‹@Ìù~·%¦·îÇ¤V)õšeC|ãPä<`Ş3D½v^¾JÆ²B‚Y—#g©ğs¤Hí"Trÿ …f,8ÒÚ+Öø÷°„&½Å"VÏí Wè3š¨Òjl#ñ%2»WaŠÜm<Ñ¢‰\@h¨»~S¾ël0ËfëÏ:bÛM4Ø©8ã `)zªìD·0rOëMñë6ó&´è:Ù!¶ãfˆ@`cx˜­è©ÛòŸPÊbtÙ'¼“.]
+™"Kî.ÅqçŒN8kwj­öıÊ«´ŸÅ-6†YbE9('­C¥À§ÔéòÚ½X’Ãì0
+xU{ÀWƒ‚·/¥Ñıf|AÁo%g—œ?]¼ÜÅ6[·ásb¸â¡{·vá2–Z]–ÍÙ/"8¯çÚÃ-)±5…Ş0ëÉ)~é˜—¨ø#˜Õ¼Wn”¡æLµ8fÓåÄ›L9(ˆ¯AœÅê±åÇR¸‡öQTU|•zE:±*6£ø‘«0D
+]=ÇE$2‡³ú”I>Ô„®T©èö{¤G¡æÊ¥DæÒóZ+EÎ‚ó†1g>¸±İ²2wEW’÷ã›–ó,çSf‡ä~+è„ŒÍ„õÊQ¦FR¼>ÂŞ*¨¾+ëærŠ4ø¤Õ˜èËNiBX°Ü(õ¢Ü±w´¨)ØkiZq¨ì%Sòş6$0ò-fHì/‰Sğ °O“	¼0jğq¿zßqUè\ËYn+sjó¤R<wdÇˆ&1*±%<»ùN4È`i¥]ª—ö[ôjëñû~Aıb¡~?f¨y²P*/Áj¢ÓML‰8J+Î¾ÈöÏ6Š®G.ê­û,õo)ÑãÏ§GšpuÚ­2$¦ÛiÓÔÉL¸¨€øíºë~ŒÂıa ÿ ûùjØ’ûó
+ë¯Û}Ó‰ÁgØu.q™¹]§bÜmÈh	/KÑnTµ#ò={ö>ğ/%ÖÌÔVZF©²%­bŒ"—6”ºª¬¦Ym6÷!8FÇşJÔ†_{yTÊ¤¹n~"¼Õ¨`%KyoÛ„é†Øßç6ËäRrtg1EÊ”ÿ 1oO‹VE§ÈKÖÅ9¶nôo
+Õ\é-œ33TßÉQi$m!şÊJ¨“·ıdhÉš*†dxTò£Taß#	ø™3!¼ÄxL0Wø™\,"-ş}—Û+˜îÆ7]¬I y²h‰y2ú	ˆ’¶ókˆW°“jlùUxì9‚£šŒ2Ô4¾âÜL:«ˆ‰·
+Sp/óƒä£6ó¸êY]K-OE+Ï¦¸·íÂtÇKş°¯Ì¿—suPUß@¨1*™¨—¸N˜’	yŒğpvZ&XË°B-60.<W8ô×ÜIç:©|‰2nï*ù¶%Âˆ–ª×to=†ŸÀÌ(Öh.@ñÔïe¿€Á#Œ2Úã[‡íb$À¸P´£[l+Ï8¥•3’4éy;®]’q¶™2UÂÙaònœDrì~Ms o¼¸ †¢8ğøºY`Åí`Ä—ùt³W%ÑäÌÊ™m'Ò³ús`ä¨KRnTXI±¬vür^¸T‘Bô#áäÈµty©ñX(Ù•„UI**Í Ÿ<&ÛæÙ'¼$FÑßv«‹èIşÆÓ}üÒ³jÏöÂw›ÿ ¦R|÷íO-WòÍğñµòE{ğ_Jyhyò#ÈËò~V1NòÒªG|7_äâT»©ë“i9ZK¸`g(*ËBJ¸R³LeÁ$Ø¨Šôe}¿ZùjU‰çº…Jƒ.£-ÍÈĞ˜9ÕDØÛkiDÚÎtÌ«¸fõ$êÓQ¸±Ñ{wQ…Áô Ú‰—)âƒ‰L‡Mbä»ÅdWI6÷Ş4S/I/’›6R‚¯“Rj­;ÉiŸĞi¿n;­¦·	·1'jXh¶ÛÛ@  L" #pˆˆ¥È‰ò¡eXî©BÉôô…¸µz²5.Q\¤Ô1`6ö.+7ª¸ñešÊ96·î¿6®øcrĞoö¾<Š7İìªy­QÊ2]Ã7SÔ¢¢®Ä¬ÒÉ,¢y½ü‹éQœr…]lšu²ñ4š¼qˆQ§¢\¢šİxc*át}
+‚B7ÿ xFÛlmÂ ˜DSş ìDKG{;fÖ¤ie}ØÑŸÌs¼Lš®X¨-Áæİ~a´Á_~5…;·:˜J^¦Çr‹¤Úo^
+:«*9üÑY†óFÂ ËŠÀ"ÿ  Õø½é`$ªmJ+ NaÈ³!Êl^&;Â ãO4h¢`b¶«åG)qhÔ|s+'˜t§J˜ˆá…OâÒûèÕ=â–ïp˜JûÕV©µSZãc1JËÔZÙ´è=R¤Eb9Æuç]%YQÛ„—¾rê—ıi?ØÊoìÿ JV¶Ú³³şp·ÒŸ¤ÿ —ËUü³@ü<mGü“^ó_wôyöı]Ÿáòæ­6íÅn—*5K÷/8Å’‰õ¢Êq=cfD8UÜ«\BQ]„ÅF‘7¾Ù!"¢¢<ÅÊŠ—*Z‰˜éåŠn™¤Ï¤S é4^‡5P/A'“à1Á?9Î
+eÈ·84¨˜fTÜOÜ˜/SÖÌz•¤»O==d§g2ÈmÊÄ“¦…Ro,™™ßì‚}‹EË¹Ï3Î­Së´ÙÑ!5<šÂÅUÑÜmA ï8Ìgõ©'“1ÄË5T¬ÂT¹.ÑfÃPÂ¥|LFQLLwrŞi=Á­²¸æÌßU¨Ğœ¬3O¬AœLnQ‰ÊPçQE‚ãèïÙoËEÊù/1L¢¬BÎ­,eéU'¾ôaõ6Ü+ãÄŒ†‰³cög3gZíB·70T%I§xüÄ¥E/Ê7¶×ï™8åşqQºÕjõ@ğA£S¦TåŸq	ƒh>“$…<ëgäaY¬İ˜…¾ñbXîÚK‘K ¸ú
+z’Å¦h)ğïÍTË wmŞ„4i¹ßÏ¤ÑGïúûmvYÊuğqÆKb„ÊLÛŸw§b›$êµ.·O=ä½>J!ıhóX	_ëÀæß_ÎÍ¤Uá±P¦Tc¹l9 3!‡S	ø•6¢íM¶…F£ÂbL§Gn,(qƒ,0Ò\")Ú«çR[È—jŞ¾B3$ R"%AKÔ‰Wb"%ªwBò­#6ÓèÖói×˜¤¹7y#Ó¤¥B˜Â€Ü·™«ûH â*f[Ôˆô‘›|¦W¿5j"ôÚØ7X§­J¨KßNî,,øÉ„ĞhT(,Ó©TÖ<HŒ%ÀØjª­æã®â3%R2UU[ş4­Ÿòm3Ñ·úRµû6¬ÿ kç~ßÃ)^¿Bùj¿–h‡©’+ß€—ÈüàŠÎ
+nt‰ñ+Å.«ÄÁªÚv÷œ÷O¯­åµO&JvùyRoˆ‚½å£ÕÍÇÑ<ã¢ßèŞ’]%‡qÓ²tVèŒ •áãÏª³—_r82M/?¸³”³¹:‡M¨Ôj·í0bµÃRîìP&)¨Ë—}«Š¶‡,“uTÊæöì“G¨`’Òû%„‰’±h5(‡¼‰P‰tcúñå²²é6âZµ˜§’$J-2eIëÖìiƒuİ¼B‚>µµBªş“QŸ* öí_— ä¹»A¹PÜÙwe²|İGf1¨5E¾òø¥3ïª}ªŠó¬o?zib3TR"^ÁKÕWÔ‰j¼È8¤¿š³J@£Š"ª¬C’İ2^¾Ä jÿ 5¨Ù~
+]‹L…L²ëÛ…C$úÎ`Ä¾µ´|±Ì3³”ñê	¢Ò)„ÔÉ¥w·s²7¯™DŠÁ]Ö:~M‚åUUSİ•NN(T¶•~¸+>>¶<’ª±ÚİÓó„Fë]ì%A>õ«7ûò’Ú<¿ÏØòì—•Ê†MœP‘iü& ®L¦•ıª æù¤ôIóİâû*‰hYO"·˜õ:ºMµ`’cPÙvâñÕNø¶.no0TŞ;p]rækÏÙ:^©:Ëu§hQŞj¨Tå[äÇh›£CŞ!ÌÀCì"Ã}ğòÖZ†‘)ğÒõ%¸¤Ì’H›é³¹D·Õ;Åö.DO U+gü™LıŸéJÕ«?Úù¿Õ”¯-WòÍğñµòM{ú½ÏZ—äTfÇkySÊ.¦bŠ¨—¸°Øn¬Ê~çÀšº¾¶RÔ	/»º¦VÍråRòÂŞâ¨M„g\½PPcTA“U^ÁE¶aÍğî¨”©sb?!¶×ÂFıô©J§¬­F¤I7{0×}jGixMã•*Ì’Ú7/‡?Ò[6Ã -2Ë`ÓM‚aÛlP  SbŠ\–Pe¼0sl8õæUPZß¤Ú×)¬¨ÛÕôo’Ô6sy7-9#-ÊR$#ÁEÚ}éí"%2C#··©ÙF;¸ffÚŠ‘Ûğz97%ìHgªÒ‚VsTwGâ“6H8Uá‘¥œ¯Wôñ şõ/¶lÈ²û‘³™i€Gö®néõ@_ArÙé[fÊ“Nî§M‡ğ*jßqøÊÊø,MíEŞGŠn»³ù;5X}¬pr|«¤8ƒâ/ıãKonÄqÓxWÒÇìù*q#=½¦å6[Ë±.TVÖTu'ªÎ¥Ê©‹â“WúK<UìçC§æ<ÅSz}B+®=â"Å‰|*lGğ°HŠ‚.=Ûü}¹ƒAş”õyãZù{8Q*y.Õ[‘,sqdÉ=-B;*LŠ-Ëºyvö4¶…Nî
+~oŒt‘Oi8‰$RTìSñMnGùõùì¿“êZ‹0?1‰ÊˆPj!\i‘ªÎÛê¡%¶œq—U1nÈ}V¨LËÌN•S©Ü2jõ©!>¤‘ÓŞŒÈ#£Q”Ã"ä]ª·%ß@ÊWnÜ›MûïJÒlôvZµı¯›ıYIìòÕ,Ğ?Qÿ $×¿ ?^ÏôY-ƒÑä´ã²âbmÖ^mÖÌWa*-³X-à|ªç€uoBrêŒº\„/:œ'[[şµ´âšÄ¤*¦j3 ¯}+’C’/6ˆ˜FuhEğó\ŞÏVfÔ	lû9nd?l[¹•wA}(;€¿ÖIä¦æ¦Å+)ÕD_$¿
+­nâ?‰Sù9íÆ»ÑzÛ3d×Ü¹ªİ5ªÄ^ÏI=Ô€İ½^%õ3iTJEòÂ›2I¢4ˆ\–ÜÌÂDÒ÷*òKş ¥¿»Døgæ²åÌx~İanVr¢_ï¼ZïïúûmDZ‘,4…]‘–3 á )ã¥Mß_r(E}Qß²Ú[(d†`7#3TE	{\')Ô±$M—Š7%e,îaÖ	¹Æ¤äÑ%.|*<ı¸Iá}Ñô‹©lËšŸQºI“%.Çf¨îiñÿ ö‰Î6éZ56gR¯f:¦í¡#)Sç¼¦n:ëŠ-‚†¤dJˆ)z­¿Üß?üÃGôÿ ë^{~ÓWìf?ãvÿ pSX(ÿ Yèr€éõÜµWVÜ4R‹R¥ÊØM¸
+¢Xfñ![•6¥²æi‡w[¤Äšb+z3$ÛA™ÿ Libm¯¬~r®ÆX™Ÿ˜ )'°R"Gš »—hU/L^~ò
+íQ+°®lË¹Â,ÈZÖäé.Ö&f		&]n	½}QûL"&ñÔE"uÄ@ˆıiØÊgõ¥jÕ¯í|ßêÊO›ËUü³@ü<mF½PQi5ä¼—ÿ qÉoº·ü1ÿ =¾êßğÇüöû«ÃóÚôTTô¦Ô¶ZÔŒ÷d!eºÉŠÚ92ézÍ¯
+¿¸³LñÕÅ†G÷İ$L-†Şó…èí¶WËeB¦¶íMEŞUf_.¢J©í])â_ª)äÌYfR{ªİ"u>û¯İºû,>ˆª=öÂiµ6¢×c3†­—eT"»ÒQò±*›&;÷"Ş N-ééO2í´ŒÕPE~6SíYÇNõŞÖêdìx8¼Êi‰÷ÿ |Úy»½Üãº³d	p¥R.•Pıú˜¶ú¯¥ûS•ï+¥Ë¹r(¢‘¦6cÂ¤4]—û÷…^?İÚ@‚˜aÑi©‘ö"^Ü(í°†W}»˜1ùÕm—2,gnzµ,«u0Oi)ôÛÙ‚Ùíö$Îp‰=qíRÍ²YÅ(ÓTbšö|f²Ebëı­Õ<$¯©T~DlË¬ó…4$¸H‹ƒâÔ´nÔM˜o(¾×÷F«jöI”î'òôá©ÓD—oÃ*Ø·í6—ûª/óÿ ;A«x™µQ‰¬&C,¾uéxEfCmÜéÒÁÂî’íG–æñ)­	ìûLÔpÅjŒB,@%zî‰ôOvÜÓg
+¼{`âª
+İÿ æ)İî§æÍı=©ÿ ÉYOã´¶w²%GğOËññwuü.2oÆÜ¿½nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1å§TrÖS®× 7•iñe6ô¨ã%º…YÇWDpÑUOİZ¯OÌÔJ
+sÙ¢T¦âÔ£WœTêkbğƒˆ„­©´©«ËQ¤åêTêÍIÚµÆàÓ£¹*I6ÌÄ7\FšB,Õ_5’í:ÎH·*Ş4*‡øÅ­–åöwÛrÿ ¸ê~{ÿ ìvv[—Ùßÿ ÂTÿ óVOÿ ŸgM¾š=A?nğK­”©5ê|Ú]V(Ö<T‹FÄÆ7Õê£ìïZs¾ÆKşÕm™òÆ)S)Î?K[’ñ«Áºe6åûTrS"¿P–ÙvfnÊ5ª5ˆú×%HªÀr,wß§\í> +áãv¡»RäÄ¾Fa©e<£[­Q«ÆÍm©4ªs²£µ.kÒ1Ü6@ñí¸w-Ë„ÒÌb°3`"±V‹$¹1SıVŸà]­“pØGWh“¤‹äiê9úaË•6'À‰¥zd¨’®‡RŠÃbŠF¸¹?´şpÊµŠ7.Â™QŠåZ±[“U!PÙkz‰ŒÙI&÷«wäÌU¨¹7H¥GxhôG‰9Y:]-–Şh÷XU¹’7§ó¶„ÅZ°+µÙ’kuh²[V¥E'pÆ…ğ$ClÙƒAv‰™'Èq(Ô÷ª9ƒ/ÔcUi‘¢¶NÌ’Ù/ƒ¨DØ	Šäg÷˜Sj«)jZnBÍ‘hó·´:ÛÎR%ƒ-Óª8Ä<D((Ô9­´ñ/Õoæ^—)æ£FŒÓÈù‹L°ËB¦ã®¸j‚¶	zªö%š®eš¬ZÅ-çd%ERÂ°jÛ­8Ùˆ:Ë‚¿jb‹r¢ö*Z~bÌ3š§R©Í+¯¾ê¥ä¿ÅÇ`=§åH>ëmxÉn³îå¼‹ª•'Y_…6ı ™^‘•éeJwp§Û€H‰6%ÕmVu*Ú‹X8PŞ(ÙB	ŠîáÃfòe™¨Ñáîl`UE™ªT¿î[ê_¨LñNAñ”¹şC‘üm6_Å[ñTù[¼l¹…1¶¨·[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä¶¿ôãŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä¶¿ôãŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹-¯ı8ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä¶¿ôãŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹-¯ı8ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nKkÿ N8Å¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä¶¿ôãŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’Úÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹-¯ı8ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä¶¿ôãŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅ¹+¯ı9ãä®¿ôçŒ[’ºÿ Ó1nJëÿ NxÅŸ¥ÿ wºŸ”÷Ÿñë”şK{u"$Ä¿+y=ÏŒ[»kmšßİÿ Ã³ò3ˆ³=6’Ín\% )ï› .$¥i#¢ÉnñB½Ó×wı	Ùmˆì6o>ûÆ-´ËMŠ›ºáª 6—ª®ÄKHÉÙ:Dª>Ñ¥6ŞlÍ *Óù¡öœG~LÆ—¬uÂŠußÆ»³vÚ®~Óf&Õ´Î_‡ï“M÷e;Ni«›Z¼7SsyURdÕPïd»‘³¾w&¤´yDyK(¨bu¢ øEA@•‡î‡ØIîšîã2j4v›b;ƒ,0Èm2ËB€ÛM6‚¶	r"lDúæÌÓS f:½6VH¥ÑÛ*;Å(Èphò±™ºl1º †H½ëñ*Yr6¤÷¶¥-İßşåg³
+%J6*R)dÕQ¶“¿ŒÌgŒcÈ’»¤¢{WŞ‹óeVª¯‹©JÆÅ
+†Éİ2¯:îëar³²TŞ»r '¤”Ei•¼Í¤Ê-©2òåÖ	<IÆvH9ÑÜ&›%¹ÆÅFí·/É«å@«Í¢»8Ø—ÂÉö1ê-ÙtÇc­ùÓjmD°èvy¤@ÊY¿.æá@#RóT%¼Âd7; ıJJ{Å.Ù[Ka¡ŠN€:Ó M¸Û‚†Ûša00+Ä€…nT^Û5;M°ÃƒL²ÈM2Ób€ÛM6€Û`)r"lDúJÈ¹àEí:Íµ‰U<µšaA¸³¥nÅÖjøo°¶Ø#ÃÚÕÛÁ½µ[ÖŒiĞu²CmÆÍ€ÀÅTLVôTíù™Y¨ÃòÕTØ,	ß:¦ø8qãèÙ·•FˆÃØ‚;/+…cënª>Å_0TÙn^R¢	ƒô¬³L5ßBu¦ĞœkÅ€í…ë¹UR+Ş[Á­-Êªİ3)dš»UœÓ_œº„™”×]‰»¥ÓŞVä“`nax¦"\g„q|Šv¦n7O¤B‘Pšl°ì—F<VÉ×U¶uÒÂ=ˆ–©¹‘§ÙB{²+­^£.+ÍÉŞTfÆT•QİÛ&$Ûp5³…ô#›–ó,ê¹Áqw]aá¿s.Éß29-àcÙÙµQbéŞ¢K~«¦µG·y';e‚‘ˆ—ú2¦]íË-_ßnõÜ}Ğ/iW:Ñƒ­:ãn6Hm¸Ù¦ 01¼LVôTíòÆ›34*LéoÙˆA*LÆ%yÆ¡± ˜hÉO
+Ëwe¯üù…èÿ Q«ÿ ‹áö™(æ+àGIRÚj4æwQÕÔeÅ*3 H®&Å_,ú%nUJ9Æ™@âmÖ?lï¥ÄˆH¨©j´eyç+pá¶ë†~83 Ñ–ñ/p1¸¥wÖ%°fw¤Ö²åqc¬iÓòÌ¶©îUL(ÒÏÇôqæ„pãKˆ‚ä+ĞFá¦fIµ\×£¹†gŞù*sjyR ò÷Û›„o&Ü»ˆ¢ÛhcOøâÛ¿ØjËÛéºÉi2C7·0ã´ãƒ%>¦r$˜‚10i\uS
+*’*íT´œëNÎ,i†]ª¼‡–òìŠdj„¥¤ {‰¯+‰äñ[/¼½HDCõÜ‹ªTY9¯66ŠY³0·7ÇÑˆÍIFZg¸Ù»üS{İŠÑ;ˆ«y³3»à3tx¦ÊÊ´Ü1hT&]RšgÀ1÷·ÄWv;Kº¶_¡,üµ™ „ê]@0˜/uæ¬Ëˆ÷µ\cï§g­QbéÎ¢É~§¦õIŞHÎÆ$AJ-”Ú’íÜ²Æ/xÄ{a{+İmæ\ZtÆlÛq³D q³Q01[ÑSb¥£½	Ôsy×`eèÆ4ñ–(¤Ôe÷Zm˜ûÔTo«±.F33¦¨„ëŸ³UÒêNÔÚU¦Ò˜yÛ§AØ„MŠ"+‚˜Q«//Ğ<ÛèÕ·/ıëZ»œçek´ß=Ó¢SbÊË@¢Ì…)w)ÍŒhí¾ü¨„xo0<@¤Bb‡HÓc­gz«­Ó¨1&ÑÑ˜£*Mâ“ûéÅt"ûX.DUö•¤,Ôš”|ÏùãJ•šàÔÂiÉ“G˜a.MB8ãA7ŠŒàîÑ7b·k…pÙ~Å³£óö½w¢ïMögÈô
+¤•(2øsã3.+ÈŠ„ˆìwÀÚ;‰/Ú¶ıÉ·v]ù³F»ö¼ÖÄ9'¡lÚ™nö»SıÌ¶DD¹b"lDDó%©Ó'Ó¡L—GréRdÆiçéò]d£¸ô7\8î&¨ª7>„óòÖd„©uğ˜/uæ¬ÌˆõÊQæF>ğvyïET\ã¢z°æT¦G¬eÚ›èa>,	‡£ÓËb¡2ŒÎÚ7ª4àªà[’~ZÌ†m2{wì£¼7îfCzåXó#âNÏ=èªŠÎŸê|©5=<•¼üÉÏ‰Cş	ï"¦Û ó¾ä6("g´q2½ÊdúãU‘¥“9Z6:0RQÅcır4|xÑ¢öoì¶ L~©ŠşÒì¶ğdo|Z=½½äKöÚ‰ªšs4Ã=ä¸Î4Í)Ô"W)8ŸrLl°ıôàItp©{à<(¢H%jg©Ëg-KËl’g
+EEÌ(r[½³¸éä<8X¸q‘û¼;ÎíªRŞ!–*yÆ·>rq¿Æ ´2YSDŞ²®²c‰6búMÔÊõ1Ùy<Ó)™rEf
++…B”Ë0CÆ/UG)øÿ í%ÃyHÔ
+lF340ZaEn<ôc9LÇnCsA‰cì^Êßb¨g/û·Ô%eFR5BcÕ)ŒÔá3ñÁ;ÃÊËî3{m»záA¿j¢_lõª4(ù^›¨U–jù/´(ÙÀ¥ƒ“İkÜlƒŒf¢4˜TCO‘OÎ3ø+¼Ç™iPQ‡š7H…¦(”w‘àñŠ*¾	vÂïÙˆpØj4H¬·4f Ze†m¦ZlläDìO¡têr*UJ9Æ™@âmÖ.õníCDQTT·†üáÏéğ‡ñÊqFm1)‹GD!¸U~Í£ÓEØÑ¢3Qü.+Œ2È°ˆ÷uÅ6Ç½²å²"%È›b"'™?ê^¿ÿÚ ?!ÿ Vèº4äYHœ’6¥d>ebÙ“`È‘ï9q¤úİ¦‘„Äò•„9P#‚fËÙ-³@]Mœ©¥„·u2¦ ¬†óİg)1Êôÿ ‹'Ed#ö`@Ü(ĞGºíåÙöTâUá<)d’¼å·äòÎVeÓÙÔZ2Yo¢‡Jôè^fùìb©¼¥k7U®°Ú#–ø\(šL@}–ü«pÖRÑ×6FrétöI©‰ œ&5hNr$s7ÍRW‘œR_ 9ëàœU>X<\dë
+İ: î“ÙK°Ó +‰Ór4t¢('r§ô4{HLmnØHni%XvoÙ;·;†t‘á>èVğƒáVÇbÓe<7¡0
+•(Õ€O@&*` Ùˆ”•ÔM'²{fºxıÌC€°Ÿ¾y,,øSêøúzH$v:G„Í§Ùj¡T‘'(òü½‚;,ÈÊ~ 40q©èLZSÓ²QÄ‹(#E©ëü¤mJ´Ì/ö–hK¤ºĞd $r•p
+wJŸ8Šƒ]¿ÜÂ&CÖê–ùjÄuÚ¢iÑ	èobÂ5öL`…A¦2ÓE©rë_Â9‚*e:>vgÆÜêÙZz…6ïŒå\¨€uğŞæk×²}R\^véÂücÕ®v¨ÉğÇHÆ®ÄM˜"ä3û?"^¥?dáãl¿%;AÖo2ˆK%ûËú¥.^¶×—Œ‡ô´fÏ`^£(Ê |ÒøzíZÜi‡‘­)º{NpëQ6¬DF'°•÷¬´ØËmóD‰$APXªğ²ägIaPèı\gC÷!±X™±ğ6ñ‚lUàğˆÀdÀ¢y,,qğ¶–±©Äé÷½P. -|½bœq¡ÉQĞÙy2¸Kyšğ–p±]`ğˆàMµ€4ó+Q”øU)ŸØ>}"om&I_OÂn<¼CÆ·¬›Aô06À;‡d¥ğvuc¥t|*ˆ:nËƒcõ(&Š&›àí‰¯°”şV!ƒC	Z;x{R€aî¾™eı„e;²ò Ğ˜‡ÕVg'Y~O£ægüÔÿ ×ë9ƒ×s{ ;HŠj±ï=b'2ó¬İ?6£iöÍ3î5"pDûk§Áúôµ2Œsà^Ïù?ùùğ@(ˆò'cœà¡*¾@Mß,bo*ß~‚06RiëùXY>wé(W*L–¬«„\<†
+Z)°Ôe"(óCSÁŒjÓ†sóL„¥¥U½>Š°@úÂv54Ù¤ vL,'M¡ .e §:NÃ1ƒ°%ÊXÎÈŸŒËQ·#–%sÆ@³_e«&qKÑIœ`ÒYì+æ~-?oç?ºzjz§Ô|84ã®ça÷ã®\!°ná1µ¾`Ğ>çj¬ß6˜N€‘Ã¥“FÎÜÌWBªU_üX”şDùh˜t>•Ñ à <Éc-ïKG$É‚Vñ
+Li\•Šîà˜¯%×O”…õ#Ç:)ˆÕqÕ"ÆEà0b¤›9?Ëİ¿3Ú
+‹¨Q$|W³X`˜(2€¹¨–;•Cäu¼/ÜCê{øÁ¢“kÔİŒßÆÚ(éÁ2ı'Éãâ«©%¢®1±u°wâru]¼.ñšğvnÚi3
+„G	¤Œ0ÖvOäˆ8v‡/RêDTDMÎ6.¬¨³B“åû/	~¹eU4Záo÷şjL9Ùá®Ïğ 8kFÍõ¢Œ¾Ü$qÓnÉSAØß_‚¸³$µùÑiÑ ’ı–Gna>À?6ívæ8ÁÉÀ¢C£WÇG&ªÓatŸM@q 8¬±IZ¾U5Ñ\tüB:« Ä‡¡¼"ÇÚ9}ù^Cåbì«w¢W¤)’û	0²v)4£ü÷„±Ø?·—GG“ÇÆÿ ‹Q®ß¯$é$'m’ ñlÆ²¿°övÒæ€xmIE¾³@ñ
+:"­a§aÎßã zö!lDáV~.ÆpÊm?8_vÑ×.S3Œ¤h”M( 8ÍÒÇ¬9ÕŞiz { \xÙØ•¶"èÎõÌÏ5ù‹cNeÌËÓL¹ üPşÃƒCxb²ø­•0{v\ñOYè«°q?)š‚.`\‘Q$`êÍ"&­7¥ìÏu®ºb¨ öuõ¸>_ü~3à¿Ã¤Ñ>w|?{ı×øvxì¼#…÷¹îY~É?EÙnÁRãN<(ğ È~Mé9PlĞL=p~`|”zÌp'±òëvi Ñ	^G…ªšÒ°PøÜ4!ÎO9ÒeT§‹G‚³Î\i!€%k¸7d äŞ>Ö¢9kÂ”"
+¢àCÍ-.¾T’ît<(å„SwÏ	6„Ûÿ ¡I¯ÖBy'ÊÃLr¨—j÷rzÅ_9€ìÃAdlÒ½0›MH>ÃR^/‹lg>\ÏxôoS¨“›A7~Oïäñz'u-Ó¾w­yÊyÑ“#‘èÆGV£Š90B}“gDE¬ã‡MWoÛS˜ëÃmkªx­¥Şø}]¯©úæĞ³räûÚôC»BHÕÌM½×yË$ÛÍŒõW!Ç¬cÖI%h<ˆ®k´ü¹XÔĞHá2+a~”~ºı3kª­	‚õıº áğÙõƒı‚‡c?·~aë0uªh3#É‘Æ&ÓG/åáêkœÚ@%`YgD‚LñaÌ9??—¶AúïŒş÷çó|8üù<?<D–¨+¬ò @€r—'ZMsŸ…€û9ıYÆl°ÜCô:cPú.™™P«%eğ2ü2ÊoÃ%³œ°‰–(Òeá`lBIğéñ„1•6~r°áoä}õÖ@ûü¢şI® üĞ¥Û›”ht©7£½:FIE‹'=­y„zIÇƒ7¡ÎnÉ¶5Ò¨'Õ6jÊš‚m‡«aå!µ–ÿ ¿èêGw|\=cœç9Îsœçl‚Næ´tœêÒàO‚¿³ÜŞÆ£Òƒn_G…ïÒ<rçP>‹ÙØvwÉƒ—şcy¼æ•Ë
+š;s8M:¸®I}£—1ˆŠ­›¼ï.M<wo^A9h¤Iï‘»Z­ä‡>â4bğ˜“Ôç}É¥ašzİDie¢üxnw	.sÇ¹@ŒÛ¤iäSˆğ7	hŞ#póJ –Îp¢òÊWN+ W*^ÑÉ¡
+qÇ¶DX;‘NzC3r´Ùÿ ŒZf¢ŠÍàïğÿ °İÕ[¬ôsœç?øŞ¢sœç9ÎsŸ÷¿n½3œç9ÎsŸ÷¿n¿Bsœç9Îsœç9Ïüo¿ğóÎsœçıïÛ¯Lç9Îsœçş7ßø~šsœç9Îsœç9ÎsœçıïÛ¯Dç9ÎsŸ÷¿n¿Dsœç9Îsœç9ÎŞåısœç9Îsœç9Îsœç9Îsœç9Îsœÿ ½Ëú¬ç9Îsœç9Îsœç9Îsœç9Îsœç9Îsœç9Îsœç9ÿ Dsœç9Îsœç9Îsÿ àËÆF?êíë‹ÄÔÿ 0/¨~Œqû°u€W4	ºï†ˆ„¸ß‰+j*<^)ãé×‚ĞØ@íx1`â0{r÷ƒ³†Xæ.—!T—Gÿ ;ÅPĞõÈåè>–«%auÊ„¬ 2„YWsXoèÁ üƒäL­÷ä¼XÁ1*ãYlÛ¦Pg‹ ğ[1(8(í`Hã =¥ŠJr´:vNàĞ[²cÉµ  iè˜æŒŞk«‰!²;	\¯¾o$µ`Q-[NP9Á<Ú¸EŠ_ãx¶I,eİp²FÑ5
+ìJÙbªé' +¸hL˜ò0 ‚.y.ÄÑ>Y	*ÎÁòë2Zò¢,ßÇ‰´OıqÁ‘Ä’²dÇ¶ò£—M¸œ[ÎóÉÓEvõškÄ´Æa¾©ôŸmIŞ‡“AXT'¨pèø¡¸€Ø\@<§Jë7•Pä]³¬ÙÙ0ˆlöI\	MÜx÷ÅZLCFøíW~“ ìõ³ AE0õq–¶¾¿ßP·"ŸÆ¾äîOµ{g*;(é)\ùJœŞşãlT,WŠdtêq·Xşùÿ YğX=Ç¯ŠùğÕ1û8¤lËĞ`;Xl¨ H.œ ˜@  qŒ›EŒÄ$ÃÙ50¡7a]ˆU¡ˆš(CwiÃÚÃ»‘­AÃÿ 4ø$ÑJ¤K“$»aeŸ)‰Ë3òüš³Ö•Àóoxšÿ FÎ  Ó HîTÉ\ \¨üdtÈü²íˆnCûu€ìopÂIeÚ&¤Ó‰E¨	UB"ì+³^ïSãòpünMQNfÌåg!€!ì»} f#1$IGAÓiö·7š*Ü£¢ºÀL   Ğú/_ÿÚ ?!ÿ w´ÿÚ ?!ÿ w´ÿÚ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         @                                                                                                                  ‚                                                                                                                    H                                                                                                               $‚                                                                                                                     ‚@                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               I  	                                                                                                    ’I     @ A                                                                                                      ’H      	 €@                                                                                                    @ $  $    H                                                                                                      	                                                                                                               $ ’  €H     A                                                                                                      @       €                                                                                                    $@’                                                                                                            ’H €H ‚                                                                                                     @     @ €H   €          €   @       @                                                                                 €                                                                                                                                                                                                                                       $     €                                                                                                                ‚	                                                                                                              A‚  @                                                                                                              A ’@                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ÿÚ ?ÿ Vø’c¹G ğ êh\ÒJ¦@‡³Ü€cTş¸¢ƒA¥Qº	ÍøC¿ØV“HxGõv©ä\M;ŠÅß‘¿ˆà‰3:­gñ…©j’rÙ€G2‰lYÛ1ƒÌQ—û­<Ak ÀıjÔÌfSúM£™ÓËûô<xp¸MDéÍb£“y«|»Õšxè•{ŠLs„VÑØ‡&8¥}–£]‰ c¸)æŞÈ~J6­ÏcUx‚•ø`‹…- QéÅ.”pd<F¶]zªĞˆÊ9$*˜öU8Qç{Oÿ 3€.°kÒƒ±‘,M´L`£3‘ĞİHÑ– ­A°4Á¼ï7&2Bğp@AhˆìÂYE¢ËQ¬Lã²h¡úKX·•e¨”±£á¼ß3kY@ŒöN”ãEÖm€JWíkËp’¨0m…V•6G^’  €("#¤L}Ü0TuÆü+YB…tpÎ,^,‚jÍûJËXùÀ²‰	SwÙ5öÍh™Iì2£ı=-Å*V)æIÆĞ}&9C B{%¢†©êbZ†rÄˆ¡K?])£Õãğ d¢aÍç®û&¶mÆj»Ù†‚cˆ-¸7q<X‹Y‡ÄuÑTÕQıKVmĞm^²¹èG^òÊª“D=“–“Œ5ªîFïtV\ÆŠb”õRK3;&¸øÈ˜\àÎ¨ÑöO½;ªÃƒ«RÌq¹14 ¬|'`é‘¡ KkËùºLß<aåŸ|ÍRÚ¿ç0Ø@é ¼Æe8aº„§´HÁ…D†4—”"°’œ:!‰¬¹ ùlX±bÀ§òø"†µÆa`|d]X,â\ú^% ¾	9L(³@\—&ü ŸÈèá j°ê˜¤D|†hÊØ‰¼µÂ=³CW¤ÉÇxâ¨×³óÃíLmîƒO+*q—ÉgD|,Tÿ YŠDGÌ(È˜bA «1Q»+p‡:¯ËmZ j˜Ô˜ä†:ê
+õ3<o#Üßò¢÷ŞšáíöK‡âÎ`(C•¡@n³óT]òFã.4j:ÓêUo…Æ uÆ•Ë#•‰[‚°âı„M@ÚÆ‚@å7olï«¸„ÙFvø>wÄ¨f…»N80°Èj×b2vmè*š:­¼{wä”ƒ¤~sMÒsİºW‚i§‡#0¨A±LášÒçöÓ ïhTÃ¤ç‘
+ˆó†]şvİÑ¹KZE;ì˜Ÿ@XïäváÇ¬Ó£UÄT’¢ H+š‰Â6d¨›´œƒØÃ¢R­£åóÜË2¦ Ãià\åãpb‰#Ğ]tµG>.‘á!¶ä˜Úç¬‚èf(çóÇü‡n‰ÔÄPe†ÀËÅÀ¼CyñÏã¦MGg3ÓIíaR8=„óh@Õ‚ÖBğw­fƒî£#´pGM6¾/ÚARtÜcÀş»<«ËLıÀF¶F®C?3!qTQ<Úöˆh€§8ûä&JHv 9@·!è›˜Ä~5ãh<ÎÉaù¯ç/D à <Àj?Ns’|b&	áîÆF0„×÷C6q,õtª·w4àSÍN@*€{BòigˆO£Õÿ zp-«¼F‘&]ÀÆyšä{à¶Û¶Nq­önÄªK&D <Œ$”„F'«{ò?›&n„ì, º¡Áğ¥A\¶5“‰ œà~ãëçjCdœTÕÚ¦ià¬‚XDE¨I…é¢D°c—*#¶ë¥ÿ °(ĞÙñ_*+uÁüPt7b D#±H Eí]±AR`iæ›¤¶e°! ÚÂ§dKÂ/‚t[RhjÚdÃÁÁcÊû`i¥ÉuÍ éÜÓyK¿»pÎ $CÔŠ|tê(§ÓT³ÛÀ€_^Kñ0£÷õ€*Œp¼$JìR‹¹S…Ğ¾ğ<¯Û_&Ìš!Ïa d*T±X*VHÖ78ítàp©_€çŸ#ş6×w-YtÕcÇgˆw–YM’‘àÀ§÷T$À„øF²Óiÿ Fe‚vB6k[ÂÌhú¸¹ıäÓ‚ˆ?€.h55:.RvÊ! 
+á&‹	·  „Ä£·ÈU:i.ÊöW~W éè2¹=Áı)Öƒ®èålDÍ^•¡w‚? ±@	â+9°/¤ˆÔ€¬zº¾Aı2ÔË’A;Q˜h|>°Â" Ä2„Ã@c€ÄÁgÈ£‹d™‘y¬Şw½!™ì/]ã=Ğäâ#Z"Ó³@t€ÜÀE.äêuä~nÍˆ<ƒğ•ã‡1Í-~(ò"¶ÖI¿Ÿäè9Aqæ‚NĞl.J”%e/ûôàIìˆÒ@A£$êZ1Ä¹NC ¬Ã¦çØ¸»Š½£Qªp…›*ğu1X+ˆ¢÷L#ˆ
+ ëµ€*ë@ƒù·úš±ØE¡W‚ƒà‹AˆÑ¹	Ú‚+%Â+¸šÇEìXà);i@\ZM“?"ŸæJ“.ì·I¸á¢`TÌÊ!„Y|	L”Œ½†ï­¹(ÅÒ€°l0EN¨lí„´(Ô/ØT@…py&‡°1Zxˆ’¯BèñÓ“=};Šp:x$SªÜjtÈÀŞ[ã *u¹¸¸qÙ×äFtÀ–ÕqF¶˜zX@ôšÕUd‰xšláÙ-1ÄLA°<¨s³ºJÂ#) )	²‘.[ÂTÙ…6¡@@zÅ(¸ª$»bRîº÷ë!Ê¥àİºµ—C‚1/´şPA}§[ÁÛëœ«ÚÚŸ@`Å<D±¤‡§®N}ö-6éZ Ò=‡]fÙ`#FÈ	˜é¡àé
+‚MMÑì¢Şj¾/Èİ%‰ÂîüAãÇÙ9hÁUjóš‘N
+:×"8dWJªXxŒ‹0Âcıb©-†l©GêmO³F¸<X> D)e“mFø*ø\-Ê.ypµa1BÙk©p'¡Bq¨©|¢Ó_¢…†­A2œ¹Š2’%n¦üv2œœ‘Jº`%ˆ#$]t£e÷Ğ;Lœ8°!ÿ ÷é7ùûŸÉŠ
+¹Æ1ŒcÆ1ú¦¥°’¼IJÿ .D¡Ãâê-¬š&§x8Á P¢F› QÁÓŞ À‹A`‹Sjz¦ÃE]
+Èrl¡Ì•9ˆšE };•ˆ.&kÄëËB ÆTTVJ‰ä÷¿ò?ŸµÀrEùóô´D ¨ï,\ŠQ0ªE5…ä[0^UáÂ*y¡à	­ç&İ¾ómG‡ˆ›gû´. ¤f¤M/[z3Cß òŒå*†9¡ ÃÜ1Ã	}`œ³HNW„YµJ0%¡Iˆßì¢„ĞÂ‡Û–e…¼ÃÀOÙĞfÍŠXÇœcÆ1ñê›)$^ºİ×ñêcÆ1Œcg‡ĞÑv
+l51êñéŒcÆ1Œlğú.ÁM†¦=^?B1ŒcÆ1ŒcÆZ	”¡{hÃè_8Æ1Œlğú.ÁM†¦=^=1ŒcÆ1Œ´()BöÑ‡Ğ¿¦Æ1ŒcÆ1ŒcÆ1³Ãèh»6˜õxôF1ŒcÙáô4]‚›Lz¼~ˆcÆ1ŒcÆ1Œeİp ®Á‹¸Cú(Æ1ŒcÆ1ŒcÆ1ŒcÆ1ŒcÆ1—uÂ‚»",náê£Æ1ŒcÆ1ŒcÆ1ŒcÆ1ŒcÆ1ŒcÆ1ŒcÇú!ŒcÆ1ŒcÆ1tšY‡ç×¥ëª¼?Ñ•Aú3ğ\IËgDqõÀÒ È¶NEŞ”¸`HúKÎøh˜‹'s©Ò"e Øú_<E úÛ[àa
+×°ëÌkĞ0¥Ù¤±"$Ó!¢æ¸/ù±{‡uòvĞÿ ıò `y…z$ß‚9‚îœI×ÿ ÜÅ)†E;#¿@ÙÀh¢P•tc‰ŠÆ[vR9`ØO5˜¤D}M5ïZb„.xÓ¤šhÍFF…Âü¢Ã‘>ûó	ä¢‹Í¼Ã[G2€<ò}Œé?doWÃg%Cƒ$N¾Í`Q…€ı™'ÿ YŠDGÄ–Áô‚‹B,ğ¡R‘<„´KQ‚ğ‡t#°B•.•ÛbøæCôÏOSÚ6UF—Ô¹ˆ¬yR±^j²q‚™;HÂG„ô¥y1.÷¼Ñş72[Àñ—Ê¯3ù}’¦è”~ö`ÍJÛ(ı’‘dÑˆ—9MsPùh÷„ë–
+TY€DG!şSÁ[ÀPB§zú}nW\¨´/`-§M¸nÃ4İÆğf¨nLæÉ¸';“d™ê¡UAaşÛÇ.~±2„7~¦ÎM-øYHëïÖèak5ß	‚í¦Õ]®k·§¹¨ïpópÀoğ@à  2‡cÙ˜o‘¨öN&ä^Ø˜ ÍŞ®²æMÈXÍğâäî”˜\»ÄÜ÷..HôÈ€æˆÂ ä²4R¦áNf JOSä­Ê*BûƒÎ80ª(·¢ö³
+dqÙ‚K_ö\ó2i’é_)‰ä˜T­€v¡†½íO×h˜¢brß×ÑGÀ ù	İám¯©A##5$Ò y‚@eÔ“»W¸Ãˆ£#DPé IM’WL 1Í%3¢80ü 8  ô^¿ÿÚ ?ÿ w´ÿÚ ?ÿ w´ÿÙendstream
+endobj
+49 0 obj
+<< /Type /XObject
+/Subtype /Image
+/Name /I2
+/Width 2480
+/Height 366
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Filter [ /DCTDecode ] 
+/Length 32066 >>
+stream
+ÿØÿà JFIF   d d  ÿì Ducky     d  ÿî &Adobe dÀ    
+  !ş  M  o  }@ÿÛ „ ÿÂ n	° ÿÄ ÷            	
+                       0€7 6°Ğ@Pp1' 
+   !å–71"AQ2 0€aqB#$ÔRb3s´5u•6v‘±r’Ccƒ%@°ÁÑ‚SÓ4Dd”µPp¡T„&EF               Ğ      !1A 0€Qaqğ@P‘¡Áp°Ğ±áÑñÿÚ    ³                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  m5‰8                                                                                                                  Töh­jÈ?                                                                                                                 
+Ù1#ï˜Ql¦>Taq÷€                                                                                                               bEã,øæJ^ä„$                                                                                                               ê qñÏO5  x+Lœß2³ö                                                                                                              «‚ÃŒÌ÷    |7):€                                                                                                             ®ÂÄÀ    L²                                                                                                             \„”$8    ]”±ğ                                                                                                              qÈÏ    cf`                                                                                                             nWéi@   ›T”                                                                                                              
+ 'a¼À    ©’ZŸP“  6bE†À                                                                                                  ×` y3Ó6	ø5)¶h2|Ó8+ °ã) Ğj“kà 5ÉógÉ'É±Aˆ•¨XÉ–Mà                                                                                                  ‹å(‚7™á´ÏahEeYKÂ&È’¨´CP0š@ B#šÃ¥²j€  Ó§Û!áë,8ÔX¨+\ÛĞ                                                                                                   9ú&©f EZ‚¨¦tŠr|uZeÆ°6Qí Ÿ³Eü¿    &EÃ=%¨æ4Å	à                                                                                                  Ÿ’k`U¡Ò 0”S¬£/+À¤Ò|’kR…ÎŒO%8’ì–&gP/çZß    üŸpüÚceŠ(                                                                                                  ~	¬Yˆ QVÇGÀï€´œ’ÌJ:Ô>!È©Ô¹¿NT¢HWáÑ1ÎIcÅŒ    ë!Y©	Úl`                                                                                                   sğMbÌAŠ´:@ ƒ8œÃYä–Êj°‰ÈNÒ‹lÉ’Nr‘@èü    
+&¡#@                                                                                                   ?$Ô,È(«C¤ æ97,Ì‹+(Œ¦‰/hç˜œd‡&iÊa. ˆ‡WÆÄ    ÄŠÙ-L                                                                                                    }ÉªY˜ QV'G€Ò—
+|:º7qœ²“èLç`ŒGS¥^‘¼¿|IjZÈ    ­bj›P                                                                                              şk0   3ID²,¼¡ãöy=‡@&nRÁĞÀ>…š\ä/ˆçœ´¢g BµÀ  )‹Hfäğ"añ€                                                                                  4ßà                     [›       ÎUñóè-(ş€                                                                                                          K`”fî   €!YjG$EbÄOÉï                                                                                                           àªÖh  Es[Ày ÇŠº-˜                                                                                                            +°´“Ú&kCf¬éM¢F¢L<Ğæ:ox€                                                                                                            ®²ÒH°kÒKğf'òpW™aÇË5Ùû6™ñO¸                                                                                                              Á>Mâ½‰ÖmsÒBc559`À                                                                                                                Uñ/H|ge… BÒcØ                                                                                                                :@‚Á¢~€                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ÿÚ  ş¬1Æ×××˜ù	­ß]<˜½½µµ³¼6?¶äUU8øÌÚıˆd<pÈÓ¨v1XÑ[Ş¡"ò_¹0­?l7½õÛaì]˜ğ-«w™m=êïKÆ^S{N¹{"yÅÉÇÍÆòXRb6‚éÈ­o‰„`ZM“™ĞÎÖÀİ×në1@š±í©ğÉMuÑnŒFëËWù(E€7£·›#c¸×~²á½Zö"ZÊlÈôüÌ;‡Û¿j»y&"z~İãÃlÂÍ·G†ï¥ÜñéÑN¤9¬ï»N^Şm®/şIxç]Øüs VCö@c§Ğ—ï$†šİìMë^l†M†ÙãP*5¬‚Üó¼’ì=[Ÿu×/in&<1¢FrÖğ¹Óg¼²ã±y&p+Â½®;3´nïëUgÛuÖ{ƒ¼o$Íƒ&[ÈoZƒˆgø¢‡¡›^rÕ+rëÏ¨·kºĞI…·ÊÇŸiªšéòã€Õ‹ïğEïğEïğEïğEïğEïğUœêØ×ˆŞZ,í’ª«µ4ûüQ](êæòÎÉi°˜qîò1¶ÿ ªÙ^›šş›—-Ù·ïğEEt]£éÊÎÈöB%Ô ¤ŒÁ`oDûÅò·Áb¦S&nÍùNÌÚqË[=“Œ3³B&ÍºÇeæ;eyÜCOÀ›a~:m„\@ä#ªÎ¿6Â§›_ü¹n«:ƒß)ôÛ¢Î?Ğ%è×}yFSêE|]ôÁdzğÒÆ!ÇÜ{øÚ¯éä	O¶µÊĞE]‰õ×€pÄ~È.(ÈÈá§YßÂö)é'MéE>¿ÓoÕt[`co–[ä'”ß ñcìœ’ø³ß)ôå0—óXøÊYèÆ½³ñÚ›órÏŒØñG™8pé•Š(¢İO'J}XÒ­mw¶ŸâùW¥xg€l›’*_n‹§Eïû¾õ5é™‡ŠáŠã¦õ¾8_HD|„r›ä.,}Ó’_q¿å>…L8å–.¹‰0<c².Jz£I-:'l•»#7|áp=ÔsŒiÓ‘DŒx›Cä”:¼:b²5dŞr2(ºİV¿oËq'kqÆxlñ[°]°[[pğUSM.l¸”ÌcslËÌìí¬¾B9Kò>ÁéÉ/‹8İòŸ^I‰z×‹=LUr4§×ö ×–1ôû~Npan]œü7çŒaöLüÛ®ú´›İ UUÚŠJœröÆdjÆbgäÑW£q°[×O—#E½¿°¸ĞUë`¾/z©ì¶^ĞÈcÊq	ß¥b¢¬¡¬¾B¹Mò>ÁéÉ/‹8ßòŸ^B‰û—^hòÏilB·ûãaLy{öİº,Ûä`× ìn?ûƒZò€§ÒÃéÖ÷ûéŞ)~¶·1/µµÏF}sa.B{“bh­x3jåÈ2|h'ÇRŸol?`µœï`}X)¯îyå7oı‹atä—ÅœoùO­ë6²,œ_1Û;KÜzŠ‚Ÿ­k”#^¦ÅR?â¿î§¬“Í­Ø)»°³xÉ Ú<®$ınñ˜cÑÈm
+
+à`º”¾~8íeøãµ—ãÖY8Îc‚OöJF|7ëN÷Ù´-Lí^CyKò>ÂéÉ/‹8áWjvŸî[_¹m~åµÛ¿në•B_ázŸİºµÀ½!ÁH¡’É àËó˜	_†k#?\’îÃ°ŞvQk+V;G*JŠÍÅñoT0ëÉ±G9âÁOóG¼NCĞ3c *é=áùô¨ûÚÎ"™È¦E2)‘LŠdS"™È¦N¼Š/#9ãóàØoMøÌìı®bÍ•OxÇf¨Çf®Ú¿gwZU±ÍŸZljL‚u ,º{×sjrÊ¶…	É\ƒÌ1Ñ¨ŸùmáŒh¢2C@ºïĞ¼£]21±BÏü÷ìãYa!e(niiÊä“5Üi®]irN;_Óœ&E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS"™È¦E2)‘LŠdS">÷K‡ûå’Æ,‚ôWnÚ±iÙÙç|<½‹¼è—fVg½ğõjÕ«¼ZŞß‘ãˆí¯a³x[a³k¶WmÍµÇğ>†ÜèSPúÚè¢å­[±oÉË¶~‡#¢º.Ñàl#¦íz7­A\IœŠŞ2÷qŸĞìéˆÈØ6×¾Š¼‘’3³=è÷º+¢å	ö0XvLëªÆÄ2ÉèìÔŞöÛÆª«ö!—3xÆÏĞoS®ªY[óVcc´ÙŞ™|Ã[­)®D¬ù$$g-f!{ÒtWEÚ6ÎÊ·®Yuî¤Ç±O°Ó¥øSi<r)¥Ç^<ìã®ÿ õÆ¿²–f7°Á×`Pª{öíú,¦ÖüÛşI‰FÙËYµ&A±™(Ó9s3SÆ’u:4íU4×Ú›i«k‘f8íÁ’an6Z¿H’Ò—İ]·Ïl<í¢›­…Ó¥š0@´«Æ-%®Í-ÏÕñ»xø–±ğûvı?¢õÿÚ  şïiÿÚ  şïiÿÚ ?^ÓÿÚ ?^ÓÿÚ ?ÿ -z[å2`«
+ÈË”Ó)Øü†·­îZp¶
+¯¬©ht–fT`¿9Ôa‡êp†$=ñ}í·$oÜF•ÓîŠ®ÌKÛî2™Y¬Ìj:Jì‰®ÄNÁ ¼İuÂî€
+)-Éh•z<ÆgÓ§4F’ÊŞ&+ÚŠ‹q6à.ÂD!$¹Rû<cëNùûÂ
+©³áµkPë}u›ê5‰ĞeMšmÈ(QÚFT37]_l“oú´A‡¶E¯´ïÅ˜Ãm„Ê|¤O“•Ì;|ãê˜ì[%#P3uIŒ³•Y:uÊ,Ğj]hJâfkËßTcª«âN÷p&ÄRV4ÿ ?Îr£–ªNê†lx”Í¦ñ¢x*‰› 7vß¹%ó´©ƒÜ_¤™b¦O½A©Ï©½>š/8ÜinEHäÒ¼-¨â[•FşÔ+»lõvˆÔš¾•Õå¡UèÀJãùfKê ’£ãR]Õû û.mÎöìÖkzJ)™^;§³`†¸*“‰ ·,6ë›x°P1 ÷œQÄiªC%§Öoc­Q£?>.¢Ñ ‘Z¥n¢<¥y6à'É¸½˜UEEHp’Š)
+.,%vÑÅrb¹mR
+T¦Cƒ*Tjx9º9¯°ÁºÔQqDğæ8Qn^Û9©šœ¨G˜–CÍĞòìÉhÄ|´ÄwL[!‰$¶¹ñ™íAõÕIÅîÇ™æäE–ÃRcHhÚ~;à²óf›	·$T_:{‹[¨æZ£4ØÏ<‘ØÆ.:ô‡{TXÀ8û¸i*Â¶}ÚeBUr ˆƒ—Ÿ=—¦H5ÂÛHì˜Í´Ø©v®Õô"®ËSõ3R:|ˆ
+nål¥äÛ¤²ğã‹‰-ê}"Új7nìüIL·"4–œbDw€\eæ]u²E¹Qm“F„Å:pG‰p¶Ú*©ùÈŒÉo"UR%Ú¾Ã7UhÙFœ•áã[•óQÏé’w¶ôcxE³Õ¾ÙYÚTÆ¥Œ%*—1ô8Óà@Tg›+·p<ş°ÜI±Q}ÅFã†-¶Ø‘™™ € ¦"3%¹EjÚLxá˜jMÆ|Øñ´êJ?	òmnRéÊhÍµó.½6öYÒb›Ÿx"i•¤4Ê:w. 'Vaî„‹f+–ïBØ5/Tã¡8h¿«>Cx Ò`®Ö^—ëĞQqbRï¹¶áäG ÑX}’Gyš\hÇÕ6ÜÀ“ÒÑ'Qôâ2¿G}w¹Ï&7‰#?T‰Ú9 Eİîq\){y"+J`‘k´9(üY	s“
+H¢oaÌiwRUììT¸’ñT[%B¹R‰K„¯³$Lum_h6Š½¤KüŠK±l„*„$ˆ¢H·¢¢íEEMŠŠây™(½"•‘)w¿3 ¨HÚ;›ØÀˆ~?®}Ë¡Ğèš‡O„[mó3íq÷Ü^óÒ^>ñšíU·¨ÍOkŸ\Ó|ã#"`PªôÈñ<L¤‰©ïã3¾i¶T•pá\
+«‚á\6µ/=Ôs„8‘¤5O‚Ó%M$I”¦/8ŠmlQîí$LJ¢˜VFQªešş e¦Gy•ëXÏÈ•+¼Åm™Èö\­ü[ÛQÃ/f,±˜2LŠ —Õæ4yo¡ £ºÓŞñv	z˜¶^Š©î&Îí¡Š˜êdÉ´$Ä"äh£Ú‚jÚÜ¾|+èÿ  vXjâLNÓª"xº\Ü7¨Å³Ïë‡ªàì_J3¥úœâx•¹¼§šÈ—ÂÖ¢)î¢Æéÿ N«Ü.ö/“=·{‰Ô}(½š®"0eA¼ W£ªï$xhÈ©òç´•¤Ú¤¸šÂ{	dÁ_U‡pV(rç´×ïQ[ÅPIØÄb¸¹=q^ß[ÌG¥üß«êÚw[Ş**.Õ¹nKFÕBuª•R ØIÊô~ë”ê=IN+Í³y·¿Ãq6­ßŒ¯u{¾âPÏúo (yâ'd0Zƒ˜ÛØ®±0æ|SÂ—*š`{°î[Œ~µÌ:PÛ4ˆ;§*ÒbUyæâ¡"I}¨íH’b‚7®ÔQŒ·m´Jí
+XK0/M2â}ö4–ıfd°[Wø®_m•¥Zx¬¹
+äo9æ‚z({ÄG¢E^Çá%M®`“Z‘AŠã¯G¤SãSÚyü;çF3BŞñÌ#Œî½nOq<ŠuS1eè² ÏªÓÙtEÖĞ°=CâX\lû6¢Û6Ğò}A£Ê“²ëuŸN˜ÜÊBTHéØÎ:´n4ŞçÄ"
+÷P°ö"]íƒôÂCtãIÉCT¼Äß¬ã2[£·!ë®[îmß„»ö©CL‘CÍyÖ¢æCÍ¸ƒ÷àc›‰z´éÆ>áwÁSméq/¸›U#æjSUVaF¡=·^”Ê4ë”úx§…}…UQO=ö:\ G¦Nr9Ä9Èœé,w§¼2e<„lŠö_³ÛµŒ³5]šRT*´±†®³)İúÅIÛôOÃØw{ñí»¶ß¶0¿é*ŸA´X3u<åMx#Æjtq7[›m]‘¦[S-‰ˆ“nÏf™3Mè-gÅ\~¶¦şæ™Ji´»pì­óx”p“î ‚ÜMnm7V2”\¥M­ãj[‡0eAj[xon{*[M´¸ÒõÄ*ßj¦ÈDÀÀÑHUHI/BMŠŠà“›S¬ì¹Ò‰µp÷ÌfH‰zíU·í¦TæOÒíûi•9†“ô»~ÚeNa¤ı.ß¶™S˜i?K·í¦TæOÒíûg•9‚“ô»xú•F>É§Œ›-ˆ±owïIâ0kå/Ù·m†+2PjSHÆ,
+¼	rH[LFBËqDjìÙäR%AE"%Øˆ‰µUWÌˆ–ı´ÊœÃIú]…ÆÈ\mÁBKÄ„’ô!$]‹ì‘YªÓ©,:æå§ªScAiÇp‘îÉ.6$æU¹6Ü–8ôjı¬ûmïœf›S…9ÖÚÄ¼6ã<áx‰õÙzù*z¡!WrfnLÓ–Ñ'Q¼;qã1%²ó³{(¨KİUUÃx¡ÖhòÛ›NÒ=CK°‡°„…{ÍºÙ¢‰ŠÜBIrû#yç¦šq×\$Ûl™™* Š^ª½–ı´ÊœÃIú]ÆÌ\mÁmÀ$ 04Ä&—¡	"ì_dì¹¹f.Så¼~LšDŸxşİ×\`Â÷Öß²kô%7èö—I*2”O¢*M>)ğ¤·~éö]e‘RÂ«Şî˜ì[3¦Z¤ğ‰  eLÚé—ƒ«ÃÇºÄ¹.z§ñDÍP…{m¸ŠAiõ ó.VÊ®ç›M©µ-•ÆÓ@—îÚr¸
+<®İ"©E®ĞeŒ¨RSjz¯Å}Ø’Ú½U™,ª÷‡ì¥è¨¾Z•6NETèoFb©¤B7
+<ÒÆOzâO2¢Ü¶Ÿ¦Y¾šÍ'1Ô'ª~bE3š…Ó$Œ+-îö/3	°UoAvüR¨UØ.¡óìz;ÈŠKŠí×±)…[Ä“à[ÑU-á2ş±æˆé	‚n•ÁÄÑ»Ö<S&j¥ºgâŞ-­Éñ|Ö‘‘³Ã?Tçú.&^iÔ›®²Èâñğ°¢4N“]òû†(ßvôp=^ƒBªRŞ¦“,¸û1„†=B4‡W} Ûhp¶Ú¯nÛ~A‰únôË~A‰ún‘ôË7IÌ‘‡9ØÍm¶åF–+×hy×A²ûìíW.S™	™GÜr£)$€Ü!İÉÑÜ‚êmºë~A‹únôËô—_¶úİ"ë¯ÛÙ-VÏ4â\mKËíšl[ŒlI/M©joæÊÇâeå¯Ršm‚ô•©ÒĞRàJ}EVCMÜÅ5&³µ5§ÇPËÊ´)˜–óİÅZ{›vá(œ€½…7,0wÇË°·ò‘gÖUDmÕ÷Ù„ÛWz1­ª9¦CXef)~!*.$¥ÓT›EKûDârÿ J6+äÌkR™‹©sbŞöß¿*3¬±¦ŠıûÏ™\çø/¶^Øq‚qÊ›â.6FÓÕ)&Ó¨„ˆª‚Ş‹çM©³ÙT™iÌ3³
+6ŞöêP‘ÔfÛ’f>ñy)`ã˜çeõZÄU¼°ÄX'é¸àiğŠûK´Jã*¢¿)k8Re:U×˜•Ëæ!^éÅ´j G€À®<W²İ4DzL·>]÷îï*ü	±-P«é~o™´‚uJ9Ãñp¼Pö$†Ó@¸¶Û½PW
+áEÓ­V0
+Ã¦«—sFìY§×Ùpîe¥0m¦ãU¸
+áï&ìî;±y4xğ†óõò ¡Ü8°øŠzáÅëaÄ]=Ô©4ÇåeÚL§V¦A 9VxHß]Yª7ìREĞ‰/‹•£Ô‘ÆæGiX¯^ƒH*ƒêŠÕ1]<$®©î*â÷S¿uàÿ Ü*–ª~óKóÈS|şZçJ7ãƒjgæÚÇâeå¤gÍ^ıÿ «j&)ŞúºyßÃ_´;ºŸ‡³ùy÷0ÃÍ¦ÑWº•Häˆ‹ï+¬+¡ïª§–uNaîâS¡É$şÕˆ¬›î–Û» ,ûâ*åS4×~E«Õp»Q—‚;)ı[b)èµ*‡	cR F‚ÕÉv$Ğ¶®/o}ÒLKï¯’lÇN”ztöê1™7_m¯Ø˜&øq´ÉªàIæ°¶Øˆ 
+  " 
+\""›E=”\¼ÃŠ±rÌ$E¸µ*Š7&BÜªÜdd}å¾Á¨˜]ñ%˜•‚»¿¨nğ%şß®Fÿ µ[MËO¹t\Ë	V:*ìJ¥5ö®ü,5y=õAöÃ¤UÁ[pM©0‰ãis.É{E{m{®¿r ¶Ù P På\")p¢|ö"Y—s]j«´ö²ã=\—¿~£@š·'AÇ¤›l—n5SÕ¹Ä¹hÕˆ,/N25`gB¨Èd†f`ªFu§¹E£VE?ªnûşP°’DÑÙ—['Li .²û.mÆÊñ!![T²éÓãÒé˜¤Õ²ëãéÒ®3ÿ XÉï#pÚî ’àİ%ËÚ«j„z¬ÿ ­š VäQiUbmÁv}6;,›8ãŠªöåÂ«Ş@¹
+õKıÁ4ïİx?gûÂ«j§ï4¿Ä)¾ZçJ7ãƒjgæÚÇ›şL»}ZÖ^•væ­O‘¥û§L/ú'ÛG‚iï›vâ‰WËµtUõ™›L•ŞEK•Ö®_2¥©5Èk|j¬³šû”Ğ¸­—İ´J¢^úy>§aÌ33D±r-Æ”øØeO?äÍ´¾ó¶®gŒ¼û‹%$	Khox¦ùAª$šhˆşÀ´z&h¯ÌªC«Á—#s¼-T–É‚‹aŞ6£˜{ø¼•ÈÔ	²)Õ²§¾å*TUxg°;øÍ"šà’ëhÙ}É-²øæ<ËQG:›Pªq%«[­Ì¼PÉÇOnï>òÒ²şV­Ê¥,JbËª¬=ÕîHœïÍšuLof3‘?­³uìÕW›U•Z›!ø>3ñ©ÑËÂ4„ïï2gœU-R¬M,1)peO¾}ÔVMãAô™ \‰ç[<õÊõW2Öˆ„6®)u9}ÆÓb®7nø,Y
+xÕß©®Û¼»°—ød”›ÛşŞÑeàV*™r²m.ÅTÙw<ÁlìRiE}ëSêĞÏJ”(Ó£¥™LƒÍıœ'í²©•(ÍM9ƒ*+ã§™q. $ş%íEÚ–‰K¦Ef,„x±X2ÓipŠ'}*»Iv®ß"‘*Š)Ü")µUUv""ZmH²í32B£V¹UqÖi§+fé2*#rÜ¸‰^Ú¢˜@¡g–hùG(ƒË&±ú½5•V À­BQñÕ^òl¿C~"CQ´JE"#PiĞZFcFe.óª­änm"[È‰o]¾àš~Ïÿ WèÛıáUû6ª~òËşNÿ '–£ùÒøàÚ›ù²±ø¡{®£·‚iã¯DîJ6õøOäİ_}ÛOÊÒ¾N]•¾ˆ*½å¦Tˆİ¸SĞÄÔrÿ Â'’E5§1BËÂ’Ò"Ş>0®‘R?B>hÒş
+ÇG©5üílÚûHZªÆÜSîìÂ¬ÀFÎï1ªÚ,’MİC-WE]¿¦MÂû~e¹U¥KDŸ±Ç›‰lÛ3%¡y¢û ij­nb¢F¥@•9ÛÖìI¢qOºt“
+{ëi•næÌ‘5Ü	„QÙ/çäC=–Ë•’sy(à7 ·Ş¿X@ù¤µ/:+®5à$±-Â(¤J½ˆˆ—ªı„µJLKßw0æ‡L½Ucá˜>V(7}©tXitjT°Ùuáe	~èğŞ¾úÙŠ†^h˜,¸ˆH„”Ø
+Ü©kö×8şè=
+$¶»Íâ…•âAUS¸³ä_ßòÅLİOÁy$TXo,Í*Íİê¤Ôù½D?”O‚:¿…±ÑwÌ¯,¢"­õlÕ90JşÕ@=ëièFÓÛ¶’'Â¨–‹“rTp®gê¹q¡€£ìRZråñuğ€ë¼"J‚#ßrà»ĞórÊñ(³œl*Ruº‚Â¾÷ÙmB—lÃŒPûn¾ÑhT(©d½Un'å>WoeËväW¤¼©µ~Â\ˆ‰î§~ëÀû?Ş[U?yeş!NòÔ:Q¿Rÿ 6Ö??}=„éL7~Zq+qîKÍc2&“î|!«ŸIj3ï9»V%¡Ô/,!º¨êƒ…‰ÂÑª¯b"Úµ˜$İ»¤Ó¤ËA/é^ _ÇÃ"Bˆ'Ãj]1ò7­UeUÿ á±œê£ëµ6îDşÊØhE¶Úm°¸@@EbŠZ\ÖƒLÉšÃW"áI+|Yá}×)x†7‹øTµ sªĞ¤^H¥†"£¶v¢$Û¿kh9i‡.•™&¡>(»~¬¦(>î/ÂL&Q=7-Pwgâ1‹h—/ä§”{ûà®şJ_lÇ”^?Pš®À/Šx!Ô},—Ù[f9Í¹»—./ÕVû‹ÄÕÂâojwÙN9ş…›©¼Ş(™fµ2RCã]ù¥<=hN£ø/$øÌ;¼—
+${–ğYª¹Qq.UL^1Âoàm,éV3E&r·=Ù“c¸nïãÇ|X1ÂÒ¢*›¿ÚÛöÒüçÿ ØZ#´\ÏIŸ\¢TèÑÙ#Wß‡1<Ö[Ui/¹wnvö7h^s,ÊÁÑİE+%’£Ôç;üC{¤ü/·Q²ÄÚŒæ¢~¨‘Î<àbK£9P–È:ª/ƒfm˜ªŞ°*Zlš+2äOŸİ~¥U|&OÜ¦›6ğ²Ê6ÂâTD¼—µVä»ÜNíÛ•àü”*©²Õ_Şi_ˆS¼µÎ”oÇÔÏÍµÄËø=ƒ±ßu—Û6^hÒğq§AÀ$ó‰ŠÜ¶®PıYQ?âŞ„pœºM=ô_IÅpá¶F‚Ô„*†bz¾(½ä\¾IñpÕIuAGGŞW³œ†½T0É>1`•Rp=ôÈ_ï—’bh/‘—*"'ÿ ªàŒõêŸi0»ÑzÚ½•İ?“ªÁn§W³ÅÓOvğİ;N/«H¥So’eEÊ”¦ÁoC’î¤ª]³¿S|Òÿ µ·ê"xÕå¡ãÃñ–.ëÅİş·Äü¯ò­JYÊ±|-]êhIpˆ³!Ò§JŞß³wnsáeœ¦Ñìz½4Q|æ§„—¢ëöRÎVŞo¬Ï8å	(ÜWBÅ¯Ÿ
+º8”rÕÜÂò¥Ôºsï´…ØäµÔ&·–àÙ³bN¬W*E!‘2cªDn8j€¦JDK±m¿#@ı5LúGß‘ şš¦}"ß‘ şš¦}"ÎÅ%
+¯B©(!"”yÔù à*‰au»Ä“bö¥¨y…‹°UiÑ¥ŠŞ¾A†SDƒıl©3@“iÈo6TÆ•øÌËQ]ÑºÚ*^—ùöÜ»n.ÅÌtLÍTMV9o¹S•Yy“Uˆª®ßI^³H‰ÄKÕÄT<D)p{ƒiÿ ºğ?î[Uy¥ÛéŞZçJ7ãƒj]êˆŸWV6ªİÿ kşK}ğ?œ?ç·ßùÃş{}ğ?œ?çµè¨©éKPs¤fö<‹Bª¬9TÇß&÷À«÷"–m‘ÆââÂÓiywœTî€úL½¶Ëô"2"Á'¨¢wê2¾s8–îÛ¤8¢Ÿr‰ä­Ğd}î­L—
+û¯ÀãÌ’2ê%ãŞeë‰6¦Ô´z»]R¢H›ÈÎ*ˆïw2 ¾ËŞ‘5¿à³ÙŠj+¬eÆ\¨›‡zï*ÓÕÆbbóbKİwù@B«°!æxÁQˆ•øcTùjH¯¾í ıNª´Jq½M14ÄZkeÙË:Šé}Ñ­©th‰tj\°Ùuáe®øç†õôªÚ‡”Xsåj’
+­<S·ÁAù8€[}Wåš—ÂÍ§fGÛÅ-ÁQKÙõQ;7zwp…ÿ U=ƒÖ[Ã3ÁÌ®\?YSğD–‰ño(ûƒ_|•mXÊ’½ê,´ŸIvø
+ûæÁ/õXšÚ’şÛhõü˜š†Ì¦S'•P«\ß…í<s…O]Š»QÅ¸/ÄB´‡s‹cæ#Š+Pj*Ş([wjêz(Ú¹]¼ïDÙÿ ŸÌÓÿ R³şcßCngÊ¹sëz{[Çä3á^“ã#à˜Û Å|öé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'å…6ƒ—*õha—aG)0a»!‘|&ÔŒÙSTCqìÚ¥
+½JH–æ`‘ #Ï`£ºl”( ˆ"¨)6©½åN¢Ó¥Õ'¹R¥D‚ÁÈ|©HN6Ú)aíô[fHÍ¾‘¤Mş1oe¿bógè™şìíû›?DÏÿ gdÿ éy«o¦™5?†ğÙl·N¬B•O¨ÇJŸˆ‰5³fK[ÊÅAæ÷Ÿ|q²à’{Ëjı)aÔÿ HÔ¢|êËñPä4‚¿rKj$¬Ë–ª”º=%ï­¤=Q†qÙyØ_)
+0«£…ÂrfÇí½…j~\ËUj­.°MU[~É·&P|ù“&EDñ€eríÂifB§ÈuªÌ·ªuïã§û¼(ÎŠíÍ!İÚ„âùv‘	éõªö¦CµvLˆÒ>k:; )ˆ×	·Uh•œÍ—ªt˜4H’gG:ŒG#ƒõD‹¶÷ˆ˜½ù;ï`òVê±ònezË£L¥Ò¥«eO§ŞĞ:ÙîîP”ö7“ğ–ŠÍJ+êõy/Õj1ßnDusc<q7UÚ$Kì)pœY£Mb£ˆà®I|	|4Øì€¢‘©°î<>um-H©JÉÙ=2^ò“Vpé’A°…;
+oœ%Dn4 mÒ÷ƒÚ]‘!ÖØa†Í×t‘¶ši±R72¸@ RõU³ujB=Né¸ĞÈ«vñ’Àãf‚ãF+æ$E¹Q{Ó+u¹mÂ§Âm\u×i/ÄeízCÅİ M¤VyÊQÍõ	Î5ıÜÓ !¾û›Ş=D‡7*]¸U|ÖsQuÄ©gz˜ã‹ÔBc,Ä4\c7y6Ô¤l®îìd{©µL–Óéÿ ÿ 5Õ™Şd¨~6“¼M>g†|ÙñP$ıb"Œš;“*-ºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ—‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Yy‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^²ò?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ—‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^²ò?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½eä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ—‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬¼ÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë/#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ—‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvé^³r?·Jõ›‘øºW¬ÜÄíÒ½fä~'n•ë7#ñ;t¯Y¹‰Û¥zÍÈüNİ+ÖnGâvzŸú—Ÿòææ“<njËŸTSİİ½Ÿ
+ÌŸ#Ãñ„.Ú kæÿ Çfdæ¥©fæª²aîAN“@&’½Á•ï…â…{üÇpe'uÒ@m¶ÁÇ• /U^Ë?–2Ãò)šgK˜óŠ¶î`y³G<iµ…ÂŠ)wõlÀ
+¹Ë"µ*£än6eryÉAm»jQÅ#Â#·x·«Ezí/qŒÙ›~™¦ôÉyo-a*Û‘œ¢¢ªÑürì_½·³«l0Ø2Ë 4Ób€ÛM¶( Û`7 
+\ˆáüÇ˜gÑ«•(2>˜I…â.|Ò™#†Ë[±ª‹Ş¾û^9G=mÛõ<7ÿ :Î×)§EŠÔ÷©êİ@mıë0é’/>8.}<ı¾ÖU‚ø‰Ò13H¤4_:©K»ºr·SxåÊ‚’TEV¯iœ
+U2¡*$F$É©ªúb²Û‘Eã–Á«`«q€İvßcRËƒR•JrX‰5&1<×}¶g6?ï?¾Ÿ·µ,:I›i°òŞf¡ê™áÄX§æ(»LdÆ=‚ô÷Ó¾«ÿ ´¶¡¶à¸$(@`IqŠŞ„$‹µ,Û,¶2Ğm4Ğ‹m¶Ø&m°A K‘b{ˆ¤eÚ(îHÌ•9
+km¥.Fqª•×£w 
+:?Ñúéx*Ü6bãn›n!&!0!½IbûLŠıA§dªÅƒ”+åÏtL˜`@0ŒÚ£j¤eØ‰²õ¹WÔ7Y©Vg¶rİ$H^§P`ïb8Ø!~$D»ƒ·u~"½ßU½=ËÊ2ŞS©7TÌ5‰ƒ‚kò`¸äløN¨> d³i."¸Pq{	õyäa
+›ù²‰¦œ}Äb;jãŠ´$ã……;,Æ}®€Ór^Z˜qrå*;€•)²#º1Î–Â¤†ÀgŞM½Ööb5÷Ë¡Wa„Ê|±ï÷\eÑûÔ˜Î§y‰,®Ñ4ş+ÒÑòNv’õG"TÁ•3Ya¦âUù„õïnšoã‡ô^¸üš÷AÆÌ\mÁmÀ$ 0$Ä&7¡	"ì_+óz-6\–÷ÍF ûÛ«ğ£¦ÜV^&["MŠW"İ²ßµÑé*_B´˜yj´ÕND6RD†Ûb[[¶UÄi†E5ó/–e&«©ÔùÌ¢¼8ÆËÿ Q1]¢Iq	"*mµF:ºé³5U£FpÀµ‘ Åê†#U»Ò«a¯ºıV‡WVU‰s(2[†u î£k3.¡ºØIqÜ…~¸`W%Ts˜Ö¥|Î²ú”©ùvk¾°K¹/ ;¯!K„ı`Lx…Sÿ ¶ÅÛÿ )Qóú~grY÷Ç2„¢e³1ò}óRYÅSqRäU$UÚ©góTÎÎ@¢TB¡Q€ÄÉNAùN©ÅWSÄvŞKß½Uõ|£¨T§ócUÊUHlDÌ£)äe†ßF›kºçôa¼Ø­ªb¹V­˜ëîx:Öjp¥HË°nG¤4ãË!¶¼_!ãAMS»±–×vu÷Ì¡Wbº|À¸Å{®2àíjLg}fd°[D“ø¯KGÈùİ÷ª ò†SÍdŠ£N-'®İÓMbï‡ô>°üŸª6bãn›n!¦!0!¼HHWbÙ‡Xˆs«u‡‡E`„†IDOÎ‘İlgx‹ƒ‰rb!•šubf¬ã˜~q9Éí±POeÔn6Ü# ¢"˜¦DAnáN÷ì~Xí¿ò3Ó‹ÿ méµ_4ËË×dlß
+4ò(›A¥I‹9'†A×¤F"Ãx¡âU3 Òk•\ÙQp!QãÊ¦#QÆC÷ŠIsç®~Ü;|êƒz¤M<ÏS™¯ş³Ó¤f8“ÆQ>ı2Q—æÅS6Ã!ƒ	Ü¹Cº·Ym[ıñ¬]è»s³Èì:„HÓ¢<ˆE˜Ãrcºˆ¨H2ğ›gq%ûS¶ß±Ù_ÑwÔ4»¿ƒÂÛe²‹³jP©m©ÿ æµÉ±b"y­TÈ1eI¦<r)ï¾Ãn»	÷&MØÎ©2dÑ\ªây”*ìA—O˜ú®²àíjLg{Y’ÁmOâ½-™ô¥QÕ#.Àf§DêÌIE&a—™[F¥íÕ1\=Õ¹&P«±F\	q'c¬:Ÿz•Û•Y’Ámş4½,ÖLÏòŸ’do?U3‚2ûŞ¡Ú”ÙàØºçÉÄLJ×Å½µîÍ\³Vn¨”òde«lKgt¯¡«_ïL3‹í{/ì¶1ô!'ğ-±‹-	ı°¶([{v¢_¶ÔCÈòˆ3~U`ÛjœâÆ«Soxß† ·|àÅ÷ëşPJäQ,+iµùòZ È¡´©™©³OÔ—Âğ.é":ó/º—5pã"î]e§Hq—Úf~gªÌ†O6aâ"›qGÚRDŞ6®6Cz|a_qt¬ûX€äœ›› @¡¿Tˆ˜Ê‘!¦¢)M"_z,_vÒ®ÈpÙìç3Uè¢°831fK3ä4È<™)…Ûı]¶)¹£C&HË#d¹:KSâ´Åã†^æEÚ¼ËÑVë¼ê–ÍÙºm!œ¿:Õ©Qh­Š6Péàsoä„X!”ˆÚaÄo¹SØBÌò‘è‹z¸Ùƒvˆ±ÖJŠŠ°ê:)½!EW‡Ğ]ë33MÇ e†m¦YhPm°„ .DOqtºMZ#S©ó™&%F|o4û=¢Cq	mE¾Û®³—†¾ñõ´%`6âDÊ”©İ³EÆŒÜDG®56šiDwb	©mÙ¶×&ÄMˆ‰æÿ õÿÚ ?!ÿ vQzâ„EJˆiÎ ºº@’·Ù’"sÑè4p\ãh	Ô0]xÁÅv7BèFØ0‡g…ÁĞÁ‘Uòcz{¡4rqhÂ`‡}§éz>Z>Ì¼ÕhØPÈ¬~U3™x	ˆU™P!eŒFUÑ€û\<ºm¸*,é™mZ-Vzì*Ğ–YäRômnjÙŠjÚKì¶èLÖÖ¶‘KZÔÜü
+ tÈëºP6û8€ş’ö! "8àoÈsE&ÈTVù
+¬Ü 	{’i^.2V„?q –=”ºh¼©MT¢ dÆ+Ô”wè…BÚV!-6ôLV=XÚu÷¹ªäüFÛ9G]ó¥Ó±Ò=çH'*dÕ¯
+– }Ó“Jˆñn‡¬Ö@aÿ Göò
+'>Éïq5š \$gIÎ J}­Ş…#ÇÅôüqés§cÉ“êáğƒkN×4şÎşí,A)5°İî^¨ŒŒÄÁMˆ¬"¥Ğ{%p2FU6iB(rşäõÅcÕ 
+şƒhù†»¤´O²WDH„¦P·Õ\LVô#Dâğ	‘!õº‹à•åkiDY¾ªÀÕ†k—Ñìš¡îÚ0°“^"TXÚÖ4šOì,i0Ç›(ª9áÙRz5ô‡c'¼ ô—5f« ëÙ>hÇan˜úp5W¯j$¾¬hõUoŒ	¶«ÕÕa ßé4ÖÑì¾V i€\Üfáoí{¬ >N}`â•;´kÍÆÆşPÿ ³•V‰ÆO …YÉ<‹ô ŠÛ³eLî‘%ÃmÌ4üB’º‰¤öÓ©G‰ß4 @—@Y~n™ìİ‡cú\—[µ3 mğMç=] *ø@11ø©ò|ä&qÅòM<S*‰ôÈ€ğ—u<?Jk=oiİŠ ùŸG3Ò€¾µRZ¦.AD|Îpè2•@¨¹ú™ÓMï¤ÊE§`.”9»PÒÇƒEÇU!lj„ÁÉPKHœg¢Q"¨ğSÔ¾ŒÛ*#g®w[1ÅR°°Ê2šŞ@Rb~a`P6™¢Dndûp¬ª]§bûnCğé³9:?sñŸÔ?¾hğKÈÄ°%‘09Ü~å?Èç6OßÑÌûæ¡cZ ÛE>aÔ­,EFÙ¬ø·ûŸãÁD¢DxG‘Ít¹F«TßÛÁ¦j%ùjOØ<‘t55ù yº*5†;ƒ©¥‰„Æy,Ì¬>¾ñÄQæ™Äq –FÑÿ Ñ¹Îy!_ŞÒnü_EL’aøl‘¸]@0)Âº	  í÷%c»2Xù°ßßá |TëÅ›©ÊT¥Ïù­*_mHqaæŠU—k2OaO—ı~=¿¾uôêìÓ_SÉcú‹çí;>üg¿&€láxÖ4Z-tÑãÃp¾ «ìÄ
+=æ¢ëQ¡8Î'åÇU5U]_'ÔhRàºÔE¡ æßkNz6÷dI[·XˆP9¢
+má*Ã¢ó±½D]î*Ütã/QCÄpÄÒdrõ
+1/SÊ¡÷†jÉ¡ã?öZXöDË\9À@Ö[=Í©¹×j¾;T=„|üi›»›øÁ²s¿ä%¿¥|–>*ğJuFf¯Ì;ñ.CX_¡ÆÄ16ZA@}ú]–ºsÁ¹'Jæ¹¯”ü–b[SAìáªéLzïÆ³ˆFîÃÂ
+C&(&…õ·…NoÊ¯$¼ÇÄLf@ãN«¨KŞiÿ ÍA’í¤MmØBvÊĞT
+¹8Ğ³a0à1@YÒ,&»–nªGÙ\7äáÂ+¼ÙÄTäuêƒ¸v–ïëa ƒ†¥Á´åËTRøú€E^Ut
+	0mÕ±ëk1~’·ÓÎ—ÇÆÚ °¾‘¾Â~hâv!4£şpl>'âåì|y,ùMnïñä“çn®µOŒ“/êåĞÖÕÀƒo®)ösÖñy©…¢ï3?®+`ºó¿ğÇ?gƒÖE7™Ìµ(]÷©Ë4[)KCD@Â(Ô±µ•„ÇwwV%ÊúÏòûÆº3‚ò4f¿w&>‡æ¸@¯MRC¤çôµÂ¨1™¿ù/–Qq1ÏÁrq=dcOHw5²7l¥%@ÊcæÍóÇ
+&Tb¢EÀ !Â¾âdù/ÇíŸ£lşæï’Çë üş;<vJ	¡ˆìÁË€¸X¹à`fÇ@ñ¤13C½-æÍA…4“ME p[‚,6°Á]6R4”O%aên?Âù¡ñåwX4tg"g=ıoœx šbi@ClÑQYSi¬—Àw‹µÆÑ³{0æ K`ôŒ=ée‘ÌãF± ~x7İò}ÎÄç1û‘uÛÍ+ŞmËÚŞ8+sÅúÅà…TÛ–,Ò9*”ˆ¥¤™Øj	ÅqmÎ¬Ùæ×n§^„ßíä±}=”´OM+~@SXÇÓ°ìs¼VÀuMLN,ëÉ,:w#×Ú‰Ù'á¢ğ>CäèÂTJ´]ë)`èó«œ_½ ÎÚéöÎ5ÛlÚ˜»-öóçÙÏ£”öô½clgLG'U‚M™÷øm÷%:ñ•ø*
+ß¥¿WŒ¥®+R•&7G<õ3¥ö1ÿ ÇùÎ~ŒêæÜîp€:(ÄDÄ†[”m}ú—d‘ƒÆ‘Q×¼ì' ½‡©ï²Côgşç÷g\y, 6&?Ş`¯O&Í›¨p‚?¹¬âSHé3×ÆÊ,}*;ÄĞ«$tvï3o)ğ<†È*6/©‡fWB(XsçHÄ	@YiB{Â§ÆCk¶t©ÛîñÕDYÚhH}p»ë¹m¿•.òc3ÕêEÚ~õzâ!=ÙœßÇÑÉ `‚p Úç8¼Û\ŞÂ¸Ù¤z§ÓPŞ­nÓs„ÀâqÒiGúış|kñË¯nâzËZÖµ­kZÖû|ıDÑÑx8ÅDßW
+¼Q64©‰©9	ŒS@öi9sƒ¸ÆRõu±Ù‚úÂò7ŞiŸ¥g§yÆû÷<Ó`Y-W¢*
+›“¼sP¹o–îëÈ:Œ…¨ èjÜLZ®¹º’ïFN‹f5IG¦µÖh†é¾è]nEøğ/~tÍ¼®æ$ä¬†GO0v4ò>‹ÛSWèÛø(Ú¬pºß:gÑGÆ~C4 L©mÚ	Òñh‚€™Ñ¸IÕ`Ã8Eõà`úÛ`É?-"ºÏ0£áüĞï÷¿?š­kZÖ·­kZÖµ­kzÖµ­kZÖõ­kZÖµ­kZÖ·­k_óE­ëZÖµ­k[Öµ­kZÖµ­kZÖµ­oZÖµ­kzÖµ­kşhµ­kZÖµ½kZÖµ­kZÖµ­kZÖµ­kZÖµ­kZŞµ­Íµ­kZÖµ­kZÖµ­kZÖµ­kZÖµ­kZÖµ­kZÖµ¯ÖZÖµ­kZÖµ¯üyÓçŞÙÅşxáb…˜ñ¹ŸÁ:hûı˜ 
+æ²E©ØˆÇX$Êa^ê,ª0œúÎ"Ö†LÓQSú0€ ‡±öD9×éHƒ	Ì¨"Ê$.s£ş1éJ•¨Ğï½> Úê«È² Á©HÆ†6ZÄ:Ã`ıyY%$ÄA£)š(ÕÙø§¯ tÑyQš¨AÀ­­M‘ d.Äâœœæà‘¼ıûÓ]°a¢–µ!R
+#èğo‹½ì)Úáñ0×Ñ;q¤µ›bì·©¬ô–d`ĞB½cDaBÄc„´¢@ G²C’%sQÊ›‘C0âRlwÚ†4RT¤*AD|S|Ô;¢ jÚ0RöÍ›YÒß<e¾u¹$<ÍüC’ı:‘€r4!ø¤§ŠS{¼!3sàÔn€pÖ½óyôi=6:]ˆ‘ş”/²É‡fài©ŒÔ±ª“«œ‰ĞMrhLg	Ro* >{7Ø§7hùc»Ù%Âj¸Pá¼é©>´!¿0
+‹¶÷ƒ­T®©Qeh±UÑmŸˆ;ùÎ´.„“ÓÇ'};×›¾·*Ò©0Ğ ÔĞÑòæÄIY:¼`ü_‡ûş³ì@v£õoæòHAE Ôš[@éÑ…E@ïıK    Ğ ^zÃÆÖJO‚{&ªE^D8~?N‘Hq×ö{"3 #–qML»Òğé6rPÍ#TŒg!Ì§[§oÕË¤róùs“ ~Ó“xÌÊšŠ>dÈò‚Z¸Ûåè(—?	ñüÕ‘e^Ë‘È@İ™)ÉòD£ª[*ls›§8 ryQŞD3zUÿ P±wÖ™ßÇ¨€×Ô´åæâ€ğx ²í
+í¦EÈ Àr–'WûŒôêï¾sğd=6B)Ö    @ì½ÿÚ ?!ÿ —´ÿÚ ?!ÿ —´ÿÚ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         A                                                                                                                  	                                                                                                                 I  H                                                                                                                  	                                                                                                                  ‚                                                                                                                                                                                                                                       €                                                                                                                  $                                                                                                                                                                                                                                 	     A                                                                                                       ’H    @   A                                                                                                  ‚	        A €H                                                                                                        @$       	                                                                                                       €      @                                                                                                    @  @$	     A                                                                                                    €  A @$     €                                                                                                      @                                                                                                                                                                                                                       @     @$€H 	       ’      €   @       @                                                                                        	                                                                                                             €   H                                                                                                                    @                                                                                                                @$’@                                                                                                              	 ‚I @                                                                                                                                                                                                                                                                                                                                                   ‚                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ÿÚ ?ÿ v®Şy€á<3'.Lñ¯³ 2F  l^ô(¬¡Üƒ	L§À:N*Xˆü8Şdi"@şDBTœÜ¾%+!a}®%)ãAätÜZ”‹}­hû0ÎS ×x;mõ‰s×"BØÒ¾Òš…ÃeÈe'»º•KJl1.à#E‚ˆÖ–cŒŸ3#6d\fĞ‘	”
++'Ã«¨–Óìµ=ÆG»ÛÂÅ£i›{C c9¥«R/T—yb£.&Ëïäuÿ üÑ<¼Oªæıx4W¾ÈUóÙW	À†wƒl“•JR”r‡`á?7U¯jHÈJDX7C‰IÊ¿=õQÛÜ'œ 	"`_0.—‰™Ã:ÇT x²â™¯ÉI_X°ÜZæ§Cé]@ ¦½“µá²Ş7e¥¨û¨Mb ÀU
+­*n'^’ €ˆ‘Ò&)iÂAOÊ¼h'qÊİÇš!Â£,¨úx†·I¹ÓO+>É˜±<½àÂXzò&9· 5›‘¤	e¢P„û%áL±zô“¦R+ªiÀØ¯^“`RhPF†gƒ$ÅZì™	²+­EÔ@¤³?@Î.%Âb¯V@:û5§Bz´€?`{P¼ÿ YJpØ£¦'‚I"ÉÆ;ü”f¶!v6n9ïïåKÕ³äAÅ’Šà>´‘î$ú`ŞÉó†¹'¢À«•X±¼	·dUÙšlq_C€ÀS@Œì~†&ùãöÀá<‹#sÌ1»–ıÇ®õ1kg¶°÷„+DÂŒßÖP"°ÜõÌ·|*© ù}û÷ïÚá	 J«£4Á¡İ!wInÈ¾(´*|f+ZlB WÃÙÿ ×vÛ$äQò6 hTw@¢%ƒ
+ã—²CÁ)×Q'âÒÊO9l}\~Ç•Í>_R ¾Ì2ĞáFÉ'"˜R¼SŞCIàWöUm†8Öş\š?…Ç¬Y,iÆM=¤6,<¤k#ï’³}VŞDŞtÃ]¡â»ÆWúĞMU@¬!Îˆâaö%‚ µVd-Ûb. ûrTyi]½¢Xw}Ååæ½„6uÙ(jŞ—*MÚ‰?¾»Ä'k4ğß×Îş,M«Ïô"v$UÂÒ1Vš3CM½T[|ÒšáÍ	+¡š§+tÏuƒÑ†B¹QÂ™ı¿]´è;w
+˜	– @€tˆìÁ02’ğZ¥½Šœ˜€vÓFdv¡bõìS²¬İ>Ae±(È1ĞxG5JŠ62`ãS=Ÿğ{ç¥ a~SïO,V‚¾? r×#-ppªA'[|€q$U`êˆFÈˆ¤âÂ‹ÙÑÇ+s…ˆÖã€¬ùâ#; 02˜äZq‰Î ö†ÔH2ƒ”ì$÷›ªFUf^ëY©öï‰ k¨%.·_I ğÛaÀ¾»<ANW…4û›CW$vî“éÏÅrTO ì€q€ª¤S“èNœÊVÓE,S‚«‹‰ßÅQÙé0V,Ò^ f$|Ÿ'@á@%LÌîÍ	®LV$¶ÿ ±'¨meå+ 	Ÿqé<„v:àé¥>	Ìg$„ÕÒñs=8
+ÓWbùnğwh]ƒæŠÜØğçr‚°“yÈj4¯¬ F¤‚Œf¦ÇmáÕûòbpYJÈ(®œâÎDè£Ì0‘ÙÃÑn>äˆqğfà[­“ÊÂB˜àÆFT|Íì(fcöÆJ6›šÈ³
+dñ…ı M9×„{DD#±HõIêD3q"T’:PY{&84yˆ$À	@MAô(ºÅƒ&fP	±iõBÛ¼DÚˆYNÂ›ËªãO§‚f¨=X)§•¥TE “ud²ÃÓJ­‚0Q 
+³0ˆÓ!FÀ©6ê'³5Rû,î /Šæ§°‚Š¸€=(©Å0­ó´‘;£uÀçŸ&.·g(°¢ôÕcû#Èb–DslÈèWè& í-áé‘LO;#Ö‡ÇÄ•›U–°Ö€mÆ¢}ÌiÂÖcHaÔ57ÎA
+" “°P‚¸/–EIÂ²! ƒ¾ªF´S‹²õ{ª2úa_ƒ7<ºi[š;Ôå64íWt;ÂB/õNAÌÜõz î‚ëà˜èAXäÓ-efì)*”!MgÖ(° J¥Uê³ÍGB¶Ù…ódºÖJ1EßÕ"?°²B+~·±Ä(°QvÙÂé"îHü!|˜ú>yïÄo>@›SE%ÅBá|(!)Q|  ¸™ +Í“^Îr¶öI£Ùº ’¿½pÀ ÖI–iÓ}Ä¦I³+mÑQ±wËFCÀª„dQH½EkF#:®İ%²J­m y¬/\b]…†i®*ìmJ#>¤Íg Æ›ğŠèÆ @"{1iÑ—Sm¥”ßäJwálì`Àa”ˆWĞ­õA_Ğ¶®GÀJrÑİ ™{ Kğ±RÁĞlò„·†Œ'aT­j‡&D!TV!½›§‰Árm·¬s¥M|:JBáp
+ ÍéõR.FäéJ!€'lyn-K¦´)Lj?Ë6@4#*šLCÑğ¸ŒŠM1.@ÊnÆQkİÛ$¬ƒŸşzœM×~!¥–dáP"@ãîÀº’£$´ÔØM¢–Áo+\)ä6gYéØæ:Ér™xµŠÕºº0N9ï\„#öüoÁİ<8>º°	‚Ü³¸ÃÚñ„OW1.Í4\»È‡¡ïIaİâ*ÁÛ$LĞ;–£ÛH\Q7›¢!Ú;¹Æ«ãˆ$© C4îüH‘"¡4,£Q'ç5k(£›Drj¦ÆÜi#µë‡ òÌ>‰A/ÛÂ¹E0fÓÓã;	5r‰S]+f£Å?°8ÀT"çÀoâ§9ñKÈ­'3`e¬Š•!ĞuĞn ­Y:OÑÎ &_”Ûe UHµãQlÑa…*¹ƒXq@¼¨ÉmÚÔÈ³çI{¡8°1"wãı~ÿ ÛÓn-XOë…­kZÖµ­km¨ÄZ?rµŠf3RäØÇ‹‰“LPwÁğ^ì	P"M€1ÁcèÀ"HcĞH ¥X G´4Xh¯€ °PİôÒ›4˜3t/X‘W2£F_‡pñ­àÿ š“}¸T#·DvÂ÷>D0™Ä|ôJ9=‡ÀEwª®±%ÚÏ…¡†pÌ<W†ñdŸˆ)	­ÉLÿ ÄqŒ¸+ân¿÷çèIõF*[-e¥ÕıŠÜc<é!Ê‰%úÏJAXCjcl( ÆºêUÉ3¢â5ŞÀŸrÊ‹of<ùı[ói7B|yÖµ­k_ÛR]$ÛÆ7ç¯QkZÖµ­k[º>ÁM–ŸMkZÖµ­kc·CGØ)²ÑÓü
+Öµ­kZÖµ­kYH"(UÃí‡ĞùÖµ­kc·CGØ)²ÑÓé­kZÖµ­e ˆ¡W¶6Cü2Öµ­kZÖµ­kZÖµ­İ`¦ËGO¢µ­kZÖÇn†°Se£§ø%­kZÖµ­kZÖµœ´Â‚÷°„eÜãù*Öµ­kZÖµ­kZÖµ­kZÖµ­kZÖµœ´Â‚÷°„eÜãùªÖµ­kZÖµ­kZÖµ­kZÖµ­kZÖµ­kZÖµ­kZÖµÿ µ­kZÖµ­kZÖµî™Mq>ÿ ‚ÿ ”• Ølşø:&:À5˜¤q’»X+B&–øºB·1ö£1‹OqØ›è|rƒQµeŠ Øûú¦ 
+—XeaW œÉYMÆ­3)`ŞÆM /¤µå¨¡x¢È	GG•‹P%Ú²ó/°õ/‘,½‚fgÅJq»œyä˜“ÀiÀ†wÃl“„G
+YElÑ ì„l
+AIG¤Î›ù5&DBÙÈB³€mJÙ'"ˆú “3‡Æ¤şYÃV ıúúò:5GOvÈ˜ì ?¡<”„=Tky…Bx¾>@xT^Éî¥Îƒ¢Î[Õ8YÑ'bÔ88ğ-’r(ÏäH=‰ıRÆ…Î½Æ
+PÔ?˜–ÆÇÚAOúøZÙa¤†€XşgÄ,•a}Ko¥Y†‰„FÔuêoe–tƒp€Êš1ß’R†óó-\±‡3½×‰à»ªk2Švå	
+ qÂk&{+dªY\¡rY·4s“7OÛÉãÖÁ†ÚB)D$äDppÛø%ò³™Ì·%˜FOšØ¶#4=)C¡ëx +«§fÌÈ<5†¼äjbÛ%›\ÔJZ(ò¿â¾§ßÇ.~±0‚[±`©—Ék±ßõ8³ƒX)qd«ÉvFÂ]´Ú«Ëƒ	Pƒ[	v8â°x	 ĞbÌ3-"
+Å±Ûû'O²P òlÍÅËyä„ôÙÅñ,Ö(\—'Ø³q2Yöaá×‘‡¶vÍ g¤ƒ‹(¥Œ!fmö`r ‰J‚Fœ·w”yİq‘8Æ˜şx[dfw¨Ùú»•{.qŠİÅÍo0<¾”âÆN‚„bC‡‚4á‰vF×%ŠÅÉsÂgÉ%‹JÒødÑH>¸¬p {.§NÉF¦lÏc¯¥Œ™Åµ†öT¹»,Ò9ihÀÿ ƒÀHƒı—¯ÿÚ ?ÿ —´ÿÚ ?ÿ —´ÿÙendstream
+endobj
+xref
+0 50
+0000000000 65535 f 
+0000000015 00000 n 
+0000000210 00000 n 
+0000000900 00000 n 
+0000000971 00000 n 
+0000001281 00000 n 
+0000013214 00000 n 
+0000013282 00000 n 
+0000013557 00000 n 
+0000025751 00000 n 
+0000025770 00000 n 
+0000026048 00000 n 
+0000061417 00000 n 
+0000061437 00000 n 
+0000061602 00000 n 
+0000062113 00000 n 
+0000062759 00000 n 
+0000063278 00000 n 
+0000063932 00000 n 
+0000064234 00000 n 
+0000064544 00000 n 
+0000064822 00000 n 
+0000065119 00000 n 
+0000065400 00000 n 
+0000065708 00000 n 
+0000066068 00000 n 
+0000066428 00000 n 
+0000066788 00000 n 
+0000067148 00000 n 
+0000067508 00000 n 
+0000067868 00000 n 
+0000068228 00000 n 
+0000068588 00000 n 
+0000068629 00000 n 
+0000068863 00000 n 
+0000069009 00000 n 
+0000069235 00000 n 
+0000069355 00000 n 
+0000069681 00000 n 
+0000070007 00000 n 
+0000070299 00000 n 
+0000071672 00000 n 
+0000072419 00000 n 
+0000073950 00000 n 
+0000074060 00000 n 
+0000074170 00000 n 
+0000074256 00000 n 
+0000074364 00000 n 
+0000074477 00000 n 
+0000107934 00000 n 
+
+trailer
+<</Size 50
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+140185
+%%EOF u.r 9o$2áµº4Ep

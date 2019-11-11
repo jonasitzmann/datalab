@@ -1,0 +1,197 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f5\fswiss\fcharset0\fprq2 Arial;}{\f11\fmodern\fcharset0\fprq1 Courier New;}{\f34\fswiss\fcharset0\fprq2 Impact;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20\lang1046 \snext0 Normal;}{\s1\qc\sb60\sa60\widctlpar \f34\fs26\lang1046 \sbasedon0\snext0 heading 1;}{
+\s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 \sbasedon0\snext15 heading 2;}{\s3\fi-225\li585\widctlpar \f5\lang1046 \sbasedon0\snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{\s15\qj\sa40\widctlpar \f5\fs20\lang1046 
+\sbasedon0\snext15 Par\'e1grafo;}{\s16\qc\sb60\sa60\widctlpar \outl\f34\fs192\lang1046 \sbasedon1\snext16 T\'edtulo Documento;}{\s17\qj\sb20\sa20\widctlpar \f5\fs18\lang1046 \sbasedon15\snext17 Tabela;}{\s18\qc\sa40\widctlpar \f5\fs20\lang1024 
+\sbasedon15\snext18 Figura;}{\s19\widctlpar \f11\fs18\lang1046 \sbasedon0\snext19 Listagem;}{\s20\qj\widctlpar \f11\lang1046 \sbasedon0\snext20 Programa;}{\s21\qj\sb20\sa20\widctlpar \f5\fs20\lang1046 \sbasedon15\snext21 Pergunta;}{\s22\qc\sb40\widctlpar 
+\f5\fs18\lang1046 \sbasedon0\snext22 Caixa de texto;}{\s23\widctlpar \f4\cf1\lang1046 \snext23 Corpo;}{\s24\fi-283\li283\widctlpar{\*\pn \pnlvl10\pndec }\f5\fs18\lang1046 \sbasedon0\snext24 Item;}{\s25\qj\sb20\sa20\widctlpar \b\f5\fs18\lang1046 
+\sbasedon17\snext25 Tabela T\'edtulo;}{\s26\widctlpar \f11\fs18\lang1046 \sbasedon0\snext26 Plain Text;}{\s27\qj\sb20\sa20\widctlpar \b\f5\fs18\lang1046 \sbasedon17\snext27 T\'edtulo Tabela;}}{\info{\title Delphi}{\author Andrey Welmer}
+{\operator Senac-CIN}{\creatim\yr1998\mo5\dy5\hr17\min31}{\revtim\yr1998\mo5\dy21\hr12\min22}{\printim\yr1998\mo5\dy20\hr18\min25}{\version2}{\edmins1}{\nofpages3}{\nofwords1267}{\nofchars7224}{\*\company Office Pro}{\vern57431}}
+\paperw11907\paperh17577\margl907\margr907\margt907\margb1134 \deftab708\widowctrl\ftnbj\aenddoc\hyphhotz425\hyphcaps0\formshade \fet0\sectd \psz9\linex0\headery0\footery0\colsx709\linebetcol\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang
+{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}
+{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9
+\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 {\*\bkmkstart _Toc356273634}Aplica\'e7\'f5es Robustas{\*\bkmkend _Toc356273634}
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 O tratamento de exce\'e7\'e3o \'e9 um mecanismo capaz de dar robustez a uma aplica\'e7\'e3o, permitindo que os erros sejam manipulados de uma maneira consistente e fazendo com que a aplica\'e7\'e3
+o possa se recuperar de erros, se poss\'edvel, ou finalizar a execu\'e7\'e3o quando necess\'e1rio, sem perda de dados ou recursos.
+\par Para que uma aplica\'e7\'e3o seja segura, seu c\'f3digo necessita reconhecer uma exce\'e7\'e3o quando esta ocorrer e responder adequadamente a essa exce\'e7\'e3o. Se n\'e3o houver tratamento para uma exce\'e7\'e3o, ser\'e1 exibida uma mensagem padr\'e3
+o descrevendo o erro e todos os processamentos pendentes n\'e3o ser\'e3o executados. Uma exce\'e7\'e3o deve ser respondida sempre que houver perigo de perda de dados ou de recursos do sistema.
+\par \pard\plain \s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 Exce\'e7\'f5es
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Exce\'e7\'f5es s\'e3o classes definidas pelo Delphi para o tratamento de erros. Quando uma exce\'e7\'e3o \'e9 criada, todos os procedimentos pendentes s\'e3o cancelados e, geralmente \'e9
+ mostrada uma mensagem de erro para o usu\'e1rio. As mensagens padr\'e3o nem sempre s\'e3o claras, por isso \'e9 indicado criar seus pr\'f3prios blocos protegidos.
+\par \pard\plain \s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 Blocos Protegidos
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Um bloco protegido \'e9 um grupo de comandos com uma se\'e7\'e3o de tratamento de exce\'e7\'f5es.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 try
+\par   A := StrToFloat(EdtA.Text);
+\par   B := StrToFloat(EdtB.Text);
+\par   ShowMessage(Format('%f / %f = %f', [A, B, A + B]));
+\par except
+\par   ShowMessage('N\'fameros inv\'e1lidos.');
+\par end;
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Algumas vezes voc\'ea pode precisar especificar quais exce\'e7\'f5es quer tratar, como mostrado abaixo.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 try
+\par   Soma := StrToFloat(EdtSoma.Text);
+\par   NumAlunos := StrToInt(EdtNum.Text);
+\par   ShowMessage(Format('M\'e9dia igual a %f.', [Soma / NumAlunos]));
+\par except
+\par   on EConvertError do
+\par     ShowMessage('Valor inv\'e1lido para soma ou n\'famero de alunos.');
+\par   on EZeroDivide do
+\par     ShowMessage('O n\'famero de alunos tem que ser maior que zero.');
+\par   else
+\par     ShowMessage('Erro na opera\'e7\'e3o, verifique os valores digitados.');
+\par end;{\b\i 
+\par }\pard\plain \s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 Principais Exce\'e7\'f5es
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 O Delphi define muitas exce\'e7\'f5es, para cada erro existe uma exce\'e7\'e3o correspondente.
+\par \trowd \trgaph70\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 
+\cellx1915\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain \s25\qj\sb20\sa20\widctlpar\intbl \b\f5\fs18\lang1046 Classe\cell Descri\'e7\'e3o\cell \pard\plain \widctlpar\intbl 
+\f4\fs20\lang1046 {\b \row }\trowd \trgaph70\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 
+\clbrdrr\brdrs\brdrw15 \cellx1915\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 Exception\cell Exce\'e7\'e3o gen\'e9
+rica, usada apenas como ancestral de todas as outras exce\'e7\'f5es\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EAbort\cell Exce\'e7\'e3o silencios
+a, pode ser gerada pelo procedimento Abort e n\'e3o mostra nenhuma mensagem\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EAccessViolation\cell Acesso inv\'e1lido \'e0 mem\'f3
+ria, geralmente ocorre com objetos n\'e3o inicializados\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EConvertError\cell Erro de convers\'e3o de tipos\cell \pard\plain 
+\widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EDivByZero\cell Divis\'e3o de inteiro por zero\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl 
+\f5\fs18\lang1046 EInOutError\cell Erro de Entrada ou Sa\'edda reportado pelo sistema operacional\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EIntOverFlow\cell Resultado de um c
+\'e1lculo inteiro excedeu o limite\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EInvalidCast\cell TypeCast inv\'e1lido com o operador as\cell \pard\plain \widctlpar\intbl 
+\f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EInvalidOp\cell Opera\'e7\'e3o inv\'e1lida com n\'famero de ponto flutuante\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain 
+\s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EOutOfMemory\cell Mem\'f3ria insuficiente\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EOverflow\cell Resultado de um c\'e1
+lculo com n\'famero real excedeu o limite\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ERangeError\cell Valor excede o limite do tipo inteiro ao qual foi atribu\'edda\cell 
+\pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EUnderflow\cell Resultado de um c\'e1lculo com n\'famero real \'e9 menor que a faixa v\'e1lida\cell \pard\plain \widctlpar\intbl 
+\f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EVariantError\cell Erro em opera\'e7\'e3o com variant\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl 
+\f5\fs18\lang1046 EZeroDivide\cell Divis\'e3o de real por zero\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 {\*\bkmkstart _Toc356273639}EDatabaseError\cell Erro gen\'e9
+rico de banco de dados, geralmente n\'e3o \'e9 usado diretamente\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \trowd \trgaph70\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 
+\trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx1915\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain 
+\s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 EDBEngineError\cell Erro da BDE, descende de EDatabaseError e traz dados que podem identificar o erro\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain 
+\s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 {\*\bkmkend _Toc356273639}Blocos de Finaliza\'e7\'e3o
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Blocos de finaliza\'e7\'e3o s\'e3o executados sempre, haja ou n\'e3o uma exce\'e7\'e3o. Geralmente os blocos de finaliza\'e7\'e3o s\'e3o usados para liberar recursos.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 FrmSobre := TFrmSobre.Create(Application);
+\par try
+\par   FrmSobre.Img.LoadFromFile('Delphi.bmp');
+\par   FrmSobre.ShowModal;
+\par finally
+\par   FrmSobre.Release;
+\par end;
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Voc\'ea pode usar blocos de prote\'e7\'e3o e finaliza\'e7\'e3o aninhados
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 FrmOptions := TFrmOptions.Create(Application);
+\par try
+\par   FrmOptions.ShowModal;
+\par   try
+\par     Tbl.Edit;
+\par     TblValor.AsString := EdtValor.Text;
+\par   except
+\par     on EDBEngineError do 
+\par       ShowMessage('Altera\'e7\'e3o n\'e3o permitida.');
+\par     on EConvertError do 
+\par       ShowMessage('Valor inv\'e1lido.');
+\par   end;
+\par finally
+\par   FrmOptions.Release;
+\par end;
+\par \pard\plain \s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 Gera\'e7\'e3o de Exce\'e7\'f5es
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Voc\'ea pode provocar uma exce\'e7\'e3o usando a cl\'e1usula {\i raise}.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 raise EDatabaseError.Create('Erro ao alterar registro.');
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Tamb\'e9m \'e9 poss\'edvel criar seus pr\'f3prios tipos de exce\'e7\'f5es.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 type
+\par   EInvalidUser = class (Exception);
+\par 
+\par raise EInvalidUser.Create('Voc\'ea n\'e3o tem acesso a essa opera\'e7\'e3o.');
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Se voc\'ea quiser que uma exce\'e7\'e3o continue ativa, mesmo depois de tratada, use a cl\'e1usula {\i raise} dentro do bloco de tratamento da exce\'e7\'e3o. Geralmente isso \'e9 feito com exce\'e7\'f5
+es aninhadas.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 try
+\par   Tbl.Edit;
+\par   TblContador.Value := TblContador.Value + 1;
+\par   Tbl.Post;
+\par except
+\par   ShowMessage('Erro ao alterar contador.');
+\par   raise;
+\par end;
+\par \pard\plain \s2\fi-272\li272\sb40\sa40\widctlpar \b\i\f5\fs22\lang1046 Erros de Bancos de Dados
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 A exce\'e7\'e3o EDBEngineError permite a identifica\'e7\'e3o de erros de bancos de dados gerados pela BDE.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 try
+\par   TblCli.Post;
+\par except
+\par   on E: EDBEngineError do 
+\par     if E.Errors[0].ErrorCode = DBIERR_KEYVIOL then
+\par       ShowMessage('Cliente j\'e1 cadastrado.');
+\par end;
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Note que a vari\'e1vel E, que vai identificar o erro, s\'f3 precisa ser declarada no bloco de tratamento da exce\'e7\'e3o. No help voc\'ea
+ pode consultar outras propriedades de EDBEngineError que podem ser importantes.
+\par Voc\'ea tamb\'e9m pode usar os eventos de erro do componente Table, sem precisar de blocos de tratamento.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 procedure TFrmCadCli.TblCliPostError(DataSet: TDataSet; E: EDatabaseError;
+\par   var Action: TDataAction);
+\par begin
+\par   if(E is EDBEngineError) then
+\par     with EDBEngineError(E) do
+\par       case Errors[0].ErrorCode of
+\par         DBIERR_KEYVIOL: ShowMessage('Cliente j\'e1 cadastrado.');
+\par         DBIERR_REQDERR: ShowMessage('Campo obrigat\'f3rio n\'e3o preenchido.');
+\par       end
+\par   else
+\par     ShowMessage('Erro no banco de dados:' + #13#13 + E.Message);
+\par   Action := daAbort;
+\par end;
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Alguns c\'f3digos de erro da BDE est\'e3o listados abaixo. Todas as constantes e fun\'e7\'f5es relacionadas \'e0 API da BDE no Delphi 3 est\'e3o na Unit BDE, que deve ser adicionada \'e0 cl\'e1
+usula uses. No BDE API Help voc\'ea pode encontrar refer\'eancia sobre as fun\'e7\'f5es nativas da BDE, como tamb\'e9m alguns exemplos em Delphi.
+\par \trowd \trgaph108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 
+\cellx2835\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain \s25\qj\sb20\sa20\widctlpar\intbl \b\f5\fs18\lang1046 Constante\cell Descri\'e7\'e3o\cell \pard\plain \widctlpar\intbl 
+\f4\fs20\lang1046 \row \trowd \trgaph108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx2835\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 DBIERR_KEYVIOL\cell Viola\'e7\'e3o de chave prim\'e1ria\cell 
+\pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 DBIERR_MAXVALERR\cell Valor m\'e1ximo excedido\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain 
+\s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 DBIERR_FORIEGNKEYERR\cell Erro de chave externa, como em integridade referencial\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 
+DBIERR_LOCKED\cell Registro travado\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 DBIERR_FILELOCKED\cell Arquivo travado\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row 
+\pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 DBIERR_NETMULTIPLE\cell Mais de um diret\'f3rio usado como NetFileDir\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 
+DBIERR_MINVALERR\cell Campo com valor mais baixo que valor m\'ednimo\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 DBIERR_REQDERR\cell Campo obrigat\'f3rio faltando\cell 
+\pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \trowd \trgaph108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 
+\clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx2835\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 DBIERR_LOOKUPTABLEERR\cell 
+Erro em tabela Lookup\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Se voc\'ea quiser mais informa\'e7\'f5es a respeito do erro pode usar o procedimento DBIGetErrorContext, como na fun\'e7
+\'e3o mostrada abaixo que retorna determinadas informa\'e7\'f5es sobre o erro.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 function GetErrorInfo(Context: SmallInt): string;
+\par begin
+\par   SetLength(Result, DBIMAXMSGLEN + 1);
+\par   try
+\par     DbiGetErrorContext(Context, PChar(Result));
+\par     SetLength(Result, StrLen(PChar(Result)));
+\par   except
+\par     Result := '';
+\par   end;
+\par end;
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 No evento OnEditError, usado no exemplo abaixo, se ocorrer um erro ao tentar alterar um registro, podemos identificar o usu\'e1rio da rede que est\'e1 alterando esse registro usando a fun\'e7\'e3
+o criada anteriormente.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 if Pos('locked', E.Message) > 0 then
+\par   ShowMessage('Usu\'e1rio ''' + GetErrorInfo(ecUSERNAME) + ''' est\'e1 alterando o registro.');
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Note que foi usada uma outra t\'e9cnica de identifica\'e7\'e3o do erro, usando a pr\'f3pria mensagem de erro e n\'e3o o c\'f3digo, como mostrado anteriormente. Voc\'ea pode usar a fun\'e7\'e3
+o criada acima mandando como par\'e2metro os valores mostrados abaixo, que podem ser encontrados no help da BDE.
+\par \trowd \trgaph108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 
+\cellx1701\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain \s25\qj\sb20\sa20\widctlpar\intbl \b\f5\fs18\lang1046 Constante\cell Descri\'e7\'e3o\cell \pard\plain \widctlpar\intbl 
+\f4\fs20\lang1046 \row \trowd \trgaph108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx1701\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10065 \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecTABLENAME \cell Nome da Tabela\cell \pard\plain 
+\widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecFIELDNAME \cell Nome do campo\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl 
+\f5\fs18\lang1046 ecUSERNAME \cell Nome do usu\'e1rio, muito usado para identificar qual usu\'e1rio travou o registro\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecFILENAME 
+\cell Nome do arquivo\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecINDEXNAME \cell Nome do \'edndice\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain 
+\s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecDIRNAME \cell Pasta\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecKEYNAME \cell Chave prim\'e1ria\cell \pard\plain 
+\widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecALIAS \cell Alias\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 
+ecDRIVENAME \cell Drive\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecNATIVECODE\cell C\'f3digo de erro nativo\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row 
+\pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecNATIVEMSG\cell Mensagem de erro nativa\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \trowd \trgaph108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 
+\trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx1701\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx10065 \pard\plain \s17\qj\sb20\sa20\widctlpar\intbl \f5\fs18\lang1046 ecLINENUMBER\cell N\'famero da linha, usado em instru\'e7\'f5es SQL\cell \pard\plain \widctlpar\intbl \f4\fs20\lang1046 \row \pard\plain \s15\qj\sa40\widctlpar 
+\f5\fs20\lang1046 Para desenvolver um sistema gen\'e9rico de tratamento de erros, considere a op\'e7\'e3o de criar esse tratamento em um DataModule gen\'e9rico para ser usado como ancestral por todos os DataModules do sistema, utilizando a heran\'e7
+a visual.
+\par Se o \'fanico problema for traduzir as mensagens, localize os arquivos CONSTS.INT e DBCONSTS.INT e crie uma nova Unit de defini\'e7\'e3o de strings com uma estrutura semelhante a mostrada abaixo e juntando todas as defini\'e7\'f5
+es das constantes das duas Units devidamente traduzidas. Depois, basta usar essa Unit em seus projetos que as novas mensagens ir\'e3o sobrepor as anteriores.
+\par \pard\plain \s19\widctlpar \f11\fs18\lang1046 unit NewConsts;
+\par 
+\par interface
+\par 
+\par resourcestring
+\par   SAssignError = 'N\'e3o \'e9 poss\'edvel atribuir %s a %s';
+\par   SFCreateError = 'N\'e3o \'e9 poss\'edvel criar arquivo %s';
+\par   SFOpenError = 'N\'e3o \'e9 poss\'edvel abrir arquivo %s';
+\par   SInvalidFieldSize = 'Tamanho de campo inv\'e1lido';
+\par   SInvalidFieldRegistration = 'Registro de campo inv\'e1lido';
+\par   SUnknownFieldType = 'Campo ''%s'' tem um tipo desconhecido';
+\par 
+\par implementation
+\par 
+\par end.
+\par \pard\plain \s15\qj\sa40\widctlpar \f5\fs20\lang1046 Uma outra op\'e7\'e3o seria criar um m\'e9todo para o evento OnException do objeto Application, esse m\'e9todo seria chamado sempre que houvesse uma exce\'e7\'e3o em qualquer parte do sistema.
+\par }  c\;	\	1
+h

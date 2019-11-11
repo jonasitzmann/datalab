@@ -1,0 +1,361 @@
+{\rtf1\ansi\ansicpg1252\fromhtml1 \fbidis \deff0{\fonttbl
+{\f0\fswiss\fcharset0 Arial;}
+{\f1\fmodern Courier New;}
+{\f2\fnil\fcharset2 Symbol;}
+{\f3\fmodern\fcharset0 Courier New;}}
+{\colortbl\red0\green0\blue0;\red0\green0\blue255;\red255\green255\blue255;\red241\green241\blue242;\red234\green234\blue234;\red227\green229\blue230;\red246\green246\blue246;\red233\green234\blue235;}
+\uc1\pard\plain\deftab360 \f0\fs24 
+{\*\htmltag19 <HTML xmlns="http://www.w3.org/1999/xhtml">}
+{\*\htmltag34 <HEAD id=Head1>}
+{\*\htmltag177 <TITLE>}
+{\*\htmltag241 }
+{\*\htmltag185 </TITLE>}
+{\*\htmltag241 <!--v28062010-->}
+{\*\htmltag241 <!-- css  B-->}
+{\*\htmltag161 <LINK rel=stylesheet type=text/css href="https://static.bnpparibasfortis.be/Images/rStyles/Applicationfunction.css">}
+{\*\htmltag161 <LINK rel=stylesheet type=text/css href="https://static.bnpparibasfortis.be/Images/rStyles/General.css">}
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT type=text/javascript src="https://static.bnpparibasfortis.be/Images/uts-static/uts-no-vea.min.js" async="">}
+{\*\htmltag241 }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT language=javascript type=text/javascript src="https://static.bnpparibasfortis.be/Images/js/jquery.js">}
+{\*\htmltag241 }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT language=javascript type=text/javascript src="https://static.bnpparibasfortis.be/Images/js/messagent.js">}
+{\*\htmltag241 }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT language=javascript type=text/javascript src="https://static.bnpparibasfortis.be/Images/js/common.js">}
+{\*\htmltag241 }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT language=javascript type=text/javascript src="https://static.bnpparibasfortis.be/Images/js/fieldManager.js">}
+{\*\htmltag241 }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT language=javascript type=text/javascript src="https://static.bnpparibasfortis.be/Images/uts-static/uts-init.js">}
+{\*\htmltag241 }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT language=javascript type=text/javascript src="https://static.bnpparibasfortis.be/Images/uts-static/uts-no-vea.min.js">}
+{\*\htmltag241 }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241 <SCRIPT language=javascript type=text/javascript>}
+{\*\htmltag241 \par      try \{\par       document.execCommand("BackgroundImageCache", false, true);\par      \} catch(err) \{\}\par \par \tab function readCookie(name) \{\par \tab     var nameEQ = name + "=";\par \tab     var ca = document.cookie.split(';');\par \tab     for(var i=0;i < ca.length;i++) \{\par \tab \tab     var c = ca[i];\par \tab \tab     while (c.charAt(0)==' ') c = c.substring(1,c.length);\par \tab \tab     if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);\par \tab     \}\par \tab     return null;\par     \}\par \par \tab function testValidHrefLocation(hrefLocation)\{\par \tab \tab if(!hrefLocation || hrefLocation=="")\par \tab \tab \tab return false;\par \tab \tab if(hrefLocation=="#" || hrefLocation== document.location+"#")\par \tab \tab \tab return false;\par \tab \tab if(hrefLocation.indexOf("CR=")==-1)\par \tab \tab \tab return false;\par \tab \tab if(hrefLocation.indexOf("javascript:")==0)\par \tab \tab \tab return false;\par \tab \tab return true;\par \par \tab \}\par \par     function testNotEmpty(hrefLocation)\{\par \tab \tab if(!hrefLocation || hrefLocation=="")\par \tab \tab \tab return false;\par \tab \tab return true;\par     \}\par \par     function initCr()\{\par \tab     CRvalue=unescape(readCookie("CR"));\par \par \tab     //form field\par \tab     if(document.getElementById("CR")!=null)\par \tab \tab     document.getElementById("CR").value=CRvalue;\par \tab     //href\par \tab     var hrefs = document.getElementsByTagName("a");\par \tab     for (var i = 0; i < hrefs.length; i++) \{\par \tab \tab     hrefLocation = hrefs[i].getAttribute("href");\par \tab \tab \tab if(testValidHrefLocation(hrefLocation))\{\par \tab \tab \tab \tab startPos=hrefLocation.indexOf("CR=")+3;\par \tab \tab \tab \tab endPos=hrefLocation.indexOf("&",startPos)\par \tab \tab \tab \tab if(endPos==-1)\par \tab \tab \tab \tab \tab endPos=hrefLocation.indexOf("?",startPos)\par \tab \tab \tab \tab if(endPos==-1)\par \tab \tab \tab \tab \tab endPos=hrefLocation.length\par \par \tab \tab \tab \tab oldCRValue=hrefLocation.substring(startPos,endPos);\par \tab \tab \tab \tab hrefLocation=hrefLocation.replace(oldCRValue,CRvalue)\par \tab \tab \tab \}\par \par \tab \tab \tab hrefs[i].setAttribute("href",hrefLocation);\par \tab     \}\par \par \tab \tab //remove CR from proxytarget\par \tab \tab var proxyTargets = document.getElementsByName("proxyTarget");\par \tab \tab for (var i = 0; i < proxyTargets.length; i++) \{\par \tab \tab     proxyTarget = proxyTargets[i].getAttribute("value");\par \tab \tab \tab if(testNotEmpty(proxyTarget) && proxyTarget.indexOf("CR=")!=-1)\{\par \tab \tab \tab \tab startPos=proxyTarget.indexOf("CR=");\par \tab \tab \tab \tab endPos=proxyTarget.indexOf("&",startPos)\par \tab \tab \tab \tab if(endPos==-1)\par \tab \tab \tab \tab \tab endPos=proxyTarget.indexOf("?",startPos)\par \tab \tab \tab \tab if(endPos==-1)\par \tab \tab \tab \tab \tab endPos=proxyTarget.length\par \par \tab \tab \tab \tab oldCRValue=proxyTarget.substring(startPos,endPos);\par \tab \tab \tab \tab proxyTarget=proxyTarget.replace(oldCRValue,"")\par \tab \tab \tab \}\par \par \tab \tab \tab proxyTargets[i].setAttribute("value",proxyTarget);\par \tab     \}\par \par \par \tab \tab //forms\par \tab \tab var forms = document.getElementsByTagName("form");\par \tab     for (var i = 0; i < forms.length; i++) \{\par \tab \tab     formAction = forms[i].getAttribute("action");\par \tab \tab \tab if(testNotEmpty(formAction))\{\par \tab \tab \tab \tab if(formAction.indexOf("CR=")!=-1)\{\par \tab \tab \tab \tab \tab startPos=formAction.indexOf("CR=")+3;\par \tab \tab \tab \tab \tab endPos=formAction.indexOf("&",startPos)\par \tab \tab \tab \tab \tab if(endPos==-1)\par \tab \tab \tab \tab \tab \tab endPos=formAction.indexOf("?",startPos)\par \tab \tab \tab \tab \tab if(endPos==-1)\par \tab \tab \tab \tab \tab \tab endPos=formAction.length\par \par \tab \tab \tab \tab \tab oldCRValue=formAction.substring(startPos,endPos);\par \tab \tab \tab \tab \tab formAction=formAction.replace(oldCRValue,CRvalue)\par \tab \tab \tab \tab \}\par \tab \tab \tab \tab else\{\par \tab \tab \tab \tab  if(formAction.indexOf("?")==-1)\par \tab \tab \tab \tab \tab formAction=formAction+"?CR="+CRvalue;\par \tab \tab \tab \tab  else\par \tab \tab \tab \tab \tab formAction=formAction+"&CR="+CRvalue;\par \tab \tab \tab \tab \}\par \tab \tab \tab \tab forms[i].setAttribute("action",formAction);\par \tab \tab \tab \}\par \tab     \}\par     \}\par  }
+{\*\htmltag249 </SCRIPT>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag161 <META name=viewport content="width=device-width, initial-scale=1.0">}
+{\*\htmltag1 \par }
+{\*\htmltag241 <STYLE type=text/css>}
+{\*\htmltag241 \par \tab \tab img \{display:block;\}\par \tab \tab a \{font-family:Arial,Helvetica,sans-serif;font-weight:normal;color:#008559;text-decoration:none;\}\par \tab \tab a:hover \{font-family:Arial,Helvetica,sans-serif;font-weight:normal;color:#ffffff !important;background-color:#008559 !important;text-decoration:none;\}\par \tab \tab td#becommerce a:hover \{background-color:transparent !important;\}\par \tab \tab a:visited \{font-family:Arial,Helvetica,sans-serif;font-weight:normal;color:#008559;text-decoration:none;\}\par \tab \tab a:active \{font-family:Arial,Helvetica,sans-serif;font-weight:normal;color:#008559;text-decoration:none;\}\par \tab \tab table.button \{margin-left:20px;\}\par \tab \tab td.firstColumn \{padding-right:20px;\}\par \tab \tab td \{font-family:Arial,Helvetica,sans-serif;\}\par \tab \tab td.stamp \{font-family:Arial,Helvetica,sans-serif;color:#cecece !important;font-size:10px !important;-webkit-text-size-adjust:100%;text-align:left !important;margin-left:5px;\}\par \tab \tab body \{background-color:f6f6f6;margin:0;\}\par \tab \tab \par \tab /*****************************/\par \tab /* Smartphones (up to 479px) */\par \tab /*****************************/\par \tab \tab @media only screen and (max-device-width:479px) \{\par \tab \tab \tab table[id="wrapper"] \{\par \tab \tab \tab \tab width: 100% !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="online"] \{\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="online"] td \{\par \tab \tab \tab \tab font-size: 8px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: 100% !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="banner"] \{\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \tab height: 69px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="border-content-top"] \{\par \tab \tab \tab \tab display: none !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="content-main"] \{\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \tab border-left: 1px #eaeaea !important;\par \tab \tab \tab \tab border-right: 1px #eaeaea !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="content-main-top"] \{\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \tab border-spacing: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="visual"] \{\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \tab height: 115px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="content-main-bottom"] \{\par \tab \tab \tab \tab width: 304px !important;\par \tab \tab \tab \tab border-spacing: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="bulletlist"] \{\par \tab \tab \tab \tab width: 304px !important;\par \tab \tab \tab \tab border-spacing: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="contact-outer-wrapper"] \{\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \tab border-left: 1px solid #eaeaea;\par \tab \tab \tab \tab border-right: 1px solid #eaeaea;\par \tab \tab \tab \}\par \tab \tab \tab table[id="contact-wrapper"] \{ width: 320px !important; \}\par \tab \tab \tab table[id="contact-inner-wrapper"] \{ width: 320px !important; \}\par \tab \tab \tab table[id="contact"] \{\par \tab \tab \tab \tab width: 304px !important;\par \tab \tab \tab \tab height: 180px !important;\par \tab \tab \tab \tab position: relative !important;\par \tab \tab \tab \}\par \tab \tab \tab td[class="verticaldots"] \{\par \tab \tab \tab \tab display: none !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="border-content-bottom"] \{ width: 320px !important; \}\par \tab \tab \tab table[id="border-footer-top"] \{ width: 320px !important; \}\par \tab \tab \tab table[id="footer-wrapper"] \{ width: 320px !important; \}\par \tab \tab \tab table[id="footer-inner-wrapper"] \{ width: 320px !important; \}\par \tab \tab \tab table[id="footer-inner-wrapper"] td \{ height: 30px !important; \}\par \tab \tab \tab table[id="footer"] \{\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="footer"] td \{\par \tab \tab \tab \tab text-align: center !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="border-footer-bottom"] \{ width: 320px !important; \}\par \tab \tab \tab [class="hideonmobile"] \{ display: none !important;\}\par \tab \tab \tab td[id="bannercell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Header/banner-320.jpg) !important;\par \tab \tab \tab \tab background-size: 320px 69px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \tab height: 69px !important;\par \tab         \tab \}\par \tab \tab \tab td[id="bannercell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="bannercell"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab width: 320px !important;\par \tab \tab \tab \tab height: 69px !important;\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="bannercell"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="visualcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="visualcell"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 300px !important;\par \tab \tab \tab \tab height: 115px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="visualcell"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[class="contact_txt"] \{ width: 304px !important;\}\par \tab \tab \tab td[id="webshopcell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_webshop-320.jpg) !important;\par \tab \tab \tab \tab background-size: 28px 28px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right 7px !important;\par \tab \tab \tab \tab width: 36px !important;\par \tab \tab \tab \tab height: 40px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="webshopcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="phonecell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_phone-320.jpg) !important;\par \tab \tab \tab \tab background-size: 28px 28px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right 7px !important;\par \tab \tab \tab \tab width: 36px !important;\par \tab \tab \tab \tab height: 28px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="phonecell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="officecell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_branch-320.jpg) !important;\par \tab \tab \tab \tab background-size: 28px 28px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right 7px !important;\par \tab \tab \tab \tab width: 36px !important;\par \tab \tab \tab \tab height: 28px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="officecell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="mailcell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_mail-320.jpg) !important;\par \tab \tab \tab \tab background-size: 28px 28px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right 7px !important;\par \tab \tab \tab \tab width: 36px !important;\par \tab \tab \tab \tab height: 28px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="mailcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="becommerce"] \{ display: none !important; \}\par \tab \tab \tab td[id="facebook"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_facebook-320.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] img \{ display: none !important; \}\par \tab \tab \tab td[id="facebook"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \tab float: right !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_twitter-320.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] img \{ display: none !important; \}\par \tab \tab \tab td[id="twitter"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \tab float: right !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_youtube-320.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] img \{ display: none !important; \}\par \tab \tab \tab td[id="youtube"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \tab float: right !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="urls"] \{\par \tab \tab \tab \tab width: 245px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="contact-type"] \{\par \tab \tab \tab \tab width: 304px !important;\par \tab \tab \tab \tab height: 40px !important;\par \tab \tab \tab \tab position: absolute !important;\par \tab \tab \tab \tab border-collapse: collapse !important;\par \tab \tab \tab \tab left: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="contact-type"] a \{\par \tab \tab \tab \tab margin-left: 10px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] \{\par \tab \tab \tab \tab top: 10px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/logo_becommerce_mobile.png) !important;\par \tab \tab \tab \tab background-size: 34px 32px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: 232px 3px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] a[id="becommercelink"] \{\par \tab \tab \tab \tab display:block !important;\par \tab \tab \tab \tab width:40px !important;\par \tab \tab \tab \tab height:40px !important;\par \tab \tab \tab \tab float:right !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] a[id="becommercelink"]:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] a:first-child \{\par \tab \tab \tab \tab position: absolute !important;\par \tab \tab \tab \tab top: 14px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="phone"] \{\par \tab \tab \tab \tab position: absolute !important;\par \tab \tab \tab \tab top: 50px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="office"] \{\par \tab \tab \tab \tab position: absolute !important;\par \tab \tab \tab \tab top: 90px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="mail"] \{\par \tab \tab \tab \tab position: absolute !important;\par \tab \tab \tab \tab top: 130px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab a[class="btn_txt"]:hover \{\par \tab \tab \tab \tab text-decoration:underline !important;\par \tab \tab \tab \}\par \tab \tab \tab p[class="mailtitle"] \{\par \tab \tab \tab \tab font-size: 14px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: 120% !important;\par \tab \tab \tab \}\par \tab \tab \tab [class="warning"] \{\par \tab \tab \tab \tab font-size: 9px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: none !important;\par \tab \tab \tab \}\par \tab \tab \tab [class="smalltext"] \{\par \tab \tab \tab \tab font-size: 9px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: none !important;\par \tab \tab \tab \}\par \tab \tab \tab [class="footer_text"] \{\par \tab \tab \tab \tab font-size: 12px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: none !important;\par \tab \tab \tab \}\par \tab \tab \}\par \tab /***********************************/\tab \par \tab /* Smartphones (480px up to 649px) */\par \tab /***********************************/\par \tab \tab @media only screen and (min-device-width:480px) and (max-device-width:649px) \{\par \tab \tab \tab table[id="wrapper"] \{\par \tab \tab \tab \tab width: 100% !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="online"] \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="online"] td \{\par \tab \tab \tab \tab font-size: 8px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: 100% !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="banner"] \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \tab height: 104px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="border-content-top"] \{ display: none !important; \}\par \tab \tab \tab table[id="content-main"] \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \tab border-left: 1px #eaeaea !important;\par \tab \tab \tab \tab border-right: 1px #eaeaea !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="content-main-top"] \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \tab border-spacing: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="visual"] \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \tab height: 175px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="content-main-bottom"] \{\par \tab \tab \tab \tab width: 456px !important;\par \tab \tab \tab \tab border-spacing: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="bulletlist"] \{\par \tab \tab \tab \tab width: 456px !important;\par \tab \tab \tab \tab border-spacing: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="contact-outer-wrapper"] \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \tab border-left: 1px solid #eaeaea;\par \tab \tab \tab \tab border-right: 1px solid #eaeaea;\par \tab \tab \tab \}\par \tab \tab \tab table[id="contact-wrapper"] \{ width: 480px !important; \}\par \tab \tab \tab table[id="contact-inner-wrapper"] \{ width: 480px !important; \}\par \tab \tab \tab table[id="contact"] \{\par \tab \tab \tab \tab width: 456px !important;\par \tab \tab \tab \tab height: 180px !important;\par \tab \tab \tab \tab position: relative !important;\par \tab \tab \tab \}\par \tab \tab \tab td[class="verticaldots"] \{\par \tab \tab \tab \tab display: none !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="border-content-bottom"] \{ width: 480px !important; \}\par \tab \tab \tab table[id="border-footer-top"] \{ width: 480px !important; \}\par \tab \tab \tab table[id="footer-wrapper"] \{ width: 480px !important; \}\par \tab \tab \tab table[id="footer-inner-wrapper"] \{ width: 480px !important; \}\par \tab \tab \tab table[id="footer-inner-wrapper"] td \{ height: 30px !important; \}\par \tab \tab \tab table[id="footer"] \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="footer"] td \{\par \tab \tab \tab \tab text-align: center !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="border-footer-bottom"] \{ width: 480px !important; \}\par \tab \tab \tab [class="hideonmobile"] \{ display: none !important;\}\par \tab \tab \tab td[id="bannercell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Header/banner-320@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 480px 104px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \tab height: 104px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="bannercell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="bannercell"] a \{\par \tab \tab \tab \tab width: 480px !important;\par \tab \tab \tab \tab height: 104px !important;\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="bannercell"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="visualcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="visualcell"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 456px !important;\par \tab \tab \tab \tab height: 175px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="visualcell"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[class="contact_txt"] \{ width: 430px !important;\}\par \tab \tab \tab td[id="webshopcell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_webshop-320.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 26px !important;\par \tab \tab \tab \tab height: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="webshopcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="phonecell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_phone-320.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 26px !important;\par \tab \tab \tab \tab height: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="phonecell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="officecell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_branch-320.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 26px !important;\par \tab \tab \tab \tab height: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="officecell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="mailcell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_mail-320.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 26px !important;\par \tab \tab \tab \tab height: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="mailcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="becommerce"] \{ display: none !important; \}\par \tab \tab \tab td[id="facebook"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_facebook-320.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] img \{ display: none !important; \}\par \tab \tab \tab td[id="facebook"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \tab float: right !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_twitter-320.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] img \{ display: none !important; \}\par \tab \tab \tab td[id="twitter"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \tab float: right !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_youtube-320.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: right !important;\par \tab \tab \tab \tab width: 25px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] img \{ display: none !important; \}\par \tab \tab \tab td[id="youtube"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \tab float: right !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="urls"] \{\par \tab \tab \tab \tab width: 245px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="contact-type"] \{\par \tab \tab \tab \tab width: 456px !important;\par \tab \tab \tab \tab height: 40px !important;\par \tab \tab \tab \tab position: absolute !important;\par \tab \tab \tab \tab border-collapse: collapse !important;\par \tab \tab \tab \tab left: 0px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[class="contact-type"] a \{\par \tab \tab \tab \tab margin-left: 10px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] \{\par \tab \tab \tab \tab top: 10px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/logo_becommerce_mobile.png) !important;\par \tab \tab \tab \tab background-size: 34px 32px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: 390px 3px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] a[id="becommercelink"] \{\par \tab \tab \tab \tab display:block !important;\par \tab \tab \tab \tab width:40px !important;\par \tab \tab \tab \tab height:40px !important;\par \tab \tab \tab \tab float:right !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] a[id="becommercelink"]:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] a:first-child \{\par \tab \tab \tab \tab position: absolute !important;\par \tab \tab \tab \tab top: 14px !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="phone"] \{\par \tab \tab \tab \tab top: 50px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="office"] \{\par \tab \tab \tab \tab top: 90px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab table[id="mail"] \{\par \tab \tab \tab \tab top: 130px !important;\par \tab \tab \tab \tab padding-top: 0px !important;\par \tab \tab \tab \tab border-top: 1px dotted #999999 !important;\par \tab \tab \tab \}\par \tab \tab \tab a[class="btn_txt"]:hover \{\par \tab \tab \tab \tab text-decoration:underline !important;\par \tab \tab \tab \}\par \tab \tab \tab p[class="mailtitle"] \{\par \tab \tab \tab \tab font-size: 14px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: 120% !important;\par \tab \tab \tab \}\par \tab \tab \tab [class="warning"] \{\par \tab \tab \tab \tab font-size: 9px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: none !important;\par \tab \tab \tab \}\par \tab \tab \tab [class="smalltext"] \{\par \tab \tab \tab \tab font-size: 9px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: none !important;\par \tab \tab \tab \}\par \tab \tab \tab [class="footer_text"] \{\par \tab \tab \tab \tab font-size: 12px !important;\par \tab \tab \tab \tab -webkit-text-size-adjust: none !important;\par \tab \tab \tab \}\par \tab \tab \}\par \tab /****************************/\par \tab /*      Retina images       */\par \tab /****************************/\par \tab \tab @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio : 1.5) \{\par \tab \tab \tab td[id="bannercell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Header/banner-320@2x.jpg) !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="bannercell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="visualcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="webshopcell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_webshop-320@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="webshopcell"] img \{ display: none !important; \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/logo_becommerce_mobile@2x.png) !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="phonecell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_phone-320@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="phonecell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="officecell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_branch-320@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="officecell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="mailcell"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_mail-320@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 26px 25px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="mailcell"] img \{ display: none !important; \}\par \tab \tab \tab td[id="facebook"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_facebook@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] img \{ display: none !important; \}\par \tab \tab \tab td[id="twitter"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_twitter@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] img \{ display: none !important; \}\par \tab \tab \tab td[id="youtube"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_youtube@2x.jpg) !important;\par \tab \tab \tab \tab background-size: 16px 16px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] img \{ display: none !important; \}\par \tab \tab \}\par \tab \tab @media only screen and (min-device-width : 650px) and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-width : 650px) and (min-device-pixel-ratio : 1.5) \{\par \tab \tab \tab td[id="bannercell"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 650px !important;\par \tab \tab \tab \tab height: 90px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="bannercell"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="visualcell"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="webshopcell"] \{\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 35px;\par \tab \tab \tab \tab height: 36px;\par \tab \tab \tab \}\par \tab \tab \tab table[id="webshop"] td[class="contact_txt"] \{\par \tab \tab \tab \tab background: none !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="phonecell"] \{\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 35px;\par \tab \tab \tab \tab height: 36px;\par \tab \tab \tab \}\par \tab \tab \tab td[id="officecell"] \{\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 35px;\par \tab \tab \tab \tab height: 36px;\par \tab \tab \tab \}\par \tab \tab \tab td[id="mailcell"] \{\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 35px;\par \tab \tab \tab \tab height: 36px;\par \tab \tab \tab \}\par \tab \tab \tab td[id="becommerce"] \{\par \tab \tab \tab \tab background-image: url(https://static.bnpparibasfortis.be/images/Mailings/Footer/logo_becommerce@2x.png) !important;\par \tab \tab \tab \tab background-size: 44px 41px !important;\par \tab \tab \tab \tab background-repeat: no-repeat !important;\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 44px;\par \tab \tab \tab \tab height: 41px;\par \tab \tab \tab \}\par \tab \tab \tab td[id="becommerce"] img \{ display: none !important; \}\par \tab \tab \tab td[id="becommerce"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 44px !important;\par \tab \tab \tab \tab height: 41px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="becommerce"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] \{\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 30px;\par \tab \tab \tab \tab height: 16px;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="facebook"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] \{\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 30px;\par \tab \tab \tab \tab height: 16px;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="twitter"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] \{\par \tab \tab \tab \tab background-position: left center;\par \tab \tab \tab \tab width: 30px;\par \tab \tab \tab \tab height: 16px;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] a \{ /* Prevents the link to collapse */\par \tab \tab \tab \tab display: block !important;\par \tab \tab \tab \tab width: 16px !important;\par \tab \tab \tab \tab height: 16px !important;\par \tab \tab \tab \}\par \tab \tab \tab td[id="youtube"] a:hover \{\par \tab \tab \tab \tab background-color: transparent !important;\par \tab \tab \tab \}\par \tab \tab \}\par \tab }
+{\*\htmltag249 </STYLE>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag161 <META name=GENERATOR content="MSHTML 11.00.9600.17631">}
+{\*\htmltag41 </HEAD>}
+{\*\htmltag2 \par }
+{\*\htmltag50 <BODY onload=RegisterPage();initCr(); style="-webkit-text-size-adjust: none">}
+{\*\htmltag0 \par }
+{\*\htmltag240 <STYLE type=text/css>}
+{\*\htmltag240  \par  /*****************************/\par  /* Smartphones (up to 479px) */\par  /*****************************/\par  @media only screen and (max-device-width : 479px) \{\par  td[id="visualcell"] \{\par  background-image:url() !important;\par  background-size:300px 115px !important;\par  background-repeat:no-repeat !important;\par  background-position:center !important;\par  width:300px !important;\par  height:115px !important;\par  \}\par  \}\par  /***********************************/\par  /* Smartphones (480px up to 649px) */\par  /***********************************/\par  @media only screen and (min-device-width : 480px) and (max-device-width : 649px) \{\par  td[id="visualcell"] \{\par  background-image:url() !important;\par  background-size:456px 175px !important;\par  background-repeat:no-repeat !important;\par  background-position:center !important;\par  width:456px !important;\par  height:175px !important;\par  \}\par  \}\par  /****************************/\par  /* Retina images */\par  /****************************/\par  @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) \{\par  td[id="visualcell"] \{\par  background-image:url() !important;\par  background-repeat:no-repeat !important;\par  background-position:center !important;\par  \}\par  \}\par  @media only screen and (min-device-width : 650px) and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-width : 650px) and (min-device-pixel-ratio : 1.5) \{\par  td[id="bannercell"] \{\par  background-image:url(https://static.bnpparibasfortis.be/images/Mailings/Header/banner_nl@2x.jpg) !important;\par  background-size:650px 81px !important;\par  background-repeat:no-repeat !important;\par  background-position:center !important;\par  \}\par  td[id="visualcell"] \{\par  background-size:600px 230px !important;\par  /* If wanted, a visual of 1200px x 460px can be specified here. */\par  /* background-image:url() !important; */\par  background-repeat:no-repeat !important;\par  background-position:center !important;\par  \}\par  td[id="visualcell"] a \{ /* Prevents the link to collapse */\par  display:block !important;\par  width:600px !important;\par  height:230px !important;\par  \}\par  \}\par }
+{\*\htmltag248 </STYLE>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=wrapper cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=online cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 10px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #3a3a3a; -webkit-text-size-adjust: none" bgColor=#ffffff width=610 align=right>}\htmlrtf {\highlight2 \htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD class=hideonmobile bgColor=#ffffff width=40>}\htmlrtf {\highlight2 \htmlrtf0 
+{\*\htmltag84 &nbsp;}\htmlrtf \'a0\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=banner height=81 cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD id=bannercell bgColor=#f1f1f2 height=81 vAlign=middle width=650 align=center>}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <A href="./Proxy.asp?proxyClass=MESSAGENT&proxyTarget=/site/renderers/default.aspx&ID=4w74yDp44s%2Bq5CLKXcoATg6HClNtUw2mNGw0OpvYoTYGhaR4c&CR=null" target=_blank>}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt="BNP Paribas Fortis. De bank en verzekering voor een wereld in verandering." src="https://static.bnpparibasfortis.be/images/Mailings/Header/banner_nl.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Header/banner_nl.jpg"}}{\fldrslt\cf1\ul {\chbrdr\brdrsh BNP Paribas Fortis. De bank en verzekering voor een wereld in verandering.}}}\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </A>}
+{\*\htmltag4  }
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=border-content-top height=8 cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD height=8 width=650>}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt="" src="https://static.bnpparibasfortis.be/images/Mailings/Header/border_content_top.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Header/border_content_top.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=content-main cellSpacing=0 cellPadding=0 width=650 align=center bgColor=#ffffff border=0 valign="top">}\htmlrtf {\pard\plain \f0\fs24 \highlight2 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD bgColor=#eaeaea vAlign=top width=1 align=left>}\htmlrtf {\highlight4 \htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD vAlign=top width=648 align=center>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <TABLE class=content-main-bottom style="VERTICAL-ALIGN: top" cellSpacing=0 cellPadding=0 width=600 align=center border=0 valign="top">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333" vAlign=top align=left border="0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <TABLE class=content-main-bottom cellSpacing=0 cellPadding=0 width=600 border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333; PADDING-BOTTOM: 0px; PADDING-TOP: 18px; PADDING-LEFT: 0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 0px">}\htmlrtf {\htmlrtf0 Geachte heer/mevrouw,
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333; PADDING-BOTTOM: 0px; PADDING-TOP: 18px; PADDING-LEFT: 0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 0px">}\htmlrtf {\htmlrtf0 U heeft twee belangerijke berichten klaarstaan.
+{\*\htmltag116 <BR>}\htmlrtf \line
+\htmlrtf0 Meld u aan om deze te bekijken!
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333; PADDING-BOTTOM: 18px; PADDING-TOP: 18px; PADDING-LEFT: 0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 0px">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <A href="http://ow.ly/55xl300og6Y">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://ow.ly/55xl300og6Y"}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag84 <IMG src="http://i.imgur.com/cq0nNVA.png">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </A>}
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE class=bulletlist style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333; LINE-HEIGHT: 18px" cellSpacing=0 cellPadding=0 width=600 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE class=content-main-bottom cellSpacing=0 cellPadding=0 width=600 border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333; PADDING-BOTTOM: 0px; PADDING-TOP: 18px; PADDING-LEFT: 0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 0px">}\htmlrtf {\htmlrtf0 Met vriendelijke groeten, 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333; PADDING-BOTTOM: 18px; PADDING-TOP: 18px; PADDING-LEFT: 0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 0px">}\htmlrtf {\htmlrtf0 Laurent Loncke
+{\*\htmltag116 <BR>}\htmlrtf \line
+\htmlrtf0 directeur particuliere klanten 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 12px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #333333; PADDING-BOTTOM: 18px; PADDING-TOP: 18px; PADDING-LEFT: 0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 0px">}\htmlrtf {\htmlrtf0 Om technische redenen kunnen wij antwoorden naar dit e-mailadres niet beantwoorden. 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag248 </TD>}
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag248 </TD>}
+{\*\htmltag0 \par }{\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag148 <TD bgColor=#eaeaea vAlign=top width=1 align=right>}\htmlrtf {\highlight4 \htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 {\*\htmltag72}\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=contact-outer-wrapper cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD bgColor=#e3e5e6 width=650>}\htmlrtf {\highlight5 \htmlrtf0 
+{\*\htmltag4 \par }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <TABLE id=contact-wrapper cellSpacing=0 cellPadding=0 width=648 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD bgColor=#ffffff width=648 align=center>}\htmlrtf {\highlight2 \htmlrtf0 
+{\*\htmltag4 \par }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <TABLE id=contact-inner-wrapper cellSpacing=0 cellPadding=0 width=600 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag248 </TD>}
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag248 </TD>}
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=border-content-bottom class=hideonmobile height=7 cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 1px; LINE-HEIGHT: 1px" height=7>}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt="" src="https://static.bnpparibasfortis.be/images/Mailings/Footer/border_content_bottom.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Footer/border_content_bottom.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=border-footer-top class=hideonmobile height=16 cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD bgColor=#f6f6f6 height=10 width=650>}\htmlrtf {\highlight6 \htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD bgColor=#f6f6f6 height=6 vAlign=top width=650 align=left>}\htmlrtf {\highlight6 \htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt="" src="https://static.bnpparibasfortis.be/images/Mailings/Footer/border_footer_top.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Footer/border_footer_top.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=footer-wrapper cellSpacing=0 cellPadding=0 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD bgColor=#e3e5e6 width=650 align=center>}\htmlrtf {\highlight5 \htmlrtf0 
+{\*\htmltag4 \par }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <TABLE id=footer-inner-wrapper cellSpacing=0 cellPadding=0 width=648 align=center bgColor=#e9eaeb border=0>}\htmlrtf {\pard\plain \f0\fs24 \highlight7 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD bgColor=#e9eaeb height=51 width=25 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag84 &nbsp;}\htmlrtf \'a0\htmlrtf0  
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD id=becommerce bgColor=#e9eaeb height=51 vAlign=middle width=44 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag84 <IMG title="Veilig online winkelen met BeCommerce!" style="DISPLAY: block" border=0 alt="Veilig online winkelen met BeCommerce!" src="https://static.bnpparibasfortis.be/Images/Mailings/Footer/logo_becommerce.png">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/Images/Mailings/Footer/logo_becommerce.png"}}{\fldrslt\cf1\ul {\chbrdr\brdrsh Veilig online winkelen met BeCommerce!}}}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #9e9e9e; -webkit-text-size-adjust: none" bgColor=#e9eaeb height=51 width=579 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag4 \par }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <TABLE id=footer cellSpacing=0 cellPadding=0 width=579 align=center bgColor=#e9eaeb border=0>}\htmlrtf {\pard\plain \f0\fs24 \highlight7 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD class=hideonmobile style="FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #008559" bgColor=#e9eaeb width=121 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD id=facebook style="FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #9e9e9e" bgColor=#e9eaeb vAlign=middle width=30 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt=Facebook src="https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_facebook2.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_facebook2.jpg"}}{\fldrslt\cf1\ul {\chbrdr\brdrsh Facebook}}}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD id=twitter style="FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #9e9e9e" bgColor=#e9eaeb vAlign=middle width=30 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt=Twitter src="https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_twitter2.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_twitter2.jpg"}}{\fldrslt\cf1\ul {\chbrdr\brdrsh Twitter}}}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD id=youtube style="FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #9e9e9e" bgColor=#e9eaeb vAlign=middle width=30 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt=YouTube src="https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_youtube2.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Footer/icon_youtube2.jpg"}}{\fldrslt\cf1\ul {\chbrdr\brdrsh YouTube}}}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD id=urls style="FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #9e9e9e; -webkit-text-size-adjust: none" bgColor=#e9eaeb vAlign=middle width=365 align=right>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag68 <P class=footer_text style="FONT-FAMILY: Arial,Helvetica,sans-serif; MARGIN: 0px">}
+{\*\htmltag84 <SPAN class=hideonmobile>}\htmlrtf {\htmlrtf0 | 
+{\*\htmltag92 </SPAN>}\htmlrtf }\htmlrtf0 Disclaimer | Privacy Policy | Uitschrijven
+{\*\htmltag84 <SPAN class=hideonmobile>}\htmlrtf {\htmlrtf0  |
+{\*\htmltag92 </SPAN>}\htmlrtf }\htmlrtf0  bnpparibasfortis.be
+{\*\htmltag84 <SPAN class=hideonmobile>}\htmlrtf {\htmlrtf0  |
+{\*\htmltag92 </SPAN>}\htmlrtf }\htmlrtf0  \htmlrtf }\htmlrtf0 \htmlrtf\par}\htmlrtf0
+\htmlrtf \par
+\htmlrtf0 
+{\*\htmltag72 </P>}
+{\*\htmltag248 </TD>}
+{\*\htmltag0 \par }{\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag148 <TD style="FONT-SIZE: 11px; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #9e9e9e" bgColor=#e9eaeb vAlign=middle width=10 align=left>}\htmlrtf {\highlight7 \htmlrtf0 
+{\*\htmltag84 &nbsp;}\htmlrtf \'a0\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 {\*\htmltag72}\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag248 </TD>}
+{\*\htmltag72 </TR>}
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD class=stamp style="FONT-SIZE: 10px !important; FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: #cecece !important; TEXT-ALIGN: left !important; MARGIN-LEFT: 5px" colSpan=3>}\htmlrtf {\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag248 </TD>}
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag96 <TABLE id=border-footer-bottom class=hideonmobile height=6 cellSpacing=0 cellPadding=0 width=650 align=center border=0>}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag64 <TR>}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <TD style="FONT-SIZE: 1px; LINE-HEIGHT: 1px" bgColor=#f6f6f6 height=6 vAlign=top width=650 align=left>}\htmlrtf {\highlight6 \htmlrtf0 
+{\*\htmltag84 <IMG style="DISPLAY: block" border=0 alt="" src="https://static.bnpparibasfortis.be/images/Mailings/Footer/border_footer_bottom.jpg">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://static.bnpparibasfortis.be/images/Mailings/Footer/border_footer_bottom.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag156 </TD>}\htmlrtf }\tab \htmlrtf0 \htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </TR>}
+{\*\htmltag104 </TABLE>}\htmlrtf }\htmlrtf0 
+{\*\htmltag112 <BR>}\htmlrtf \par
+\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240 <STYLE>}
+{\*\htmltag240 @media print\{ #_t \{ background-image: url('https://2tfacb5b.emltrk.com/2tfacb5b?p&d=');\}\} div.OutlookMessageHeader \{background-image:url('https://2tfacb5b.emltrk.com/2tfacb5b?f&d=')\} table.moz-email-headers-table \{background-image:url('https://2tfacb5b.emltrk.com/2tfacb5b?f&d=')\} blockquote #_t \{background-image:url('https://2tfacb5b.emltrk.com/2tfacb5b?f&d=')\} #MailContainerBody #_t \{background-image:url('https://2tfacb5b.emltrk.com/2tfacb5b?f&d=')\}}
+{\*\htmltag248 </STYLE>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag96 <DIV id=_t>}\htmlrtf {\htmlrtf0 
+{\*\htmltag104 </DIV>}\htmlrtf }\htmlrtf0 {\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <IMG border=0 src="https://2tfacb5b.emltrk.com/2tfacb5b?d=" width=1 height=1>}\htmlrtf  {\field{\*\fldinst{HYPERLINK "https://2tfacb5b.emltrk.com/2tfacb5b?d="}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag244 <SCRIPT language=javascript>}
+{\*\htmltag244 \par   try\{\par    $("#CR").remove();\par   \}\par   catch(ex)\{\par   \}\par }
+{\*\htmltag252 </SCRIPT>}
+{\*\htmltag4 \par }
+{\*\htmltag4  }{\*\htmltag72}\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag58 </BODY>}
+{\*\htmltag27 </HTML>}} o0i}0

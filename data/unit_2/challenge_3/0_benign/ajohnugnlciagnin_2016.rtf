@@ -1,0 +1,1672 @@
+{\rtf1\ansi\ansicpg1252\fromhtml1 \fbidis \deff0{\fonttbl
+{\f0\fswiss\fcharset0 Arial;}
+{\f1\fmodern Courier New;}
+{\f2\fnil\fcharset2 Symbol;}
+{\f3\fmodern\fcharset0 Courier New;}
+{\f4\fswiss Arial;}
+{\f5\fswiss Helvetica Neue;}}
+{\colortbl\red0\green0\blue0;\red0\green0\blue255;\red228\green228\blue228;\red240\green240\blue240;\red255\green255\blue255;}
+\uc1\pard\plain\deftab360 \f0\fs24 
+{\*\htmltag243 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">}
+{\*\htmltag19 <html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}
+{\*\htmltag34 <head>}
+{\*\htmltag1 \par }
+{\*\htmltag161 <meta name="viewport" content="width=device-width">}
+{\*\htmltag1 \par }
+{\*\htmltag241   }
+{\*\htmltag1 \par }
+{\*\htmltag241   }
+{\*\htmltag177 <title>}
+{\*\htmltag241 Checkers}
+{\*\htmltag185 </title>}
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag241   }
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag1 \par }
+{\*\htmltag41 </head>}
+{\*\htmltag2 \par }
+{\*\htmltag2 \par }
+{\*\htmltag242     }
+{\*\htmltag50 <body style="-ms-text-size-adjust: 100; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; box-sizing: border-box; color: #000; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 100% !important; margin: 0; padding: 0; width: 100% !important" bgcolor="#FFFFFF">}\htmlrtf \viewkind5
+{\*\background {\shp{\*\shpinst{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}}}}\htmlrtf0 
+{\*\htmltag240 <style type="text/css">}
+{\*\htmltag240 \par body \{\par height: 100% !important; margin: 0; padding: 0; width: 100% !important;\par \}\par img \{\par border: 0; outline: none; text-decoration: none; !important;\par \}\par .ReadMsgBody \{\par width: 100%;\par \}\par .ExternalClass \{\par width: 100%;\par \}\par .ExternalClass \{ \par line-height: 100%;\par \}\par img \{\par -ms-interpolation-mode: bicubic;\par \}\par body \{\par -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\par \}\par body \{\par background-color: #ffffff;\par \}\par .img-responsive \{\par max-width: 100%; height: auto; width: 100%; background-color:#FFFFFF;\par \}\par img \{\par   width:1px;\par   height:1px;\par   background-color:#FFFFFF;\par \}\par body \{\par -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: 100; width: 100% !important; height: 100%; line-height: 1.2;  color: #000; margin: 0; padding: 0;\par \}\par @media only screen and (max-width: 600px) \{\par   .fourCol__img__wrapper \{\par     text-align: center;\par   \}\par   .fullCol__img__wrapper \{\par     text-align: center;\par   \}\par   #fullCol__img__wrapper--christmasLeft \{\par     text-align: center;\par   \}\par   #fullCol__img__wrapper--christmasRight \{\par     text-align: center;\par   \}\par   #fullCol__img__wrapper--wineLeft \{\par     text-align: left;\par   \}\par   #fullCol__img__wrapper--ebucksRight \{\par     text-align: center;\par   \}\par   .social__img__wrapper \{\par     text-align: center;\par   \}\par   #doubleCol__text__wrapper \{\par     text-align: center;\par   \}\par   td[id="heroTitleContainer"] \{\par     padding-right: 0 !important; padding-left: 0 !important;\par   \}\par   td[id="heroImageContainer"] \{\par     padding-right: 0 !important; padding-left: 0 !important;\par   \}\par   td[id="heroTitleContainer"] \{\par     padding-right: 0 !important; padding-left: 0 !important;\par   \}\par   td[id="footerContainer"] \{\par     padding-right: 0 !important; padding-left: 0 !important;\par   \}\par   tr[id="emailHelp"] \{\par     display: none !important;\par   \}\par   table[id="heroTitleBlock"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="heroNumberBlock"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="devicesBlock"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="footerBlock"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="doubleCol__img__wrapper"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="doubleCol__text__wrapper"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="fourCol__content--christmasLeft"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="fourCol__content--christmasRight"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="fourCol__content--greatGiftsLeft"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="fourCol__content--greatGiftsRight"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__content--wineLeft"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__content--wineRight"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__image--christmasLeft"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__image--christmasRight"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__image--wineLeft"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__image--ebucksRight"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="socialBlock"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="socialButtons__wrapper"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="navContainer--left"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="navContainer--right"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[class="singleCol__img__wrapper"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="heroBlock"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="contentContainer__table"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="navBlock__table"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="navContainer--footer"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="TandC__table"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="doubleCol__table"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="memberContainer"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="doubleCol__table__wrapper"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__table--sectionOne"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__table--sectionTwo"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="twoCol__table--sectionThree"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="singleCol__table--sectionOne"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="singleCol__table--sectionTwo"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="singleCol__table--sectionThree"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="fourCol__table--sectionOne"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="fourCol__table--sectionTwo"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="fourCol__table--sectionThree"] \{\par     max-width: 600px !important; width: 100% !important;\par   \}\par   table[id="devicesBlock"] \{\par     border-bottom: 1px solid #4e8989;\par   \}\par   img[id="heroImage"] \{\par     border-right: 0 !important;\par   \}\par   td[class="navSplit"] \{\par     display: block !important; width: 100% !important; padding-left: 0 !important;\par   \}\par   td[class="doubleCol__split"] \{\par     display: block !important; width: 100% !important; padding-left: 0 !important;\par   \}\par   td[class="singleCol__split"] \{\par     display: block !important; width: 100% !important; padding-left: 0 !important;\par   \}\par   td[class="fourCol__split"] \{\par     display: block !important; width: 100% !important; padding-left: 0 !important;\par   \}\par   td[class="fourCol__split--paddingLeft"] \{\par     display: block !important; width: 100% !important; padding-left: 0 !important;\par   \}\par   td[class="singleCol__text__td"] \{\par     display: block !important; width: 100% !important; padding-left: 0 !important;\par   \}\par   body \{\par     width: 100% !important; min-width: 100% !important;\par   \}\par   h1 \{\par     font-size: 24px !important;\par   \}\par   h2 \{\par     font-size: 25px !important; line-height: 140% !important;\par   \}\par   h3 \{\par     font-size: 16px !important;\par   \}\par   img \{\par     height: auto; width: 100%;\par   \}\par   img[id="heroImage"] \{\par     height: auto !important; max-width: 600px !important; width: 100% !important;\par   \}\par   #emailContainer \{\par     width: 100% !important;\par   \}\par   #contentBlock \{\par     width: 100% !important;\par   \}\par   #heroContainer \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #navBlock \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #fourCol__wrapper \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #heroContainerBlue \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #doubleCol__wrapper \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #singleCol__wrapper \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #singleCol__wrapper--greatGifts \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #singleCol__wrapper--wines \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #singleCol__wrapper--alcohol \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   .heroContent__h1 h1 \{\par     line-height: 100% !important;\par   \}\par   .listContent \{\par     padding: 10px 20px !important;\par   \}\par   .heroImageContent \{\par     border-radius: 0 !important;\par   \}\par   .devicesContent h3 \{\par     font-size: 32px !important;\par   \}\par   .appleLinkWhite \{\par     color: #ffffff !important; text-decoration: none !important;\par   \}\par   .appleLinkDark \{\par     color: #000000 !important; text-decoration: none !important;\par   \}\par   .appleLinkBlue \{\par     color: #009999 !important; text-decoration: none !important;\par   \}\par   .singleCol__text \{\par     width: 100% !important; margin-bottom: 10px !important; text-align: center !important;\par   \}\par   .singleCol__text__td \{\par     text-align: center !important; padding: 6px 0 !important;\par   \}\par   .fourCol__img__wrapper:first-of-type \{\par     padding: 0 10px 0 0 !important;\par   \}\par   .fourCol__img__wrapper:last-of-type \{\par     padding: 0 0 0 10px !important;\par   \}\par   .fourCol__text__wrapper \{\par     padding: 0 !important;\par   \}\par   .fourCol__text__wrapper:first-of-type \{\par     padding: 0 10px 0 0 !important;\par   \}\par   .fourCol__text__wrapper:last-of-type \{\par     padding: 0 0 0 10px !important;\par   \}\par   .viewMore__wrapper \{\par     height: 37px !important;\par   \}\par   .fourCol__text__wrapper--doubleCol \{\par     padding: 0 !important;\par   \}\par   .fullCol__img__wrapper \{\par     padding: 0 !important;\par   \}\par   #fullCol__img__wrapper--christmasLeft \{\par     padding: 0 !important;\par   \}\par   #fullCol__img__wrapper--christmasRight \{\par     padding: 0 !important;\par   \}\par   #fullCol__img__wrapper--wineLeft \{\par     padding: 0 !important;\par   \}\par   #fullCol__img__wrapper--ebucksRight \{\par     padding: 0 !important;\par   \}\par   .doubleCol__header \{\par     font-size: 20px !important; text-align: left !important; padding: 0 0 20px 0 !important;\par   \}\par   .doubleCol__p \{\par     padding: 0 !important;\par   \}\par   .doubleCol__p p \{\par     font-size: 20px !important; text-align: left !important;\par   \}\par   .social__img__wrapper \{\par     padding: 0 !important;\par   \}\par   .singleCol__img__wrapper \{\par     width: 100% !important; margin-bottom: 20px !important; background: #009999 !important; text-align: center !important; height: auto !important;\par   \}\par   .singleCol__img__wrapper img \{\par     max-width: 126px !important;\par   \}\par   .mainNav__link \{\par     font-size: 18px !important;\par   \}\par   .navfooter__link__wrapper_first \{\par     display: block !important; width: 100% !important; border-right: none !important; font-size: 18px !important; border-top: 1px solid #009999 !important; padding: 0px 0 !important;\par   \}\par     .navfooter__link__wrapper \{\par     display: block !important; width: 100% !important; border-right: none !important; font-size: 18px !important; border-bottom: 1px solid #009999 !important; padding: 10px 0 !important;\par   \}\par   \par   .navfooter__link__wrapper--last \{\par     display: block !important; width: 100% !important; border-right: none !important; font-size: 18px !important; border-bottom: 0px solid #009999 !important; padding: 10px 0 !important;\par   \}\par   .navfooter__link__wrapper:first-of-type \{\par     border-top: 1px solid #009999 !important;\par   \}\par   .navfooter__link__wrapper--last:first-of-type \{\par     border-top: 1px solid #009999 !important;\par   \}\par   .navfooter__link__wrapper:last-of-type \{\par     border-bottom: none !important;\par   \}\par   .navfooter__link__wrapper--last:last-of-type \{\par     border-bottom: none !important;\par   \}\par   .navfooter__link \{\par     font-size: 15px !important;\par   \}\par   #doubleCol__wrapper \{\par     padding: 0 20px !important;\par   \}\par   #doubleCol__text__wrapper \{\par     margin-top: 20px !important;\par   \}\par   #fourCol__wrapper \{\par     padding-top: 0 !important;\par   \}\par   #fourCol__content--christmasRight \{\par     margin: 20px 0 !important;\par   \}\par   #singleCol__wrapper--greatGifts \{\par     padding-top: 0 !important;\par   \}\par   #fourCol__content--greatGiftsRight \{\par     margin: 20px 0 !important;\par   \}\par   #singleCol__content \{\par     margin-bottom: 20px !important;\par   \}\par   #singleCol__content--wines \{\par     padding-top: 0 !important; margin-bottom: 20px !important;\par   \}\par   #singleCol__wrapper--wines \{\par     padding-top: 0 !important;\par   \}\par   #twoCol__content--wineRight \{\par     margin: 20px 0 !important;\par   \}\par   #fullCol__img__wrapper--christmasLeft \{\par     padding: 0 !important;\par   \}\par   #twoCol__image--christmasRight \{\par     margin-top: 20px !important;\par   \}\par   #fullCol__img__wrapper--christmasRight \{\par     padding: 0 !important;\par   \}\par   #fullCol__img__wrapper--wineLeft \{\par     padding: 0 !important;\par   \}\par   #twoCol__image--ebucksRight \{\par     margin-top: 20px !important;\par   \}\par   #fullCol__img__wrapper--ebucksRight \{\par     padding: 0 !important;\par   \}\par   #singleCol__wrapper--alcohol \{\par     padding-top: 0 !important;\par   \}\par   #socialInnerContainer \{\par     padding: 20px 0 !important;\par   \}\par   #navContainer--left td \{\par     width: 33%; padding: 20px 0 !important; vertical-align: middle !important;\par   \}\par   #navContainer--right td \{\par     width: 33%; padding: 20px 0 !important; vertical-align: middle !important;\par   \}\par   #doubleCol__img__wrapper \{\par     margin-top: 20px !important;\par   \}\par   #singleCol__alcohol \{\par     margin-bottom: 20px !important;\par   \}\par   #navContainer--footer \{\par     padding: 20px 20px 0 20px !important;\par   \}\par   #memberBlock \{\par     padding: 0 20px !important;\par   \}\par   #doubleCol__table__wrapper \{\par     margin-top: 20px !important;\par   \}\par \}\par }
+{\*\htmltag248 </style>}
+{\*\htmltag0 \par }
+{\*\htmltag240       }
+{\*\htmltag96 <center style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\qc \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240           }
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #E4E4E4; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 100% !important; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 100% !important" bgcolor="#E4E4E4">}\htmlrtf {\pard\plain \f0\fs24 \highlight2 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240               }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                   }
+{\*\htmltag148 <td align="center" valign="top" id="bodyCell" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 100% !important; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top; width: 100% !important">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                       }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }
+{\*\htmltag4 \par }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" id="emailContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; max-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 100%">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240     }
+{\*\htmltag0 \par }
+{\*\htmltag240     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0; background-color:#FFFFFF">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84         }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84              }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" id="contentBlock" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; max-width: 600px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 600px">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240             }
+{\*\htmltag0 \par }
+{\*\htmltag240             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="heroContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="heroBlock" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 13px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                 }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr id="emailHelp" style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 13px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4  }
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" class="heroContent__p" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 13px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84        }
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }
+{\*\htmltag68 <p style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal; margin: 0; padding: 0; text-align: center" align="center">}\htmlrtf \qc \htmlrtf0 If you are unable to view this email - {}
+{\*\htmltag84 <a href="http://view.connect.checkersmail.co.za/?qs=396f33d14d9bbc32c0e35f073d69893b4bcfcd8b45b2542a6c70ed72350bea909dd07ebdda508261d7c5c19bb07b38cf15287d850b13b30acfb42a65ef57befa" class="heroContent__a" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #009999; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0; text-decoration: underline">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://view.connect.checkersmail.co.za/?qs=396f33d14d9bbc32c0e35f073d69893b4bcfcd8b45b2542a6c70ed72350bea909dd07ebdda508261d7c5c19bb07b38cf15287d850b13b30acfb42a65ef57befa"}}{\fldrslt\cf1\ul \htmlrtf0 click here
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 \htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4  }to view the online version.\htmlrtf }\htmlrtf0 \htmlrtf\par}\htmlrtf0
+\htmlrtf \par
+\htmlrtf0 
+{\*\htmltag72 </p>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                     }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                 }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240             }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240             }
+{\*\htmltag0 \par }
+{\*\htmltag240             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 10px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686bdaa4b7b03b5e2304806ff684c6c95cc1758aec4931d503ae" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686bdaa4b7b03b5e2304806ff684c6c95cc1758aec4931d503ae" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Logo.jpg" width="600" alt="Checkers Logo" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                   }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="navBlock" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="twoCol__table--sectionThree" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top; border: 1px solid #ffffff">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686b5e8c2353b58f3337540ad0904f3fc2329179e2f4d415c1db" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686b5e8c2353b58f3337540ad0904f3fc2329179e2f4d415c1db" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Specials.jpg" alt="Click Here view Specials" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                                                                     }{\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 {\*\htmltag72}\htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px; vertical-align: top; border: 1px solid #ffffff">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686bcde6bab31aa9afc9df5ea47683509d5aa88297ca9c274b15" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686bcde6bab31aa9afc9df5ea47683509d5aa88297ca9c274b15" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_StoreLocator.jpg" alt="Click Here to Locate your nearest Store" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag248 </td>}
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 20px 10px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686bde69f234f51437c793d4a6bf8e9ff153524dc2fc3b6ea1a5" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686bde69f234f51437c793d4a6bf8e9ff153524dc2fc3b6ea1a5" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_01.jpg" width="600" alt="Get the best this winter. Click here to browse our catalogue" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0  }
+{\*\htmltag0 \par }
+{\*\htmltag0  }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                          }
+{\*\htmltag0 \par }
+{\*\htmltag240   }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="TandCBlock" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #fff; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 20px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="TandC__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                   }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td valign="top" class="heroContent__p" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #ffffff; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#ffffff">}\htmlrtf {\highlight4 \htmlrtf0 
+{\*\htmltag148 <font face="Arial, Helvetica, sans-serif" style="font-size:14px; color:#666666;">}\htmlrtf {\f4 \htmlrtf0 Hi Cathy,
+{\*\htmltag84   }\htmlrtf  \htmlrtf0 
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag4  }
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }Step out in style OR find reasons to stay in with our red-hot winter-warmer deals! From snug footwear and stylish coffee mugs to super soft and comfy blankets, your household will be able to get the best out of this winter for less. Just stop in at your local Checkers Hyper and stock up against the brrr.
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag4  }
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }Explore our entire winter catalogue 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686b6b7c2721aff9f5967e5f1fb48335a0c68ae4a472147a8739" style=" color: #009999; text-decoration: underline">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686b6b7c2721aff9f5967e5f1fb48335a0c68ae4a472147a8739"}}{\fldrslt\cf1\ul \htmlrtf0 here\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}. 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag156 </font>}\htmlrtf }\htmlrtf0 
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                     }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 10px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686b4be0a30b3a652ed1d7bdcddf21fffef486d1fb1497a2a281" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=3c4d0467cd03686b4be0a30b3a652ed1d7bdcddf21fffef486d1fb1497a2a281" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_02nn.jpg" width="600" alt="Colourful crockery. Click to view more." style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add4b8b48ba968ef46ebce4c6c8077befff6533dbcc19cae037" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add4b8b48ba968ef46ebce4c6c8077befff6533dbcc19cae037" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_03.jpg" width="600" alt="Snuggle up in winter savings. Click to view more blankets." style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 10px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add441c0e4a3aa618baf3589930f9dcd25d1355352d34d09d96" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add441c0e4a3aa618baf3589930f9dcd25d1355352d34d09d96" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_04.jpg" width="600" alt="Snuggle up in winter savings. Click to view more blankets." style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_05.jpg" width="600" alt="Save on baby's winter warmers" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_05.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240    }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="twoCol__images--second" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 20px 5px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="twoCol__table--sectionThree" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 5px 0 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addd7c664684cc3b993eda92e041b0ad0729d6aabd66bbc569b" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addd7c664684cc3b993eda92e041b0ad0729d6aabd66bbc569b" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top">}\htmlrtf {\f5 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_06.jpg" width="295" alt="Jolly Tots Floral Set, 3-piece, R99,99 per set. Click to view more" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0 0 5px 0; text-decoration: none !important; width: 100%; display:block">}
+{\*\htmltag156 </span>}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                                                                     }{\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 {\*\htmltag72}\htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 5px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add794548d0488c4eef3434162fe878fe033c9e97a1e931f6ca" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add794548d0488c4eef3434162fe878fe033c9e97a1e931f6ca" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top">}\htmlrtf {\f5 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_07.jpg" width="295" alt="Coral Fleece Jacket with Leggings, R119,99 per set. Click to view more" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0 0 5px 0; text-decoration: none !important; width: 100%; display:block">}
+{\*\htmltag156 </span>}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240        }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_08.jpg" width="600" alt="We'll beat any toy prices in SA" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_08.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                        }
+{\*\htmltag0 \par }
+{\*\htmltag240    }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="twoCol__images--second" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 20px 5px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="twoCol__table--sectionThree" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 5px 0 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add7ea80d18d56e946db27d3d19e6fe31ccd060dd984089ab78" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add7ea80d18d56e946db27d3d19e6fe31ccd060dd984089ab78" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top">}\htmlrtf {\f5 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_09.jpg" width="295" alt="Character Foil puzzle, assorted R19,99 Eack. Click to view more." style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0 0 5px 0; text-decoration: none !important; width: 100%; display:block">}
+{\*\htmltag156 </span>}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                                                                     }{\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 {\*\htmltag72}\htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 5px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addc3d072404711fe494970a6710592e46f58e998ac39bd9db3" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addc3d072404711fe494970a6710592e46f58e998ac39bd9db3" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag148 <span style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; vertical-align: top">}\htmlrtf {\f5 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_10.jpg" width="295" alt="Play-Doh Style Salon Rainbow Dash/Classic colours, from R79,99 each. Click to view more" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0 0 5px 0; text-decoration: none !important; width: 100%; display:block">}
+{\*\htmltag156 </span>}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240        }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 10px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addcfb40fbf69e1b1b68341f4d9dd78b2003b2b27a977d418f5" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addcfb40fbf69e1b1b68341f4d9dd78b2003b2b27a977d418f5" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_11.jpg" width="600" alt="Board games, assorted from R49,99 each. Click to browse more toys." style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_12.jpg" width="600" alt="Great Deals on warm &amp; cuddly novelties. Styles may vary per store Click to view more slippers." style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_12.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 10px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add18b67b43f92d8435e137e07919836cda2fde4691a46c2763" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add18b67b43f92d8435e137e07919836cda2fde4691a46c2763" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_13.jpg" width="600" alt="Holland's Favourite Cheese" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_14.jpg" width="600" alt="Step ou in style this winter" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_14.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                           }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add8e05b7f9ec06e12b685886f546d73878f1703fc585db6aa7" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27add8e05b7f9ec06e12b685886f546d73878f1703fc585db6aa7" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_15.jpg" width="600" alt="Assorted Winter ankle and short boots from R199,99 per pair. Click to view more." style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                             }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }
+{\*\htmltag4 \par }
+{\*\htmltag84                         }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                      }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                          }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                     }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                   }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                               }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }
+{\*\htmltag148 <td align="center" valign="top" id="contentContainerSocial" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 20px 0px 20px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                   }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="contentContainer__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                       }
+{\*\htmltag148 <td align="center" valign="top" id="logoContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag84 &nbsp;}\htmlrtf \'a0\htmlrtf0 
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag84     }\htmlrtf  \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                     }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                   }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                       }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="twoCol__images--second" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 20px 10px 20px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="twoCol__table--sectionThree" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--wineLeft" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 10px 0 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addff58fad2e44b898108b2dfa7a2ecfd03e8217d2f9fa1ea61" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=70d401d0ccb27addff58fad2e44b898108b2dfa7a2ecfd03e8217d2f9fa1ea61" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Newsletter-Subscription.jpg" alt="Click Here to Subscribe to Newsletter" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }{\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag148 <td class="doubleCol__split" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 {\*\htmltag72}\htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="300" id="twoCol__image--ebucksRight" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td align="center" valign="top" id="fullCol__img__wrapper--ebucksRight" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 10px; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://view.connect.checkersmail.co.za/ftaf.aspx?qs=396f33d14d9bbc32c0e35f073d69893b4bcfcd8b45b2542a6c70ed72350bea90fb5d22dc2364c759" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://view.connect.checkersmail.co.za/ftaf.aspx?qs=396f33d14d9bbc32c0e35f073d69893b4bcfcd8b45b2542a6c70ed72350bea90fb5d22dc2364c759" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Forward.jpg" alt="Click Here to Forward to a Friend" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag240                                    }
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                          }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="socialContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 20px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="socialButtons__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0px">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td id="socialInnerContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px; vertical-align: top" bgcolor="#fff" valign="top">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" align="center" width="300" id="socialBlock" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0 auto; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0" bgcolor="#fff">}\htmlrtf {\pard\plain \f0\fs24 \highlight3 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td class="social__img__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 10px; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f71d3d9bcac5e8b56ea402621f8089c01540085d32c2401c1" target="_blank" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #348eda; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0; text-decoration: underline">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f71d3d9bcac5e8b56ea402621f8089c01540085d32c2401c1" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Facebook.jpg" alt="Facebook logo" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 33px; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 37px">}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td class="social__img__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 10px; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f1dfd3eed166625a3245ab962a0f6ce7fb2410c62be764412" target="_blank" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #348eda; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0; text-decoration: underline">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f1dfd3eed166625a3245ab962a0f6ce7fb2410c62be764412" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Twitter.jpg" alt="Twitter logo" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 33px; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 37px">}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td class="social__img__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 10px; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8ff16882b8806c88371204ce861c7d63f81e48146fae4f9faa" target="_blank" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #348eda; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0; text-decoration: underline">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8ff16882b8806c88371204ce861c7d63f81e48146fae4f9faa" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_YouTube.jpg" alt="Youtube logo" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 33px; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 37px">}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td class="social__img__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 10px; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8fa87ee9c884f172cfdc2306cc4d899f0318cf6bcf62557751" target="_blank" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #348eda; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0; text-decoration: underline">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8fa87ee9c884f172cfdc2306cc4d899f0318cf6bcf62557751" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Instagram.jpg" alt="Instagram logo" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 33px; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 37px">}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td class="social__img__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 10px; vertical-align: top" valign="top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag84 <a href="http://view.connect.checkersmail.co.za/ftaf.aspx?qs=396f33d14d9bbc32c0e35f073d69893b4bcfcd8b45b2542a6c70ed72350bea90fb5d22dc2364c759" target="_blank" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #348eda; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0; text-decoration: underline">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://view.connect.checkersmail.co.za/ftaf.aspx?qs=396f33d14d9bbc32c0e35f073d69893b4bcfcd8b45b2542a6c70ed72350bea90fb5d22dc2364c759" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Share.jpg" alt="Forward to a Friend" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: 33px; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 37px">}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag240             }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0  }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="navBlock--footer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 20px 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td align="center" valign="top" class="heroContent__p" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84        }
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="navContainer--footer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; border-collapse: collapse; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px" bgcolor="#fff">}\htmlrtf {\pard\plain \f0\fs24 \highlight3 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                                 }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td width="109" align="center" valign="top" class="navfooter__link__wrapper_first" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 5px; text-align: center; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td width="117" align="center" valign="top" class="navfooter__link__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-right-color: #009999; border-right-style: solid; border-right-width: 1px; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 5px; text-align: center; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                          }{}
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f480d465e5a604891dfb4ad2acbcffdf17e751a9002542645" target="_blank" class="navfooter__link" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #009999; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0; text-decoration: none">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f480d465e5a604891dfb4ad2acbcffdf17e751a9002542645" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }Privacy Policy
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td width="154" align="center" valign="top" class="navfooter__link__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-right-color: #009999; border-right-style: solid; border-right-width: 1px; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 5px; text-align: center; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }{}
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f9e2f3fe3ca21914ba3e80e387b7ac83c708bc64c6e6fb98d" target="_blank" class="navfooter__link" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #009999; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0; text-decoration: none">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8f9e2f3fe3ca21914ba3e80e387b7ac83c708bc64c6e6fb98d" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }Update Preferences
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td width="111" align="center" valign="top" class="navfooter__link__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 5px; text-align: center; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                          }{}
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8fdb8369442189e73bc7c9026dc341d5ea62cd8594b95c9923" target="_blank" class="navfooter__link" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; color: #009999; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0; text-decoration: none">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8fdb8369442189e73bc7c9026dc341d5ea62cd8594b95c9923" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag84    }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                             }Unsubscribe
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                                         }\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag148 <td width="109" align="center" valign="top" class="navfooter__link__wrapper--last" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 5px; text-align: center; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag4 \par }
+{\*\htmltag84                                                         }
+{\*\htmltag252 </a>}
+{\*\htmltag4 \par }
+{\*\htmltag84                                                     }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="memberBlock" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px 0; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="memberContainer" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; border-bottom-color: #999999; border-bottom-style: solid; border-bottom-width: 1px; border-collapse: collapse; border-top-color: #999999; border-top-style: solid; border-top-width: 1px; box-sizing: border-box; color: #999999; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px" bgcolor="#fff">}\htmlrtf {\pard\plain \f0\fs24 \highlight3 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td width="547" valign="middle" class="member__text__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 10px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0; vertical-align: middle">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }
+{\*\htmltag148 <font face="Arial, Helvetica, sans-serif" style="font-size:10px; color:#999999;">}\htmlrtf {\f4 \htmlrtf0 Checkers is proud to be a member of the Direct Marketing Association of South Africa - DMASA Interactive
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                         }\htmlrtf }\htmlrtf0 
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td width="53" valign="middle" class="member__img__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0; vertical-align: middle">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                                 }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_DMA-Logo.jpg" alt="DMA Logo" width="52" height="43" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_DMA-Logo.jpg"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                          }
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                     }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="logo__hyperCheckers__wrapper" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 20px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td align="center" valign="top" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <a href="http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8fe6e115d1e1e7865860f7f2acbff721060990896878d8ee69" target="_blank">}\htmlrtf {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/?qs=f16cf60b97825e8fe6e115d1e1e7865860f7f2acbff721060990896878d8ee69" \\n}}{\fldrslt\cf1\ul \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84 <img class="img-responsive" src="http://image.connect.checkersmail.co.za/lib/fe9815707366067e7c/m/23/CH_NonFoods_0516_Footer_Logo.jpg" alt="Checkers &amp; Checkers Hyper Logo" style="-ms-interpolation-mode: bicubic; border: 0; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; height: auto; margin: 0; max-width: 100%; outline: none; padding: 0; text-decoration: none !important; width: 100%; display:block">}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag92 </a>}
+{\*\htmltag4 \par }\htmlrtf  \htmlrtf0 
+{\*\htmltag84                                         }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                     }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                             }
+{\*\htmltag148 <td align="center" valign="top" id="TandCBlock" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #fff; box-sizing: border-box; color: #6B6B6B; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 20px 20px; vertical-align: top" bgcolor="#fff">}\htmlrtf {\highlight3 \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag84                                 }\htmlrtf }\htmlrtf0 \htmlrtf}\htmlrtf0
+
+{\*\htmltag96 <table border="0" cellpadding="0" cellspacing="0" width="600" id="TandC__table" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0">}\htmlrtf {\pard\plain \f0\fs24 \htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td align="center" valign="top" class="heroContent__p" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag84               }
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag4 \par }
+{\*\htmltag148 <font face="Arial, Helvetica, sans-serif" style="font-size:12px; color:#666666;">}\htmlrtf {\f4 \htmlrtf0 Promotional prices valid until 05 June 2016.
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag4 \par }While stocks last. We reserve the right to limit quantities. No traders please. VAT included.
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag4 \par }Available at selected Checkers and Checkers Hyper stores nationwide.
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag4 \par }Please do not reply to this email. For support or questions, please contact us on 0800 01 07 09.
+{\*\htmltag116 <br>}\htmlrtf \line
+\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag156 </font>}\htmlrtf }\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td align="center" valign="top" class="heroContent__p" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                        }
+{\*\htmltag148 <font face="Arial, Helvetica, sans-serif" style="font-size:12px; color:#666666;">}\htmlrtf {\f4 \htmlrtf0 Cnr William Dabs and Old Paarl Road, Brackenfell, 7560, Western Cape. 
+{\*\htmltag156 </font>}\htmlrtf }\htmlrtf0 
+{\*\htmltag84    }
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                     }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag0 \par }
+{\*\htmltag240                                     }
+{\*\htmltag64 <tr style="box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; padding: 0">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag148 <td align="center" valign="top" class="heroContent__p" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; box-sizing: border-box; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; vertical-align: top">}\htmlrtf {\htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                             }
+{\*\htmltag148 <font face="Arial, Helvetica, sans-serif" style="font-size:12px; color:#666666;">}\htmlrtf {\f4 \htmlrtf0 ERRORS AND OMISSIONS EXCEPTED (E
+{\*\htmltag84 &amp;}\htmlrtf &\htmlrtf0 OE). 
+{\*\htmltag156 </font>}\htmlrtf }\htmlrtf0 
+{\*\htmltag84    }
+{\*\htmltag4 \par }
+{\*\htmltag84                                         }
+{\*\htmltag156 </td>}\htmlrtf }\tab \htmlrtf0 
+{\*\htmltag4 \par }
+{\*\htmltag84                                     }\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                                 }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240                             }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240                         }
+{\*\htmltag0 \par }
+{\*\htmltag240             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240         }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240       }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag0 \par }
+{\*\htmltag240   }
+{\*\htmltag248 </td>}
+{\*\htmltag0 \par }
+{\*\htmltag240           }
+{\*\htmltag72 </tr>}
+{\*\htmltag0 \par }
+{\*\htmltag240             }
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 
+{\*\htmltag0 \par }
+{\*\htmltag240              }
+{\*\htmltag0 \par }
+{\*\htmltag240         }
+{\*\htmltag0 \par }
+{\*\htmltag240     }
+{\*\htmltag248 </td>}
+{\*\htmltag72 </tr>}
+{\*\htmltag104 </table>}\htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 \htmlrtf }\htmlrtf0 
+{\*\htmltag58 </body>}
+{\*\htmltag2 \par }
+{\*\htmltag2  }{\*\htmltag64}\htmlrtf {\htmlrtf0 
+{\*\htmltag84 <img src="http://click.connect.checkersmail.co.za/open.aspx?ffcb10-fe8910757d67037873-fe31107177660574771372-fe9815707366067e7c-ff2f17717c67-fe5a1179776300797617-ffcf14&amp;d=40044" width="1" height="1">}\htmlrtf  {\field{\*\fldinst{HYPERLINK "http://click.connect.checkersmail.co.za/open.aspx?ffcb10-fe8910757d67037873-fe31107177660574771372-fe9815707366067e7c-ff2f17717c67-fe5a1179776300797617-ffcf14&d=40044"}}{\fldrslt\cf1\ul }}\htmlrtf0 
+{\*\htmltag4 \par }{\*\htmltag72}\htmlrtf\par}\htmlrtf0
+
+{\*\htmltag27 </html>}
+{\*\htmltag3 \par }
+{\*\htmltag3 \par }
+{\*\htmltag3 \par }
+{\*\htmltag3 \par }}   {R0{cc a9

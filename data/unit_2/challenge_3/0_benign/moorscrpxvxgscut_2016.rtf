@@ -1,0 +1,340 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fprq2\fcharset0 Cambria;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fprq2\fcharset0 Calibri;}{\f3\froman\fprq2\fcharset2 Symbol;}{\f4\fnil\fcharset0 Calibri;}{\f5\fswiss\fprq2\fcharset0 Verdana;}}
+{\colortbl ;\red54\green95\blue145;\red0\green0\blue255;\red79\green129\blue189;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\keep\keepn\s1\sb480\sl276\slmult1\qc\cf1\b\f0\fs36 Benchmarking Instructions\f1\fs28\line\i\f0 Running an Accurate Test\f1\par
+\pard\keep\keepn\s1\sb480\sl276\slmult1\i0\f0 Introduction\f1\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 Benchmarking is a detailed-oriented process that requires much preparation and many iterative test runs to get right.  This document explains the most important preparation steps, documents how to use this tool against the two supported workloads, and how to interpret the results.  It is highly recommended you read this document before attempting to use this tool.  This tool is useful to judge throughput rates and user loads that a system can support for two specific workloads:\par
+\pard\fi-360\li720\sa200\sl276\slmult1 1.\tab  \b Trade Workload\b0 : a Web Service workload characterized by typical business service operations, including queries and transactions against a backend database.  This workload can be tested against the .NET implementations, the IBM WebSphere Trade performance sample application (Java); Oracle WebLogic Server 10.3 (Java); or Oracle OC4J (Java). Note the Oracle WebLogic and Oracle OC4J implementations are provided with full Java source code and installable WAR files as part of the .NET StockTrader download. Since the workloads and service interfaces across all platforms are equivalent, results can be directly compared.  \line\par
+\b 2.\tab WSTest Workload:\b0  a Web Service workload, originally defined by Sun Microsystems and augmented by Microsoft, to judge the XML/SOAP processing capabilities of an application server.  This workload does not involve database interactions, and hence isolates just the XML serialization engines and network stack of the application server(s) being tested.   This workload can be tested against the .NET implementations, the IBM WebSphere implementation (Java); Oracle WebLogic Server 10.3 (Java); or Oracle OC4J (Java).  Note the IBM WebSphere, Oracle WebLogic and Oracle OC4J implementations are provided with full Java source code and installable WAR files as part of the .NET StockTrader download. Since the workloads and service interfaces across all platforms are equivalent, results can be directly compared.  \line\par
+\pard\sa200\sl276\slmult1 It is important to note that when benchmarking, you can only draw conclusions about the specific workload being benchmarked.  This tool will show the performance of these two specific workloads, but other workloads will exhibit different performance characteristics.  However, the Trade workload exercises common Java Enterprise functionality found in most enterprise Java applications, and the equivalent .NET middle tier functionality found in most enterprise .NET applications.  Hence, it can serve as a useful comparative benchmark and indicator of general application server performance of the two platforms. \par
+\pard It is also important to note that this tool generates \ul\b Web Service\ulnone\b0  workloads in both tests.  It does not test the Java Server Pages and ASP.NET Web application components of either the IBM Trade or the .NET StockTrader applications.  To do this, you will need to use another tool such as Mercury LoadRunner or the Visual Studio load test tools that can generate Web application workloads over http and capture HTML results.  However, we have previously used Mercury LoadRunner to test these Web application components in the various end-to-end configurations each application supports, and these results are documented in the benchmark whitepaper available on {\field{\*\fldinst{HYPERLINK "http://msdn.microsoft.com/stocktrader"}}{\fldrslt{\ul\cf2 http://msdn.microsoft.com/stocktrader}}}\f2\fs22 .  \par
+Because these separately documented test results are driven against the JSP and ASP.NET Web applications and not directly against the Web Service tier as with this tool, you cannot directly compare the results using this tool to those documented at the Web site above\emdash they are different tests.  For example, TPS rates are defined as user Web page interactions in these previously documented benchmark results, and each Web page processed involves multiple Web Service requests to complete the HTML page (so a single TPS equates to many different Web Service requests).  This tool, on the other hand, defines a transaction as an individual Web Service request, showing the actual number of individual Web service requests processed per second during the benchmark test run.\par
+\pard\keep\keepn\s1\sb480\sl276\slmult1\cf1\b\f0\fs28 Preparing to Benchmark the Trade Web Services WorkLoad\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 Before starting the Trade Web Services benchmark, you must setup the application(s) you wish to test: IBM WebSphere Trade 6.1, available from the IBM Website, IBM WeSphere Trade 7 (included as part of this download) and/or the .NET StockTrader application available on the MSDN website.  You should follow the setup instructions from each vendor.  After setting up each application and testing them via a browser to make sure they are functioning properly, you should follow these general preparation steps before attempting a comparative benchmark.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 0.\tab  Beware of Proxy Server Settings\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 When benchmarking using http/https protocols, if you have Internet Explorer set to use a default/auto-detected proxy server but not bypassed for local addresses, the tool will likely be routing every request to your corporate proxy server, killing performance and skewing test results.  .NET/WCF picks up it\rquote s proxy settings typically using the default proxy (that specified in Internet Explorer settings); unless overridden in the binding definition. So try turning off your proxy server settings (no proxy) in Internet Explorer on all computers running the test agent if testing in an environment that has a proxy server setup on the network.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 1.\tab Configure and Load the Appropriate Databases\f2\par
+\pard\sa200\sl276\slmult1\cf0\fs22 You will want to use the database loaders to load a larger and more realistic data load than is setup initially on install of the applications.\par
+\b0  If comparing IBM Trade to .NET StockTrader performance, it is important to make sure the databases are configured identically.  You will not be measuring the true peak throughout of the middle tier if the database is the bottleneck in any test.  Hence, one important requirement is that you install each database on a remote database server that has enough capacity to support the processing capacity (throughput rates) of the middle tier application server being tested.  The more powerful the middle tier (combined hardware and software performance), the more powerful database you will need to ensure enough database capacity to allow the middle tier application server to achieve its true peak throughput for the Trade workload.  Higher throughput rates in this test equate to higher database utilization, since every Web Service request involves a database interaction\emdash so 1000 measured transactions per second means 10 times more database queries executed per second than 100 measured transactions per second.   \par
+During initial testing, it will be critical to monitor your database CPU utilization (and potentially disk write queues).   The supplied database setups with IBM WebSphere Trade 6.1 for DB2/Oracle and with .NET StockTrader for SQL Server 2008/Oracle already have the correct indexes applied to the tables.  However, it is up to you to install the databases on hardware that can support the peak user loads your middle tier can achieve, and monitor database CPU utilization to ensure it is not a bottleneck during testing\emdash typically you want the database operating at less than 80% CPU saturation. \par
+For the benchmarking we performed on the Trade workload and documented on MSDN, we used two sets of FAST SCSI RAID arrays (SANs arrays can be even more powerful), each configured with 14 drives in a RAID 10 configuration.  DB2 and SQL Server 2008 were configured to have their log files on one drive array, and their database files on the second drive array.  Each array had its own physical controller installed on the database server.  This setup maximizes database throughput rates to/from physical storage.  In general, the more drives a database file spans, the faster the write speeds, since smaller amounts of data can be written concurrently across each drive in the array for a given update/insert operation. \par
+Once the database schemas are setup, you will next use the database loaders supplied with .NET StockTrader to load the databases.  There are supplied loaders for DB2, Oracle and SQL Server 2005.  You will want to load a realistic data load.  This is extremely important.  Small data loads might either artificially inflate or deflate peak throughput rates in the benchmark.   On the one hand, small data loads might be faster in that the database and/or application server can easily and quickly cache most data for reads.  On the other hands, small data loads can hurt concurrency; since it is more likely two concurrent requests will be locked attempting to update the same record, hence decreasing performance.  For the Trade workload, we loaded the databases with:\par
+\pard\fi-360\li750\sa200\sl276\slmult1\f3\'b7\tab\f2 100,000 quotes\par
+\f3\'b7\tab\f2  500,000 users\par
+\f3\'b7\tab\f2 5 holdings/orders per user\par
+\pard\sa200\sl276\slmult1 It is important, if testing the Trade workload on different databases (for example, IBM WebSphere against DB2 and .NET StockTrader against SQL Server 2005) that each database is loaded \b with the same database load \b0 (same number of quotes, users, holdings, etc).  In all cases, monitor database utilization rates to ensure the database is operating below 80% CPU utilization in all tests performed, or else you will likely not be able to saturate the middle tier and accurately measure the middle tier application server peak performance.  Remember in any benchmark \b you are only measuring the peak throughput of the component that is the limiting resource.\b0   For an application server benchmark, therefore, you want to ensure the application server is the limiting resource by providing enough database capacity to take the database capacity out of the equation (unless you define the system under test as \ul BOTH\ulnone  the application server and the database server, which you could do as long as you realize you are comparing the performance of the combined application server and database systems being tested, not just the application server).\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 2.\tab Pre-allocate Enough Database Storage for Long-duration Runs\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 This benchmark tool can generate loads that will add potentially millions of records over a few minutes to the database.  Once SQL Server, DB2 or Oracle have used their pre-defined storage for both the transaction log and the database file itself, subsequent operations will either fail (fixed storage allocated) or cause the database server to spend expensive cycles \lquote extending\rquote  the transaction log and/or database files during the benchmark---deflating throughput rates depending on how the auto-extend parameters have been setup on the database.  Hence, we find it useful to allocate several gigabytes of storage to both transaction logs and database files to ensure during an extended run, the database is not forced to auto-extend these files or reach its fixed storage limit.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 3.\tab Always Reset the Databases Between Benchmark Runs\f2\par
+\pard\sa200\sl276\slmult1\cf0\b0\fs22 You will need to use the database loader program(s) to \lquote reset\rquote  the database(s) to their initial state between runs.  Each loader has a reset button that will do so by deleting data records created during the benchmark run.  If you do not do this, when running the benchmark on subsequent runs you will receive duplicate key errors since the tool will insert user records already inserted and violate the unique constraint on the AccountProfile table(s).  So if you see this error on the \lquote register\rquote  operation, you know you have forgotten to use the appropriate database loader to reset the database.  Based on the use of random numbers to insert new registered users, some duplicate key exceptions will be encountered during normal benchmark runs, especially extended runs.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 4.\tab  Tune the Application Server and HTTP Web Servers According to Vendor-Recommended Best-practices\f2\par
+\pard\sa200\sl276\slmult1\cf0\b0\fs22 This step is very important, and for some application servers time consuming in that tuning can be workload-specific: settings that work for one workload may not be best for other workloads.  With J2EE application servers, in general, much time can be spent doing iterative stress tests and individually adjusting the myriad of settings to achieve peak performance.  The .NET platform in general has many fewer settings to adjust, and the default settings are mostly appropriate for high-concurrent user loads out-of-the-box.  In addition, most settings can be adjusted programmatically on a per-application basis for .NET, and the .NET StockTrader pre-sets optimal settings on startup automatically.  Luckily, for IBM WebSphere Trade 6.1, we have spent much time in iterative benchmarks already conducted to arrive at a set of tuning parameters documented in the benchmark paper published on MSDN (appendix).   You can use these settings, or experiment with different WebSphere settings on your own.  Some .NET tuning parameters that we used to achieve peak performance (beyond those set automatically) are also documented in this document.  These are repeated here for each platform, and are specific for a 64-bit dual-quad core system, as with WebSphere different tuning is often required for different servers:\par
+\pard\keep\keepn\s3\sb200\sl276\slmult1\cf3\b\f0 Linux OS Tuning (for testing Web Sphere on Linux)\par
+\pard\fi-360\sa75\sl336\slmult1\tx720\cf0\lang9\b0\f4{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00d81e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200000003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\cf3\lang1033\b\f0\tab\cf0\b0\f5\fs17 net.ipv4.tcp_max_syn_backlog=1024\line\pard\fi-360 kernel.msgmni=1024\line kernel.sem=1000 32000 32 512\line fs.file-max=65535\line kernel.shmmax =4294967295\line net.core.netdev_max_backlog = 20000\line net.core.somaxconn = 20000\line net.ipv4.tcp_fin_timeout = 30\line net.ipv4.tcp_syn_retries = 20\line net.ipv4.tcp_synack_retries = 20\line net.ipv4.tcp_sack = 0\line net.ipv4.tcp_timestamps = 0\line net.ipv4.conf.all.arp_ignore = 3\line net.ipv4.conf.all.arp_announce = 2\line Open File Handle limit (soft) increased to 20000\par
+\pard\keep\keepn\s3\sb200\sl276\slmult1\cf3\b\f0\fs22 Windows OS Tuning\par
+\pard\fi-360\sa240\sl336\slmult1\tx720\cf0\lang9\b0\f4{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00d81e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200000003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\cf3\lang1033\b\f0\tab\cf0\b0\f5\fs17 No tuning was required on the core Windows Server OS for either application server platform.\par
+\pard\cf3\b\f0\fs22 WebSphere Tuning\f2\par
+\pard\fi-360\sa75\sl336\slmult1\tx720\cf0\lang9\b0\f4{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00a31e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200035003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\cf3\lang1033\b\f2\tab\cf0\b0\f5\fs17 Servlet Caching turned on in Web Container\line\pard\fi-360 Session State set to 5 minute expiration (in-process session state)\line Access Log Turned Off\line Performance Monitor Infrastructure Turned Off\line App Profile Service Off\line Diagnostic Trace Turned Off\line System Out Off\line Trade 6.1 Configured not to write System.Out messages\line EJB Cache Size = 20000\line HTTP Channel maximum persistent requests = -1\line Minimum Web Container threads = 50\line Maximum Web Container threads = 50\line Minimum ORB threads = 18\line Maximum ORB threads = 18\line Minimum Default threads = 20\line Maximum Default threads = 20\line Minimum Message Listener Service Threads = 40\line Maximum Message Listener Service Threads = 40\line Minimum SIBInBound Thread =\tab 40\line Maximum SIBInbound Thread = 40\line Minimum SIBFAPThread = 40\line Maximum SIBFAPThread = 40\line Custom JavaEnvironment Variable: com.ibm.websphere.ejbcontainer.poolsize value = \ldblquote *=75,750\rdblquote\line SIB Bus Security = Disabled\line Discard Messages = on\line Hi Message Threshold = 50000\line Quality of Service/Persistent = Assured Reliable\line Quality of Service/Non Persistent = Express/Non Persistent\line ReadAhead for Queue enabled\line MaxConcurrency/Max Endpoints for Queue = 20\line MaxBatchSize for JMS/Messaging = 5\line Minimum JDBC Connections in Pool = 21 (40 in JDBC/Direct mode)\line Maximum JDBC Connections in Pool = 21 (40 in JDBC/Direct mode)\line Minimum Queue Connection Factory Connections in Pool = 40\line Maximum Queue Connection Factory Connections in Pool = 40\line Java Heap Size: Windows = 3100 MB min/max (for 64-bit on Windows and Linux)\line Java Heap Size: Linux = 1540 MB min/max (for 32-bit on Windows/Linux, since heap size is limited on 32-bit platforms)\line All runs:  Trade 6.1 configured with \ldblquote Enable Long Run Support\rdblquote  off to ensure it properly displays orders on the Account Page.  With our large database load, we never noticed any perf degradation over a 30 minute measurement interval.\par
+\pard\keep\keepn\s3\sb200\sl276\slmult1\cf3\b\f0\fs22 IBM HTTP Server Windows Tuning\par
+\pard\fi-360\sa75\sl336\slmult1\tx720\cf0\lang9\b0\f4{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00a31e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200035003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\cf3\lang1033\b\f0\tab\cf0\b0\f5\fs17 Access Log Off\line\pard\fi-360 Max KeepAlive Requests 3200\line 3200 Max threads\line 3200 Threads/child\line\cf3\b\f2\fs24\par
+\pard\keep\keepn\s3\sb200\sl276\slmult1\f0\fs22 IBM HTTP Server Linux Tuning\f2\fs24\par
+\pard\fi-360\sa75\sl336\slmult1\tx720\cf0\lang9\b0\f4\fs22{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00a31e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200035003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\cf3\lang1033\b\f2\fs24\tab\cf0\b0\f5\fs17 Access Log Off\line\pard\fi-360 Max KeepAlive Requests 3200\line ThreadLimit 50\line ServerLimit 64\line StartServers 50\line MaxClients 3200\line MinSpareThreads 100\line MaxSpareThreads 100\line Threads/Child 50\line MaxRequests/Child 0\cf3\b\f2\fs24\par
+\pard\fi-360\sa75\sl336\slmult1\tx720\cf0\lang9\b0\f4\fs22{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00a31e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200035003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\cf3\lang1033\b\f2\fs24\tab\par
+\pard\f0\fs22 .NET 4.0 Tuning\f2\line\par
+\pard\sa150\sl336\slmult1\cf0\f5\fs17 .NET Worker Process\par
+\pard\fi-360\sa150\sl336\slmult1\tx720\lang9\b0\f4\fs22{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00a31e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200035003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\lang1033\b\f5\fs17\tab\b0 Rapid Fail Protection off\line\pard\fi-360 Pinging off\line Recycle Worker Process off\line\b\line ASP.NET\b0\par
+\pard\fi-360\sa75\sl336\slmult1\tx720\lang9\f4\fs22{\pict\wmetafile8\picw7620\pich7620\picwgoal172\pichgoal172 
+0100090000032a0200000200a20100000000a201000026060f003a03574d464301000000000001
+00a31e0000000001000000180300000000000018030000010000006c0000000000000000000000
+350000006f0000000000000000000000c41d0000c41d000020454d460000010018030000120000
+0002000000000000000000000000000000ec130000c8190000d800000017010000000000000000
+0000000000005c4b030068430400160000000c000000180000000a000000100000000000000000
+00000009000000100000000807000008070000250000000c0000000e000080250000000c000000
+0e000080120000000c00000001000000520000007001000001000000a4ffffff00000000000000
+0000000000900100000000000004400022430061006c0069006200720069000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000003000e0e230001000000044e63000c4e3300052518e5f44e630003ce3300010000000
+ace4300028e6300024518e5f44e630003ce330002000000049649d613ce3300044e63000200000
+00ffffffffec01bc01d0649d61ffffffffffff0180ffff0180efff0180ffffffff000003000008
+0000000800004300000001000000000000005802000025000000372e90010000020f0502020204
+030204ef0200a07b20004000000000000000009f00000000000000430061006c00690062007200
+000000000000000004e43000dee39c61e88d766264e7300070e330009c38956105000000010000
+00ace33000ace33000e878936105000000d4e33000ec01bc016476000800000000250000000c00
+000001000000250000000c00000001000000250000000c00000001000000180000000c00000000
+00000254000000540000000000000000000000350000006f0000000100000088878740d1458740
+0000000057000000010000004c0000000400000000000000000000000807000008070000500000
+00200035003600000046000000280000001c0000004744494302000000ffffffffffffffff0907
+000009070000000000004600000014000000080000004744494303000000250000000c0000000e
+000080250000000c0000000e0000800e0000001400000000000000100000001400000004000000
+03010800050000000b0200000000050000000c02d800d800040000002e0118001c000000fb0202
+00010000000000bc02000000000102022253797374656d00003f3f3f3f3f3f3f3f3f3f00000000
+3f3f3f3f3f3f3f3f3f00040000002d010000040000002d01000004000000020101001c000000fb
+02f5ff0000000000009001000000000440002243616c6962726900000000000000000000000000
+000000000000000000000000040000002d010100040000002d010100040000002d010100050000
+000902000000020d000000320a0a0000000100040000000000d800d70020000600040000002d01
+0000040000002d010000030000000000
+}\lang1033\f5\fs17\tab Authentication set to \ldblquote None\rdblquote  to match anonymous access of IBM WebSphere Trade \line\pard\fi-360 Forms Authentication Timeout=5 minutes\par
+\pard\sa150\sl336\slmult1\b\line IIS 6.0 Virtual Directory\b0\par
+\pard\sa75\sl336\slmult1 Authentication Basic Only\line Access Logging Off\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 5.\tab Ensure IBM Trade and .NET StockTrader are Running in Equivalent Modes of Operation\f2\par
+\pard\sa200\sl276\slmult1\cf0\b0\fs22 The key setting here is to ensure business services are configured for equivalent Order Processing modes.  If Trade 6.1 is setup for Synchronous order processing via the IBM Trade  configuration page, then the .NET StockTrader should also be setup for synchronous order processing via the .NET StockTrader configuration system.  In addition, if IBM Trade is setup for Asynchronous order processing, it is important that the WebSphere SIB queues are setup with the same persistence settings as .NET StockTrader.  For asynchronous order processing, the equivalent settings are to configure IBM Trade for Async 2-phase with the SIB queue configured for persistent assured message delivery (quality of service), and to run the .NET StockTrader in ASync_Msmq order processing mode (transacted, persistent queue with two-phase commit between the MSMQ queue and database distributed transactions).\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 6.\tab Perform Initial Runs to Ensure Enough Benchmark Agent Capacity so the Benchmark Clients Are Not the Bottleneck.\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 This step is crucial.  If you are not running enough physical benchmark agents, you will not be able to saturate the middle tier application server and achieve peak throughput.  Each middle tier will exhibit different peak throughput rates.  Faster middle tiers will require more benchmark agents to achieve peak throughput, since they can support larger concurrent user loads before saturating.  If you cannot push your application server to close to 100% CPU utilization, then you either do not have enough benchmark agents, you have inproper tuning settings, or the database is the bottleneck:  all conditions you want to avoid to get an accurate read on peak throughput capabilities.  In general, you need to watch for several things in initial runs before conducting final measurement runs:\par
+\pard\fi-360\li720\sa200\sl276\slmult1 1)\tab  First and foremost, monitor middle tier application server CPU utilization rates.  If you are not operating at near 95% to 100% CPU utilization on the application server, then you are not measuring peak throughput rates: there is still capacity on the middle tier to handle more agents and hence produce higher throughput rates (assuming proper tuning has been applied to the application server).  \line\par
+2)\tab You will need to adjust both the physical number of benchmark agents running the CapacityPlanner.AgentHost.exe program, and the threads configured per agent.  To do so, first pick a reasonable think time.  The higher the think time, the more agents and agent threads you will need to run to saturate the middle tier.  However, more is better in that is simulates more realistically the number of network connections necessary to support high concurrent user loads.  At the same time, the number of benchmark clients at your disposal is limited.  So start with a smaller think time, perhaps .05 seconds (or even less), and run a single benchmark agent, adjusting the number of threads up until during a test, the benchmark agent is operating at 100% CPU utilization.  The adjust the threads of execution down until the benchmark agent is operating at less than 80% CPU utilization (ensuring it is not an artificial bottleneck).  \line\par
+3)\tab Next, ensure during this run that the application server being tested is running at below 100% CPU utilization.  Assuming it is, you will need to add additional physical benchmark agent computers to the test.  You will want to run enough benchmark agents such that \ul\b no agent\ulnone\b0  computer is operating above 80% CPU load, while the application server is operating at saturation\emdash 100% (or near) CPU utilization rates.  In such a configuration, the agents will not be an artificial bottleneck.  \line\par
+4)\tab During these test runs, make sure you are not getting consistent failed transactions\emdash typically these can be caused by forgetting to reset the databases to their initial loads using the database loader(s), or mis-specifying the database load in the benchmark controller. It can also be caused by mis-configuration of the application being tested or poor tuning settings (for example, too few database connections, application server threads, database out of space, etc.; see tuning guidelines in earlier sections).  \line\par
+5)\tab Remember that a faster middle tier will require more agents/agent threads to saturate the server.  When comparing two platforms, you will want to determine the number of agents and threads/agent (at a given think time) based on the fastest middle tier being tested.  Then, make sure to run the benchmark against each platform using the exact same settings for:\par
+\pard\fi-360\li1440\sa200\sl276\slmult1\f3\'b7\tab\f2 Think times\par
+\f3\'b7\tab\f2 Physical agents running the benchmark agent program\par
+\f3\'b7\tab\f2 Threads/agent\b\par
+\pard\li720\sa200\sl276\slmult1\b0 Even though one platform might require less agents to saturate (since it is less efficient); you still want to run the same number of physical benchmark agents and same think times against each platform since you want the middle tiers to have to deal with the same number of discrete concurrent network connections/clients and think times. However, you should not necessarily run the same number of threads per agent.\par
+You need to determine the number of threads per agent independently for each platform.  This is because you do not want to run too many agent threads against any platform\emdash or else you have pushed the system beyond full saturation rates and have over-saturated the system.  In such a situation, the middle tier will be producing less than peak throughput rates as it queues requests that cannot be executed immediately.  This is typically indicated by a system (assuming it is well tuned) that is operating at 100% CPU utilization and higher response times (greater than 1 or two seconds on average).  \par
+Hence, monitor response times carefully.  Ensure they remain below a given threshold (perhaps 1 or 2 seconds), and are roughly equivalent for each platform tested.  The slower platform will be running less threads per agent (but same number of physical agents and same think time) to achieve the same response times as the faster platform.  At this point, the faster platform will be producing higher throughput (as measured in Transactions per Second or TPS rates), and supporting more (perhaps many more) concurrent users (agent threads) than the slower platform being tested.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 7.\tab Summary of key Characteristic of Valid Comparisons Runs\par
+\pard\fi-360\li720\sa200\sl276\slmult1\cf0\b0\f3\fs22\'b7\tab\f2 Same database load.\par
+\f3\'b7\tab\f2 Same think times.\par
+\f3\'b7\tab\f2 Middle tier application server operating at or near 100% CPU utilization (brief downward spikes inevitable based on database locks and/or periodic large-heap garbage collections) for both platforms.\par
+\f3\'b7\tab\f2 Average response times less than 2 seconds on each platform tested.  Higher response times typically indicate over-saturation and threads/agent need to be reduced.\par
+\f3\'b7\tab\f2 Database CPU utilization less than 80%.\par
+\f3\'b7\tab\f2 All agents operating at less than 80% CPU utilization.  Higher CPU rates on the clients indicate more physical agents needs to be added, and threads/agent reduced.\par
+\f3\'b7\tab\f2 Consistently passed transactions, no operation consistently failing.  Failed transaction percentage well less than 0.1% of total transactions, if not zero.\par
+\pard\sa200\sl276\slmult1 If these criteria are met, you are measuring peak throughput rates in total transactions/second of each platform.  Note again, at peak throughput rates, each platform will be running a \b\i different\b0\i0  number of total executing threads (concurrent) users (unless each platform exhibits roughly the same performance).  If these criteria are not met, ensure each step in this document has been followed.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 8.\tab  Using Performance Monitor Tab\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 You can use the performance monitor control to monitor not only the remote server being tested (system under test or SUT); but also one or more agent machines simultaneously.  You can specify the system under test (server) and use the Generate Counters button to add useful counters that monitor CPU utilization, as well as .NET garbage collection times and memory usage.  If you are testing a non-Windows platform, use that platforms system monitoring tools to measure CPU utilization rates (for example, Linux).\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 9.\tab Interpreting Results\f2\par
+\pard\sa200\sl276\slmult1\cf0\b0\fs22 After a completed test run, the \b Total TPS\b0  metric will show the average transactions per second achieved during the benchmark run, across all transaction types.  This is the average throughput achieved by the system under test.  Higher TPS rates equate to faster middle tier performance.  If a given application server, at peak throughput, is producing one half the TPS rates of the compared platform, it will require at least twice the amount of hardware (and software) to support the same user loads and throughput rates of the faster, more efficient platform.  This equates to higher total cost of ownership in terms of ongoing management costs; maintenance costs; and higher middle tier hardware and software acquisition costs.  \par
+A typical metric used in many standard benchmarks is the \b Price/Performance ratio\b0 .  This is the dollar cost of the system under test (typically hardware and software costs) divided by the peak transaction rate per second achieved.  This is expressed as $/TPS.  Higher cost per TPS equates to a higher overall cost to achieve a given TPS rate (normalized by transactions per second).  For example, if a mainframe platform running IBM WebSphere produces 25% more TPS than a small cluster of Windows servers running .NET, but costs ten times as much, then the price performance ratio will indicate this differential as a lower (better) price/performance ratio for the faster platform.  This is of course only a partial measure of middle tier application cost, as ongoing management and operations costs may also differ, with more reliable platforms able to operate at lower costs, and produce less costly-downtime, not captured in this metric. One important principle demonstrated by the price performance ratio, however, is that you need to determine what you are paying for middle tier hardware and software (both in acquisition and license costs as well as maintenance contract costs) before you can begin to compare the TCO of two different platforms.\par
+\pard\keep\keepn\s2\sb200\sl276\slmult1\cf3\b\f0\fs26 10.\tab Comparing Different Platforms, Including Different Hardware for Each Platform\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 It is perfectly valid to compare the Trade (and WSTest) workloads on IBM WebSphere running on one hardware platform (for example AIX on one chipset or a mainframe) to results of .NET on AMD or Intel-based servers running Windows Server.  For example, if you can achieve the same or better performance on Intel-based server(s) than the competing UNIX or mainframe platform, and the Intel/Windows server costs are significantly less than the UNIX/mainframe + IBM WebSphere costs, then this is a data point that suggests lower cost of ownership on the .NET/Windows platform, or vice versa.  \par
+\pard\keep\keepn\s1\sb480\sl276\slmult1\cf1\b\f0\fs28 Preparing to Benchmark the WSTest 1.5 Workload\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 WSTest is a Web Service benchmark created by Sun Microsystems and augmented by Microsoft.  The benchmark tests various web service operations across varying SOAP object sizes.  Sun\rquote s original WSTest 1.0 benchmark kit can be downloaded from: \par
+\ul{\field{\*\fldinst{HYPERLINK "http://java.sun.com/developer/codesamples/webservices.html#Performance"}}{\fldrslt{\ul\cf2 http://java.sun.com/developer/codesamples/webservices.html#Performance}}}\f2\fs22\par
+\ulnone WSTest 1.5 is a new Microsoft implementation of WSTest 1.0 that mirrors the Sun implementation of the EchoVoid, EchoStruct, EchoSynthetic and EchoList tests.  In addition, it includes one new test, GetOrder, that tests a more complex object type that simulates a purchase order.  \par
+WSTest 1.5 consists of 5 distinct web service operations.  The operations isolate the SOAP network stack/serialization performance of each platform tested.  The web service calls included in WSTest 1.5 include:\par
+\pard\fi-360\li720\tx720\f3\'b7\tab\b\f2 EchoVoid\b0  \endash  sends and receives an empty message, with no deserialization/serialization\par
+\pard\fi-360\li720\f3\'b7\tab\b\f2 EchoStruct\b0  \endash receives an array of any length as the input parameter with each element consisting of a structure.  The list is then sent back to the client as the return type.  The repeating structures within the list contain one element each of type integer, float and string datatypes.  The longer the listsize, the more work required in deserialization and re-serializing the passed SOAP object to/from XML.\par
+\f3\'b7\tab\b\f2 EchoList\b0 -sends and receives a linked list of any size, each element consists of the same structure used in EchoStruct.\par
+\f3\'b7\tab\b\f2 EchoSynthetic\b0 -sends and receives a custom type that includes a byte array.\par
+\f3\'b7\tab\b\f2 GetOrder\b0  \endash  this function simulates a request for a complete purchase order, taking two integer input parameters with an order object returned from the Web Service over SOAP.  The order object is a more complex structure that includes order header information, a customer sub-class with shipping address and billing address structures, as well as any number of LineItem objects.  The lineitems per order are determined by the message size parameter. \par
+\pard\sa200\sl276\slmult1\line Before starting the WSTest Web Services benchmark, you must setup the application(s) you wish to test: WSTest 1.5 for WebSphere, and/or the .NET implementation of WSTest 1.5.  .NET WSTest 1.5 is installed as part of the .NET StockTrader install, and the Java-based WAR file for IBM WebSphere is available in the \\stocktrader\\WSTest1.5\\WebSphere directory (which includes the full Java source code).  Simply install this WAR file via the WebSphere administration console for testing WSTest on IBM WebSphere and comparing to .NET Windows Communication Foundation results.  After setting up each implementation you should follow these general preparation steps before attempting a comparative benchmark of WSTest 1.5.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 1.\tab Tune the Application Servers According to Vendor Best-practices\f2\par
+\pard\sa200\sl276\slmult1\cf0\b0\fs22 Please read section 4 above for details.  All systems under test, if properly tuned, will saturate at or very near 100% CPU utilization on the application server; if not, the system is not properly tuned and not achieving its peak throughout.  Since WSTest does not involve a backend database, you will not need to consider database capacity or configuration with WSTest.  You should pay attention, however, when testing IBM WebSphere, to whether to deploy using IBM HTTP Server (IBM\rquote s recommended production deployment  option), or test directly against IBM WebSphere\rquote s in-process HTTP listener (typically port 9080).  If your IBM Web Services will be deployed using IBM\rquote s HTTP Server (a version of Apache), then you should test against this full production setup, not just the in-process listener, as results can be quite different.\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 2.\tab Ensure Tested Platforms Are Executing the Same Operation and Using the Same Message Size\f2 .\par
+\pard\sa200\sl276\slmult1\cf0\b0\fs22 Carefully ensure when running the benchmark you are selecting the same operation and message size, as well as equivalent think times and test durations for test runs to be compared directly.  Per below, the number of agents should also be the same, although the threads/agent will be adjusted separately for each platform to provide just enough load to saturate each system under test (and hence be different per platform tested).\par
+\pard\keep\keepn\s2\fi-360\li360\sb200\sl276\slmult1\cf3\b\f0\fs26 3.\tab Perform Initial Runs to Ensure Enough Benchmark Agent Capacity so the Benchmark Clients Are Not the Bottleneck.\par
+\pard\sa200\sl276\slmult1\cf0\b0\f2\fs22 Please refer to section 5 above for details, as this step is very important.\par
+}
+  ef
+e}
+bçr
