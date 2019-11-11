@@ -14,11 +14,11 @@ def get_task(unit, challenge, samples_factor=1):
 
 
 if __name__ == '__main__':
-    task: BaseTask = get_task(unit=1, challenge=3, samples_factor=0.02)
-    parallel = True  # set to False for debugging
-    verbose = False
-    task.find_params(parallel=parallel, verbose=verbose)
-    # score = task.evaluate(parallel=parallel, n_folds=3)
+    task: BaseTask = get_task(unit=2, challenge=1, samples_factor=0.02)
+    parallel = False  # set to False for debugging
+    verbose = True
+    # task.find_params(parallel=parallel, verbose=verbose)
+    score = task.evaluate(parallel=parallel)
     last_score = get_last_score(task)
     if last_score:
         print('last score: {:.2%}'.format(last_score))
