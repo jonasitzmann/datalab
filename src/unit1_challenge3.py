@@ -118,7 +118,7 @@ def get_classifier_from_net(dataset):
         max_epochs=500,
         callbacks=[
             EarlyStopping(patience=10, threshold=1e-5),
-            FixRandomSeed(),
+            #FixRandomSeed(),
         ],
         module__input_dim=100,
         module__dropout=0.2,
