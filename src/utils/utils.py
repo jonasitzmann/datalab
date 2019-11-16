@@ -5,7 +5,6 @@ import pandas as pd
 import os
 from glob import glob
 from sklearn.datasets import load_files
-from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import cross_val_score
 from sklearn.base import BaseEstimator
 from sklearn.base import TransformerMixin
@@ -13,19 +12,21 @@ from skorch.callbacks import Callback
 import torch
 import random
 from sklearn.preprocessing import StandardScaler
+from sklearn.utils import shuffle
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics import make_scorer
 from sklearn.base import ClassifierMixin
-from joblib import Parallel, delayed, parallel_backend
+from joblib import Parallel, delayed
 from sklearn.model_selection._search import ParameterSampler
 from sklearn.pipeline import Pipeline
 from src.base.optional_transformer import OptionalTransformer
+from zipfile import ZipFile
 
 
 class FixRandomSeed(Callback):
 
-    def __init__(self, seed=42):
+    def __init__(self):
         self.seed = 42
 
     def initialize(self):
@@ -36,8 +37,6 @@ class FixRandomSeed(Callback):
         torch.backends.cudnn.deterministic = True
 
 
-
-
 class dotdict(dict):
     """dot.notation access to dictionary attributes"""
     __getattr__ = dict.get
@@ -45,27 +44,25 @@ class dotdict(dict):
     __delattr__ = dict.__delitem__
 
 
-def get_dataset(unit, challenge, samples_factor, include_names=False):
-    print('loading {0:.0%} of the training data'.format(samples_factor))
+def get_dataset(unit, challenge, samples_factor, include_test_data=False):
+    print('loading {:.0%} of the training data'.format(samples_factor))
     path = 'data/unit_{}/challenge_{}/'.format(unit, challenge)
-    train_data = load_files(path + 'train', shuffle=True, encoding='utf-8', decode_error='ignore')
-    test_data = load_files(path + 'test', encoding='utf-8', decode_error='ignore')
-    n_samples_train = int(len(train_data.data) * samples_factor)
-    n_samples_test = int(len(test_data.data) * samples_factor)
-    x_train = train_data.data[:n_samples_train]
-    y_train = train_data.target[:n_samples_train]
-    x_test = test_data.data[:n_samples_test]
-    if include_names:
-        x_train = [name.replace('data', 'embeddings') + '\n' + x for name, x in zip(train_data.filenames, x_train)]
-        x_test = [name.replace('data', 'embeddings') + '\n' + x for name, x in zip(test_data.filenames, x_test)]
+    train_path = path + 'train.zip'
+    with ZipFile(train_path) as train_files:
+        labels_file = list(filter(lambda x: 'labels' in x, train_files.namelist()))[0]
+        columns = ['name', 'label']
+        df = pd.read_csv(train_files.open(labels_file), sep=';', index_col=None, header=None, names=columns)
+        df = df.sample(frac=samples_factor, random_state=0)
+        y_train = df.label.to_numpy()
+        x_train = [train_files.open(name).read() for name in df.name]
     dataset = dotdict({
-        'x_train': x_train,
-        'y_train': y_train,
-        'x_test': x_test,
-        'test_names': [name.split('/')[-1] for name in test_data.filenames],
         'unit': unit,
         'challenge': challenge,
-    })
+        'x_train': x_train,
+        'y_train': y_train,
+    })  # like a dict but can be accessed with dot (e.g. dataset.x_train)
+    if include_test_data:
+        print('loading test data is not yet implemented')
     num_c0 = sum(y_train == 0)
     num_c1 = sum(y_train == 1)
     train_size = len(dataset.y_train)
@@ -73,7 +70,6 @@ def get_dataset(unit, challenge, samples_factor, include_names=False):
         num_c0, num_c0 / train_size, num_c1, num_c1 / train_size))
     dataset.num_c0 = num_c0
     dataset.num_c1 = num_c1
-    dataset.train_size = train_size
     return dataset
 
 

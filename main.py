@@ -14,7 +14,7 @@ def get_task(unit, challenge, samples_factor=1):
 
 
 if __name__ == '__main__':
-    task: BaseTask = get_task(unit=2, challenge=3, samples_factor=0.02)
+    task: BaseTask = get_task(unit=2, challenge=1, samples_factor=0.02)
     parallel = True  # set to False for debugging
     verbose = True
     # task.find_params(parallel=parallel, verbose=verbose)

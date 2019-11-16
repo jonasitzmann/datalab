@@ -8,7 +8,7 @@ from src.utils.utils import cross_validate
 class BaseTask(ABC):
     def __init__(self, samples_factor=1):
         print('working on unit {}, challenge {}'.format(self.unit, self.challenge))
-        self.dataset = get_dataset(self.unit, self.challenge, samples_factor, self.include_file_names)
+        self.dataset = get_dataset(self.unit, self.challenge, samples_factor)
         self.model = self.get_model()
         self.param_distribution = self.get_param_distribution()
         self.model = self.model.set_params(**self.get_params())
