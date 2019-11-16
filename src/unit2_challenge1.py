@@ -56,7 +56,7 @@ class XMLParser(TransformerMixin):
         # findall(tag)' suchr rekursiv nach einem tag
         # getchildren() gibt eine Liste der Kind-implemente
         # manchnal ist zum Beispiel ziemlich viel in getchildren()[0].getchildren()
-
+        return [0]
 
 
 
