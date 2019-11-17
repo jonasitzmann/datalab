@@ -11,11 +11,15 @@ from src.utils.utils import DenseTransformer
 from tools.pdfid.pdfid import PDFiD
 from xml.dom.minidom import Document
 from io import BytesIO
+import re
 
 
 class PDFKeywordCounter(TransformerMixin):
     def __init__(self):
         super(PDFKeywordCounter, self).__init__()
+        self.hex_pattern = '#[0-9a-fA-F]{2}'
+        self.keywords = open('src/pdf_keywords.txt', 'r').read().split('\n')
+
 
     def fit(self, x, y=None, **fit_params):
         return self
@@ -23,15 +27,18 @@ class PDFKeywordCounter(TransformerMixin):
     def transform(self, x, y=None):
         return [self.extract_keywords(pdf_file) for pdf_file in x]
 
+    def hex_to_char_match(self, match):
+        hex = match.group(0)[1:]
+        return chr(int(hex, 16))
+
+    def hex_to_char_str(self, str):
+        return re.sub(self.hex_pattern, self.hex_to_char_match, str)
+
     def extract_keywords(self, pdf_file):
-        pdf_as_bytes = BytesIO(pdf_file)
-        pdfid: Document = PDFiD(pdf_as_bytes, file_is_binary=True)
-        count_dict = {}
-        hexcount_dict = {}
-        for node in pdfid.documentElement.getElementsByTagName('Keywords')[0].childNodes:
-            count_dict[node.getAttribute('Name')] = int(node.getAttribute('Count'))
-            hexcount_dict[node.getAttribute('Name')] = int(node.getAttribute('HexcodeCount'))
-        return list(count_dict.values())
+        pdf_file = pdf_file.decode('utf-8', errors='ignore')
+        pdf_file = self.hex_to_char_str(pdf_file)
+        return [pdf_file.count(word) for word in self.keywords]
+
 
 
 class Task(BaseTask):
