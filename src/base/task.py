@@ -46,3 +46,11 @@ class BaseTask(ABC):
 
     def find_params(self, parallel=True, verbose=False):
         endless_random_search(self.model, self.dataset, self.param_distribution, parallel=parallel, verbose=verbose)
+
+    def get_false_negatives(self, n_samples=5):
+        xs, ys = self.dataset.x_train, self.dataset.y_train
+        model = self.model.fit(xs, ys)
+        print('score on training data: {}'.format(model.score(xs, ys)))
+        predictions = model.predict(xs)
+        false_negatives = [x for x, y, pred in zip(xs, ys, predictions) if y and not pred]
+        return false_negatives[:n_samples]

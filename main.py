@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import warnings
 import importlib
 from src.base.task import BaseTask
@@ -14,25 +15,18 @@ def get_task(unit, challenge, samples_factor=1):
 
 
 if __name__ == '__main__':
-    # # experimental
-    # from tools.pdfid.pdfid import PDFiD
-    # from xml.dom.minidom import Document
-    # pdfid: Document = PDFiD('data/unit_2/challenge_2/train/1_malicious/zzaahzbrbfaetvhl_2017.pdf')
-    # count_dict = {}
-    # hexcount_dict = {}
-    # for node in pdfid.documentElement.getElementsByTagName('Keywords')[0].childNodes:
-    #     count_dict[node.getAttribute('Name')] = int(node.getAttribute('Count'))
-    #     hexcount_dict[node.getAttribute('Name')] = int(node.getAttribute('HexcodeCount'))
-    # print(count_dict)
-    # print(hexcount_dict)
+    task: BaseTask = get_task(unit=2, challenge=1, samples_factor=1)
+    # false_negatives = task.get_false_negatives(n_samples=0)
+    # print('false negatives:')
+    # print('\n\n\n\n'.join(fn.decode('utf-8', errors='ignore') for fn in false_negatives))
 
 
-    task: BaseTask = get_task(unit=2, challenge=2, samples_factor=0.1)
-    parallel = True  # set to False for debugging
+    parallel = 0  # set to False for debugging
     verbose = True
     # task.find_params(parallel=parallel, verbose=verbose)
-    score = task.evaluate(parallel=parallel)
-    last_score = get_last_score(task)
-    if last_score:
-        print('last score: {:.2%}'.format(last_score))
-    save_last_score(score, task)
+    # score = task.evaluate(parallel=parallel, n_folds=1)
+    task.get_false_negatives(0)
+    # last_score = get_last_score(task)
+    # if last_score:
+    #     print('last score: {:.2%}'.format(last_score))
+    # save_last_score(score, task)

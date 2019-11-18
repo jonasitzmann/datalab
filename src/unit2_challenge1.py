@@ -22,22 +22,34 @@ def flatten_dict(d):
                 yield key, value
     return OrderedDict(items())
 
-
 class DocxExtractor(TransformerMixin):
     def __init__(self):
         super(DocxExtractor, self).__init__()
+        self.n_errors = 0
+        self.n_errors_when_malicious = 0
 
     def fit(self, X, y=None):
+        self.n_errors = 0
+        self.n_errors_when_malicious = 0
+        for x_i, y_i in zip(X, y):
+            self.transform_sample(x_i, y_i)
+        print('{} errors: ({} for malicious files in DocxExtractor)'.format(self.n_errors, self.n_errors_when_malicious))
         return self
 
     def transform(self, docx_files, y=None):
-        transformed = [DocxExtractor.transform_sample(docx) for docx in docx_files]
+        transformed = [self.transform_sample(docx) for docx in docx_files]
         return transformed
 
-    def transform_sample(docx):
-        with ZipFile(BytesIO(docx)) as extracted:
-            document_content = extracted.open('word/document.xml').read()
-        return document_content
+    def transform_sample(self, docx, y=0):
+        try:
+            with ZipFile(BytesIO(docx)) as extracted:
+                document_content = extracted.open('word/document.xml').read()
+            return document_content
+        except Exception as ex:
+            self.n_errors += 1
+            if y:
+                self.n_errors_when_malicious += 1
+            return ""
 
 
 class XMLParser(TransformerMixin):
@@ -45,14 +57,24 @@ class XMLParser(TransformerMixin):
         super(XMLParser, self).__init__()
 
     def fit(self, X, y=None):
+        self.n_errors = 0
+        self.n_errors_when_malicious = 0
+        for x_i, y_i in zip(X, y):
+            self.transform_sample(x_i, y_i)
+        print('{} errors: ({} for malicious files in XMLParser)'.format(self.n_errors, self.n_errors_when_malicious))
         return self
 
     def transform(self, xml_strings, y=None):
         transformed = [self.transform_sample(xml_string) for xml_string in xml_strings]
         return transformed
 
-    def transform_sample(self, xml_string):
-        root = etree.fromstring(xml_string)
+    def transform_sample(self, xml_string, y=0):
+        try:
+            root = etree.fromstring(xml_string)
+        except Exception as ex:
+            self.n_errors += 1
+            if y:
+                self.n_errors_when_malicious += 1
         # findall(tag)' suchr rekursiv nach einem tag
         # getchildren() gibt eine Liste der Kind-implemente
         # manchnal ist zum Beispiel ziemlich viel in getchildren()[0].getchildren()
