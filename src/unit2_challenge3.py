@@ -158,7 +158,7 @@ class Task(BaseTask):
             ],
             voting='soft',
             weights=[2, 1],
-            n_jobs=1
+            n_jobs=2
         )
 
     def get_param_distribution(self):

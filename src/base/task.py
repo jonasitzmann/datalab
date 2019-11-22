@@ -70,7 +70,7 @@ class BaseTask(ABC):
     def test_data_link(self):
         return None
 
-    def cross_validate(self, n_folds=4, n_jobs=6, verbose=True, parallel=True):
+    def cross_validate(self, n_folds=1, n_jobs=6, verbose=True, parallel=True):
         if verbose:
             print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
         xs, ys = self.x_train, self.y_train
