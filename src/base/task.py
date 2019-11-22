@@ -22,6 +22,7 @@ class BaseTask(ABC):
     def __init__(self, samples_factor=1):
         print('working on unit {}, challenge {}'.format(self.unit, self.challenge))
         path = 'data/unit_{}/challenge_{}/'.format(self.unit, self.challenge)
+        os.makedirs(path, exist_ok=True)
         self.train_path = path + 'train.zip'
         self.test_path = path + 'test.zip'
         self.x_train = self.y_train = self.x_test = self.test_names = None
