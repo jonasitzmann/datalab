@@ -17,6 +17,7 @@ from torch.utils.tensorboard import SummaryWriter
 import webbrowser
 from subprocess import Popen
 from zipfile import ZipFile
+import wget
 
 
 def lookup_key(string, vocab, tokenizer):
