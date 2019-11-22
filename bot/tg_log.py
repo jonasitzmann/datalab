@@ -22,7 +22,8 @@ def log(text, chat_id):
             for line in text.split('\n'):
                 os.system("bot '{}' '{}'".format(line, chat_id))
 
-class Logger():
+
+class Logger:
     def __init__(self, chat_id):
         self.old_stdout = sys.stdout
         self.chat_id = chat_id
@@ -37,4 +38,6 @@ class Logger():
     def flush(self):
         pass
 
+    def fileno(self):
+        return 1
 
