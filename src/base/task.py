@@ -133,10 +133,11 @@ class BaseTask(ABC):
             self.num_c0, self.num_c0 / self.train_size, self.num_c1, self.num_c1 / self.train_size))
 
     def load_test_data(self):
+        print('loading test data')
         if not os.path.exists(self.test_path):
             self.download_test_data()
         with ZipFile(self.test_path) as test_files:
-            self.test_names = list(filter(lambda x: 'labels' in x, test_files.namelist()))
+            self.test_names = test_files.namelist()
             self.x_test = [test_files.open(name).read() for name in self.test_names]
             if self.decode_data:
                 self.x_test = [x.decode('utf-8', errors='ignore') for x in self.x_test]
@@ -186,8 +187,7 @@ class BaseTask(ABC):
     def save_predictions(self, predictions, score=""):  # todo: parallelize
         print('saving predictions')
         folder = 'predictions/unit_{}/challenge_{}'.format(self.unit, self.challenge)
-        if not os.path.isdir(folder):
-            os.mkdir(folder)
+        os.makedirs(folder, exist_ok=True)
         pred_file_name = "preds_score_{}".format(score) if score else "preds"
         file_path = get_filename_unique('{}/{}.csv'.format(folder, pred_file_name))
         with open(file_path, 'w') as file:
