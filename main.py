@@ -16,14 +16,17 @@ def get_task(unit, challenge, samples_factor=1) -> BaseTask:
 if __name__ == '__main__':
     warnings.simplefilter(action='ignore', category=FutureWarning)
     warnings.simplefilter(action='ignore', category=UserWarning)
+
     parallel = 0  # set to 0 or False for debugging
-    samples_factor = float(sys.argv[1]) if len(sys.argv) == 2 else 1
+    samples_factor = 0.1
+    if len(sys.argv) == 2:
+        samples_factor = float(sys.argv[1])
     verbose = True
     task: BaseTask = get_task(unit=2, challenge=3, samples_factor=samples_factor)
-    # false_negatives = task.get_false_negatives(n_samples=20)
-    # print('false negatives:')
-    # print['\n\n\n\n'.join(fn) for fn in false_negatives]
-    task.find_params(parallel=parallel, verbose=verbose)
+    false_negatives = task.get_false_negatives(n_samples=5)
+    print('false negatives:')
+    print(['\n\n\n\n'.join(fn) for fn in false_negatives])
+    # task.find_params(parallel=parallel, verbose=verbose)
     score = task.cross_validate(parallel=parallel, n_folds=1)
     last_score = get_last_score(task)
     if last_score:

@@ -165,7 +165,7 @@ class BaseTask(ABC):
             params = list(ParameterSampler(self.param_distribution, 1))[0]
             try:
                 self.model.set_params(**params)
-                score = self.cross_validate(verbose=verbose, parallel=parallel)
+                score = self.cross_validate(verbose=verbose, parallel=parallel, n_folds=1)
                 params_and_score = params
                 params_and_score['score'] = score
                 df = df.append(params_and_score, ignore_index=True)

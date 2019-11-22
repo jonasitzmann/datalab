@@ -125,7 +125,7 @@ class Task(BaseTask):
             criterion=nn.CrossEntropyLoss,
             criterion__weight=Tensor(weights),
             batch_size=200,
-            max_epochs=5,
+            max_epochs=100,
             callbacks=callbacks,
             optimizer__weight_decay=0.01,
             optimizer__lr=1e-2,
