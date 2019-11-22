@@ -5,3 +5,6 @@ nohup.out
 old/
 .idea/
 venv/
+log/
+embeddings/
+data/

@@ -26,6 +26,6 @@ try:
     if args.mode == TRAIN_STR:
         task.find_params()
     else:
-        task.evaluate()
+        task.cross_validate()
 except Exception:
     print(traceback.format_exc())

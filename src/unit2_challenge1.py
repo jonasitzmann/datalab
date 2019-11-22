@@ -111,3 +111,13 @@ class Task(BaseTask):
 
     def get_params(self):
         return {}
+
+    @property
+    def train_data_link(self):
+        return "https://www.sec.cs.tu-bs.de/teaching/ws19/datalab/02-maldocs/300d556fc1f85395d5e2b6c1e09ff560e2f20266.zip"
+
+    @property
+    def test_data_link(self):
+        return "https://www.sec.cs.tu-bs.de/teaching/ws19/datalab/02-maldocs/34d2c2172a0a746873d197ca8f36071a8303475b.zip"
+
+

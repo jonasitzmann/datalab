@@ -19,7 +19,7 @@ class PDFKeywordCounter(TransformerMixin):
         super(PDFKeywordCounter, self).__init__()
         self.hex_pattern = '#[0-9a-fA-F]{2}'
         self.keywords = open('src/pdf_keywords.txt', 'r').read().split('\n')
-
+        self.keywords = [kw.lower() for kw in self.keywords]
 
     def fit(self, x, y=None, **fit_params):
         return self
@@ -35,13 +35,21 @@ class PDFKeywordCounter(TransformerMixin):
         return re.sub(self.hex_pattern, self.hex_to_char_match, str)
 
     def extract_keywords(self, pdf_file):
-        pdf_file = pdf_file.decode('utf-8', errors='ignore')
+        pdf_file: str = pdf_file.decode('utf-8', errors='ignore')
+        pdf_file = pdf_file.lower()
         pdf_file = self.hex_to_char_str(pdf_file)
         return [pdf_file.count(word) for word in self.keywords]
 
 
-
 class Task(BaseTask):
+    @property
+    def train_data_link(self):
+        return "https://www.sec.cs.tu-bs.de/teaching/ws19/datalab/02-maldocs/bb232326c7a75be4bc09238606d3982fcf85454a.zip"
+
+    @property
+    def test_data_link(self):
+        return "https://www.sec.cs.tu-bs.de/teaching/ws19/datalab/02-maldocs/196438d8cf278b2bc8699b8a03f91612495eebdb.zip"
+
     @property
     def include_file_names(self):
         return False

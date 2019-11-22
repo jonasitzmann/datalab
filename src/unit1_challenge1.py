@@ -4,8 +4,8 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.pipeline import FeatureUnion, Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.naive_bayes import GaussianNB
-from einfuehrung_mit_spam_1 import DenseTransformer
-from einfuehrung_mit_spam_1 import HandCraftedFeatureExtractor
+from src.utils.utils import DenseTransformer
+# from src.utils.utils import HandCraftedFeatureExtractor
 from src.base.task import BaseTask
 
 
@@ -22,7 +22,8 @@ class Task(BaseTask):
         pipeline = Pipeline([
             ('feature_extraction', FeatureUnion([
                 ('bag_of_words', TfidfVectorizer()),
-                ('other_features', HandCraftedFeatureExtractor())])),
+                # ('other_features', HandCraftedFeatureExtractor())
+            ])),
             #('feature_selection', SelectKBest(score_func=chi2)),
             ('sparse_to_dense', DenseTransformer()),
             #('normalization', StandardScaler()),

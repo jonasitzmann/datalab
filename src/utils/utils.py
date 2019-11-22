@@ -1,27 +1,99 @@
 from datetime import datetime
-import traceback
 import numpy as np
 import pandas as pd
 import os
 from glob import glob
-from sklearn.datasets import load_files
 from sklearn.model_selection import cross_val_score
 from sklearn.base import BaseEstimator
 from sklearn.base import TransformerMixin
 from skorch.callbacks import Callback
 import torch
+import torchwordemb  # torch has to be imported first!
 import random
 from sklearn.preprocessing import StandardScaler
-from sklearn.utils import shuffle
-from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import balanced_accuracy_score
-from sklearn.metrics import make_scorer
-from sklearn.base import ClassifierMixin
-from joblib import Parallel, delayed
-from sklearn.model_selection._search import ParameterSampler
 from sklearn.pipeline import Pipeline
 from src.base.optional_transformer import OptionalTransformer
+from torch.utils.tensorboard import SummaryWriter
+import webbrowser
+from subprocess import Popen
 from zipfile import ZipFile
+
+
+def lookup_key(string, vocab, tokenizer):
+    s = string.lower()
+    split = tokenizer(s)
+    return lookup_key_seq(split, vocab)
+
+
+def lookup_key_seq(seq, vocab):
+    return [vocab.get(w, -1) + 1 for w in seq]
+
+
+def to_padded_tensor(seqs):
+    max_len = max(list(map(len, seqs)))
+    max_len = min(max_len, 500)
+    seqs_tensor = np.zeros([len(seqs), max_len])
+    for i, seq in enumerate(seqs):
+        size = min(len(seq), max_len)
+        seqs_tensor[i, :len(seq)] = np.array(seq[:size])
+    return torch.autograd.Variable(torch.tensor(seqs_tensor, dtype=torch.long))
+
+
+class TensorBoard(Callback):
+    def __init__(
+            self,
+            log_dir,
+            add_graph=True,
+            close_after_train=True,
+            extract_sample=lambda ds: ds[0][0].unsqueeze(0),
+    ):
+        self.writer = SummaryWriter(flush_secs=5, log_dir=log_dir)
+        self.add_graph = add_graph
+        self.close_after_train = close_after_train
+        self.extract_sample = extract_sample
+        port = 7000
+        # Popen("tensorboard --logdir {} --reload_interval 5 --port {}".format(log_dir, port), shell=True)
+        # webbrowser.open('http://localhost:{}'.format(port))
+
+    def get_default_log_keys(self):
+        return [
+            ('train_loss', 'Loss/train'),
+            ('valid_loss', 'Loss/valid'),
+            ('valid_acc', 'Loss/valid_acc'),
+            ('dur', 'duration'),
+        ]
+
+    def initialize(self):
+        self.first_run_ = True
+
+        return self
+
+    def on_epoch_begin(self, net, dataset_train, **kwargs):
+        if self.first_run_:
+            self.first_run_ = False
+            if self.add_graph:
+                x = self.extract_sample(dataset_train)
+                self.writer.add_graph(net.module_, x.to(net.device))
+
+    def add_scalar_maybe(self, history, key, global_step=None, name=None):
+        hist = history[-1]
+        val = hist.get(key)
+        if val is None:
+            return
+
+        name = name if name is not None else key
+        global_step = global_step if global_step is not None else hist['epoch']
+        self.writer.add_scalar(tag=name, scalar_value=val, global_step=global_step)
+
+    def on_epoch_end(self, net, **kwargs):
+        history = net.history
+        epoch = history[-1, 'epoch']
+        for key, name in self.get_default_log_keys():
+            self.add_scalar_maybe(history, key, name=name, global_step=epoch)
+
+    def on_train_end(self, net, **kwargs):
+        if self.close_after_train:
+            self.writer.close()
 
 
 class FixRandomSeed(Callback):
@@ -44,60 +116,13 @@ class dotdict(dict):
     __delattr__ = dict.__delitem__
 
 
-def get_dataset(unit, challenge, samples_factor, include_test_data=False):
-    print('loading {:.0%} of the training data'.format(samples_factor))
-    path = 'data/unit_{}/challenge_{}/'.format(unit, challenge)
-    train_path = path + 'train.zip'
-    with ZipFile(train_path) as train_files:
-        labels_file = list(filter(lambda x: 'labels' in x, train_files.namelist()))[0]
-        columns = ['name', 'label']
-        df = pd.read_csv(train_files.open(labels_file), sep=';', index_col=None, header=None, names=columns)
-        df = df.sample(frac=samples_factor, random_state=0)
-        y_train = df.label.to_numpy()
-        x_train = [train_files.open(name).read() for name in df.name]
-    dataset = dotdict({
-        'unit': unit,
-        'challenge': challenge,
-        'x_train': x_train,
-        'y_train': y_train,
-    })  # like a dict but can be accessed with dot (e.g. dataset.x_train)
-    if include_test_data:
-        print('loading test data is not yet implemented')
-    num_c0 = sum(y_train == 0)
-    num_c1 = sum(y_train == 1)
-    train_size = len(dataset.y_train)
-    print('class 0: {} ({:.0%})\nclass 1: {} ({:.0%})'.format(
-        num_c0, num_c0 / train_size, num_c1, num_c1 / train_size))
-    dataset.num_c0 = num_c0
-    dataset.num_c1 = num_c1
-    return dataset
-
-
-def save_predictions(dataset, score):  # todo: parallelize
-    print('saving predictions')
-    folder = 'predictions/unit_{}/challenge_{}'.format(dataset.unit, dataset.challenge)
-    if not os.path.isdir(folder):
-        os.mkdir(folder)
-    file_path = get_filename_unique('{}/score_{}.csv'.format(folder, score))
-    with open(file_path, 'w') as file:
-        for name, prediction in zip(dataset.test_names, dataset.test_preds):
-            file.write('{};{}\n'.format(name, prediction))
-    print('saved')
-
-
-def get_cheat_dict(classifier: Pipeline, x_test=None):
+def get_cheat_dict(classifier, x_test=None):
     cheat_dict = {}
-    if 'x_test_fitter' in classifier.named_steps.keys():
+    if isinstance(classifier, Pipeline) and 'x_test_fitter' in classifier.named_steps.keys():
         cheat_dict['x_test_fitter__x_test'] = x_test
     return cheat_dict
 
 
-def fit_predict(classifier, dataset):
-    print('fitting on entire training data')
-    cheat_dict = get_cheat_dict(classifier, dataset.x_test)
-    classifier.fit(dataset.x_train, dataset.y_train, **cheat_dict)
-    dataset.test_preds = classifier.predict(dataset.x_test)
-    return dataset
 
 
 def get_filename_unique(filename):
@@ -110,40 +135,10 @@ def get_filename_unique(filename):
     return new_name
 
 
-def endless_random_search(model:BaseEstimator, dataset,  param_distribution: dict, parallel=True, verbose=False):
-    file_name = get_filename_unique('params_score.csv')
-    print('endless_random_search (params are saved to {})'.format(file_name))
-    df = pd.DataFrame(columns=[*param_distribution.keys(), 'score'])
-    best_score = 0.
-    iter = 0
-    while True:
-        iter += 1
-        params = list(ParameterSampler(param_distribution, 1))[0]
-        try:
-            model.set_params(**params)
-            score = cross_validate(model, dataset, verbose=verbose, parallel=parallel)
-            params_and_score = params
-            params_and_score['score'] = score
-            df = df.append(params_and_score, ignore_index=True)
-            df.to_csv(file_name)
-            if score > best_score:
-                best_params = params
-                best_score = score
-                print("best params")
-                print(best_params)
-                print("best score after {} iteration{}: {:.2%}".format(iter, "s" if iter > 1 else "", best_score))
-            else:
-                print('score: {:.2%}'.format(score))
-            # dataset = fit_predict(model, dataset)
-            # save_predictions(dataset, best_score)
-
-        except Exception as ex:
-            print('Error (skipping param set):\n{}'.format(traceback.format_exc()))
-
-
 def evaluate_cv(classifier, dataset, n_folds=5):
     print('evaluating classifier')
-    scores = cross_val_score(classifier, dataset.x_train, dataset.y_train, n_jobs=7, scoring='balanced_accuracy', cv=n_folds)
+    scores = cross_val_score(classifier, dataset.x_train, dataset.y_train, n_jobs=7, scoring='balanced_accuracy',
+                             cv=n_folds)
     print('cross validation scores:\n{}'.format(scores))
     mean_score = np.mean(scores)
     print('mean score: {}'.format(mean_score))
@@ -210,6 +205,7 @@ def couple_params_decorator(func1, param1: str, func2, param2: str):
     def wrapper(*args, **kwargs):
         func2(**{param2: kwargs[param1]})
         return func1(*args, **kwargs)
+
     return wrapper
 
 
@@ -222,7 +218,7 @@ def calc_score(model, scorer, i, xs_train, ys_train, xs_test, ys_test, verbose=T
     model.fit(xs_train, ys_train, **cheat_dict)
     score = scorer(model, xs_test, ys_test)
     if verbose:
-        print("score for fold {}: {:.2%}".format(i+1, score))
+        print("score for fold {}: {:.2%}".format(i + 1, score))
     return score
 
 
@@ -246,32 +242,6 @@ def save_last_score(score, task):
         os.mkdir(folder)
     with open(path, 'w') as f:
         f.write(str(score))
-
-
-def cross_validate(model: ClassifierMixin, dataset, n_folds=4, n_jobs=6, verbose=True, parallel=True):
-    if verbose:
-        print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
-    xs, ys = dataset.x_train, dataset.y_train
-    scorer = make_scorer(balanced_accuracy_score)
-    k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
-    fold_params = []
-    for i, (train_idxs, test_idxs) in enumerate(k_fold.split(xs, ys)):
-        xs_train = [xs[idx] for idx in train_idxs]
-        xs_test = [xs[idx] for idx in test_idxs]
-        ys_train = ys[train_idxs]
-        ys_test = ys[test_idxs]
-        fold_params.append((i, xs_train, ys_train, xs_test, ys_test))
-    if parallel:
-        scores = Parallel(n_jobs=n_jobs)(
-            delayed(calc_score)(model, scorer, *params, verbose=verbose)
-            for params in fold_params)
-    else:
-        print('parallel option disabled. (debugging mode)')
-        scores = [calc_score(model, scorer, *params) for params in fold_params]
-    mean_score = np.mean(scores)
-    if verbose:
-        print("mean score: {:.2%} (+/- {:.2%})".format(mean_score, np.std(scores) * 2))
-    return mean_score
 
 
 def normalize(x_train, x_test):
@@ -327,4 +297,16 @@ class NoXTestFitter(OptionalTransformer):
 def flatten(arr):
     return [e for sublist in arr for e in sublist]
 
+
+def load_embeddings():
+    glove_path = 'embeddings/glove.txt'
+    if not os.path.exists(glove_path):
+        print('downloading pre-trained embedding vectors')
+        link = 'http://nlp.stanford.edu/data/glove.6B.zip'
+        zip_path = glove_path.replace('txt', 'zip')
+        wget.download(link, out=zip_path)
+        with ZipFile(zip_path) as zip_file:
+            zip_file.extract('glove.6B.50d.txt', glove_path)
+    vocab, vec = torchwordemb.load_glove_text(glove_path)
+    return vocab, vec
 
