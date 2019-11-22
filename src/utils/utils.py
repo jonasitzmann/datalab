@@ -304,8 +304,8 @@ def load_embeddings():
     if not os.path.exists(glove_path):
         print('downloading pre-trained embedding vectors')
         link = 'http://nlp.stanford.edu/data/glove.6B.zip'
+        zip_path = glove_path.replace('txt', 'zip')
         wget.download(link, out=zip_path)
-        zip_path = glove_path.split('/')[0] + '/' + link.split('/')[-1]
         with ZipFile(zip_path) as zip_file:
             tmp = zip_file.extract('glove.6B.50d.txt')
             os.replace(tmp, glove_path)
