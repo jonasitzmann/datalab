@@ -162,7 +162,12 @@ class Task(BaseTask):
         )
 
     def get_param_distribution(self):
-        return {}
+        return {
+            'structure__s_net__module__n_layers': [1, 2, 3],
+            'structure__s_net__module__hidden_size': [10, 20, 30],
+            'rtf2glove__text_net__module__n_layers': [1, 2, 3],
+            'rtf2glove__text_net__module__hidden_size': [10, 20, 30],
+        }
 
     def get_params(self):
         return {}
