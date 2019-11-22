@@ -135,7 +135,7 @@ class BaseTask(ABC):
         if not os.path.exists(self.test_path):
             self.download_test_data()
         with ZipFile(self.test_path) as test_files:
-            self.test_names = list(filter(lambda x: 'labels' in x, test_files.namelist()))[0]
+            self.test_names = list(filter(lambda x: 'labels' in x, test_files.namelist()))
             self.x_test = [test_files.open(name).read() for name in self.test_names]
             if self.decode_data:
                 self.x_test = [x.decode('utf-8', errors='ignore') for x in self.x_test]
