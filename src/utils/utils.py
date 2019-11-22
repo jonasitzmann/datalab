@@ -300,6 +300,7 @@ def flatten(arr):
 
 
 def load_embeddings():
+    os.makedirs('embeddings', exist_ok=True)
     glove_path = 'embeddings/glove.txt'
     if not os.path.exists(glove_path):
         print('downloading pre-trained embedding vectors')
