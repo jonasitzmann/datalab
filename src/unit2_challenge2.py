@@ -5,7 +5,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.base import TransformerMixin
 import re
 from tika import parser
-import textract
 from src.utils.models import get_rnn_pipeline
 
 
