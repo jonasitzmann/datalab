@@ -22,10 +22,11 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         samples_factor = float(sys.argv[1])
     verbose = True
-    task: BaseTask = get_task(unit=2, challenge=3, samples_factor=samples_factor)
-    false_negatives = task.get_false_negatives(n_samples=5)
-    print('false negatives:')
-    print('\n\n\n\n'.join([fn for fn in false_negatives]))
+    task: BaseTask = get_task(unit=2, challenge=2, samples_factor=samples_factor)
+    # false_negatives = task.get_false_negatives(n_samples=5)
+    # print('false negatives:')
+    # print('\n\n\n\n'.join([fn for fn in false_negatives]))
+    task.save_predictions('test')
     # task.find_params(parallel=parallel, verbose=verbose)
     score = task.cross_validate(parallel=parallel, n_folds=1)
     last_score = get_last_score(task)

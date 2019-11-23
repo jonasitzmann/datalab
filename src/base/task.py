@@ -178,13 +178,13 @@ class BaseTask(ABC):
                     print("best score after {} iteration{}: {:.2%}".format(iter, "s" if iter > 1 else "", best_score))
                 else:
                     print('score: {:.2%}'.format(score))
-                predictions = self.fit_predict()
-                self.save_predictions(predictions, score)
+                self.save_predictions(score)
 
             except Exception as ex:
                 print('Error (skipping param set):\n{}'.format(traceback.format_exc()))
 
-    def save_predictions(self, predictions, score=""):  # todo: parallelize
+    def save_predictions(self, score=""):  # todo: parallelize
+        predictions = self.fit_predict()
         print('saving predictions')
         folder = 'predictions/unit_{}/challenge_{}'.format(self.unit, self.challenge)
         os.makedirs(folder, exist_ok=True)
@@ -201,5 +201,8 @@ class BaseTask(ABC):
         print('fitting on entire training data')
         cheat_dict = get_cheat_dict(self.model, self.x_test)
         self.model.fit(self.x_train, self.y_train, **cheat_dict)
-        predictions = self.model.predict(self.x_test)
+        if hasattr(self.model, 'predict_proba'):
+            predictions = self.model.predict_proba(self.x_test)
+        else:
+            predictions = self.model.predict(self.x_test)
         return predictions

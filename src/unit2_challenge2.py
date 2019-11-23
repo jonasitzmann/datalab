@@ -1,17 +1,33 @@
 # todo: take a look at https://zeltser.com/media/docs/analyzing-malicious-document-files.pdf
 from src.base.task import BaseTask
-from sklearn.feature_extraction.text import HashingVectorizer
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.decomposition import PCA
 from sklearn.svm import SVC
-from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import Pipeline
 from sklearn.base import TransformerMixin
-from src.utils.utils import DenseTransformer
-from tools.pdfid.pdfid import PDFiD
-from xml.dom.minidom import Document
-from io import BytesIO
 import re
+from tika import parser
+import textract
+from src.utils.models import get_rnn_pipeline
+
+
+class PdfTextExtractor(TransformerMixin):
+    def __init__(self):
+        super(PdfTextExtractor, self).__init__()
+
+    def fit(self, x, y=None):
+        return self
+
+    def transform(self, x, y=None):
+        return [self.transform_sample(sample) for sample in x]
+
+    def transform_sample(self, sample):
+        try:
+            raw = parser.from_buffer(sample)
+            content = raw['content']
+        except Exception as ex:
+            content = ""
+        if content is None:
+            content = ""
+        return content
 
 
 class PDFKeywordCounter(TransformerMixin):
@@ -64,8 +80,10 @@ class Task(BaseTask):
 
     def get_model(self):
         return Pipeline([
-            ('keyword_counter', PDFKeywordCounter()),
-            ('svm', SVC(gamma='auto')),
+            # ('keyword_counter', PDFKeywordCounter()),
+            # ('svm', SVC(gamma='auto')),
+            ('text_extractor', PdfTextExtractor()),
+            ('rnn_pipeline', get_rnn_pipeline())
         ])
 
     def get_param_distribution(self):
@@ -73,3 +91,8 @@ class Task(BaseTask):
 
     def get_params(self):
         return {}
+
+    @property
+    def decode_data(self):
+        return False
+

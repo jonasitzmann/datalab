@@ -8,47 +8,40 @@ from src.utils.utils import lookup_key_seq
 from src.utils.utils import to_padded_tensor
 from src.utils.models import RNNClassifier
 from torch import nn
-from torch import Tensor
 from skorch import NeuralNetClassifier
 from skorch.callbacks import EarlyStopping
+from torch import Tensor
 from torch.optim import Adam
 from sklearn.ensemble import VotingClassifier
 from src.utils.utils import load_embeddings
 
 
-
-
-class ObjDataClassifier(ClassifierMixin):
-    def __init__(self):
-        super(ObjDataClassifier, self).__init__()
-
-    def fit(self, *args, **kwargs):
-        return self
-
-    def predict(self, xs):
-        return list(map(lambda x: '\\objdata' in x.decode('utf-8', errors='ignore'), xs))
-
-
 class Rtf2Glove(TransformerMixin):
-    def __init__(self, vocab, max_seq_len=10_000):
+    def __init__(self, vocab, max_seq_len=15_000):
         super(Rtf2Glove, self).__init__()
         self.vocab = vocab
         self.pattern = re.compile('({|}|\\\\(?P<label>.+?)(\\s|\\\\|$|{|;|}))')
+        self.hex_pattern = re.compile("\'([0-9a-fA-F]{2})+")
         self.max_seq_len = max_seq_len
 
     def fit(self, xs, ys=None):
         return self
 
+    def extract_text(self, text):
+        extracted = self.hex_pattern.sub('', extracted)
+        extracted = self.pattern.sub('', text)
+
     def transform(self, xs, ys=None):
-        texts = (self.pattern.sub('', x) for x in xs)
+        texts = (self.extract_text(x) for x in xs)
         transformed = [lookup_key_seq(text.split(), self.vocab)[:self.max_seq_len] for text in texts]
         return to_padded_tensor(transformed)
 
 
 class Rtf2Structure(TransformerMixin):
-    def __init__(self, max_vocab_size=1500, max_seq_len=12_000):
+    def __init__(self, max_vocab_size=1800, max_seq_len=15_000):
         super(Rtf2Structure, self).__init__()
         self.max_seq_len = max_seq_len
+        self.hex_pattern = re.compile("\'([0-9a-fA-F]{2})+")
         self.pattern = re.compile('({|}|\\\\(?P<label>.+?)(\\s|\\\\|$|{|;|}))')
         self.vectorizer = CountVectorizer(max_features=max_vocab_size)
 
@@ -60,6 +53,7 @@ class Rtf2Structure(TransformerMixin):
         return result
 
     def extract_structure(self, text):
+        text = self.hex_pattern.sub('', text)
         matches = self.pattern.findall(text)
         structure = list(map(self.match2str, matches))
         return structure[:self.max_seq_len]
@@ -138,7 +132,7 @@ class Task(BaseTask):
         structure_extractor = Rtf2Structure()
         structure_net = self.get_classifier_from_net(
             input_size=structure_extractor.max_seq_len,
-            hidden_size=15,
+            hidden_size=12,
             log_dir='log/structure_net',
             n_layers=2
         )
@@ -147,7 +141,7 @@ class Task(BaseTask):
         rtf2glove = Rtf2Glove(vocab)
         text_net = self.get_classifier_from_net(
             input_size=rtf2glove.max_seq_len,
-            hidden_size=15,
+            hidden_size=12,
             embedding_weights=embedding_vectors,
             log_dir='log/text_net',
             n_layers=2

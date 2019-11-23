@@ -163,7 +163,7 @@ def merge_predictions(unit, challenge, n_best):
     if not os.path.exists(path):
         os.mkdir(path)
     filename = '{}/voted_{}.csv'.format(path, dt_string)
-    all_predictions['name'] = ['data/spam1-test/' + name for name in all_predictions['name']]
+    all_predictions['name'] = [name for name in all_predictions['name']]
     all_predictions[['name', 'voted']].to_csv(filename, index=False, sep=';', header=False, float_format='%.0f')
 
 
