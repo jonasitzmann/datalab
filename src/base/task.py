@@ -30,7 +30,8 @@ class BaseTask(ABC):
         self.load_dataset(samples_factor)
         self.model = self.get_model()
         self.param_distribution = self.get_param_distribution()
-        self.model = self.model.set_params(**self.get_params())
+        if hasattr(self.model, 'set_params'):
+            self.model = self.model.set_params(**self.get_params())
 
     @property
     def include_file_names(self):
@@ -201,8 +202,8 @@ class BaseTask(ABC):
         print('fitting on entire training data')
         cheat_dict = get_cheat_dict(self.model, self.x_test)
         self.model.fit(self.x_train, self.y_train, **cheat_dict)
-        if hasattr(self.model, 'predict_proba'):
-            predictions = self.model.predict_proba(self.x_test)
-        else:
-            predictions = self.model.predict(self.x_test)
+        # if hasattr(self.model, 'predict_proba'):
+        #     predictions = self.model.predict_proba(self.x_test)
+        # else:
+        predictions = self.model.predict(self.x_test)
         return predictions
