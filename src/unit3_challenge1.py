@@ -4,11 +4,11 @@ from sklearn.cluster import KMeans
 class Task(BaseTask):
     @property
     def unit(self):
-        pass
+        return 3
 
     @property
     def challenge(self):
-        pass
+        return 1
 
     def get_model(self):
         return KMeans()

@@ -22,7 +22,7 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         samples_factor = float(sys.argv[1])
     verbose = True
-    task: BaseTask = get_task(unit=3, challenge=1, samples_factor=samples_factor)
+    task: BaseTask = get_task(unit=3, challenge=2, samples_factor=samples_factor)
     print(task.x_train[0])
     # false_negatives = task.get_false_negatives(n_samples=5)
     # print('false negatives:')
