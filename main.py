@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # false_negatives = task.get_false_negatives(n_samples=5)
     # print('false negatives:')
     # print('\n\n\n\n'.join([fn for fn in false_negatives]))
-    # task.save_predictions('test')
+    task.save_predictions('test')
     # task.find_params(parallel=parallel, verbose=verbose)
     # score = task.cross_validate(parallel=parallel, n_folds=1)
     # last_score = get_last_score(task)

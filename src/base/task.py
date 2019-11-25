@@ -55,13 +55,11 @@ class BaseTask(ABC):
     def get_model(self):
         return None
 
-    @abstractmethod
     def get_param_distribution(self):
-        return None
+        return {}
 
-    @abstractmethod
     def get_params(self):
-        return None
+        return {}
 
     @property
     def train_data_link(self):

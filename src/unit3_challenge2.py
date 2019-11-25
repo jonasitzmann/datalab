@@ -13,11 +13,6 @@ class Task(BaseTask):
     def get_model(self):
         return KMeans()
 
-    def get_param_distribution(self):
-        return {}
-
-    def get_params(self):
-        return {}
 
     @property
     def train_data_link(self):
