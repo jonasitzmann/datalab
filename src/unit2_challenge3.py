@@ -88,14 +88,6 @@ class Task(BaseTask):
     def include_file_names(self):
         return False
 
-    @property
-    def unit(self):
-        return 2
-
-    @property
-    def challenge(self):
-        return 3
-
     def get_classifier_from_net(self, input_size, hidden_size, embedding_weights=None, n_layers=1, log_dir='log/default'):
         weights = [
             self.num_c1 / self.train_size,

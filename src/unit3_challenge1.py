@@ -1,15 +1,8 @@
 from src.base.task import BaseTask
 from sklearn.cluster import KMeans
+from sklearn.metrics.cluster import adjusted_mutual_info_score
 
 class Task(BaseTask):
-    @property
-    def unit(self):
-        return 3
-
-    @property
-    def challenge(self):
-        return 1
-
     def get_model(self):
         return KMeans()
 
@@ -18,6 +11,10 @@ class Task(BaseTask):
 
     def get_params(self):
         return {}
+
+    @property
+    def metric(self):
+        return adjusted_mutual_info_score
 
     @property
     def train_data_link(self):

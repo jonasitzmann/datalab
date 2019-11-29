@@ -5,6 +5,7 @@ import pandas as pd
 from zipfile import ZipFile
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import balanced_accuracy_score
+from sklearn.metrics.cluster import adjusted_mutual_info_score
 from sklearn.metrics import make_scorer
 from sklearn.metrics import confusion_matrix
 from joblib import Parallel, delayed
@@ -15,11 +16,19 @@ from sklearn.model_selection import train_test_split
 import traceback
 from src.utils.utils import get_cheat_dict
 from src.utils.utils import get_filename_unique
+import inspect
+import re
 
 
 
 class BaseTask(ABC):
     def __init__(self, samples_factor=1):
+        filename = inspect.getfile(self.__class__).split('/')[-1]
+        pattern = r'unit(?P<unit>\d)_challenge(?P<challenge>\d).py'
+        match = re.match(pattern, filename)
+        assert match, 'file name must match the following pattern:\n{}'.format(pattern)
+        self.unit = match.group('unit')
+        self.challenge = match.group('challenge')
         print('working on unit {}, challenge {}'.format(self.unit, self.challenge))
         path = 'data/unit_{}/challenge_{}/'.format(self.unit, self.challenge)
         os.makedirs(path, exist_ok=True)
@@ -42,14 +51,8 @@ class BaseTask(ABC):
         return False
 
     @property
-    @abstractmethod
-    def unit(self):
-        pass
-
-    @property
-    @abstractmethod
-    def challenge(self):
-        pass
+    def metric(self):
+        return balanced_accuracy_score
 
     @abstractmethod
     def get_model(self):
@@ -71,12 +74,12 @@ class BaseTask(ABC):
 
     def cross_validate(self, n_folds=1, n_jobs=6, verbose=True, parallel=True):
         if verbose:
-            print("starting {}-fold cross validation using balanced accuracy".format(n_folds))
+            print("starting {}-fold cross validation using {}".format(n_folds, self.metric.__name__))
         xs, ys = self.x_train, self.y_train
-        scorer = make_scorer(balanced_accuracy_score)
+        scorer = make_scorer(self.metric)
         if n_folds == 1:
             x_train, x_test, y_train, y_test = train_test_split(xs, ys, stratify=ys)
-            score = calc_score(self.model, scorer, 1, x_train, y_train, x_test, y_test, verbose=verbose)
+            score = calc_score(self.model, scorer, 0, x_train, y_train, x_test, y_test, verbose=verbose)
             print('score: {:.2%}'.format(score))
         else:
             k_fold = StratifiedKFold(n_folds, shuffle=True, random_state=0)
@@ -103,7 +106,7 @@ class BaseTask(ABC):
         xs, ys = self.x_train, self.y_train
         model = self.model.fit(xs, ys)
         predictions = model.predict(xs)
-        print('score on training data: {}'.format(balanced_accuracy_score(ys, predictions)))
+        print('score on training data: {}'.format(self.metric(ys, predictions)))
         c_mat = pd.DataFrame(
             confusion_matrix(ys, predictions) / len(ys),
             index=['true:yes', 'true:no'],
@@ -125,11 +128,15 @@ class BaseTask(ABC):
             self.x_train = [train_files.open(name).read() for name in df.name]
             if self.decode_data:
                 self.x_train = [x.decode('utf-8', errors='ignore') for x in self.x_train]
-        self.num_c0 = sum(self.y_train == 0)
-        self.num_c1 = sum(self.y_train == 1)
+        n_classes = np.max(self.y_train)
+        if n_classes == 2:  # todo: change to list to support general case of n classes
+            self.num_c0 = sum(self.y_train == 0)
+            self.num_c1 = sum(self.y_train == 1)
         self.train_size = len(self.y_train)
-        print('class 0: {} ({:.0%})\nclass 1: {} ({:.0%})'.format(
-            self.num_c0, self.num_c0 / self.train_size, self.num_c1, self.num_c1 / self.train_size))
+        for cls_idx in range(n_classes):
+            n_class_samples = sum(self.y_train == cls_idx)
+            class_ratio = n_class_samples / self.train_size
+            print('class {}: {} ({:.0%})'.format(cls_idx, n_class_samples, class_ratio))
 
     def load_test_data(self):
         print('loading test data')

@@ -14,8 +14,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from src.base.optional_transformer import OptionalTransformer
 from torch.utils.tensorboard import SummaryWriter
-import webbrowser
-from subprocess import Popen
 from zipfile import ZipFile
 import wget
 

@@ -2,14 +2,6 @@ from src.base.task import BaseTask
 from sklearn.cluster import KMeans
 
 class Task(BaseTask):
-    @property
-    def unit(self):
-        return 3
-
-    @property
-    def challenge(self):
-        return 2
-
     def get_model(self):
         return KMeans()
 

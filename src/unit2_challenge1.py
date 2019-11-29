@@ -88,14 +88,6 @@ class Task(BaseTask):
     def include_file_names(self):
         return True
 
-    @property
-    def unit(self):
-        return 2
-
-    @property
-    def challenge(self):
-        return 1
-
     def get_model(self):
         return Pipeline([
             ('DocxExtractor', DocxExtractor()),  # transforms file names to xml strings

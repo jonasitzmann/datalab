@@ -166,10 +166,3 @@ class Task(BaseTask):
             'x_test_fitter__active': 0,
         }
 
-    @property
-    def unit(self):
-        return 1
-
-    @property
-    def challenge(self):
-        return 2

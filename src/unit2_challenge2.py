@@ -69,14 +69,6 @@ class Task(BaseTask):
     def include_file_names(self):
         return False
 
-    @property
-    def unit(self):
-        return 2
-
-    @property
-    def challenge(self):
-        return 2
-
     def get_model(self):
         return Pipeline([
             # ('keyword_counter', PDFKeywordCounter()),

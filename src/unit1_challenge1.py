@@ -10,14 +10,6 @@ from src.base.task import BaseTask
 
 
 class Task(BaseTask):
-    @property
-    def unit(self):
-        return 1
-
-    @property
-    def challenge(self):
-        return 1
-
     def get_model(self):
         pipeline = Pipeline([
             ('feature_extraction', FeatureUnion([

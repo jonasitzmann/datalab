@@ -207,13 +207,5 @@ class Task(BaseTask):
         }
 
     @property
-    def unit(self):
-        return 1
-
-    @property
-    def challenge(self):
-        return 3
-
-    @property
     def include_file_names(self):
         return True
