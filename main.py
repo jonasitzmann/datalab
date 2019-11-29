@@ -41,7 +41,7 @@ if __name__ == '__main__':
     unit = 3
     challenge = 3
     parallel = 0  # set to 0 or False for debugging
-    samples_factor = 1
+    samples_factor = 0.1
     verbose = True
     mode = Mode.TEST
     main(unit, challenge, parallel, samples_factor, verbose, mode)

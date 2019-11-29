@@ -128,12 +128,13 @@ class BaseTask(ABC):
             self.x_train = [train_files.open(name).read() for name in df.name]
             if self.decode_data:
                 self.x_train = [x.decode('utf-8', errors='ignore') for x in self.x_train]
-        n_classes = np.max(self.y_train)
-        if n_classes == 2:  # todo: change to list to support general case of n classes
+        min_class = np.min(self.y_train)
+        max_class = np.max(self.y_train)
+        if min_class == 0 and max_class == 1:  # todo: change to list to support general case of n classes
             self.num_c0 = sum(self.y_train == 0)
             self.num_c1 = sum(self.y_train == 1)
         self.train_size = len(self.y_train)
-        for cls_idx in range(n_classes):
+        for cls_idx in range(min_class, max_class + 1):
             n_class_samples = sum(self.y_train == cls_idx)
             class_ratio = n_class_samples / self.train_size
             print('class {}: {} ({:.0%})'.format(cls_idx, n_class_samples, class_ratio))
