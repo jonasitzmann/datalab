@@ -1,5 +1,0 @@
-,feature_selection__k,classification__module__hidden_layer_sizes,classification__module__dropout,x_test_fitter__active,score
-0,12000,"(10, 10)",0.1,0,
-1,12000,"(10, 10)",0.1,0,
-2,12000,"(10, 10)",0.1,1,
-3,7000,"(7, 7)",0.1,1,

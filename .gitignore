@@ -8,3 +8,6 @@ venv/
 log/
 embeddings/
 data/
+tmp/
+.data/
+runs/

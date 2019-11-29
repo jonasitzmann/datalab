@@ -1,2 +1,0 @@
-,feature_selection__k,classification__module__hidden_layer_sizes,classification__module__dropout,classification__optimizer__weight_decay,classification__optimizer__lr,x_test_fitter__active,feature_extraction__pipeline__union__bag_of_words__ngram_range,score
-0,2000,"(6, 6, 6)",0.2,0.02,0.001,1,"(1, 2)",0.9989342746841142
