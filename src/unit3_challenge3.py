@@ -33,5 +33,9 @@ class Task(BaseTask):
         return 'https://www.sec.cs.tu-bs.de/teaching/ws19/datalab/03-clust/507feadd0b2eda5df50c8efbafcb937bc303c2e3.zip'
 
     @property
+    def test_data_link(self):
+        return 'https://www.sec.cs.tu-bs.de/teaching/ws19/datalab/03-clust/e947a25d6806ac94269daf2c72b021b2d06ef0ec.zip'
+
+    @property
     def decode_data(self):
         return True
