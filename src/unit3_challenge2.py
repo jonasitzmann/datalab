@@ -1,10 +1,15 @@
+from sklearn.metrics.cluster import adjusted_mutual_info_score
 from src.base.task import BaseTask
-from sklearn.cluster import KMeans
+from src.utils.utils import FileSizeClusterer
+
 
 class Task(BaseTask):
     def get_model(self):
-        return KMeans()
+        return FileSizeClusterer()
 
+    @property
+    def metric(self):
+        return adjusted_mutual_info_score
 
     @property
     def train_data_link(self):

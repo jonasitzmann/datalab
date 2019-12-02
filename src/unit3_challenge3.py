@@ -1,42 +1,37 @@
 from src.base.task import BaseTask
-from sklearn.cluster import KMeans
 from sklearn.metrics.cluster import adjusted_mutual_info_score
-from sklearn.base import TransformerMixin
-from sklearn.base import ClusterMixin
-from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.base import ClusterMixin
+from sklearn.cluster import KMeans
+from sklearn.pipeline import Pipeline
+from src.utils.models import FileSizeExtractor
+from src.utils.utils import FeaturePlotter
+from src.utils.utils import ClusterPredPlotter
+from src.utils.utils import ElbowPlotter
 import numpy as np
-
-# todo: why doesn't pipeline work for k-means?
-
-
-class WindowsClusterer(ClusterMixin):
-    def __init__(self):
-        super(WindowsClusterer, self).__init__()
-        self.kmeans = KMeans(n_clusters=10)
-        self.vectorizer = TfidfVectorizer()
-
-    def fit(self, xs, *args):
-        xs = [x.decode('utf-8', errors='ignore') for x in xs]
-        xs = self.vectorizer.fit_transform(xs)
-        self.kmeans.fit(xs)
-        return self
-
-    def predict(self, xs):
-        xs = [x.decode('utf-8', errors='ignore') for x in xs]
-        xs = self.vectorizer.transform(xs)
-        predictions = self.kmeans.predict(xs)
-        return predictions
+from src.utils.models import GmmClusterer
 
 
 class Task(BaseTask):
     def get_model(self):
-        return WindowsClusterer()
+        model = GmmClusterer(n_clusters=12)
+        feature_names = ['log(file_size)']
+        return Pipeline([
+            ('file_size_extractor', FileSizeExtractor(log=True)),
+            # ('plotter', FeaturePlotter(feature_names=feature_names)),
+            # ('pred_plotter', ClusterPredPlotter(model, feature_names)),
+            # ('elbow_plot', ElbowPlotter(model, metric=self.metric, k_range=(1, 15))),
+            ('gmm', model)
+        ])
+
+    @property
+    def metric(self):
+        return adjusted_mutual_info_score
 
     @property
     def train_data_link(self):
         return 'https://www.sec.cs.tu-bs.de/teaching/ws19/datalab/03-clust/507feadd0b2eda5df50c8efbafcb937bc303c2e3.zip'
 
     @property
-    def metric(self):
-        return adjusted_mutual_info_score
+    def decode_data(self):
+        return True

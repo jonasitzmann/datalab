@@ -7,11 +7,11 @@ from sklearn.pipeline import Pipeline
 from lxml import etree
 from sklearn.base import TransformerMixin
 from zipfile import ZipFile
-from src.utils.utils import DenseTransformer
+from src.utils.models import DenseTransformer
 from io import BytesIO
 import xmltodict
-
 from collections import OrderedDict
+
 def flatten_dict(d):
     def items():
         for key, value in d.items():

@@ -12,10 +12,13 @@ import torchwordemb  # torch has to be imported first!
 import random
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
-from src.base.optional_transformer import OptionalTransformer
 from torch.utils.tensorboard import SummaryWriter
+from sklearn.cluster import KMeans
 from zipfile import ZipFile
+import matplotlib.pyplot as plt
+import seaborn as sns
 import wget
+from yellowbrick.cluster import KElbowVisualizer
 
 
 def lookup_key(string, vocab, tokenizer):
@@ -122,8 +125,6 @@ def get_cheat_dict(classifier, x_test=None):
     return cheat_dict
 
 
-
-
 def get_filename_unique(filename):
     i = 1
     name, extension = filename.rsplit('.', 1)
@@ -163,41 +164,6 @@ def merge_predictions(unit, challenge, n_best):
     filename = '{}/voted_{}.csv'.format(path, dt_string)
     all_predictions['name'] = [name for name in all_predictions['name']]
     all_predictions[['name', 'voted']].to_csv(filename, index=False, sep=';', header=False, float_format='%.0f')
-
-
-class ClfSwitcher(BaseEstimator):
-    def __init__(self, model1, model2, take_model1):
-        self.model1 = model1
-        self.model2 = model2
-        self.take_model1 = take_model1
-
-    def split(self, x, y=None):
-        idxs = range(len(x))
-        model1_idxs = [i for i in idxs if self.take_model1(x[i])]
-        model2_idxs = [i for i in idxs if i not in model1_idxs]
-        x1 = [x_i for i, x_i in enumerate(x) if i in model1_idxs]
-        x2 = [x_i for i, x_i in enumerate(x) if i in model2_idxs]
-        if y is not None:
-            y1 = np.array(y)[model1_idxs]
-            y2 = np.array(y)[model2_idxs]
-            return x1, y1, x2, y2
-        else:
-            return x1, x2, model1_idxs, model2_idxs
-
-    def fit(self, x, y, **kwargs):
-        x1, y1, x2, y2 = self.split(x, y)
-        self.model1 = self.model1.fit(x1, y1)
-        self.model2 = self.model2.fit(x2, y2)
-        return self
-
-    def predict(self, x, y=None):
-        x1, x2, model1_idxs, model2_idxs = self.split(x)
-        preds_1 = self.model1.predict(x1)
-        preds_2 = self.model2.predict(x2)
-        preds = np.zeros(len(x))
-        preds[model1_idxs] = preds_1
-        preds[model2_idxs] = preds_2
-        return preds
 
 
 def couple_params_decorator(func1, param1: str, func2, param2: str):
@@ -249,50 +215,6 @@ def normalize(x_train, x_test):
     return normalizer.transform(x_train), normalizer.transform(x_test)
 
 
-class DenseTransformer(TransformerMixin):
-    def fit(self, X, y=None, **fit_params):
-        return self
-
-    def transform(self, X, y=None, **fit_params):
-        if hasattr(X, 'todense'):
-            X = X.todense()
-        return X
-
-
-class XTestFitter(OptionalTransformer):
-    def __init__(self):
-        super(XTestFitter).__init__()
-        self.x_train_size = None
-        self.x_test = None
-
-    def fit(self, x_train, y=None, x_test=None, **fit_params):
-        self.x_test = x_test
-        return self
-
-    def transform(self, x_train, y_train=None, **kwargs):
-        self.x_train_size = len(x_train)
-        if isinstance(self.x_test, list):
-            x_train = list(x_train + self.x_test)
-        else:
-            print('no x_test provided. fitting on x_train only')
-        return x_train
-
-
-class NoXTestFitter(OptionalTransformer):
-    def __init__(self, x_test_fitter: XTestFitter):
-        super(NoXTestFitter).__init__()
-        self.x_test_fitter = x_test_fitter
-
-    def fit(self, x_train, y=None, **fit_params):
-        return self
-
-    def transform(self, x_train, y_train=None, **kwargs):
-        if self.x_test_fitter.x_train_size is not None:
-            x_train = x_train[:self.x_test_fitter.x_train_size]
-        self.x_test_fitter.x_train_size = None
-        return x_train
-
-
 def flatten(arr):
     return [e for sublist in arr for e in sublist]
 
@@ -310,4 +232,79 @@ def load_embeddings():
             os.replace(tmp, glove_path)
     vocab, vec = torchwordemb.load_glove_text(glove_path)
     return vocab, vec
+
+
+class FeaturePlotter(TransformerMixin):
+    def __init__(self, feature_names=None):
+        super(TransformerMixin, self).__init__()
+        self.feature_names = feature_names
+        self.labels_name = 'label'
+
+    def fit(self, xs, ys=None):
+        n_features = xs.shape[1]
+        if self.feature_names is None:
+            columns = ['x_{}'.format(i) for i in range(xs.shape[1])]
+        else:
+            columns = self.feature_names
+            n_names = len(self.feature_names)
+            assert(n_names == n_features), 'got {} features but {} names'.format(n_features, n_names)
+        df = pd.DataFrame(xs, columns=columns)
+        df[self.labels_name] = 'unknown' if ys is None else ["'{}'".format(y) for y in ys]
+        self.distplot(df)
+        return self
+
+    def transform(self, xs, ys=None):
+        return xs
+
+    def distplot(self, df):
+        g = sns.PairGrid(df, hue=self.labels_name)
+        g.map_upper(plt.scatter)
+        g.map_lower(sns.kdeplot, shade=True, shade_lowest=False)
+        g.map_diag(sns.distplot, hist=False)
+
+
+class ElbowPlotter(TransformerMixin):
+    def __init__(self, model, metric, k_range=(1, 10)):
+        super(ElbowPlotter, self).__init__()
+        self.model = model
+        self.metric = metric
+        self.k_range = k_range
+
+    def fit(self, xs, ys=None):
+        ax = plt.subplot()
+        scores = []
+        ks = range(self.k_range[0] + 1, self.k_range[1] + 2)
+        for k in ks:
+            self.model.set_params(n_clusters=k)
+            self.model = self.model.fit(xs)
+            if ys is None:
+                raise NotImplementedError()
+            else:
+                predictions = self.model.predict(xs)
+                scores.append(self.metric(predictions, ys))
+        ax.plot(ks, scores)
+        # ax.xlabel('ks')
+        # fig.xticks(ks)
+        # fig.ylabel(self.metric.__name__)
+        return self
+
+    def transform(self, xs, ys=None):
+        return xs
+
+
+class ClusterPredPlotter(TransformerMixin):
+    def __init__(self, model, feature_names=None):
+        super(ClusterPredPlotter, self).__init__()
+        self.plotter = FeaturePlotter(feature_names)
+        self.model = model
+
+    def fit(self, xs, ys=None):
+        self.model = self.model.fit(xs)
+        preds = self.model.predict(xs)
+        self.plotter.fit(xs, preds)
+        return self
+
+    def transform(self, xs, ys=None):
+        return xs
+
 
