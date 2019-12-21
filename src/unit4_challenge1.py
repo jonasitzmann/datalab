@@ -18,7 +18,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
-from utils.utils import most_common
+from src.utils.utils import most_common
 from sklearn.neural_network import MLPClassifier
 
 class RawFeatureExtractor(TransformerMixin):
