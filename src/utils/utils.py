@@ -19,7 +19,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import wget
 from sklearn.metrics.cluster import silhouette_score
-from yellowbrick.cluster import KElbowVisualizer
 import json
 from collections import Counter
 
