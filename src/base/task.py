@@ -8,6 +8,7 @@ from sklearn.metrics import balanced_accuracy_score
 from sklearn.metrics.cluster import adjusted_mutual_info_score
 from sklearn.metrics import make_scorer
 from sklearn.metrics import confusion_matrix
+from sklearn.metrics.cluster import silhouette_score
 from joblib import Parallel, delayed
 import numpy as np
 import wget
@@ -18,29 +19,37 @@ from src.utils.utils import get_cheat_dict
 from src.utils.utils import get_filename_unique
 import inspect
 import re
-
+from enum import Enum, auto
 
 
 class BaseTask(ABC):
-    def __init__(self, samples_factor=1):
+    class Mode(Enum):
+        CLASSIFICATION = auto()
+        CLUSTERING = auto()
+    def __init__(self, samples_factor=1, n_classes=-1):
         filename = inspect.getfile(self.__class__).split('/')[-1]
         pattern = r'unit(?P<unit>\d)_challenge(?P<challenge>\d).py'
         match = re.match(pattern, filename)
         assert match, 'file name must match the following pattern:\n{}'.format(pattern)
         self.unit = match.group('unit')
         self.challenge = match.group('challenge')
-        print('working on unit {}, challenge {}'.format(self.unit, self.challenge))
         path = 'data/unit_{}/challenge_{}/'.format(self.unit, self.challenge)
+        self.path = path
+        print('working on unit {}, challenge {}'.format(self.unit, self.challenge))
         os.makedirs(path, exist_ok=True)
         self.train_path = path + 'train.zip'
         self.test_path = path + 'test.zip'
         self.x_train = self.y_train = self.x_test = self.test_names = None
         self.num_c0 = self.num_c1 = self.train_size = 0
-        self.load_dataset(samples_factor)
+        self.load_dataset(samples_factor, n_classes=n_classes)
         self.model = self.get_model()
         self.param_distribution = self.get_param_distribution()
         if hasattr(self.model, 'set_params'):
             self.model = self.model.set_params(**self.get_params())
+
+    @property
+    def mode(self):
+        return self.Mode.CLASSIFICATION
 
     @property
     def include_file_names(self):
@@ -72,7 +81,24 @@ class BaseTask(ABC):
     def test_data_link(self):
         return None
 
-    def cross_validate(self, n_folds=1, n_jobs=6, verbose=True, parallel=True):
+    def evaluate(self, *args, **kwargs):
+        if self.mode == self.Mode.CLUSTERING:
+            return self.calc_cluster_score(*args, **kwargs)
+        elif self.mode == self.Mode.CLASSIFICATION:
+            return self.cross_validate(*args, **kwargs)
+
+    def calc_cluster_score(self, test=True, *args, **kwargs):
+        score = 0
+        if test:
+            self.load_test_data()
+            self.model.fit(self.x_test)
+        else:
+            model = self.model.fit(self.x_train, self.y_train)
+            preds = model.predict(self.x_train)
+            score = self.metric(preds, self.y_train)
+        return score
+
+    def cross_validate(self, n_folds=1, n_jobs=6, verbose=True, parallel=True, *args, **kwargs):
         if verbose:
             print("starting {}-fold cross validation using {}".format(n_folds, self.metric.__name__))
         xs, ys = self.x_train, self.y_train
@@ -115,7 +141,7 @@ class BaseTask(ABC):
         false_negatives = [x for x, y, pred in zip(xs, ys, predictions) if y and not pred]
         return false_negatives[:n_samples]
 
-    def load_dataset(self, samples_factor):
+    def load_dataset(self, samples_factor, n_classes=-1):
         if not os.path.exists(self.train_path):
             self.download_train_data()
         print('loading {:.0%} of the training data'.format(samples_factor))
@@ -123,21 +149,31 @@ class BaseTask(ABC):
             labels_file = list(filter(lambda x: 'labels' in x, train_files.namelist()))[0]
             columns = ['name', 'label']
             df = pd.read_csv(train_files.open(labels_file), sep=';', index_col=None, header=None, names=columns)
+            if n_classes >= 0:
+                unique_labels = set(df['label'])
+                label_idx = {label: i for i, label in enumerate(unique_labels)}
+                keep_rows = [label_idx[label] < n_classes for label in df['label']]
+                df = df[keep_rows]
             df = df.sample(frac=samples_factor, random_state=0)
             self.y_train = df.label.to_numpy()
             self.x_train = [train_files.open(name).read() for name in df.name]
             if self.decode_data:
                 self.x_train = [x.decode('utf-8', errors='ignore') for x in self.x_train]
+            if self.include_file_names:
+                self.x_train = list(zip(df.name, self.x_train))
         min_class = np.min(self.y_train)
         max_class = np.max(self.y_train)
         if min_class == 0 and max_class == 1:  # todo: change to list to support general case of n classes
             self.num_c0 = sum(self.y_train == 0)
             self.num_c1 = sum(self.y_train == 1)
         self.train_size = len(self.y_train)
-        for cls_idx in range(min_class, max_class + 1):
-            n_class_samples = sum(self.y_train == cls_idx)
+        self.y_names = {idx: name for idx, name, in enumerate(set(self.y_train))}
+        self.y_idxs = {name: idx for idx, name in self.y_names.items()}
+        self.y_train = np.array(list(map(lambda x: self.y_idxs[x], self.y_train)))
+        for idx, name in self.y_names.items():
+            n_class_samples = sum([sample_idx == idx for sample_idx in self.y_train])
             class_ratio = n_class_samples / self.train_size
-            print('class {}: {} ({:.0%})'.format(cls_idx, n_class_samples, class_ratio))
+            print('class {}: {} ({:.0%})'.format(name, n_class_samples, class_ratio))
 
     def load_test_data(self):
         print('loading test data')
@@ -148,6 +184,8 @@ class BaseTask(ABC):
             self.x_test = [test_files.open(name).read() for name in self.test_names]
             if self.decode_data:
                 self.x_test = [x.decode('utf-8', errors='ignore') for x in self.x_test]
+            if self.include_file_names:
+                self.x_test = list(zip(self.test_names, self.x_test))
 
     def download_train_data(self):
         assert self.train_data_link is not None, "specify train_data_link to download train data"
@@ -207,9 +245,11 @@ class BaseTask(ABC):
             self.load_test_data()
         print('fitting on entire training data')
         cheat_dict = get_cheat_dict(self.model, self.x_test)
-        self.model.fit(self.x_train, self.y_train, **cheat_dict)
-        # if hasattr(self.model, 'predict_proba'):
-        #     predictions = self.model.predict_proba(self.x_test)
-        # else:
+        if self.mode == self.Mode.CLASSIFICATION:
+            self.model.fit(self.x_train, self.y_train, **cheat_dict)
+        elif self.mode == self.Mode.CLUSTERING:
+            self.model.fit(self.x_test)
+        else:
+            raise NotImplementedError()
         predictions = self.model.predict(self.x_test)
         return predictions

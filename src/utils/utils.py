@@ -18,7 +18,10 @@ from zipfile import ZipFile
 import matplotlib.pyplot as plt
 import seaborn as sns
 import wget
+from sklearn.metrics.cluster import silhouette_score
 from yellowbrick.cluster import KElbowVisualizer
+import json
+from collections import Counter
 
 
 def lookup_key(string, vocab, tokenizer):
@@ -29,6 +32,16 @@ def lookup_key(string, vocab, tokenizer):
 
 def lookup_key_seq(seq, vocab):
     return [vocab.get(w, -1) + 1 for w in seq]
+
+
+def to_padded_tensor_without_embeddings(seqs, max_seq_len=500):
+    max_len = max(list(map(len, seqs)))
+    max_len = min(max_len, max_seq_len)
+    seqs_tensor = np.zeros([len(seqs), max_len, len(seqs[0][0])])  # todo: this only works for 3d tensors
+    for i, seq in enumerate(seqs):
+        size = min(len(seq), max_len)
+        seqs_tensor[i, :len(seq)] = np.array(seq[:size])
+    return torch.autograd.Variable(torch.tensor(seqs_tensor, dtype=torch.float32))
 
 
 def to_padded_tensor(seqs):
@@ -235,10 +248,11 @@ def load_embeddings():
 
 
 class FeaturePlotter(TransformerMixin):
-    def __init__(self, feature_names=None):
+    def __init__(self, feature_names=None, label='features'):
         super(TransformerMixin, self).__init__()
         self.feature_names = feature_names
         self.labels_name = 'label'
+        self.title = label
 
     def fit(self, xs, ys=None):
         n_features = xs.shape[1]
@@ -257,6 +271,7 @@ class FeaturePlotter(TransformerMixin):
         return xs
 
     def distplot(self, df):
+        plt.title(self.title)
         g = sns.PairGrid(df, hue=self.labels_name)
         g.map_upper(plt.scatter)
         g.map_lower(sns.kdeplot, shade=True, shade_lowest=False)
@@ -264,11 +279,13 @@ class FeaturePlotter(TransformerMixin):
 
 
 class ElbowPlotter(TransformerMixin):
-    def __init__(self, model, metric, k_range=(1, 10)):
+    def __init__(self, model, metric, k_range=(1, 10), unsupervised_metric=silhouette_score, unsupervised=False):
         super(ElbowPlotter, self).__init__()
         self.model = model
         self.metric = metric
         self.k_range = k_range
+        self.unsupervised_metric = unsupervised_metric
+        self.unsupervised = unsupervised
 
     def fit(self, xs, ys=None):
         ax = plt.subplot()
@@ -277,15 +294,17 @@ class ElbowPlotter(TransformerMixin):
         for k in ks:
             self.model.set_params(n_clusters=k)
             self.model = self.model.fit(xs)
-            if ys is None:
-                raise NotImplementedError()
+            predictions = self.model.predict(xs)
+            if ys is None or self.unsupervised:
+                metric = self.unsupervised_metric
+                scores.append(metric(xs, predictions))
             else:
-                predictions = self.model.predict(xs)
-                scores.append(self.metric(predictions, ys))
+                metric = self.metric
+                scores.append(metric(predictions, ys))
         ax.plot(ks, scores)
         # ax.xlabel('ks')
-        # fig.xticks(ks)
-        # fig.ylabel(self.metric.__name__)
+        # ax.xticks(ks)
+        # ax.ylabel(metric.__name__)
         return self
 
     def transform(self, xs, ys=None):
@@ -295,7 +314,7 @@ class ElbowPlotter(TransformerMixin):
 class ClusterPredPlotter(TransformerMixin):
     def __init__(self, model, feature_names=None):
         super(ClusterPredPlotter, self).__init__()
-        self.plotter = FeaturePlotter(feature_names)
+        self.plotter = FeaturePlotter(feature_names, label='predictions')
         self.model = model
 
     def fit(self, xs, ys=None):
@@ -307,4 +326,30 @@ class ClusterPredPlotter(TransformerMixin):
     def transform(self, xs, ys=None):
         return xs
 
+
+class SavedDict:
+    def __init__(self, json_path):
+        self.json_path = json_path
+        self.original_dict = {}
+        if os.path.isfile(json_path):
+            with open(json_path, 'rb') as file:
+                self.original_dict = json.load(file)
+        self.modified_dict = self.original_dict.copy()
+
+    def __enter__(self):
+        return self.modified_dict
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self.original_dict != self.modified_dict:
+            with open(self.json_path, 'w') as file:
+                json.dump(self.modified_dict, file)
+
+
+def most_common(arr, allow_none=True):
+    if not allow_none:
+        arr = [e for e in arr if e is not None]
+    result = None
+    if arr:
+        result = Counter(arr).most_common(1)[0][0]
+    return result
 

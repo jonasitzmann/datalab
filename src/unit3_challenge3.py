@@ -14,19 +14,23 @@ from src.utils.models import GmmClusterer
 
 class Task(BaseTask):
     def get_model(self):
-        model = GmmClusterer(n_clusters=12)
+        model = GmmClusterer(n_clusters=22)
         feature_names = ['log(file_size)']
         return Pipeline([
             ('file_size_extractor', FileSizeExtractor(log=True)),
             # ('plotter', FeaturePlotter(feature_names=feature_names)),
             # ('pred_plotter', ClusterPredPlotter(model, feature_names)),
-            # ('elbow_plot', ElbowPlotter(model, metric=self.metric, k_range=(1, 15))),
+            #('elbow_plot', ElbowPlotter(model, metric=self.metric, k_range=(10, 40))),
             ('gmm', model)
         ])
 
     @property
     def metric(self):
         return adjusted_mutual_info_score
+
+    @property
+    def mode(self):
+        return self.Mode.CLUSTERING
 
     @property
     def train_data_link(self):

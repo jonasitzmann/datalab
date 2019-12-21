@@ -1,6 +1,8 @@
 import torch.nn as nn
 from torch.autograd import Variable
 import torch
+import torch.nn as nn
+import torch.nn.functional as F
 from sklearn.base import ClassifierMixin
 from skorch import NeuralNetClassifier
 from sklearn.pipeline import Pipeline
@@ -17,6 +19,7 @@ from sklearn.base import ClusterMixin
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 from sklearn.base import BaseEstimator
+from sklearn.preprocessing import StandardScaler
 
 
 class FileSizeClusterer(ClusterMixin):
@@ -52,8 +55,55 @@ class FileSizeExtractor(TransformerMixin):
         return np.array([[self.func(getsizeof(x))] for x in xs])
 
 
+
+
+class RNNClassifierNoEmbeddings(nn.Module):
+    def __init__(self,
+                 input_size,
+                 hidden_size,
+                 output_size,
+                 n_layers=1,
+                 bidirectional=True):
+        super(RNNClassifierNoEmbeddings, self).__init__()
+        self.hidden_size = hidden_size
+        self.n_layers = n_layers
+        self.n_directions = int(bidirectional) + 1
+        self.gru = nn.GRU(input_size,
+                          hidden_size,
+                          n_layers,
+                          bidirectional=bidirectional,
+                          dropout=0.3
+                          )
+        self.fc = nn.Linear(hidden_size, output_size)
+
+    def forward(self, xs):
+        # Note: we run this all at once (over the whole input sequence)
+        # input shape: B x S (input size)
+        # transpose to make S(sequence) x B (batch)
+        xs = xs.transpose_(0, 1)
+        batch_size = xs.size(1)
+        # Make a hidden
+        hidden = self._init_hidden(batch_size)
+        output, hidden = self.gru(xs, hidden)
+        fc_output = self.fc(hidden[-1])
+        return fc_output
+
+    def _init_hidden(self, batch_size):
+        hidden = torch.zeros(self.n_layers * self.n_directions,
+                             batch_size, self.hidden_size)
+        return Variable(hidden)
+
+
+
+
 class RNNClassifier(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size, n_layers=1, embedding_weights=None, bidirectional=True):
+    def __init__(self,
+                 input_size,
+                 hidden_size,
+                 output_size,
+                 n_layers=1,
+                 embedding_weights=None,
+                 bidirectional=True):
         super(RNNClassifier, self).__init__()
         self.embedding_weights = embedding_weights
         self.hidden_size = hidden_size
@@ -75,7 +125,7 @@ class RNNClassifier(nn.Module):
         # Note: we run this all at once (over the whole input sequence)
         # input shape: B x S (input size)
         # transpose to make S(sequence) x B (batch)
-        xs = xs.t()
+        xs = xs.transpose_(0, 1)
         batch_size = xs.size(1)
         # Make a hidden
         hidden = self._init_hidden(batch_size)
@@ -226,7 +276,73 @@ class GmmClusterer(ClusterMixin, BaseEstimator):
         self.gmm = self.get_model(n_clusters)
 
     def get_model(self, n_clusters):
-        return GaussianMixture(n_components=n_clusters, n_init=2, max_iter=200)
+        return GaussianMixture(n_components=n_clusters, n_init=60, max_iter=200)
 
     def predict(self, xs):
         return self.gmm.predict(xs)
+
+
+class CNN(nn.Module):
+    def __init__(self, output_size):
+        super(CNN, self).__init__()
+        self.cnn = nn.Sequential(
+            nn.Conv2d(2, 8, (4, 4), 1),
+            nn.ReLU(),
+            nn.Dropout(0.15),
+            nn.MaxPool2d(kernel_size=3, stride=3),
+            nn.Conv2d(8, 5, (3, 3), 1),
+            nn.Dropout(0.15),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=3, stride=3),
+        )
+        n_hidden = 50
+        self.fc = nn.Sequential(
+            nn.Linear(125, n_hidden),
+            nn.Dropout(0.35),
+            nn.ReLU(),
+            nn.Linear(n_hidden, output_size),
+            nn.Softmax()
+        )
+
+    def forward(self, x):
+        x = x.float()
+        x = self.cnn(x)
+        x = x.view(x.shape[0], -1)
+        x = self.fc(x)
+        return x
+
+
+class NDStandardScaler(TransformerMixin):
+    def __init__(self, **kwargs):
+        self._scaler = StandardScaler(copy=True, **kwargs)
+        self._orig_shape = None
+
+    def fit(self, X, y=None, **kwargs):
+        X = np.array(X)
+        # Save the original shape to reshape the flattened X later
+        # back to its original shape
+        if len(X.shape) > 1:
+            self._orig_shape = X.shape[1:]
+        X = self._flatten(X)
+        self._scaler.fit(X, **kwargs)
+        return self
+
+    def transform(self, X, y=None, **kwargs):
+        X = np.array(X)
+        X = self._flatten(X)
+        X = self._scaler.transform(X, **kwargs)
+        X = self._reshape(X)
+        return X
+
+    def _flatten(self, X):
+        # Reshape X to <= 2 dimensions
+        if len(X.shape) > 2:
+            n_dims = np.prod(self._orig_shape)
+            X = X.reshape(-1, n_dims)
+        return X
+
+    def _reshape(self, X):
+        # Reshape X back to it's original shape
+        if len(X.shape) >= 2:
+            X = X.reshape(-1, *self._orig_shape)
+        return X
