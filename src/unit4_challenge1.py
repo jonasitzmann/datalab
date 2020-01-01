@@ -20,6 +20,11 @@ from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
 from src.utils.utils import most_common
 from sklearn.neural_network import MLPClassifier
+from src.utils.utils import to_padded_tensor
+from sklearn.preprocessing import FunctionTransformer
+from src.utils.models import RNNClassifieNoEmbeddings
+from src.utils.models import NDStandardScaler
+
 
 class RawFeatureExtractor(TransformerMixin):
     def __init__(self, working_dir):
@@ -129,7 +134,7 @@ class ImageExtractor(TransformerMixin):
         return np.array(images, dtype=np.float).reshape([-1, 2, *self.resolution])
 
 
-class HandCraftedFeatureExtractor(TransformerMixin):
+class RnnFeatureExtractor(TransformerMixin):
     def __init__(self):
         super().__init__()
 
@@ -141,21 +146,55 @@ class HandCraftedFeatureExtractor(TransformerMixin):
         return transformed
 
     def transform_sample(self, sample):
+        features = []
+        src_to_dircetion = {src: idx for idx, src in enumerate(set(sample['src']))}
+        directions = list(map(lambda x: src_to_dircetion[x], sample['src']))
+        for direction, time, size, port in zip(directions, sample['time'], sample['size'], sample['s_port']):
+            if size > 60:
+                features.append([direction, time, size, port is None])
+        return features
+
+
+class ToTensor(TransformerMixin):
+    def fit(self, xs, ys=None):
+        return self
+    
+    def transform(self, xs, ys=None):
+        return to_padded_tensor(xs, cuttoff_len=2000, input2d=True)
+
+class HandCraftedFeatureExtractor(TransformerMixin):
+    def __init__(self):
+        super().__init__()
+
+    def fit(self, xs, ys=None):
+        return self
+
+    def transform(self, raw_features, ys=None):
+        plt.show()
+        transformed = [self.transform_sample(sample) for sample in raw_features]
+        return transformed
+
+    def transform_sample(self, sample):
         src_to_dircetion = {src: idx for idx, src in enumerate(set(sample['src']))}
         directions = list(map(lambda x: src_to_dircetion[x], sample['src']))
         sizes = [[], []]
-        most_frequent_size = most_common(sample['size'])
-        n_most_common = 0
+        has_port = [[], []]
+        ports = []
+        low_sizes = []
         last_direction = None
-        for direction, time, size in zip(directions, sample['time'], sample['size']):
-            if size == most_frequent_size:
-                n_most_common += 1
-                continue
-            if direction != last_direction:
-                sizes[direction].append(0)
-            sizes[direction][-1] += size
+        for direction, time, size, port in zip(directions, sample['time'], sample['size'], sample['s_port']):
+            if size > 60:
+                has_port[direction].append(port is None)
+                ports.append(port)
+                if direction != last_direction:
+                    sizes[direction].append(0)
+                sizes[direction][-1] += size
+            else:
+                low_sizes.append(sample['size'])
         return [
-            most_frequent_size,
+            len(low_sizes),
+            np.mean(has_port[0]),
+            np.mean(has_port[1]),
             sizes[1][0],
             sizes[0][0],
             len(sizes[0]),
@@ -196,17 +235,43 @@ class Task (BaseTask):
         ])
         return pipeline
 
-    def get_model(self):
+    def get_rnn_pipeline(self):
+        net = NeuralNetClassifier(
+            module=RNNClassifieNoEmbeddings,
+            module__input_size=4,
+            module__hidden_size=20,
+            module__output_size=len(self.y_names.items()),
+            optimizer=Adam,
+            optimizer__lr=0.02,
+            optimizer__weight_decay=5e-3,
+            criterion=nn.CrossEntropyLoss,
+            # callbacks=[EarlyStopping(patience=50)],
+            max_epochs=1000,
+        )
+        pipeline = Pipeline([
+            ('raw_feature_extractor', RawFeatureExtractor(self.path)),
+            ('rnn_feature_extractor', RnnFeatureExtractor()),
+            ('to_tensor', ToTensor()),
+            ('normalizer', NDStandardScaler()),
+            ('net', net)
+        ])
+        return pipeline
+
+    def get_random_forest_pipeline(self):
         pipeline = Pipeline([
             ('raw_feature_extractor', RawFeatureExtractor(self.path)),
             ('statistics_extractor', HandCraftedFeatureExtractor()),
             ('normalization', StandardScaler()),
-            ('classifier', RandomForestClassifier(n_estimators=100, max_depth=5, min_samples_split=8))
+            ('classifier', RandomForestClassifier())
         ])
         return pipeline
 
+    def get_model(self):
+        return self.get_random_forest_pipeline()
+
     def get_param_distribution(self):
         return {
+            'classifier__n_estimators': [300],
             'classifier__max_depth': [3, 5, 8, 12],
             'classifier__min_samples_split': [3, 5, 8, 12],
             'classifier__max_leaf_nodes': [10, 20, 50],

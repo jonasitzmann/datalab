@@ -21,7 +21,8 @@ import wget
 from sklearn.metrics.cluster import silhouette_score
 import json
 from collections import Counter
-
+import re
+import importlib
 
 def lookup_key(string, vocab, tokenizer):
     s = string.lower()
@@ -43,14 +44,18 @@ def to_padded_tensor_without_embeddings(seqs, max_seq_len=500):
     return torch.autograd.Variable(torch.tensor(seqs_tensor, dtype=torch.float32))
 
 
-def to_padded_tensor(seqs):
+def to_padded_tensor(seqs, cuttoff_len=500, input2d=False):
     max_len = max(list(map(len, seqs)))
-    max_len = min(max_len, 500)
-    seqs_tensor = np.zeros([len(seqs), max_len])
+    max_len = min(max_len, cuttoff_len)
+    if input2d:
+        seqs_tensor = np.zeros([len(seqs), max_len, len(seqs[0][0])])
+    else:
+        seqs_tensor = np.zeros([len(seqs), max_len])
     for i, seq in enumerate(seqs):
         size = min(len(seq), max_len)
         seqs_tensor[i, :len(seq)] = np.array(seq[:size])
-    return torch.autograd.Variable(torch.tensor(seqs_tensor, dtype=torch.long))
+    print(seqs_tensor.shape)
+    return torch.Tensor(seqs_tensor)
 
 
 class TensorBoard(Callback):
@@ -157,24 +162,44 @@ def evaluate_cv(classifier, dataset, n_folds=5):
     return mean_score
 
 
-def merge_predictions(unit, challenge, n_best):
+def get_score_from_path(path):
+    pattern = re.compile('preds_score_(?P<score>.*?)[_|$]')
+    base_name = os.path.basename(path)[:-4]
+    match = pattern.match(base_name)
+    return float(match.group('score'))
+
+
+def get_task(unit, challenge, samples_factor=1, n_classes=-1):
+    task_path = 'src.unit{}_challenge{}'.format(unit, challenge)
+    module = importlib.import_module(task_path)
+    return module.Task(samples_factor, n_classes=n_classes)
+
+
+def vote(predictions):
+    voted = most_common(predictions)
+    return voted
+
+
+def merge_predictions(unit, challenge, n_best, convert_names=False):
     path = 'predictions/unit_{}/challenge_{}/'.format(unit, challenge)
     files = glob(path + '*.csv')
-    scores_files = sorted([(float(os.path.basename(file)[6:-4]), file) for file in files])[-n_best:]
+    scores_files = sorted([(get_score_from_path(file), file) for file in files])[-n_best:]
     all_predictions = pd.DataFrame()
-    for score, file in scores_files:
+    for idx, (score, file) in enumerate(scores_files):
         df = pd.read_csv(file, sep=';', header=None, names=['name', 'prediction'])
         df = df.sort_values(by='name')
         all_predictions["name"] = df.name
-        all_predictions[score] = df.prediction
-    all_predictions['mean_pred'] = all_predictions.drop(columns='name').mean(axis=1)
-    all_predictions['voted'] = all_predictions.mean_pred.round()
+        all_predictions["{}_{}".format(score, idx)] = df.prediction
+    all_predictions['voted'] = all_predictions.drop(columns='name').apply(vote, axis=1)
     dt_string = datetime.now().strftime("%d.%m__%H:%M:%S")
     path += 'voted/'
     if not os.path.exists(path):
         os.mkdir(path)
     filename = '{}/voted_{}.csv'.format(path, dt_string)
     all_predictions['name'] = [name for name in all_predictions['name']]
+    if convert_names:
+        task = get_task(unit, challenge)
+        all_predictions['voted'] = [task.y_names[idx] for idx in all_predictions['voted']]
     all_predictions[['name', 'voted']].to_csv(filename, index=False, sep=';', header=False, float_format='%.0f')
 
 
@@ -344,11 +369,8 @@ class SavedDict:
                 json.dump(self.modified_dict, file)
 
 
-def most_common(arr, allow_none=True):
-    if not allow_none:
-        arr = [e for e in arr if e is not None]
-    result = None
-    if arr:
-        result = Counter(arr).most_common(1)[0][0]
+def most_common(arr):
+    arr = [e for e in arr if e is not None]
+    result = Counter(arr).most_common(1)[0][0]
     return result
 

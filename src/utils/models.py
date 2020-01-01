@@ -54,17 +54,35 @@ class FileSizeExtractor(TransformerMixin):
     def transform(self, xs, ys=None):
         return np.array([[self.func(getsizeof(x))] for x in xs])
 
+class SequenceNormalizer(TransformerMixin):
+    def __init__(self):
+        super().__init__()
+        self.normalizers = None
+
+    def fit(self, xs, ys=None):
+        self.normalizers = [StandardScaler() for i in range(len(xs[0][0]))]
+        xs = np.array(xs)
+        for i, normalizer in enumerate(self.normalizers):
+            normalizer.fit(xs[:, :, i])
+        return self
+
+    def transform(self, xs, ys=None):
+        xs = np.array(xs)
+        for i, normalizer in enumerate(self.normalizers):
+            xs[:, :, i] = normalizer.transform(xs[:, :, i])
+        return xs
 
 
 
-class RNNClassifierNoEmbeddings(nn.Module):
+
+class RNNClassifieNoEmbeddings(nn.Module):
     def __init__(self,
                  input_size,
                  hidden_size,
                  output_size,
                  n_layers=1,
                  bidirectional=True):
-        super(RNNClassifierNoEmbeddings, self).__init__()
+        super().__init__()
         self.hidden_size = hidden_size
         self.n_layers = n_layers
         self.n_directions = int(bidirectional) + 1

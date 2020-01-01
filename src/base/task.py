@@ -167,7 +167,7 @@ class BaseTask(ABC):
             self.num_c0 = sum(self.y_train == 0)
             self.num_c1 = sum(self.y_train == 1)
         self.train_size = len(self.y_train)
-        self.y_names = {idx: name for idx, name, in enumerate(set(self.y_train))}
+        self.y_names = {idx: name for idx, name, in enumerate(sorted(set(self.y_train)))}
         self.y_idxs = {name: idx for idx, name in self.y_names.items()}
         self.y_train = np.array(list(map(lambda x: self.y_idxs[x], self.y_train)))
         for idx, name in self.y_names.items():
@@ -180,7 +180,7 @@ class BaseTask(ABC):
         if not os.path.exists(self.test_path):
             self.download_test_data()
         with ZipFile(self.test_path) as test_files:
-            self.test_names = test_files.namelist()
+            self.test_names = [n for n in test_files.namelist() if not n[-1] == '/']
             self.x_test = [test_files.open(name).read() for name in self.test_names]
             if self.decode_data:
                 self.x_test = [x.decode('utf-8', errors='ignore') for x in self.x_test]
